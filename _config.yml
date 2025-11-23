@@ -123,6 +123,13 @@ exclude:
   - "*.log"
   - "*.ipynb"
   - "python_notebooks/*"
-
-exclude:
   - vendor
+
+include:
+  - FinalProject/next
+  - FinalProject/_next
+
+# Prevent Jekyll from deleting the exported Next.js bundle in _site
+keep_files:
+  - FinalProject
+  - FinalProject/_next
