@@ -3,177 +3,515 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Showcase</title>
+  <title>Data Visualization Showcase</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Vega-Lite for Visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="cursor cursor-outer"></div>
-  <div class="cursor cursor-inner"></div>
+  <!-- Animated Background -->
+  <div id="bg-container">
+    <!-- Gradient Base -->
+    <div class="bg-gradient"></div>
+    
+    <!-- Animated Grid -->
+    <div class="bg-grid"></div>
+    
+    <!-- Floating School Objects (Slow, spread out, varied sizes) -->
+    <div class="floating-objects">
+      <!-- Books -->
+      <div class="floating-object book-1">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="12" width="48" height="40" rx="2" fill="rgba(76, 141, 255, 0.15)" stroke="rgba(76, 141, 255, 0.4)" stroke-width="2"/>
+          <path d="M32 12v40" stroke="rgba(76, 141, 255, 0.3)" stroke-width="2"/>
+          <rect x="12" y="16" width="16" height="4" rx="1" fill="rgba(76, 141, 255, 0.3)"/>
+        </svg>
+      </div>
+
+      <div class="floating-object book-2">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="8" width="44" height="48" rx="2" fill="rgba(168, 85, 247, 0.12)" stroke="rgba(168, 85, 247, 0.35)" stroke-width="2"/>
+          <rect x="14" y="14" width="20" height="6" rx="1" fill="rgba(168, 85, 247, 0.25)"/>
+        </svg>
+      </div>
+
+      <div class="floating-object book-3">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="10" width="48" height="44" rx="3" fill="rgba(34, 211, 238, 0.1)" stroke="rgba(34, 211, 238, 0.35)" stroke-width="2"/>
+          <path d="M32 10v44" stroke="rgba(34, 211, 238, 0.25)" stroke-width="2"/>
+          <rect x="36" y="18" width="14" height="3" rx="1" fill="rgba(34, 211, 238, 0.25)"/>
+          <rect x="36" y="24" width="10" height="3" rx="1" fill="rgba(34, 211, 238, 0.2)"/>
+        </svg>
+      </div>
+
+      <!-- Pencils -->
+      <div class="floating-object pencil-1">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 52L8 56l4-4zm0 0l36-36 8 8-36 36H12v-8z" fill="rgba(251, 191, 36, 0.15)" stroke="rgba(251, 191, 36, 0.5)" stroke-width="2"/>
+        </svg>
+      </div>
+
+      <div class="floating-object pencil-2">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="28" width="48" height="8" rx="2" fill="rgba(34, 211, 238, 0.12)" stroke="rgba(34, 211, 238, 0.4)" stroke-width="2"/>
+          <path d="M56 28l6 4-6 4" fill="rgba(34, 211, 238, 0.2)"/>
+        </svg>
+      </div>
+
+      <div class="floating-object pencil-3">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="26" width="44" height="12" rx="2" fill="rgba(251, 146, 60, 0.12)" stroke="rgba(251, 146, 60, 0.4)" stroke-width="2"/>
+          <polygon points="54,26 62,32 54,38" fill="rgba(251, 146, 60, 0.25)"/>
+          <rect x="10" y="29" width="8" height="6" fill="rgba(244, 114, 182, 0.3)"/>
+        </svg>
+      </div>
+
+      <!-- Ruler -->
+      <div class="floating-object ruler">
+        <svg viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="76" height="20" rx="2" fill="rgba(76, 141, 255, 0.1)" stroke="rgba(76, 141, 255, 0.3)" stroke-width="2"/>
+          <path d="M10 2v6M20 2v10M30 2v6M40 2v10M50 2v6M60 2v10M70 2v6" stroke="rgba(76, 141, 255, 0.4)" stroke-width="1"/>
+        </svg>
+      </div>
+
+      <!-- Calculator -->
+      <div class="floating-object calculator">
+        <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="40" height="56" rx="4" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.35)" stroke-width="2"/>
+          <rect x="8" y="8" width="32" height="12" rx="2" fill="rgba(34, 211, 238, 0.2)"/>
+          <circle cx="14" cy="30" r="4" fill="rgba(168, 85, 247, 0.2)"/>
+          <circle cx="24" cy="30" r="4" fill="rgba(168, 85, 247, 0.2)"/>
+          <circle cx="34" cy="30" r="4" fill="rgba(168, 85, 247, 0.2)"/>
+          <circle cx="14" cy="42" r="4" fill="rgba(168, 85, 247, 0.2)"/>
+          <circle cx="24" cy="42" r="4" fill="rgba(168, 85, 247, 0.2)"/>
+          <circle cx="34" cy="42" r="4" fill="rgba(168, 85, 247, 0.2)"/>
+        </svg>
+      </div>
+
+      <!-- Lightbulb -->
+      <div class="floating-object lightbulb">
+        <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 4C14 4 8 12 8 20c0 6 4 11 8 14v6h16v-6c4-3 8-8 8-14 0-8-6-16-16-16z" fill="rgba(251, 191, 36, 0.12)" stroke="rgba(251, 191, 36, 0.45)" stroke-width="2"/>
+          <path d="M16 44h16M18 48h12M20 52h8" stroke="rgba(251, 191, 36, 0.3)" stroke-width="2"/>
+        </svg>
+      </div>
+
+      <!-- Chart -->
+      <div class="floating-object chart">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="8" width="48" height="48" rx="4" fill="rgba(34, 211, 238, 0.08)" stroke="rgba(34, 211, 238, 0.3)" stroke-width="2"/>
+          <path d="M16 44l10-16 8 8 14-20" stroke="rgba(76, 141, 255, 0.5)" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <!-- Graduation cap -->
+      <div class="floating-object graduation">
+        <svg viewBox="0 0 64 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 4L4 16l28 12 28-12L32 4z" fill="rgba(168, 85, 247, 0.15)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="2"/>
+          <path d="M12 20v16l20 10 20-10V20" stroke="rgba(168, 85, 247, 0.3)" stroke-width="2"/>
+          <path d="M52 18v20" stroke="rgba(251, 191, 36, 0.4)" stroke-width="2"/>
+          <circle cx="52" cy="40" r="3" fill="rgba(251, 191, 36, 0.3)"/>
+        </svg>
+      </div>
+
+      <!-- Globe -->
+      <div class="floating-object globe">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="32" cy="32" r="26" fill="rgba(34, 211, 238, 0.08)" stroke="rgba(34, 211, 238, 0.35)" stroke-width="2"/>
+          <ellipse cx="32" cy="32" rx="26" ry="10" stroke="rgba(34, 211, 238, 0.25)" stroke-width="1.5"/>
+          <ellipse cx="32" cy="32" rx="10" ry="26" stroke="rgba(34, 211, 238, 0.25)" stroke-width="1.5"/>
+          <path d="M6 32h52" stroke="rgba(34, 211, 238, 0.2)" stroke-width="1"/>
+        </svg>
+      </div>
+
+      <!-- Notebook -->
+      <div class="floating-object notebook">
+        <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="4" width="36" height="56" rx="2" fill="rgba(244, 114, 182, 0.1)" stroke="rgba(244, 114, 182, 0.35)" stroke-width="2"/>
+          <path d="M8 14h-4M8 24h-4M8 34h-4M8 44h-4M8 54h-4" stroke="rgba(244, 114, 182, 0.4)" stroke-width="2"/>
+          <path d="M16 16h20M16 24h16M16 32h18M16 40h14" stroke="rgba(244, 114, 182, 0.25)" stroke-width="1.5"/>
+        </svg>
+      </div>
+
+      <!-- Eraser -->
+      <div class="floating-object eraser">
+        <svg viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="40" height="24" rx="4" fill="rgba(244, 114, 182, 0.15)" stroke="rgba(244, 114, 182, 0.4)" stroke-width="2"/>
+          <rect x="4" y="4" width="12" height="24" rx="4" fill="rgba(76, 141, 255, 0.15)" stroke="rgba(76, 141, 255, 0.3)" stroke-width="1"/>
+        </svg>
+      </div>
+
+      <!-- Scissors -->
+      <div class="floating-object scissors">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="48" r="10" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="2"/>
+          <circle cx="48" cy="48" r="10" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="2"/>
+          <path d="M20 42L44 12M44 42L20 12" stroke="rgba(168, 85, 247, 0.5)" stroke-width="3"/>
+        </svg>
+      </div>
+
+      <!-- Backpack -->
+      <div class="floating-object backpack">
+        <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="16" width="36" height="44" rx="6" fill="rgba(251, 146, 60, 0.12)" stroke="rgba(251, 146, 60, 0.4)" stroke-width="2"/>
+          <rect x="12" y="8" width="24" height="12" rx="4" fill="rgba(251, 146, 60, 0.1)" stroke="rgba(251, 146, 60, 0.3)" stroke-width="2"/>
+          <rect x="14" y="28" width="20" height="14" rx="2" fill="rgba(251, 146, 60, 0.15)" stroke="rgba(251, 146, 60, 0.3)" stroke-width="1.5"/>
+          <path d="M24 28v14" stroke="rgba(251, 146, 60, 0.3)" stroke-width="1.5"/>
+        </svg>
+      </div>
+
+      <!-- Apple -->
+      <div class="floating-object apple">
+        <svg viewBox="0 0 48 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 12c-12 0-18 10-18 22s8 18 18 18 18-6 18-18-6-22-18-22z" fill="rgba(239, 68, 68, 0.15)" stroke="rgba(239, 68, 68, 0.45)" stroke-width="2"/>
+          <path d="M24 12c0-6 4-10 8-10" stroke="rgba(34, 197, 94, 0.5)" stroke-width="2"/>
+          <ellipse cx="28" cy="6" rx="6" ry="4" fill="rgba(34, 197, 94, 0.25)"/>
+        </svg>
+      </div>
+
+      <!-- Clock -->
+      <div class="floating-object clock">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="32" cy="32" r="28" fill="rgba(76, 141, 255, 0.08)" stroke="rgba(76, 141, 255, 0.35)" stroke-width="2"/>
+          <circle cx="32" cy="32" r="3" fill="rgba(76, 141, 255, 0.4)"/>
+          <path d="M32 32V16" stroke="rgba(76, 141, 255, 0.5)" stroke-width="3" stroke-linecap="round"/>
+          <path d="M32 32l12 8" stroke="rgba(76, 141, 255, 0.4)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M32 8v4M32 52v4M8 32h4M52 32h4" stroke="rgba(76, 141, 255, 0.3)" stroke-width="2"/>
+        </svg>
+      </div>
+
+      <!-- Math symbols -->
+      <div class="floating-object math-symbols">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <text x="8" y="20" font-size="18" fill="rgba(168, 85, 247, 0.5)" font-family="serif">+</text>
+          <text x="28" y="20" font-size="18" fill="rgba(34, 211, 238, 0.5)" font-family="serif">-</text>
+          <text x="8" y="42" font-size="18" fill="rgba(251, 191, 36, 0.5)" font-family="serif">×</text>
+          <text x="28" y="42" font-size="18" fill="rgba(76, 141, 255, 0.5)" font-family="serif">÷</text>
+        </svg>
+      </div>
+    </div>
+    
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+  </div>
+  
+  <!-- Noise Overlay -->
   <div class="noise-overlay"></div>
 
-  <nav class="top-nav">
+  <!-- Top Navigation (Hidden by default, shows on scroll to bottom) -->
+  <nav class="top-nav" id="top-nav">
     <button class="brand" data-target="0">
-      <span class="brand-icon">A</span>
-      <span class="brand-name">Acme</span>
+      <span class="brand-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+          <path d="M3 3v18h18"/>
+          <path d="M18 17V9"/>
+          <path d="M13 17V5"/>
+          <path d="M8 17v-3"/>
+        </svg>
+      </span>
+      <span class="brand-name">DataViz</span>
     </button>
     <div class="nav-links">
-      <button data-target="0">Home</button>
-      <button data-target="1">Featured</button>
-      <button data-target="2">Capabilities</button>
-      <button data-target="3">Studio</button>
-      <button data-target="4">Contact</button>
+      <button data-target="0">Viz 1</button>
+      <button data-target="1">Viz 2</button>
+      <button data-target="2">Viz 3</button>
+      <button data-target="3">Viz 4</button>
+      <button data-target="4">Viz 5</button>
+      <button data-target="5">Viz 6</button>
     </div>
-    <button class="pill pill-secondary" data-target="4">Get Started</button>
+    <button class="pill pill-primary" data-target="0">Explore</button>
   </nav>
 
+  <!-- Main Horizontal Scroll Container -->
   <main class="scroll-container" id="scroll-container">
-    <section class="panel hero" data-index="0">
-      <div class="hero-content">
-        <div class="chip">WebGL Inspired Design</div>
-        <h1>Creative experiences<br>in fluid motion</h1>
-        <p>Dynamic visuals, responsive motion, and immersive storytelling brought into a single showcase.</p>
-        <div class="hero-actions">
-          <button class="pill pill-primary" id="cta-showcase">View Showcase</button>
-          <button class="pill pill-secondary" data-target="2">View Demo</button>
+    
+    <!-- Panel 1 -->
+    <section class="panel" data-index="0">
+      <div class="panel-inner" data-panel="0">
+        <div class="viz-section">
+          <div class="viz-header">
+            <div class="viz-badge">
+              <span class="badge-number">01</span>
+              <span class="badge-text">Visualization</span>
+            </div>
+            <div class="swipe-hint">
+              <span>Swipe</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
+          <h1 class="viz-title">Building Age & Size Analysis</h1>
+          
+          <div class="viz-card">
+            <div class="viz-chart-container">
+              <div id="viz-chart-1" class="vega-chart"></div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="hero-hint">
-        <p>Scroll to explore</p>
-        <div class="scroll-pill"><div class="scroll-dot"></div></div>
+        
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
+              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
+              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- Panel 2 -->
     <section class="panel" data-index="1">
-      <div class="panel-header">
-        <h2>Featured</h2>
-        <p class="meta">/ Recent explorations</p>
-      </div>
-      <div class="featured-list">
-        <div class="featured-card">
-          <span class="meta">01</span>
-          <div>
-            <h3>Kinetic Typography</h3>
-            <p class="meta">Interactive Experience · 2024</p>
+      <div class="panel-inner" data-panel="1">
+        <div class="viz-section">
+          <div class="viz-header">
+            <div class="viz-badge">
+              <span class="badge-number">02</span>
+              <span class="badge-text">Visualization</span>
+            </div>
+            <div class="swipe-hint">
+              <span>Swipe</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
+          <h1 class="viz-title">Usage Type & Location</h1>
+          
+          <div class="viz-card">
+            <div class="viz-chart-container">
+              <div id="viz-chart-2" class="vega-chart"></div>
+            </div>
           </div>
         </div>
-        <div class="featured-card">
-          <span class="meta">02</span>
-          <div>
-            <h3>Generative Patterns</h3>
-            <p class="meta">Visual System · 2024</p>
-          </div>
-        </div>
-        <div class="featured-card">
-          <span class="meta">03</span>
-          <div>
-            <h3>Spatial Interface</h3>
-            <p class="meta">3D Navigation · 2023</p>
+        
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
+              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
+              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Panel 3 -->
     <section class="panel" data-index="2">
-      <div class="panel-header">
-        <h2>Capabilities</h2>
-        <p class="meta">/ What we bring to the table</p>
-      </div>
-      <div class="grid">
-        <div class="card">
-          <div class="meta-line"><span class="line"></span><span class="meta">01</span></div>
-          <h3>Creative Development</h3>
-          <p>Pushing the boundaries of what’s possible on the web.</p>
+      <div class="panel-inner" data-panel="2">
+        <div class="viz-section">
+          <div class="viz-header">
+            <div class="viz-badge">
+              <span class="badge-number">03</span>
+              <span class="badge-text">Visualization</span>
+            </div>
+            <div class="swipe-hint">
+              <span>Swipe</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
+          <h1 class="viz-title">Mobility Dashboard</h1>
+          
+          <div class="viz-card">
+            <div class="viz-chart-container">
+              <div id="viz-chart-3" class="vega-chart"></div>
+            </div>
+          </div>
         </div>
-        <div class="card">
-          <div class="meta-line"><span class="line"></span><span class="meta">02</span></div>
-          <h3>Visual Design</h3>
-          <p>Crafting memorable experiences through thoughtful aesthetics.</p>
-        </div>
-        <div class="card">
-          <div class="meta-line"><span class="line"></span><span class="meta">03</span></div>
-          <h3>Motion & Animation</h3>
-          <p>Bringing interfaces to life with purposeful movement.</p>
-        </div>
-        <div class="card">
-          <div class="meta-line"><span class="line"></span><span class="meta">04</span></div>
-          <h3>Technical Strategy</h3>
-          <p>Building scalable solutions that perform beautifully.</p>
+        
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
+              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
+              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Panel 4 -->
     <section class="panel" data-index="3">
-      <div class="studio-grid">
-        <div>
-          <h2>Building the<br>future of<br><span class="muted">digital</span></h2>
-          <p class="lead">We’re a collective of designers, developers, and technologists crafting standout digital experiences.</p>
-          <p class="lead">Every project is a chance to explore, learn, and push boundaries.</p>
-          <div class="button-row">
-            <button class="pill pill-primary" data-target="4">Start a Project</button>
-            <button class="pill pill-secondary" data-target="1">View Our Work</button>
+      <div class="panel-inner" data-panel="3">
+        <div class="viz-section">
+          <div class="viz-header">
+            <div class="viz-badge">
+              <span class="badge-number">04</span>
+              <span class="badge-text">Visualization</span>
+            </div>
+            <div class="swipe-hint">
+              <span>Swipe</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
+          <h1 class="viz-title">Population Distribution</h1>
+          
+          <div class="viz-card">
+            <div class="viz-chart-container">
+              <div id="viz-chart-4" class="vega-chart"></div>
+            </div>
           </div>
         </div>
-        <div class="stats">
-          <div class="stat-card">
-            <div class="stat-value">150+</div>
-            <div class="stat-label">Projects</div>
-            <div class="meta">Delivered worldwide</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">8</div>
-            <div class="stat-label">Years</div>
-            <div class="meta">Of innovation</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">12</div>
-            <div class="stat-label">Awards</div>
-            <div class="meta">Industry recognition</div>
+        
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
+              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
+              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Panel 5 -->
     <section class="panel" data-index="4">
-      <div class="panel-header">
-        <h2>Let’s talk</h2>
-        <p class="meta">/ Get in touch</p>
-      </div>
-      <div class="contact-grid">
-        <div class="contact-info">
-          <a href="mailto:hello@studio.com" class="contact-link">
-            <span class="meta">Email</span>
-            <p>hello@studio.com</p>
-          </a>
-          <div class="contact-link">
-            <span class="meta">Location</span>
-            <p>New York, NY</p>
+      <div class="panel-inner" data-panel="4">
+        <div class="viz-section">
+          <div class="viz-header">
+            <div class="viz-badge">
+              <span class="badge-number">05</span>
+              <span class="badge-text">Visualization</span>
+            </div>
+            <div class="swipe-hint">
+              <span>Swipe</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
           </div>
-          <div class="social">
-            <a href="#" aria-label="Twitter">Twitter</a>
-            <a href="#" aria-label="Instagram">Instagram</a>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" aria-label="Dribbble">Dribbble</a>
+          <h1 class="viz-title">Global Choropleth Map</h1>
+          
+          <div class="viz-card">
+            <div class="viz-chart-container">
+              <div id="viz-chart-5" class="vega-chart"></div>
+            </div>
           </div>
         </div>
-        <form class="contact-form" id="contact-form">
-          <label>
-            <span class="meta">Name</span>
-            <input type="text" name="name" required placeholder="Your name">
-          </label>
-          <label>
-            <span class="meta">Email</span>
-            <input type="email" name="email" required placeholder="your@email.com">
-          </label>
-          <label>
-            <span class="meta">Message</span>
-            <textarea name="message" rows="3" required placeholder="Tell us about your project..."></textarea>
-          </label>
-          <button type="submit" class="pill pill-primary">Send Message</button>
-          <p class="form-status" id="form-status" aria-live="polite"></p>
-        </form>
+        
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
+              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
+              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- Panel 6 -->
+    <section class="panel" data-index="5">
+      <div class="panel-inner" data-panel="5">
+        <div class="viz-section">
+          <div class="viz-header">
+            <div class="viz-badge">
+              <span class="badge-number">06</span>
+              <span class="badge-text">Visualization</span>
+            </div>
+            <div class="swipe-hint">
+              <span>Swipe</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
+          <h1 class="viz-title">Statistical Summary</h1>
+          
+          <div class="viz-card">
+            <div class="viz-chart-container">
+              <div id="viz-chart-6" class="vega-chart"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
+              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
+              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <!-- Progress Indicator -->
+  <div class="progress-indicator">
+    <div class="progress-dots">
+      <button class="progress-dot active" data-target="0"></button>
+      <button class="progress-dot" data-target="1"></button>
+      <button class="progress-dot" data-target="2"></button>
+      <button class="progress-dot" data-target="3"></button>
+      <button class="progress-dot" data-target="4"></button>
+      <button class="progress-dot" data-target="5"></button>
+    </div>
+  </div>
 
   <script src="assets/js/main.js"></script>
 </body>
