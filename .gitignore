@@ -8,5 +8,21 @@ __pycache__/
 
 *~
 
+# Jupyter Notebook
 .ipynb_checkpoints
+
+# macOS
 .DS_Store
+
+# Jekyll generated site
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+/vendor/
+/.bundle/
+
+# VS Code
+.vscode/
