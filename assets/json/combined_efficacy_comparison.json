@@ -21,220 +21,191 @@
     }
   },
   "datasets": {
-    "data-67122c8b0ed4ef65fe15d90e3cf11bd2": [
+    "data-0b86d72c745edd2121874ab97cc55cff": [
       {
-        "Count": 23497,
-        "Source": "HSLS (US 2009)"
+        "Gender": "Female",
+        "Language_Group": "Dual Language",
+        "Mean_Efficacy": -0.13025881632808287,
+        "Source": "HSLS"
       },
       {
-        "Count": 3975,
-        "Source": "PISA US (2022)"
+        "Gender": "Male",
+        "Language_Group": "Dual Language",
+        "Mean_Efficacy": -0.16435881571185587,
+        "Source": "HSLS"
       },
       {
-        "Count": 465474,
-        "Source": "PISA Intl (2022)"
+        "Gender": "Female",
+        "Language_Group": "English Only",
+        "Mean_Efficacy": 0.007759590350921286,
+        "Source": "HSLS"
+      },
+      {
+        "Gender": "Male",
+        "Language_Group": "English Only",
+        "Mean_Efficacy": 0.02817854153029529,
+        "Source": "HSLS"
       }
     ],
-    "data-8c16ad7f041ae8581da7dbdf66e11b34": [
+    "data-6ee2cd2ef0082fe9c9ab4988e588aca3": [
       {
-        "Gap": -0.004940239833445754,
-        "Gap_Type": "Efficacy Gap",
-        "Source": "HSLS (US 2009)"
+        "Gender": "Female",
+        "Language_Group": "English",
+        "Mean_Efficacy": -0.06682327433410873,
+        "Source": "PISA US"
       },
       {
-        "Gap": -0.024388019696789977,
-        "Gap_Type": "Achievement Gap",
-        "Source": "HSLS (US 2009)"
+        "Gender": "Male",
+        "Language_Group": "English",
+        "Mean_Efficacy": 0.14499091487277033,
+        "Source": "PISA US"
       },
       {
-        "Gap": 0.16897363928872805,
-        "Gap_Type": "Efficacy Gap",
-        "Source": "PISA US (2022)"
+        "Gender": "Female",
+        "Language_Group": "Other Language",
+        "Mean_Efficacy": -0.20100416384638062,
+        "Source": "PISA US"
       },
       {
-        "Gap": 0.1298721040126962,
-        "Gap_Type": "Achievement Gap",
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Gap": 0.17513599777942498,
-        "Gap_Type": "Efficacy Gap",
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Gap": 0.10718381184685412,
-        "Gap_Type": "Achievement Gap",
-        "Source": "PISA Intl (2022)"
+        "Gender": "Male",
+        "Language_Group": "Other Language",
+        "Mean_Efficacy": -0.1294667319240609,
+        "Source": "PISA US"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-67122c8b0ed4ef65fe15d90e3cf11bd2"
+        "name": "data-6ee2cd2ef0082fe9c9ab4988e588aca3"
       },
       "encoding": {
         "color": {
-          "field": "Source",
-          "legend": {
-            "orient": "top",
-            "title": "Data Source"
-          },
+          "field": "Mean_Efficacy",
           "scale": {
             "domain": [
-              "HSLS (US 2009)",
-              "PISA US (2022)",
-              "PISA Intl (2022)"
+              -0.5,
+              0.5
             ],
-            "range": [
-              "#E69F00",
-              "#56B4E9",
-              "#009E73"
-            ]
+            "scheme": "redblue"
           },
-          "type": "nominal"
+          "title": "z(Efficacy)",
+          "type": "quantitative"
         },
         "opacity": {
           "condition": {
-            "param": "source_select",
+            "param": "lang_highlight",
             "value": 1
           },
           "value": 0.3
         },
         "tooltip": [
           {
-            "field": "Source",
+            "field": "Language_Group",
             "type": "nominal"
           },
           {
-            "field": "Count",
-            "format": ",d",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "field": "Count",
-          "scale": {
-            "domain": [
-              0,
-              700000
-            ]
-          },
-          "title": "Number of Students",
-          "type": "quantitative"
-        },
-        "y": {
-          "field": "Source",
-          "sort": [
-            "HSLS (US 2009)",
-            "PISA US (2022)",
-            "PISA Intl (2022)"
-          ],
-          "title": null,
-          "type": "nominal"
-        }
-      },
-      "height": 350,
-      "mark": {
-        "cornerRadiusBottomRight": 4,
-        "cornerRadiusTopRight": 4,
-        "cursor": "pointer",
-        "type": "bar"
-      },
-      "name": "view_1",
-      "title": {
-        "color": "#FFFFFF",
-        "fontSize": 14,
-        "text": "Click Data Source"
-      },
-      "width": 450
-    },
-    {
-      "data": {
-        "name": "data-8c16ad7f041ae8581da7dbdf66e11b34"
-      },
-      "encoding": {
-        "color": {
-          "field": "Gap_Type",
-          "legend": {
-            "orient": "top",
-            "title": "Gap Type"
-          },
-          "scale": {
-            "domain": [
-              "Efficacy Gap",
-              "Achievement Gap"
-            ],
-            "range": [
-              "#9c27b0",
-              "#00bcd4"
-            ]
-          },
-          "type": "nominal"
-        },
-        "tooltip": [
-          {
-            "field": "Source",
+            "field": "Gender",
             "type": "nominal"
           },
           {
-            "field": "Gap_Type",
-            "type": "nominal"
-          },
-          {
-            "field": "Gap",
+            "field": "Mean_Efficacy",
             "format": ".3f",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Gap",
-          "scale": {
-            "domain": [
-              -0.2,
-              0.5
-            ]
-          },
-          "title": "Gender Gap (Male - Female, Std. Units)",
-          "type": "quantitative"
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
         },
         "y": {
-          "field": "Gap_Type",
-          "sort": [
-            "Efficacy Gap",
-            "Achievement Gap"
-          ],
-          "title": null,
+          "field": "Language_Group",
+          "title": "Home Language (PISA US)",
           "type": "nominal"
         }
       },
-      "height": 350,
+      "height": 200,
       "mark": {
-        "cornerRadiusBottomRight": 4,
-        "cornerRadiusTopRight": 4,
-        "type": "bar"
+        "cursor": "pointer",
+        "type": "rect"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "PISA US (2022)"
+      },
+      "width": 200
+    },
+    {
+      "data": {
+        "name": "data-0b86d72c745edd2121874ab97cc55cff"
+      },
+      "encoding": {
+        "color": {
+          "field": "Mean_Efficacy",
+          "scale": {
+            "domain": [
+              -0.5,
+              0.5
+            ],
+            "scheme": "redblue"
+          },
+          "title": "z(Efficacy)",
+          "type": "quantitative"
+        },
+        "opacity": {
+          "condition": {
+            "param": "lang_highlight",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "Language_Group",
+            "type": "nominal"
+          },
+          {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "Mean_Efficacy",
+            "format": ".3f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Language_Group",
+          "title": "Language Background (HSLS)",
+          "type": "nominal"
+        }
+      },
+      "height": 200,
+      "mark": {
+        "type": "rect"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Confidence vs Achievement Gap"
+        "text": "HSLS (2009)"
       },
-      "transform": [
-        {
-          "filter": {
-            "param": "source_select"
-          }
-        }
-      ],
-      "width": 450
+      "width": 200
     }
   ],
   "params": [
     {
-      "name": "source_select",
+      "name": "lang_highlight",
       "select": {
         "fields": [
-          "Source"
+          "Language_Group"
         ],
         "type": "point"
       },
@@ -245,7 +216,7 @@
   ],
   "resolve": {
     "scale": {
-      "color": "independent"
+      "color": "shared"
     }
   }
 }

@@ -58,7 +58,7 @@
         "Race": "White"
       }
     ],
-    "data-e1d9b662d23ff65a92d214e05c50400e": [
+    "data-5c74fdaf9b0ce379aacfb8139da96944": [
       {
         "Gender": "Male",
         "Math_Identity": -0.57,
@@ -24058,6 +24058,6006 @@
         "Math_Identity": -1.73,
         "Math_Score": 36.8136,
         "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 63.2304,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.4488,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.7323,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 33.8676,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 51.7075,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 62.9942,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.6207,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 53.3412,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 62.6692,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 55.5876,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 50.6178,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 53.9152,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 48.2333,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 68.1269,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 52.1578,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 34.1067,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.4069,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 66.8999,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.4295,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 82.1876,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 48.7183,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 45.315,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 48.2688,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 52.1266,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.8013,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 55.5532,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 64.0498,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.5739,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 44.1831,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 67.9623,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.4748,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.1248,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 34.6098,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 41.6045,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.4807,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.0882,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 37.8168,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 46.429,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 50.2118,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 60.1653,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 50.7891,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.0243,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 58.105,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.53,
+        "Math_Score": 44.3328,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 46.7566,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.2155,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 56.4203,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 57.7367,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 54.031,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 46.7568,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.3814,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 68.0644,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 35.6402,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 63.6753,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.5465,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.5584,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 55.6167,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 35.3058,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 45.5662,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.5929,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 40.3895,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.3269,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 54.9693,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 59.1187,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 56.1859,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 67.7405,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.56,
+        "Math_Score": 45.0762,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 53.1213,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 37.5641,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.0124,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 49.8241,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 38.4168,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.5199,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 31.5993,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 44.5372,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 62.8113,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.904,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.53,
+        "Math_Score": 47.2025,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.06,
+        "Math_Score": 62.92,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 46.2141,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.4586,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 53.012,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 39.8233,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.0081,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 57.8227,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 45.1492,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 35.7535,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 53.5696,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 70.7418,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 58.986,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 44.9991,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 46.106,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 55.3911,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 55.8188,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 30.1762,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 37.7469,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.5778,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 51.8443,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 45.6904,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 38.3959,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 56.1495,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.5164,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 57.4871,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 56.7385,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.3845,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 64.1554,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 53.4796,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 61.026,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 61.7671,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.412,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.0667,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.031,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.9238,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 35.1011,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 43.9128,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 47.1494,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 53.3653,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 54.7749,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 47.8179,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 38.4016,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 50.2653,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.0844,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.2837,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 47.4941,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 72.6892,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 45.5396,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.5914,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 53.6532,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 28.1862,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.7246,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 68.8425,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 52.0374,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.7509,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 62.7684,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 57.6044,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.871,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 67.3379,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 51.2388,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.56,
+        "Math_Score": 63.4432,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 59.5013,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.3904,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.56,
+        "Math_Score": 55.0993,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 34.0314,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 54.3049,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 58.8263,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 68.432,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 30.5444,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 31.8927,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 36.3575,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 39.0825,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 37.9364,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 55.8946,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 34.878,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 58.9211,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.783,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 48.2236,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 44.0699,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 63.4707,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.0678,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.6389,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 47.5828,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 61.3804,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 34.4657,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.63,
+        "Math_Score": 40.738,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.5953,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.7408,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.8814,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 37.4379,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 50.9311,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 55.2427,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 49.4251,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 55.2519,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 53.974,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 46.8034,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 33.9145,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 54.0447,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 27.7335,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 61.0368,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.7006,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.4411,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 57.7536,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 37.6565,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 49.403,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 56.872,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.1905,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.4606,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 42.0971,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 57.6331,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 37.0913,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 53.4123,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 51.3423,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.53,
+        "Math_Score": 45.7517,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 52.6852,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 35.1692,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 46.9277,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 26.7103,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 69.6548,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.1902,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.0849,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.3493,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 49.9431,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.63,
+        "Math_Score": 44.0879,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.6015,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 48.351,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 53.4739,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 48.7379,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.4572,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 53.2306,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.3345,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 50.5489,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 53.6409,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 71.4935,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 52.5238,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 40.15,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 82.1876,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 47.4409,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.8632,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 52.3042,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 45.6378,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.6068,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 52.7927,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.03,
+        "Math_Score": 33.3068,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 25.0437,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 53.8263,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 47.276,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.1473,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.9907,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 59.9787,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.0874,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 30.5842,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.2319,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 63.1702,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 46.4497,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 45.1006,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 49.8097,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.9319,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 40.1624,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 60.5136,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 45.1145,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 59.4307,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.7858,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 51.1437,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 56.6667,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.06,
+        "Math_Score": 50.0937,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.1645,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 50.5485,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 75.3462,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 41.8691,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 34.7089,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 50.9527,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 50.3977,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.2481,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 33.942,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 62.423,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 49.6417,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.53,
+        "Math_Score": 48.7461,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.5648,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 41.1305,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 62.6234,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 36.7331,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 53.3414,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.53,
+        "Math_Score": 52.812,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 38.3064,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 41.4325,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.2338,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.801,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 42.9084,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 55.1746,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.2427,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 34.1522,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 64.4785,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 41.6751,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.4202,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.0794,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 48.8794,
+        "Race": "White"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 44.4675,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 51.605,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 63.176,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 56.887,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.2708,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 38.2874,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 54.019,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.6043,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.8138,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 60.2982,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 53.5021,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 55.6309,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.8963,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.7688,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 64.2957,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.06,
+        "Math_Score": 50.2969,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.53,
+        "Math_Score": 34.5885,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 41.7153,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 40.4721,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 47.1403,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 43.2111,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.3271,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.0334,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 34.2848,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 47.3688,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 65.0458,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.63,
+        "Math_Score": 50.2826,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 42.8188,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 55.2457,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 45.9969,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 60.5673,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.8485,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 66.1675,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 37.6644,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 31.8224,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 68.231,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.7749,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 70.5017,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.4346,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 67.9729,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 40.313,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 48.159,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 42.8472,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 31.2621,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 38.8835,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 71.2458,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 62.0898,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.7113,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 34.0075,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.8138,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 55.2302,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.3857,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 67.9275,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 55.1911,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 56.3024,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 60.4705,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 61.1556,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.8299,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 55.1619,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 25.4279,
+        "Race": "White"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.9748,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 64.2823,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.9332,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 43.2795,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 62.1871,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.4596,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 47.7927,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 40.4356,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 44.7462,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 47.0353,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.635,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 56.3135,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 39.9093,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 47.2905,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.1325,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 33.57,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 41.376,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 44.6418,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.7579,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 48.5853,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 48.2196,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 56.5023,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 56.0805,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 59.1694,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 26.0877,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.9983,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 53.7741,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 66.8274,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 50.7163,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 61.8732,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 50.362,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 57.7988,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 38.7642,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.1021,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.0087,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.3919,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 31.9425,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 64.3403,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 42.991,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 46.5596,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 57.2032,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 60.9515,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.3135,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 41.3878,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 63.6657,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 49.4201,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 55.2362,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 49.0813,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.63,
+        "Math_Score": 40.174,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 41.8302,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 69.6107,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 59.5975,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 49.5608,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.4179,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 49.4707,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 59.4309,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 77.5931,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 54.0384,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 49.1967,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.676,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 43.6745,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 66.0342,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 53.3953,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.03,
+        "Math_Score": 59.0957,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.9834,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.7051,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.922,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 58.1645,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 64.2164,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.8143,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.749,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 49.7533,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 36.8471,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 31.7774,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 47.7365,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 42.755,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 34.9152,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 38.4223,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.3738,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 50.4451,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 54.1491,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 27.3334,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.9597,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 57.6419,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 32.9274,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 51.1882,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 53.5384,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 37.7071,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.479,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 35.8517,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 24.6926,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.7542,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.5254,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 74.0948,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 42.2763,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 45.4228,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 57.3261,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 36.7723,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.7049,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 67.6725,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 49.7805,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 53.3444,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 46.5139,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 40.8574,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 40.0394,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 48.2448,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 39.8925,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 48.3506,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.3136,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.1246,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 62.4236,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 36.9676,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 54.6982,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 54.8605,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 41.3817,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 68.2706,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.549,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.6129,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 51.9543,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 31.0446,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 56.4784,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 66.0644,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 63.5154,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.9345,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 71.5088,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 62.9339,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 41.335,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.56,
+        "Math_Score": 51.132,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 49.6165,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.2931,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 32.999,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.3066,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 67.6718,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.06,
+        "Math_Score": 55.9635,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 56.8163,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 43.4981,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 73.3066,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 62.137,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 59.745,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 40.3557,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 42.9472,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.2621,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 60.5242,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.0625,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.1664,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.63,
+        "Math_Score": 46.2381,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.7682,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.4959,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.7143,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 47.4492,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 68.412,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 33.294,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 71.4693,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 65.8297,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 36.7772,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 45.986,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.7134,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.0238,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 64.034,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 39.5304,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 54.2916,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 55.7072,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.1907,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.1665,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 27.8118,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 63.1503,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 69.2945,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 54.8873,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 33.5274,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 38.7511,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 63.6471,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 53.969,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 28.6266,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.1578,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 41.8973,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 46.2942,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 45.6549,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 54.6459,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.2878,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 60.4956,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 29.1649,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 41.5779,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 41.9635,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 53.4546,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 41.2136,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.0423,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 55.5727,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 60.5547,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 34.8689,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 64.4701,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 29.5337,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 42.4267,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 54.0422,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 45.0899,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 49.7974,
+        "Race": "White"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 51.3684,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.5902,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 71.5554,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 56.4312,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.1502,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.9306,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 65.3667,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 51.0569,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 66.0584,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 70.4418,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 35.4478,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 45.138,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 49.3308,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 59.371,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.0959,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 37.44,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 58.8158,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.9444,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 53.046,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 36.1879,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 35.7182,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.0528,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 47.8079,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 49.0494,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 31.4887,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.5762,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 69.7179,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 51.8221,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 44.5906,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 46.8846,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 35.5507,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 41.6053,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 59.684,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 30.1808,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.8795,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 64.5487,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 60.5782,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.321,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.7517,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.6885,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 51.5536,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.9876,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 47.7429,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 53.5058,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 55.8002,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.104,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.8632,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 59.129,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 46.7272,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 56.678,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.8892,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 48.3115,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.3442,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 26.0296,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 68.5663,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 61.4368,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 38.8452,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.7946,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 63.6786,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 60.8243,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 55.1798,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 29.7565,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.823,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 44.8271,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 41.3902,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.8126,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.9572,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 42.0519,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.53,
+        "Math_Score": 39.8419,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 57.6111,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.6646,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 65.4284,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.2811,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.8058,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 59.9236,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.7868,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.4384,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 42.2829,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 60.9398,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.4055,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 60.1415,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 46.4749,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 29.2575,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.2372,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 53.1537,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 55.6607,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 48.8829,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 36.8193,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 62.8947,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 70.808,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 51.992,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 73.7038,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.918,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 71.4218,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 31.046,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 57.2352,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 57.8751,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 52.9611,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 44.0919,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 34.8258,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.56,
+        "Math_Score": 48.654,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 51.7958,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.0846,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 45.0064,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 53.3015,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 34.3528,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 65.0842,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 31.7189,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 54.404,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.7571,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.9325,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 49.7116,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 41.0888,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.3916,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 41.0579,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 33.6481,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 49.7163,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 54.6915,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 53.3024,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 51.3481,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 34.6581,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 59.9325,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 57.0844,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 70.8693,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 53.2412,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.3791,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.1715,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.5035,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 51.8729,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 52.4756,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 52.9573,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.56,
+        "Math_Score": 36.1445,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 54.1153,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.4176,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 53.0026,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.1189,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 34.6057,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.504,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 71.333,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 60.3616,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 51.5883,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 56.2129,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 35.8993,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 58.9402,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.4568,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.9105,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 63.8357,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.9914,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 61.7312,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.5226,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.2018,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 61.3737,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 48.7611,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 42.1337,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.8588,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 53.2775,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 59.8766,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 44.6921,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 30.1274,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.7775,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 49.6622,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.8237,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 63.8371,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 63.7266,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 49.203,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 48.513,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 59.3551,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.5449,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 55.4924,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 65.3266,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.7848,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.5276,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 48.9643,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 42.3127,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 42.131,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 50.9929,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 45.0389,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 25.8192,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.6794,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.642,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 33.0426,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 58.7522,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 53.3778,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 59.9555,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 53.5325,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 49.0081,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.4688,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.3584,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 73.7046,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.2245,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.8986,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 54.5838,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.1394,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 41.0038,
+        "Race": "Am. Indian/Alaska Native"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 56.0255,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 59.8712,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 33.5969,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 45.3011,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 58.2324,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 56.0712,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 50.4316,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.4303,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.5143,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 51.863,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 69.1194,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.9898,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 54.6174,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 26.917,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 43.5268,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 46.7745,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 61.1219,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.53,
+        "Math_Score": 54.6621,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.0847,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 51.679,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 37.8354,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.2579,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 41.9929,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 49.8568,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 47.5596,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 47.5126,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 69.4388,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 56.9169,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 54.9818,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 47.3918,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.323,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.6285,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.9923,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 38.4898,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 49.7715,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 46.9301,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 44.0699,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.1888,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 36.2295,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 32.4297,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 62.4866,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.2448,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 71.7361,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 44.2696,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 41.8768,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 71.5478,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 49.4615,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 60.524,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.965,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 33.4986,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 51.5699,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 36.5414,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 51.9463,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 60.6327,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 57.5172,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 53.446,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.2938,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 44.8229,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 51.2158,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 46.5796,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 40.2515,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 53.7567,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 42.8857,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 36.2888,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 42.1959,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 47.2501,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.6104,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 27.7964,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.0684,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 59.6546,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 56.3664,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 52.3086,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 65.1214,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 39.3973,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 53.5572,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 61.9603,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 49.4044,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 45.16,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.7514,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.6423,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 55.0527,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 67.0128,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 31.3218,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.6458,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 61.5325,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.9265,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.7431,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 45.8951,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.9489,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 59.872,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 48.6991,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.0819,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 41.6815,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.8416,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 57.0613,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 34.1124,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 45.3726,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 58.1255,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 54.9793,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 57.0467,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 50.0158,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 46.0615,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 41.3098,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 68.9284,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 51.9707,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 52.111,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 47.0442,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 53.4276,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.6358,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 56.7197,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 60.8831,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.2777,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 73.1856,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 71.7421,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 55.4605,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 39.6591,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 40.9006,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 69.7899,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 61.2244,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 50.9469,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 33.3874,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.869,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 50.1374,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 60.7312,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.3835,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 65.3786,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 57.4369,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 61.822,
+        "Race": "White"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 57.9162,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 64.4923,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.0555,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.1672,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 49.4566,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.627,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 52.9288,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 69.0633,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.3543,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.3348,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.6,
+        "Math_Score": 47.7039,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.53,
+        "Math_Score": 33.4142,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 41.0965,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.13,
+        "Math_Score": 48.5429,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 39.731,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 25.5663,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 32.6793,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 40.5713,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 57.5753,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 64.9001,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 55.2077,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.56,
+        "Math_Score": 61.8319,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.1291,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 55.7523,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 53.7312,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 50.1752,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 53.0292,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 57.2659,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 49.803,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 31.8669,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 54.8673,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 35.1802,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 51.3415,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 48.4943,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.7969,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 62.1468,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.06,
+        "Math_Score": 36.5688,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 36.0822,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 42.1305,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 60.1674,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 60.0168,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.6,
+        "Math_Score": 43.9751,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 63.3879,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.7668,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 50.1114,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 46.4372,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 45.4394,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 51.8515,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 67.9959,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 36.1758,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 50.7559,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 60.797,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.16,
+        "Math_Score": 53.8456,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 37.3986,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 57.3101,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 64.6106,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 35.3995,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 48.5655,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 43.1107,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 56.7913,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.19,
+        "Math_Score": 69.2685,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 49.876,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 63.9828,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.5104,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 48.9383,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 52.9781,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 64.6176,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 57.6656,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.3564,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 46.9788,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 64.2915,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 66.5999,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 59.5077,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.03,
+        "Math_Score": 42.5143,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 57.1817,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 77.5469,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 71.1863,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 41.9008,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 61.62,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 45.3226,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 41.5223,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 59.9496,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.4633,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 48.9411,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 38.9126,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 45.12,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 39.0777,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 45.9365,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 33.7393,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 63.1666,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 44.0743,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.9407,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 63.6473,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 41.6014,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 50.9881,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 58.7362,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.19,
+        "Math_Score": 66.4967,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 48.6115,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.76,
+        "Math_Score": 59.8183,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 54.3227,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 47.3166,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 44.8014,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 50.3214,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 56.8383,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 43.5896,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 59.638,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.6894,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 47.6869,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 48.6943,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 59.9262,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 34.4397,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 41.0504,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 26.625,
+        "Race": "Hispanic"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 57.3314,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 61.5786,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 60.536,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.73,
+        "Math_Score": 64.3445,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 34.0608,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 77.0671,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 48.2337,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 54.2499,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 41.1899,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 51.1632,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 46.6253,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.76,
+        "Math_Score": 61.6024,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 52.4534,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 1.16,
+        "Math_Score": 51.7218,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 33.6905,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 52.2029,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.6,
+        "Math_Score": 75.5848,
+        "Race": "Asian"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 51.1861,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -0.57,
+        "Math_Score": 35.9925,
+        "Race": "Black/African American"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 32.323,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.16,
+        "Math_Score": 54.9209,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 45.2946,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": -1.73,
+        "Math_Score": 34.8388,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 51.619,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.0,
+        "Math_Score": 38.2566,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 45.5499,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -1.13,
+        "Math_Score": 65.6711,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 39.7555,
+        "Race": "Native Hawaiian/Pac. Isl."
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 1.16,
+        "Math_Score": 68.4956,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.6,
+        "Math_Score": 54.7709,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.03,
+        "Math_Score": 62.3584,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": -0.57,
+        "Math_Score": 67.8852,
+        "Race": null
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.63,
+        "Math_Score": 49.1557,
+        "Race": "More than one race"
+      },
+      {
+        "Gender": "Female",
+        "Math_Identity": 0.03,
+        "Math_Score": 51.0345,
+        "Race": null
+      },
+      {
+        "Gender": "Male",
+        "Math_Identity": 0.0,
+        "Math_Score": 58.9273,
+        "Race": "Hispanic"
       }
     ]
   },
@@ -24068,33 +30068,7 @@
       },
       "encoding": {
         "color": {
-          "field": "Race",
-          "legend": {
-            "columns": 3,
-            "orient": "top",
-            "title": "Race/Ethnicity"
-          },
-          "scale": {
-            "domain": [
-              "Am. Indian/Alaska Native",
-              "Asian",
-              "Black/African American",
-              "Hispanic",
-              "More than one race",
-              "Native Hawaiian/Pac. Isl.",
-              "White"
-            ],
-            "range": [
-              "#E69F00",
-              "#56B4E9",
-              "#009E73",
-              "#F0E442",
-              "#0072B2",
-              "#D55E00",
-              "#CC79A7"
-            ]
-          },
-          "type": "nominal"
+          "value": "#4c8dff"
         },
         "opacity": {
           "condition": {
@@ -24116,6 +30090,7 @@
           {
             "field": "Count",
             "format": ",d",
+            "title": "n",
             "type": "quantitative"
           }
         ],
@@ -24162,88 +30137,140 @@
     },
     {
       "data": {
-        "name": "data-e1d9b662d23ff65a92d214e05c50400e"
-      },
-      "encoding": {
-        "color": {
-          "field": "Gender",
-          "legend": {
-            "orient": "top",
-            "title": "Gender"
-          },
-          "scale": {
-            "domain": [
-              "Female",
-              "Male"
-            ],
-            "range": [
-              "#E91E63",
-              "#1976D2"
-            ]
-          },
-          "type": "nominal"
-        },
-        "tooltip": [
-          {
-            "field": "Race",
-            "type": "nominal"
-          },
-          {
-            "field": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "Math_Identity",
-            "format": ".2f",
-            "type": "quantitative"
-          },
-          {
-            "field": "Math_Score",
-            "format": ".1f",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "field": "Math_Identity",
-          "scale": {
-            "domain": [
-              -3,
-              3
-            ]
-          },
-          "title": "Math Identity Score",
-          "type": "quantitative"
-        },
-        "y": {
-          "field": "Math_Score",
-          "scale": {
-            "domain": [
-              20,
-              80
-            ]
-          },
-          "title": "Math Test Score",
-          "type": "quantitative"
-        }
+        "name": "data-5c74fdaf9b0ce379aacfb8139da96944"
       },
       "height": 350,
-      "mark": {
-        "opacity": 0.5,
-        "size": 30,
-        "type": "circle"
-      },
+      "layer": [
+        {
+          "encoding": {
+            "color": {
+              "field": "Gender",
+              "legend": {
+                "orient": "top",
+                "title": "Gender"
+              },
+              "scale": {
+                "domain": [
+                  "Female",
+                  "Male"
+                ],
+                "range": [
+                  "#E91E63",
+                  "#1976D2"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "Race",
+                "type": "nominal"
+              },
+              {
+                "field": "Gender",
+                "type": "nominal"
+              },
+              {
+                "field": "Math_Identity",
+                "format": ".2f",
+                "type": "quantitative"
+              },
+              {
+                "field": "Math_Score",
+                "format": ".1f",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "Math_Identity",
+              "scale": {
+                "domain": [
+                  -3,
+                  3
+                ]
+              },
+              "title": "Math Identity Score",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "Math_Score",
+              "scale": {
+                "domain": [
+                  20,
+                  80
+                ]
+              },
+              "title": "Math Test Score",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "opacity": 0.4,
+            "size": 30,
+            "type": "circle"
+          },
+          "transform": [
+            {
+              "filter": {
+                "param": "race_select"
+              }
+            }
+          ]
+        },
+        {
+          "encoding": {
+            "color": {
+              "field": "Gender",
+              "scale": {
+                "domain": [
+                  "Female",
+                  "Male"
+                ],
+                "range": [
+                  "#E91E63",
+                  "#1976D2"
+                ]
+              },
+              "type": "nominal"
+            },
+            "x": {
+              "field": "Math_Identity",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "Math_Score",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "strokeDash": [
+              5,
+              5
+            ],
+            "strokeWidth": 3,
+            "type": "line"
+          },
+          "transform": [
+            {
+              "filter": {
+                "param": "race_select"
+              }
+            },
+            {
+              "groupby": [
+                "Gender"
+              ],
+              "on": "Math_Identity",
+              "regression": "Math_Score"
+            }
+          ]
+        }
+      ],
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Identity vs Achievement"
+        "text": "Identity vs Achievement (descriptive)"
       },
-      "transform": [
-        {
-          "filter": {
-            "param": "race_select"
-          }
-        }
-      ],
       "width": 450
     }
   ],

@@ -20,313 +20,455 @@
       "color": "#FFFFFF"
     }
   },
-  "data": {
-    "name": "data-ce15d3fec6fa9bc3759b0fb92710e284"
-  },
   "datasets": {
-    "data-ce15d3fec6fa9bc3759b0fb92710e284": [
+    "data-28cfd3f556272a68dcd028cb6194fb3f": [
       {
-        "Country": "AUS",
-        "Efficacy_Gap": 0.3600957602605135,
-        "Gender": "Female",
-        "Math_Efficacy": -0.4308212037637898,
-        "Math_Score": 484.8024089876704
+        "Achievement_Gap": 3.083000000000027,
+        "Country": "NLD",
+        "Percentile": 10
       },
       {
-        "Country": "AUS",
-        "Efficacy_Gap": 0.3600957602605135,
-        "Gender": "Male",
-        "Math_Efficacy": -0.07072544350327634,
-        "Math_Score": 499.50426418411377
+        "Achievement_Gap": 3.7275000000000205,
+        "Country": "NLD",
+        "Percentile": 25
       },
       {
-        "Country": "BEL",
-        "Efficacy_Gap": 0.29886321355961787,
-        "Gender": "Female",
-        "Math_Efficacy": -0.4509557946069994,
-        "Math_Score": 496.81706769936886
+        "Achievement_Gap": 15.561999999999955,
+        "Country": "NLD",
+        "Percentile": 50
       },
       {
-        "Country": "BEL",
-        "Efficacy_Gap": 0.29886321355961787,
-        "Gender": "Male",
-        "Math_Efficacy": -0.15209258104738155,
-        "Math_Score": 510.93983759351624
+        "Achievement_Gap": 15.56149999999991,
+        "Country": "NLD",
+        "Percentile": 75
       },
       {
-        "Country": "BRA",
-        "Efficacy_Gap": 0.29566373956095504,
-        "Gender": "Female",
-        "Math_Efficacy": -1.0041230106436898,
-        "Math_Score": 383.8422448048657
+        "Achievement_Gap": 21.84400000000005,
+        "Country": "NLD",
+        "Percentile": 90
       },
       {
-        "Country": "BRA",
-        "Efficacy_Gap": 0.29566373956095504,
-        "Gender": "Male",
-        "Math_Efficacy": -0.7084592710827348,
-        "Math_Score": 395.91332615057195
+        "Achievement_Gap": 2.589999999999975,
+        "Country": "DNK",
+        "Percentile": 10
       },
       {
-        "Country": "CHE",
-        "Efficacy_Gap": 0.3671996551864994,
-        "Gender": "Female",
-        "Math_Efficacy": -0.17961037593984963,
-        "Math_Score": 509.0357007518797
+        "Achievement_Gap": 2.639250000000004,
+        "Country": "DNK",
+        "Percentile": 25
       },
       {
-        "Country": "CHE",
-        "Efficacy_Gap": 0.3671996551864994,
-        "Gender": "Male",
-        "Math_Efficacy": 0.18758927924664975,
-        "Math_Score": 524.1984596160811
+        "Achievement_Gap": 10.319500000000005,
+        "Country": "DNK",
+        "Percentile": 50
       },
       {
+        "Achievement_Gap": 17.451999999999998,
+        "Country": "DNK",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 20.058400000000006,
+        "Country": "DNK",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -2.4735000000000014,
+        "Country": "NZL",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 7.364000000000033,
+        "Country": "NZL",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 18.817499999999995,
+        "Country": "NZL",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 32.37424999999985,
+        "Country": "NZL",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 32.124000000000024,
+        "Country": "NZL",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -7.008500000000026,
+        "Country": "HKG",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 2.0639999999999645,
+        "Country": "HKG",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 15.375999999999976,
+        "Country": "HKG",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 23.944749999999885,
+        "Country": "HKG",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 26.88890000000015,
+        "Country": "HKG",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": 7.131200000000035,
         "Country": "CHL",
-        "Efficacy_Gap": 0.3728398026123927,
-        "Gender": "Female",
-        "Math_Efficacy": -0.7760578532946539,
-        "Math_Score": 427.9246195607128
+        "Percentile": 10
       },
       {
+        "Achievement_Gap": 14.683999999999969,
         "Country": "CHL",
-        "Efficacy_Gap": 0.3728398026123927,
-        "Gender": "Male",
-        "Math_Efficacy": -0.40321805068226124,
-        "Math_Score": 447.602440545809
+        "Percentile": 25
       },
       {
-        "Country": "CZE",
-        "Efficacy_Gap": 0.3123306903895601,
-        "Gender": "Female",
-        "Math_Efficacy": -0.4602671261378414,
-        "Math_Score": 500.56107074122235
+        "Achievement_Gap": 21.69999999999999,
+        "Country": "CHL",
+        "Percentile": 50
       },
       {
+        "Achievement_Gap": 28.255999999999972,
+        "Country": "CHL",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 26.426799999999957,
+        "Country": "CHL",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -0.42720000000002756,
+        "Country": "CHE",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 10.951000000000022,
+        "Country": "CHE",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 16.603999999999985,
+        "Country": "CHE",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 18.898249999999962,
+        "Country": "CHE",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 22.982700000000023,
+        "Country": "CHE",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": 1.5919999999999845,
+        "Country": "AUS",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 6.197499999999991,
+        "Country": "AUS",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 16.432500000000005,
+        "Country": "AUS",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 23.548500000000104,
+        "Country": "AUS",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 30.436400000000162,
+        "Country": "AUS",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -8.91919999999999,
+        "Country": "NOR",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": -4.0,
+        "Country": "NOR",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 7.2520000000000095,
+        "Country": "NOR",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 17.408999999999992,
+        "Country": "NOR",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 20.264200000000073,
+        "Country": "NOR",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": 4.746899999999982,
+        "Country": "GBR",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 11.54774999999995,
+        "Country": "GBR",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 18.648500000000013,
+        "Country": "GBR",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 23.28800000000001,
+        "Country": "GBR",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 22.372199999999907,
+        "Country": "GBR",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": 3.148399999999981,
+        "Country": "MAC",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 10.254999999999939,
+        "Country": "MAC",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 14.995499999999993,
+        "Country": "MAC",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 23.420000000000073,
+        "Country": "MAC",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 29.221999999999866,
+        "Country": "MAC",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -6.0750000000000455,
+        "Country": "ISR",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 8.223749999999995,
+        "Country": "ISR",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 23.50999999999999,
+        "Country": "ISR",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 35.289999999999964,
+        "Country": "ISR",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 43.72059999999999,
+        "Country": "ISR",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -11.129000000000019,
+        "Country": "JPN",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 0.23349999999999227,
+        "Country": "JPN",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 14.144000000000005,
+        "Country": "JPN",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 19.249499999999898,
+        "Country": "JPN",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 22.109499999999912,
+        "Country": "JPN",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -4.114599999999996,
+        "Country": "FRA",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 6.9184999999999945,
+        "Country": "FRA",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 19.30600000000004,
+        "Country": "FRA",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 24.633749999999964,
+        "Country": "FRA",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 23.013000000000034,
+        "Country": "FRA",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -2.4168999999999983,
         "Country": "CZE",
-        "Efficacy_Gap": 0.3123306903895601,
-        "Gender": "Male",
-        "Math_Efficacy": -0.14793643574828133,
-        "Math_Score": 508.25464040190377
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": -3.2662500000000136,
+        "Country": "CZE",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 4.811999999999955,
+        "Country": "CZE",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 12.117000000000075,
+        "Country": "CZE",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 21.183000000000106,
+        "Country": "CZE",
+        "Percentile": 90
+      },
+      {
+        "Achievement_Gap": -0.5117999999999938,
+        "Country": "HUN",
+        "Percentile": 10
+      },
+      {
+        "Achievement_Gap": 9.100999999999999,
+        "Country": "HUN",
+        "Percentile": 25
+      },
+      {
+        "Achievement_Gap": 18.770999999999958,
+        "Country": "HUN",
+        "Percentile": 50
+      },
+      {
+        "Achievement_Gap": 29.59400000000005,
+        "Country": "HUN",
+        "Percentile": 75
+      },
+      {
+        "Achievement_Gap": 27.888199999999983,
+        "Country": "HUN",
+        "Percentile": 90
+      }
+    ],
+    "data-298841036c13e14eaa3468a268fac881": [
+      {
+        "Country": "NLD",
+        "Gap": 0.4938007165383815
       },
       {
         "Country": "DNK",
-        "Efficacy_Gap": 0.45494654565099946,
-        "Gender": "Female",
-        "Math_Efficacy": -0.5946572123176661,
-        "Math_Score": 478.1729108589951
-      },
-      {
-        "Country": "DNK",
-        "Efficacy_Gap": 0.45494654565099946,
-        "Gender": "Male",
-        "Math_Efficacy": -0.13971066666666668,
-        "Math_Score": 489.7567380392157
-      },
-      {
-        "Country": "FRA",
-        "Efficacy_Gap": 0.31712922745956595,
-        "Gender": "Female",
-        "Math_Efficacy": -0.22293524305555554,
-        "Math_Score": 475.29733263888886
-      },
-      {
-        "Country": "FRA",
-        "Efficacy_Gap": 0.31712922745956595,
-        "Gender": "Male",
-        "Math_Efficacy": 0.09419398440401039,
-        "Math_Score": 489.9389736353509
-      },
-      {
-        "Country": "GBR",
-        "Efficacy_Gap": 0.3521241179475799,
-        "Gender": "Female",
-        "Math_Efficacy": -0.42358704563031707,
-        "Math_Score": 482.60025251353443
-      },
-      {
-        "Country": "GBR",
-        "Efficacy_Gap": 0.3521241179475799,
-        "Gender": "Male",
-        "Math_Efficacy": -0.07146292768273717,
-        "Math_Score": 498.00156706842927
-      },
-      {
-        "Country": "HKG",
-        "Efficacy_Gap": 0.40937982906285664,
-        "Gender": "Female",
-        "Math_Efficacy": -0.6571272962962963,
-        "Math_Score": 541.7194274074074
-      },
-      {
-        "Country": "HKG",
-        "Efficacy_Gap": 0.40937982906285664,
-        "Gender": "Male",
-        "Math_Efficacy": -0.24774746723343963,
-        "Math_Score": 552.9888278427205
-      },
-      {
-        "Country": "HUN",
-        "Efficacy_Gap": 0.31184331475249877,
-        "Gender": "Female",
-        "Math_Efficacy": -0.4091904508342208,
-        "Math_Score": 476.88803372381966
-      },
-      {
-        "Country": "HUN",
-        "Efficacy_Gap": 0.31184331475249877,
-        "Gender": "Male",
-        "Math_Efficacy": -0.097347136081722,
-        "Math_Score": 493.74254615103973
-      },
-      {
-        "Country": "ISR",
-        "Efficacy_Gap": 0.3388371189810245,
-        "Gender": "Female",
-        "Math_Efficacy": -0.7206423164024588,
-        "Math_Score": 458.30956098350043
-      },
-      {
-        "Country": "ISR",
-        "Efficacy_Gap": 0.3388371189810245,
-        "Gender": "Male",
-        "Math_Efficacy": -0.3818051974214343,
-        "Math_Score": 480.0848473005641
-      },
-      {
-        "Country": "JPN",
-        "Efficacy_Gap": 0.33137145882279856,
-        "Gender": "Female",
-        "Math_Efficacy": -0.6714412748171369,
-        "Math_Score": 532.2649637756879
-      },
-      {
-        "Country": "JPN",
-        "Efficacy_Gap": 0.33137145882279856,
-        "Gender": "Male",
-        "Math_Efficacy": -0.34006981599433833,
-        "Math_Score": 541.0827781316349
-      },
-      {
-        "Country": "MAC",
-        "Efficacy_Gap": 0.3516932893081761,
-        "Gender": "Female",
-        "Math_Efficacy": -0.28901080952380953,
-        "Math_Score": 543.5710457142857
-      },
-      {
-        "Country": "MAC",
-        "Efficacy_Gap": 0.3516932893081761,
-        "Gender": "Male",
-        "Math_Efficacy": 0.06268247978436657,
-        "Math_Score": 559.8049092542677
-      },
-      {
-        "Country": "NLD",
-        "Efficacy_Gap": 0.4938007165383815,
-        "Gender": "Female",
-        "Math_Efficacy": -0.5659860878145042,
-        "Math_Score": 499.9914208189442
-      },
-      {
-        "Country": "NLD",
-        "Efficacy_Gap": 0.4938007165383815,
-        "Gender": "Male",
-        "Math_Efficacy": -0.07218537127612272,
-        "Math_Score": 512.2416567363273
-      },
-      {
-        "Country": "NOR",
-        "Efficacy_Gap": 0.35772122055305544,
-        "Gender": "Female",
-        "Math_Efficacy": -0.6597946473779386,
-        "Math_Score": 476.48540940325495
-      },
-      {
-        "Country": "NOR",
-        "Efficacy_Gap": 0.35772122055305544,
-        "Gender": "Male",
-        "Math_Efficacy": -0.30207342682488314,
-        "Math_Score": 482.4631042790363
+        "Gap": 0.45494654565099946
       },
       {
         "Country": "NZL",
-        "Efficacy_Gap": 0.43228084618965523,
-        "Gender": "Female",
-        "Math_Efficacy": -0.624605695889054,
-        "Math_Score": 479.7862550767707
+        "Gap": 0.43228084618965523
       },
       {
-        "Country": "NZL",
-        "Efficacy_Gap": 0.43228084618965523,
-        "Gender": "Male",
-        "Math_Efficacy": -0.1923248496993988,
-        "Math_Score": 497.89029609218437
+        "Country": "HKG",
+        "Gap": 0.40937982906285664
       },
       {
-        "Country": "POL",
-        "Efficacy_Gap": 0.28217224031302274,
-        "Gender": "Female",
-        "Math_Efficacy": -0.7012684097421203,
-        "Math_Score": 495.0690702005731
+        "Country": "CHL",
+        "Gap": 0.3728398026123927
       },
       {
-        "Country": "POL",
-        "Efficacy_Gap": 0.28217224031302274,
-        "Gender": "Male",
-        "Math_Efficacy": -0.4190961694290976,
-        "Math_Score": 506.444791160221
+        "Country": "CHE",
+        "Gap": 0.3671996551864994
       },
       {
-        "Country": "SVN",
-        "Efficacy_Gap": 0.2925341683736296,
-        "Gender": "Female",
-        "Math_Efficacy": -0.5977496121416527,
-        "Math_Score": 477.8163187183811
+        "Country": "AUS",
+        "Gap": 0.3600957602605135
       },
       {
-        "Country": "SVN",
-        "Efficacy_Gap": 0.2925341683736296,
-        "Gender": "Male",
-        "Math_Efficacy": -0.30521544376802306,
-        "Math_Score": 478.466507850048
+        "Country": "NOR",
+        "Gap": 0.35772122055305544
       },
       {
-        "Country": "SWE",
-        "Efficacy_Gap": 0.281009687223859,
-        "Gender": "Female",
-        "Math_Efficacy": -0.43053551994036526,
-        "Math_Score": 487.4985806932538
+        "Country": "GBR",
+        "Gap": 0.3521241179475799
       },
       {
-        "Country": "SWE",
-        "Efficacy_Gap": 0.281009687223859,
-        "Gender": "Male",
-        "Math_Efficacy": -0.1495258327165063,
-        "Math_Score": 494.56759178386375
+        "Country": "MAC",
+        "Gap": 0.3516932893081761
+      },
+      {
+        "Country": "ISR",
+        "Gap": 0.3388371189810245
+      },
+      {
+        "Country": "JPN",
+        "Gap": 0.33137145882279856
+      },
+      {
+        "Country": "FRA",
+        "Gap": 0.31712922745956595
+      },
+      {
+        "Country": "CZE",
+        "Gap": 0.3123306903895601
+      },
+      {
+        "Country": "HUN",
+        "Gap": 0.31184331475249877
       }
     ]
   },
   "hconcat": [
     {
+      "data": {
+        "name": "data-298841036c13e14eaa3468a268fac881"
+      },
       "encoding": {
         "color": {
-          "field": "Gender",
-          "legend": {
-            "orient": "top",
-            "title": "Gender"
-          },
-          "scale": {
-            "domain": [
-              "Female",
-              "Male"
-            ],
-            "range": [
-              "#E91E63",
-              "#1976D2"
-            ]
-          },
-          "type": "nominal"
+          "value": "#4c8dff"
         },
         "opacity": {
           "condition": {
@@ -341,35 +483,27 @@
             "type": "nominal"
           },
           {
-            "field": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "Math_Efficacy",
-            "format": ".2f",
-            "title": "Confidence",
+            "field": "Gap",
+            "format": ".3f",
+            "title": "Efficacy Gap",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Math_Efficacy",
+          "field": "Gap",
           "scale": {
             "domain": [
-              -1.0,
+              0,
               0.6
             ]
           },
-          "title": "Math Self-Efficacy (Confidence)",
+          "title": "Efficacy Gap (Male - Female)",
           "type": "quantitative"
-        },
-        "xOffset": {
-          "field": "Gender",
-          "type": "nominal"
         },
         "y": {
           "field": "Country",
           "sort": {
-            "field": "Efficacy_Gap",
+            "field": "Gap",
             "order": "descending"
           },
           "title": null,
@@ -392,24 +526,12 @@
       "width": 450
     },
     {
+      "data": {
+        "name": "data-28cfd3f556272a68dcd028cb6194fb3f"
+      },
       "encoding": {
         "color": {
-          "field": "Gender",
-          "legend": {
-            "orient": "top",
-            "title": "Gender"
-          },
-          "scale": {
-            "domain": [
-              "Female",
-              "Male"
-            ],
-            "range": [
-              "#E91E63",
-              "#1976D2"
-            ]
-          },
-          "type": "nominal"
+          "value": "#a855f7"
         },
         "tooltip": [
           {
@@ -417,43 +539,48 @@
             "type": "nominal"
           },
           {
-            "field": "Gender",
-            "type": "nominal"
+            "field": "Percentile",
+            "type": "ordinal"
           },
           {
-            "field": "Math_Score",
-            "format": ".0f",
-            "title": "Achievement",
+            "field": "Achievement_Gap",
+            "format": ".1f",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Math_Score",
-          "scale": {
-            "domain": [
-              350,
-              600
-            ]
+          "axis": {
+            "labelAngle": 0
           },
-          "title": "Actual Math Score (Achievement)",
-          "type": "quantitative"
+          "field": "Percentile",
+          "title": "Score Percentile",
+          "type": "ordinal"
         },
         "y": {
-          "field": "Gender",
-          "title": null,
-          "type": "nominal"
+          "field": "Achievement_Gap",
+          "scale": {
+            "domain": [
+              -30,
+              50
+            ]
+          },
+          "title": "Achievement Gap (Male - Female)",
+          "type": "quantitative"
         }
       },
       "height": 350,
       "mark": {
-        "cornerRadiusBottomRight": 4,
-        "cornerRadiusTopRight": 4,
-        "type": "bar"
+        "point": {
+          "filled": true,
+          "size": 80
+        },
+        "strokeWidth": 3,
+        "type": "line"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Achievement Gap for Selected Country"
+        "text": "Achievement Gap by Percentile"
       },
       "transform": [
         {

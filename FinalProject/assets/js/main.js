@@ -1,7 +1,13 @@
 let currentIndex = 0;
 const totalPanels = 9;
 const TRANSITION_LOCK_MS = 700;
-const HORIZONTAL_DOMINANCE = 1.25;
+const MIN_NAV_GAP = 700;
+const EDGE_NAV_GAP = 700;
+const HORIZONTAL_THRESHOLD = 30;
+const HORIZONTAL_DOMINANCE = 1.2;
+const HORIZONTAL_WINDOW_MS = 250;
+const HORIZONTAL_TRIGGER = 50;
+const HORIZONTAL_NAV_GAP = 600;
 
 const scrollContainer = document.getElementById("scroll-container");
 const panels = Array.from(document.querySelectorAll(".panel"));
@@ -11,6 +17,14 @@ const topNav = document.getElementById("top-nav");
 const progressIndicator = document.querySelector(".progress-indicator");
 let isTransitioning = false;
 let transitionTimeout = null;
+let lastNavTime = 0;
+let lastEdgeNavTime = 0;
+let lastHorizontalNavTime = 0;
+let lastVerticalNavTime = 0;
+let dxSum = 0;
+let dxTimer = null;
+let gestureSign = 0;
+let horizontalLockUntil = 0;
 
 function initParticles() {
   const container = document.getElementById("particles");
@@ -146,7 +160,7 @@ function scrollToPanel(index) {
   const target = panels[clampedIndex];
   if (!target) return;
 
-  scrollContainer.scrollTo({ left: target.offsetLeft, behavior: "smooth" });
+  scrollContainer.scrollTo({ left: target.offsetLeft, behavior: "auto" });
   currentIndex = clampedIndex;
   updateActiveStates(clampedIndex);
 
@@ -172,8 +186,15 @@ function lockTransition() {
 function goToPanel(index) {
   const nextIndex = clampIndex(index);
   if (nextIndex === currentIndex || isTransitioning) return;
+  const now = Date.now();
+  if (now - lastNavTime < MIN_NAV_GAP) return;
+  lastNavTime = now;
+  lastVerticalNavTime = now;
   scrollToPanel(nextIndex);
   lockTransition();
+  // keep state in sync for nav pills/dots
+  updateActiveStates(nextIndex);
+  checkNavbarVisibility();
 }
 
 function updateActiveStates(index) {
@@ -213,17 +234,33 @@ function initScrollHandling() {
     const panelInner = panel.querySelector(".panel-inner");
     if (!panelInner) return;
 
+    let edgeLocked = false;
+
     panelInner.addEventListener("wheel", (e) => {
+      if (isTransitioning) return;
       const deltaY = e.deltaY;
       const atTop = panelInner.scrollTop <= 0;
       const atBottom = panelInner.scrollTop + panelInner.clientHeight >= panelInner.scrollHeight - 1;
 
       if ((deltaY > 0 && atBottom) || (deltaY < 0 && atTop)) {
+        const now = Date.now();
+        if (edgeLocked || now - lastEdgeNavTime < EDGE_NAV_GAP || now - lastVerticalNavTime < EDGE_NAV_GAP) return;
+        lastEdgeNavTime = now;
+        lastVerticalNavTime = now;
+        edgeLocked = true;
         e.preventDefault();
         e.stopPropagation();
         goToPanel(panelIndex + (deltaY > 0 ? 1 : -1));
       }
     }, { passive: false });
+
+    panelInner.addEventListener("scroll", () => {
+      const top = panelInner.scrollTop;
+      const max = panelInner.scrollHeight - panelInner.clientHeight;
+      if (top > 2 && top < max - 2) {
+        edgeLocked = false;
+      }
+    });
   });
 
   scrollContainer.addEventListener("wheel", (e) => {
@@ -232,45 +269,79 @@ function initScrollHandling() {
       return;
     }
 
+    const now = Date.now();
+    if (now < horizontalLockUntil) return;
+
+    // Only handle horizontal gestures at the container level.
     if (e.target.closest(".panel-inner")) return;
 
-    const absX = Math.abs(e.deltaX);
-    const absY = Math.abs(e.deltaY);
+    const dx = e.deltaX;
+    const dy = e.deltaY;
+    const absX = Math.abs(dx);
+    const absY = Math.abs(dy);
     const isHorizontal = absX > absY * HORIZONTAL_DOMINANCE;
-    const primaryDelta = isHorizontal ? e.deltaX : e.deltaY;
-    const threshold = 20;
-    if ((isHorizontal && absX < threshold) || (!isHorizontal && absY < threshold)) return;
+    if (!isHorizontal || absX < HORIZONTAL_THRESHOLD) return;
 
     e.preventDefault();
-    // Direction: horizontal positive -> previous, horizontal negative -> next.
-    // Vertical down (positive) -> next, up (negative) -> previous.
-    const direction = isHorizontal
-      ? (primaryDelta > 0 ? -1 : 1)
-      : (primaryDelta > 0 ? 1 : -1);
-    goToPanel(currentIndex + direction);
+
+    const sign = Math.sign(dx) || 0;
+    if (gestureSign === 0 && sign !== 0) {
+      gestureSign = sign;
+    }
+    // Ignore opposite-direction deltas within the same gesture window.
+    if (gestureSign !== 0 && sign !== 0 && sign !== gestureSign) {
+      return;
+    }
+
+    dxSum += dx;
+    clearTimeout(dxTimer);
+    dxTimer = setTimeout(() => {
+      if (isTransitioning) {
+        dxSum = 0;
+        gestureSign = 0;
+        return;
+      }
+      if (Math.abs(dxSum) >= HORIZONTAL_TRIGGER && gestureSign !== 0) {
+        // Trackpad on macOS typically gives negative dx for a rightward swipe.
+        const direction = gestureSign < 0 ? 1 : -1;
+        const before = currentIndex;
+        goToPanel(currentIndex + direction);
+        if (before !== currentIndex) {
+          horizontalLockUntil = Date.now() + HORIZONTAL_NAV_GAP;
+        }
+      }
+      dxSum = 0;
+      gestureSign = 0;
+    }, HORIZONTAL_WINDOW_MS);
   }, { passive: false });
 
   scrollContainer.addEventListener("scroll", () => requestAnimationFrame(handleScroll));
 }
 
 function handleScroll() {
-  const scrollLeft = scrollContainer.scrollLeft;
-  const panelWidth = window.innerWidth;
-  const newIndex = Math.round(scrollLeft / panelWidth);
+  // Sync UI states to the panel closest to center; do not trigger navigation here.
+  const viewportCenter = window.innerWidth / 2;
+  let closestIndex = currentIndex;
+  let closestDistance = Number.POSITIVE_INFINITY;
 
-  if (newIndex !== currentIndex && newIndex >= 0 && newIndex < totalPanels) {
-    currentIndex = newIndex;
-    updateActiveStates(currentIndex);
-    if (topNav) topNav.classList.remove("visible");
-    checkNavbarVisibility();
-  }
-
-  panels.forEach((panel) => {
+  panels.forEach((panel, idx) => {
     const rect = panel.getBoundingClientRect();
+    const panelCenter = rect.left + rect.width / 2;
+    const distance = Math.abs(panelCenter - viewportCenter);
+    if (distance < closestDistance) {
+      closestDistance = distance;
+      closestIndex = idx;
+    }
     if (rect.left < window.innerWidth * 0.75 && rect.right > window.innerWidth * 0.25) {
       panel.classList.add("visible");
     }
   });
+
+  if (closestIndex !== currentIndex) {
+    currentIndex = closestIndex;
+    updateActiveStates(currentIndex);
+    checkNavbarVisibility();
+  }
 }
 
 function initTouch() {

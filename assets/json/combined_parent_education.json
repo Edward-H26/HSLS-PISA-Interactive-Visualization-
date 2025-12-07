@@ -21,83 +21,98 @@
     }
   },
   "data": {
-    "name": "data-da9a0827dd5a38c33d50a234212af93a"
+    "name": "data-3ea260f6093f722e581d3439b1be9334"
   },
   "datasets": {
-    "data-da9a0827dd5a38c33d50a234212af93a": [
+    "data-3ea260f6093f722e581d3439b1be9334": [
       {
         "Math_Score": 0.37454002612442483,
-        "Parent_Education": "Bachelors",
+        "Parent_Education": "Bachelor's",
+        "Premium": 0.8524115137438052,
         "Source": "HSLS (US 2009)"
       },
       {
         "Math_Score": -0.1513232164499713,
-        "Parent_Education": "Bachelors",
+        "Parent_Education": "Bachelor's",
+        "Premium": 0.5952071343885328,
         "Source": "PISA Intl (2022)"
       },
       {
         "Math_Score": 0.0645033071233544,
-        "Parent_Education": "Bachelors",
+        "Parent_Education": "Bachelor's",
+        "Premium": 0.1644684329354347,
         "Source": "PISA US (2022)"
       },
       {
         "Math_Score": 0.5562741613041813,
         "Parent_Education": "Graduate+",
+        "Premium": 1.0341456489235616,
         "Source": "HSLS (US 2009)"
       },
       {
         "Math_Score": 0.18150764123169738,
         "Parent_Education": "Graduate+",
+        "Premium": 0.9280379920702014,
         "Source": "PISA Intl (2022)"
       },
       {
         "Math_Score": 0.41600874399087534,
         "Parent_Education": "Graduate+",
+        "Premium": 0.5159738698029557,
         "Source": "PISA US (2022)"
       },
       {
         "Math_Score": -0.19832177216741365,
         "Parent_Education": "HS Diploma",
+        "Premium": 0.2795497154519667,
         "Source": "HSLS (US 2009)"
       },
       {
         "Math_Score": -0.4652353472809977,
         "Parent_Education": "HS Diploma",
+        "Premium": 0.28129500355750636,
         "Source": "PISA Intl (2022)"
       },
       {
         "Math_Score": -0.31717294149595326,
         "Parent_Education": "HS Diploma",
+        "Premium": -0.21720781568387298,
         "Source": "PISA US (2022)"
       },
       {
         "Math_Score": -0.47787148761938036,
         "Parent_Education": "Less than HS",
+        "Premium": 0.0,
         "Source": "HSLS (US 2009)"
       },
       {
         "Math_Score": -0.746530350838504,
         "Parent_Education": "Less than HS",
+        "Premium": 0.0,
         "Source": "PISA Intl (2022)"
       },
       {
         "Math_Score": -0.0999651258120803,
         "Parent_Education": "Less than HS",
+        "Premium": 0.0,
         "Source": "PISA US (2022)"
       },
       {
         "Math_Score": 0.16465777085424274,
         "Parent_Education": "Some College",
+        "Premium": 0.6425292584736231,
         "Source": "HSLS (US 2009)"
       },
       {
         "Math_Score": -0.14648954512756746,
         "Parent_Education": "Some College",
+        "Premium": 0.6000408057109365,
         "Source": "PISA Intl (2022)"
       },
       {
         "Math_Score": -0.015179366325813449,
         "Parent_Education": "Some College",
+        "Premium": 0.08478575948626685,
         "Source": "PISA US (2022)"
       }
     ]
@@ -143,11 +158,26 @@
           },
           {
             "field": "Math_Score",
-            "format": ".2f",
+            "format": ".3f",
             "type": "quantitative"
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": -45
+          },
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "HS Diploma",
+            "Some College",
+            "Bachelor's",
+            "Graduate+"
+          ],
+          "title": "Parent Education",
+          "type": "ordinal"
+        },
+        "y": {
           "field": "Math_Score",
           "scale": {
             "domain": [
@@ -157,30 +187,17 @@
           },
           "title": "Standardized Math Score",
           "type": "quantitative"
-        },
-        "xOffset": {
-          "field": "Source",
-          "type": "nominal"
-        },
-        "y": {
-          "field": "Parent_Education",
-          "sort": [
-            "Less than HS",
-            "HS Diploma",
-            "Some College",
-            "Bachelors",
-            "Graduate+"
-          ],
-          "title": null,
-          "type": "nominal"
         }
       },
       "height": 350,
       "mark": {
-        "cornerRadiusBottomRight": 4,
-        "cornerRadiusTopRight": 4,
         "cursor": "pointer",
-        "type": "bar"
+        "point": {
+          "filled": true,
+          "size": 80
+        },
+        "strokeWidth": 3,
+        "type": "line"
       },
       "name": "view_1",
       "title": {
@@ -222,23 +239,12 @@
             "type": "nominal"
           },
           {
-            "field": "Math_Score",
-            "format": ".2f",
+            "field": "Premium",
+            "format": ".3f",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Math_Score",
-          "scale": {
-            "domain": [
-              -1.0,
-              1.0
-            ]
-          },
-          "title": "Standardized Math Score",
-          "type": "quantitative"
-        },
-        "y": {
           "field": "Source",
           "sort": [
             "HSLS (US 2009)",
@@ -247,18 +253,29 @@
           ],
           "title": null,
           "type": "nominal"
+        },
+        "y": {
+          "field": "Premium",
+          "scale": {
+            "domain": [
+              -0.2,
+              1.2
+            ]
+          },
+          "title": "Premium vs <HS Baseline",
+          "type": "quantitative"
         }
       },
       "height": 350,
       "mark": {
-        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopLeft": 4,
         "cornerRadiusTopRight": 4,
         "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Source Comparison for Selected Level"
+        "text": "Education Premium"
       },
       "transform": [
         {
@@ -267,7 +284,7 @@
           }
         }
       ],
-      "width": 450
+      "width": 250
     }
   ],
   "params": [

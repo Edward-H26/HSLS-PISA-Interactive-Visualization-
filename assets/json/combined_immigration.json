@@ -21,27 +21,7 @@
     }
   },
   "datasets": {
-    "data-07aa85defda7cd7be151c46c7fb32fee": [
-      {
-        "Avg_Belonging": -0.16943156714060031,
-        "Avg_Math": 468.84708489731435,
-        "Count": 31650,
-        "Immigration_Status": "First-gen"
-      },
-      {
-        "Avg_Belonging": -0.06892048206792795,
-        "Avg_Math": 444.3453685062496,
-        "Count": 472589,
-        "Immigration_Status": "Native"
-      },
-      {
-        "Avg_Belonging": -0.09674739028671737,
-        "Avg_Math": 472.1754016968988,
-        "Count": 34180,
-        "Immigration_Status": "Second-gen"
-      }
-    ],
-    "data-c404093efe8d6873b705f01eb966a554": [
+    "data-94f1bf0f6317eb8de9c40a8d8fb2ebc4": [
       {
         "Belonging": 1.0846,
         "Gender": "Female",
@@ -24041,13 +24021,6030 @@
         "Gender": "Female",
         "Immigration_Status": "Native",
         "Math_Score": 306.985
+      },
+      {
+        "Belonging": 1.0491,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 455.924
+      },
+      {
+        "Belonging": 0.2741,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 626.335
+      },
+      {
+        "Belonging": -1.5837,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 376.333
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 370.984
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 490.489
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 408.551
+      },
+      {
+        "Belonging": -0.4986,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 361.919
+      },
+      {
+        "Belonging": 0.1441,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 355.942
+      },
+      {
+        "Belonging": 0.1686,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 385.376
+      },
+      {
+        "Belonging": -0.1663,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 301.434
+      },
+      {
+        "Belonging": 0.0311,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 424.61
+      },
+      {
+        "Belonging": -0.2243,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 370.297
+      },
+      {
+        "Belonging": -0.0536,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 511.926
+      },
+      {
+        "Belonging": 0.483,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 503.894
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 478.1
+      },
+      {
+        "Belonging": -0.6501,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 385.53
+      },
+      {
+        "Belonging": 0.7979,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 324.602
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 552.359
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 456.431
+      },
+      {
+        "Belonging": -0.1159,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 416.661
+      },
+      {
+        "Belonging": -0.6206,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 244.882
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 447.79
+      },
+      {
+        "Belonging": -0.6508,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 341.666
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 601.574
+      },
+      {
+        "Belonging": -0.8835,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 509.497
+      },
+      {
+        "Belonging": 0.1602,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 280.708
+      },
+      {
+        "Belonging": -0.2409,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 557.242
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 376.162
+      },
+      {
+        "Belonging": 0.5005,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 378.644
+      },
+      {
+        "Belonging": 0.3351,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 266.377
+      },
+      {
+        "Belonging": 0.3279,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 323.226
+      },
+      {
+        "Belonging": 0.0342,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 298.275
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 570.132
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 294.075
+      },
+      {
+        "Belonging": -1.1175,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 283.91
+      },
+      {
+        "Belonging": -1.9038,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 499.902
+      },
+      {
+        "Belonging": -0.5237,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 457.98
+      },
+      {
+        "Belonging": 0.028,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 266.988
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 541.96
+      },
+      {
+        "Belonging": -1.0196,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 567.821
+      },
+      {
+        "Belonging": -0.9233,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 491.02
+      },
+      {
+        "Belonging": -0.9245,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 341.066
+      },
+      {
+        "Belonging": -1.0331,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 354.974
+      },
+      {
+        "Belonging": -0.3911,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 318.451
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 466.264
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 569.48
+      },
+      {
+        "Belonging": -0.4375,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 638.312
+      },
+      {
+        "Belonging": 0.3468,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 390.799
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 618.261
+      },
+      {
+        "Belonging": -0.7912,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 419.215
+      },
+      {
+        "Belonging": -0.0995,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 561.35
+      },
+      {
+        "Belonging": -0.3551,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 605.828
+      },
+      {
+        "Belonging": -0.2083,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 460.073
+      },
+      {
+        "Belonging": -0.5878,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 499.948
+      },
+      {
+        "Belonging": 0.114,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 569.515
+      },
+      {
+        "Belonging": 0.5031,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 530.798
+      },
+      {
+        "Belonging": -0.4867,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 486.873
+      },
+      {
+        "Belonging": 1.1471,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 473.632
+      },
+      {
+        "Belonging": 1.0846,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 484.998
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 527.118
+      },
+      {
+        "Belonging": -0.471,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 575.29
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 503.232
+      },
+      {
+        "Belonging": 0.3167,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 363.95
+      },
+      {
+        "Belonging": -1.2185,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 600.639
+      },
+      {
+        "Belonging": -1.1652,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 440.416
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 595.88
+      },
+      {
+        "Belonging": -0.7691,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 321.739
+      },
+      {
+        "Belonging": 1.1073,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 455.357
+      },
+      {
+        "Belonging": 0.1689,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 376.285
+      },
+      {
+        "Belonging": -0.4272,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 369.185
+      },
+      {
+        "Belonging": 0.3519,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 617.581
+      },
+      {
+        "Belonging": 0.3507,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 342.822
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 517.801
+      },
+      {
+        "Belonging": -0.7702,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 694.376
+      },
+      {
+        "Belonging": -0.6838,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 560.79
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 327.388
+      },
+      {
+        "Belonging": -0.3955,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 348.511
+      },
+      {
+        "Belonging": -1.1571,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 620.886
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 607.212
+      },
+      {
+        "Belonging": -0.2904,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 483.992
+      },
+      {
+        "Belonging": -0.0685,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 433.105
+      },
+      {
+        "Belonging": -0.7471,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 311.735
+      },
+      {
+        "Belonging": -0.2097,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 298.468
+      },
+      {
+        "Belonging": -0.4425,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 329.005
+      },
+      {
+        "Belonging": -0.8237,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 353.681
+      },
+      {
+        "Belonging": -0.8792,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 275.011
+      },
+      {
+        "Belonging": -0.0397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 439.023
+      },
+      {
+        "Belonging": -2.8168,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 275.591
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 414.857
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 393.341
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 434.966
+      },
+      {
+        "Belonging": 0.1945,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 272.861
+      },
+      {
+        "Belonging": 0.1124,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 571.815
+      },
+      {
+        "Belonging": -0.0368,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 385.53
+      },
+      {
+        "Belonging": -0.9495,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 666.376
+      },
+      {
+        "Belonging": -0.8806,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 532.254
+      },
+      {
+        "Belonging": 0.3142,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 335.681
+      },
+      {
+        "Belonging": -0.6098,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 511.419
+      },
+      {
+        "Belonging": 0.3379,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 600.645
+      },
+      {
+        "Belonging": -0.2314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 646.671
+      },
+      {
+        "Belonging": 0.028,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 368.635
+      },
+      {
+        "Belonging": -1.0065,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 509.297
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 543.504
+      },
+      {
+        "Belonging": -1.165,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 525.478
+      },
+      {
+        "Belonging": -0.7553,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 407.834
+      },
+      {
+        "Belonging": -0.4861,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 559.237
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 442.422
+      },
+      {
+        "Belonging": 0.1436,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 459.552
+      },
+      {
+        "Belonging": -0.0908,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 584.461
+      },
+      {
+        "Belonging": 1.0846,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 571.786
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 452.931
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 481.983
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 668.531
+      },
+      {
+        "Belonging": -3.0487,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 221.487
+      },
+      {
+        "Belonging": -0.044,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 427.328
+      },
+      {
+        "Belonging": -0.631,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 494.042
+      },
+      {
+        "Belonging": 0.0028,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 490.129
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 454.928
+      },
+      {
+        "Belonging": -0.6137,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 333.062
+      },
+      {
+        "Belonging": -0.4441,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 295.807
+      },
+      {
+        "Belonging": 1.1471,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 339.569
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 483.247
+      },
+      {
+        "Belonging": -1.1098,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 557.884
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 542.906
+      },
+      {
+        "Belonging": 2.7562,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 498.501
+      },
+      {
+        "Belonging": 1.7012,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 602.18
+      },
+      {
+        "Belonging": 0.114,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 363.211
+      },
+      {
+        "Belonging": 0.0223,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 348.849
+      },
+      {
+        "Belonging": -1.8514,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 514.659
+      },
+      {
+        "Belonging": -0.0536,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 686.235
+      },
+      {
+        "Belonging": 0.5296,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 481.02
+      },
+      {
+        "Belonging": 0.7286,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 496.732
+      },
+      {
+        "Belonging": -0.7605,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 445.71
+      },
+      {
+        "Belonging": -0.5104,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 417.55
+      },
+      {
+        "Belonging": -0.3129,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 329.325
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 399.859
+      },
+      {
+        "Belonging": -0.4425,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 654.73
+      },
+      {
+        "Belonging": -0.8575,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 397.534
+      },
+      {
+        "Belonging": 1.1314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 392.718
+      },
+      {
+        "Belonging": 0.202,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 379.172
+      },
+      {
+        "Belonging": -0.9789,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 423.188
+      },
+      {
+        "Belonging": -0.8145,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 536.411
+      },
+      {
+        "Belonging": -0.6451,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 340.276
+      },
+      {
+        "Belonging": -0.2198,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 365.076
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 362.214
+      },
+      {
+        "Belonging": -0.99,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 295.358
+      },
+      {
+        "Belonging": 0.0655,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 500.299
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 780.892
+      },
+      {
+        "Belonging": -0.5964,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 345.08
+      },
+      {
+        "Belonging": 0.5674,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 304.358
+      },
+      {
+        "Belonging": -0.4911,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 329.924
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 345.119
+      },
+      {
+        "Belonging": -0.6523,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 399.652
+      },
+      {
+        "Belonging": 0.0612,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 472.505
+      },
+      {
+        "Belonging": -0.0397,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 473.072
+      },
+      {
+        "Belonging": -0.7485,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 411.719
+      },
+      {
+        "Belonging": 0.3167,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 292.244
+      },
+      {
+        "Belonging": 0.3249,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 504.271
+      },
+      {
+        "Belonging": -0.5305,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 606.853
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 372.742
+      },
+      {
+        "Belonging": -0.5691,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 327.454
+      },
+      {
+        "Belonging": -0.4514,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 336.965
+      },
+      {
+        "Belonging": -0.6045,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 347.85
+      },
+      {
+        "Belonging": 1.4416,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 653.557
+      },
+      {
+        "Belonging": -0.4747,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.783
+      },
+      {
+        "Belonging": 0.359,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 345.405
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 420.585
+      },
+      {
+        "Belonging": -0.8973,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 420.05
+      },
+      {
+        "Belonging": -1.3759,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 352.699
+      },
+      {
+        "Belonging": -0.4867,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 361.013
+      },
+      {
+        "Belonging": -0.7731,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 476.869
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 388.999
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 287.12
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 224.186
+      },
+      {
+        "Belonging": 2.7562,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 319.58
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 430.848
+      },
+      {
+        "Belonging": -0.47,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 635.551
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 415.95
+      },
+      {
+        "Belonging": 1.1073,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 449.129
+      },
+      {
+        "Belonging": -0.6137,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 297.006
+      },
+      {
+        "Belonging": -0.5408,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 500.288
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 415.339
+      },
+      {
+        "Belonging": 0.2599,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 280.066
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 489.166
+      },
+      {
+        "Belonging": 0.028,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 424.066
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 568.513
+      },
+      {
+        "Belonging": -0.1988,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 584.982
+      },
+      {
+        "Belonging": -0.4814,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 483.986
+      },
+      {
+        "Belonging": -0.7605,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 512.453
+      },
+      {
+        "Belonging": 0.7979,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 398.642
+      },
+      {
+        "Belonging": -2.9078,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 723.072
+      },
+      {
+        "Belonging": -0.9593,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 384.737
+      },
+      {
+        "Belonging": 0.1873,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 506.704
+      },
+      {
+        "Belonging": -1.597,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 423.552
+      },
+      {
+        "Belonging": -0.0437,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 510.927
+      },
+      {
+        "Belonging": 0.0422,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 473.247
+      },
+      {
+        "Belonging": 0.0169,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 399.23
+      },
+      {
+        "Belonging": 1.0846,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.846
+      },
+      {
+        "Belonging": -0.4863,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 399.409
+      },
+      {
+        "Belonging": -1.1652,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 424.814
+      },
+      {
+        "Belonging": 0.0097,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 356.55
+      },
+      {
+        "Belonging": 0.3519,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 480.659
+      },
+      {
+        "Belonging": -0.4986,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 462.123
+      },
+      {
+        "Belonging": -0.1679,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 402.515
+      },
+      {
+        "Belonging": -1.0171,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 673.435
+      },
+      {
+        "Belonging": 0.9331,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 401.808
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 571.174
+      },
+      {
+        "Belonging": 1.428,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 360.425
+      },
+      {
+        "Belonging": 0.9434,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 526.12
+      },
+      {
+        "Belonging": -0.8835,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 434.278
+      },
+      {
+        "Belonging": -0.6048,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 388.963
+      },
+      {
+        "Belonging": -0.4867,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 405.795
+      },
+      {
+        "Belonging": -1.4661,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 559.586
+      },
+      {
+        "Belonging": -1.5837,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 346.945
+      },
+      {
+        "Belonging": -0.4798,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 588.231
+      },
+      {
+        "Belonging": -0.5938,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 648.846
+      },
+      {
+        "Belonging": -0.4493,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 643.416
+      },
+      {
+        "Belonging": -0.8526,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 278.428
+      },
+      {
+        "Belonging": 0.8311,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 503.664
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 345.48
+      },
+      {
+        "Belonging": 0.3249,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.785
+      },
+      {
+        "Belonging": -0.7622,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 495.891
+      },
+      {
+        "Belonging": -0.2507,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 573.458
+      },
+      {
+        "Belonging": -0.6898,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 590.439
+      },
+      {
+        "Belonging": -0.0968,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 487.068
+      },
+      {
+        "Belonging": -1.1112,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 540.579
+      },
+      {
+        "Belonging": -0.8618,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 495.763
+      },
+      {
+        "Belonging": -0.3363,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 355.337
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 622.844
+      },
+      {
+        "Belonging": 1.4938,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 474.723
+      },
+      {
+        "Belonging": -0.4798,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 495.009
+      },
+      {
+        "Belonging": -0.6742,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 491.954
+      },
+      {
+        "Belonging": -0.4688,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 528.008
+      },
+      {
+        "Belonging": -1.0302,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 278.631
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 416.036
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 444.897
+      },
+      {
+        "Belonging": 0.393,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 699.307
+      },
+      {
+        "Belonging": -1.1012,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 493.549
+      },
+      {
+        "Belonging": -0.7865,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 567.326
+      },
+      {
+        "Belonging": -1.4982,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 304.788
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 352.887
+      },
+      {
+        "Belonging": 0.5453,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 508.181
+      },
+      {
+        "Belonging": -0.1317,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 594.589
+      },
+      {
+        "Belonging": -0.1751,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 327.194
+      },
+      {
+        "Belonging": -2.063,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 389.331
+      },
+      {
+        "Belonging": 0.92,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 472.73
+      },
+      {
+        "Belonging": -0.9477,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 616.129
+      },
+      {
+        "Belonging": -0.6474,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 516.08
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 392.115
+      },
+      {
+        "Belonging": -0.0437,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 315.826
+      },
+      {
+        "Belonging": -0.6137,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 770.888
+      },
+      {
+        "Belonging": -0.4425,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 416.864
+      },
+      {
+        "Belonging": -0.7682,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 287.0
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 377.742
+      },
+      {
+        "Belonging": -1.0306,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 325.073
+      },
+      {
+        "Belonging": 0.5453,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 492.118
+      },
+      {
+        "Belonging": -0.7239,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 375.208
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 514.818
+      },
+      {
+        "Belonging": 0.1596,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 574.924
+      },
+      {
+        "Belonging": 0.9434,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 364.521
+      },
+      {
+        "Belonging": -3.2569,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 354.984
+      },
+      {
+        "Belonging": -0.4879,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 530.772
+      },
+      {
+        "Belonging": 1.4938,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 472.584
+      },
+      {
+        "Belonging": 0.314,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 429.593
+      },
+      {
+        "Belonging": 0.3608,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 401.457
+      },
+      {
+        "Belonging": -0.6277,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 585.712
+      },
+      {
+        "Belonging": -0.7256,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 543.869
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 302.343
+      },
+      {
+        "Belonging": 1.1471,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 563.672
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 493.436
+      },
+      {
+        "Belonging": 0.7286,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 681.343
+      },
+      {
+        "Belonging": -0.8408,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 401.24
+      },
+      {
+        "Belonging": 0.1702,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 533.067
+      },
+      {
+        "Belonging": 0.265,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 335.645
+      },
+      {
+        "Belonging": -1.7806,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 497.06
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 410.679
+      },
+      {
+        "Belonging": -0.5738,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 450.808
+      },
+      {
+        "Belonging": 0.1686,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 268.61
+      },
+      {
+        "Belonging": -0.0645,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 619.306
+      },
+      {
+        "Belonging": -1.0209,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 485.441
+      },
+      {
+        "Belonging": -1.597,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 268.059
+      },
+      {
+        "Belonging": -0.5191,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 461.773
+      },
+      {
+        "Belonging": -0.8408,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 494.435
+      },
+      {
+        "Belonging": -0.7334,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 333.826
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 400.355
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 523.393
+      },
+      {
+        "Belonging": -0.9643,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 425.399
+      },
+      {
+        "Belonging": -0.8622,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 505.591
+      },
+      {
+        "Belonging": 0.7639,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 367.746
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 580.749
+      },
+      {
+        "Belonging": 0.3249,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 445.88
+      },
+      {
+        "Belonging": 1.1314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 446.56
+      },
+      {
+        "Belonging": -0.2682,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 343.08
+      },
+      {
+        "Belonging": 1.1073,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 442.927
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 530.916
+      },
+      {
+        "Belonging": -0.9932,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 362.171
+      },
+      {
+        "Belonging": -0.4747,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 335.164
+      },
+      {
+        "Belonging": 0.655,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 400.435
+      },
+      {
+        "Belonging": -1.4875,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 579.088
+      },
+      {
+        "Belonging": 0.1621,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 466.088
+      },
+      {
+        "Belonging": -0.5855,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 400.758
+      },
+      {
+        "Belonging": -0.7093,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 513.865
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 325.326
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 511.696
+      },
+      {
+        "Belonging": 0.3525,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 351.392
+      },
+      {
+        "Belonging": 0.0223,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 434.076
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 413.223
+      },
+      {
+        "Belonging": -0.5809,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 308.731
+      },
+      {
+        "Belonging": -0.7553,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 315.494
+      },
+      {
+        "Belonging": 0.1689,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 569.38
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 670.771
+      },
+      {
+        "Belonging": -0.1262,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 395.322
+      },
+      {
+        "Belonging": 0.1832,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 506.646
+      },
+      {
+        "Belonging": 1.4683,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 563.175
+      },
+      {
+        "Belonging": -0.6027,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 405.992
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 395.712
+      },
+      {
+        "Belonging": -1.2967,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 321.97
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 576.329
+      },
+      {
+        "Belonging": 0.5184,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 430.494
+      },
+      {
+        "Belonging": 0.0422,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 610.811
+      },
+      {
+        "Belonging": -1.031,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 407.156
+      },
+      {
+        "Belonging": -0.8709,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 349.812
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 391.723
+      },
+      {
+        "Belonging": -0.0906,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 384.66
+      },
+      {
+        "Belonging": -0.0397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 520.243
+      },
+      {
+        "Belonging": -0.4747,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 439.213
+      },
+      {
+        "Belonging": -0.2314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 407.372
+      },
+      {
+        "Belonging": -1.136,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 543.055
+      },
+      {
+        "Belonging": -1.7506,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 355.626
+      },
+      {
+        "Belonging": 0.1124,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 438.235
+      },
+      {
+        "Belonging": 0.2315,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 527.202
+      },
+      {
+        "Belonging": 0.3906,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 608.803
+      },
+      {
+        "Belonging": -2.012,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 417.911
+      },
+      {
+        "Belonging": 2.7562,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 382.142
+      },
+      {
+        "Belonging": 1.1471,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 562.331
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 518.237
+      },
+      {
+        "Belonging": -0.0328,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 533.603
+      },
+      {
+        "Belonging": -0.47,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 497.712
+      },
+      {
+        "Belonging": -2.8168,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 403.066
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 479.163
+      },
+      {
+        "Belonging": -1.0414,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 340.631
+      },
+      {
+        "Belonging": -1.2236,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 467.185
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 371.247
+      },
+      {
+        "Belonging": 0.3863,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 487.563
+      },
+      {
+        "Belonging": -0.7438,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 496.773
+      },
+      {
+        "Belonging": -0.1361,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 430.305
+      },
+      {
+        "Belonging": -0.0373,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 593.995
+      },
+      {
+        "Belonging": -0.0437,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 534.172
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 451.891
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 386.37
+      },
+      {
+        "Belonging": 0.9614,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 543.789
+      },
+      {
+        "Belonging": -0.1361,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 543.449
+      },
+      {
+        "Belonging": -0.3184,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 362.921
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 512.507
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 356.696
+      },
+      {
+        "Belonging": 0.713,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 602.276
+      },
+      {
+        "Belonging": 0.0977,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 393.378
+      },
+      {
+        "Belonging": 1.3972,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 476.008
+      },
+      {
+        "Belonging": 2.2967,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 620.063
+      },
+      {
+        "Belonging": -0.6774,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 414.995
+      },
+      {
+        "Belonging": 1.6174,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 454.262
+      },
+      {
+        "Belonging": -2.4438,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 258.886
+      },
+      {
+        "Belonging": -1.2111,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 397.659
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 688.68
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 510.363
+      },
+      {
+        "Belonging": -0.7375,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 308.399
+      },
+      {
+        "Belonging": 0.5674,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 534.267
+      },
+      {
+        "Belonging": -0.4222,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 509.303
+      },
+      {
+        "Belonging": 0.9434,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 524.446
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 379.203
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 552.266
+      },
+      {
+        "Belonging": 0.5119,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 477.293
+      },
+      {
+        "Belonging": -0.1965,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 471.634
+      },
+      {
+        "Belonging": -0.2031,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 299.335
+      },
+      {
+        "Belonging": -0.8575,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 469.664
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 364.469
+      },
+      {
+        "Belonging": -0.8336,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 441.92
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 462.785
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 595.363
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 433.578
+      },
+      {
+        "Belonging": 0.2272,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 394.975
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 454.357
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 498.107
+      },
+      {
+        "Belonging": -1.0302,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 349.479
+      },
+      {
+        "Belonging": -0.2711,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 481.5
+      },
+      {
+        "Belonging": 0.7639,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 288.658
+      },
+      {
+        "Belonging": -0.9979,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 226.59
+      },
+      {
+        "Belonging": -2.8168,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 301.345
+      },
+      {
+        "Belonging": 0.8163,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 299.751
+      },
+      {
+        "Belonging": -0.7682,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 343.909
+      },
+      {
+        "Belonging": 0.5119,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 505.148
+      },
+      {
+        "Belonging": -0.0277,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 590.284
+      },
+      {
+        "Belonging": -0.8336,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 338.445
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 398.071
+      },
+      {
+        "Belonging": -1.0523,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 323.74
+      },
+      {
+        "Belonging": 0.713,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 559.067
+      },
+      {
+        "Belonging": -0.1988,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 616.063
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 223.662
+      },
+      {
+        "Belonging": 0.3378,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 400.028
+      },
+      {
+        "Belonging": -0.6659,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 410.829
+      },
+      {
+        "Belonging": -0.631,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 317.11
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 655.29
+      },
+      {
+        "Belonging": 0.1087,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 383.225
+      },
+      {
+        "Belonging": -1.0027,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 669.644
+      },
+      {
+        "Belonging": 0.3142,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 605.464
+      },
+      {
+        "Belonging": 0.5239,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 420.252
+      },
+      {
+        "Belonging": -1.0672,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 414.714
+      },
+      {
+        "Belonging": -0.4901,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 533.604
+      },
+      {
+        "Belonging": 0.5211,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 560.551
+      },
+      {
+        "Belonging": 0.5214,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 461.118
+      },
+      {
+        "Belonging": 0.0179,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 485.91
+      },
+      {
+        "Belonging": -0.7101,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 311.433
+      },
+      {
+        "Belonging": -1.2184,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 509.995
+      },
+      {
+        "Belonging": -0.9045,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 374.806
+      },
+      {
+        "Belonging": -0.0645,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 399.238
+      },
+      {
+        "Belonging": -0.9477,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 355.224
+      },
+      {
+        "Belonging": -0.4986,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 328.201
+      },
+      {
+        "Belonging": -0.3724,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 258.495
+      },
+      {
+        "Belonging": -0.2715,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 549.18
+      },
+      {
+        "Belonging": -0.0495,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 352.934
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 313.289
+      },
+      {
+        "Belonging": 0.8273,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 338.037
+      },
+      {
+        "Belonging": 0.1873,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 510.848
+      },
+      {
+        "Belonging": -1.7753,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 462.521
+      },
+      {
+        "Belonging": -0.2243,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 401.785
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 478.197
+      },
+      {
+        "Belonging": -0.4599,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 377.177
+      },
+      {
+        "Belonging": -0.0602,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 467.457
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 406.104
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 607.758
+      },
+      {
+        "Belonging": -1.2572,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 326.49
+      },
+      {
+        "Belonging": -2.8168,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 386.264
+      },
+      {
+        "Belonging": 0.3653,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 318.218
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 536.478
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 512.964
+      },
+      {
+        "Belonging": -0.7711,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 463.897
+      },
+      {
+        "Belonging": -0.2132,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 431.131
+      },
+      {
+        "Belonging": -1.1175,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 352.814
+      },
+      {
+        "Belonging": 0.4974,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 452.5
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 430.117
+      },
+      {
+        "Belonging": -0.0502,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 565.432
+      },
+      {
+        "Belonging": -1.1098,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 710.841
+      },
+      {
+        "Belonging": -0.8973,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 523.913
+      },
+      {
+        "Belonging": -0.4514,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 403.893
+      },
+      {
+        "Belonging": -1.1461,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 408.302
+      },
+      {
+        "Belonging": -0.1439,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 397.314
+      },
+      {
+        "Belonging": 0.1436,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 415.996
+      },
+      {
+        "Belonging": 0.3787,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 398.999
+      },
+      {
+        "Belonging": 0.3519,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 429.343
+      },
+      {
+        "Belonging": 0.2035,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 450.584
+      },
+      {
+        "Belonging": 0.4087,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 494.422
+      },
+      {
+        "Belonging": -0.1008,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 239.273
+      },
+      {
+        "Belonging": -0.9579,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 471.237
+      },
+      {
+        "Belonging": 0.25,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 408.212
+      },
+      {
+        "Belonging": 0.6338,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 497.225
+      },
+      {
+        "Belonging": 0.8876,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 411.654
+      },
+      {
+        "Belonging": -0.0378,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 403.469
+      },
+      {
+        "Belonging": -0.7815,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 377.048
+      },
+      {
+        "Belonging": -1.3038,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 519.013
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 470.383
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 477.513
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 387.619
+      },
+      {
+        "Belonging": -0.9286,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 383.934
+      },
+      {
+        "Belonging": 1.1046,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 302.106
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 418.691
+      },
+      {
+        "Belonging": -1.0761,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 576.476
+      },
+      {
+        "Belonging": -1.0278,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 415.874
+      },
+      {
+        "Belonging": -0.1361,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 379.829
+      },
+      {
+        "Belonging": -0.6952,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 373.27
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 477.152
+      },
+      {
+        "Belonging": -0.3724,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 320.743
+      },
+      {
+        "Belonging": -0.6764,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 448.901
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 393.655
+      },
+      {
+        "Belonging": -0.8281,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 297.696
+      },
+      {
+        "Belonging": 0.3249,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 559.251
+      },
+      {
+        "Belonging": -0.6698,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 177.418
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 298.762
+      },
+      {
+        "Belonging": 0.3142,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 446.462
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 480.306
+      },
+      {
+        "Belonging": 0.0179,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 396.954
+      },
+      {
+        "Belonging": -0.0328,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 411.866
+      },
+      {
+        "Belonging": -1.0125,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 568.599
+      },
+      {
+        "Belonging": -1.0867,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 387.717
+      },
+      {
+        "Belonging": -0.7583,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 380.46
+      },
+      {
+        "Belonging": -0.4514,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 590.705
+      },
+      {
+        "Belonging": 0.1621,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 440.389
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 550.424
+      },
+      {
+        "Belonging": 0.7563,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 328.065
+      },
+      {
+        "Belonging": 2.2967,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 635.955
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 516.594
+      },
+      {
+        "Belonging": 1.1314,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 496.608
+      },
+      {
+        "Belonging": -0.8205,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 663.323
+      },
+      {
+        "Belonging": -0.9571,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 478.041
+      },
+      {
+        "Belonging": -0.9889,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 358.418
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 295.442
+      },
+      {
+        "Belonging": 0.2741,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 531.021
+      },
+      {
+        "Belonging": 0.0179,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 399.221
+      },
+      {
+        "Belonging": -0.7303,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 325.054
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 447.216
+      },
+      {
+        "Belonging": -1.0844,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 410.842
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 352.689
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 478.423
+      },
+      {
+        "Belonging": 1.1314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 484.502
+      },
+      {
+        "Belonging": -1.2065,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 409.058
+      },
+      {
+        "Belonging": -0.952,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 357.556
+      },
+      {
+        "Belonging": 0.8759,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 485.972
+      },
+      {
+        "Belonging": -2.8586,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 479.812
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 562.725
+      },
+      {
+        "Belonging": -0.4901,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 581.286
+      },
+      {
+        "Belonging": -0.1247,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 312.15
+      },
+      {
+        "Belonging": 1.1073,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 319.621
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 525.229
+      },
+      {
+        "Belonging": 0.4745,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 483.627
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 459.571
+      },
+      {
+        "Belonging": 0.3532,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 443.594
+      },
+      {
+        "Belonging": 0.3519,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 708.577
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 452.558
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.529
+      },
+      {
+        "Belonging": -2.8168,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 360.673
+      },
+      {
+        "Belonging": -0.5414,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 480.324
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 456.978
+      },
+      {
+        "Belonging": -0.9085,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 360.008
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 374.815
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 575.703
+      },
+      {
+        "Belonging": 0.3739,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 429.242
+      },
+      {
+        "Belonging": -0.8973,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 589.254
+      },
+      {
+        "Belonging": 0.114,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 468.598
+      },
+      {
+        "Belonging": -0.7204,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 608.021
+      },
+      {
+        "Belonging": 0.0271,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 448.707
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 488.116
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 296.744
+      },
+      {
+        "Belonging": -0.7707,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 500.456
+      },
+      {
+        "Belonging": 0.5071,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 422.306
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 298.541
+      },
+      {
+        "Belonging": -0.7711,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 534.219
+      },
+      {
+        "Belonging": -0.7348,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 367.625
+      },
+      {
+        "Belonging": -0.2352,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 552.343
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 516.296
+      },
+      {
+        "Belonging": 0.1704,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 349.061
+      },
+      {
+        "Belonging": 0.2315,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 408.94
+      },
+      {
+        "Belonging": 0.9152,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 369.668
+      },
+      {
+        "Belonging": -0.0437,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 426.567
+      },
+      {
+        "Belonging": -3.2569,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 477.84
+      },
+      {
+        "Belonging": 0.0097,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 398.488
+      },
+      {
+        "Belonging": -0.8205,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 416.879
+      },
+      {
+        "Belonging": -0.5938,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 405.821
+      },
+      {
+        "Belonging": -0.776,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 448.209
+      },
+      {
+        "Belonging": 0.2694,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 417.458
+      },
+      {
+        "Belonging": -0.6137,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 674.604
+      },
+      {
+        "Belonging": -1.0339,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 478.22
+      },
+      {
+        "Belonging": -0.5087,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 574.681
+      },
+      {
+        "Belonging": -0.7553,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 348.3
+      },
+      {
+        "Belonging": -0.1671,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 559.942
+      },
+      {
+        "Belonging": -0.0267,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 522.016
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 420.907
+      },
+      {
+        "Belonging": 0.3437,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 376.673
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 380.276
+      },
+      {
+        "Belonging": -0.0066,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 454.502
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 462.712
+      },
+      {
+        "Belonging": -0.0682,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 347.704
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 650.37
+      },
+      {
+        "Belonging": -0.3724,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 306.426
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 525.355
+      },
+      {
+        "Belonging": -0.6208,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 370.535
+      },
+      {
+        "Belonging": -0.0283,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 400.657
+      },
+      {
+        "Belonging": -0.0397,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 472.132
+      },
+      {
+        "Belonging": -0.2027,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 546.729
+      },
+      {
+        "Belonging": -0.5964,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 615.862
+      },
+      {
+        "Belonging": -1.0482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 311.093
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 476.852
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 517.499
+      },
+      {
+        "Belonging": -0.8276,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 421.619
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 385.749
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 414.405
+      },
+      {
+        "Belonging": -0.1982,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 427.243
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 649.205
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 418.804
+      },
+      {
+        "Belonging": 0.468,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 313.223
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 658.191
+      },
+      {
+        "Belonging": -1.0375,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 276.835
+      },
+      {
+        "Belonging": 0.3994,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 365.147
+      },
+      {
+        "Belonging": -0.1361,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 494.879
+      },
+      {
+        "Belonging": -0.0135,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 370.71
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 389.72
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 498.642
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 299.579
+      },
+      {
+        "Belonging": 1.1073,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 542.222
+      },
+      {
+        "Belonging": -0.4814,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 397.362
+      },
+      {
+        "Belonging": -0.8671,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 278.8
+      },
+      {
+        "Belonging": 1.428,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 498.338
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 491.765
+      },
+      {
+        "Belonging": -0.5493,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 489.206
+      },
+      {
+        "Belonging": -0.7159,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 444.436
+      },
+      {
+        "Belonging": -0.4375,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 419.868
+      },
+      {
+        "Belonging": 0.2249,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 594.902
+      },
+      {
+        "Belonging": 0.0547,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 304.101
+      },
+      {
+        "Belonging": -0.2027,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 395.299
+      },
+      {
+        "Belonging": 2.2967,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 558.813
+      },
+      {
+        "Belonging": -0.8325,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 400.77
+      },
+      {
+        "Belonging": 0.7263,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 400.957
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 340.556
+      },
+      {
+        "Belonging": -0.5964,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 313.577
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 404.919
+      },
+      {
+        "Belonging": -0.0645,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 636.679
+      },
+      {
+        "Belonging": -0.7418,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 428.028
+      },
+      {
+        "Belonging": -0.7711,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 452.807
+      },
+      {
+        "Belonging": -1.0414,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 436.243
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 382.043
+      },
+      {
+        "Belonging": 1.4507,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 395.751
+      },
+      {
+        "Belonging": -0.9286,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 381.911
+      },
+      {
+        "Belonging": -0.7074,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 578.777
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 502.381
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 497.456
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 602.466
+      },
+      {
+        "Belonging": -0.4798,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 607.139
+      },
+      {
+        "Belonging": -0.6405,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 345.988
+      },
+      {
+        "Belonging": -1.1814,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 363.636
+      },
+      {
+        "Belonging": 2.2091,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 487.012
+      },
+      {
+        "Belonging": -0.631,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 435.384
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 390.682
+      },
+      {
+        "Belonging": -1.1726,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 599.006
+      },
+      {
+        "Belonging": -0.7159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 655.213
+      },
+      {
+        "Belonging": -0.8446,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 520.427
+      },
+      {
+        "Belonging": 0.3902,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 595.006
+      },
+      {
+        "Belonging": -0.584,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 449.266
+      },
+      {
+        "Belonging": -1.9943,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 588.455
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 495.462
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 348.811
+      },
+      {
+        "Belonging": 1.1314,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 667.978
+      },
+      {
+        "Belonging": 1.1314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 375.898
+      },
+      {
+        "Belonging": 0.3251,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 386.396
+      },
+      {
+        "Belonging": 0.5296,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 595.251
+      },
+      {
+        "Belonging": -0.6458,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 409.78
+      },
+      {
+        "Belonging": 0.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 452.821
+      },
+      {
+        "Belonging": 0.8085,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 426.691
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 446.586
+      },
+      {
+        "Belonging": 0.487,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 508.602
+      },
+      {
+        "Belonging": -0.4238,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 358.428
+      },
+      {
+        "Belonging": 0.3863,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 503.948
+      },
+      {
+        "Belonging": -0.6098,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 193.432
+      },
+      {
+        "Belonging": -1.1903,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 437.368
+      },
+      {
+        "Belonging": -0.4781,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 351.539
+      },
+      {
+        "Belonging": -1.1751,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 520.97
+      },
+      {
+        "Belonging": -0.1829,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 443.126
+      },
+      {
+        "Belonging": -0.6206,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 530.784
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 633.864
+      },
+      {
+        "Belonging": 0.1689,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 536.434
+      },
+      {
+        "Belonging": 0.3519,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 375.018
+      },
+      {
+        "Belonging": -0.631,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 468.401
+      },
+      {
+        "Belonging": -0.8161,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 466.162
+      },
+      {
+        "Belonging": -0.8363,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 568.552
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 536.346
+      },
+      {
+        "Belonging": -0.6279,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 340.78
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 390.236
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 605.714
+      },
+      {
+        "Belonging": -1.6858,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 462.632
+      },
+      {
+        "Belonging": 0.393,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 581.274
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 347.038
+      },
+      {
+        "Belonging": 2.7562,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 622.752
+      },
+      {
+        "Belonging": -0.8058,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 467.021
+      },
+      {
+        "Belonging": 0.1436,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.841
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 519.574
+      },
+      {
+        "Belonging": 0.1891,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 202.728
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 438.799
+      },
+      {
+        "Belonging": -0.5582,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 303.086
+      },
+      {
+        "Belonging": 0.0422,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 489.215
+      },
+      {
+        "Belonging": -0.0031,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 349.47
+      },
+      {
+        "Belonging": -1.1021,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 498.31
+      },
+      {
+        "Belonging": 0.0712,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 292.534
+      },
+      {
+        "Belonging": 0.0311,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 455.469
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 595.421
+      },
+      {
+        "Belonging": 0.5096,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 505.699
+      },
+      {
+        "Belonging": 0.5482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 449.631
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 547.731
+      },
+      {
+        "Belonging": 2.7562,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 686.079
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 604.628
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 272.649
+      },
+      {
+        "Belonging": -0.7308,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 358.296
+      },
+      {
+        "Belonging": -1.0144,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 600.25
+      },
+      {
+        "Belonging": -0.4514,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 487.28
+      },
+      {
+        "Belonging": -0.1764,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 357.74
+      },
+      {
+        "Belonging": -0.8526,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 434.33
+      },
+      {
+        "Belonging": -0.8622,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 553.327
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 572.491
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 595.886
+      },
+      {
+        "Belonging": -1.1542,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 385.398
+      },
+      {
+        "Belonging": -0.3178,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 502.205
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 375.359
+      },
+      {
+        "Belonging": -0.6258,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 323.642
+      },
+      {
+        "Belonging": 0.1633,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 249.473
+      },
+      {
+        "Belonging": -0.3724,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 347.141
+      },
+      {
+        "Belonging": 0.3361,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 398.018
+      },
+      {
+        "Belonging": -0.4747,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 479.868
+      },
+      {
+        "Belonging": -3.2564,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 431.172
+      },
+      {
+        "Belonging": -2.8168,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 497.991
+      },
+      {
+        "Belonging": -0.8973,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 433.343
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 491.097
+      },
+      {
+        "Belonging": -1.0773,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 346.478
+      },
+      {
+        "Belonging": -0.1981,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 502.781
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 402.195
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 364.639
+      },
+      {
+        "Belonging": -0.4798,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 354.465
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 610.0
+      },
+      {
+        "Belonging": -0.5841,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 415.953
+      },
+      {
+        "Belonging": 1.2702,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 436.053
+      },
+      {
+        "Belonging": -0.7485,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 519.393
+      },
+      {
+        "Belonging": 0.487,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 502.128
+      },
+      {
+        "Belonging": -0.323,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 490.814
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 444.308
+      },
+      {
+        "Belonging": -0.8221,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 339.377
+      },
+      {
+        "Belonging": -0.1484,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 650.19
+      },
+      {
+        "Belonging": -0.0685,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 313.553
+      },
+      {
+        "Belonging": 1.1314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 466.721
+      },
+      {
+        "Belonging": -1.3854,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 321.808
+      },
+      {
+        "Belonging": -0.0602,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 452.253
+      },
+      {
+        "Belonging": -0.8735,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 238.783
+      },
+      {
+        "Belonging": 0.0084,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 280.384
+      },
+      {
+        "Belonging": 0.92,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 277.101
+      },
+      {
+        "Belonging": -0.1361,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 363.535
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 474.791
+      },
+      {
+        "Belonging": -0.6283,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 405.229
+      },
+      {
+        "Belonging": -0.4747,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 350.179
+      },
+      {
+        "Belonging": 0.1689,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 408.199
+      },
+      {
+        "Belonging": -2.1448,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 392.416
+      },
+      {
+        "Belonging": -1.1903,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 528.47
+      },
+      {
+        "Belonging": -0.4867,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 450.064
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 334.993
+      },
+      {
+        "Belonging": -1.0203,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 332.423
+      },
+      {
+        "Belonging": 0.5453,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 370.909
+      },
+      {
+        "Belonging": 0.2694,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 590.18
+      },
+      {
+        "Belonging": -1.3374,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 322.598
+      },
+      {
+        "Belonging": -0.3419,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 427.316
+      },
+      {
+        "Belonging": -0.4441,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 288.412
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 412.388
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 499.934
+      },
+      {
+        "Belonging": 1.428,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.154
+      },
+      {
+        "Belonging": -0.0536,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 563.133
+      },
+      {
+        "Belonging": -0.2995,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 619.606
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 494.182
+      },
+      {
+        "Belonging": 0.0271,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 584.342
+      },
+      {
+        "Belonging": -0.2481,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 407.956
+      },
+      {
+        "Belonging": -0.2761,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 472.52
+      },
+      {
+        "Belonging": 0.8273,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 472.908
+      },
+      {
+        "Belonging": -0.0325,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 417.198
+      },
+      {
+        "Belonging": -1.2135,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 552.839
+      },
+      {
+        "Belonging": -0.2894,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 378.759
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 327.026
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 434.553
+      },
+      {
+        "Belonging": -0.7865,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 541.849
+      },
+      {
+        "Belonging": -0.4861,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 315.682
+      },
+      {
+        "Belonging": -0.0645,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 721.335
+      },
+      {
+        "Belonging": 0.1635,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 494.777
+      },
+      {
+        "Belonging": 0.3519,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 491.224
+      },
+      {
+        "Belonging": 0.028,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 452.22
+      },
+      {
+        "Belonging": -0.611,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 483.015
+      },
+      {
+        "Belonging": 0.6751,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 417.463
+      },
+      {
+        "Belonging": 0.195,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 356.22
+      },
+      {
+        "Belonging": 0.3988,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 661.444
+      },
+      {
+        "Belonging": -1.391,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 294.666
+      },
+      {
+        "Belonging": -0.6816,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 390.016
+      },
+      {
+        "Belonging": -0.471,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 367.195
+      },
+      {
+        "Belonging": 0.8265,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 354.137
+      },
+      {
+        "Belonging": 0.3084,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 361.773
+      },
+      {
+        "Belonging": 0.0422,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 472.306
+      },
+      {
+        "Belonging": 0.2442,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 637.887
+      },
+      {
+        "Belonging": 0.8311,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 506.308
+      },
+      {
+        "Belonging": -0.0349,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 398.719
+      },
+      {
+        "Belonging": -0.9555,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.06
+      },
+      {
+        "Belonging": -0.7711,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 400.467
+      },
+      {
+        "Belonging": 0.7639,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 585.737
+      },
+      {
+        "Belonging": -0.0092,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 335.723
+      },
+      {
+        "Belonging": 0.3225,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 588.639
+      },
+      {
+        "Belonging": 1.4872,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 416.451
+      },
+      {
+        "Belonging": -1.8479,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 433.424
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 270.154
+      },
+      {
+        "Belonging": 1.1073,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 577.568
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 583.547
+      },
+      {
+        "Belonging": -0.4798,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 389.759
+      },
+      {
+        "Belonging": 0.8273,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 382.586
+      },
+      {
+        "Belonging": -0.8926,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 393.143
+      },
+      {
+        "Belonging": 0.0342,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 312.769
+      },
+      {
+        "Belonging": 0.0422,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 411.99
+      },
+      {
+        "Belonging": -0.0314,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 420.882
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 500.428
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 524.133
+      },
+      {
+        "Belonging": 0.7979,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 506.192
+      },
+      {
+        "Belonging": -2.0583,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 258.656
+      },
+      {
+        "Belonging": -0.6098,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 367.296
+      },
+      {
+        "Belonging": -0.9684,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 583.3
+      },
+      {
+        "Belonging": -0.5782,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 380.596
+      },
+      {
+        "Belonging": -0.0368,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 354.104
+      },
+      {
+        "Belonging": -0.5788,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 413.68
+      },
+      {
+        "Belonging": -0.7185,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 463.922
+      },
+      {
+        "Belonging": 0.5239,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 527.759
+      },
+      {
+        "Belonging": 0.5453,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 646.39
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 495.705
+      },
+      {
+        "Belonging": -0.4861,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 478.829
+      },
+      {
+        "Belonging": -0.4747,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 313.673
+      },
+      {
+        "Belonging": -0.6838,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 621.505
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 393.332
+      },
+      {
+        "Belonging": 0.1066,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 429.991
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 532.861
+      },
+      {
+        "Belonging": 0.9331,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 442.022
+      },
+      {
+        "Belonging": -0.1843,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 501.427
+      },
+      {
+        "Belonging": 0.8876,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 529.42
+      },
+      {
+        "Belonging": -0.767,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 491.939
+      },
+      {
+        "Belonging": -0.2409,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 356.942
+      },
+      {
+        "Belonging": -0.0066,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 491.787
+      },
+      {
+        "Belonging": -0.8093,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 462.836
+      },
+      {
+        "Belonging": 0.6751,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 280.37
+      },
+      {
+        "Belonging": -0.776,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 392.348
+      },
+      {
+        "Belonging": -1.3272,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 451.839
+      },
+      {
+        "Belonging": -0.0397,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 334.445
+      },
+      {
+        "Belonging": -0.4941,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 369.593
+      },
+      {
+        "Belonging": -0.7612,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 383.324
+      },
+      {
+        "Belonging": -0.4876,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 394.674
+      },
+      {
+        "Belonging": -0.2172,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 372.014
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 395.958
+      },
+      {
+        "Belonging": 1.0846,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 427.461
+      },
+      {
+        "Belonging": -0.4814,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 335.063
+      },
+      {
+        "Belonging": -0.9606,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 437.635
+      },
+      {
+        "Belonging": 0.8273,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 519.625
+      },
+      {
+        "Belonging": -0.0277,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 417.724
+      },
+      {
+        "Belonging": -0.47,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 350.298
+      },
+      {
+        "Belonging": -0.6098,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 598.5
+      },
+      {
+        "Belonging": -1.0027,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 388.689
+      },
+      {
+        "Belonging": 1.1471,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 499.232
+      },
+      {
+        "Belonging": 2.1143,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 441.621
+      },
+      {
+        "Belonging": -0.8983,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 346.799
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.037
+      },
+      {
+        "Belonging": -0.4857,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 382.74
+      },
+      {
+        "Belonging": 1.1073,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 494.587
+      },
+      {
+        "Belonging": 1.0491,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 431.716
+      },
+      {
+        "Belonging": -0.5878,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 445.737
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 382.349
+      },
+      {
+        "Belonging": -0.4691,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 273.653
+      },
+      {
+        "Belonging": -0.3211,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 397.051
+      },
+      {
+        "Belonging": -0.4514,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 457.634
+      },
+      {
+        "Belonging": 0.3249,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 445.752
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 535.634
+      },
+      {
+        "Belonging": -0.1988,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 498.289
+      },
+      {
+        "Belonging": 2.2967,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 421.193
+      },
+      {
+        "Belonging": -0.8593,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 473.8
+      },
+      {
+        "Belonging": -1.0412,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 298.593
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 409.949
+      },
+      {
+        "Belonging": 0.3282,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 547.247
+      },
+      {
+        "Belonging": -0.9786,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 436.17
+      },
+      {
+        "Belonging": -0.1543,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 428.904
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 546.706
+      },
+      {
+        "Belonging": -0.7855,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 456.311
+      },
+      {
+        "Belonging": -0.5964,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 428.63
+      },
+      {
+        "Belonging": -0.8622,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 374.061
+      },
+      {
+        "Belonging": 0.7639,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 434.603
+      },
+      {
+        "Belonging": 2.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 448.891
+      },
+      {
+        "Belonging": -0.4839,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 547.605
+      },
+      {
+        "Belonging": 1.0491,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 314.625
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 435.839
+      },
+      {
+        "Belonging": -0.8018,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 372.96
+      },
+      {
+        "Belonging": 1.4507,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 437.279
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 546.847
+      },
+      {
+        "Belonging": 1.0491,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 349.484
+      },
+      {
+        "Belonging": -0.1058,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 612.817
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 415.435
+      },
+      {
+        "Belonging": -0.4375,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 498.456
+      },
+      {
+        "Belonging": -0.1361,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 444.977
+      },
+      {
+        "Belonging": 0.9434,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 508.75
+      },
+      {
+        "Belonging": -0.0602,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 368.036
+      },
+      {
+        "Belonging": -0.3485,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 412.718
+      },
+      {
+        "Belonging": -0.2097,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 383.141
+      },
+      {
+        "Belonging": -0.0397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 382.183
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 389.962
+      },
+      {
+        "Belonging": -0.2307,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 541.105
+      },
+      {
+        "Belonging": -0.3157,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 481.159
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 425.305
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 387.129
+      },
+      {
+        "Belonging": -1.1107,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 325.556
+      },
+      {
+        "Belonging": -0.3868,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 363.082
+      },
+      {
+        "Belonging": -0.0055,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 630.459
+      },
+      {
+        "Belonging": -1.7753,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 604.779
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 408.648
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 559.996
+      },
+      {
+        "Belonging": 0.1702,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 626.935
+      },
+      {
+        "Belonging": 0.6939,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 451.841
+      },
+      {
+        "Belonging": 0.1436,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 388.108
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 515.954
+      },
+      {
+        "Belonging": 0.1436,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 520.153
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 502.544
+      },
+      {
+        "Belonging": -0.0211,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 625.869
+      },
+      {
+        "Belonging": 2.7562,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 473.024
+      },
+      {
+        "Belonging": -1.4775,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 422.458
+      },
+      {
+        "Belonging": -1.2297,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 486.915
+      },
+      {
+        "Belonging": 0.4163,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 429.516
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 281.499
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 507.536
+      },
+      {
+        "Belonging": -0.3397,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 480.817
+      },
+      {
+        "Belonging": 0.0104,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 309.715
+      },
+      {
+        "Belonging": -1.2484,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 311.327
+      },
+      {
+        "Belonging": -0.7204,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 362.85
+      },
+      {
+        "Belonging": -0.6208,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 287.056
+      },
+      {
+        "Belonging": 0.0925,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 256.912
+      },
+      {
+        "Belonging": -1.6344,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 261.05
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 573.738
+      },
+      {
+        "Belonging": -0.2031,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 548.187
+      },
+      {
+        "Belonging": -1.3047,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 311.701
+      },
+      {
+        "Belonging": 0.7639,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 414.554
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 460.092
+      },
+      {
+        "Belonging": -1.5976,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 428.469
+      },
+      {
+        "Belonging": -0.471,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 378.001
+      },
+      {
+        "Belonging": 0.3519,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 419.095
+      },
+      {
+        "Belonging": -0.7074,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 365.806
+      },
+      {
+        "Belonging": -0.3414,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 428.954
+      },
+      {
+        "Belonging": -1.2622,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 324.94
+      },
+      {
+        "Belonging": -0.2069,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 488.78
+      },
+      {
+        "Belonging": -0.1008,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 591.145
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.703
+      },
+      {
+        "Belonging": -0.9284,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 524.366
+      },
+      {
+        "Belonging": 0.2148,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 358.471
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 512.1
+      },
+      {
+        "Belonging": 0.3225,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 407.578
+      },
+      {
+        "Belonging": -0.4986,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 345.031
+      },
+      {
+        "Belonging": 0.3316,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 647.513
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 553.719
+      },
+      {
+        "Belonging": -0.7034,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 342.07
+      },
+      {
+        "Belonging": 0.6187,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 425.087
+      },
+      {
+        "Belonging": 0.7308,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 749.311
+      },
+      {
+        "Belonging": -0.0955,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 471.95
+      },
+      {
+        "Belonging": 0.7289,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 520.134
+      },
+      {
+        "Belonging": -0.8221,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 406.673
+      },
+      {
+        "Belonging": 0.5094,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 373.039
+      },
+      {
+        "Belonging": -0.0685,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 325.313
+      },
+      {
+        "Belonging": 0.3282,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 405.248
+      },
+      {
+        "Belonging": 0.7263,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 281.195
+      },
+      {
+        "Belonging": 2.4581,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 531.442
+      },
+      {
+        "Belonging": -1.1065,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 396.896
+      },
+      {
+        "Belonging": -0.4986,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 310.874
+      },
+      {
+        "Belonging": 0.5453,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 451.658
+      },
+      {
+        "Belonging": -1.4564,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 573.885
+      },
+      {
+        "Belonging": -0.6208,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 571.986
+      },
+      {
+        "Belonging": 0.7979,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 550.874
+      },
+      {
+        "Belonging": 0.1689,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 607.208
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 487.48
+      },
+      {
+        "Belonging": -0.8042,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 352.447
+      },
+      {
+        "Belonging": -0.7304,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 296.613
+      },
+      {
+        "Belonging": -1.1175,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 329.86
+      },
+      {
+        "Belonging": 0.2315,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 427.556
+      },
+      {
+        "Belonging": -0.5938,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 491.129
+      },
+      {
+        "Belonging": -0.6659,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 578.1
+      },
+      {
+        "Belonging": -1.1623,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 501.741
+      },
+      {
+        "Belonging": -0.7639,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 433.454
+      },
+      {
+        "Belonging": -1.1081,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 338.567
+      },
+      {
+        "Belonging": -0.9691,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 403.353
+      },
+      {
+        "Belonging": -0.7532,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 504.158
+      },
+      {
+        "Belonging": -0.3261,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 367.279
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 432.518
+      },
+      {
+        "Belonging": -0.9517,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 372.196
+      },
+      {
+        "Belonging": -0.1981,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 503.036
+      },
+      {
+        "Belonging": -0.6098,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 389.938
+      },
+      {
+        "Belonging": 0.3238,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 457.749
+      },
+      {
+        "Belonging": -0.7973,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 434.165
+      },
+      {
+        "Belonging": 0.5159,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 437.588
+      },
+      {
+        "Belonging": -0.7811,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 607.187
+      },
+      {
+        "Belonging": 1.0846,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 446.445
+      },
+      {
+        "Belonging": 0.0311,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 346.516
+      },
+      {
+        "Belonging": -1.1175,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 291.815
+      },
+      {
+        "Belonging": -0.4901,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 383.69
+      },
+      {
+        "Belonging": 0.095,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 638.571
+      },
+      {
+        "Belonging": 0.7356,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 515.933
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 629.555
+      },
+      {
+        "Belonging": 0.6428,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 562.635
+      },
+      {
+        "Belonging": -0.5089,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen",
+        "Math_Score": 467.397
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 464.615
+      },
+      {
+        "Belonging": 0.0342,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 429.711
+      },
+      {
+        "Belonging": -1.0607,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 570.799
+      },
+      {
+        "Belonging": 1.4693,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 412.487
+      },
+      {
+        "Belonging": -0.9402,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 348.815
+      },
+      {
+        "Belonging": -0.5636,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 506.827
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 388.131
+      },
+      {
+        "Belonging": 0.6087,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 319.515
+      },
+      {
+        "Belonging": -1.1098,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 533.54
+      },
+      {
+        "Belonging": 0.3739,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 425.527
+      },
+      {
+        "Belonging": -0.338,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 418.337
+      },
+      {
+        "Belonging": -0.6065,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 352.628
+      },
+      {
+        "Belonging": -0.4798,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 382.366
+      },
+      {
+        "Belonging": 0.1999,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 478.958
+      },
+      {
+        "Belonging": -0.4911,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 438.48
+      },
+      {
+        "Belonging": 1.577,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 451.296
+      },
+      {
+        "Belonging": 0.8311,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 501.73
+      },
+      {
+        "Belonging": -0.2482,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 465.179
+      },
+      {
+        "Belonging": -0.3128,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 578.442
+      },
+      {
+        "Belonging": -0.1406,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 451.959
+      },
+      {
+        "Belonging": -0.7334,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 507.824
+      },
+      {
+        "Belonging": 0.3279,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 586.944
+      },
+      {
+        "Belonging": -0.7204,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 701.946
+      },
+      {
+        "Belonging": 2.7474,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 355.051
+      },
+      {
+        "Belonging": -1.0249,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 461.06
+      },
+      {
+        "Belonging": -1.4423,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen",
+        "Math_Score": 489.944
+      },
+      {
+        "Belonging": -1.5837,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 571.113
+      },
+      {
+        "Belonging": -0.4814,
+        "Gender": "Male",
+        "Immigration_Status": "Native",
+        "Math_Score": 542.909
+      },
+      {
+        "Belonging": -0.642,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 498.534
+      },
+      {
+        "Belonging": -0.6206,
+        "Gender": "Female",
+        "Immigration_Status": "Native",
+        "Math_Score": 325.876
+      }
+    ],
+    "data-d3004ccc291d5e5be535977247992f0d": [
+      {
+        "Avg_Math": 468.84708489731435,
+        "Count": 31650,
+        "Immigration_Status": "First-gen"
+      },
+      {
+        "Avg_Math": 444.3453685062496,
+        "Count": 472589,
+        "Immigration_Status": "Native"
+      },
+      {
+        "Avg_Math": 472.1754016968988,
+        "Count": 34180,
+        "Immigration_Status": "Second-gen"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-07aa85defda7cd7be151c46c7fb32fee"
+        "name": "data-d3004ccc291d5e5be535977247992f0d"
       },
       "encoding": {
         "color": {
@@ -24083,8 +30080,8 @@
             "type": "nominal"
           },
           {
-            "field": "Avg_Belonging",
-            "format": ".2f",
+            "field": "Avg_Math",
+            "format": ".1f",
             "type": "quantitative"
           },
           {
@@ -24094,17 +30091,9 @@
           }
         ],
         "x": {
-          "field": "Avg_Belonging",
-          "scale": {
-            "domain": [
-              -0.3,
-              0.3
-            ]
+          "axis": {
+            "labelAngle": -45
           },
-          "title": "Average Sense of Belonging",
-          "type": "quantitative"
-        },
-        "y": {
           "field": "Immigration_Status",
           "sort": [
             "Native",
@@ -24113,11 +30102,22 @@
           ],
           "title": null,
           "type": "nominal"
+        },
+        "y": {
+          "field": "Avg_Math",
+          "scale": {
+            "domain": [
+              400,
+              500
+            ]
+          },
+          "title": "Mean Math Score",
+          "type": "quantitative"
         }
       },
       "height": 350,
       "mark": {
-        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopLeft": 4,
         "cornerRadiusTopRight": 4,
         "cursor": "pointer",
         "type": "bar"
@@ -24128,11 +30128,11 @@
         "fontSize": 14,
         "text": "Click Immigration Status"
       },
-      "width": 450
+      "width": 250
     },
     {
       "data": {
-        "name": "data-c404093efe8d6873b705f01eb966a554"
+        "name": "data-94f1bf0f6317eb8de9c40a8d8fb2ebc4"
       },
       "encoding": {
         "color": {
