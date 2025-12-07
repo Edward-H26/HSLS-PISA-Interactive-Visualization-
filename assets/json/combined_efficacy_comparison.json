@@ -21,60 +21,57 @@
     }
   },
   "datasets": {
-    "data-8c3bd0b2fa9e4bfef0bb9cf6709cfa37": [
+    "data-67122c8b0ed4ef65fe15d90e3cf11bd2": [
       {
         "Count": 23497,
-        "Mean_Efficacy": 4.423031762997868e-17,
         "Source": "HSLS (US 2009)"
       },
       {
-        "Count": 23312,
-        "Mean_Efficacy": -0.0002550690609682687,
-        "Source": "PISA Intl (2022)"
+        "Count": 3975,
+        "Source": "PISA US (2022)"
       },
       {
-        "Count": 203,
-        "Mean_Efficacy": 0.029291477582722533,
-        "Source": "PISA US (2022)"
+        "Count": 465474,
+        "Source": "PISA Intl (2022)"
       }
     ],
-    "data-b732fe010e8bcdbdbbfec95b8e1c6ee1": [
+    "data-8c16ad7f041ae8581da7dbdf66e11b34": [
       {
-        "Gender": "Female",
-        "Mean_Efficacy": 0.0025173209995253453,
+        "Gap": -0.004940239833445754,
+        "Gap_Type": "Efficacy Gap",
         "Source": "HSLS (US 2009)"
       },
       {
-        "Gender": "Male",
-        "Mean_Efficacy": -0.002422918833920409,
+        "Gap": -0.024388019696789977,
+        "Gap_Type": "Achievement Gap",
         "Source": "HSLS (US 2009)"
       },
       {
-        "Gender": "Female",
-        "Mean_Efficacy": -0.08919860298881457,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Gender": "Male",
-        "Mean_Efficacy": 0.09246003227717044,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Gender": "Female",
-        "Mean_Efficacy": -0.084406251077342,
+        "Gap": 0.16897363928872805,
+        "Gap_Type": "Efficacy Gap",
         "Source": "PISA US (2022)"
       },
       {
-        "Gender": "Male",
-        "Mean_Efficacy": 0.1441149263285303,
+        "Gap": 0.1298721040126962,
+        "Gap_Type": "Achievement Gap",
         "Source": "PISA US (2022)"
+      },
+      {
+        "Gap": 0.17513599777942498,
+        "Gap_Type": "Efficacy Gap",
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Gap": 0.10718381184685412,
+        "Gap_Type": "Achievement Gap",
+        "Source": "PISA Intl (2022)"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-8c3bd0b2fa9e4bfef0bb9cf6709cfa37"
+        "name": "data-67122c8b0ed4ef65fe15d90e3cf11bd2"
       },
       "encoding": {
         "color": {
@@ -110,25 +107,20 @@
             "type": "nominal"
           },
           {
-            "field": "Mean_Efficacy",
-            "format": ".2f",
-            "type": "quantitative"
-          },
-          {
             "field": "Count",
             "format": ",d",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Mean_Efficacy",
+          "field": "Count",
           "scale": {
             "domain": [
-              -0.5,
-              0.5
+              0,
+              700000
             ]
           },
-          "title": "Mean Standardized Efficacy",
+          "title": "Number of Students",
           "type": "quantitative"
         },
         "y": {
@@ -153,29 +145,29 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Source for Gender Detail"
+        "text": "Click Data Source"
       },
       "width": 450
     },
     {
       "data": {
-        "name": "data-b732fe010e8bcdbdbbfec95b8e1c6ee1"
+        "name": "data-8c16ad7f041ae8581da7dbdf66e11b34"
       },
       "encoding": {
         "color": {
-          "field": "Gender",
+          "field": "Gap_Type",
           "legend": {
             "orient": "top",
-            "title": "Gender"
+            "title": "Gap Type"
           },
           "scale": {
             "domain": [
-              "Female",
-              "Male"
+              "Efficacy Gap",
+              "Achievement Gap"
             ],
             "range": [
-              "#E91E63",
-              "#1976D2"
+              "#9c27b0",
+              "#00bcd4"
             ]
           },
           "type": "nominal"
@@ -186,32 +178,32 @@
             "type": "nominal"
           },
           {
-            "field": "Gender",
+            "field": "Gap_Type",
             "type": "nominal"
           },
           {
-            "field": "Mean_Efficacy",
-            "format": ".2f",
+            "field": "Gap",
+            "format": ".3f",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Mean_Efficacy",
+          "field": "Gap",
           "scale": {
             "domain": [
-              -0.5,
+              -0.2,
               0.5
             ]
           },
-          "title": "Mean Standardized Efficacy",
+          "title": "Gender Gap (Male - Female, Std. Units)",
           "type": "quantitative"
         },
-        "xOffset": {
-          "field": "Source",
-          "type": "nominal"
-        },
         "y": {
-          "field": "Gender",
+          "field": "Gap_Type",
+          "sort": [
+            "Efficacy Gap",
+            "Achievement Gap"
+          ],
           "title": null,
           "type": "nominal"
         }
@@ -225,7 +217,7 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Gender Gap for Selected Source"
+        "text": "Confidence vs Achievement Gap"
       },
       "transform": [
         {

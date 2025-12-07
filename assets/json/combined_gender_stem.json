@@ -21,29 +21,29 @@
     }
   },
   "datasets": {
-    "data-78c737cf1000ac33e11ae0c49e11312f": [
+    "data-54b5971080daa76c07234b691253c092": [
       {
         "Count": 1917,
         "Gender": "Female",
-        "Parent_Education": "Associate's",
+        "Parent_Education": "Associates",
         "STEM_Rate": 133.38549817423058
       },
       {
         "Count": 1976,
         "Gender": "Male",
-        "Parent_Education": "Associate's",
+        "Parent_Education": "Associates",
         "STEM_Rate": 65.2834008097166
       },
       {
         "Count": 835,
         "Gender": "Female",
-        "Parent_Education": "Bachelor's",
+        "Parent_Education": "Bachelors",
         "STEM_Rate": 122.87425149700599
       },
       {
         "Count": 779,
         "Gender": "Male",
-        "Parent_Education": "Bachelor's",
+        "Parent_Education": "Bachelors",
         "STEM_Rate": 70.73170731707317
       },
       {
@@ -73,13 +73,13 @@
       {
         "Count": 280,
         "Gender": "Female",
-        "Parent_Education": "Ph.D./Prof",
+        "Parent_Education": "PhD/Prof",
         "STEM_Rate": 127.85714285714285
       },
       {
         "Count": 298,
         "Gender": "Male",
-        "Parent_Education": "Ph.D./Prof",
+        "Parent_Education": "PhD/Prof",
         "STEM_Rate": 76.1744966442953
       },
       {
@@ -95,15 +95,15 @@
         "STEM_Rate": 54.60937500000001
       }
     ],
-    "data-8461a852fa6e05e9718ba138d69e1b73": [
+    "data-9e7e2fec8e7f8fb0202f7169896e8bd1": [
       {
         "Count": 3893,
-        "Parent_Education": "Associate's",
+        "Parent_Education": "Associates",
         "STEM_Rate": 98.81839198561521
       },
       {
         "Count": 1614,
-        "Parent_Education": "Bachelor's",
+        "Parent_Education": "Bachelors",
         "STEM_Rate": 97.70755885997522
       },
       {
@@ -118,7 +118,7 @@
       },
       {
         "Count": 578,
-        "Parent_Education": "Ph.D./Prof",
+        "Parent_Education": "PhD/Prof",
         "STEM_Rate": 101.21107266435988
       },
       {
@@ -131,7 +131,7 @@
   "hconcat": [
     {
       "data": {
-        "name": "data-8461a852fa6e05e9718ba138d69e1b73"
+        "name": "data-9e7e2fec8e7f8fb0202f7169896e8bd1"
       },
       "encoding": {
         "color": {
@@ -146,10 +146,10 @@
               "Less than HS",
               "HS Diploma",
               "Some College",
-              "Associate's",
-              "Bachelor's",
-              "Master's",
-              "Ph.D./Prof"
+              "Associates",
+              "Bachelors",
+              "Masters",
+              "PhD/Prof"
             ],
             "range": [
               "#e1bee7",
@@ -191,10 +191,10 @@
           "scale": {
             "domain": [
               0,
-              150
+              50
             ]
           },
-          "title": "Overall STEM Rate (%)",
+          "title": "Overall STEM Expectation Rate (%)",
           "type": "quantitative"
         },
         "y": {
@@ -203,10 +203,10 @@
             "Less than HS",
             "HS Diploma",
             "Some College",
-            "Associate's",
-            "Bachelor's",
-            "Master's",
-            "Ph.D./Prof"
+            "Associates",
+            "Bachelors",
+            "Masters",
+            "PhD/Prof"
           ],
           "title": null,
           "type": "nominal"
@@ -223,13 +223,13 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Education Level for Gender Detail"
+        "text": "Click Education Level"
       },
       "width": 450
     },
     {
       "data": {
-        "name": "data-78c737cf1000ac33e11ae0c49e11312f"
+        "name": "data-54b5971080daa76c07234b691253c092"
       },
       "encoding": {
         "color": {
@@ -275,7 +275,7 @@
           "scale": {
             "domain": [
               0,
-              150
+              50
             ]
           },
           "title": "STEM Career Expectation Rate (%)",
@@ -296,7 +296,7 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Gender Gap for Selected Education Level"
+        "text": "Gender Gap for Selected Level"
       },
       "transform": [
         {

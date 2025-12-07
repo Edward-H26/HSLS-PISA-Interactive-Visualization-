@@ -21,94 +21,49 @@
     }
   },
   "datasets": {
-    "data-e20af124d52d5ef8555ada5ca135724d": [
+    "data-2a5cc6d8c52e99e85294481a42501f14": [
+      {
+        "Math_Score": 0.6016182601772033,
+        "SES_Level": "Highest 20%",
+        "Source": "HSLS (US 2009)"
+      },
+      {
+        "Math_Score": -0.5969625764072656,
+        "SES_Level": "Lowest 20%",
+        "Source": "HSLS (US 2009)"
+      },
+      {
+        "Math_Score": 0.6787838540868831,
+        "SES_Level": "Highest 20%",
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": -0.643214331239367,
+        "SES_Level": "Lowest 20%",
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 0.7006278720645107,
+        "SES_Level": "Highest 20%",
+        "Source": "PISA US (2022)"
+      },
+      {
+        "Math_Score": -0.28062622582775854,
+        "SES_Level": "Lowest 20%",
+        "Source": "PISA US (2022)"
+      }
+    ],
+    "data-a96b08c3accb30961b6d236c054c4dbe": [
       {
         "Count": 21444,
         "Source": "HSLS (US 2009)"
       },
       {
-        "Count": 29241,
+        "Count": 583934,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Count": 217,
-        "Source": "PISA US (2022)"
-      }
-    ],
-    "data-eef8b810dea015cdfccfe034522fdfa1": [
-      {
-        "Math_Z": -0.5969625764072656,
-        "SES_Quintile": 1,
-        "Source": "HSLS (US 2009)"
-      },
-      {
-        "Math_Z": -0.3772956464723059,
-        "SES_Quintile": 2,
-        "Source": "HSLS (US 2009)"
-      },
-      {
-        "Math_Z": -0.12792148225818142,
-        "SES_Quintile": 3,
-        "Source": "HSLS (US 2009)"
-      },
-      {
-        "Math_Z": 0.14693835142616846,
-        "SES_Quintile": 4,
-        "Source": "HSLS (US 2009)"
-      },
-      {
-        "Math_Z": 0.6016182601772033,
-        "SES_Quintile": 5,
-        "Source": "HSLS (US 2009)"
-      },
-      {
-        "Math_Z": -0.6369945509177832,
-        "SES_Quintile": 1,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Z": -0.2626037986657331,
-        "SES_Quintile": 2,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Z": -0.028966397273173777,
-        "SES_Quintile": 3,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Z": 0.2390707535014244,
-        "SES_Quintile": 4,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Z": 0.6838418381496478,
-        "SES_Quintile": 5,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Z": 0.013019872469826495,
-        "SES_Quintile": 1,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Z": -0.060030439106844545,
-        "SES_Quintile": 2,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Z": 0.0979085678829646,
-        "SES_Quintile": 3,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Z": 0.20466704676479322,
-        "SES_Quintile": 4,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Z": 0.8175923615786707,
-        "SES_Quintile": 5,
+        "Count": 4342,
         "Source": "PISA US (2022)"
       }
     ]
@@ -116,7 +71,7 @@
   "hconcat": [
     {
       "data": {
-        "name": "data-e20af124d52d5ef8555ada5ca135724d"
+        "name": "data-a96b08c3accb30961b6d236c054c4dbe"
       },
       "encoding": {
         "color": {
@@ -190,31 +145,29 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Source for SES Gradient"
+        "text": "Click Data Source"
       },
       "width": 450
     },
     {
       "data": {
-        "name": "data-eef8b810dea015cdfccfe034522fdfa1"
+        "name": "data-2a5cc6d8c52e99e85294481a42501f14"
       },
       "encoding": {
         "color": {
-          "field": "Source",
+          "field": "SES_Level",
           "legend": {
             "orient": "top",
-            "title": "Data Source"
+            "title": "SES Level"
           },
           "scale": {
             "domain": [
-              "HSLS (US 2009)",
-              "PISA US (2022)",
-              "PISA Intl (2022)"
+              "Lowest 20%",
+              "Highest 20%"
             ],
             "range": [
-              "#E69F00",
-              "#56B4E9",
-              "#009E73"
+              "#1a237e",
+              "#c5cae9"
             ]
           },
           "type": "nominal"
@@ -225,22 +178,17 @@
             "type": "nominal"
           },
           {
-            "field": "SES_Quintile",
-            "type": "ordinal"
+            "field": "SES_Level",
+            "type": "nominal"
           },
           {
-            "field": "Math_Z",
-            "format": ".2f",
+            "field": "Math_Score",
+            "format": ".3f",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "SES_Quintile",
-          "title": "SES Quintile (1=Lowest, 5=Highest)",
-          "type": "ordinal"
-        },
-        "y": {
-          "field": "Math_Z",
+          "field": "Math_Score",
           "scale": {
             "domain": [
               -1.0,
@@ -249,20 +197,27 @@
           },
           "title": "Standardized Math Score",
           "type": "quantitative"
+        },
+        "y": {
+          "field": "SES_Level",
+          "sort": [
+            "Lowest 20%",
+            "Highest 20%"
+          ],
+          "title": null,
+          "type": "nominal"
         }
       },
       "height": 350,
       "mark": {
-        "point": {
-          "size": 100
-        },
-        "strokeWidth": 3,
-        "type": "line"
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "SES Gradient for Selected Source"
+        "text": "SES Achievement Gap"
       },
       "transform": [
         {

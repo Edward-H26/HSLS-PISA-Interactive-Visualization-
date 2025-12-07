@@ -22,8 +22,8 @@ _site/
 
 # Large datasets
 data/*.csv
-# Large archives
-data/*.zip
+!data/hsls_subset.csv
+!data/pisa_subset.csv
 
 # Bundler
 /vendor/

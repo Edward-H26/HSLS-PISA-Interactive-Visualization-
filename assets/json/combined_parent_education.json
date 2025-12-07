@@ -21,23 +21,23 @@
     }
   },
   "data": {
-    "name": "data-957bb2b5431b379d0b6b22fb9ec6c460"
+    "name": "data-da9a0827dd5a38c33d50a234212af93a"
   },
   "datasets": {
-    "data-957bb2b5431b379d0b6b22fb9ec6c460": [
+    "data-da9a0827dd5a38c33d50a234212af93a": [
       {
         "Math_Score": 0.37454002612442483,
-        "Parent_Education": "Bachelor's",
+        "Parent_Education": "Bachelors",
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.14715368058990141,
-        "Parent_Education": "Bachelor's",
+        "Math_Score": -0.1513232164499713,
+        "Parent_Education": "Bachelors",
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": 0.03528104001753518,
-        "Parent_Education": "Bachelor's",
+        "Math_Score": 0.0645033071233544,
+        "Parent_Education": "Bachelors",
         "Source": "PISA US (2022)"
       },
       {
@@ -46,12 +46,12 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": 0.16160152080074394,
+        "Math_Score": 0.18150764123169738,
         "Parent_Education": "Graduate+",
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": 0.31195291685748167,
+        "Math_Score": 0.41600874399087534,
         "Parent_Education": "Graduate+",
         "Source": "PISA US (2022)"
       },
@@ -61,12 +61,12 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.4353646227109255,
+        "Math_Score": -0.4652353472809977,
         "Parent_Education": "HS Diploma",
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": -0.10743779004786504,
+        "Math_Score": -0.31717294149595326,
         "Parent_Education": "HS Diploma",
         "Source": "PISA US (2022)"
       },
@@ -76,12 +76,12 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.7337922412985072,
+        "Math_Score": -0.746530350838504,
         "Parent_Education": "Less than HS",
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": 0.7566678785641227,
+        "Math_Score": -0.0999651258120803,
         "Parent_Education": "Less than HS",
         "Source": "PISA US (2022)"
       },
@@ -91,12 +91,12 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.16576555001784737,
+        "Math_Score": -0.14648954512756746,
         "Parent_Education": "Some College",
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": 0.1430664705955504,
+        "Math_Score": -0.015179366325813449,
         "Parent_Education": "Some College",
         "Source": "PISA US (2022)"
       }
@@ -168,7 +168,7 @@
             "Less than HS",
             "HS Diploma",
             "Some College",
-            "Bachelor's",
+            "Bachelors",
             "Graduate+"
           ],
           "title": null,
@@ -186,7 +186,7 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Education Level for Source Comparison"
+        "text": "Click Education Level"
       },
       "width": 450
     },
@@ -258,7 +258,7 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Source Comparison for Selected Education Level"
+        "text": "Source Comparison for Selected Level"
       },
       "transform": [
         {

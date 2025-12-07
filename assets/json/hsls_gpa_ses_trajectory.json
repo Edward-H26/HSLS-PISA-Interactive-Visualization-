@@ -21,140 +21,100 @@
     }
   },
   "datasets": {
-    "data-73bbd499e8c267fcfd934cd9569288e8": [
+    "data-51e0347032242371d173db9d533c16f0": [
       {
-        "GPA": 2.902229119638826,
-        "Grade": "10th Grade",
+        "Count": 3670,
+        "GPA": 2.9878065395095366,
         "SES_Quintile": "Fourth 20%"
       },
       {
-        "GPA": 2.9146444695259595,
-        "Grade": "11th Grade",
-        "SES_Quintile": "Fourth 20%"
-      },
-      {
-        "GPA": 2.999153498871332,
-        "Grade": "12th Grade",
-        "SES_Quintile": "Fourth 20%"
-      },
-      {
-        "GPA": 2.94441309255079,
-        "Grade": "9th Grade",
-        "SES_Quintile": "Fourth 20%"
-      },
-      {
-        "GPA": 3.22802554665512,
-        "Grade": "10th Grade",
+        "Count": 4743,
+        "GPA": 3.289426523297491,
         "SES_Quintile": "Highest 20%"
       },
       {
-        "GPA": 3.2269430612686727,
-        "Grade": "11th Grade",
-        "SES_Quintile": "Highest 20%"
-      },
-      {
-        "GPA": 3.2940571552284044,
-        "Grade": "12th Grade",
-        "SES_Quintile": "Highest 20%"
-      },
-      {
-        "GPA": 3.2772245074691493,
-        "Grade": "9th Grade",
-        "SES_Quintile": "Highest 20%"
-      },
-      {
-        "GPA": 2.4796082949308755,
-        "Grade": "10th Grade",
+        "Count": 2290,
+        "GPA": 2.6223799126637553,
         "SES_Quintile": "Lowest 20%"
       },
       {
-        "GPA": 2.5035714285714286,
-        "Grade": "11th Grade",
-        "SES_Quintile": "Lowest 20%"
-      },
-      {
-        "GPA": 2.639516129032258,
-        "Grade": "12th Grade",
-        "SES_Quintile": "Lowest 20%"
-      },
-      {
-        "GPA": 2.492741935483871,
-        "Grade": "9th Grade",
-        "SES_Quintile": "Lowest 20%"
-      },
-      {
-        "GPA": 2.750803600128576,
-        "Grade": "10th Grade",
+        "Count": 3241,
+        "GPA": 2.8782783091638384,
         "SES_Quintile": "Middle 20%"
       },
       {
-        "GPA": 2.7871263259402124,
-        "Grade": "11th Grade",
-        "SES_Quintile": "Middle 20%"
-      },
-      {
-        "GPA": 2.8971391835422695,
-        "Grade": "12th Grade",
-        "SES_Quintile": "Middle 20%"
-      },
-      {
-        "GPA": 2.785358405657345,
-        "Grade": "9th Grade",
-        "SES_Quintile": "Middle 20%"
-      },
-      {
-        "GPA": 2.6246133023975253,
-        "Grade": "10th Grade",
-        "SES_Quintile": "Second 20%"
-      },
-      {
-        "GPA": 2.6387277648878578,
-        "Grade": "11th Grade",
-        "SES_Quintile": "Second 20%"
-      },
-      {
-        "GPA": 2.7702049497293117,
-        "Grade": "12th Grade",
-        "SES_Quintile": "Second 20%"
-      },
-      {
-        "GPA": 2.6491686001546793,
-        "Grade": "9th Grade",
+        "Count": 2697,
+        "GPA": 2.754634779384501,
         "SES_Quintile": "Second 20%"
       }
     ],
-    "data-c92f603c4cc071f9da6fefd26febeb21": [
+    "data-ae07d51bd0ee36eb29e6a57010a117a9": [
       {
-        "Count": 3544,
-        "GPA": 2.999153498871332,
-        "SES_Quintile": "Fourth 20%"
+        "Count": 1839,
+        "Gender": "Female",
+        "SES_Quintile": "Fourth 20%",
+        "STEM_Rate": -260.84828711256114
       },
       {
-        "Count": 4619,
-        "GPA": 3.2940571552284044,
-        "SES_Quintile": "Highest 20%"
+        "Count": 1831,
+        "Gender": "Male",
+        "SES_Quintile": "Fourth 20%",
+        "STEM_Rate": -315.94756963407974
       },
       {
-        "Count": 2170,
-        "GPA": 2.639516129032258,
-        "SES_Quintile": "Lowest 20%"
+        "Count": 2362,
+        "Gender": "Female",
+        "SES_Quintile": "Highest 20%",
+        "STEM_Rate": -134.97036409822186
       },
       {
-        "Count": 3111,
-        "GPA": 2.8971391835422695,
-        "SES_Quintile": "Middle 20%"
+        "Count": 2381,
+        "Gender": "Male",
+        "SES_Quintile": "Highest 20%",
+        "STEM_Rate": -173.37253254934902
       },
       {
-        "Count": 2586,
-        "GPA": 2.7702049497293117,
-        "SES_Quintile": "Second 20%"
+        "Count": 1150,
+        "Gender": "Female",
+        "SES_Quintile": "Lowest 20%",
+        "STEM_Rate": -384.60869565217394
+      },
+      {
+        "Count": 1140,
+        "Gender": "Male",
+        "SES_Quintile": "Lowest 20%",
+        "STEM_Rate": -472.0175438596491
+      },
+      {
+        "Count": 1609,
+        "Gender": "Female",
+        "SES_Quintile": "Middle 20%",
+        "STEM_Rate": -295.9602237414543
+      },
+      {
+        "Count": 1632,
+        "Gender": "Male",
+        "SES_Quintile": "Middle 20%",
+        "STEM_Rate": -375.7352941176471
+      },
+      {
+        "Count": 1387,
+        "Gender": "Female",
+        "SES_Quintile": "Second 20%",
+        "STEM_Rate": -327.2530641672675
+      },
+      {
+        "Count": 1310,
+        "Gender": "Male",
+        "SES_Quintile": "Second 20%",
+        "STEM_Rate": -421.0687022900763
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-c92f603c4cc071f9da6fefd26febeb21"
+        "name": "data-51e0347032242371d173db9d533c16f0"
       },
       "encoding": {
         "color": {
@@ -240,36 +200,29 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click SES Level for GPA Trajectory"
+        "text": "Click SES Level"
       },
       "width": 450
     },
     {
       "data": {
-        "name": "data-73bbd499e8c267fcfd934cd9569288e8"
+        "name": "data-ae07d51bd0ee36eb29e6a57010a117a9"
       },
       "encoding": {
         "color": {
-          "field": "SES_Quintile",
+          "field": "Gender",
           "legend": {
-            "columns": 3,
             "orient": "top",
-            "title": "SES Quintile"
+            "title": "Gender"
           },
           "scale": {
             "domain": [
-              "Lowest 20%",
-              "Second 20%",
-              "Middle 20%",
-              "Fourth 20%",
-              "Highest 20%"
+              "Female",
+              "Male"
             ],
             "range": [
-              "#1a237e",
-              "#303f9f",
-              "#3f51b5",
-              "#7986cb",
-              "#c5cae9"
+              "#E91E63",
+              "#1976D2"
             ]
           },
           "type": "nominal"
@@ -280,50 +233,47 @@
             "type": "nominal"
           },
           {
-            "field": "Grade",
-            "type": "ordinal"
+            "field": "Gender",
+            "type": "nominal"
           },
           {
-            "field": "GPA",
-            "format": ".2f",
+            "field": "STEM_Rate",
+            "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Grade",
-          "sort": [
-            "9th Grade",
-            "10th Grade",
-            "11th Grade",
-            "12th Grade"
-          ],
-          "title": "Grade Level",
-          "type": "ordinal"
-        },
-        "y": {
-          "field": "GPA",
+          "field": "STEM_Rate",
           "scale": {
             "domain": [
-              2.0,
-              3.5
+              0,
+              40
             ]
           },
-          "title": "Average GPA",
+          "title": "STEM Major Enrollment Rate (%)",
           "type": "quantitative"
+        },
+        "y": {
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
         }
       },
       "height": 350,
       "mark": {
-        "point": {
-          "size": 100
-        },
-        "strokeWidth": 3,
-        "type": "line"
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "GPA Trajectory for Selected SES Level"
+        "text": "STEM Major Rate by Gender"
       },
       "transform": [
         {
