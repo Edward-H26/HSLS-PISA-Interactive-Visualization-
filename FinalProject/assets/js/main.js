@@ -285,12 +285,14 @@ function initScrollHandling() {
 
   // Handle Horizontal Swipe on Container
   scrollContainer.addEventListener("wheel", (e) => {
-    if (isTransitioning) return;
-
     // Check if it's a horizontal swipe
     if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
-      e.preventDefault(); // Prevent native scroll
+      // ALWAYS prevent default for horizontal swipes to block browser history navigation,
+      // even if we are currently transitioning or the threshold isn't met.
+      e.preventDefault(); 
       
+      if (isTransitioning) return;
+
       if (Math.abs(e.deltaX) > SWIPE_THRESHOLD) {
          // Swipe Left (deltaX > 0) -> Next Panel
          // Swipe Right (deltaX < 0) -> Prev Panel
@@ -341,7 +343,20 @@ function initTouch() {
   document.addEventListener("touchstart", (e) => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
-  }, { passive: true });
+  }, { passive: false }); // Changed to false to allow preventing default if needed in future
+
+  // Add touchmove listener to prevent native swipe navigation
+  document.addEventListener("touchmove", (e) => {
+    const currentX = e.touches[0].clientX;
+    const currentY = e.touches[0].clientY;
+    const diffX = currentX - startX;
+    const diffY = currentY - startY;
+
+    // If movement is predominantly horizontal, prevent default to stop browser nav
+    if (Math.abs(diffX) > Math.abs(diffY)) {
+      e.preventDefault();
+    }
+  }, { passive: false });
 
   document.addEventListener("touchend", (e) => {
     const endX = e.changedTouches[0].clientX;
