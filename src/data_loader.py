@@ -37,8 +37,6 @@ def _parse_list(value: str) -> List[str]:
 
 def _parse_value_map(value: str) -> Dict[int, str]:
     value = value.strip()
-    if not value:
-        return {}
 
     if value.startswith("{") and value.endswith("}"):
         parsed = json.loads(value)
@@ -46,8 +44,6 @@ def _parse_value_map(value: str) -> Dict[int, str]:
 
     mapping: Dict[int, str] = {}
     for pair in value.split(","):
-        if ":" not in pair:
-            continue
         raw_key, raw_val = pair.split(":", 1)
         key = int(raw_key.strip())
         mapping[key] = raw_val.strip()
@@ -55,8 +51,6 @@ def _parse_value_map(value: str) -> Dict[int, str]:
 
 
 def _load_missing_codes(parser: configparser.ConfigParser) -> List[int]:
-    if "missing_codes" not in parser or "codes" not in parser["missing_codes"]:
-        return []
     return [int(item) for item in _parse_list(parser["missing_codes"]["codes"])]
 
 
@@ -70,10 +64,6 @@ def _load_mappings(parser: configparser.ConfigParser) -> List[Dict[str, Any]]:
             continue
         sources = _parse_list(cfg.get("source", ""))
         targets = _parse_list(cfg.get("target", ""))
-        if not sources:
-            continue
-        if targets and len(targets) != len(sources):
-            continue
         if not targets:
             targets = sources
         raw_map = _parse_value_map(cfg.get("map_json") or cfg.get("map", ""))
@@ -108,19 +98,8 @@ def load_configured_fields(
         base_fields = section_fields
 
     requested = list(dict.fromkeys(field_names or base_fields.keys()))
-
-    if not requested:
-        return pd.DataFrame()
-
     resolved_path = Path(resolved_path) if isinstance(resolved_path, Path) else resolved_path
-    available_columns = pd.read_csv(resolved_path, nrows = 0).columns.tolist()
-
-    selected = [col for col in requested if col in available_columns]
-
-    if not selected:
-        return pd.DataFrame(columns = requested)
-
-    return pd.read_csv(resolved_path, usecols = selected, low_memory = False)
+    return pd.read_csv(resolved_path, usecols = requested, low_memory = False)
 
 
 def process_data(df: pd.DataFrame, process_config: str | Path | configparser.ConfigParser) -> pd.DataFrame:
@@ -130,16 +109,14 @@ def process_data(df: pd.DataFrame, process_config: str | Path | configparser.Con
     mappings = _load_mappings(parser)
 
     df_processed = df.copy()
-    if missing_codes:
-        df_processed = df_processed.replace(missing_codes, np.nan)
+    df_processed = df_processed.replace(missing_codes, np.nan)
 
     for mapping in mappings:
         map_dict = mapping.get("map")
         for source, target in zip(mapping["sources"], mapping["targets"]):
-            if source in df_processed.columns:
-                df_processed[target] = (
-                    df_processed[source].map(map_dict) if map_dict else df_processed[source]
-                )
+            df_processed[target] = (
+                df_processed[source].map(map_dict) if map_dict else df_processed[source]
+            )
 
     return df_processed
 

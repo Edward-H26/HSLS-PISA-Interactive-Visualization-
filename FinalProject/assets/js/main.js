@@ -5,9 +5,11 @@ const MIN_NAV_GAP = 700;
 const EDGE_NAV_GAP = 700;
 const HORIZONTAL_DOMINANCE = 1.2;
 const HORIZONTAL_NAV_GAP = 400;
-const HORIZONTAL_TRIGGER = 40;        // total normalized delta needed to fire
-const HORIZONTAL_NOISE = 6;           // ignore tiny jitters
-const HORIZONTAL_GESTURE_TIMEOUT = 120; // ms to wait before finalizing a gesture
+const HORIZONTAL_NOISE = 4;
+const HORIZONTAL_TRIGGER = 40;
+const HORIZONTAL_GESTURE_TIMEOUT = 140;
+const HORIZONTAL_SIGN_DEFAULT = navigator.platform.toUpperCase().includes("MAC") ? -1 : 1;
+const SWIPE_INVERT_MULTIPLIER = new URLSearchParams(window.location.search).get("invertSwipe") === "1" ? -1 : 1;
 
 const scrollContainer = document.getElementById("scroll-container");
 const panels = Array.from(document.querySelectorAll(".panel"));
@@ -198,7 +200,6 @@ function goToPanel(index, source = "generic") {
   }
   scrollToPanel(nextIndex);
   lockTransition();
-  // keep state in sync for nav pills/dots
   updateActiveStates(nextIndex);
   checkNavbarVisibility();
 }
@@ -271,10 +272,7 @@ function initScrollHandling() {
 
   scrollContainer.addEventListener("wheel", (e) => {
     if (e.defaultPrevented) return;
-    if (isTransitioning) {
-      e.preventDefault();
-      return;
-    }
+    if (isTransitioning) return;
 
     const dx = e.deltaX;
     const absX = Math.abs(dx);
@@ -283,31 +281,78 @@ function initScrollHandling() {
 
     if (now < horizontalLockUntil) {
       if (absX > absY) e.preventDefault();
+      resetHorizontalGesture();
       return;
     }
 
     const isHorizontal = absX > absY * HORIZONTAL_DOMINANCE;
-    if (!isHorizontal || absX < HORIZONTAL_THRESHOLD) return;
+    if (!isHorizontal || absX < HORIZONTAL_NOISE) return;
 
     e.preventDefault();
 
-    // Determine sign factor once per wheel event using wheelDeltaX if available.
-    const signFactor = (typeof e.wheelDeltaX === "number" && e.wheelDeltaX !== 0 && dx !== 0)
-      ? (Math.sign(dx) === Math.sign(e.wheelDeltaX) ? 1 : -1)
-      : 1;
+    if (wheelSignFactor === null) {
+      wheelSignFactor = HORIZONTAL_SIGN_DEFAULT * SWIPE_INVERT_MULTIPLIER;
+      if (typeof e.wheelDeltaX === "number" && e.wheelDeltaX !== 0 && dx !== 0) {
+        wheelSignFactor = (Math.sign(dx) === Math.sign(e.wheelDeltaX) ? 1 : -1) * SWIPE_INVERT_MULTIPLIER;
+      }
+    }
 
-    const effectiveDx = dx * signFactor;
-    if (Math.abs(effectiveDx) < HORIZONTAL_THRESHOLD) return;
+    const normalized = dx * wheelSignFactor;
+    if (Math.abs(normalized) < HORIZONTAL_NOISE) return;
 
-    const direction = effectiveDx > 0 ? 1 : -1; // swipe left -> next, swipe right -> previous
-    const before = currentIndex;
-    goToPanel(currentIndex + direction, "horizontal");
-    if (before !== currentIndex) {
-      lastHorizontalNavTime = now;
-      horizontalLockUntil = now + HORIZONTAL_NAV_GAP;
+    if (gestureAccumX !== 0 && normalized * gestureAccumX < 0) {
+      gestureAccumX = 0;
+    }
+    gestureAccumX += normalized;
+
+    clearTimeout(gestureTimer);
+    gestureTimer = setTimeout(finalizeHorizontalGesture, HORIZONTAL_GESTURE_TIMEOUT);
+
+    if (Math.abs(gestureAccumX) >= HORIZONTAL_TRIGGER) {
+      finalizeHorizontalGesture();
     }
   }, { passive: false });
   scrollContainer.addEventListener("scroll", () => requestAnimationFrame(handleScroll));
+}
+
+function finalizeHorizontalGesture() {
+  if (gestureTimer) {
+    clearTimeout(gestureTimer);
+    gestureTimer = null;
+  }
+
+  if (isTransitioning) {
+    resetHorizontalGesture();
+    return;
+  }
+
+  const now = Date.now();
+  if (now - lastHorizontalNavTime < HORIZONTAL_NAV_GAP) {
+    resetHorizontalGesture();
+    return;
+  }
+
+  if (Math.abs(gestureAccumX) < HORIZONTAL_TRIGGER) {
+    resetHorizontalGesture();
+    return;
+  }
+
+  const direction = gestureAccumX < 0 ? 1 : -1;
+  const before = currentIndex;
+  goToPanel(currentIndex + direction, "horizontal");
+  if (before !== currentIndex) {
+    lastHorizontalNavTime = now;
+    horizontalLockUntil = now + HORIZONTAL_NAV_GAP;
+  }
+  resetHorizontalGesture();
+}
+
+function resetHorizontalGesture() {
+  gestureAccumX = 0;
+  if (gestureTimer) {
+    clearTimeout(gestureTimer);
+    gestureTimer = null;
+  }
 }
 
 function handleScroll() {
