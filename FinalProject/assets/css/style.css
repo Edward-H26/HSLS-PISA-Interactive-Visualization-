@@ -1,5 +1,3 @@
-/* Data visualization showcase - glassmorphism + liquid glass design */
-
 :root {
   --bg: #030712;
   --bg-glow-1: rgba(76, 141, 255, 0.22);
@@ -35,8 +33,6 @@ body {
 h1, h2, h3 { margin: 0; font-weight: 300; }
 p { margin: 0; color: var(--muted); }
 
-/* Animated background */
-
 #bg-container {
   position: fixed;
   inset: 0;
@@ -70,8 +66,6 @@ p { margin: 0; color: var(--muted); }
   100% { transform: translate(60px, 60px); }
 }
 
-/* Floating objects (fast, tilted) */
-
 .floating-objects {
   position: absolute;
   inset: 0;
@@ -89,9 +83,6 @@ p { margin: 0; color: var(--muted); }
   height: 100%;
 }
 
-/* Floating objects - faster, more tilted, varied sizes */
-
-/* Books - different sizes */
 .book-1 {
   width: 80px; height: 80px;
   top: 5%; left: 3%;
@@ -113,7 +104,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-3 5s ease-in-out infinite;
 }
 
-/* Pencils - different sizes */
 .pencil-1 {
   width: 70px; height: 70px;
   top: 35%; left: 92%;
@@ -135,7 +125,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-2 5s ease-in-out infinite;
 }
 
-/* Ruler */
 .ruler {
   width: 100px; height: 28px;
   top: 55%; left: 1%;
@@ -143,7 +132,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-5 7s ease-in-out infinite;
 }
 
-/* Calculator */
 .calculator {
   width: 55px; height: 72px;
   bottom: 35%; right: 2%;
@@ -151,7 +139,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-3 6s ease-in-out infinite reverse;
 }
 
-/* Lightbulb - ideas */
 .lightbulb {
   width: 48px; height: 58px;
   top: 3%; right: 45%;
@@ -159,7 +146,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-4 8s ease-in-out infinite;
 }
 
-/* Chart/Graph */
 .chart {
   width: 72px; height: 72px;
   bottom: 5%; left: 55%;
@@ -167,7 +153,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-1 5s ease-in-out infinite;
 }
 
-/* Graduation cap */
 .graduation {
   width: 75px; height: 52px;
   top: 80%; left: 75%;
@@ -175,7 +160,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-2 6s ease-in-out infinite;
 }
 
-/* Globe */
 .globe {
   width: 60px; height: 60px;
   top: 25%; left: 45%;
@@ -183,7 +167,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-3 9s ease-in-out infinite;
 }
 
-/* Notebook */
 .notebook {
   width: 45px; height: 55px;
   bottom: 45%; right: 88%;
@@ -191,7 +174,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-4 7s ease-in-out infinite;
 }
 
-/* Eraser */
 .eraser {
   width: 35px; height: 25px;
   top: 48%; right: 35%;
@@ -199,7 +181,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-5 5s ease-in-out infinite;
 }
 
-/* Scissors */
 .scissors {
   width: 50px; height: 50px;
   bottom: 60%; left: 8%;
@@ -207,7 +188,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-1 6s ease-in-out infinite reverse;
 }
 
-/* Backpack */
 .backpack {
   width: 58px; height: 70px;
   top: 88%; left: 12%;
@@ -215,7 +195,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-2 8s ease-in-out infinite;
 }
 
-/* Apple (teacher's apple) */
 .apple {
   width: 42px; height: 48px;
   top: 12%; left: 65%;
@@ -223,7 +202,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-3 5s ease-in-out infinite;
 }
 
-/* Clock */
 .clock {
   width: 52px; height: 52px;
   bottom: 75%; right: 15%;
@@ -231,7 +209,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-4 6s ease-in-out infinite;
 }
 
-/* Math symbols */
 .math-symbols {
   width: 38px; height: 38px;
   top: 62%; right: 55%;
@@ -239,7 +216,6 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-5 7s ease-in-out infinite;
 }
 
-/* Fast, tilted floating animations */
 @keyframes float-tilt-1 {
   0%, 100% { transform: translate(0, 0) rotate(-15deg); }
   25% { transform: translate(25px, -35px) rotate(15deg); }
@@ -270,7 +246,6 @@ p { margin: 0; color: var(--muted); }
   50% { transform: translate(40px, -30px) rotate(30deg); }
 }
 
-/* Particles */
 .particles {
   position: absolute;
   inset: 0;
@@ -293,7 +268,6 @@ p { margin: 0; color: var(--muted); }
   100% { transform: translateY(-10vh) scale(0.5); opacity: 0; }
 }
 
-/* Noise Overlay */
 .noise-overlay {
   pointer-events: none;
   position: fixed;
@@ -303,8 +277,6 @@ p { margin: 0; color: var(--muted); }
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   mix-blend-mode: overlay;
 }
-
-/* Top navigation (hidden by default) */
 
 .top-nav {
   position: fixed;
@@ -322,7 +294,6 @@ p { margin: 0; color: var(--muted); }
   background: linear-gradient(180deg, rgba(3, 7, 18, 0.95) 0%, rgba(3, 7, 18, 0.7) 100%);
   border-bottom: 1px solid var(--glass-border);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-  /* Hidden by default - must use !important to override any issues */
   transform: translateY(-100%) !important;
   opacity: 0 !important;
   visibility: hidden;
@@ -425,15 +396,12 @@ p { margin: 0; color: var(--muted); }
   transform: translateY(-2px);
 }
 
-/* Scroll container */
-
 .scroll-container {
   height: 100vh;
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden; /* Changed from auto to hidden to prevent user scroll interaction fighting JS */
   overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+  /* scroll-snap-type removed */
   position: relative;
   z-index: 2;
   -webkit-overflow-scrolling: touch;
@@ -441,10 +409,8 @@ p { margin: 0; color: var(--muted); }
 
 .scroll-container::-webkit-scrollbar { display: none; }
 
-/* Panels */
-
 .panel {
-  scroll-snap-align: start;
+  /* scroll-snap-align removed */
   flex: 0 0 100vw;
   height: 100vh;
   display: flex;
@@ -471,12 +437,10 @@ p { margin: 0; color: var(--muted); }
   touch-action: pan-y;
 }
 
-/* Add top padding when nav is visible to prevent overlap */
 body.nav-visible .panel-inner {
   padding-top: 130px;
 }
 
-/* Fallback for browsers that support :has() */
 body:has(.top-nav.visible) .panel-inner {
   padding-top: 130px;
 }
@@ -484,8 +448,6 @@ body:has(.top-nav.visible) .panel-inner {
 .panel-inner::-webkit-scrollbar { width: 6px; }
 .panel-inner::-webkit-scrollbar-track { background: transparent; }
 .panel-inner::-webkit-scrollbar-thumb { background: var(--glass-border); border-radius: 3px; }
-
-/* Visualization section */
 
 .viz-section {
   width: min(1400px, 94vw);
@@ -523,8 +485,6 @@ body:has(.top-nav.visible) .panel-inner {
   text-align: center;
   width: 100%;
 }
-
-/* Visualization card (no 3D tilt) */
 
 .viz-card {
   position: relative;
@@ -578,8 +538,6 @@ body:has(.top-nav.visible) .panel-inner {
   height: auto !important;
 }
 
-/* Description section */
-
 .description-section {
   width: min(1400px, 94vw);
   margin: 40px auto 0;
@@ -630,8 +588,6 @@ body:has(.top-nav.visible) .panel-inner {
   color: var(--accent);
 }
 
-/* Swipe hint (aligned with badge) */
-
 .swipe-hint {
   display: flex;
   align-items: center;
@@ -662,8 +618,6 @@ body:has(.top-nav.visible) .panel-inner {
 .swipe-hint .arrow-right {
   animation: bounce-right 1.5s ease-in-out infinite;
 }
-
-/* Progress indicator */
 
 .progress-indicator {
   position: fixed;
@@ -714,8 +668,6 @@ body:has(.top-nav.visible) .panel-inner {
   box-shadow: 0 0 12px var(--glow-blue);
 }
 
-/* Loading & animations */
-
 .loading-spinner {
   width: 40px;
   height: 40px;
@@ -744,8 +696,6 @@ body:has(.top-nav.visible) .panel-inner {
   0%, 100% { transform: translateX(0); }
   50% { transform: translateX(-6px); }
 }
-
-/* Responsive */
 
 @media (max-width: 960px) {
   .top-nav { flex-wrap: wrap; gap: 10px; padding: 14px 20px; }
