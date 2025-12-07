@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -21,32 +21,6 @@
     }
   },
   "datasets": {
-    "data-0b86d72c745edd2121874ab97cc55cff": [
-      {
-        "Gender": "Female",
-        "Language_Group": "Dual Language",
-        "Mean_Efficacy": -0.13025881632808287,
-        "Source": "HSLS"
-      },
-      {
-        "Gender": "Male",
-        "Language_Group": "Dual Language",
-        "Mean_Efficacy": -0.16435881571185587,
-        "Source": "HSLS"
-      },
-      {
-        "Gender": "Female",
-        "Language_Group": "English Only",
-        "Mean_Efficacy": 0.007759590350921286,
-        "Source": "HSLS"
-      },
-      {
-        "Gender": "Male",
-        "Language_Group": "English Only",
-        "Mean_Efficacy": 0.02817854153029529,
-        "Source": "HSLS"
-      }
-    ],
     "data-6ee2cd2ef0082fe9c9ab4988e588aca3": [
       {
         "Gender": "Female",
@@ -71,6 +45,32 @@
         "Language_Group": "Other Language",
         "Mean_Efficacy": -0.1294667319240609,
         "Source": "PISA US"
+      }
+    ],
+    "data-b83ae10c8b5e45b15fd06637001234f9": [
+      {
+        "Gender": "Female",
+        "Language_Group": "Dual Language",
+        "Mean_Efficacy": -0.1302588163280829,
+        "Source": "HSLS"
+      },
+      {
+        "Gender": "Male",
+        "Language_Group": "Dual Language",
+        "Mean_Efficacy": -0.1643588157118559,
+        "Source": "HSLS"
+      },
+      {
+        "Gender": "Female",
+        "Language_Group": "English Only",
+        "Mean_Efficacy": 0.007759590350921251,
+        "Source": "HSLS"
+      },
+      {
+        "Gender": "Male",
+        "Language_Group": "English Only",
+        "Mean_Efficacy": 0.02817854153029526,
+        "Source": "HSLS"
       }
     ]
   },
@@ -140,7 +140,7 @@
     },
     {
       "data": {
-        "name": "data-0b86d72c745edd2121874ab97cc55cff"
+        "name": "data-b83ae10c8b5e45b15fd06637001234f9"
       },
       "encoding": {
         "color": {

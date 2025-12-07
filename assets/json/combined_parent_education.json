@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -21,10 +21,10 @@
     }
   },
   "data": {
-    "name": "data-3ea260f6093f722e581d3439b1be9334"
+    "name": "data-959de02e1cda713958d133fcec7422ef"
   },
   "datasets": {
-    "data-3ea260f6093f722e581d3439b1be9334": [
+    "data-959de02e1cda713958d133fcec7422ef": [
       {
         "Math_Score": 0.37454002612442483,
         "Parent_Education": "Bachelor's",
@@ -32,15 +32,15 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.1513232164499713,
+        "Math_Score": -0.1513232164499707,
         "Parent_Education": "Bachelor's",
-        "Premium": 0.5952071343885328,
+        "Premium": 0.5952071343885327,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": 0.0645033071233544,
+        "Math_Score": 0.06450330712335495,
         "Parent_Education": "Bachelor's",
-        "Premium": 0.1644684329354347,
+        "Premium": 0.16446843293543467,
         "Source": "PISA US (2022)"
       },
       {
@@ -50,15 +50,15 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": 0.18150764123169738,
+        "Math_Score": 0.1815076412316979,
         "Parent_Education": "Graduate+",
-        "Premium": 0.9280379920702014,
+        "Premium": 0.9280379920702013,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": 0.41600874399087534,
+        "Math_Score": 0.41600874399087584,
         "Parent_Education": "Graduate+",
-        "Premium": 0.5159738698029557,
+        "Premium": 0.5159738698029556,
         "Source": "PISA US (2022)"
       },
       {
@@ -68,15 +68,15 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.4652353472809977,
+        "Math_Score": -0.46523534728099714,
         "Parent_Education": "HS Diploma",
-        "Premium": 0.28129500355750636,
+        "Premium": 0.28129500355750625,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": -0.31717294149595326,
+        "Math_Score": -0.31717294149595265,
         "Parent_Education": "HS Diploma",
-        "Premium": -0.21720781568387298,
+        "Premium": -0.21720781568387293,
         "Source": "PISA US (2022)"
       },
       {
@@ -86,13 +86,13 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.746530350838504,
+        "Math_Score": -0.7465303508385034,
         "Parent_Education": "Less than HS",
         "Premium": 0.0,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": -0.0999651258120803,
+        "Math_Score": -0.09996512581207972,
         "Parent_Education": "Less than HS",
         "Premium": 0.0,
         "Source": "PISA US (2022)"
@@ -104,15 +104,15 @@
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.14648954512756746,
+        "Math_Score": -0.14648954512756687,
         "Parent_Education": "Some College",
         "Premium": 0.6000408057109365,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": -0.015179366325813449,
+        "Math_Score": -0.015179366325812885,
         "Parent_Education": "Some College",
-        "Premium": 0.08478575948626685,
+        "Premium": 0.08478575948626683,
         "Source": "PISA US (2022)"
       }
     ]

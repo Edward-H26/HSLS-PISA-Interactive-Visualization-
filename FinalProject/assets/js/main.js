@@ -19,11 +19,9 @@ let isTransitioning = false;
 let transitionTimeout = null;
 let lastNavTime = 0;
 let lastEdgeNavTime = 0;
-let lastHorizontalNavTime = 0;
 let lastVerticalNavTime = 0;
 let dxSum = 0;
 let dxTimer = null;
-let gestureSign = 0;
 let horizontalLockUntil = 0;
 
 function initParticles() {
@@ -183,13 +181,15 @@ function lockTransition() {
   }, TRANSITION_LOCK_MS);
 }
 
-function goToPanel(index) {
+function goToPanel(index, source = "generic") {
   const nextIndex = clampIndex(index);
   if (nextIndex === currentIndex || isTransitioning) return;
   const now = Date.now();
-  if (now - lastNavTime < MIN_NAV_GAP) return;
-  lastNavTime = now;
-  lastVerticalNavTime = now;
+  if (source !== "horizontal") {
+    if (now - lastNavTime < MIN_NAV_GAP) return;
+    lastNavTime = now;
+    if (source === "vertical") lastVerticalNavTime = now;
+  }
   scrollToPanel(nextIndex);
   lockTransition();
   // keep state in sync for nav pills/dots
@@ -210,7 +210,7 @@ function initNavigation() {
   navButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const index = parseInt(btn.dataset.target);
-      if (!Number.isNaN(index)) goToPanel(index);
+      if (!Number.isNaN(index)) goToPanel(index, "nav");
     });
   });
 }
@@ -221,10 +221,10 @@ function initKeyboard() {
 
     if (e.key === "ArrowRight") {
       e.preventDefault();
-      goToPanel(currentIndex + 1);
+      goToPanel(currentIndex + 1, "horizontal");
     } else if (e.key === "ArrowLeft") {
       e.preventDefault();
-      goToPanel(currentIndex - 1);
+      goToPanel(currentIndex - 1, "horizontal");
     }
   });
 }
@@ -250,7 +250,7 @@ function initScrollHandling() {
         edgeLocked = true;
         e.preventDefault();
         e.stopPropagation();
-        goToPanel(panelIndex + (deltaY > 0 ? 1 : -1));
+        goToPanel(panelIndex + (deltaY > 0 ? 1 : -1), "vertical");
       }
     }, { passive: false });
 
@@ -269,49 +269,42 @@ function initScrollHandling() {
       return;
     }
 
-    const now = Date.now();
-    if (now < horizontalLockUntil) return;
-
-    // Only handle horizontal gestures at the container level.
-    if (e.target.closest(".panel-inner")) return;
-
     const dx = e.deltaX;
     const dy = e.deltaY;
     const absX = Math.abs(dx);
     const absY = Math.abs(dy);
+
+    const now = Date.now();
+    if (now < horizontalLockUntil) {
+      if (absX > absY) e.preventDefault();
+      return;
+    }
+
+    // Only handle horizontal gestures at the container level.
+    if (e.target.closest(".panel-inner")) return;
+
     const isHorizontal = absX > absY * HORIZONTAL_DOMINANCE;
     if (!isHorizontal || absX < HORIZONTAL_THRESHOLD) return;
 
     e.preventDefault();
-
-    const sign = Math.sign(dx) || 0;
-    if (gestureSign === 0 && sign !== 0) {
-      gestureSign = sign;
-    }
-    // Ignore opposite-direction deltas within the same gesture window.
-    if (gestureSign !== 0 && sign !== 0 && sign !== gestureSign) {
-      return;
-    }
 
     dxSum += dx;
     clearTimeout(dxTimer);
     dxTimer = setTimeout(() => {
       if (isTransitioning) {
         dxSum = 0;
-        gestureSign = 0;
         return;
       }
-      if (Math.abs(dxSum) >= HORIZONTAL_TRIGGER && gestureSign !== 0) {
-        // Trackpad on macOS typically gives negative dx for a rightward swipe.
-        const direction = gestureSign < 0 ? 1 : -1;
+      if (Math.abs(dxSum) >= HORIZONTAL_TRIGGER) {
+        // Negative dx (scrolling left) moves forward; positive dx (scrolling right) moves backward.
+        const direction = dxSum < 0 ? 1 : -1;
         const before = currentIndex;
-        goToPanel(currentIndex + direction);
+        goToPanel(currentIndex + direction, "horizontal");
         if (before !== currentIndex) {
           horizontalLockUntil = Date.now() + HORIZONTAL_NAV_GAP;
         }
       }
       dxSum = 0;
-      gestureSign = 0;
     }, HORIZONTAL_WINDOW_MS);
   }, { passive: false });
 
@@ -397,7 +390,7 @@ function initTouch() {
 
     if (isHorizontalSwipe && isFastEnough && isQuickEnough) {
       e.preventDefault();
-      goToPanel(deltaX < 0 ? currentIndex + 1 : currentIndex - 1);
+      goToPanel(deltaX < 0 ? currentIndex + 1 : currentIndex - 1, "horizontal");
     }
   }, { passive: false });
 }

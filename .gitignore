@@ -10,6 +10,8 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+myenv_new
+myenv
 
 # macOS
 .DS_Store

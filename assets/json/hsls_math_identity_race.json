@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -30133,145 +30133,82 @@
         "fontSize": 14,
         "text": "Click Race/Ethnicity"
       },
-      "width": 450
+      "width": 300
     },
     {
       "data": {
         "name": "data-5c74fdaf9b0ce379aacfb8139da96944"
       },
-      "height": 350,
-      "layer": [
-        {
-          "encoding": {
-            "color": {
-              "field": "Gender",
-              "legend": {
-                "orient": "top",
-                "title": "Gender"
-              },
-              "scale": {
-                "domain": [
-                  "Female",
-                  "Male"
-                ],
-                "range": [
-                  "#E91E63",
-                  "#1976D2"
-                ]
-              },
-              "type": "nominal"
-            },
-            "tooltip": [
-              {
-                "field": "Race",
-                "type": "nominal"
-              },
-              {
-                "field": "Gender",
-                "type": "nominal"
-              },
-              {
-                "field": "Math_Identity",
-                "format": ".2f",
-                "type": "quantitative"
-              },
-              {
-                "field": "Math_Score",
-                "format": ".1f",
-                "type": "quantitative"
-              }
+      "encoding": {
+        "color": {
+          "field": "Gender",
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
             ],
-            "x": {
-              "field": "Math_Identity",
-              "scale": {
-                "domain": [
-                  -3,
-                  3
-                ]
-              },
-              "title": "Math Identity Score",
-              "type": "quantitative"
-            },
-            "y": {
-              "field": "Math_Score",
-              "scale": {
-                "domain": [
-                  20,
-                  80
-                ]
-              },
-              "title": "Math Test Score",
-              "type": "quantitative"
-            }
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
           },
-          "mark": {
-            "opacity": 0.4,
-            "size": 30,
-            "type": "circle"
-          },
-          "transform": [
-            {
-              "filter": {
-                "param": "race_select"
-              }
-            }
-          ]
+          "type": "nominal"
         },
-        {
-          "encoding": {
-            "color": {
-              "field": "Gender",
-              "scale": {
-                "domain": [
-                  "Female",
-                  "Male"
-                ],
-                "range": [
-                  "#E91E63",
-                  "#1976D2"
-                ]
-              },
-              "type": "nominal"
-            },
-            "x": {
-              "field": "Math_Identity",
-              "type": "quantitative"
-            },
-            "y": {
-              "field": "Math_Score",
-              "type": "quantitative"
-            }
+        "tooltip": [
+          {
+            "field": "Race",
+            "type": "nominal"
           },
-          "mark": {
-            "strokeDash": [
-              5,
-              5
-            ],
-            "strokeWidth": 3,
-            "type": "line"
+          {
+            "field": "Gender",
+            "type": "nominal"
           },
-          "transform": [
-            {
-              "filter": {
-                "param": "race_select"
-              }
-            },
-            {
-              "groupby": [
-                "Gender"
-              ],
-              "on": "Math_Identity",
-              "regression": "Math_Score"
-            }
-          ]
+          {
+            "field": "Math_Identity",
+            "format": ".2f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Math_Score",
+            "format": ".1f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Math_Identity",
+          "scale": {
+            "domain": [
+              -3,
+              3
+            ]
+          },
+          "title": "Math Identity",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Math_Score",
+          "title": "Math Standardized Score",
+          "type": "quantitative"
         }
-      ],
+      },
+      "height": 350,
+      "mark": {
+        "opacity": 0.3,
+        "type": "circle"
+      },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Identity vs Achievement (descriptive)"
+        "text": "Identity vs Achievement"
       },
-      "width": 450
+      "transform": [
+        {
+          "filter": {
+            "param": "race_select"
+          }
+        }
+      ],
+      "width": 400
     }
   ],
   "params": [

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -24153,10 +24153,7 @@
           "encoding": {
             "color": {
               "field": "Gender",
-              "legend": {
-                "orient": "top",
-                "title": "Gender"
-              },
+              "legend": null,
               "scale": {
                 "domain": [
                   "Female",
@@ -24171,18 +24168,16 @@
             },
             "tooltip": [
               {
-                "field": "Gender",
-                "type": "nominal"
-              },
-              {
                 "field": "Anxiety",
-                "format": ".2f",
                 "type": "quantitative"
               },
               {
                 "field": "Math_Score",
-                "format": ".0f",
                 "type": "quantitative"
+              },
+              {
+                "field": "Gender",
+                "type": "nominal"
               }
             ],
             "x": {
@@ -24225,16 +24220,6 @@
           "encoding": {
             "color": {
               "field": "Gender",
-              "scale": {
-                "domain": [
-                  "Female",
-                  "Male"
-                ],
-                "range": [
-                  "#E91E63",
-                  "#1976D2"
-                ]
-              },
               "type": "nominal"
             },
             "x": {
@@ -24247,21 +24232,22 @@
             }
           },
           "mark": {
-            "strokeWidth": 3,
+            "color": "white",
+            "size": 3,
             "type": "line"
           },
           "transform": [
-            {
-              "filter": {
-                "param": "anxiety_select"
-              }
-            },
             {
               "groupby": [
                 "Gender"
               ],
               "loess": "Math_Score",
               "on": "Anxiety"
+            },
+            {
+              "filter": {
+                "param": "anxiety_select"
+              }
             }
           ]
         }
@@ -24269,7 +24255,7 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Anxiety vs Achievement"
+        "text": "Anxiety vs Math Score Distribution"
       },
       "width": 450
     }
