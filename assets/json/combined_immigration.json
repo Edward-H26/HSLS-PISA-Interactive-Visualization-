@@ -1317,8 +1317,7 @@
             "domain": [
               480,
               590
-            ],
-            "zero": false
+            ]
           },
           "title": "Average Math Score",
           "type": "quantitative"
@@ -1335,10 +1334,10 @@
       },
       "height": 360,
       "mark": {
-        "cornerRadiusBottomRight": 4,
-        "cornerRadiusTopRight": 4,
         "cursor": "pointer",
-        "type": "bar"
+        "filled": true,
+        "size": 150,
+        "type": "point"
       },
       "name": "view_1",
       "title": {

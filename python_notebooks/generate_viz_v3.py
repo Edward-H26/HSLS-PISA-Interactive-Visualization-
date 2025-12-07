@@ -90,12 +90,12 @@ left_chart = alt.Chart(driver_data).mark_bar(
     width=400, height=320
 )
 
-right_chart = alt.Chart(driven_data).mark_bar(
-    cornerRadiusTopRight=4, cornerRadiusBottomRight=4
+right_chart = alt.Chart(driven_data).mark_point(
+    filled=True, size=120
 ).encode(
     y=alt.Y("Gender:N", title=None),
     yOffset=alt.YOffset("Confidence_Level:N", sort=conf_order),
-    x=alt.X("Avg_Math:Q", title="Average Math Score", scale=alt.Scale(zero=False, domain=[380, 560])),
+    x=alt.X("Avg_Math:Q", title="Average Math Score", scale=alt.Scale(domain=[380, 560])),
     color=alt.Color("Gender:N",
                     scale=alt.Scale(domain=["Female", "Male"], range=["#E91E63", "#1976D2"]),
                     legend=alt.Legend(title="Gender", orient="top")),
@@ -161,12 +161,12 @@ left_chart = alt.Chart(heatmap_data).mark_rect(cursor="pointer").encode(
     width=200, height=300
 )
 
-right_chart = alt.Chart(country_data).mark_bar(
-    cornerRadiusTopRight=4, cornerRadiusBottomRight=4
+right_chart = alt.Chart(country_data).mark_point(
+    filled=True, size=120
 ).encode(
     y=alt.Y("Country:N", title=None, sort=alt.EncodingSortField(field="Mean_Math", order="descending")),
     yOffset=alt.YOffset("Gender:N"),
-    x=alt.X("Mean_Math:Q", title="Average Math Score", scale=alt.Scale(zero=False, domain=[450, 600])),
+    x=alt.X("Mean_Math:Q", title="Average Math Score", scale=alt.Scale(domain=[450, 580])),
     color=alt.Color("Gender:N",
                     scale=alt.Scale(domain=["Female", "Male"], range=["#E91E63", "#1976D2"]),
                     legend=alt.Legend(title="Gender", orient="top")),
@@ -219,11 +219,11 @@ driven_data["Country"] = driven_data["CNT"].map(country_names).fillna(driven_dat
 
 country_select = alt.selection_point(fields=["Country"], name="country_select")
 
-left_chart = alt.Chart(country_scores).mark_bar(
-    cornerRadiusTopRight=4, cornerRadiusBottomRight=4, cursor="pointer"
+left_chart = alt.Chart(country_scores).mark_point(
+    filled=True, size=150, cursor="pointer"
 ).encode(
     y=alt.Y("Country:N", title=None, sort=alt.EncodingSortField(field="Avg_Math", order="descending")),
-    x=alt.X("Avg_Math:Q", title="Average Math Score", scale=alt.Scale(zero=False, domain=[480, 590])),
+    x=alt.X("Avg_Math:Q", title="Average Math Score", scale=alt.Scale(domain=[480, 590])),
     color=alt.Color("Education_Gap:Q",
                     scale=alt.Scale(scheme="oranges", domain=[30, 100]),
                     legend=alt.Legend(title="Education Gap", format=".0f")),

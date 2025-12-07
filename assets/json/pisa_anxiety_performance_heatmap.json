@@ -1021,9 +1021,8 @@
           "scale": {
             "domain": [
               450,
-              600
-            ],
-            "zero": false
+              580
+            ]
           },
           "title": "Average Math Score",
           "type": "quantitative"
@@ -1044,9 +1043,9 @@
       },
       "height": 300,
       "mark": {
-        "cornerRadiusBottomRight": 4,
-        "cornerRadiusTopRight": 4,
-        "type": "bar"
+        "filled": true,
+        "size": 120,
+        "type": "point"
       },
       "title": {
         "color": "#FFFFFF",
