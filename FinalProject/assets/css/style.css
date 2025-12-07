@@ -501,6 +501,7 @@ body:has(.top-nav.visible) .panel-inner {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  gap: 12px;
 }
 
 .badge-text {
@@ -542,7 +543,7 @@ body:has(.top-nav.visible) .panel-inner {
   border: 1px solid var(--liquid-border);
   border-radius: var(--radius-lg);
   padding: 24px;
-  min-height: 420px;
+  min-height: 500px;
   width: 100%;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
