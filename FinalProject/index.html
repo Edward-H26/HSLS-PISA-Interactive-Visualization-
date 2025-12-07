@@ -228,6 +228,9 @@
       <button data-target="3">Viz 4</button>
       <button data-target="4">Viz 5</button>
       <button data-target="5">Viz 6</button>
+      <button data-target="6">Viz 7</button>
+      <button data-target="7">Viz 8</button>
+      <button data-target="8">Viz 9</button>
     </div>
     <button class="pill pill-primary" data-target="0">Explore</button>
   </nav>
@@ -239,27 +242,23 @@
     <section class="panel" data-index="0">
       <div class="panel-inner" data-panel="0">
         <div class="viz-section">
-          <div class="viz-header">
-            <div class="viz-badge">
-              <span class="badge-number">01</span>
-              <span class="badge-text">Visualization</span>
+            <div class="viz-header">
+              <div class="swipe-spacer"></div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
             </div>
-            <div class="swipe-hint">
-              <span>Swipe</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-          </div>
-          <h1 class="viz-title">Building Age & Size Analysis</h1>
-          
           <div class="viz-card">
+            <h1 class="viz-title">Gender Gap in Math Efficacy</h1>
             <div class="viz-chart-container">
               <div id="viz-chart-1" class="vega-chart"></div>
             </div>
           </div>
         </div>
-        
+
         <div class="description-section">
           <div class="description-card">
             <h3 class="description-title">
@@ -270,9 +269,9 @@
               Description
             </h3>
             <div class="description-content">
-              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
-              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
-              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+              <p><strong>Interaction:</strong> Click any country in the left dumbbell chart to see that country's detailed gender breakdown (Female vs Male efficacy scores) displayed in the right bar chart.</p>
+              <p>This PISA 2022 visualization uses a dumbbell chart to show gender gaps in math self-efficacy across the top 20 countries with the largest gaps. Each horizontal line connects the Female (pink) and Male (blue) efficacy scores for a country.</p>
+              <p>Math self-efficacy measures students' confidence in their mathematical abilities. Countries with longer lines between points have larger gender gaps. Click a country to compare specific Female and Male scores in the driven chart.</p>
             </div>
           </div>
         </div>
@@ -283,27 +282,28 @@
     <section class="panel" data-index="1">
       <div class="panel-inner" data-panel="1">
         <div class="viz-section">
-          <div class="viz-header">
-            <div class="viz-badge">
-              <span class="badge-number">02</span>
-              <span class="badge-text">Visualization</span>
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
             </div>
-            <div class="swipe-hint">
-              <span>Swipe</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-          </div>
-          <h1 class="viz-title">Usage Type & Location</h1>
-          
           <div class="viz-card">
+            <h1 class="viz-title">Math Anxiety vs Performance</h1>
             <div class="viz-chart-container">
               <div id="viz-chart-2" class="vega-chart"></div>
             </div>
           </div>
         </div>
-        
+
         <div class="description-section">
           <div class="description-card">
             <h3 class="description-title">
@@ -314,9 +314,9 @@
               Description
             </h3>
             <div class="description-content">
-              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
-              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
-              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+              <p><strong>Interaction:</strong> Click any cell in the heatmap to see the gender distribution (Female vs Male student counts) for that specific combination of anxiety level and math performance level.</p>
+              <p>This PISA 2022 heatmap displays the relationship between math anxiety (Y-axis, from Very Low to Very High) and math performance levels (X-axis, Levels 1-5). Darker cells indicate higher student counts in that combination.</p>
+              <p>The inverse relationship between anxiety and performance is evident: students with "Very Low" anxiety tend to cluster at higher performance levels (4-5), while "Very High" anxiety students concentrate at lower levels (1-2). Click cells to explore gender patterns within each anxiety-performance combination.</p>
             </div>
           </div>
         </div>
@@ -327,27 +327,28 @@
     <section class="panel" data-index="2">
       <div class="panel-inner" data-panel="2">
         <div class="viz-section">
-          <div class="viz-header">
-            <div class="viz-badge">
-              <span class="badge-number">03</span>
-              <span class="badge-text">Visualization</span>
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
             </div>
-            <div class="swipe-hint">
-              <span>Swipe</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-          </div>
-          <h1 class="viz-title">Mobility Dashboard</h1>
-          
           <div class="viz-card">
+            <h1 class="viz-title">Immigration & Achievement by Region</h1>
             <div class="viz-chart-container">
               <div id="viz-chart-3" class="vega-chart"></div>
             </div>
           </div>
         </div>
-        
+
         <div class="description-section">
           <div class="description-card">
             <h3 class="description-title">
@@ -358,9 +359,9 @@
               Description
             </h3>
             <div class="description-content">
-              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
-              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
-              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+              <p><strong>Interaction:</strong> Click a region bar in the left chart (United States, OECD excluding US, or Non-OECD) to see that region's math achievement breakdown by immigration status (Native, Second-generation, First-generation) in the right chart.</p>
+              <p>This PISA 2022 visualization compares how different regions integrate immigrant students academically. The left chart shows average math scores by region, while the right reveals achievement patterns across immigration generations.</p>
+              <p>Compare the "immigrant achievement gap" across regions. Some education systems show minimal differences between native and immigrant students, while others exhibit substantial disparities that may reflect integration policies and support systems.</p>
             </div>
           </div>
         </div>
@@ -371,27 +372,28 @@
     <section class="panel" data-index="3">
       <div class="panel-inner" data-panel="3">
         <div class="viz-section">
-          <div class="viz-header">
-            <div class="viz-badge">
-              <span class="badge-number">04</span>
-              <span class="badge-text">Visualization</span>
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
             </div>
-            <div class="swipe-hint">
-              <span>Swipe</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-          </div>
-          <h1 class="viz-title">Population Distribution</h1>
-          
           <div class="viz-card">
+            <h1 class="viz-title">Parent Education & STEM by Gender</h1>
             <div class="viz-chart-container">
               <div id="viz-chart-4" class="vega-chart"></div>
             </div>
           </div>
         </div>
-        
+
         <div class="description-section">
           <div class="description-card">
             <h3 class="description-title">
@@ -402,9 +404,9 @@
               Description
             </h3>
             <div class="description-content">
-              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
-              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
-              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+              <p><strong>Interaction:</strong> Click a parent education level bar in the left chart to see the gender breakdown (Female vs Male STEM expectation rates) for that education level in the right chart.</p>
+              <p>This HSLS visualization explores how parental education influences students' STEM career expectations. The left chart shows overall STEM expectation rates by parent education level (from Less than HS to Ph.D./Professional).</p>
+              <p>Click any education level to reveal whether the gender gap in STEM expectations narrows or widens at different levels of parental educational attainment. Research suggests higher parental education may reduce gender disparities in STEM aspirations.</p>
             </div>
           </div>
         </div>
@@ -415,27 +417,28 @@
     <section class="panel" data-index="4">
       <div class="panel-inner" data-panel="4">
         <div class="viz-section">
-          <div class="viz-header">
-            <div class="viz-badge">
-              <span class="badge-number">05</span>
-              <span class="badge-text">Visualization</span>
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
             </div>
-            <div class="swipe-hint">
-              <span>Swipe</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-          </div>
-          <h1 class="viz-title">Global Choropleth Map</h1>
-          
           <div class="viz-card">
+            <h1 class="viz-title">Math Identity & Achievement by Race</h1>
             <div class="viz-chart-container">
               <div id="viz-chart-5" class="vega-chart"></div>
             </div>
           </div>
         </div>
-        
+
         <div class="description-section">
           <div class="description-card">
             <h3 class="description-title">
@@ -446,9 +449,9 @@
               Description
             </h3>
             <div class="description-content">
-              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
-              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
-              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+              <p><strong>Interaction:</strong> Click a race/ethnicity bar in the left chart to see the relationship between math identity and math achievement for that racial group displayed as a scatter plot in the right chart.</p>
+              <p>This HSLS visualization explores how "math identity" (whether students see themselves as "math people") relates to achievement across seven racial/ethnic groups. The left chart shows average math identity scores by race.</p>
+              <p>Math identity is a psychological construct that predicts STEM persistence. Click a group to see the scatter relationship between identity and achievement. Groups with stronger identity-achievement correlations may benefit most from identity-building interventions.</p>
             </div>
           </div>
         </div>
@@ -459,27 +462,28 @@
     <section class="panel" data-index="5">
       <div class="panel-inner" data-panel="5">
         <div class="viz-section">
-          <div class="viz-header">
-            <div class="viz-badge">
-              <span class="badge-number">06</span>
-              <span class="badge-text">Visualization</span>
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
             </div>
-            <div class="swipe-hint">
-              <span>Swipe</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-          </div>
-          <h1 class="viz-title">Statistical Summary</h1>
-          
           <div class="viz-card">
+            <h1 class="viz-title">GPA Trajectories by SES Quintile</h1>
             <div class="viz-chart-container">
               <div id="viz-chart-6" class="vega-chart"></div>
             </div>
           </div>
         </div>
-        
+
         <div class="description-section">
           <div class="description-card">
             <h3 class="description-title">
@@ -490,9 +494,139 @@
               Description
             </h3>
             <div class="description-content">
-              <p>This visualization presents a comprehensive analysis of Illinois state buildings through <code>buildingAgeAndSizeAnalysis</code> that consists of <code>buildingYearAndAreaScatterPlot</code> and <code>agencyCategoryHistogramPlot</code>.</p>
-              <p>By plotting <code>Year Constructed</code> against <code>Square Footage</code> on a <code>log</code> scale, the scatter plot highlights patterns over time in terms of differences in building size.</p>
-              <p>Each point represents an individual building from the <code>buildingDatasetCleaned</code> dataframe, which contains filtered records without any missing data in <code>Year Constructed</code>, <code>Year Acquired</code>, and <code>Square Footage</code> by applying <code>Year Constructed > 0</code>, <code>Year Acquired > 0</code>, and <code>Square Footage > 0</code> to the preprocessed dataframe.</p>
+              <p><strong>Interaction:</strong> Click an SES quintile bar in the left chart to see that quintile's GPA trajectory from 9th through 12th grade displayed as a line chart on the right.</p>
+              <p>This HSLS visualization tracks academic performance over time by socioeconomic status. The left chart shows average 12th grade GPA by SES quintile (1=Lowest 20%, 5=Highest 20%), using a sequential blue color scale.</p>
+              <p>Click different quintiles to compare GPA trajectories. Do achievement gaps widen, narrow, or remain stable from 9th to 12th grade? This has important implications for when to intervene to improve equity in educational outcomes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panel 7 -->
+    <section class="panel" data-index="6">
+      <div class="panel-inner" data-panel="6">
+        <div class="viz-section">
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
+            </div>
+          <div class="viz-card">
+            <h1 class="viz-title">US vs International Math Efficacy</h1>
+            <div class="viz-chart-container">
+              <div id="viz-chart-7" class="vega-chart"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p><strong>Interaction:</strong> Click a data source bar in the left chart (HSLS US 2009, PISA US 2022, or PISA International 2022) to see that source's gender breakdown in math self-efficacy in the right chart.</p>
+              <p>This combined visualization compares standardized math self-efficacy measures across three sources: the US HSLS longitudinal study from 2009, PISA 2022 US data, and PISA 2022 international data. The left chart shows mean efficacy by source, while the right reveals gender differences within each source.</p>
+              <p>By harmonizing efficacy measures through z-score standardization, this chart enables direct comparison of the gender gap in math confidence between US students at different time points and the international average.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panel 8 -->
+    <section class="panel" data-index="7">
+      <div class="panel-inner" data-panel="7">
+        <div class="viz-section">
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-hint swipe-right">
+                <span>Swipe</span>
+                <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+              </div>
+            </div>
+          <div class="viz-card">
+            <h1 class="viz-title">SES-Achievement Gradient Comparison</h1>
+            <div class="viz-chart-container">
+              <div id="viz-chart-8" class="vega-chart"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p><strong>Interaction:</strong> Click a data source bar in the left chart to see that source's SES gradient (math achievement by SES quintile) displayed as a line chart on the right.</p>
+              <p>The left chart shows student counts for each data source. Click a source to reveal how standardized math scores vary across socioeconomic quintiles (1=lowest, 5=highest) for that source.</p>
+              <p>This visualization allows comparison of the "SES gradient" steepness across sources. A steeper gradient indicates greater educational inequality, where family background more strongly predicts achievement. Compare how the US (HSLS and PISA US) performs relative to international benchmarks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panel 9 -->
+    <section class="panel" data-index="8">
+      <div class="panel-inner" data-panel="8">
+        <div class="viz-section">
+            <div class="viz-header">
+              <div class="swipe-hint swipe-left">
+                <svg class="swipe-arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+                <span>Swipe</span>
+              </div>
+              <div class="swipe-spacer"></div>
+            </div>
+          <div class="viz-card">
+            <h1 class="viz-title">Parent Education Effect on Math</h1>
+            <div class="viz-chart-container">
+              <div id="viz-chart-9" class="vega-chart"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="description-section">
+          <div class="description-card">
+            <h3 class="description-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+              </svg>
+              Description
+            </h3>
+            <div class="description-content">
+              <p><strong>Interaction:</strong> Click a parent education level in the left grouped bar chart to see the comparison of that education level's effect across all three data sources (HSLS US, PISA US, PISA International) in the right chart.</p>
+              <p>Parent education levels have been harmonized across datasets into five comparable categories: Less than HS, HS Diploma, Some College, Bachelor's, and Graduate+. This allows direct comparison of the "parent education premium" across sources.</p>
+              <p>The visualization reveals whether the advantage of having more educated parents is similar in the US (across time) and internationally, or whether the US educational system amplifies or dampens the effect of family educational background.</p>
             </div>
           </div>
         </div>
@@ -510,6 +644,9 @@
       <button class="progress-dot" data-target="3"></button>
       <button class="progress-dot" data-target="4"></button>
       <button class="progress-dot" data-target="5"></button>
+      <button class="progress-dot" data-target="6"></button>
+      <button class="progress-dot" data-target="7"></button>
+      <button class="progress-dot" data-target="8"></button>
     </div>
   </div>
 

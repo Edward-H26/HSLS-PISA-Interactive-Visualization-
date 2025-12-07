@@ -1,0 +1,2814 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF"
+    }
+  },
+  "datasets": {
+    "data-116d9f979c658dc10ae6abf2cd1aa151": [
+      {
+        "Country": "ALB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7439100448430493,
+        "Sample_Size": 25771.83054,
+        "Score": 369.40431282511213,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ARE",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.32525117631851086,
+        "Sample_Size": 57454.58867,
+        "Score": 436.456800672182,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ARG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6714808089427425,
+        "Sample_Size": 573860.08108,
+        "Score": 389.386795204369,
+        "Subject": "Math"
+      },
+      {
+        "Country": "AUS",
+        "OECD": "OECD",
+        "SES_Index": 0.39335585536967077,
+        "Sample_Size": 256582.36886,
+        "Score": 488.7822864081412,
+        "Subject": "Math"
+      },
+      {
+        "Country": "AUT",
+        "OECD": "OECD",
+        "SES_Index": 0.09302247115866911,
+        "Sample_Size": 73894.48347,
+        "Score": 493.3346147801371,
+        "Subject": "Math"
+      },
+      {
+        "Country": "BEL",
+        "OECD": "OECD",
+        "SES_Index": 0.11542319999999999,
+        "Sample_Size": 124247.81617,
+        "Score": 495.8363875,
+        "Subject": "Math"
+      },
+      {
+        "Country": "BGR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2704749146757679,
+        "Sample_Size": 51272.96351,
+        "Score": 418.85100477815695,
+        "Subject": "Math"
+      },
+      {
+        "Country": "BRA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9752387652409521,
+        "Sample_Size": 2167067.97924,
+        "Score": 380.90273388813625,
+        "Subject": "Math"
+      },
+      {
+        "Country": "BRN",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.27116078006500544,
+        "Sample_Size": 5939.07135,
+        "Score": 440.5350904658721,
+        "Subject": "Math"
+      },
+      {
+        "Country": "CAN",
+        "OECD": "OECD",
+        "SES_Index": 0.3339245045802954,
+        "Sample_Size": 333195.56439,
+        "Score": 486.04536259113854,
+        "Subject": "Math"
+      },
+      {
+        "Country": "CHE",
+        "OECD": "OECD",
+        "SES_Index": 0.18097950272892663,
+        "Sample_Size": 73316.87701,
+        "Score": 508.88662128562765,
+        "Subject": "Math"
+      },
+      {
+        "Country": "CHL",
+        "OECD": "OECD",
+        "SES_Index": -0.24284266299951465,
+        "Sample_Size": 202536.40511,
+        "Score": 430.6280970716713,
+        "Subject": "Math"
+      },
+      {
+        "Country": "COL",
+        "OECD": "OECD",
+        "SES_Index": -0.9651558788041292,
+        "Sample_Size": 556729.60398,
+        "Score": 392.24190441077894,
+        "Subject": "Math"
+      },
+      {
+        "Country": "CZE",
+        "OECD": "OECD",
+        "SES_Index": -0.01307006384772919,
+        "Sample_Size": 98225.21874,
+        "Score": 500.2323995904108,
+        "Subject": "Math"
+      },
+      {
+        "Country": "DEU",
+        "OECD": "OECD",
+        "SES_Index": -0.12423293187805796,
+        "Sample_Size": 589461.60991,
+        "Score": 484.16414339480616,
+        "Subject": "Math"
+      },
+      {
+        "Country": "DNK",
+        "OECD": "OECD",
+        "SES_Index": 0.34054443127962086,
+        "Sample_Size": 54517.56453,
+        "Score": 480.219942620176,
+        "Subject": "Math"
+      },
+      {
+        "Country": "DOM",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7108213246213246,
+        "Sample_Size": 119464.70728,
+        "Score": 340.4082079002079,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ESP",
+        "OECD": "OECD",
+        "SES_Index": 0.02354851254722072,
+        "Sample_Size": 439979.15663,
+        "Score": 482.298914867782,
+        "Subject": "Math"
+      },
+      {
+        "Country": "EST",
+        "OECD": "OECD",
+        "SES_Index": 0.18467558416785887,
+        "Sample_Size": 13134.13951,
+        "Score": 513.3780710538865,
+        "Subject": "Math"
+      },
+      {
+        "Country": "FIN",
+        "OECD": "OECD",
+        "SES_Index": 0.19358047527942804,
+        "Sample_Size": 57477.33816,
+        "Score": 477.45646984190915,
+        "Subject": "Math"
+      },
+      {
+        "Country": "FRA",
+        "OECD": "OECD",
+        "SES_Index": -0.05861011868533171,
+        "Sample_Size": 760550.26856,
+        "Score": 470.1643502738892,
+        "Subject": "Math"
+      },
+      {
+        "Country": "GBR",
+        "OECD": "OECD",
+        "SES_Index": 0.11972009202453987,
+        "Sample_Size": 574388.99885,
+        "Score": 486.13971201732227,
+        "Subject": "Math"
+      },
+      {
+        "Country": "GEO",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.44695237864860504,
+        "Sample_Size": 38073.07006,
+        "Score": 392.17150927269796,
+        "Subject": "Math"
+      },
+      {
+        "Country": "GRC",
+        "OECD": "OECD",
+        "SES_Index": -0.13303285804816223,
+        "Sample_Size": 96650.30845,
+        "Score": 434.8505817490494,
+        "Subject": "Math"
+      },
+      {
+        "Country": "GTM",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.4975343055823835,
+        "Sample_Size": 168098.767,
+        "Score": 345.7079901487348,
+        "Subject": "Math"
+      },
+      {
+        "Country": "HKG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4529078312175934,
+        "Sample_Size": 45668.68531,
+        "Score": 546.1295204720186,
+        "Subject": "Math"
+      },
+      {
+        "Country": "HRV",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.15232559631518341,
+        "Sample_Size": 34706.10443,
+        "Score": 463.28726830070735,
+        "Subject": "Math"
+      },
+      {
+        "Country": "HUN",
+        "OECD": "OECD",
+        "SES_Index": 0.0602668108467809,
+        "Sample_Size": 85333.56011,
+        "Score": 481.3002874729662,
+        "Subject": "Math"
+      },
+      {
+        "Country": "IDN",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.4481847402841466,
+        "Sample_Size": 3764934.49498,
+        "Score": 378.3147514094565,
+        "Subject": "Math"
+      },
+      {
+        "Country": "IRL",
+        "OECD": "OECD",
+        "SES_Index": 0.34413547101449277,
+        "Sample_Size": 64890.14231,
+        "Score": 493.7628027173913,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ISL",
+        "OECD": "OECD",
+        "SES_Index": 0.3837626829268293,
+        "Sample_Size": 4243.67697,
+        "Score": 459.1130911585366,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ISR",
+        "OECD": "OECD",
+        "SES_Index": 0.2538160259610584,
+        "Sample_Size": 126941.69629,
+        "Score": 459.4448951572641,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ITA",
+        "OECD": "OECD",
+        "SES_Index": -0.09725530571237202,
+        "Sample_Size": 491644.69586,
+        "Score": 475.83186996459665,
+        "Subject": "Math"
+      },
+      {
+        "Country": "JAM",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.5783937115707098,
+        "Sample_Size": 23521.59292,
+        "Score": 372.36926215763,
+        "Subject": "Math"
+      },
+      {
+        "Country": "JOR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.8039148487626031,
+        "Sample_Size": 141276.75576,
+        "Score": 359.89825088385487,
+        "Subject": "Math"
+      },
+      {
+        "Country": "JPN",
+        "OECD": "OECD",
+        "SES_Index": -0.02354712603269467,
+        "Sample_Size": 1009655.73602,
+        "Score": 536.2659544735454,
+        "Subject": "Math"
+      },
+      {
+        "Country": "KAZ",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.26977890565462587,
+        "Sample_Size": 271431.49954,
+        "Score": 446.0347059899406,
+        "Subject": "Math"
+      },
+      {
+        "Country": "KHM",
+        "OECD": "Non-OECD",
+        "SES_Index": -2.0669077360637087,
+        "Sample_Size": 126315.50142,
+        "Score": 326.1438316268487,
+        "Subject": "Math"
+      },
+      {
+        "Country": "KOR",
+        "OECD": "OECD",
+        "SES_Index": 0.23721703958691912,
+        "Sample_Size": 423223.70197,
+        "Score": 532.177500078235,
+        "Subject": "Math"
+      },
+      {
+        "Country": "KSV",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.3564010966415353,
+        "Sample_Size": 20398.62024,
+        "Score": 353.2347805003427,
+        "Subject": "Math"
+      },
+      {
+        "Country": "LTU",
+        "OECD": "OECD",
+        "SES_Index": 0.03484754378470739,
+        "Sample_Size": 23508.94802,
+        "Score": 473.5054352840666,
+        "Subject": "Math"
+      },
+      {
+        "Country": "LVA",
+        "OECD": "OECD",
+        "SES_Index": -0.00981672124831439,
+        "Sample_Size": 16229.25152,
+        "Score": 483.0423032171065,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MAC",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4490456914285714,
+        "Sample_Size": 4413.91915,
+        "Score": 551.7666466285714,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MAR",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.8117467963721474,
+        "Sample_Size": 453003.57323,
+        "Score": 364.0163428905793,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MDA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.5043118566775244,
+        "Sample_Size": 28372.87175,
+        "Score": 416.0603596091205,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MEX",
+        "OECD": "OECD",
+        "SES_Index": -0.9255592822966507,
+        "Sample_Size": 1390152.55089,
+        "Score": 394.9715059011165,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MKD",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2690211601434586,
+        "Sample_Size": 16053.76176,
+        "Score": 391.5249594573522,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MLT",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.049173270334120826,
+        "Sample_Size": 3735.58047,
+        "Score": 470.9295592305096,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MNE",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.1922437029252058,
+        "Sample_Size": 6250.30264,
+        "Score": 406.5494070765458,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MNG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7372084062544829,
+        "Sample_Size": 40669.90755,
+        "Score": 424.7123188925549,
+        "Subject": "Math"
+      },
+      {
+        "Country": "MYS",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6623374553762673,
+        "Sample_Size": 386676.47633,
+        "Score": 409.61348336427244,
+        "Subject": "Math"
+      },
+      {
+        "Country": "NLD",
+        "OECD": "OECD",
+        "SES_Index": 0.2387614403292181,
+        "Sample_Size": 149818.61003,
+        "Score": 493.70766913580246,
+        "Subject": "Math"
+      },
+      {
+        "Country": "NOR",
+        "OECD": "OECD",
+        "SES_Index": 0.5254416747181965,
+        "Sample_Size": 55359.01538,
+        "Score": 471.28832125603867,
+        "Subject": "Math"
+      },
+      {
+        "Country": "NZL",
+        "OECD": "OECD",
+        "SES_Index": 0.22389294091114118,
+        "Sample_Size": 53354.46416,
+        "Score": 482.1019041497519,
+        "Subject": "Math"
+      },
+      {
+        "Country": "PAN",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9607942721893491,
+        "Sample_Size": 39157.89969,
+        "Score": 354.08901207100587,
+        "Subject": "Math"
+      },
+      {
+        "Country": "PER",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.1207971833020367,
+        "Sample_Size": 495574.9868,
+        "Score": 394.2632435360393,
+        "Subject": "Math"
+      },
+      {
+        "Country": "PHL",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3333802985907632,
+        "Sample_Size": 1776177.5673,
+        "Score": 353.52557122924514,
+        "Subject": "Math"
+      },
+      {
+        "Country": "POL",
+        "OECD": "OECD",
+        "SES_Index": -0.06879525106382979,
+        "Sample_Size": 333147.74754,
+        "Score": 496.2881332765957,
+        "Subject": "Math"
+      },
+      {
+        "Country": "PRT",
+        "OECD": "OECD",
+        "SES_Index": -0.20489689841174707,
+        "Sample_Size": 94767.84716,
+        "Score": 476.62045190290684,
+        "Subject": "Math"
+      },
+      {
+        "Country": "PRY",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.2130009358821188,
+        "Sample_Size": 79983.6512,
+        "Score": 341.2678452807646,
+        "Subject": "Math"
+      },
+      {
+        "Country": "PSE",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9161736233766233,
+        "Sample_Size": 86007.32423,
+        "Score": 364.16764961038956,
+        "Subject": "Math"
+      },
+      {
+        "Country": "QAT",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.11453603678929766,
+        "Sample_Size": 17177.62883,
+        "Score": 413.27669523411373,
+        "Subject": "Math"
+      },
+      {
+        "Country": "QAZ",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4600562053631586,
+        "Sample_Size": 29321.21917,
+        "Score": 400.67960503975206,
+        "Subject": "Math"
+      },
+      {
+        "Country": "QUR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.29700884353741497,
+        "Sample_Size": 156818.87897,
+        "Score": 442.8283553741497,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ROU",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2840696853625171,
+        "Sample_Size": 160622.16896,
+        "Score": 435.61170560875513,
+        "Subject": "Math"
+      },
+      {
+        "Country": "SAU",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.27803346595932804,
+        "Sample_Size": 310712.55799,
+        "Score": 390.44490804597706,
+        "Subject": "Math"
+      },
+      {
+        "Country": "SGP",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.29037254154596737,
+        "Sample_Size": 41677.72456,
+        "Score": 574.9070753163593,
+        "Subject": "Math"
+      },
+      {
+        "Country": "SLV",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3106626482213437,
+        "Sample_Size": 66924.17357,
+        "Score": 346.4681036789298,
+        "Subject": "Math"
+      },
+      {
+        "Country": "SRB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.20093189478658055,
+        "Sample_Size": 58581.18176,
+        "Score": 439.5929883446212,
+        "Subject": "Math"
+      },
+      {
+        "Country": "SVK",
+        "OECD": "OECD",
+        "SES_Index": -0.25804407252440725,
+        "Sample_Size": 46722.58187,
+        "Score": 469.24129619944216,
+        "Subject": "Math"
+      },
+      {
+        "Country": "SVN",
+        "OECD": "OECD",
+        "SES_Index": 0.1519811589805825,
+        "Sample_Size": 18467.95417,
+        "Score": 472.5814833131068,
+        "Subject": "Math"
+      },
+      {
+        "Country": "SWE",
+        "OECD": "OECD",
+        "SES_Index": 0.3323947144799456,
+        "Sample_Size": 105065.38595,
+        "Score": 484.48023776342626,
+        "Subject": "Math"
+      },
+      {
+        "Country": "TAP",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2800201483525962,
+        "Sample_Size": 188900.95902,
+        "Score": 534.688329308263,
+        "Subject": "Math"
+      },
+      {
+        "Country": "THA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9625842935040304,
+        "Sample_Size": 600222.17776,
+        "Score": 415.21504978662875,
+        "Subject": "Math"
+      },
+      {
+        "Country": "TUR",
+        "OECD": "OECD",
+        "SES_Index": -1.2274957487922706,
+        "Sample_Size": 932742.03015,
+        "Score": 452.2808184955141,
+        "Subject": "Math"
+      },
+      {
+        "Country": "URY",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.8167964351567302,
+        "Sample_Size": 40094.67132,
+        "Score": 409.8488515673018,
+        "Subject": "Math"
+      },
+      {
+        "Country": "USA",
+        "OECD": "OECD",
+        "SES_Index": 0.041981068631966836,
+        "Sample_Size": 3489126.8996,
+        "Score": 462.3460285582681,
+        "Subject": "Math"
+      },
+      {
+        "Country": "UZB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6801073231622746,
+        "Sample_Size": 476651.28691,
+        "Score": 364.4430502080444,
+        "Subject": "Math"
+      },
+      {
+        "Country": "VNM",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3159207652977074,
+        "Sample_Size": 938761.80658,
+        "Score": 469.3313061190829,
+        "Subject": "Math"
+      },
+      {
+        "Country": "ALB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7439100448430493,
+        "Sample_Size": 25771.83054,
+        "Score": 360.82031013452917,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ARE",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.32525117631851086,
+        "Sample_Size": 57454.58867,
+        "Score": 423.29228946914856,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ARG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6714808089427425,
+        "Sample_Size": 573860.08108,
+        "Score": 413.23664246096087,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "AUS",
+        "OECD": "OECD",
+        "SES_Index": 0.39335585536967077,
+        "Sample_Size": 256582.36886,
+        "Score": 501.16416151414694,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "AUT",
+        "OECD": "OECD",
+        "SES_Index": 0.09302247115866911,
+        "Sample_Size": 73894.48347,
+        "Score": 486.79777612439386,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "BEL",
+        "OECD": "OECD",
+        "SES_Index": 0.11542319999999999,
+        "Sample_Size": 124247.81617,
+        "Score": 484.043183875,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "BGR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2704749146757679,
+        "Sample_Size": 51272.96351,
+        "Score": 406.2453800341297,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "BRA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9752387652409521,
+        "Sample_Size": 2167067.97924,
+        "Score": 415.9980492548868,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "BRN",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.27116078006500544,
+        "Sample_Size": 5939.07135,
+        "Score": 428.44097110870354,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "CAN",
+        "OECD": "OECD",
+        "SES_Index": 0.3339245045802954,
+        "Sample_Size": 333195.56439,
+        "Score": 492.06039170873066,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "CHE",
+        "OECD": "OECD",
+        "SES_Index": 0.18097950272892663,
+        "Sample_Size": 73316.87701,
+        "Score": 483.7467825955124,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "CHL",
+        "OECD": "OECD",
+        "SES_Index": -0.24284266299951465,
+        "Sample_Size": 202536.40511,
+        "Score": 467.58093852127485,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "COL",
+        "OECD": "OECD",
+        "SES_Index": -0.9651558788041292,
+        "Sample_Size": 556729.60398,
+        "Score": 420.2463520579166,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "CZE",
+        "OECD": "OECD",
+        "SES_Index": -0.01307006384772919,
+        "Sample_Size": 98225.21874,
+        "Score": 500.86656426936514,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "DEU",
+        "OECD": "OECD",
+        "SES_Index": -0.12423293187805796,
+        "Sample_Size": 589461.60991,
+        "Score": 488.2064115543846,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "DNK",
+        "OECD": "OECD",
+        "SES_Index": 0.34054443127962086,
+        "Sample_Size": 54517.56453,
+        "Score": 479.6763926878808,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "DOM",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7108213246213246,
+        "Sample_Size": 119464.70728,
+        "Score": 354.9055956340956,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ESP",
+        "OECD": "OECD",
+        "SES_Index": 0.02354851254722072,
+        "Sample_Size": 439979.15663,
+        "Score": 482.8306604492715,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "EST",
+        "OECD": "OECD",
+        "SES_Index": 0.18467558416785887,
+        "Sample_Size": 13134.13951,
+        "Score": 515.264594182165,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "FIN",
+        "OECD": "OECD",
+        "SES_Index": 0.19358047527942804,
+        "Sample_Size": 57477.33816,
+        "Score": 481.1526137347699,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "FRA",
+        "OECD": "OECD",
+        "SES_Index": -0.05861011868533171,
+        "Sample_Size": 760550.26856,
+        "Score": 470.495347534997,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "GBR",
+        "OECD": "OECD",
+        "SES_Index": 0.11972009202453987,
+        "Sample_Size": 574388.99885,
+        "Score": 495.67259806928905,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "GEO",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.44695237864860504,
+        "Sample_Size": 38073.07006,
+        "Score": 376.08296387679405,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "GRC",
+        "OECD": "OECD",
+        "SES_Index": -0.13303285804816223,
+        "Sample_Size": 96650.30845,
+        "Score": 442.34483982889736,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "GTM",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.4975343055823835,
+        "Sample_Size": 168098.767,
+        "Score": 377.1485619084412,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "HKG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4529078312175934,
+        "Sample_Size": 45668.68531,
+        "Score": 505.1447235830502,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "HRV",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.15232559631518341,
+        "Sample_Size": 34706.10443,
+        "Score": 475.23451373581184,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "HUN",
+        "OECD": "OECD",
+        "SES_Index": 0.0602668108467809,
+        "Sample_Size": 85333.56011,
+        "Score": 479.9138447845616,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "IDN",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.4481847402841466,
+        "Sample_Size": 3764934.49498,
+        "Score": 372.6492749755694,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "IRL",
+        "OECD": "OECD",
+        "SES_Index": 0.34413547101449277,
+        "Sample_Size": 64890.14231,
+        "Score": 518.9514077898551,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ISL",
+        "OECD": "OECD",
+        "SES_Index": 0.3837626829268293,
+        "Sample_Size": 4243.67697,
+        "Score": 437.09494481707316,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ISR",
+        "OECD": "OECD",
+        "SES_Index": 0.2538160259610584,
+        "Sample_Size": 126941.69629,
+        "Score": 475.7947946413713,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ITA",
+        "OECD": "OECD",
+        "SES_Index": -0.09725530571237202,
+        "Sample_Size": 491644.69586,
+        "Score": 481.3077456702708,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "JAM",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.5783937115707098,
+        "Sample_Size": 23521.59292,
+        "Score": 402.4427361654556,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "JOR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.8039148487626031,
+        "Sample_Size": 141276.75576,
+        "Score": 343.00832944873645,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "JPN",
+        "OECD": "OECD",
+        "SES_Index": -0.02354712603269467,
+        "Sample_Size": 1009655.73602,
+        "Score": 516.0522939005098,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "KAZ",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.26977890565462587,
+        "Sample_Size": 271431.49954,
+        "Score": 404.44398038916836,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "KHM",
+        "OECD": "Non-OECD",
+        "SES_Index": -2.0669077360637087,
+        "Sample_Size": 126315.50142,
+        "Score": 321.0179177095184,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "KOR",
+        "OECD": "OECD",
+        "SES_Index": 0.23721703958691912,
+        "Sample_Size": 423223.70197,
+        "Score": 519.5856587388515,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "KSV",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.3564010966415353,
+        "Sample_Size": 20398.62024,
+        "Score": 338.4384583618917,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "LTU",
+        "OECD": "OECD",
+        "SES_Index": 0.03484754378470739,
+        "Sample_Size": 23508.94802,
+        "Score": 467.970467606436,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "LVA",
+        "OECD": "OECD",
+        "SES_Index": -0.00981672124831439,
+        "Sample_Size": 16229.25152,
+        "Score": 475.9446688499326,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MAC",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4490456914285714,
+        "Sample_Size": 4413.91915,
+        "Score": 509.62608022857137,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MAR",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.8117467963721474,
+        "Sample_Size": 453003.57323,
+        "Score": 337.50104461673493,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MDA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.5043118566775244,
+        "Sample_Size": 28372.87175,
+        "Score": 412.15586074918565,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MEX",
+        "OECD": "OECD",
+        "SES_Index": -0.9255592822966507,
+        "Sample_Size": 1390152.55089,
+        "Score": 416.19846124401914,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MKD",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2690211601434586,
+        "Sample_Size": 16053.76176,
+        "Score": 361.637811476688,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MLT",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.049173270334120826,
+        "Sample_Size": 3735.58047,
+        "Score": 451.56245933175836,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MNE",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.1922437029252058,
+        "Sample_Size": 6250.30264,
+        "Score": 406.905344894027,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MNG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7372084062544829,
+        "Sample_Size": 40669.90755,
+        "Score": 377.0477648830871,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "MYS",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6623374553762673,
+        "Sample_Size": 386676.47633,
+        "Score": 390.61066185920316,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "NLD",
+        "OECD": "OECD",
+        "SES_Index": 0.2387614403292181,
+        "Sample_Size": 149818.61003,
+        "Score": 462.11235596707814,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "NOR",
+        "OECD": "OECD",
+        "SES_Index": 0.5254416747181965,
+        "Sample_Size": 55359.01538,
+        "Score": 480.8017922705314,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "NZL",
+        "OECD": "OECD",
+        "SES_Index": 0.22389294091114118,
+        "Sample_Size": 53354.46416,
+        "Score": 506.0746723049166,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "PAN",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9607942721893491,
+        "Sample_Size": 39157.89969,
+        "Score": 387.9160773964497,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "PER",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.1207971833020367,
+        "Sample_Size": 495574.9868,
+        "Score": 411.32229640329336,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "PHL",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3333802985907632,
+        "Sample_Size": 1776177.5673,
+        "Score": 346.010167155016,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "POL",
+        "OECD": "OECD",
+        "SES_Index": -0.06879525106382979,
+        "Sample_Size": 333147.74754,
+        "Score": 496.79666178723403,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "PRT",
+        "OECD": "OECD",
+        "SES_Index": -0.20489689841174707,
+        "Sample_Size": 94767.84716,
+        "Score": 483.3461128258915,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "PRY",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.2130009358821188,
+        "Sample_Size": 79983.6512,
+        "Score": 377.19245001991237,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "PSE",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9161736233766233,
+        "Sample_Size": 86007.32423,
+        "Score": 348.6640098701299,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "QAT",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.11453603678929766,
+        "Sample_Size": 17177.62883,
+        "Score": 417.3686031215162,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "QAZ",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4600562053631586,
+        "Sample_Size": 29321.21917,
+        "Score": 368.57536248484035,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "QUR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.29700884353741497,
+        "Sample_Size": 156818.87897,
+        "Score": 429.4380468027211,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ROU",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2840696853625171,
+        "Sample_Size": 160622.16896,
+        "Score": 436.1445946648427,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "SAU",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.27803346595932804,
+        "Sample_Size": 310712.55799,
+        "Score": 383.39185190097254,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "SGP",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.29037254154596737,
+        "Sample_Size": 41677.72456,
+        "Score": 545.1859214819332,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "SLV",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3106626482213437,
+        "Sample_Size": 66924.17357,
+        "Score": 369.98890985101855,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "SRB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.20093189478658055,
+        "Sample_Size": 58581.18176,
+        "Score": 442.1730390612695,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "SVK",
+        "OECD": "OECD",
+        "SES_Index": -0.25804407252440725,
+        "Sample_Size": 46722.58187,
+        "Score": 452.30106119246864,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "SVN",
+        "OECD": "OECD",
+        "SES_Index": 0.1519811589805825,
+        "Sample_Size": 18467.95417,
+        "Score": 456.61990245752423,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "SWE",
+        "OECD": "OECD",
+        "SES_Index": 0.3323947144799456,
+        "Sample_Size": 105065.38595,
+        "Score": 489.8001504078858,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "TAP",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2800201483525962,
+        "Sample_Size": 188900.95902,
+        "Score": 505.45239503191306,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "THA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9625842935040304,
+        "Sample_Size": 600222.17776,
+        "Score": 397.63260597439546,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "TUR",
+        "OECD": "OECD",
+        "SES_Index": -1.2274957487922706,
+        "Sample_Size": 932742.03015,
+        "Score": 454.55528474810217,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "URY",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.8167964351567302,
+        "Sample_Size": 40094.67132,
+        "Score": 431.53905362630604,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "USA",
+        "OECD": "OECD",
+        "SES_Index": 0.041981068631966836,
+        "Sample_Size": 3489126.8996,
+        "Score": 503.8107968678029,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "UZB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6801073231622746,
+        "Sample_Size": 476651.28691,
+        "Score": 336.80673356449375,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "VNM",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3159207652977074,
+        "Sample_Size": 938761.80658,
+        "Score": 461.41324278410025,
+        "Subject": "Reading"
+      },
+      {
+        "Country": "ALB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7439100448430493,
+        "Sample_Size": 25771.83054,
+        "Score": 376.96287426008973,
+        "Subject": "Science"
+      },
+      {
+        "Country": "ARE",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.32525117631851086,
+        "Sample_Size": 57454.58867,
+        "Score": 438.71574388142017,
+        "Subject": "Science"
+      },
+      {
+        "Country": "ARG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6714808089427425,
+        "Sample_Size": 573860.08108,
+        "Score": 415.99298634695793,
+        "Subject": "Science"
+      },
+      {
+        "Country": "AUS",
+        "OECD": "OECD",
+        "SES_Index": 0.39335585536967077,
+        "Sample_Size": 256582.36886,
+        "Score": 509.9762399198212,
+        "Subject": "Science"
+      },
+      {
+        "Country": "AUT",
+        "OECD": "OECD",
+        "SES_Index": 0.09302247115866911,
+        "Sample_Size": 73894.48347,
+        "Score": 496.51269821100146,
+        "Subject": "Science"
+      },
+      {
+        "Country": "BEL",
+        "OECD": "OECD",
+        "SES_Index": 0.11542319999999999,
+        "Sample_Size": 124247.81617,
+        "Score": 496.89467387499997,
+        "Subject": "Science"
+      },
+      {
+        "Country": "BGR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2704749146757679,
+        "Sample_Size": 51272.96351,
+        "Score": 422.7039327645051,
+        "Subject": "Science"
+      },
+      {
+        "Country": "BRA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9752387652409521,
+        "Sample_Size": 2167067.97924,
+        "Score": 406.83787497580795,
+        "Subject": "Science"
+      },
+      {
+        "Country": "BRN",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.27116078006500544,
+        "Sample_Size": 5939.07135,
+        "Score": 445.17043445287106,
+        "Subject": "Science"
+      },
+      {
+        "Country": "CAN",
+        "OECD": "OECD",
+        "SES_Index": 0.3339245045802954,
+        "Sample_Size": 333195.56439,
+        "Score": 501.03039040007474,
+        "Subject": "Science"
+      },
+      {
+        "Country": "CHE",
+        "OECD": "OECD",
+        "SES_Index": 0.18097950272892663,
+        "Sample_Size": 73316.87701,
+        "Score": 503.7350316858702,
+        "Subject": "Science"
+      },
+      {
+        "Country": "CHL",
+        "OECD": "OECD",
+        "SES_Index": -0.24284266299951465,
+        "Sample_Size": 202536.40511,
+        "Score": 465.5877163889338,
+        "Subject": "Science"
+      },
+      {
+        "Country": "COL",
+        "OECD": "OECD",
+        "SES_Index": -0.9651558788041292,
+        "Sample_Size": 556729.60398,
+        "Score": 422.8672897171203,
+        "Subject": "Science"
+      },
+      {
+        "Country": "CZE",
+        "OECD": "OECD",
+        "SES_Index": -0.01307006384772919,
+        "Sample_Size": 98225.21874,
+        "Score": 511.3041632333454,
+        "Subject": "Science"
+      },
+      {
+        "Country": "DEU",
+        "OECD": "OECD",
+        "SES_Index": -0.12423293187805796,
+        "Sample_Size": 589461.60991,
+        "Score": 502.0810792246895,
+        "Subject": "Science"
+      },
+      {
+        "Country": "DNK",
+        "OECD": "OECD",
+        "SES_Index": 0.34054443127962086,
+        "Sample_Size": 54517.56453,
+        "Score": 481.8235609343264,
+        "Subject": "Science"
+      },
+      {
+        "Country": "DOM",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7108213246213246,
+        "Sample_Size": 119464.70728,
+        "Score": 362.0074832194832,
+        "Subject": "Science"
+      },
+      {
+        "Country": "ESP",
+        "OECD": "OECD",
+        "SES_Index": 0.02354851254722072,
+        "Sample_Size": 439979.15663,
+        "Score": 493.99926015245546,
+        "Subject": "Science"
+      },
+      {
+        "Country": "EST",
+        "OECD": "OECD",
+        "SES_Index": 0.18467558416785887,
+        "Sample_Size": 13134.13951,
+        "Score": 527.9954134477825,
+        "Subject": "Science"
+      },
+      {
+        "Country": "FIN",
+        "OECD": "OECD",
+        "SES_Index": 0.19358047527942804,
+        "Sample_Size": 57477.33816,
+        "Score": 500.18055442553623,
+        "Subject": "Science"
+      },
+      {
+        "Country": "FRA",
+        "OECD": "OECD",
+        "SES_Index": -0.05861011868533171,
+        "Sample_Size": 760550.26856,
+        "Score": 483.59324406573336,
+        "Subject": "Science"
+      },
+      {
+        "Country": "GBR",
+        "OECD": "OECD",
+        "SES_Index": 0.11972009202453987,
+        "Sample_Size": 574388.99885,
+        "Score": 496.01534274630103,
+        "Subject": "Science"
+      },
+      {
+        "Country": "GEO",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.44695237864860504,
+        "Sample_Size": 38073.07006,
+        "Score": 387.07400370907914,
+        "Subject": "Science"
+      },
+      {
+        "Country": "GRC",
+        "OECD": "OECD",
+        "SES_Index": -0.13303285804816223,
+        "Sample_Size": 96650.30845,
+        "Score": 446.1717197401774,
+        "Subject": "Science"
+      },
+      {
+        "Country": "GTM",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.4975343055823835,
+        "Sample_Size": 168098.767,
+        "Score": 374.73875835425923,
+        "Subject": "Science"
+      },
+      {
+        "Country": "HKG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4529078312175934,
+        "Sample_Size": 45668.68531,
+        "Score": 525.4740337922403,
+        "Subject": "Science"
+      },
+      {
+        "Country": "HRV",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.15232559631518341,
+        "Sample_Size": 34706.10443,
+        "Score": 483.4470419476888,
+        "Subject": "Science"
+      },
+      {
+        "Country": "HUN",
+        "OECD": "OECD",
+        "SES_Index": 0.0602668108467809,
+        "Sample_Size": 85333.56011,
+        "Score": 493.0291447346531,
+        "Subject": "Science"
+      },
+      {
+        "Country": "IDN",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.4481847402841466,
+        "Sample_Size": 3764934.49498,
+        "Score": 394.9609400887018,
+        "Subject": "Science"
+      },
+      {
+        "Country": "IRL",
+        "OECD": "OECD",
+        "SES_Index": 0.34413547101449277,
+        "Sample_Size": 64890.14231,
+        "Score": 505.455421557971,
+        "Subject": "Science"
+      },
+      {
+        "Country": "ISL",
+        "OECD": "OECD",
+        "SES_Index": 0.3837626829268293,
+        "Sample_Size": 4243.67697,
+        "Score": 448.6776198170732,
+        "Subject": "Science"
+      },
+      {
+        "Country": "ISR",
+        "OECD": "OECD",
+        "SES_Index": 0.2538160259610584,
+        "Sample_Size": 126941.69629,
+        "Score": 466.54616824762854,
+        "Subject": "Science"
+      },
+      {
+        "Country": "ITA",
+        "OECD": "OECD",
+        "SES_Index": -0.09725530571237202,
+        "Sample_Size": 491644.69586,
+        "Score": 481.88000755908524,
+        "Subject": "Science"
+      },
+      {
+        "Country": "JAM",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.5783937115707098,
+        "Sample_Size": 23521.59292,
+        "Score": 399.1382657909447,
+        "Subject": "Science"
+      },
+      {
+        "Country": "JOR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.8039148487626031,
+        "Sample_Size": 141276.75576,
+        "Score": 375.3648149797041,
+        "Subject": "Science"
+      },
+      {
+        "Country": "JPN",
+        "OECD": "OECD",
+        "SES_Index": -0.02354712603269467,
+        "Sample_Size": 1009655.73602,
+        "Score": 546.2538312532959,
+        "Subject": "Science"
+      },
+      {
+        "Country": "KAZ",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.26977890565462587,
+        "Sample_Size": 271431.49954,
+        "Score": 441.12057176243457,
+        "Subject": "Science"
+      },
+      {
+        "Country": "KHM",
+        "OECD": "Non-OECD",
+        "SES_Index": -2.0669077360637087,
+        "Sample_Size": 126315.50142,
+        "Score": 340.50758892681074,
+        "Subject": "Science"
+      },
+      {
+        "Country": "KOR",
+        "OECD": "OECD",
+        "SES_Index": 0.23721703958691912,
+        "Sample_Size": 423223.70197,
+        "Score": 531.3412414332655,
+        "Subject": "Science"
+      },
+      {
+        "Country": "KSV",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.3564010966415353,
+        "Sample_Size": 20398.62024,
+        "Score": 354.2291691226868,
+        "Subject": "Science"
+      },
+      {
+        "Country": "LTU",
+        "OECD": "OECD",
+        "SES_Index": 0.03484754378470739,
+        "Sample_Size": 23508.94802,
+        "Score": 481.42297550904175,
+        "Subject": "Science"
+      },
+      {
+        "Country": "LVA",
+        "OECD": "OECD",
+        "SES_Index": -0.00981672124831439,
+        "Sample_Size": 16229.25152,
+        "Score": 493.46829397033326,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MAC",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4490456914285714,
+        "Sample_Size": 4413.91915,
+        "Score": 543.1324384000001,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MAR",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.8117467963721474,
+        "Sample_Size": 453003.57323,
+        "Score": 363.54340579286134,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MDA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.5043118566775244,
+        "Sample_Size": 28372.87175,
+        "Score": 416.9942043973941,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MEX",
+        "OECD": "OECD",
+        "SES_Index": -0.9255592822966507,
+        "Sample_Size": 1390152.55089,
+        "Score": 410.7952944178628,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MKD",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2690211601434586,
+        "Sample_Size": 16053.76176,
+        "Score": 383.60737751442383,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MLT",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.049173270334120826,
+        "Sample_Size": 3735.58047,
+        "Score": 471.89237698278765,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MNE",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.1922437029252058,
+        "Sample_Size": 6250.30264,
+        "Score": 405.33860308285165,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MNG",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.7372084062544829,
+        "Sample_Size": 40669.90755,
+        "Score": 411.56060708650125,
+        "Subject": "Science"
+      },
+      {
+        "Country": "MYS",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6623374553762673,
+        "Sample_Size": 386676.47633,
+        "Score": 417.4995420534057,
+        "Subject": "Science"
+      },
+      {
+        "Country": "NLD",
+        "OECD": "OECD",
+        "SES_Index": 0.2387614403292181,
+        "Sample_Size": 149818.61003,
+        "Score": 490.0734691358025,
+        "Subject": "Science"
+      },
+      {
+        "Country": "NOR",
+        "OECD": "OECD",
+        "SES_Index": 0.5254416747181965,
+        "Sample_Size": 55359.01538,
+        "Score": 482.13605362318845,
+        "Subject": "Science"
+      },
+      {
+        "Country": "NZL",
+        "OECD": "OECD",
+        "SES_Index": 0.22389294091114118,
+        "Sample_Size": 53354.46416,
+        "Score": 510.1383635543528,
+        "Subject": "Science"
+      },
+      {
+        "Country": "PAN",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9607942721893491,
+        "Sample_Size": 39157.89969,
+        "Score": 385.65847005917163,
+        "Subject": "Science"
+      },
+      {
+        "Country": "PER",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.1207971833020367,
+        "Sample_Size": 495574.9868,
+        "Score": 411.10681915354616,
+        "Subject": "Science"
+      },
+      {
+        "Country": "PHL",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3333802985907632,
+        "Sample_Size": 1776177.5673,
+        "Score": 354.02128421933867,
+        "Subject": "Science"
+      },
+      {
+        "Country": "POL",
+        "OECD": "OECD",
+        "SES_Index": -0.06879525106382979,
+        "Sample_Size": 333147.74754,
+        "Score": 506.557410212766,
+        "Subject": "Science"
+      },
+      {
+        "Country": "PRT",
+        "OECD": "OECD",
+        "SES_Index": -0.20489689841174707,
+        "Sample_Size": 94767.84716,
+        "Score": 488.906788432724,
+        "Subject": "Science"
+      },
+      {
+        "Country": "PRY",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.2130009358821188,
+        "Sample_Size": 79983.6512,
+        "Score": 372.4066722421346,
+        "Subject": "Science"
+      },
+      {
+        "Country": "PSE",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9161736233766233,
+        "Sample_Size": 86007.32423,
+        "Score": 367.5389136363636,
+        "Subject": "Science"
+      },
+      {
+        "Country": "QAT",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.11453603678929766,
+        "Sample_Size": 17177.62883,
+        "Score": 430.5050185340022,
+        "Subject": "Science"
+      },
+      {
+        "Country": "QAZ",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.4600562053631586,
+        "Sample_Size": 29321.21917,
+        "Score": 383.1166760544401,
+        "Subject": "Science"
+      },
+      {
+        "Country": "QUR",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.29700884353741497,
+        "Sample_Size": 156818.87897,
+        "Score": 452.8452489795919,
+        "Subject": "Science"
+      },
+      {
+        "Country": "ROU",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2840696853625171,
+        "Sample_Size": 160622.16896,
+        "Score": 436.83064363885086,
+        "Subject": "Science"
+      },
+      {
+        "Country": "SAU",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.27803346595932804,
+        "Sample_Size": 310712.55799,
+        "Score": 390.6856520778072,
+        "Subject": "Science"
+      },
+      {
+        "Country": "SGP",
+        "OECD": "Non-OECD",
+        "SES_Index": 0.29037254154596737,
+        "Sample_Size": 41677.72456,
+        "Score": 561.5151341667937,
+        "Subject": "Science"
+      },
+      {
+        "Country": "SLV",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3106626482213437,
+        "Sample_Size": 66924.17357,
+        "Score": 375.96426345393735,
+        "Subject": "Science"
+      },
+      {
+        "Country": "SRB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.20093189478658055,
+        "Sample_Size": 58581.18176,
+        "Score": 447.2448152464955,
+        "Subject": "Science"
+      },
+      {
+        "Country": "SVK",
+        "OECD": "OECD",
+        "SES_Index": -0.25804407252440725,
+        "Sample_Size": 46722.58187,
+        "Score": 467.5275170850767,
+        "Subject": "Science"
+      },
+      {
+        "Country": "SVN",
+        "OECD": "OECD",
+        "SES_Index": 0.1519811589805825,
+        "Sample_Size": 18467.95417,
+        "Score": 488.093197663835,
+        "Subject": "Science"
+      },
+      {
+        "Country": "SWE",
+        "OECD": "OECD",
+        "SES_Index": 0.3323947144799456,
+        "Sample_Size": 105065.38595,
+        "Score": 496.8127161794697,
+        "Subject": "Science"
+      },
+      {
+        "Country": "TAP",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.2800201483525962,
+        "Sample_Size": 188900.95902,
+        "Score": 527.557669656719,
+        "Subject": "Science"
+      },
+      {
+        "Country": "THA",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.9625842935040304,
+        "Sample_Size": 600222.17776,
+        "Score": 429.6852943338075,
+        "Subject": "Science"
+      },
+      {
+        "Country": "TUR",
+        "OECD": "OECD",
+        "SES_Index": -1.2274957487922706,
+        "Sample_Size": 932742.03015,
+        "Score": 476.0804226363009,
+        "Subject": "Science"
+      },
+      {
+        "Country": "URY",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.8167964351567302,
+        "Sample_Size": 40094.67132,
+        "Score": 434.37669406883833,
+        "Subject": "Science"
+      },
+      {
+        "Country": "USA",
+        "OECD": "OECD",
+        "SES_Index": 0.041981068631966836,
+        "Sample_Size": 3489126.8996,
+        "Score": 499.0386013357899,
+        "Subject": "Science"
+      },
+      {
+        "Country": "UZB",
+        "OECD": "Non-OECD",
+        "SES_Index": -0.6801073231622746,
+        "Sample_Size": 476651.28691,
+        "Score": 355.36429708737865,
+        "Subject": "Science"
+      },
+      {
+        "Country": "VNM",
+        "OECD": "Non-OECD",
+        "SES_Index": -1.3159207652977074,
+        "Sample_Size": 938761.80658,
+        "Score": 473.31041134751774,
+        "Subject": "Science"
+      }
+    ],
+    "data-2e553a47822a557e6a0dfd346fa1be06": [
+      {
+        "Country": "ALB",
+        "Math": 369.40431282511213,
+        "OECD": "Non-OECD",
+        "Reading": 360.82031013452917,
+        "SES_Index": -0.7439100448430493,
+        "Sample_Size": 25771.83054,
+        "Science": 376.96287426008973
+      },
+      {
+        "Country": "ARE",
+        "Math": 436.456800672182,
+        "OECD": "Non-OECD",
+        "Reading": 423.29228946914856,
+        "SES_Index": 0.32525117631851086,
+        "Sample_Size": 57454.58867,
+        "Science": 438.71574388142017
+      },
+      {
+        "Country": "ARG",
+        "Math": 389.386795204369,
+        "OECD": "Non-OECD",
+        "Reading": 413.23664246096087,
+        "SES_Index": -0.6714808089427425,
+        "Sample_Size": 573860.08108,
+        "Science": 415.99298634695793
+      },
+      {
+        "Country": "AUS",
+        "Math": 488.7822864081412,
+        "OECD": "OECD",
+        "Reading": 501.16416151414694,
+        "SES_Index": 0.39335585536967077,
+        "Sample_Size": 256582.36886,
+        "Science": 509.9762399198212
+      },
+      {
+        "Country": "AUT",
+        "Math": 493.3346147801371,
+        "OECD": "OECD",
+        "Reading": 486.79777612439386,
+        "SES_Index": 0.09302247115866911,
+        "Sample_Size": 73894.48347,
+        "Science": 496.51269821100146
+      },
+      {
+        "Country": "BEL",
+        "Math": 495.8363875,
+        "OECD": "OECD",
+        "Reading": 484.043183875,
+        "SES_Index": 0.11542319999999999,
+        "Sample_Size": 124247.81617,
+        "Science": 496.89467387499997
+      },
+      {
+        "Country": "BGR",
+        "Math": 418.85100477815695,
+        "OECD": "Non-OECD",
+        "Reading": 406.2453800341297,
+        "SES_Index": -0.2704749146757679,
+        "Sample_Size": 51272.96351,
+        "Science": 422.7039327645051
+      },
+      {
+        "Country": "BRA",
+        "Math": 380.90273388813625,
+        "OECD": "Non-OECD",
+        "Reading": 415.9980492548868,
+        "SES_Index": -0.9752387652409521,
+        "Sample_Size": 2167067.97924,
+        "Science": 406.83787497580795
+      },
+      {
+        "Country": "BRN",
+        "Math": 440.5350904658721,
+        "OECD": "Non-OECD",
+        "Reading": 428.44097110870354,
+        "SES_Index": -0.27116078006500544,
+        "Sample_Size": 5939.07135,
+        "Science": 445.17043445287106
+      },
+      {
+        "Country": "CAN",
+        "Math": 486.04536259113854,
+        "OECD": "OECD",
+        "Reading": 492.06039170873066,
+        "SES_Index": 0.3339245045802954,
+        "Sample_Size": 333195.56439,
+        "Science": 501.03039040007474
+      },
+      {
+        "Country": "CHE",
+        "Math": 508.88662128562765,
+        "OECD": "OECD",
+        "Reading": 483.7467825955124,
+        "SES_Index": 0.18097950272892663,
+        "Sample_Size": 73316.87701,
+        "Science": 503.7350316858702
+      },
+      {
+        "Country": "CHL",
+        "Math": 430.6280970716713,
+        "OECD": "OECD",
+        "Reading": 467.58093852127485,
+        "SES_Index": -0.24284266299951465,
+        "Sample_Size": 202536.40511,
+        "Science": 465.5877163889338
+      },
+      {
+        "Country": "COL",
+        "Math": 392.24190441077894,
+        "OECD": "OECD",
+        "Reading": 420.2463520579166,
+        "SES_Index": -0.9651558788041292,
+        "Sample_Size": 556729.60398,
+        "Science": 422.8672897171203
+      },
+      {
+        "Country": "CZE",
+        "Math": 500.2323995904108,
+        "OECD": "OECD",
+        "Reading": 500.86656426936514,
+        "SES_Index": -0.01307006384772919,
+        "Sample_Size": 98225.21874,
+        "Science": 511.3041632333454
+      },
+      {
+        "Country": "DEU",
+        "Math": 484.16414339480616,
+        "OECD": "OECD",
+        "Reading": 488.2064115543846,
+        "SES_Index": -0.12423293187805796,
+        "Sample_Size": 589461.60991,
+        "Science": 502.0810792246895
+      },
+      {
+        "Country": "DNK",
+        "Math": 480.219942620176,
+        "OECD": "OECD",
+        "Reading": 479.6763926878808,
+        "SES_Index": 0.34054443127962086,
+        "Sample_Size": 54517.56453,
+        "Science": 481.8235609343264
+      },
+      {
+        "Country": "DOM",
+        "Math": 340.4082079002079,
+        "OECD": "Non-OECD",
+        "Reading": 354.9055956340956,
+        "SES_Index": -0.7108213246213246,
+        "Sample_Size": 119464.70728,
+        "Science": 362.0074832194832
+      },
+      {
+        "Country": "ESP",
+        "Math": 482.298914867782,
+        "OECD": "OECD",
+        "Reading": 482.8306604492715,
+        "SES_Index": 0.02354851254722072,
+        "Sample_Size": 439979.15663,
+        "Science": 493.99926015245546
+      },
+      {
+        "Country": "EST",
+        "Math": 513.3780710538865,
+        "OECD": "OECD",
+        "Reading": 515.264594182165,
+        "SES_Index": 0.18467558416785887,
+        "Sample_Size": 13134.13951,
+        "Science": 527.9954134477825
+      },
+      {
+        "Country": "FIN",
+        "Math": 477.45646984190915,
+        "OECD": "OECD",
+        "Reading": 481.1526137347699,
+        "SES_Index": 0.19358047527942804,
+        "Sample_Size": 57477.33816,
+        "Science": 500.18055442553623
+      },
+      {
+        "Country": "FRA",
+        "Math": 470.1643502738892,
+        "OECD": "OECD",
+        "Reading": 470.495347534997,
+        "SES_Index": -0.05861011868533171,
+        "Sample_Size": 760550.26856,
+        "Science": 483.59324406573336
+      },
+      {
+        "Country": "GBR",
+        "Math": 486.13971201732227,
+        "OECD": "OECD",
+        "Reading": 495.67259806928905,
+        "SES_Index": 0.11972009202453987,
+        "Sample_Size": 574388.99885,
+        "Science": 496.01534274630103
+      },
+      {
+        "Country": "GEO",
+        "Math": 392.17150927269796,
+        "OECD": "Non-OECD",
+        "Reading": 376.08296387679405,
+        "SES_Index": -0.44695237864860504,
+        "Sample_Size": 38073.07006,
+        "Science": 387.07400370907914
+      },
+      {
+        "Country": "GRC",
+        "Math": 434.8505817490494,
+        "OECD": "OECD",
+        "Reading": 442.34483982889736,
+        "SES_Index": -0.13303285804816223,
+        "Sample_Size": 96650.30845,
+        "Science": 446.1717197401774
+      },
+      {
+        "Country": "GTM",
+        "Math": 345.7079901487348,
+        "OECD": "Non-OECD",
+        "Reading": 377.1485619084412,
+        "SES_Index": -1.4975343055823835,
+        "Sample_Size": 168098.767,
+        "Science": 374.73875835425923
+      },
+      {
+        "Country": "HKG",
+        "Math": 546.1295204720186,
+        "OECD": "Non-OECD",
+        "Reading": 505.1447235830502,
+        "SES_Index": -0.4529078312175934,
+        "Sample_Size": 45668.68531,
+        "Science": 525.4740337922403
+      },
+      {
+        "Country": "HRV",
+        "Math": 463.28726830070735,
+        "OECD": "Non-OECD",
+        "Reading": 475.23451373581184,
+        "SES_Index": -0.15232559631518341,
+        "Sample_Size": 34706.10443,
+        "Science": 483.4470419476888
+      },
+      {
+        "Country": "HUN",
+        "Math": 481.3002874729662,
+        "OECD": "OECD",
+        "Reading": 479.9138447845616,
+        "SES_Index": 0.0602668108467809,
+        "Sample_Size": 85333.56011,
+        "Science": 493.0291447346531
+      },
+      {
+        "Country": "IDN",
+        "Math": 378.3147514094565,
+        "OECD": "Non-OECD",
+        "Reading": 372.6492749755694,
+        "SES_Index": -1.4481847402841466,
+        "Sample_Size": 3764934.49498,
+        "Science": 394.9609400887018
+      },
+      {
+        "Country": "IRL",
+        "Math": 493.7628027173913,
+        "OECD": "OECD",
+        "Reading": 518.9514077898551,
+        "SES_Index": 0.34413547101449277,
+        "Sample_Size": 64890.14231,
+        "Science": 505.455421557971
+      },
+      {
+        "Country": "ISL",
+        "Math": 459.1130911585366,
+        "OECD": "OECD",
+        "Reading": 437.09494481707316,
+        "SES_Index": 0.3837626829268293,
+        "Sample_Size": 4243.67697,
+        "Science": 448.6776198170732
+      },
+      {
+        "Country": "ISR",
+        "Math": 459.4448951572641,
+        "OECD": "OECD",
+        "Reading": 475.7947946413713,
+        "SES_Index": 0.2538160259610584,
+        "Sample_Size": 126941.69629,
+        "Science": 466.54616824762854
+      },
+      {
+        "Country": "ITA",
+        "Math": 475.83186996459665,
+        "OECD": "OECD",
+        "Reading": 481.3077456702708,
+        "SES_Index": -0.09725530571237202,
+        "Sample_Size": 491644.69586,
+        "Science": 481.88000755908524
+      },
+      {
+        "Country": "JAM",
+        "Math": 372.36926215763,
+        "OECD": "Non-OECD",
+        "Reading": 402.4427361654556,
+        "SES_Index": -0.5783937115707098,
+        "Sample_Size": 23521.59292,
+        "Science": 399.1382657909447
+      },
+      {
+        "Country": "JOR",
+        "Math": 359.89825088385487,
+        "OECD": "Non-OECD",
+        "Reading": 343.00832944873645,
+        "SES_Index": -0.8039148487626031,
+        "Sample_Size": 141276.75576,
+        "Science": 375.3648149797041
+      },
+      {
+        "Country": "JPN",
+        "Math": 536.2659544735454,
+        "OECD": "OECD",
+        "Reading": 516.0522939005098,
+        "SES_Index": -0.02354712603269467,
+        "Sample_Size": 1009655.73602,
+        "Science": 546.2538312532959
+      },
+      {
+        "Country": "KAZ",
+        "Math": 446.0347059899406,
+        "OECD": "Non-OECD",
+        "Reading": 404.44398038916836,
+        "SES_Index": -0.26977890565462587,
+        "Sample_Size": 271431.49954,
+        "Science": 441.12057176243457
+      },
+      {
+        "Country": "KHM",
+        "Math": 326.1438316268487,
+        "OECD": "Non-OECD",
+        "Reading": 321.0179177095184,
+        "SES_Index": -2.0669077360637087,
+        "Sample_Size": 126315.50142,
+        "Science": 340.50758892681074
+      },
+      {
+        "Country": "KOR",
+        "Math": 532.177500078235,
+        "OECD": "OECD",
+        "Reading": 519.5856587388515,
+        "SES_Index": 0.23721703958691912,
+        "Sample_Size": 423223.70197,
+        "Science": 531.3412414332655
+      },
+      {
+        "Country": "KSV",
+        "Math": 353.2347805003427,
+        "OECD": "Non-OECD",
+        "Reading": 338.4384583618917,
+        "SES_Index": -0.3564010966415353,
+        "Sample_Size": 20398.62024,
+        "Science": 354.2291691226868
+      },
+      {
+        "Country": "LTU",
+        "Math": 473.5054352840666,
+        "OECD": "OECD",
+        "Reading": 467.970467606436,
+        "SES_Index": 0.03484754378470739,
+        "Sample_Size": 23508.94802,
+        "Science": 481.42297550904175
+      },
+      {
+        "Country": "LVA",
+        "Math": 483.0423032171065,
+        "OECD": "OECD",
+        "Reading": 475.9446688499326,
+        "SES_Index": -0.00981672124831439,
+        "Sample_Size": 16229.25152,
+        "Science": 493.46829397033326
+      },
+      {
+        "Country": "MAC",
+        "Math": 551.7666466285714,
+        "OECD": "Non-OECD",
+        "Reading": 509.62608022857137,
+        "SES_Index": -0.4490456914285714,
+        "Sample_Size": 4413.91915,
+        "Science": 543.1324384000001
+      },
+      {
+        "Country": "MAR",
+        "Math": 364.0163428905793,
+        "OECD": "Non-OECD",
+        "Reading": 337.50104461673493,
+        "SES_Index": -1.8117467963721474,
+        "Sample_Size": 453003.57323,
+        "Science": 363.54340579286134
+      },
+      {
+        "Country": "MDA",
+        "Math": 416.0603596091205,
+        "OECD": "Non-OECD",
+        "Reading": 412.15586074918565,
+        "SES_Index": -0.5043118566775244,
+        "Sample_Size": 28372.87175,
+        "Science": 416.9942043973941
+      },
+      {
+        "Country": "MEX",
+        "Math": 394.9715059011165,
+        "OECD": "OECD",
+        "Reading": 416.19846124401914,
+        "SES_Index": -0.9255592822966507,
+        "Sample_Size": 1390152.55089,
+        "Science": 410.7952944178628
+      },
+      {
+        "Country": "MKD",
+        "Math": 391.5249594573522,
+        "OECD": "Non-OECD",
+        "Reading": 361.637811476688,
+        "SES_Index": -0.2690211601434586,
+        "Sample_Size": 16053.76176,
+        "Science": 383.60737751442383
+      },
+      {
+        "Country": "MLT",
+        "Math": 470.9295592305096,
+        "OECD": "Non-OECD",
+        "Reading": 451.56245933175836,
+        "SES_Index": 0.049173270334120826,
+        "Sample_Size": 3735.58047,
+        "Science": 471.89237698278765
+      },
+      {
+        "Country": "MNE",
+        "Math": 406.5494070765458,
+        "OECD": "Non-OECD",
+        "Reading": 406.905344894027,
+        "SES_Index": -0.1922437029252058,
+        "Sample_Size": 6250.30264,
+        "Science": 405.33860308285165
+      },
+      {
+        "Country": "MNG",
+        "Math": 424.7123188925549,
+        "OECD": "Non-OECD",
+        "Reading": 377.0477648830871,
+        "SES_Index": -0.7372084062544829,
+        "Sample_Size": 40669.90755,
+        "Science": 411.56060708650125
+      },
+      {
+        "Country": "MYS",
+        "Math": 409.61348336427244,
+        "OECD": "Non-OECD",
+        "Reading": 390.61066185920316,
+        "SES_Index": -0.6623374553762673,
+        "Sample_Size": 386676.47633,
+        "Science": 417.4995420534057
+      },
+      {
+        "Country": "NLD",
+        "Math": 493.70766913580246,
+        "OECD": "OECD",
+        "Reading": 462.11235596707814,
+        "SES_Index": 0.2387614403292181,
+        "Sample_Size": 149818.61003,
+        "Science": 490.0734691358025
+      },
+      {
+        "Country": "NOR",
+        "Math": 471.28832125603867,
+        "OECD": "OECD",
+        "Reading": 480.8017922705314,
+        "SES_Index": 0.5254416747181965,
+        "Sample_Size": 55359.01538,
+        "Science": 482.13605362318845
+      },
+      {
+        "Country": "NZL",
+        "Math": 482.1019041497519,
+        "OECD": "OECD",
+        "Reading": 506.0746723049166,
+        "SES_Index": 0.22389294091114118,
+        "Sample_Size": 53354.46416,
+        "Science": 510.1383635543528
+      },
+      {
+        "Country": "PAN",
+        "Math": 354.08901207100587,
+        "OECD": "Non-OECD",
+        "Reading": 387.9160773964497,
+        "SES_Index": -0.9607942721893491,
+        "Sample_Size": 39157.89969,
+        "Science": 385.65847005917163
+      },
+      {
+        "Country": "PER",
+        "Math": 394.2632435360393,
+        "OECD": "Non-OECD",
+        "Reading": 411.32229640329336,
+        "SES_Index": -1.1207971833020367,
+        "Sample_Size": 495574.9868,
+        "Science": 411.10681915354616
+      },
+      {
+        "Country": "PHL",
+        "Math": 353.52557122924514,
+        "OECD": "Non-OECD",
+        "Reading": 346.010167155016,
+        "SES_Index": -1.3333802985907632,
+        "Sample_Size": 1776177.5673,
+        "Science": 354.02128421933867
+      },
+      {
+        "Country": "POL",
+        "Math": 496.2881332765957,
+        "OECD": "OECD",
+        "Reading": 496.79666178723403,
+        "SES_Index": -0.06879525106382979,
+        "Sample_Size": 333147.74754,
+        "Science": 506.557410212766
+      },
+      {
+        "Country": "PRT",
+        "Math": 476.62045190290684,
+        "OECD": "OECD",
+        "Reading": 483.3461128258915,
+        "SES_Index": -0.20489689841174707,
+        "Sample_Size": 94767.84716,
+        "Science": 488.906788432724
+      },
+      {
+        "Country": "PRY",
+        "Math": 341.2678452807646,
+        "OECD": "Non-OECD",
+        "Reading": 377.19245001991237,
+        "SES_Index": -1.2130009358821188,
+        "Sample_Size": 79983.6512,
+        "Science": 372.4066722421346
+      },
+      {
+        "Country": "PSE",
+        "Math": 364.16764961038956,
+        "OECD": "Non-OECD",
+        "Reading": 348.6640098701299,
+        "SES_Index": -0.9161736233766233,
+        "Sample_Size": 86007.32423,
+        "Science": 367.5389136363636
+      },
+      {
+        "Country": "QAT",
+        "Math": 413.27669523411373,
+        "OECD": "Non-OECD",
+        "Reading": 417.3686031215162,
+        "SES_Index": 0.11453603678929766,
+        "Sample_Size": 17177.62883,
+        "Science": 430.5050185340022
+      },
+      {
+        "Country": "QAZ",
+        "Math": 400.67960503975206,
+        "OECD": "Non-OECD",
+        "Reading": 368.57536248484035,
+        "SES_Index": -0.4600562053631586,
+        "Sample_Size": 29321.21917,
+        "Science": 383.1166760544401
+      },
+      {
+        "Country": "QUR",
+        "Math": 442.8283553741497,
+        "OECD": "Non-OECD",
+        "Reading": 429.4380468027211,
+        "SES_Index": -0.29700884353741497,
+        "Sample_Size": 156818.87897,
+        "Science": 452.8452489795919
+      },
+      {
+        "Country": "ROU",
+        "Math": 435.61170560875513,
+        "OECD": "Non-OECD",
+        "Reading": 436.1445946648427,
+        "SES_Index": -0.2840696853625171,
+        "Sample_Size": 160622.16896,
+        "Science": 436.83064363885086
+      },
+      {
+        "Country": "SAU",
+        "Math": 390.44490804597706,
+        "OECD": "Non-OECD",
+        "Reading": 383.39185190097254,
+        "SES_Index": -0.27803346595932804,
+        "Sample_Size": 310712.55799,
+        "Science": 390.6856520778072
+      },
+      {
+        "Country": "SGP",
+        "Math": 574.9070753163593,
+        "OECD": "Non-OECD",
+        "Reading": 545.1859214819332,
+        "SES_Index": 0.29037254154596737,
+        "Sample_Size": 41677.72456,
+        "Science": 561.5151341667937
+      },
+      {
+        "Country": "SLV",
+        "Math": 346.4681036789298,
+        "OECD": "Non-OECD",
+        "Reading": 369.98890985101855,
+        "SES_Index": -1.3106626482213437,
+        "Sample_Size": 66924.17357,
+        "Science": 375.96426345393735
+      },
+      {
+        "Country": "SRB",
+        "Math": 439.5929883446212,
+        "OECD": "Non-OECD",
+        "Reading": 442.1730390612695,
+        "SES_Index": -0.20093189478658055,
+        "Sample_Size": 58581.18176,
+        "Science": 447.2448152464955
+      },
+      {
+        "Country": "SVK",
+        "Math": 469.24129619944216,
+        "OECD": "OECD",
+        "Reading": 452.30106119246864,
+        "SES_Index": -0.25804407252440725,
+        "Sample_Size": 46722.58187,
+        "Science": 467.5275170850767
+      },
+      {
+        "Country": "SVN",
+        "Math": 472.5814833131068,
+        "OECD": "OECD",
+        "Reading": 456.61990245752423,
+        "SES_Index": 0.1519811589805825,
+        "Sample_Size": 18467.95417,
+        "Science": 488.093197663835
+      },
+      {
+        "Country": "SWE",
+        "Math": 484.48023776342626,
+        "OECD": "OECD",
+        "Reading": 489.8001504078858,
+        "SES_Index": 0.3323947144799456,
+        "Sample_Size": 105065.38595,
+        "Science": 496.8127161794697
+      },
+      {
+        "Country": "TAP",
+        "Math": 534.688329308263,
+        "OECD": "Non-OECD",
+        "Reading": 505.45239503191306,
+        "SES_Index": -0.2800201483525962,
+        "Sample_Size": 188900.95902,
+        "Science": 527.557669656719
+      },
+      {
+        "Country": "THA",
+        "Math": 415.21504978662875,
+        "OECD": "Non-OECD",
+        "Reading": 397.63260597439546,
+        "SES_Index": -0.9625842935040304,
+        "Sample_Size": 600222.17776,
+        "Science": 429.6852943338075
+      },
+      {
+        "Country": "TUR",
+        "Math": 452.2808184955141,
+        "OECD": "OECD",
+        "Reading": 454.55528474810217,
+        "SES_Index": -1.2274957487922706,
+        "Sample_Size": 932742.03015,
+        "Science": 476.0804226363009
+      },
+      {
+        "Country": "URY",
+        "Math": 409.8488515673018,
+        "OECD": "Non-OECD",
+        "Reading": 431.53905362630604,
+        "SES_Index": -0.8167964351567302,
+        "Sample_Size": 40094.67132,
+        "Science": 434.37669406883833
+      },
+      {
+        "Country": "USA",
+        "Math": 462.3460285582681,
+        "OECD": "OECD",
+        "Reading": 503.8107968678029,
+        "SES_Index": 0.041981068631966836,
+        "Sample_Size": 3489126.8996,
+        "Science": 499.0386013357899
+      },
+      {
+        "Country": "UZB",
+        "Math": 364.4430502080444,
+        "OECD": "Non-OECD",
+        "Reading": 336.80673356449375,
+        "SES_Index": -0.6801073231622746,
+        "Sample_Size": 476651.28691,
+        "Science": 355.36429708737865
+      },
+      {
+        "Country": "VNM",
+        "Math": 469.3313061190829,
+        "OECD": "Non-OECD",
+        "Reading": 461.41324278410025,
+        "SES_Index": -1.3159207652977074,
+        "Sample_Size": 938761.80658,
+        "Science": 473.31041134751774
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-2e553a47822a557e6a0dfd346fa1be06"
+      },
+      "encoding": {
+        "color": {
+          "field": "OECD",
+          "scale": {
+            "domain": [
+              "OECD",
+              "Non-OECD"
+            ],
+            "range": [
+              "#0072B2",
+              "#D55E00"
+            ]
+          },
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "country_select",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Math",
+            "format": ".0f",
+            "type": "quantitative"
+          },
+          {
+            "field": "SES_Index",
+            "format": ".2f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "SES_Index",
+          "scale": {
+            "domain": [
+              -2.5,
+              1.5
+            ]
+          },
+          "title": "Average SES (ESCS)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Math",
+          "scale": {
+            "domain": [
+              300,
+              600
+            ]
+          },
+          "title": "Math Score",
+          "type": "quantitative"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cursor": "pointer",
+        "size": 100,
+        "type": "circle"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Click a Country to See Subject Scores"
+      },
+      "width": 380
+    },
+    {
+      "data": {
+        "name": "data-116d9f979c658dc10ae6abf2cd1aa151"
+      },
+      "encoding": {
+        "color": {
+          "field": "Subject",
+          "scale": {
+            "domain": [
+              "Math",
+              "Reading",
+              "Science"
+            ],
+            "range": [
+              "#E69F00",
+              "#56B4E9",
+              "#009E73"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Subject",
+            "type": "nominal"
+          },
+          {
+            "field": "Score",
+            "format": ".0f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Score",
+          "scale": {
+            "domain": [
+              0,
+              600
+            ]
+          },
+          "title": "Score",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Subject",
+          "sort": [
+            "Math",
+            "Reading",
+            "Science"
+          ],
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Subject Scores for Selected Country"
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "country_select"
+          }
+        }
+      ],
+      "width": 350
+    }
+  ],
+  "params": [
+    {
+      "name": "country_select",
+      "select": {
+        "fields": [
+          "Country"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}

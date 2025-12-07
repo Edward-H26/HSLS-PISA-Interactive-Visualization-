@@ -1,0 +1,364 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF"
+    }
+  },
+  "data": {
+    "name": "data-b07140822a50733673dfed7a2d15523b"
+  },
+  "datasets": {
+    "data-b07140822a50733673dfed7a2d15523b": [
+      {
+        "Anxiety_Level": "Very Low",
+        "Count": 626,
+        "Math_Level": "Level 1",
+        "Percentage": 2.63
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "Count": 733,
+        "Math_Level": "Level 2",
+        "Percentage": 3.08
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "Count": 811,
+        "Math_Level": "Level 3",
+        "Percentage": 3.4
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "Count": 1063,
+        "Math_Level": "Level 4",
+        "Percentage": 4.46
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "Count": 1791,
+        "Math_Level": "Level 5",
+        "Percentage": 7.52
+      },
+      {
+        "Anxiety_Level": "Low",
+        "Count": 763,
+        "Math_Level": "Level 1",
+        "Percentage": 3.2
+      },
+      {
+        "Anxiety_Level": "Low",
+        "Count": 853,
+        "Math_Level": "Level 2",
+        "Percentage": 3.58
+      },
+      {
+        "Anxiety_Level": "Low",
+        "Count": 895,
+        "Math_Level": "Level 3",
+        "Percentage": 3.76
+      },
+      {
+        "Anxiety_Level": "Low",
+        "Count": 1114,
+        "Math_Level": "Level 4",
+        "Percentage": 4.68
+      },
+      {
+        "Anxiety_Level": "Low",
+        "Count": 1053,
+        "Math_Level": "Level 5",
+        "Percentage": 4.42
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "Count": 902,
+        "Math_Level": "Level 1",
+        "Percentage": 3.79
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "Count": 963,
+        "Math_Level": "Level 2",
+        "Percentage": 4.04
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "Count": 1016,
+        "Math_Level": "Level 3",
+        "Percentage": 4.26
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "Count": 970,
+        "Math_Level": "Level 4",
+        "Percentage": 4.07
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "Count": 848,
+        "Math_Level": "Level 5",
+        "Percentage": 3.56
+      },
+      {
+        "Anxiety_Level": "High",
+        "Count": 1254,
+        "Math_Level": "Level 1",
+        "Percentage": 5.26
+      },
+      {
+        "Anxiety_Level": "High",
+        "Count": 1114,
+        "Math_Level": "Level 2",
+        "Percentage": 4.68
+      },
+      {
+        "Anxiety_Level": "High",
+        "Count": 1000,
+        "Math_Level": "Level 3",
+        "Percentage": 4.2
+      },
+      {
+        "Anxiety_Level": "High",
+        "Count": 837,
+        "Math_Level": "Level 4",
+        "Percentage": 3.51
+      },
+      {
+        "Anxiety_Level": "High",
+        "Count": 587,
+        "Math_Level": "Level 5",
+        "Percentage": 2.46
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "Count": 1221,
+        "Math_Level": "Level 1",
+        "Percentage": 5.12
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "Count": 1102,
+        "Math_Level": "Level 2",
+        "Percentage": 4.62
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "Count": 1044,
+        "Math_Level": "Level 3",
+        "Percentage": 4.38
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "Count": 781,
+        "Math_Level": "Level 4",
+        "Percentage": 3.28
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "Count": 487,
+        "Math_Level": "Level 5",
+        "Percentage": 2.04
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Count",
+          "legend": {
+            "title": "Student Count"
+          },
+          "scale": {
+            "scheme": "oranges"
+          },
+          "type": "quantitative"
+        },
+        "opacity": {
+          "condition": {
+            "param": "cell_select",
+            "value": 1
+          },
+          "value": 0.6
+        },
+        "tooltip": [
+          {
+            "field": "Anxiety_Level",
+            "type": "nominal"
+          },
+          {
+            "field": "Math_Level",
+            "type": "nominal"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "type": "quantitative"
+          },
+          {
+            "field": "Percentage",
+            "format": ".1f",
+            "title": "%",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Math_Level",
+          "sort": [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4",
+            "Level 5"
+          ],
+          "title": "Math Performance Level",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Anxiety_Level",
+          "sort": [
+            "Very High",
+            "High",
+            "Medium",
+            "Low",
+            "Very Low"
+          ],
+          "title": "Math Anxiety Level",
+          "type": "ordinal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cursor": "pointer",
+        "type": "rect"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Click Cell for Details"
+      },
+      "width": 450
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "Math_Level",
+          "legend": {
+            "orient": "top",
+            "title": "Math Level"
+          },
+          "scale": {
+            "domain": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ],
+            "range": [
+              "#d73027",
+              "#fc8d59",
+              "#fee090",
+              "#91bfdb",
+              "#4575b4"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Anxiety_Level",
+            "type": "nominal"
+          },
+          {
+            "field": "Math_Level",
+            "type": "nominal"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "type": "quantitative"
+          },
+          {
+            "field": "Percentage",
+            "format": ".1f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Count",
+          "title": "Student Count",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Anxiety_Level",
+          "sort": [
+            "Very High",
+            "High",
+            "Medium",
+            "Low",
+            "Very Low"
+          ],
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Selected Cell Details"
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "cell_select"
+          }
+        }
+      ],
+      "width": 450
+    }
+  ],
+  "params": [
+    {
+      "name": "cell_select",
+      "select": {
+        "fields": [
+          "Anxiety_Level",
+          "Math_Level"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}

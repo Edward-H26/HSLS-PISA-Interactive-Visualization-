@@ -20,6 +20,11 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+# Large datasets
+data/*.csv
+# Large archives
+data/*.zip
+
 # Bundler
 /vendor/
 /.bundle/

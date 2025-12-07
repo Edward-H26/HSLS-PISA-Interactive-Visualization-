@@ -1,0 +1,357 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF"
+    }
+  },
+  "datasets": {
+    "data-73bbd499e8c267fcfd934cd9569288e8": [
+      {
+        "GPA": 2.902229119638826,
+        "Grade": "10th Grade",
+        "SES_Quintile": "Fourth 20%"
+      },
+      {
+        "GPA": 2.9146444695259595,
+        "Grade": "11th Grade",
+        "SES_Quintile": "Fourth 20%"
+      },
+      {
+        "GPA": 2.999153498871332,
+        "Grade": "12th Grade",
+        "SES_Quintile": "Fourth 20%"
+      },
+      {
+        "GPA": 2.94441309255079,
+        "Grade": "9th Grade",
+        "SES_Quintile": "Fourth 20%"
+      },
+      {
+        "GPA": 3.22802554665512,
+        "Grade": "10th Grade",
+        "SES_Quintile": "Highest 20%"
+      },
+      {
+        "GPA": 3.2269430612686727,
+        "Grade": "11th Grade",
+        "SES_Quintile": "Highest 20%"
+      },
+      {
+        "GPA": 3.2940571552284044,
+        "Grade": "12th Grade",
+        "SES_Quintile": "Highest 20%"
+      },
+      {
+        "GPA": 3.2772245074691493,
+        "Grade": "9th Grade",
+        "SES_Quintile": "Highest 20%"
+      },
+      {
+        "GPA": 2.4796082949308755,
+        "Grade": "10th Grade",
+        "SES_Quintile": "Lowest 20%"
+      },
+      {
+        "GPA": 2.5035714285714286,
+        "Grade": "11th Grade",
+        "SES_Quintile": "Lowest 20%"
+      },
+      {
+        "GPA": 2.639516129032258,
+        "Grade": "12th Grade",
+        "SES_Quintile": "Lowest 20%"
+      },
+      {
+        "GPA": 2.492741935483871,
+        "Grade": "9th Grade",
+        "SES_Quintile": "Lowest 20%"
+      },
+      {
+        "GPA": 2.750803600128576,
+        "Grade": "10th Grade",
+        "SES_Quintile": "Middle 20%"
+      },
+      {
+        "GPA": 2.7871263259402124,
+        "Grade": "11th Grade",
+        "SES_Quintile": "Middle 20%"
+      },
+      {
+        "GPA": 2.8971391835422695,
+        "Grade": "12th Grade",
+        "SES_Quintile": "Middle 20%"
+      },
+      {
+        "GPA": 2.785358405657345,
+        "Grade": "9th Grade",
+        "SES_Quintile": "Middle 20%"
+      },
+      {
+        "GPA": 2.6246133023975253,
+        "Grade": "10th Grade",
+        "SES_Quintile": "Second 20%"
+      },
+      {
+        "GPA": 2.6387277648878578,
+        "Grade": "11th Grade",
+        "SES_Quintile": "Second 20%"
+      },
+      {
+        "GPA": 2.7702049497293117,
+        "Grade": "12th Grade",
+        "SES_Quintile": "Second 20%"
+      },
+      {
+        "GPA": 2.6491686001546793,
+        "Grade": "9th Grade",
+        "SES_Quintile": "Second 20%"
+      }
+    ],
+    "data-c92f603c4cc071f9da6fefd26febeb21": [
+      {
+        "Count": 3544,
+        "GPA": 2.999153498871332,
+        "SES_Quintile": "Fourth 20%"
+      },
+      {
+        "Count": 4619,
+        "GPA": 3.2940571552284044,
+        "SES_Quintile": "Highest 20%"
+      },
+      {
+        "Count": 2170,
+        "GPA": 2.639516129032258,
+        "SES_Quintile": "Lowest 20%"
+      },
+      {
+        "Count": 3111,
+        "GPA": 2.8971391835422695,
+        "SES_Quintile": "Middle 20%"
+      },
+      {
+        "Count": 2586,
+        "GPA": 2.7702049497293117,
+        "SES_Quintile": "Second 20%"
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-c92f603c4cc071f9da6fefd26febeb21"
+      },
+      "encoding": {
+        "color": {
+          "field": "SES_Quintile",
+          "legend": {
+            "columns": 3,
+            "orient": "top",
+            "title": "SES Quintile"
+          },
+          "scale": {
+            "domain": [
+              "Lowest 20%",
+              "Second 20%",
+              "Middle 20%",
+              "Fourth 20%",
+              "Highest 20%"
+            ],
+            "range": [
+              "#1a237e",
+              "#303f9f",
+              "#3f51b5",
+              "#7986cb",
+              "#c5cae9"
+            ]
+          },
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "ses_select",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "SES_Quintile",
+            "type": "nominal"
+          },
+          {
+            "field": "GPA",
+            "format": ".2f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "GPA",
+          "scale": {
+            "domain": [
+              2.0,
+              3.5
+            ]
+          },
+          "title": "Average 12th Grade GPA",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "SES_Quintile",
+          "sort": [
+            "Lowest 20%",
+            "Second 20%",
+            "Middle 20%",
+            "Fourth 20%",
+            "Highest 20%"
+          ],
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "cursor": "pointer",
+        "type": "bar"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Click SES Level for GPA Trajectory"
+      },
+      "width": 450
+    },
+    {
+      "data": {
+        "name": "data-73bbd499e8c267fcfd934cd9569288e8"
+      },
+      "encoding": {
+        "color": {
+          "field": "SES_Quintile",
+          "legend": {
+            "columns": 3,
+            "orient": "top",
+            "title": "SES Quintile"
+          },
+          "scale": {
+            "domain": [
+              "Lowest 20%",
+              "Second 20%",
+              "Middle 20%",
+              "Fourth 20%",
+              "Highest 20%"
+            ],
+            "range": [
+              "#1a237e",
+              "#303f9f",
+              "#3f51b5",
+              "#7986cb",
+              "#c5cae9"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "SES_Quintile",
+            "type": "nominal"
+          },
+          {
+            "field": "Grade",
+            "type": "ordinal"
+          },
+          {
+            "field": "GPA",
+            "format": ".2f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Grade",
+          "sort": [
+            "9th Grade",
+            "10th Grade",
+            "11th Grade",
+            "12th Grade"
+          ],
+          "title": "Grade Level",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "GPA",
+          "scale": {
+            "domain": [
+              2.0,
+              3.5
+            ]
+          },
+          "title": "Average GPA",
+          "type": "quantitative"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "point": {
+          "size": 100
+        },
+        "strokeWidth": 3,
+        "type": "line"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "GPA Trajectory for Selected SES Level"
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "ses_select"
+          }
+        }
+      ],
+      "width": 450
+    }
+  ],
+  "params": [
+    {
+      "name": "ses_select",
+      "select": {
+        "fields": [
+          "SES_Quintile"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF"
+    }
+  },
+  "datasets": {
+    "data-78c737cf1000ac33e11ae0c49e11312f": [
+      {
+        "Count": 1917,
+        "Gender": "Female",
+        "Parent_Education": "Associate's",
+        "STEM_Rate": 133.38549817423058
+      },
+      {
+        "Count": 1976,
+        "Gender": "Male",
+        "Parent_Education": "Associate's",
+        "STEM_Rate": 65.2834008097166
+      },
+      {
+        "Count": 835,
+        "Gender": "Female",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 122.87425149700599
+      },
+      {
+        "Count": 779,
+        "Gender": "Male",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 70.73170731707317
+      },
+      {
+        "Count": 3352,
+        "Gender": "Female",
+        "Parent_Education": "HS Diploma",
+        "STEM_Rate": 126.16348448687351
+      },
+      {
+        "Count": 3442,
+        "Gender": "Male",
+        "Parent_Education": "HS Diploma",
+        "STEM_Rate": 33.46891342242882
+      },
+      {
+        "Count": 683,
+        "Gender": "Female",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 88.43338213762812
+      },
+      {
+        "Count": 659,
+        "Gender": "Male",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 3.0349013657056148
+      },
+      {
+        "Count": 280,
+        "Gender": "Female",
+        "Parent_Education": "Ph.D./Prof",
+        "STEM_Rate": 127.85714285714285
+      },
+      {
+        "Count": 298,
+        "Gender": "Male",
+        "Parent_Education": "Ph.D./Prof",
+        "STEM_Rate": 76.1744966442953
+      },
+      {
+        "Count": 1282,
+        "Gender": "Female",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 140.32761310452418
+      },
+      {
+        "Count": 1280,
+        "Gender": "Male",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 54.60937500000001
+      }
+    ],
+    "data-8461a852fa6e05e9718ba138d69e1b73": [
+      {
+        "Count": 3893,
+        "Parent_Education": "Associate's",
+        "STEM_Rate": 98.81839198561521
+      },
+      {
+        "Count": 1614,
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 97.70755885997522
+      },
+      {
+        "Count": 6794,
+        "Parent_Education": "HS Diploma",
+        "STEM_Rate": 79.2022372681778
+      },
+      {
+        "Count": 1342,
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 46.497764530551414
+      },
+      {
+        "Count": 578,
+        "Parent_Education": "Ph.D./Prof",
+        "STEM_Rate": 101.21107266435988
+      },
+      {
+        "Count": 2562,
+        "Parent_Education": "Some College",
+        "STEM_Rate": 97.50195160031225
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-8461a852fa6e05e9718ba138d69e1b73"
+      },
+      "encoding": {
+        "color": {
+          "field": "Parent_Education",
+          "legend": {
+            "columns": 4,
+            "orient": "top",
+            "title": "Parent Education"
+          },
+          "scale": {
+            "domain": [
+              "Less than HS",
+              "HS Diploma",
+              "Some College",
+              "Associate's",
+              "Bachelor's",
+              "Master's",
+              "Ph.D./Prof"
+            ],
+            "range": [
+              "#e1bee7",
+              "#ce93d8",
+              "#ba68c8",
+              "#ab47bc",
+              "#9c27b0",
+              "#7b1fa2",
+              "#6a1b9a"
+            ]
+          },
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "edu_select",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "Parent_Education",
+            "type": "nominal"
+          },
+          {
+            "field": "STEM_Rate",
+            "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "STEM_Rate",
+          "scale": {
+            "domain": [
+              0,
+              150
+            ]
+          },
+          "title": "Overall STEM Rate (%)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "HS Diploma",
+            "Some College",
+            "Associate's",
+            "Bachelor's",
+            "Master's",
+            "Ph.D./Prof"
+          ],
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "cursor": "pointer",
+        "type": "bar"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Click Education Level for Gender Detail"
+      },
+      "width": 450
+    },
+    {
+      "data": {
+        "name": "data-78c737cf1000ac33e11ae0c49e11312f"
+      },
+      "encoding": {
+        "color": {
+          "field": "Gender",
+          "legend": {
+            "orient": "top",
+            "title": "Gender"
+          },
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Parent_Education",
+            "type": "nominal"
+          },
+          {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "STEM_Rate",
+            "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "STEM_Rate",
+          "scale": {
+            "domain": [
+              0,
+              150
+            ]
+          },
+          "title": "STEM Career Expectation Rate (%)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Gender Gap for Selected Education Level"
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "edu_select"
+          }
+        }
+      ],
+      "width": 450
+    }
+  ],
+  "params": [
+    {
+      "name": "edu_select",
+      "select": {
+        "fields": [
+          "Parent_Education"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}

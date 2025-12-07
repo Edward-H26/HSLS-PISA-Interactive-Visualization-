@@ -1,5 +1,7 @@
 let currentIndex = 0;
-const totalPanels = 6;
+const totalPanels = 9;
+const TRANSITION_LOCK_MS = 700;
+const HORIZONTAL_DOMINANCE = 1.25;
 
 const scrollContainer = document.getElementById("scroll-container");
 const panels = Array.from(document.querySelectorAll(".panel"));
@@ -7,6 +9,8 @@ const navButtons = Array.from(document.querySelectorAll("[data-target]"));
 const progressDots = Array.from(document.querySelectorAll(".progress-dot"));
 const topNav = document.getElementById("top-nav");
 const progressIndicator = document.querySelector(".progress-indicator");
+let isTransitioning = false;
+let transitionTimeout = null;
 
 function initParticles() {
   const container = document.getElementById("particles");
@@ -68,12 +72,15 @@ function initVisualizations() {
   const basePath = "../assets/json/";
 
   const charts = [
-    { id: "viz-chart-1", file: "buildingAgeAndSizeAnalysis.json" },
-    { id: "viz-chart-2", file: "buildingAgeAndSizeAnalysis.json" },
-    { id: "viz-chart-3", file: "buildingAgeAndSizeAnalysis.json" },
-    { id: "viz-chart-4", file: "buildingAgeAndSizeAnalysis.json" },
-    { id: "viz-chart-5", file: "buildingAgeAndSizeAnalysis.json" },
-    { id: "viz-chart-6", file: "buildingAgeAndSizeAnalysis.json" }
+    { id: "viz-chart-1", file: "pisa_gender_efficacy_dumbbell.json" },
+    { id: "viz-chart-2", file: "pisa_anxiety_performance_heatmap.json" },
+    { id: "viz-chart-3", file: "combined_immigration.json" },
+    { id: "viz-chart-4", file: "combined_gender_stem.json" },
+    { id: "viz-chart-5", file: "hsls_math_identity_race.json" },
+    { id: "viz-chart-6", file: "hsls_gpa_ses_trajectory.json" },
+    { id: "viz-chart-7", file: "combined_efficacy_comparison.json" },
+    { id: "viz-chart-8", file: "combined_ses_achievement.json" },
+    { id: "viz-chart-9", file: "combined_parent_education.json" }
   ];
 
   if (typeof vegaEmbed === "undefined") {
@@ -113,7 +120,10 @@ function initVisualizations() {
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((spec) => {
         el.innerHTML = "";
-        vegaEmbed(`#${c.id}`, spec, vegaOpts).catch(() => showPlaceholder(el, c.file));
+        const specWithFit = Object.assign({}, spec, {
+          autosize: { type: "fit", contains: "padding", resize: true },
+        });
+        vegaEmbed(`#${c.id}`, specWithFit, vegaOpts).catch(() => showPlaceholder(el, c.file));
       })
       .catch(() => showPlaceholder(el, c.file));
   });
@@ -132,19 +142,38 @@ function showPlaceholder(el, file) {
 }
 
 function scrollToPanel(index) {
-  if (index < 0 || index >= totalPanels) return;
-  const target = panels[index];
+  const clampedIndex = clampIndex(index);
+  const target = panels[clampedIndex];
   if (!target) return;
 
   scrollContainer.scrollTo({ left: target.offsetLeft, behavior: "smooth" });
-  currentIndex = index;
-  updateActiveStates(index);
+  currentIndex = clampedIndex;
+  updateActiveStates(clampedIndex);
 
   const panelInner = target.querySelector(".panel-inner");
   if (panelInner) panelInner.scrollTop = 0;
 
   if (topNav) topNav.classList.remove("visible");
   checkNavbarVisibility();
+}
+
+function clampIndex(index) {
+  return Math.max(0, Math.min(totalPanels - 1, index));
+}
+
+function lockTransition() {
+  isTransitioning = true;
+  clearTimeout(transitionTimeout);
+  transitionTimeout = setTimeout(() => {
+    isTransitioning = false;
+  }, TRANSITION_LOCK_MS);
+}
+
+function goToPanel(index) {
+  const nextIndex = clampIndex(index);
+  if (nextIndex === currentIndex || isTransitioning) return;
+  scrollToPanel(nextIndex);
+  lockTransition();
 }
 
 function updateActiveStates(index) {
@@ -160,7 +189,7 @@ function initNavigation() {
   navButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const index = parseInt(btn.dataset.target);
-      if (!Number.isNaN(index)) scrollToPanel(index);
+      if (!Number.isNaN(index)) goToPanel(index);
     });
   });
 }
@@ -171,30 +200,54 @@ function initKeyboard() {
 
     if (e.key === "ArrowRight") {
       e.preventDefault();
-      scrollToPanel(Math.min(currentIndex + 1, totalPanels - 1));
+      goToPanel(currentIndex + 1);
     } else if (e.key === "ArrowLeft") {
       e.preventDefault();
-      scrollToPanel(Math.max(currentIndex - 1, 0));
+      goToPanel(currentIndex - 1);
     }
   });
 }
 
 function initScrollHandling() {
-  scrollContainer.addEventListener("wheel", (e) => {
-    const panelInner = e.target.closest(".panel-inner");
-    if (panelInner) {
-      const atTop = panelInner.scrollTop === 0;
+  panels.forEach((panel, panelIndex) => {
+    const panelInner = panel.querySelector(".panel-inner");
+    if (!panelInner) return;
+
+    panelInner.addEventListener("wheel", (e) => {
+      const deltaY = e.deltaY;
+      const atTop = panelInner.scrollTop <= 0;
       const atBottom = panelInner.scrollTop + panelInner.clientHeight >= panelInner.scrollHeight - 1;
 
-      if ((e.deltaY < 0 && atTop) || (e.deltaY > 0 && atBottom)) {
+      if ((deltaY > 0 && atBottom) || (deltaY < 0 && atTop)) {
         e.preventDefault();
-        scrollContainer.scrollBy({ left: e.deltaY, behavior: "smooth" });
+        e.stopPropagation();
+        goToPanel(panelIndex + (deltaY > 0 ? 1 : -1));
       }
+    }, { passive: false });
+  });
+
+  scrollContainer.addEventListener("wheel", (e) => {
+    if (isTransitioning || e.defaultPrevented) {
+      e.preventDefault();
       return;
     }
 
+    if (e.target.closest(".panel-inner")) return;
+
+    const absX = Math.abs(e.deltaX);
+    const absY = Math.abs(e.deltaY);
+    const isHorizontal = absX > absY * HORIZONTAL_DOMINANCE;
+    const primaryDelta = isHorizontal ? e.deltaX : e.deltaY;
+    const threshold = 20;
+    if ((isHorizontal && absX < threshold) || (!isHorizontal && absY < threshold)) return;
+
     e.preventDefault();
-    scrollContainer.scrollBy({ left: e.deltaY, behavior: "smooth" });
+    // Direction: horizontal positive -> previous, horizontal negative -> next.
+    // Vertical down (positive) -> next, up (negative) -> previous.
+    const direction = isHorizontal
+      ? (primaryDelta > 0 ? -1 : 1)
+      : (primaryDelta > 0 ? 1 : -1);
+    goToPanel(currentIndex + direction);
   }, { passive: false });
 
   scrollContainer.addEventListener("scroll", () => requestAnimationFrame(handleScroll));
@@ -273,11 +326,7 @@ function initTouch() {
 
     if (isHorizontalSwipe && isFastEnough && isQuickEnough) {
       e.preventDefault();
-      if (deltaX < 0) {
-        scrollToPanel(Math.min(currentIndex + 1, totalPanels - 1));
-      } else {
-        scrollToPanel(Math.max(currentIndex - 1, 0));
-      }
+      goToPanel(deltaX < 0 ? currentIndex + 1 : currentIndex - 1);
     }
   }, { passive: false });
 }

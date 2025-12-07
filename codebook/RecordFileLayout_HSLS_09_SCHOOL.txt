@@ -1,0 +1,2428 @@
+/**************************************************************************
+ *** Record File Layout                                                 ***
+ ***                                                                    ***
+ *** This file is designed to provide the necessary information so      ***
+ *** that NCES survey response data may be used in other statistical    ***
+ *** software packages. This file provides variable names, locations,   ***
+ *** and short descriptions for all selected variables. Additionally,   ***
+ *** for categorical variables, this file also contains the response    ***
+ *** codes and value label descriptions.                                ***
+ ***                                                                    ***
+ *** Full sample weights, replicate weights, and identification         ***
+ *** numbers are added automatically to the list of variables selected  ***
+ *** by the Online Codebook and are included here.                      ***
+ *************************************************************************/
+
+/* ASCII Dataset File Name */
+HSLS_09_SCHOOL
+
+/* Total Record Length */
+3824
+
+/* Variable Names, Locations, and Descriptions */
+SCH_ID         1-5           School ID
+X1NCESID       5-17          X1 School identification number from CCD or PSS
+W1SCHOOL       17-30         W1 Base year school analytic weight
+STRAT_ID       30-33         Stratum
+PSU            33-35         Primary sampling unit
+X1CONTROL      35-37         X1 School control
+X1LOCALE       37-39         X1 School locale (urbanicity)
+X1REGION       39-41         X1 School geographic region
+X1CENDIV       41-43         X1 School census geographic division
+X1STATESAMPL   43-45         X1 State level public school sample membership
+X1STATE        45-47         X1 State code for school
+X1GRADESPAN    47-49         X1 Grade span of school-administrator questionnaire
+X1FREELUNCH    49-51         X1 Grade 9 percent free lunch-categorical
+X1REPEAT9TH    51-53         X1 Percent of 9th graders repeating 9th grade
+X1SCHAMIND     53-55         X1 Percent of students in school that are American Indian
+X1SCHASIAN     55-57         X1 Percent of students in school that are Asian
+X1SCHBLACK     57-59         X1 Percent of students in school that are Black
+X1SCHHISP      59-61         X1 Percent of students in school that are Hispanic/Latino/Latina
+X1SCHWHITE     61-63         X1 Percent of students in school that are White
+X1SCHOOLCLI    63-68         X1 Scale of administrator's assessment of school climate
+X1COUPERTEA    68-73         X1 Scale of counselor's perceptions of teacher expectations
+X1COUPERCOU    73-78         X1 Scale of counselor's perceptions of counselor expectations
+X1COUPERPRI    78-83         X1 Scale of counselor's perceptions of principal's expectations
+X1AQSTAT       83-85         X1 administrator questionnaire status
+X1AQDATE       85-91         X1 administrator questionnaire date (YYYYMM)
+X1AQDESIGNEE   91-93         X1 administrator questionnaire designee respondent (designee resp v. no designee)
+X1CQSTAT       93-95         X1 counselor questionnaire status
+X1CQDATE       95-101        X1 counselor questionnaire date (YYYYMM)
+A1GRADEPREK    101-103       A1 A01A School includes pre-kindergarten
+A1GRADEK       103-105       A1 A01B School includes kindergarten
+A1GRADE1       105-107       A1 A01C School includes 1st grade
+A1GRADE2       107-109       A1 A01D School includes 2nd grade
+A1GRADE3       109-111       A1 A01E School includes 3rd grade
+A1GRADE4       111-113       A1 A01F School includes 4th grade
+A1GRADE5       113-115       A1 A01G School includes 5th grade
+A1GRADE6       115-117       A1 A01H School includes 6th grade
+A1GRADE7       117-119       A1 A01I School includes 7th grade
+A1GRADE8       119-121       A1 A01J School includes 8th grade
+A1GRADE9       121-123       A1 A01K School includes 9th grade
+A1GRADE10      123-125       A1 A01L School includes 10th grade
+A1GRADE11      125-127       A1 A01M School includes 11th grade
+A1GRADE12      127-129       A1 A01N School includes 12th grade
+A1GRADE13      129-131       A1 A01O School includes grades above 12th
+A1UNGRADED     131-133       A1 A01P School includes ungraded level(s)
+A1SCHCONTROL   133-135       A1 A02 School control
+A1RELIGIOUS    135-137       A1 A03 Whether school has a religious orientation or purpose
+A1RELIGTYPE    137-139       A1 A04 School's religious orientation
+A1SINGLESEX    139-141       A1 A05 Whether school is a single-sex school
+A1SCHTYPE      141-143       A1 A06 School type
+A1SCHSPFOCUS   143-145       A1 A07 Whether school's special focus is math or science
+A1CHOICEPROG   145-147       A1 A08 School participates in public school choice program
+A1CHOICEIN     147-149       A1 A09A School's students can enroll in another school within district
+A1CHOICEOUT    149-151       A1 A09B School's students can enroll in a school in another district at no cost
+A1CHOICESCH    151-153       A1 A09C Students from other districts can enroll in school at no tuition cost
+A1CHOICEPRIV   153-155       A1 A09D School's students can enroll in private school using state/district fund
+A1CHOICEOTHR   155-157       A1 A09E School participates in another public school choice program
+A1YRROUND      157-159       A1 A10 Whether school is a year round school
+A1CALENDAR     159-161       A1 A11 Academic calendar type
+A1SCHEDULE     161-163       A1 A12 Course schedule type
+A1TRADMINS     163-165       A1 A13 Length of traditional schedule courses
+A1ACADBLOCK    165-167       A1 A14A Whether academic courses are block scheduled
+A1VOCBLOCK     167-169       A1 A14B Whether vocational/technical courses are block scheduled
+A1OTHRBLOCK    169-171       A1 A14C Whether other courses are block scheduled
+A1ABLOCKMINS   171-174       A1 A15 Length of block-scheduled academic courses
+A1VBLOCKMINS   174-177       A1 A16 Length of block-scheduled vocational/technical courses
+A1OBLOCKMINS   177-180       A1 A17 Length of other block-scheduled courses
+A1CLASSHRS     180-185       A1 A18 Average instruction hours per day
+A1ADA          185-188       A1 A19 Average daily attendance percentage for high school students
+A1NOTIFY       188-190       A1 A20 Whether parents are notified when students are absent without an excuse
+A1TRANSFRALT   190-192       A1 A21 % of 08-09 students transferred out to an alternative program/school
+A1AYP          192-194       A1 A22 School is currently in need of improvement due to AYP requirements
+A1AYPYR        194-196       A1 A23 Year of AYP improvement as of 09-10 school year
+A1MADEAYP      196-198       A1 A24 Whether school made AYP at the end of the 2008-2009 school year
+A1MTHSCIFAIR   198-200       A1 A25A Holds math or science fairs/workshops/competitions
+A1MSSUMMER     200-202       A1 A25B Partners w/ college/university that offers math/science summer program
+A1MSAFTERSCH   202-204       A1 A25C Sponsors a math or science after-school program
+A1MSMENTOR     204-206       A1 A25D Pairs students with mentors in math or science
+A1MSSPEAKER    206-208       A1 A25E Brings in guest speakers to talk about math or science
+A1MSFLDTRIP    208-210       A1 A25F Takes students on math- or science-relevant field trips
+A1MSPRGMS      210-212       A1 A25G Tells students about math/science contests/websites/blogs/other programs
+A1MESA         212-214       A1 A25H Partners with MESA or a similar enrichment-model program
+A1MSPDLEARN    214-216       A1 A25I Requires teacher prof development in how students learn math/science
+A1MSPDINTRST   216-218       A1 A25J Requires teacher prof development in increasing interest in math/science
+A1MSOTHER      218-220       A1 A25K Raises students math/science interest/achievement in another way
+A1MSNONE       220-222       A1 A25L Doesn't do any of these to raise math/science interest/achievement
+A1G9SUMMER     222-224       A1 A26A Offers pre-HS summer reading/math instruction for struggling 9th graders
+A1G9OVERAGE    224-226       A1 A26B Offers learning communities for over-age student lacking HS prerequisite
+A1G9COMMUNTY   226-228       A1 A26C Offers 9th grade learning communities separate from rest of school
+A1G9BLOCKSCH   228-230       A1 A26D Offers block scheduling to assist struggling 9th graders
+A1G9DOUBLE     230-232       A1 A26E Offers catch-up courses/double-dosing to assist struggling 9th graders 
+A1G9STUDY      232-234       A1 A26F Offers study skill seminar/class for struggling 9th graders
+A1G9TEACHER    234-236       A1 A26G Offers assistance for teachers working with struggling 9th graders
+A1G9TUTOR      236-238       A1 A26H Offers tutoring to assist struggling 9th graders 
+A1G9OTHRPROG   238-240       A1 A26I Offers another program to assist struggling 9th graders
+A1G9NOPROG     240-242       A1 A26J School has no programs to assist struggling 9th graders
+A1G9ABSENTEE   242-244       A1 A27A Grade 9 academic assistance recommended based on absentee record
+A1G9GRADES     244-246       A1 A27B Grade 9 academic assistance recommended based on poor/failing grades
+A1G9BEHIND     246-248       A1 A27C Grade 9 acad assistance recommended based on being behind on credits
+A1G9BEHAVE     248-250       A1 A27D Grade 9 academic assistance recommended based on disciplinary problems
+A1G9TCHREF     250-252       A1 A27E Grade 9 academic assistance recommended based on teacher referral
+A1G9CNSLREF    252-254       A1 A27F Grade 9 academic assistance recommended based on counselor referral
+A1G9PRNTREF    254-256       A1 A27G Grade 9 academic assistance recommended based on parental request
+A1G9REQUEST    256-258       A1 A27H Grade 9 academic assistance recommended based on student request
+A1G9OTHER      258-260       A1 A27I Grade 9 academic assistance recommendations based on something else
+A1CAPACITY     260-263       A1 B01 Percent capacity to which school is filled
+A1OFFERALT     263-265       A1 B02A Alternative program offered on-site
+A1OFFERDOPRV   265-267       A1 B02B Dropout prevention program offered on-site
+A1OFFERAP      267-269       A1 B02C College Board Advanced Placement (AP) courses offered on-site
+A1OFFERNONE    269-271       A1 B02D None of these programs or courses are offered on-site
+A1FREELUNCH    271-274       A1 B03A % of student body receiving free or reduced-price lunch
+A1ELL          274-277       A1 B03B % of student body who are English language learners
+A1SPECIALED    277-280       A1 B03C % of student body receiving Special Education services for disabilities
+A1ALTPROG      280-283       A1 B03D % of student body enrolled in an alternative program
+A1DROPOUTPRV   283-286       A1 B03E % of student body enrolled in a dropout prevention program
+A1AP           286-289       A1 B03F % of student body enrolled in Advanced Placement courses
+A1HISPSTU      289-292       A1 B04A % of student body of Hispanic/Latino/Latina origin
+A1WHITESTU     292-295       A1 B04B % of student body that is White
+A1BLACKSTU     295-298       A1 B04C % of student body that is Black or African American
+A1ASIANPISTU   298-301       A1 B04D % of student body that is Asian or Pacific Islander
+A1AMINDIANST   301-304       A1 B04E % of student body that is American Indian or Alaska Native
+A1REPEATG9     304-306       A1 B05 % of the 2009-2010 9th-grade class that is repeating 9th grade
+A1RETURN09     306-309       A1 B06 % of 9th graders enrolled in this school Sept 2008 returned Sept 2009
+A14YRDEGREE    309-312       A1 B07A % of 08-09 seniors who went to 4-year Bachelor's-granting institution
+A12YRDEGREE    312-315       A1 B07B % of 08-09 seniors who went to Associates-granting/technical institution
+A1WORK         315-318       A1 B07C % of 08-09 seniors who entered the workforce
+A1MILITARY     318-321       A1 B07D % of 08-09 seniors who joined military
+A1DIDOTHER     321-324       A1 B07E % of 08-09 seniors who did something else
+A1FTTCHRS      324-327       A1 C01A Total number of full-time teachers
+A1PTTCHRS      327-330       A1 C01B Total number of part-time teachers
+A1FTMTCHRS     330-333       A1 C02A Number of full-time high school math teachers
+A1PTMTCHRS     333-336       A1 C02B Number of part-time high school math teachers
+A1FTSTCHRS     336-339       A1 C02C Number of full-time high school science teachers
+A1PSCTCHRS     339-342       A1 C02D Number of part-time high school science teachers
+A1FTOTHTCHRS   342-345       A1 C02E Number of full-time high school teachers of all other subject areas
+A1PTOTHTCHRS   345-348       A1 C02F Number of part-time high school teachers of all other subject areas
+A1CERTFTMTCH   348-350       A1 C03A Number of certified full-time high school math teachers
+A1CERTPTMTCH   350-352       A1 C03B Number of certified part-time high school math teachers
+A1CERTFTSTCH   352-354       A1 C03C Number of certified full-time high school science teachers
+A1CERTPTSTCH   354-356       A1 C03D Number of certified part-time high school science teachers
+A1MSRECRUIT    356-358       A1 C04 Whether recruited/interviewed HS math/science teachers for 2008-2009
+A1FILLMTH      358-360       A1 C05 Ease of filling high school mathematics teaching vacancies
+A1FILLSCI      360-362       A1 C06 Ease of filling high school science teaching vacancies
+A1MINCENTIVE   362-364       A1 C07 School/district offers incentives to attract FT HS math teachers
+A1SINCENTIVE   364-366       A1 C08 School/district offers incentives to attract FT HS science teachers
+A1MTNORETURN   366-368       A1 C09 # of 2008-2009 full-time math teachers who did not return in 2009-2010
+A1STNORETURN   368-370       A1 C10 # of 2008-2009 full-time science teachers who did not return in 2009-2010
+A1ABSENTTCHR   370-372       A1 C11 % of high school's teachers absent on an average day
+A1ONPREALG     372-374       A1 D01A School offers PreAlgebra on-site
+A1ONRMTH       374-376       A1 D01B School offers Review or Remedial Math on-site
+A1ONINTMTH1    376-378       A1 D01C School offers Integrated Math I on-site
+A1ONINTMTH2    378-380       A1 D01D School offers Integrated Math II or above on-site
+A1ONALGP1P2    380-382       A1 D01E School offers Algebra I, part 1 and part 2 on-site
+A1ONALG1       382-384       A1 D01F School offers Algebra I on-site
+A1ONALG2       384-386       A1 D01G School offers Algebra II on-site
+A1ONGEOM       386-388       A1 D01H School offers Geometry  on-site
+A1ONTRIG       388-390       A1 D01I School offers Trigonometry on-site
+A1ONALG3       390-392       A1 D01J School offers Algebra III on-site
+A1ONANGEOM     392-394       A1 D01K School offers Analytic Geometry on-site
+A1ONCLC        394-396       A1 D01L School offers Calculus on-site
+A1ONCLCAPAB    396-398       A1 D01M School offers Calculus AP (AB) on-site
+A1ONCLCAPBC    398-400       A1 D01N School offers Calculus AP (BC) on-site
+A1ONCLCAPIB    400-402       A1 D01O School offers Calculus IB on-site
+A1ONCMPSCI     402-404       A1 D01P School offers Computer Science on-site
+A1ONCMPSCIA    404-406       A1 D01Q School offers Computer Science AP (A) on-site
+A1ONCMPSCIB    406-408       A1 D01R School offers Computer Science AP (AB) on-site
+A1ONSTATS      408-410       A1 D01S School offers Statistics or Probability on-site
+A1ONSTATSAP    410-412       A1 D01T School offers Statistics AP on-site
+A1OFFPREALG    412-414       A1 D02A School offers PreAlgebra through some other means
+A1OFFRMTH      414-416       A1 D02B School offers Review or Remedial Math through some other means
+A1OFFINTMTH1   416-418       A1 D02C School offers Integrated Math I through some other means
+A1OFFINTMTH2   418-420       A1 D02D School offers Integrated Math II or above through some other means
+A1OFFALGP1P2   420-422       A1 D02E School offers Algebra I, part 1 and part 2 through some other means
+A1OFFALG1      422-424       A1 D02F School offers Algebra I through some other means
+A1OFFALG2      424-426       A1 D02G School offers Algebra II through some other means
+A1OFFGEOM      426-428       A1 D02H School offers Geometry through some other means
+A1OFFTRIG      428-430       A1 D02J School offers Trigonometry through some other means
+A1OFFALG3      430-432       A1 D02K School offers Algebra III through some other means
+A1OFFANGEOM    432-434       A1 D02L School offers Analytic Geometry through some other means
+A1OFFCLC       434-436       A1 D02M School offers Calculus through some other means
+A1OFFCLCAPAB   436-438       A1 D02N School offers Calculus AP (AB) through some other means
+A1OFFCLCAPBC   438-440       A1 D02O School offers Calculus AP (BC) through some other means
+A1OFFCMPSCI    440-442       A1 D02Q School offers Computer Science through some other means
+A1OFFCLCAPIB   442-444       A1 D02P School offers Calculus IB through some other means
+A1OFFMPSCIA    444-446       A1 D02R School offers Computer Science AP (A) through some other means
+A1OFFCMPSCIB   446-448       A1 D02S School offers Computer Science AP (AB) through some other means
+A1OFFSTATS     448-450       A1 D02T School offers Statistics or Probability through some other means
+A1OFFSTATSAP   450-452       A1 D02U School offers Statistics AP through some other means
+A1NOMTHO       452-454       A1 D02V School doesn't offer any of these math courses through other means
+A1ONGENSCI     454-456       A1 D03A School offers General Science on-site
+A1ONPHYSCI     456-458       A1 D03B School offers Physical Science on-site
+A1ONERTHSCI    458-460       A1 D03C School offers Earth Science on-site
+A1ONENVSCI     460-462       A1 D03D School offers Environmental Science on-site
+A1ONTECH       462-464       A1 D03E School offers Principles of Technology on-site
+A1ONBIO1       464-466       A1 D03F School offers Biology I on-site
+A1ONLIFESCI    466-468       A1 D03G School offers Life Science on-site
+A1ONCHEM1      468-470       A1 D03H School offers Chemistry I on-site
+A1ONPHYS1      470-472       A1 D03I School offers Physics I on-site
+A1ONINTGSCI1   472-474       A1 D03J School offers Integrated Science I on-site
+A1ONINTGSCI2   474-476       A1 D03K School offers Integrated Science II or above on-site
+A1ONANATOMY    476-478       A1 D03L School offers Anatomy or Physiology on-site
+A1ONENVAP      478-480       A1 D03M School offers Environmental Science AP on-site
+A1ONADVBIO     480-482       A1 D03N School offers Advanced Biology, Biology II, AP, or IB on-site
+A1ONADVCHEM    482-484       A1 D03O School offers Advanced Chemistry, Chemistry II, AP, or IB on-site
+A1ONADVPHYS    484-486       A1 D03P School offers Advanced Physics, Physics II, AP, or IB on-site
+A1ONOTHBIO     486-488       A1 D03Q School offers an Other biological science on-site
+A1ONOTHPSCI    488-490       A1 D03R School offers an Other physical science on-site
+A1ONOTHESCI    490-492       A1 D03S School offers an Other earth or environmental sciences on-site
+A1OFFGENSCI    492-494       A1 D04A School offers General Science through some other means
+A1OFFPHYSCI    494-496       A1 D04B School offers Physical Science through some other means
+A1OFFERTHSCI   496-498       A1 D04C School offers Earth Science through some other means
+A1OFFTECH      498-500       A1 D04D School offers Principles of Technology through some other means
+A1OFFBIO1      500-502       A1 D04E School offers Biology I through some other means
+A1OFFLSCI      502-504       A1 D04F School offers Life Science through some other means
+A1OFFCHEM1     504-506       A1 D04G School offers Chemistry I through some other means
+A1OFFPHYS1     506-508       A1 D04H School offers Physics I through some other means
+A1OFFINTSCI1   508-510       A1 D04I School offers Integrated Science I through some other means
+A1OFFINTSCI2   510-512       A1 D04J School offers Integrated Science II or above through some other means
+A1OFFENVSCI    512-514       A1 D04K School offers Environmental Science through some other means
+A1OFFANATOMY   514-516       A1 D04L School offers Anatomy or Physiology through some other means
+A1OFFENVAP     516-518       A1 D04M School offers Environmental Science AP through some other means
+A1OFFADVBIO    518-520       A1 D04N School offers Advanced Biology/Bio II/AP/IB through some other means
+A1OFFADVCHEM   520-522       A1 D04O School offers Advanced Chemistry/Chem II/AP/IB thru some other means
+A1OFFADVPHYS   522-524       A1 D04P School offers Advanced Physics/Phys II/AP/IB through some other means
+A1OFFOTHPSCI   524-526       A1 D04Q School offers an Other physical science through some other means
+A1OFFOTHBIO    526-528       A1 D04R School offers an Other biological science through some other means
+A1OFFOTHESCI   528-530       A1 D04S School offers an Other earth or envir science through some other means
+A1NOSCIO       530-532       A1 D04T School doesn't offer any of these science courses through other means
+A1IB           532-534       A1 D05 School offers an International Baccalaureate (IB) program
+A1MTHREQS      534-536       A1 D06 School requires completion of specific math course(s) for graduation
+A1MTHSTREQ     536-538       A1 D07 Describe how math course(s) required for grad compare with state's reqs
+A1SCIREQS      538-540       A1 D08 School requires completion of specific sci course(s) for graduation
+A1SCISTREQ     540-542       A1 D09 Describe how science course(s) required for grad compare with state's req
+A1ALG1LEVELS   542-544       A1 D10 School offers Algebra I levels for students w/ different abilities
+A1SEX          544-546       A1 E01 Principal's sex
+A1HISP         546-548       A1 E02A Principal is of Hispanic/Latino/Latina origin
+A1WHITE        548-550       A1 E02B Principal is White
+A1BLACK        550-552       A1 E02C Principal is Black or African American
+A1ASIAN        552-554       A1 E02D Principal is Asian
+A1PACISLE      554-556       A1 E02E Principal is Native Hawaiian/Pacific Islander
+A1AMINDIAN     556-558       A1 E02F Principal is American Indian/Alaska Native
+A1HIDEG        558-560       A1 E03 Principal's highest degree earned
+A1HIMAJV       560-600       A1 E04A Principal's major for highest level of education-verbatim
+A1HIMAJ6       600-607       A1 E04C Principal's major for highest level of education 6-digit CIP code
+A1HIMAJ2       607-609       A1 E04B Principal's major for highest level of education 2-digit CIP code
+A1BAMAJV       609-649       A1 E05A Principal's major for Bachelor's degree-verbatim
+A1BAMAJ6       649-656       A1 E05C Principal's major for Bachelor's degree 6-digit CIP code
+A1BAMAJ2       656-658       A1 E05B Principal's major for Bachelor's degree 2-digit CIP code
+A1STARTDEG     658-660       A1 E06 Principal has started but not completed more advanced degree
+A1MANAGEMENT   660-662       A1 E07 Prior management experience outside of the field of education
+A1ALTPREP      662-664       A1 E08 Whether became a principal through alternative prep program
+A1CERTIFIED    664-666       A1 E09 Principal is certified as a principal in this state
+A1YRSADMIN     666-668       A1 E10 Years served as principal of any school
+A1YRSHSLSSCH   668-670       A1 E11 Years served as principal of this school
+A1TEACHING     670-672       A1 E12 Principal is currently teaching in this school
+A1YRSMSTCHR    672-674       A1 E13A Principal's years of middle school teaching experience
+A1YRSHSTCHR    674-676       A1 E13B Principal's years of secondary teaching experience
+A1MSSUBJECT    676-678       A1 E14 Main subject principal taught at middle school level
+A1HSSUBJECT    678-680       A1 E15 Main subject principal taught at high school level
+A1HRTEACHERS   680-682       A1 E16A Hours/week spent working with teachers on instructional issues
+A1HRINTMGMNT   682-684       A1 E16B Hours/week spent on internal school management
+A1HREXTMGMNT   684-686       A1 E16C Hours/week spent on external school management
+A1HRDISCIPLN   686-688       A1 E16D Hours/week spent on student discipline/attendance
+A1HRMONITOR    688-690       A1 E16E Hours/week spent monitoring hallways/campus/lunchroom
+A1HRTEACHING   690-692       A1 E16F Hours/week spent on principal's own teaching assignments
+A1HRPARENT     692-694       A1 E16G Hours/week spent talking and meeting with parents
+A1HRSTUDENT    694-696       A1 E16H Hours/week spent meeting with students
+A1HRPAPERWK    696-698       A1 E16I Hours/week spent on paperwork required by authorities
+A1HROTH        698-700       A1 E16J Hours/week spent on other activities
+A1TARDY        700-702       A1 E17A Student tardiness is a problem at this school
+A1STUABSENT    702-704       A1 E17B Student absenteeism is a problem at this school
+A1CUT          704-706       A1 E17C Student class cutting is a problem at this school
+A1TCHRABSENT   706-708       A1 E17D Teacher absenteeism is a problem at this school
+A1DROPOUT      708-710       A1 E17E Students dropping out is a problem at this school
+A1APATHY       710-712       A1 E17F Student apathy is a problem at this school
+A1PRNTINV      712-714       A1 E17G Lack of parental involvement is a problem at this school
+A1UNPREP       714-716       A1 E17H Students coming unprepared to learn is a problem at this school
+A1HEALTH       716-718       A1 E17I Poor student health is a problem at this school
+A1RESOURCES    718-720       A1 E17J Lack of teacher resources and materials is a problem at this school
+A1CONFLICT     720-722       A1 E18A Frequency of physical conflicts among students at this school
+A1ROBBERY      722-724       A1 E18B Frequency of robbery or theft at this school
+A1VANDALISM    724-726       A1 E18C Frequency of vandalism at this school
+A1DRUGUSE      726-728       A1 E18D Frequency of student illegal drug use at this school
+A1ALCOHOL      728-730       A1 E18E Frequency of students use of alcohol while at school
+A1DRUGSALE     730-732       A1 E18F Frequency of drug sales on the way to/from school or on school grounds
+A1WEAPONS      732-734       A1 E18G Frequency of student possession of weapons at this school
+A1PHYSABUSE    734-736       A1 E18H Frequency of physical abuse of teachers at this school
+A1TENSION      736-738       A1 E18I Frequency of student racial tensions at this school
+A1BULLY        738-740       A1 E18J Frequency of student bullying at this school
+A1VERBAL       740-742       A1 E18K Frequency of student verbal abuse of teachers at this school
+A1MISBEHAVE    742-744       A1 E18L Frequency of student in-class misbehavior at this school
+A1DISRESPECT   744-746       A1 E18M Frequency of student acts of disrespect for teachers at this school
+A1GANG         746-748       A1 E18N Frequency of student gang activities at this school
+C1FTCNSL       748-750       C1 A01A Number of full-time high school counselors
+C1PTCNSL       750-752       C1 A01B Number of part-time high school counselors
+C1FTCERTCNSL   752-754       C1 A02A Number of certified full-time high school counselors
+C1PTCERTCNSL   754-756       C1 A02B Number of certified part-time high school counselors
+C1CASELOAD     756-759       C1 A03 Average caseload for school's counselors
+C1ASSIGNMENT   759-761       C1 A04 How counselors are assigned to students
+C1HRSSCHED     761-763       C1 A05A % hours counseling staff spent on high school course choice/scheduling
+C1HRSCOLLEGE   763-765       C1 A05B % hours counseling staff spent on college readiness/selection/apply
+C1HRSCAREER    765-767       C1 A05C % hours counseling staff spent on occupational choice/career planning
+C1HRSDEVELOP   767-769       C1 A05D % hours counseling staff spent on personal/academic/career development
+C1HRSJOBSKLL   769-771       C1 A05E % hours counseling staff spent on job placement/job skill development
+C1HRSPROBLEM   771-773       C1 A05F % hours counseling staff spent on school/personal problems
+C1HRSTESTING   773-775       C1 A05G % hours counseling staff spent on academic testing
+C1HRSNONCNSL   775-777       C1 A05H % hours counseling staff spent on non-counseling activities
+C1HRSOTHCNSL   777-779       C1 A05I % hours counseling staff spent on other counseling activities
+C1GOAL1        779-781       C1 A06 School counseling program's most emphasized goal
+C1GOAL2        781-783       C1 A07 School counseling program's second most emphasized goal
+C1GOAL3        783-785       C1 A08 School counseling program's third most emphasized goal
+C1DISCIPLINE   785-787       C1 A09 Who (besides teacher) primarily deals with discipline problems
+C1G9LOWEST     787-789       C1 A10 Whether school includes 8th grade
+C1TRANSCNSL    789-791       C1 A11A MS counselors meet with HS counselors to assist with student transition
+C1TRANSCRS     791-793       C1 A11B HS counselors meet with 8th graders to select 9th grade courses
+C1TRANPRNT     793-795       C1 A11C HS counselors present HS course/registration information to MS parents
+C1TRANPLCY     795-797       C1 A11D HS counselors use placement policy to place students in grade 9 courses
+C1TRANPRES     797-799       C1 A11E HS counselors present HS course/registration information to MS students
+C1TRANCOTH     799-801       C1 A11F HS counselors assist students with transition from MS to HS in other way
+C1TRANNOT      801-803       C1 A11G HS counselors do not assist students with transition from MS to HS
+C1TRANSTUDPR   803-805       C1 A12A HS students present information at MS to assist with student transition
+C1TRANSTFFPR   805-807       C1 A12B HS staff present information at MS to assist with student transition
+C1TRANVISIT    807-809       C1 A12C Before school year MS students are invited to HS social event 
+C1TRANCLASS    809-811       C1 A12D MS students attend regular classes at HS
+C1TRANADMIN    811-813       C1 A12E MS and HS administrators meet together on articulation and programs
+C1TRANTCHRS    813-815       C1 A12F MS and HS teachers meet together on courses and requirements
+C1TRANBUDDY    815-817       C1 A12G Buddy or big brother/sister programs pair new students with older ones
+C1TRANLRNCOM   817-819       C1 A12H 9th graders are placed in small learning communities/9th Grade Academies
+C1TRANSUMMER   819-821       C1 A12I Parents/students visit the HS during summer before students enter HS
+C1TRANFALL     821-823       C1 A12J Parents visit HS for orientation in fall after children have entered
+C1TRANSOTH     823-825       C1 A12K School assists with transition from MS to HS in some other way
+C1TRANNONE     825-827       C1 A12L School offers no assistance to students transitioning from MS to HS
+C1PLAN         827-829       C1 A13 Students are required to have a career or education plan
+C1PLANPARENT   829-831       C1 A14 School shares students' career/education plans with their parents
+C1SIGNOFF      831-833       C1 A15 School requires parents to sign off on students' career/education plans
+C1TECHSUPPRT   833-835       C1 B16A School supports students with technology/software to support curriculum
+C1STAFFENRCH   835-837       C1 B16B School staff work with teachers to provide enrichment to students
+C1GIFTED       837-839       C1 B16C Gifted students receive pull-out instruction during regular school day
+C1ENRICHMENT   839-841       C1 B16D School supports high school students with enrichment experiences
+C1APCOURSE     841-843       C1 B16E School supports high school students with AP/college/university courses
+C1SCHOLARSHP   843-845       C1 B16F School supports HS students with scholarships for events/programs/class
+C1SUMMER       845-847       C1 B16G School supports high school students with summer activities or programs
+C1OTHSUPPORT   847-849       C1 B16H School supports high school students in other ways
+C1NOSUPPORT    849-851       C1 B16I School has no programs to support high school students
+C1GETAHEAD     851-853       C1 B17 School offers summer enrichment courses that allow students to get ahead 
+C1STRUGGLE     853-855       C1 B18A School offers summer enrichment courses to struggling students
+C1AVERAGE      855-857       C1 B18B School offers summer enrichment courses to average students
+C1HIGH         857-859       C1 B18C School offers summer enrichment courses to high achieving students
+C1TUTOR        859-861       C1 B19A Tutoring during school day is available for students needing extra help
+C1STAFF        861-863       C1 B19B Staff work with teachers to provide extra help for students
+C1PULLOUT      863-865       C1 B19C Pull-out instruction during school day for students needing extra help
+C1CREDREC      865-867       C1 B19D Off-track/day/evening/summer school credit recovery program is available
+C1HOMEWORK     867-869       C1 B19E Homework assistance program is available for students needing extra help
+C1OUTSIDE      869-871       C1 B19F Support outside the school day for students needing extra help
+C1OTHRASSIST   871-873       C1 B19G School takes other steps to assist struggling high school students
+C1NOASSIST     873-875       C1 B19H School doesn't have any programs for students who need extra assistance
+C1PURSUE       875-877       C1 B20A School has program to encourage underrepresented student in math/science
+C1INFORM       877-879       C1 B20B School has program to inform parent about math/science higher ed/careers
+C1ENCCLG       879-881       C1 B20C School has program to encourage student not considering college to do so
+C1INDEPSTUDY   881-883       C1 B21A Courses not offered by school available through independent study
+C1ONLINE       883-885       C1 B21B Courses not offered by school available on-line
+C1OTHERHS      885-887       C1 B21C Courses not offered by school available at other district high school
+C1TECH         887-889       C1 B21D Courses not offered by school available at career/technical school
+C1COMCLG       889-891       C1 B21D Courses not offered by school available at community college
+C14YRCLG       891-893       C1 B21E Courses not offered by school available at 4-year college
+C1OTHERWAY     893-895       C1 B21F Courses not offered by school available in some other way
+C1NOWAY        895-897       C1 B21G School doesn't have any options for taking courses not offered by school
+C1MCOMPTST     897-899       C1 B22 School requires a mathematics competency test
+C1MRETAKE      899-901       C1 B23A If fails math competency test may/must retake the test
+C1MREMEDL      901-903       C1 B23B If fails math competency test may/must take remedial class
+C1MREPEAT      903-905       C1 B23C If fails math competency test may/must repeat class
+C1MTSTPREP     905-907       C1 B23D If fails math competency test may/must take test preparation class
+C1MTUTOR       907-909       C1 B23E If fails math competency test may/must receive tutoring
+C1MINDPRG      909-911       C1 B23F If fails math competency test may/must have individualized program
+C1MSUMSCH      911-913       C1 B23G If fails math competency test may/must attend summer school
+C1MALTSCH      913-915       C1 B23H If fails math competency test may/must be referred to alternative school
+C1DROPOUT      915-917       C1 B24 School has a formal dropout prevention program for high school students
+C1ABSENTEE     917-919       C1 B25A Recommended for dropout prevention program based on absentee record
+C1POORGRADES   919-921       C1 B25B Recommended for dropout prevention program based on poor/failing grades
+C1BEHIND       921-923       C1 B25C Recommended for dropout prevention program if behind on credits
+C1TCHREFER     923-925       C1 B25D Recommended for dropout prevention program based on teacher's referral
+C1CNSLREFER    925-927       C1 B25E Recommended for dropout prevention program based on counselor's referral
+C1PRNTREFER    927-929       C1 B25F Recommended for dropout prevention program based on parental request
+C1STUDREQ      929-931       C1 B25G Recommended for dropout prevention program based on student request
+C1DISCPROB     931-933       C1 B25H Recommended for dropout prevention program based on disciplinary problem
+C1DOPREVOTHR   933-935       C1 B25I Recommended for dropout prevention program based on another basis
+C1GEDPREP      935-937       C1 B26 School has formal GED test preparation program on-site
+C1CLGPREP      937-939       C1 B27A School has counselor designated for college readiness/selection/apply
+C1WORKFORCE    939-941       C1 B27B School has counselor designated for workforce preparation/placement
+C1CLGFAIR      941-943       C1 B28A School holds or participates in college fairs
+C1POSTSECREQ   943-945       C1 B28B School consults with postsecondary reps about requirement/qualifications
+C1VISITCLG     945-947       C1 B28C School organizes student visits to colleges
+C1UPBOUND      947-949       C1 B28D School offers college prep program - Upward Bound/GEAR UP/AVID/MESA
+C1INFOSESSN    949-951       C1 B28E School holds info session on transition to college for students/parents
+C1FINANCEAID   951-953       C1 B28F School assists students with finding financial aid for college
+C1DUALENROLL   953-955       C1 B28G School provides opportunities for dual/concurrent enrollment
+C1BEHAVIOR     955-957       C1 B28H School offers counseling curriculum for positive academic behaviors
+C1ASSISTOTH    957-959       C1 B28I School takes other steps to assist with HS to college transition
+C1NOSTEPS      959-961       C1 B28J School does not take any steps to assist with HS to college transition
+C1CTE          961-963       C1 B29 CTE or vocational-technical program offered 
+C1CLUSTER      963-965       C1 B30 Career Clusters/Pathways/Programs of Study (POS) offered
+C1INDVCRS      965-967       C1 B31 Student not enrolled in Career Clusters etc. may take course in program
+C1INTERN       967-969       C1 B32A School offers internships with local employers
+C1JOBFAIR      969-971       C1 B32B School offers job fairs
+C1JOBGUIDE     971-973       C1 B32C School offers career guides or skills assessments
+C1EMPLOYER     973-975       C1 B32D School offers school/classroom presentations by local employers
+C1AWARENESS    975-977       C1 B32E School offers career awareness activities
+C1DECISION     977-979       C1 B32F School offers courses in career decision making
+C1CAREERUNIT   979-981       C1 B32G School offers career information units in subject-matter courses
+C1WORKSTUDY    981-983       C1 B32H School offers exploratory work experience programs/co-op/workstudy/EBCE
+C1CAREERDAY    983-985       C1 B32I School offers career days or nights
+C1ASSEMBLIES   985-987       C1 B32J School offers vocational oriented assemblies and speakers in classes
+C1VOCTECH      987-989       C1 B32K School offers vocational-technical courses not part of formal program
+C1JOBVISIT     989-991       C1 B32L School offers job site visits/field trips
+C1JOBSHADOW    991-993       C1 B32M School offers job shadowing
+C1JOBSIM       993-995       C1 B32N School offers simulations such as Singer or SRA Job experience kits
+C1JOBTEST      995-997       C1 B32O School offers tests for career planning purposes
+C1JOBSKILLS    997-999       C1 B32P School offers training in job seeking skills
+C1JOBINFOCMP   999-1001      C1 B32Q School offers computerized career information resources
+C1JOBINFONON   1001-1003     C1 B32R School offers non-computerized career information resources
+C1HSTOWRKOTH   1003-1005     C1 B32S School assists students with transition from HS to work in other ways
+C1HSTOWORKNO   1005-1007     C1 B32T School doesn't assist students with transition from high school to work
+C1G9MSAME      1007-1009     C1 C01 All 9th graders are placed in the same math course 
+C1G9MMSCNSL    1009-1011     C1 C02A Importance of MS counselor recommendation for 9th grade math placement
+C1G9MHSCNSL    1011-1013     C1 C02B Importance of HS counselor recommendation for 9th grade math placement
+C1G9MMSTCHR    1013-1015     C1 C02C Importance of MS teacher recommendation for 9th grade math placement
+C1G9MMSCOURS   1015-1017     C1 C02D Importance of courses taken in MS for 9th grade math placement
+C1G9MMSACHV    1017-1019     C1 C02E Importance of achievement in MS courses for 9th grade math placement
+C1G9MENDTST    1019-1021     C1 C02F Importance of end-of-year/course test for 9th grade math placement
+C1G9MPLACTST   1021-1023     C1 C02G Importance of placement tests for 9th grade math placement
+C1G9MSTNDTST   1023-1025     C1 C02H Importance of standardized tests for 9th grade math placement
+C1G9MPLAN      1025-1027     C1 C02I Importance of career/education plan for 9th grade math placement
+C1G9MSELECT    1027-1029     C1 C02J Importance of student/parent choice for 9th grade math placement
+C1UPPERMSAME   1029-1031     C1 C03 After grade 9 all students in same grade placed in same math course
+C1UPMGRADES    1031-1033     C1 C04A Importance of prior grades for 10th to 12th grade math placement
+C1UPMPLACTST   1033-1035     C1 C04B Importance of placement tests for 10th to 12th grade math placement
+C1UPMTCHR      1035-1037     C1 C04C Importance of teacher's recommendation for 10-12th grade math placement
+C1UPMSELECT    1037-1039     C1 C04D Importance of student/parent choice for 10th-12th grade math placement
+C1UPMPLAN      1039-1041     C1 C04E Importance of career/education plan for 10th-12th grade math placement
+C1UPMSCHED     1041-1043     C1 C04F Importance of master schedule for 10th to 12th grade math placement
+C1G9SSAME      1043-1045     C1 C05 All 9th graders are placed in the same science course 
+C1G9SMSCNSL    1045-1047     C1 C06A Importance of MS counselor recommendation for grade 9 science placement
+C1G9SHSCNSL    1047-1049     C1 C06B Importance of HS counselor recommendation for grade 9 science placement
+C1G9SMSTCHR    1049-1051     C1 C06C Importance of MS teacher recommendation for 9th grade science placement
+C1G9SMSCOURS   1051-1053     C1 C06D Importance of courses taken in MS for 9th grade science placement
+C1G9SMSACHV    1053-1055     C1 C06E Importance of achievement in MS courses for 9th grade science placement
+C1G9SENDTST    1055-1057     C1 C06F Importance of end-of-year/course test for 9th grade science placement
+C1G9SPLACTST   1057-1059     C1 C06G Importance of placement tests for 9th grade science placement
+C1G9SSTNDTST   1059-1061     C1 C06H Importance of standardized tests for 9th grade science placement
+C1G9SPLAN      1061-1063     C1 C06I Importance of career/education plan for 9th grade science placement
+C1G9SSELECT    1063-1065     C1 C06J Importance of student/parent choice for 9th grade science placement
+C1UPPERSSAME   1065-1067     C1 C07 After grade 9 all students in same grade placed in same science course
+C1UPSGRADES    1067-1069     C1 C08A Importance of prior grades for 10th to 12th grade science placement
+C1UPSPLACTST   1069-1071     C1 C08B Importance of placement tests for 10th to 12th grade science placement
+C1UPSTCHR      1071-1073     C1 C08C Importance of teacher's recommendation for 10th-12th science placement
+C1UPSSELECT    1073-1075     C1 C08D Importance of student/parent choice for 10-12th grade science placement
+C1UPSPLAN      1075-1077     C1 C08E Importance of career/education plan for 10-12th grade science placement
+C1UPSSCHED     1077-1079     C1 C08F Importance of master schedule for 10th to 12th grade science placement
+C1TTEACHING    1079-1081     C1 D01A Teachers in this school set high standards for teaching
+C1TLEARNING    1081-1083     C1 D01B Teachers in this school set high standards for students' learning
+C1TBELIEVE     1083-1085     C1 D01C Teachers in this school believe all students can do well
+C1TGIVEUP      1085-1087     C1 D01D Teachers in this school have given up on some students
+C1TCARE        1087-1089     C1 D01E Teachers in this school care only about smart students
+C1TEXPECT      1089-1091     C1 D01F Teachers in this school expect very little from students
+C1TWORKHARD    1091-1093     C1 D01G Teachers in this school work hard to make sure all students learn
+C1CLEARNING    1093-1095     C1 D02A Counselors in this school set high standards for students' learning
+C1CBELIEVE     1095-1097     C1 D02B Counselors in this school believe all students can do well
+C1CGIVEUP      1097-1099     C1 D02C Counselors in this school have given up on some students
+C1CCARE        1099-1101     C1 D02D Counselors in this school care only about smart students
+C1CEXPECT      1101-1103     C1 D02E Counselors in this school expect very little from students
+C1CWORKHARD    1103-1105     C1 D02F Counselors in this school work hard to make sure all students learn
+C1PLEARNING    1105-1107     C1 D03A Principal in this school sets high standards for students' learning
+C1PBELIEVE     1107-1109     C1 D03B Principal in this school believes all students can do well
+C1PGIVEUP      1109-1111     C1 D03C Principal in this school has given up on some students
+C1PCARE        1111-1113     C1 D03D Principal in this school cares only about smart students
+C1PEXPECT      1113-1115     C1 D03E Principal in this school expects very little from students
+C1PWORKHARD    1115-1117     C1 D03F Principal in this school works hard to make sure all students learn
+C1YRSK12       1117-1119     C1 D04A Years as a school counselor for any grade K-12
+C1YRS912       1119-1121     C1 D04B Years as a school counselor for grades 9-12
+C1HIDEG        1121-1123     C1 D05 Counselor's highest degree earned
+C1HIMAJV       1123-1163     C1 D06A Counselor's major for highest level of education-verbatim
+C1HIMAJ6       1163-1170     C1 D06C Counselor's major for highest level of education 6-digit CIP code
+C1HIMAJ2       1170-1172     C1 D06B Counselor's major for highest level of education 2-digit CIP code
+C1BAMAJV       1172-1212     C1 D07A Counselor's major for Bachelor's degree-verbatim
+C1BAMAJ6       1212-1219     C1 D07C Counselor's major for Bachelor's degree 6-digit CIP code
+C1BAMAJ2       1219-1221     C1 D07B Counselor's major for Bachelor's degree 2-digit CIP code
+C1INCDEG       1221-1223     C1 D08 Counselor has started but not completed more advanced degree
+C1ENTRY        1223-1225     C1 D09 How counselor entered the school counseling profession
+W1SCHOOL001    1225-1238     W1 BRR school analytic weight for replicate 1
+W1SCHOOL002    1238-1251     W1 BRR school analytic weight for replicate 2
+W1SCHOOL003    1251-1264     W1 BRR school analytic weight for replicate 3
+W1SCHOOL004    1264-1277     W1 BRR school analytic weight for replicate 4
+W1SCHOOL005    1277-1290     W1 BRR school analytic weight for replicate 5
+W1SCHOOL006    1290-1303     W1 BRR school analytic weight for replicate 6
+W1SCHOOL007    1303-1316     W1 BRR school analytic weight for replicate 7
+W1SCHOOL008    1316-1329     W1 BRR school analytic weight for replicate 8
+W1SCHOOL009    1329-1342     W1 BRR school analytic weight for replicate 9
+W1SCHOOL010    1342-1355     W1 BRR school analytic weight for replicate 10
+W1SCHOOL011    1355-1368     W1 BRR school analytic weight for replicate 11
+W1SCHOOL012    1368-1381     W1 BRR school analytic weight for replicate 12
+W1SCHOOL013    1381-1394     W1 BRR school analytic weight for replicate 13
+W1SCHOOL014    1394-1407     W1 BRR school analytic weight for replicate 14
+W1SCHOOL015    1407-1420     W1 BRR school analytic weight for replicate 15
+W1SCHOOL016    1420-1433     W1 BRR school analytic weight for replicate 16
+W1SCHOOL017    1433-1446     W1 BRR school analytic weight for replicate 17
+W1SCHOOL018    1446-1459     W1 BRR school analytic weight for replicate 18
+W1SCHOOL019    1459-1472     W1 BRR school analytic weight for replicate 19
+W1SCHOOL020    1472-1485     W1 BRR school analytic weight for replicate 20
+W1SCHOOL021    1485-1498     W1 BRR school analytic weight for replicate 21
+W1SCHOOL022    1498-1511     W1 BRR school analytic weight for replicate 22
+W1SCHOOL023    1511-1524     W1 BRR school analytic weight for replicate 23
+W1SCHOOL024    1524-1537     W1 BRR school analytic weight for replicate 24
+W1SCHOOL025    1537-1550     W1 BRR school analytic weight for replicate 25
+W1SCHOOL026    1550-1563     W1 BRR school analytic weight for replicate 26
+W1SCHOOL027    1563-1576     W1 BRR school analytic weight for replicate 27
+W1SCHOOL028    1576-1589     W1 BRR school analytic weight for replicate 28
+W1SCHOOL029    1589-1602     W1 BRR school analytic weight for replicate 29
+W1SCHOOL030    1602-1615     W1 BRR school analytic weight for replicate 30
+W1SCHOOL031    1615-1628     W1 BRR school analytic weight for replicate 31
+W1SCHOOL032    1628-1641     W1 BRR school analytic weight for replicate 32
+W1SCHOOL033    1641-1654     W1 BRR school analytic weight for replicate 33
+W1SCHOOL034    1654-1667     W1 BRR school analytic weight for replicate 34
+W1SCHOOL035    1667-1680     W1 BRR school analytic weight for replicate 35
+W1SCHOOL036    1680-1693     W1 BRR school analytic weight for replicate 36
+W1SCHOOL037    1693-1706     W1 BRR school analytic weight for replicate 37
+W1SCHOOL038    1706-1719     W1 BRR school analytic weight for replicate 38
+W1SCHOOL039    1719-1732     W1 BRR school analytic weight for replicate 39
+W1SCHOOL040    1732-1745     W1 BRR school analytic weight for replicate 40
+W1SCHOOL041    1745-1758     W1 BRR school analytic weight for replicate 41
+W1SCHOOL042    1758-1771     W1 BRR school analytic weight for replicate 42
+W1SCHOOL043    1771-1784     W1 BRR school analytic weight for replicate 43
+W1SCHOOL044    1784-1797     W1 BRR school analytic weight for replicate 44
+W1SCHOOL045    1797-1810     W1 BRR school analytic weight for replicate 45
+W1SCHOOL046    1810-1823     W1 BRR school analytic weight for replicate 46
+W1SCHOOL047    1823-1836     W1 BRR school analytic weight for replicate 47
+W1SCHOOL048    1836-1849     W1 BRR school analytic weight for replicate 48
+W1SCHOOL049    1849-1862     W1 BRR school analytic weight for replicate 49
+W1SCHOOL050    1862-1875     W1 BRR school analytic weight for replicate 50
+W1SCHOOL051    1875-1888     W1 BRR school analytic weight for replicate 51
+W1SCHOOL052    1888-1901     W1 BRR school analytic weight for replicate 52
+W1SCHOOL053    1901-1914     W1 BRR school analytic weight for replicate 53
+W1SCHOOL054    1914-1927     W1 BRR school analytic weight for replicate 54
+W1SCHOOL055    1927-1940     W1 BRR school analytic weight for replicate 55
+W1SCHOOL056    1940-1953     W1 BRR school analytic weight for replicate 56
+W1SCHOOL057    1953-1966     W1 BRR school analytic weight for replicate 57
+W1SCHOOL058    1966-1979     W1 BRR school analytic weight for replicate 58
+W1SCHOOL059    1979-1992     W1 BRR school analytic weight for replicate 59
+W1SCHOOL060    1992-2005     W1 BRR school analytic weight for replicate 60
+W1SCHOOL061    2005-2018     W1 BRR school analytic weight for replicate 61
+W1SCHOOL062    2018-2031     W1 BRR school analytic weight for replicate 62
+W1SCHOOL063    2031-2044     W1 BRR school analytic weight for replicate 63
+W1SCHOOL064    2044-2057     W1 BRR school analytic weight for replicate 64
+W1SCHOOL065    2057-2070     W1 BRR school analytic weight for replicate 65
+W1SCHOOL066    2070-2083     W1 BRR school analytic weight for replicate 66
+W1SCHOOL067    2083-2096     W1 BRR school analytic weight for replicate 67
+W1SCHOOL068    2096-2109     W1 BRR school analytic weight for replicate 68
+W1SCHOOL069    2109-2122     W1 BRR school analytic weight for replicate 69
+W1SCHOOL070    2122-2135     W1 BRR school analytic weight for replicate 70
+W1SCHOOL071    2135-2148     W1 BRR school analytic weight for replicate 71
+W1SCHOOL072    2148-2161     W1 BRR school analytic weight for replicate 72
+W1SCHOOL073    2161-2174     W1 BRR school analytic weight for replicate 73
+W1SCHOOL074    2174-2187     W1 BRR school analytic weight for replicate 74
+W1SCHOOL075    2187-2200     W1 BRR school analytic weight for replicate 75
+W1SCHOOL076    2200-2213     W1 BRR school analytic weight for replicate 76
+W1SCHOOL077    2213-2226     W1 BRR school analytic weight for replicate 77
+W1SCHOOL078    2226-2239     W1 BRR school analytic weight for replicate 78
+W1SCHOOL079    2239-2252     W1 BRR school analytic weight for replicate 79
+W1SCHOOL080    2252-2265     W1 BRR school analytic weight for replicate 80
+W1SCHOOL081    2265-2278     W1 BRR school analytic weight for replicate 81
+W1SCHOOL082    2278-2291     W1 BRR school analytic weight for replicate 82
+W1SCHOOL083    2291-2304     W1 BRR school analytic weight for replicate 83
+W1SCHOOL084    2304-2317     W1 BRR school analytic weight for replicate 84
+W1SCHOOL085    2317-2330     W1 BRR school analytic weight for replicate 85
+W1SCHOOL086    2330-2343     W1 BRR school analytic weight for replicate 86
+W1SCHOOL087    2343-2356     W1 BRR school analytic weight for replicate 87
+W1SCHOOL088    2356-2369     W1 BRR school analytic weight for replicate 88
+W1SCHOOL089    2369-2382     W1 BRR school analytic weight for replicate 89
+W1SCHOOL090    2382-2395     W1 BRR school analytic weight for replicate 90
+W1SCHOOL091    2395-2408     W1 BRR school analytic weight for replicate 91
+W1SCHOOL092    2408-2421     W1 BRR school analytic weight for replicate 92
+W1SCHOOL093    2421-2434     W1 BRR school analytic weight for replicate 93
+W1SCHOOL094    2434-2447     W1 BRR school analytic weight for replicate 94
+W1SCHOOL095    2447-2460     W1 BRR school analytic weight for replicate 95
+W1SCHOOL096    2460-2473     W1 BRR school analytic weight for replicate 96
+W1SCHOOL097    2473-2486     W1 BRR school analytic weight for replicate 97
+W1SCHOOL098    2486-2499     W1 BRR school analytic weight for replicate 98
+W1SCHOOL099    2499-2512     W1 BRR school analytic weight for replicate 99
+W1SCHOOL100    2512-2525     W1 BRR school analytic weight for replicate 100
+W1SCHOOL101    2525-2538     W1 BRR school analytic weight for replicate 101
+W1SCHOOL102    2538-2551     W1 BRR school analytic weight for replicate 102
+W1SCHOOL103    2551-2564     W1 BRR school analytic weight for replicate 103
+W1SCHOOL104    2564-2577     W1 BRR school analytic weight for replicate 104
+W1SCHOOL105    2577-2590     W1 BRR school analytic weight for replicate 105
+W1SCHOOL106    2590-2603     W1 BRR school analytic weight for replicate 106
+W1SCHOOL107    2603-2616     W1 BRR school analytic weight for replicate 107
+W1SCHOOL108    2616-2629     W1 BRR school analytic weight for replicate 108
+W1SCHOOL109    2629-2642     W1 BRR school analytic weight for replicate 109
+W1SCHOOL110    2642-2655     W1 BRR school analytic weight for replicate 110
+W1SCHOOL111    2655-2668     W1 BRR school analytic weight for replicate 111
+W1SCHOOL112    2668-2681     W1 BRR school analytic weight for replicate 112
+W1SCHOOL113    2681-2694     W1 BRR school analytic weight for replicate 113
+W1SCHOOL114    2694-2707     W1 BRR school analytic weight for replicate 114
+W1SCHOOL115    2707-2720     W1 BRR school analytic weight for replicate 115
+W1SCHOOL116    2720-2733     W1 BRR school analytic weight for replicate 116
+W1SCHOOL117    2733-2746     W1 BRR school analytic weight for replicate 117
+W1SCHOOL118    2746-2759     W1 BRR school analytic weight for replicate 118
+W1SCHOOL119    2759-2772     W1 BRR school analytic weight for replicate 119
+W1SCHOOL120    2772-2785     W1 BRR school analytic weight for replicate 120
+W1SCHOOL121    2785-2798     W1 BRR school analytic weight for replicate 121
+W1SCHOOL122    2798-2811     W1 BRR school analytic weight for replicate 122
+W1SCHOOL123    2811-2824     W1 BRR school analytic weight for replicate 123
+W1SCHOOL124    2824-2837     W1 BRR school analytic weight for replicate 124
+W1SCHOOL125    2837-2850     W1 BRR school analytic weight for replicate 125
+W1SCHOOL126    2850-2863     W1 BRR school analytic weight for replicate 126
+W1SCHOOL127    2863-2876     W1 BRR school analytic weight for replicate 127
+W1SCHOOL128    2876-2889     W1 BRR school analytic weight for replicate 128
+W1SCHOOL129    2889-2902     W1 BRR school analytic weight for replicate 129
+W1SCHOOL130    2902-2915     W1 BRR school analytic weight for replicate 130
+W1SCHOOL131    2915-2928     W1 BRR school analytic weight for replicate 131
+W1SCHOOL132    2928-2941     W1 BRR school analytic weight for replicate 132
+W1SCHOOL133    2941-2954     W1 BRR school analytic weight for replicate 133
+W1SCHOOL134    2954-2967     W1 BRR school analytic weight for replicate 134
+W1SCHOOL135    2967-2980     W1 BRR school analytic weight for replicate 135
+W1SCHOOL136    2980-2993     W1 BRR school analytic weight for replicate 136
+W1SCHOOL137    2993-3006     W1 BRR school analytic weight for replicate 137
+W1SCHOOL138    3006-3019     W1 BRR school analytic weight for replicate 138
+W1SCHOOL139    3019-3032     W1 BRR school analytic weight for replicate 139
+W1SCHOOL140    3032-3045     W1 BRR school analytic weight for replicate 140
+W1SCHOOL141    3045-3058     W1 BRR school analytic weight for replicate 141
+W1SCHOOL142    3058-3071     W1 BRR school analytic weight for replicate 142
+W1SCHOOL143    3071-3084     W1 BRR school analytic weight for replicate 143
+W1SCHOOL144    3084-3097     W1 BRR school analytic weight for replicate 144
+W1SCHOOL145    3097-3110     W1 BRR school analytic weight for replicate 145
+W1SCHOOL146    3110-3123     W1 BRR school analytic weight for replicate 146
+W1SCHOOL147    3123-3136     W1 BRR school analytic weight for replicate 147
+W1SCHOOL148    3136-3149     W1 BRR school analytic weight for replicate 148
+W1SCHOOL149    3149-3162     W1 BRR school analytic weight for replicate 149
+W1SCHOOL150    3162-3175     W1 BRR school analytic weight for replicate 150
+W1SCHOOL151    3175-3188     W1 BRR school analytic weight for replicate 151
+W1SCHOOL152    3188-3201     W1 BRR school analytic weight for replicate 152
+W1SCHOOL153    3201-3214     W1 BRR school analytic weight for replicate 153
+W1SCHOOL154    3214-3227     W1 BRR school analytic weight for replicate 154
+W1SCHOOL155    3227-3240     W1 BRR school analytic weight for replicate 155
+W1SCHOOL156    3240-3253     W1 BRR school analytic weight for replicate 156
+W1SCHOOL157    3253-3266     W1 BRR school analytic weight for replicate 157
+W1SCHOOL158    3266-3279     W1 BRR school analytic weight for replicate 158
+W1SCHOOL159    3279-3292     W1 BRR school analytic weight for replicate 159
+W1SCHOOL160    3292-3305     W1 BRR school analytic weight for replicate 160
+W1SCHOOL161    3305-3318     W1 BRR school analytic weight for replicate 161
+W1SCHOOL162    3318-3331     W1 BRR school analytic weight for replicate 162
+W1SCHOOL163    3331-3344     W1 BRR school analytic weight for replicate 163
+W1SCHOOL164    3344-3357     W1 BRR school analytic weight for replicate 164
+W1SCHOOL165    3357-3370     W1 BRR school analytic weight for replicate 165
+W1SCHOOL166    3370-3383     W1 BRR school analytic weight for replicate 166
+W1SCHOOL167    3383-3396     W1 BRR school analytic weight for replicate 167
+W1SCHOOL168    3396-3409     W1 BRR school analytic weight for replicate 168
+W1SCHOOL169    3409-3422     W1 BRR school analytic weight for replicate 169
+W1SCHOOL170    3422-3435     W1 BRR school analytic weight for replicate 170
+W1SCHOOL171    3435-3448     W1 BRR school analytic weight for replicate 171
+W1SCHOOL172    3448-3461     W1 BRR school analytic weight for replicate 172
+W1SCHOOL173    3461-3474     W1 BRR school analytic weight for replicate 173
+W1SCHOOL174    3474-3487     W1 BRR school analytic weight for replicate 174
+W1SCHOOL175    3487-3500     W1 BRR school analytic weight for replicate 175
+W1SCHOOL176    3500-3513     W1 BRR school analytic weight for replicate 176
+W1SCHOOL177    3513-3526     W1 BRR school analytic weight for replicate 177
+W1SCHOOL178    3526-3539     W1 BRR school analytic weight for replicate 178
+W1SCHOOL179    3539-3552     W1 BRR school analytic weight for replicate 179
+W1SCHOOL180    3552-3565     W1 BRR school analytic weight for replicate 180
+W1SCHOOL181    3565-3578     W1 BRR school analytic weight for replicate 181
+W1SCHOOL182    3578-3591     W1 BRR school analytic weight for replicate 182
+W1SCHOOL183    3591-3604     W1 BRR school analytic weight for replicate 183
+W1SCHOOL184    3604-3617     W1 BRR school analytic weight for replicate 184
+W1SCHOOL185    3617-3630     W1 BRR school analytic weight for replicate 185
+W1SCHOOL186    3630-3643     W1 BRR school analytic weight for replicate 186
+W1SCHOOL187    3643-3656     W1 BRR school analytic weight for replicate 187
+W1SCHOOL188    3656-3669     W1 BRR school analytic weight for replicate 188
+W1SCHOOL189    3669-3682     W1 BRR school analytic weight for replicate 189
+W1SCHOOL190    3682-3695     W1 BRR school analytic weight for replicate 190
+W1SCHOOL191    3695-3708     W1 BRR school analytic weight for replicate 191
+W1SCHOOL192    3708-3721     W1 BRR school analytic weight for replicate 192
+W1SCHOOL193    3721-3734     W1 BRR school analytic weight for replicate 193
+W1SCHOOL194    3734-3747     W1 BRR school analytic weight for replicate 194
+W1SCHOOL195    3747-3760     W1 BRR school analytic weight for replicate 195
+W1SCHOOL196    3760-3773     W1 BRR school analytic weight for replicate 196
+W1SCHOOL197    3773-3786     W1 BRR school analytic weight for replicate 197
+W1SCHOOL198    3786-3799     W1 BRR school analytic weight for replicate 198
+W1SCHOOL199    3799-3812     W1 BRR school analytic weight for replicate 199
+W1SCHOOL200    3812-3825     W1 BRR school analytic weight for replicate 200
+
+/* Variable Value Labels */
+A12YRDEGREE
+   -5 = "Data suppressed"
+A14YRDEGREE
+   -5 = "Data suppressed"
+A1ABLOCKMINS
+   -5 = "Data suppressed"
+A1ABSENTTCHR
+   -5 = "Data suppressed"
+A1ACADBLOCK
+   -5 = "Data suppressed"
+A1ADA
+   -5 = "Data suppressed"
+A1ALCOHOL
+   -5 = "Data suppressed"
+A1ALG1LEVELS
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1ALTPREP
+   -5 = "Data suppressed"
+A1ALTPROG
+   -5 = "Data suppressed"
+A1AMINDIAN
+   -5 = "Data suppressed"
+A1AMINDIANST
+   -5 = "Data suppressed"
+A1AP
+   -5 = "Data suppressed"
+A1APATHY
+   1 = "Not a problem"
+   2 = "Minor problem"
+   3 = "Moderate problem"
+   4 = "Serious problem"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1ASIAN
+   -5 = "Data suppressed"
+A1ASIANPISTU
+   -5 = "Data suppressed"
+A1AYP
+   -5 = "Data suppressed"
+A1AYPYR
+   -5 = "Data suppressed"
+A1BAMAJ2
+   -5 = "Data suppressed"
+A1BAMAJ6
+   -5 = "Data suppressed"
+A1BAMAJV
+   -5 = "Data suppressed"
+A1BLACK
+   -5 = "Data suppressed"
+A1BLACKSTU
+   -5 = "Data suppressed"
+A1BULLY
+   -5 = "Data suppressed"
+A1CALENDAR
+   -5 = "Data suppressed"
+A1CAPACITY
+   -5 = "Data suppressed"
+A1CERTFTMTCH
+   -5 = "Data suppressed"
+A1CERTFTSTCH
+   -5 = "Data suppressed"
+A1CERTIFIED
+   -5 = "Data suppressed"
+A1CERTPTMTCH
+   -5 = "Data suppressed"
+A1CERTPTSTCH
+   -5 = "Data suppressed"
+A1CHOICEIN
+   -5 = "Data suppressed"
+A1CHOICEOTHR
+   -5 = "Data suppressed"
+A1CHOICEOUT
+   -5 = "Data suppressed"
+A1CHOICEPRIV
+   -5 = "Data suppressed"
+A1CHOICEPROG
+   -5 = "Data suppressed"
+A1CHOICESCH
+   -5 = "Data suppressed"
+A1CLASSHRS
+   -5 = "Data suppressed"
+A1CONFLICT
+   -5 = "Data suppressed"
+A1CUT
+   -5 = "Data suppressed"
+A1DIDOTHER
+   -5 = "Data suppressed"
+A1DISRESPECT
+   -5 = "Data suppressed"
+A1DROPOUT
+   -5 = "Data suppressed"
+A1DROPOUTPRV
+   -5 = "Data suppressed"
+A1DRUGSALE
+   -5 = "Data suppressed"
+A1DRUGUSE
+   -5 = "Data suppressed"
+A1ELL
+   -5 = "Data suppressed"
+A1FILLMTH
+   1 = "Easy"
+   2 = "Somewhat difficult"
+   3 = "Very difficult or could not fill math dept. vacancies"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1FILLSCI
+   1 = "Easy"
+   2 = "Somewhat difficult"
+   3 = "Very difficult or could not fill science dept. vacancies"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1FREELUNCH
+   -5 = "Data suppressed"
+A1FTMTCHRS
+   -5 = "Data suppressed"
+A1FTOTHTCHRS
+   -5 = "Data suppressed"
+A1FTSTCHRS
+   -5 = "Data suppressed"
+A1FTTCHRS
+   -5 = "Data suppressed"
+A1G9ABSENTEE
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9BEHAVE
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9BEHIND
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9BLOCKSCH
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9CNSLREF
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9COMMUNTY
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9DOUBLE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9GRADES
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9NOPROG
+   -5 = "Data suppressed"
+A1G9OTHER
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9OTHRPROG
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9OVERAGE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9PRNTREF
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9REQUEST
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9STUDY
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9SUMMER
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9TCHREF
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9TEACHER
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1G9TUTOR
+   -5 = "Data suppressed"
+A1GANG
+   -5 = "Data suppressed"
+A1GRADE1
+   -5 = "Data suppressed"
+A1GRADE10
+   -5 = "Data suppressed"
+A1GRADE11
+   -5 = "Data suppressed"
+A1GRADE12
+   -5 = "Data suppressed"
+A1GRADE13
+   -5 = "Data suppressed"
+A1GRADE2
+   -5 = "Data suppressed"
+A1GRADE3
+   -5 = "Data suppressed"
+A1GRADE4
+   -5 = "Data suppressed"
+A1GRADE5
+   -5 = "Data suppressed"
+A1GRADE6
+   -5 = "Data suppressed"
+A1GRADE7
+   -5 = "Data suppressed"
+A1GRADE8
+   -5 = "Data suppressed"
+A1GRADE9
+   -5 = "Data suppressed"
+A1GRADEK
+   -5 = "Data suppressed"
+A1GRADEPREK
+   -5 = "Data suppressed"
+A1HEALTH
+   1 = "Not a problem"
+   2 = "Minor problem"
+   3 = "Moderate to serious problem"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1HIDEG
+   -5 = "Data suppressed"
+A1HIMAJ2
+   -5 = "Data suppressed"
+A1HIMAJ6
+   -5 = "Data suppressed"
+A1HIMAJV
+   -5 = "Data suppressed"
+A1HISP
+   -5 = "Data suppressed"
+A1HISPSTU
+   -5 = "Data suppressed"
+A1HRDISCIPLN
+   -5 = "Data suppressed"
+A1HSSUBJECT
+   -5 = "Data suppressed"
+A1IB
+   -5 = "Data suppressed"
+A1MADEAYP
+   -5 = "Data suppressed"
+A1MANAGEMENT
+   -5 = "Data suppressed"
+A1MESA
+   -5 = "Data suppressed"
+A1MILITARY
+   -5 = "Data suppressed"
+A1MINCENTIVE
+   -5 = "Data suppressed"
+A1MISBEHAVE
+   -5 = "Data suppressed"
+A1MSAFTERSCH
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSFLDTRIP
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSMENTOR
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSNONE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSOTHER
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSPDINTRST 
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSPDLEARN
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSPRGMS
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSRECRUIT
+   -5 = "Data suppressed"
+A1MSSPEAKER
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MSSUBJECT
+   -5 = "Data suppressed"
+A1MSSUMMER
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MTHREQS
+   -5 = "Data suppressed"
+A1MTHSCIFAIR
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1MTHSTREQ
+   -5 = "Data suppressed"
+A1MTNORETURN
+   -5 = "Data suppressed"
+A1NOMTHO
+   -5 = "Data suppressed"
+A1NOSCIO
+   -5 = "Data suppressed"
+A1NOTIFY
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1OBLOCKMINS
+   -5 = "Data suppressed"
+A1OFFADVBIO
+   -5 = "Data suppressed"
+A1OFFADVCHEM
+   -5 = "Data suppressed"
+A1OFFADVPHYS
+   -5 = "Data suppressed"
+A1OFFALG1
+   -5 = "Data suppressed"
+A1OFFALG2
+   -5 = "Data suppressed"
+A1OFFALG3
+   -5 = "Data suppressed"
+A1OFFALGP1P2
+   -5 = "Data suppressed"
+A1OFFANATOMY
+   -5 = "Data suppressed"
+A1OFFANGEOM
+   -5 = "Data suppressed"
+A1OFFBIO1
+   -5 = "Data suppressed"
+A1OFFCHEM1
+   -5 = "Data suppressed"
+A1OFFCLC
+   -5 = "Data suppressed"
+A1OFFCLCAPAB
+   -5 = "Data suppressed"
+A1OFFCLCAPBC
+   -5 = "Data suppressed"
+A1OFFCLCAPIB
+   -5 = "Data suppressed"
+A1OFFCMPSCI
+   -5 = "Data suppressed"
+A1OFFCMPSCIB
+   -5 = "Data suppressed"
+A1OFFENVAP
+   -5 = "Data suppressed"
+A1OFFENVSCI
+   -5 = "Data suppressed"
+A1OFFERALT
+   -5 = "Data suppressed"
+A1OFFERAP
+   -5 = "Data suppressed"
+A1OFFERDOPRV
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1OFFERNONE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1OFFERTHSCI
+   -5 = "Data suppressed"
+A1OFFGENSCI
+   -5 = "Data suppressed"
+A1OFFGEOM
+   -5 = "Data suppressed"
+A1OFFINTMTH1
+   -5 = "Data suppressed"
+A1OFFINTMTH2
+   -5 = "Data suppressed"
+A1OFFINTSCI1
+   -5 = "Data suppressed"
+A1OFFINTSCI2
+   -5 = "Data suppressed"
+A1OFFLSCI
+   -5 = "Data suppressed"
+A1OFFMPSCIA
+   -5 = "Data suppressed"
+A1OFFOTHBIO
+   -5 = "Data suppressed"
+A1OFFOTHESCI
+   -5 = "Data suppressed"
+A1OFFOTHPSCI
+   -5 = "Data suppressed"
+A1OFFPHYS1
+   -5 = "Data suppressed"
+A1OFFPHYSCI
+   -5 = "Data suppressed"
+A1OFFPREALG
+   -5 = "Data suppressed"
+A1OFFRMTH
+   -5 = "Data suppressed"
+A1OFFSTATS
+   -5 = "Data suppressed"
+A1OFFSTATSAP
+   -5 = "Data suppressed"
+A1OFFTECH
+   -5 = "Data suppressed"
+A1OFFTRIG
+   -5 = "Data suppressed"
+A1ONADVBIO
+   -5 = "Data suppressed"
+A1ONADVCHEM
+   -5 = "Data suppressed"
+A1ONADVPHYS
+   -5 = "Data suppressed"
+A1ONALG1
+   -5 = "Data suppressed"
+A1ONALG2
+   -5 = "Data suppressed"
+A1ONALG3
+   -5 = "Data suppressed"
+A1ONALGP1P2
+   -5 = "Data suppressed"
+A1ONANATOMY
+   -5 = "Data suppressed"
+A1ONANGEOM
+   -5 = "Data suppressed"
+A1ONBIO1
+   -5 = "Data suppressed"
+A1ONCHEM1
+   -5 = "Data suppressed"
+A1ONCLC
+   -5 = "Data suppressed"
+A1ONCLCAPAB
+   -5 = "Data suppressed"
+A1ONCLCAPBC
+   -5 = "Data suppressed"
+A1ONCLCAPIB
+   -5 = "Data suppressed"
+A1ONCMPSCI
+   -5 = "Data suppressed"
+A1ONCMPSCIA
+   -5 = "Data suppressed"
+A1ONCMPSCIB
+   -5 = "Data suppressed"
+A1ONENVAP
+   -5 = "Data suppressed"
+A1ONENVSCI
+   -5 = "Data suppressed"
+A1ONERTHSCI
+   -5 = "Data suppressed"
+A1ONGENSCI
+   -5 = "Data suppressed"
+A1ONGEOM
+   -5 = "Data suppressed"
+A1ONINTGSCI1
+   -5 = "Data suppressed"
+A1ONINTGSCI2
+   -5 = "Data suppressed"
+A1ONINTMTH1
+   -5 = "Data suppressed"
+A1ONINTMTH2
+   -5 = "Data suppressed"
+A1ONLIFESCI
+   -5 = "Data suppressed"
+A1ONOTHBIO
+   -5 = "Data suppressed"
+A1ONOTHESCI
+   -5 = "Data suppressed"
+A1ONOTHPSCI
+   -5 = "Data suppressed"
+A1ONPHYS1
+   -5 = "Data suppressed"
+A1ONPHYSCI
+   -5 = "Data suppressed"
+A1ONPREALG
+   -5 = "Data suppressed"
+A1ONRMTH
+   -5 = "Data suppressed"
+A1ONSTATS
+   -5 = "Data suppressed"
+A1ONSTATSAP
+   -5 = "Data suppressed"
+A1ONTECH
+   -5 = "Data suppressed"
+A1ONTRIG
+   -5 = "Data suppressed"
+A1OTHRBLOCK
+   -5 = "Data suppressed"
+A1PACISLE
+   -5 = "Data suppressed"
+A1PHYSABUSE
+   -5 = "Data suppressed"
+A1PRNTINV
+   1 = "Not a problem"
+   2 = "Minor problem"
+   3 = "Moderate problem"
+   4 = "Serious problem"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1PSCTCHRS
+   -5 = "Data suppressed"
+A1PTMTCHRS
+   -5 = "Data suppressed"
+A1PTOTHTCHRS
+   -5 = "Data suppressed"
+A1PTTCHRS
+   -5 = "Data suppressed"
+A1RELIGIOUS
+   -5 = "Data suppressed"
+A1RELIGTYPE
+   -5 = "Data suppressed"
+A1REPEATG9
+   -5 = "Data suppressed"
+A1RESOURCES
+   1 = "Not a problem"
+   2 = "Minor problem"
+   3 = "Moderate problem"
+   4 = "Serious problem"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1RETURN09
+   -5 = "Data suppressed"
+A1ROBBERY
+   -5 = "Data suppressed"
+A1SCHCONTROL
+   1 = "Public"
+   2 = "Private"
+   -8 = "Unit non-response/component not applicable"
+A1SCHEDULE
+   -5 = "Data suppressed"
+A1SCHSPFOCUS
+   -5 = "Data suppressed"
+A1SCHTYPE
+   -5 = "Data suppressed"
+A1SCIREQS
+   -5 = "Data suppressed"
+A1SCISTREQ
+   -5 = "Data suppressed"
+A1SEX
+   -5 = "Data suppressed"
+A1SINCENTIVE
+   -5 = "Data suppressed"
+A1SINGLESEX
+   -5 = "Data suppressed"
+A1SPECIALED
+   -5 = "Data suppressed"
+A1STARTDEG
+   -5 = "Data suppressed"
+A1STNORETURN
+   -5 = "Data suppressed"
+A1STUABSENT
+   -5 = "Data suppressed"
+A1TARDY
+   1 = "Not a problem"
+   2 = "Minor problem"
+   3 = "Moderate problem"
+   4 = "Serious problem"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1TCHRABSENT
+   1 = "Not a problem"
+   2 = "Minor problem"
+   3 = "Moderate to serious problem"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1TEACHING
+   -5 = "Data suppressed"
+A1TENSION
+   -5 = "Data suppressed"
+A1TRADMINS
+   -5 = "Data suppressed"
+A1TRANSFRALT
+   -5 = "Data suppressed"
+A1UNGRADED
+   -5 = "Data suppressed"
+A1UNPREP
+   1 = "Not a problem"
+   2 = "Minor problem"
+   3 = "Moderate problem"
+   4 = "Serious problem"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+A1VANDALISM
+   -5 = "Data suppressed"
+A1VBLOCKMINS
+   -5 = "Data suppressed"
+A1VERBAL
+   -5 = "Data suppressed"
+A1VOCBLOCK
+   -5 = "Data suppressed"
+A1WEAPONS
+   -5 = "Data suppressed"
+A1WHITE
+   -5 = "Data suppressed"
+A1WHITESTU
+   -5 = "Data suppressed"
+A1WORK
+   -5 = "Data suppressed"
+A1YRROUND
+   -5 = "Data suppressed"
+A1YRSHSLSSCH
+   -5 = "Data suppressed"
+A1YRSHSTCHR
+   -5 = "Data suppressed"
+A1YRSMSTCHR
+   -5 = "Data suppressed"
+C14YRCLG
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1ABSENTEE
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1APCOURSE
+   -5 = "Data suppressed"
+C1ASSEMBLIES
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1ASSIGNMENT
+   1 = "Assigned to all students at school"
+   2 = "Assigned to a specific grade level"
+   3 = "Assigned to incoming 9th grade class"
+   4 = "Assigned to subset based on last name"
+   5 = "Assigned to specific in-schl community"
+   6 = "In another way?"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1ASSISTOTH
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1AVERAGE
+   -5 = "Data suppressed"
+C1AWARENESS
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1BAMAJ2
+   -5 = "Data suppressed"
+C1BAMAJ6
+   -5 = "Data suppressed"
+C1BAMAJV
+   -5 = "Data suppressed"
+C1BEHAVIOR
+   -5 = "Data suppressed"
+C1BEHIND
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CAREERDAY
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CAREERUNIT
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CBELIEVE
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CCARE
+   2 = "Strongly agree or agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CEXPECT
+   2 = "Strongly agree or agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CGIVEUP
+   2 = "Strongly agree or agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CLEARNING
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CLGFAIR
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CLGPREP
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CLUSTER
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CNSLREFER
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1COMCLG
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1CREDREC
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+C1CTE
+   -5 = "Data suppressed"
+C1CWORKHARD
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1DECISION
+   -5 = "Data suppressed"
+C1DISCIPLINE
+   -5 = "Data suppressed"
+C1DISCPROB
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1DOPREVOTHR
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1DROPOUT
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1DUALENROLL
+   -5 = "Data suppressed"
+C1EMPLOYER
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1ENCCLG
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1ENRICHMENT
+   -5 = "Data suppressed"
+C1ENTRY
+   -5 = "Data suppressed"
+C1FINANCEAID
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1FTCERTCNSL
+   -5 = "Data suppressed"
+C1FTCNSL
+   -5 = "Data suppressed"
+C1G9LOWEST
+   -5 = "Data suppressed"
+C1G9MENDTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MHSCNSL
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MMSACHV
+   2 = "Not at all important or a little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MMSCNSL
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MMSCOURS
+   2 = "Not at all important or a little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MMSTCHR
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MPLACTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MPLAN
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MSAME
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MSELECT
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9MSTNDTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SENDTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SHSCNSL
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SMSACHV
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SMSCNSL
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SMSCOURS
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SMSTCHR
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SPLACTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SPLAN
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SSAME
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SSELECT
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1G9SSTNDTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1GEDPREP
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1GETAHEAD
+   -5 = "Data suppressed"
+C1GIFTED
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1GOAL1
+   1 = "Help students prep for work roles after HS"
+   2 = "Help students w/ personal growth/developmnt"
+   3 = "Help students prep for postsec schooling"
+   4 = "Help students improve achievement in HS"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1GOAL2
+   1 = "Help students prep for work roles after HS"
+   2 = "Help students w/ personal growth/developmnt"
+   3 = "Help students prep for postsec schooling"
+   4 = "Help students improve achievement in HS"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1GOAL3
+   1 = "Help students prep for work roles after HS"
+   2 = "Help students w/ personal growth/developmnt"
+   3 = "Help students prep for postsec schooling"
+   4 = "Help students improve achievement in HS"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HIDEG
+   -5 = "Data suppressed"
+C1HIGH
+   -5 = "Data suppressed"
+C1HIMAJ2
+   -5 = "Data suppressed"
+C1HIMAJ6
+   -5 = "Data suppressed"
+C1HIMAJV
+   -5 = "Data suppressed"
+C1HOMEWORK
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+C1HRSCAREER
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "21%-50%"
+   5 = "More than 50%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSCOLLEGE
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "21%-50%"
+   5 = "More than 50%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSDEVELOP
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "21%-50%"
+   5 = "More than 50%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSJOBSKLL
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "More than 20%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSNONCNSL
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "More than 20%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSOTHCNSL
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "21%-50%"
+   5 = "More than 50%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSPROBLEM
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "21%-50%"
+   5 = "More than 50%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSSCHED
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "21%-50%"
+   5 = "More than 50%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HRSTESTING
+   1 = "5% or less"
+   2 = "6%-10%"
+   3 = "11%-20%"
+   4 = "21%-50%"
+   5 = "More than 50%"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HSTOWORKNO
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1HSTOWRKOTH
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1INCDEG
+   -5 = "Data suppressed"
+C1INDEPSTUDY
+   -5 = "Data suppressed"
+C1INDVCRS
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1INFORM
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1INFOSESSN
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1INTERN
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1JOBFAIR
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1JOBGUIDE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1JOBINFOCMP
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1JOBINFONON
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1JOBSHADOW
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1JOBSIM
+   -5 = "Data suppressed"
+C1JOBSKILLS
+   -5 = "Data suppressed"
+C1JOBTEST
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1JOBVISIT
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1MALTSCH
+   -5 = "Data suppressed"
+C1MCOMPTST
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+C1MINDPRG
+   -5 = "Data suppressed"
+C1MREMEDL
+   -5 = "Data suppressed"
+C1MREPEAT
+   -5 = "Data suppressed"
+C1MRETAKE
+   -5 = "Data suppressed"
+C1MSUMSCH
+   -5 = "Data suppressed"
+C1MTSTPREP
+   -5 = "Data suppressed"
+C1MTUTOR
+   -5 = "Data suppressed"
+C1NOASSIST
+   -5 = "Data suppressed"
+C1NOSTEPS
+   -5 = "Data suppressed"
+C1NOSUPPORT
+   -5 = "Data suppressed"
+C1NOWAY
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1ONLINE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1OTHERHS
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1OTHERWAY
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1OTHRASSIST
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+C1OTHSUPPORT
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1OUTSIDE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+C1PBELIEVE
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PCARE
+   2 = "Strongly agree or agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PEXPECT
+   2 = "Strongly agree or agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PGIVEUP
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PLAN
+   1 = "Yes, a combined career/education plan"
+   2 = "Yes, a career plan only"
+   3 = "Yes, an education plan only"
+   4 = "Neither a career plan nor education plan"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PLANPARENT
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PLEARNING
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1POORGRADES
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1POSTSECREQ
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PRNTREFER
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PTCERTCNSL
+   -5 = "Data suppressed"
+C1PTCNSL
+   -5 = "Data suppressed"
+C1PULLOUT
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+C1PURSUE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1PWORKHARD
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1SCHOLARSHP
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1SIGNOFF
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1STAFF
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+C1STAFFENRCH
+   -5 = "Data suppressed"
+C1STRUGGLE
+   -5 = "Data suppressed"
+C1STUDREQ
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1SUMMER
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TBELIEVE
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TCARE
+   2 = "Strongly agree or agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TCHREFER
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TECH
+   -5 = "Data suppressed"
+C1TECHSUPPRT
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TEXPECT
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TGIVEUP
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TLEARNING
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANADMIN
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANBUDDY
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANCLASS
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANCOTH
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANFALL
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANLRNCOM
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANNONE
+   -5 = "Data suppressed"
+C1TRANNOT
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANPLCY
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANPRES
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANPRNT
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANSCNSL
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANSCRS
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TRANSOTH
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANSTFFPR
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANSTUDPR
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANSUMMER
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANTCHRS
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TRANVISIT
+   0 = "No"
+   1 = "Yes"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+C1TTEACHING
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree or strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1TUTOR
+   -5 = "Data suppressed"
+C1TWORKHARD
+   1 = "Strongly agree"
+   2 = "Agree"
+   3 = "Disagree"
+   4 = "Strongly disagree"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPBOUND
+   -5 = "Data suppressed"
+C1UPMGRADES
+   3 = "Not at all important, a little important, or somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPMPLACTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPMPLAN
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPMSCHED
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPMSELECT
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPMTCHR
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPPERMSAME
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPPERSSAME
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPSGRADES
+   2 = "Not at all important or a little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPSPLACTST
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPSPLAN
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPSSCHED
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPSSELECT
+   2 = "Not at all important or a little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1UPSTCHR
+   1 = "Not at all important"
+   2 = "A little important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   -7 = "Item legitimate skip/NA"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1VISITCLG
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1VOCTECH
+   -5 = "Data suppressed"
+C1WORKFORCE
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1WORKSTUDY
+   0 = "No"
+   1 = "Yes"
+   -8 = "Unit non-response/component not applicable"
+   -9 = "Missing"
+C1YRS912
+   -5 = "Data suppressed"
+C1YRSK12
+   -5 = "Data suppressed"
+PSU
+   -5 = "Data suppressed"
+STRAT_ID
+   -5 = "Data suppressed"
+X1AQDATE
+   200910 = "200910"
+   200911 = "200911"
+   201001 = "201001"
+   -8 = "Unit non-response/component not applicable"
+X1AQDESIGNEE
+   0 = "Designee did not complete applicable portion"
+   1 = "Designee completed applicable portion"
+   8 = "Non-respondent (no administrator survey data)"
+X1AQSTAT
+   1 = "Self-administered standard form"
+   2 = "CATI standard form"
+   3 = "Web self-administered abbreviated form"
+   4 = "CATI abbreviated form"
+   8 = "Non-respondent"
+X1CENDIV
+   -5 = "Data suppressed"
+X1CONTROL
+   1 = "Public"
+   2 = "Catholic or other private"
+X1CQDATE
+   200910 = "200910"
+   200911 = "200911"
+   201001 = "201001"
+   -8 = "Unit non-response/component not applicable"
+X1CQSTAT
+   1 = "Self-administered standard form"
+   2 = "CATI standard form"
+   8 = "Non-respondent"
+X1FREELUNCH
+   -5 = "Data suppressed"
+X1GRADESPAN
+   -5 = "Data suppressed"
+X1LOCALE
+   1 = "City"
+   2 = "Suburb"
+   3 = "Town"
+   4 = "Rural"
+X1NCESID
+   -5 = "Data suppressed"
+X1REGION
+   1 = "Northeast"
+   2 = "Midwest"
+   3 = "South"
+   4 = "West"
+X1REPEAT9TH
+   -5 = "Data suppressed"
+X1SCHAMIND
+   -5 = "Data suppressed"
+X1SCHASIAN
+   -5 = "Data suppressed"
+X1SCHBLACK
+   -5 = "Data suppressed"
+X1SCHHISP
+   -5 = "Data suppressed"
+X1SCHWHITE
+   -5 = "Data suppressed"
+X1STATE
+   -5 = "Data suppressed"
+X1STATESAMPL
+   -5 = "Data suppressed"

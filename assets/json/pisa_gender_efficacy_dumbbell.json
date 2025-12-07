@@ -1,0 +1,445 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF"
+    }
+  },
+  "data": {
+    "name": "data-97a414c55a6456e104e003a6bf58efab"
+  },
+  "datasets": {
+    "data-97a414c55a6456e104e003a6bf58efab": [
+      {
+        "Country": "DNK",
+        "Gap": 0.5712831047505466,
+        "Gender": "Female",
+        "Math_Efficacy": -0.7080350427350427
+      },
+      {
+        "Country": "NLD",
+        "Gap": 0.5536384379509379,
+        "Gender": "Female",
+        "Math_Efficacy": -0.6233080808080808
+      },
+      {
+        "Country": "AUS",
+        "Gap": 0.5384963924050632,
+        "Gender": "Female",
+        "Math_Efficacy": -0.49945999999999996
+      },
+      {
+        "Country": "SVK",
+        "Gap": 0.5120642821659215,
+        "Gender": "Female",
+        "Math_Efficacy": -0.618038524590164
+      },
+      {
+        "Country": "JPN",
+        "Gap": 0.480672730829421,
+        "Gender": "Female",
+        "Math_Efficacy": -0.7123861111111112
+      },
+      {
+        "Country": "HKG",
+        "Gap": 0.4764865990057995,
+        "Gender": "Female",
+        "Math_Efficacy": -0.7686161764705882
+      },
+      {
+        "Country": "MDA",
+        "Gap": 0.4701301851851852,
+        "Gender": "Female",
+        "Math_Efficacy": -0.7598451851851852
+      },
+      {
+        "Country": "DEU",
+        "Gap": 0.46602262396694216,
+        "Gender": "Female",
+        "Math_Efficacy": -0.43828512396694214
+      },
+      {
+        "Country": "GBR",
+        "Gap": 0.4578777512518021,
+        "Gender": "Female",
+        "Math_Efficacy": -0.5220307392996109
+      },
+      {
+        "Country": "IRL",
+        "Gap": 0.4153790381426202,
+        "Gender": "Female",
+        "Math_Efficacy": -0.5590088888888889
+      },
+      {
+        "Country": "MAC",
+        "Gap": 0.40452270443520444,
+        "Gender": "Female",
+        "Math_Efficacy": -0.38530288461538464
+      },
+      {
+        "Country": "MNE",
+        "Gap": 0.3738305976806423,
+        "Gender": "Female",
+        "Math_Efficacy": -0.8804779661016949
+      },
+      {
+        "Country": "POL",
+        "Gap": 0.3611963768115942,
+        "Gender": "Female",
+        "Math_Efficacy": -0.753372463768116
+      },
+      {
+        "Country": "PRT",
+        "Gap": 0.3592977398271136,
+        "Gender": "Female",
+        "Math_Efficacy": -0.5516729032258064
+      },
+      {
+        "Country": "CZE",
+        "Gap": 0.3454164868056128,
+        "Gender": "Female",
+        "Math_Efficacy": -0.4505864321608041
+      },
+      {
+        "Country": "SVN",
+        "Gap": 0.34079940789473684,
+        "Gender": "Female",
+        "Math_Efficacy": -0.5572881578947368
+      },
+      {
+        "Country": "SGP",
+        "Gap": 0.34023672278338946,
+        "Gender": "Female",
+        "Math_Efficacy": 0.1095469135802469
+      },
+      {
+        "Country": "PER",
+        "Gap": 0.33686853146853146,
+        "Gender": "Female",
+        "Math_Efficacy": -0.579113986013986
+      },
+      {
+        "Country": "BEL",
+        "Gap": 0.33425704392199745,
+        "Gender": "Female",
+        "Math_Efficacy": -0.35043446327683614
+      },
+      {
+        "Country": "HUN",
+        "Gap": 0.33308312995410927,
+        "Gender": "Female",
+        "Math_Efficacy": -0.45645886524822693
+      },
+      {
+        "Country": "DNK",
+        "Gap": 0.5712831047505466,
+        "Gender": "Male",
+        "Math_Efficacy": -0.1367519379844961
+      },
+      {
+        "Country": "NLD",
+        "Gap": 0.5536384379509379,
+        "Gender": "Male",
+        "Math_Efficacy": -0.06966964285714286
+      },
+      {
+        "Country": "AUS",
+        "Gap": 0.5384963924050632,
+        "Gender": "Male",
+        "Math_Efficacy": 0.039036392405063285
+      },
+      {
+        "Country": "SVK",
+        "Gap": 0.5120642821659215,
+        "Gender": "Male",
+        "Math_Efficacy": -0.10597424242424244
+      },
+      {
+        "Country": "JPN",
+        "Gap": 0.480672730829421,
+        "Gender": "Male",
+        "Math_Efficacy": -0.23171338028169014
+      },
+      {
+        "Country": "HKG",
+        "Gap": 0.4764865990057995,
+        "Gender": "Male",
+        "Math_Efficacy": -0.29212957746478874
+      },
+      {
+        "Country": "MDA",
+        "Gap": 0.4701301851851852,
+        "Gender": "Male",
+        "Math_Efficacy": -0.289715
+      },
+      {
+        "Country": "DEU",
+        "Gap": 0.46602262396694216,
+        "Gender": "Male",
+        "Math_Efficacy": 0.027737500000000002
+      },
+      {
+        "Country": "GBR",
+        "Gap": 0.4578777512518021,
+        "Gender": "Male",
+        "Math_Efficacy": -0.06415298804780876
+      },
+      {
+        "Country": "IRL",
+        "Gap": 0.4153790381426202,
+        "Gender": "Male",
+        "Math_Efficacy": -0.14362985074626866
+      },
+      {
+        "Country": "MAC",
+        "Gap": 0.40452270443520444,
+        "Gender": "Male",
+        "Math_Efficacy": 0.019219819819819805
+      },
+      {
+        "Country": "MNE",
+        "Gap": 0.3738305976806423,
+        "Gender": "Male",
+        "Math_Efficacy": -0.5066473684210526
+      },
+      {
+        "Country": "POL",
+        "Gap": 0.3611963768115942,
+        "Gender": "Male",
+        "Math_Efficacy": -0.39217608695652173
+      },
+      {
+        "Country": "PRT",
+        "Gap": 0.3592977398271136,
+        "Gender": "Male",
+        "Math_Efficacy": -0.19237516339869282
+      },
+      {
+        "Country": "CZE",
+        "Gap": 0.3454164868056128,
+        "Gender": "Male",
+        "Math_Efficacy": -0.10516994535519127
+      },
+      {
+        "Country": "SVN",
+        "Gap": 0.34079940789473684,
+        "Gender": "Male",
+        "Math_Efficacy": -0.21648875000000004
+      },
+      {
+        "Country": "SGP",
+        "Gap": 0.34023672278338946,
+        "Gender": "Male",
+        "Math_Efficacy": 0.44978363636363633
+      },
+      {
+        "Country": "PER",
+        "Gap": 0.33686853146853146,
+        "Gender": "Male",
+        "Math_Efficacy": -0.24224545454545457
+      },
+      {
+        "Country": "BEL",
+        "Gap": 0.33425704392199745,
+        "Gender": "Male",
+        "Math_Efficacy": -0.016177419354838702
+      },
+      {
+        "Country": "HUN",
+        "Gap": 0.33308312995410927,
+        "Gender": "Male",
+        "Math_Efficacy": -0.12337573529411765
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Gender",
+          "legend": {
+            "orient": "top",
+            "title": "Gender"
+          },
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "country_select",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "Math_Efficacy",
+            "format": ".2f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Math_Efficacy",
+          "scale": {
+            "domain": [
+              -0.8,
+              0.8
+            ]
+          },
+          "title": "Math Self-Efficacy",
+          "type": "quantitative"
+        },
+        "xOffset": {
+          "field": "Gender",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Country",
+          "sort": {
+            "field": "Gap",
+            "order": "descending"
+          },
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "cursor": "pointer",
+        "type": "bar"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Click Country for Gap Detail"
+      },
+      "width": 450
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "Gender",
+          "legend": {
+            "orient": "top",
+            "title": "Gender"
+          },
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "Math_Efficacy",
+            "format": ".2f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Math_Efficacy",
+          "scale": {
+            "domain": [
+              -0.8,
+              0.8
+            ]
+          },
+          "title": "Math Self-Efficacy Score",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 350,
+      "mark": {
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "text": "Gender Scores for Selected Country"
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "country_select"
+          }
+        }
+      ],
+      "width": 450
+    }
+  ],
+  "params": [
+    {
+      "name": "country_select",
+      "select": {
+        "fields": [
+          "Country"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}
