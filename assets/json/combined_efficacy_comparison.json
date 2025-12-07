@@ -21,56 +21,146 @@
     }
   },
   "datasets": {
-    "data-50a37b7084321142e1978ee845dde669": [
+    "data-6d781a7726da8cf12f135f544c240a6d": [
       {
-        "Math_Score": 376.7065456137071,
+        "Count": 61736,
+        "Gender": "Female",
+        "Math_Score": 373.51798530840995,
         "SES_Quintile": "Q1",
         "Source": "PISA (International)"
       },
       {
-        "Math_Score": 415.75821888838834,
+        "Count": 55909,
+        "Gender": "Male",
+        "Math_Score": 380.21507717898726,
+        "SES_Quintile": "Q1",
+        "Source": "PISA (International)"
+      },
+      {
+        "Count": 58300,
+        "Gender": "Female",
+        "Math_Score": 414.8789668439108,
         "SES_Quintile": "Q2",
         "Source": "PISA (International)"
       },
       {
-        "Math_Score": 440.04554721391173,
+        "Count": 59340,
+        "Gender": "Male",
+        "Math_Score": 416.6206290192113,
+        "SES_Quintile": "Q2",
+        "Source": "PISA (International)"
+      },
+      {
+        "Count": 57363,
+        "Gender": "Female",
+        "Math_Score": 438.3124457751512,
         "SES_Quintile": "Q3",
         "Source": "PISA (International)"
       },
       {
-        "Math_Score": 467.3054523418975,
+        "Count": 60274,
+        "Gender": "Male",
+        "Math_Score": 441.68513125062213,
+        "SES_Quintile": "Q3",
+        "Source": "PISA (International)"
+      },
+      {
+        "Count": 58258,
+        "Gender": "Female",
+        "Math_Score": 464.3749340519757,
         "SES_Quintile": "Q4",
         "Source": "PISA (International)"
       },
       {
-        "Math_Score": 511.6921604787161,
+        "Count": 59399,
+        "Gender": "Male",
+        "Math_Score": 470.1660576440681,
+        "SES_Quintile": "Q4",
+        "Source": "PISA (International)"
+      },
+      {
+        "Count": 58985,
+        "Gender": "Female",
+        "Math_Score": 507.5917815376791,
+        "SES_Quintile": "Q5",
+        "Source": "PISA (International)"
+      },
+      {
+        "Count": 58640,
+        "Gender": "Male",
+        "Math_Score": 515.8033319236016,
         "SES_Quintile": "Q5",
         "Source": "PISA (International)"
       }
     ],
-    "data-cce577f7d932af7995cda7228403a8ef": [
+    "data-953abb4da018837f0d1e02b0e3a5b613": [
       {
-        "Math_Score": 45.09357446126966,
+        "Count": 1675,
+        "Gender": "Female",
+        "Math_Score": 45.55332411940298,
         "SES_Quintile": "Q1",
         "Source": "HSLS (US)"
       },
       {
-        "Math_Score": 47.30730585695007,
+        "Count": 1759,
+        "Gender": "Male",
+        "Math_Score": 44.65577987492894,
+        "SES_Quintile": "Q1",
+        "Source": "HSLS (US)"
+      },
+      {
+        "Count": 1843,
+        "Gender": "Female",
+        "Math_Score": 47.452711231687466,
         "SES_Quintile": "Q2",
         "Source": "HSLS (US)"
       },
       {
-        "Math_Score": 49.82041703283723,
+        "Count": 1862,
+        "Gender": "Male",
+        "Math_Score": 47.16338421052631,
+        "SES_Quintile": "Q2",
+        "Source": "HSLS (US)"
+      },
+      {
+        "Count": 2059,
+        "Gender": "Female",
+        "Math_Score": 49.80309538610976,
         "SES_Quintile": "Q3",
         "Source": "HSLS (US)"
       },
       {
-        "Math_Score": 52.590364441027894,
+        "Count": 2174,
+        "Gender": "Male",
+        "Math_Score": 49.83682240110396,
+        "SES_Quintile": "Q3",
+        "Source": "HSLS (US)"
+      },
+      {
+        "Count": 2260,
+        "Gender": "Female",
+        "Math_Score": 52.71588252212389,
         "SES_Quintile": "Q4",
         "Source": "HSLS (US)"
       },
       {
-        "Math_Score": 57.17247968834934,
+        "Count": 2293,
+        "Gender": "Male",
+        "Math_Score": 52.46665276929786,
+        "SES_Quintile": "Q4",
+        "Source": "HSLS (US)"
+      },
+      {
+        "Count": 2720,
+        "Gender": "Female",
+        "Math_Score": 56.8110362132353,
+        "SES_Quintile": "Q5",
+        "Source": "HSLS (US)"
+      },
+      {
+        "Count": 2799,
+        "Gender": "Male",
+        "Math_Score": 57.52372165058949,
         "SES_Quintile": "Q5",
         "Source": "HSLS (US)"
       }
@@ -79,11 +169,26 @@
   "hconcat": [
     {
       "data": {
-        "name": "data-50a37b7084321142e1978ee845dde669"
+        "name": "data-6d781a7726da8cf12f135f544c240a6d"
       },
       "encoding": {
         "color": {
-          "value": "#4c8dff"
+          "field": "Gender",
+          "legend": {
+            "orient": "top",
+            "title": "Gender"
+          },
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "type": "nominal"
         },
         "opacity": {
           "condition": {
@@ -98,8 +203,18 @@
             "type": "nominal"
           },
           {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
             "field": "Math_Score",
             "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
@@ -115,13 +230,18 @@
           "title": "SES Quintile",
           "type": "ordinal"
         },
+        "xOffset": {
+          "field": "Gender",
+          "type": "nominal"
+        },
         "y": {
           "field": "Math_Score",
           "scale": {
             "domain": [
-              400,
-              550
-            ]
+              380,
+              540
+            ],
+            "zero": false
           },
           "title": "Average Math Score",
           "type": "quantitative"
@@ -129,29 +249,40 @@
       },
       "height": 300,
       "mark": {
+        "cornerRadiusTopLeft": 4,
+        "cornerRadiusTopRight": 4,
         "cursor": "pointer",
-        "point": {
-          "filled": true,
-          "size": 100
-        },
-        "strokeWidth": 4,
-        "type": "line"
+        "type": "bar"
       },
       "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
+        "subtitle": "Click SES quintile to highlight",
+        "subtitleColor": "#E0E0E0",
         "text": "PISA (International)"
       },
-      "width": 300
+      "width": 320
     },
     {
       "data": {
-        "name": "data-cce577f7d932af7995cda7228403a8ef"
+        "name": "data-953abb4da018837f0d1e02b0e3a5b613"
       },
       "encoding": {
         "color": {
-          "value": "#a855f7"
+          "field": "Gender",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "type": "nominal"
         },
         "opacity": {
           "condition": {
@@ -166,8 +297,18 @@
             "type": "nominal"
           },
           {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
             "field": "Math_Score",
             "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
@@ -183,13 +324,18 @@
           "title": "SES Quintile",
           "type": "ordinal"
         },
+        "xOffset": {
+          "field": "Gender",
+          "type": "nominal"
+        },
         "y": {
           "field": "Math_Score",
           "scale": {
             "domain": [
-              40,
-              60
-            ]
+              42,
+              58
+            ],
+            "zero": false
           },
           "title": "Average Math Score",
           "type": "quantitative"
@@ -197,19 +343,16 @@
       },
       "height": 300,
       "mark": {
-        "point": {
-          "filled": true,
-          "size": 100
-        },
-        "strokeWidth": 4,
-        "type": "line"
+        "cornerRadiusTopLeft": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
         "text": "HSLS (US)"
       },
-      "width": 300
+      "width": 320
     }
   ],
   "params": [

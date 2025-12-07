@@ -197,9 +197,11 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Education Level"
+        "subtitle": "Click education level to see premium",
+        "subtitleColor": "#E0E0E0",
+        "text": "Education-Achievement Link"
       },
-      "width": 450
+      "width": 420
     },
     {
       "encoding": {

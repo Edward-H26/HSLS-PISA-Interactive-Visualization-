@@ -21,147 +21,436 @@
     }
   },
   "datasets": {
-    "data-958bc3c744ec4553e20d3d980c250f60": [
+    "data-8a846304d6ee7e79dc41ba02e4011198": [
       {
-        "Count": 1892,
-        "GPA": 3.340248414376321,
-        "Parent_Education": "Bachelor's+"
+        "Count": 269,
+        "Gender": "Female",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 7.806691449814126,
+        "School_Locale": "City"
       },
       {
-        "Count": 5237,
-        "GPA": 2.871682260836357,
-        "Parent_Education": "High School"
+        "Count": 251,
+        "Gender": "Male",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 19.12350597609562,
+        "School_Locale": "City"
       },
       {
-        "Count": 930,
-        "GPA": 2.618010752688172,
-        "Parent_Education": "Less than HS"
+        "Count": 143,
+        "Gender": "Female",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 8.391608391608392,
+        "School_Locale": "Rural"
       },
       {
-        "Count": 5387,
-        "GPA": 3.1101726378318175,
-        "Parent_Education": "Some College"
+        "Count": 157,
+        "Gender": "Male",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 14.64968152866242,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 336,
+        "Gender": "Female",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 3.273809523809524,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 287,
+        "Gender": "Male",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 14.634146341463413,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 69,
+        "Gender": "Female",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 4.3478260869565215,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 68,
+        "Gender": "Male",
+        "Parent_Education": "Bachelor's",
+        "STEM_Rate": 13.23529411764706,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 112,
+        "Gender": "Female",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 4.464285714285714,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 98,
+        "Gender": "Male",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 18.367346938775512,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 37,
+        "Gender": "Female",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 5.405405405405405,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 44,
+        "Gender": "Male",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 18.181818181818183,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 103,
+        "Gender": "Female",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 6.796116504854369,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 129,
+        "Gender": "Male",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 6.976744186046512,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 23,
+        "Gender": "Female",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 4.3478260869565215,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 18,
+        "Gender": "Male",
+        "Parent_Education": "Graduate+",
+        "STEM_Rate": 22.22222222222222,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 804,
+        "Gender": "Female",
+        "Parent_Education": "High School",
+        "STEM_Rate": 6.218905472636816,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 845,
+        "Gender": "Male",
+        "Parent_Education": "High School",
+        "STEM_Rate": 11.124260355029586,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 900,
+        "Gender": "Female",
+        "Parent_Education": "High School",
+        "STEM_Rate": 5.555555555555555,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 906,
+        "Gender": "Male",
+        "Parent_Education": "High School",
+        "STEM_Rate": 9.381898454746135,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 1129,
+        "Gender": "Female",
+        "Parent_Education": "High School",
+        "STEM_Rate": 5.048715677590788,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 1160,
+        "Gender": "Male",
+        "Parent_Education": "High School",
+        "STEM_Rate": 12.5,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 452,
+        "Gender": "Female",
+        "Parent_Education": "High School",
+        "STEM_Rate": 3.761061946902655,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 444,
+        "Gender": "Male",
+        "Parent_Education": "High School",
+        "STEM_Rate": 10.135135135135135,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 174,
+        "Gender": "Female",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 1.1494252873563218,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 179,
+        "Gender": "Male",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 10.614525139664805,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 182,
+        "Gender": "Female",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 3.8461538461538463,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 189,
+        "Gender": "Male",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 6.349206349206349,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 210,
+        "Gender": "Female",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 3.8095238095238098,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 177,
+        "Gender": "Male",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 6.214689265536723,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 93,
+        "Gender": "Female",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 1.0752688172043012,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 90,
+        "Gender": "Male",
+        "Parent_Education": "Less than HS",
+        "STEM_Rate": 5.555555555555555,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 989,
+        "Gender": "Female",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 6.370070778564206,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 993,
+        "Gender": "Male",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 13.595166163141995,
+        "School_Locale": "City"
+      },
+      {
+        "Count": 651,
+        "Gender": "Female",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 4.301075268817205,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 685,
+        "Gender": "Male",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 12.408759124087592,
+        "School_Locale": "Rural"
+      },
+      {
+        "Count": 1180,
+        "Gender": "Female",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 6.525423728813559,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 1165,
+        "Gender": "Male",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 12.875536480686694,
+        "School_Locale": "Suburb"
+      },
+      {
+        "Count": 336,
+        "Gender": "Female",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 3.869047619047619,
+        "School_Locale": "Town"
+      },
+      {
+        "Count": 352,
+        "Gender": "Male",
+        "Parent_Education": "Some College",
+        "STEM_Rate": 13.636363636363635,
+        "School_Locale": "Town"
       }
     ],
-    "data-e3b53fee210fb282835a963fb2bca4ed": [
+    "data-9bb7a76a1a522d1575b4eff1c478265c": [
       {
-        "Count": 930,
-        "GPA": 2.502688172043011,
-        "Grade": "9th Grade",
-        "Parent_Education": "Less than HS"
+        "Avg_Income": 93648.64864864865,
+        "Count": 37,
+        "Parent_Education": "Bachelor's",
+        "Student_Expectations": "Associate's"
       },
       {
-        "Count": 917,
-        "GPA": 2.48773173391494,
-        "Grade": "10th Grade",
-        "Parent_Education": "Less than HS"
+        "Avg_Income": 118158.99581589959,
+        "Count": 239,
+        "Parent_Education": "Bachelor's",
+        "Student_Expectations": "Bachelor's"
       },
       {
-        "Count": 904,
-        "GPA": 2.5152101769911503,
-        "Grade": "11th Grade",
-        "Parent_Education": "Less than HS"
+        "Avg_Income": 123240.83250743311,
+        "Count": 1009,
+        "Parent_Education": "Bachelor's",
+        "Student_Expectations": "Graduate/Prof"
       },
       {
-        "Count": 930,
-        "GPA": 2.618010752688172,
-        "Grade": "12th Grade",
-        "Parent_Education": "Less than HS"
+        "Avg_Income": 119915.25423728813,
+        "Count": 295,
+        "Parent_Education": "Bachelor's",
+        "Student_Expectations": "HS or Less"
       },
       {
-        "Count": 5237,
-        "GPA": 2.7585927057475654,
-        "Grade": "9th Grade",
-        "Parent_Education": "High School"
+        "Avg_Income": 97500.0,
+        "Count": 17,
+        "Parent_Education": "Graduate+",
+        "Student_Expectations": "Associate's"
       },
       {
-        "Count": 5175,
-        "GPA": 2.738888888888889,
-        "Grade": "10th Grade",
-        "Parent_Education": "High School"
+        "Avg_Income": 129765.625,
+        "Count": 64,
+        "Parent_Education": "Graduate+",
+        "Student_Expectations": "Bachelor's"
       },
       {
-        "Count": 5151,
-        "GPA": 2.756503591535624,
-        "Grade": "11th Grade",
-        "Parent_Education": "High School"
+        "Avg_Income": 170110.67708333334,
+        "Count": 384,
+        "Parent_Education": "Graduate+",
+        "Student_Expectations": "Graduate/Prof"
       },
       {
-        "Count": 5237,
-        "GPA": 2.871682260836357,
-        "Grade": "12th Grade",
-        "Parent_Education": "High School"
+        "Avg_Income": 152828.28282828283,
+        "Count": 99,
+        "Parent_Education": "Graduate+",
+        "Student_Expectations": "HS or Less"
       },
       {
-        "Count": 5387,
-        "GPA": 3.0700761091516613,
-        "Grade": "9th Grade",
-        "Parent_Education": "Some College"
+        "Avg_Income": 51371.55963302752,
+        "Count": 545,
+        "Parent_Education": "High School",
+        "Student_Expectations": "Associate's"
       },
       {
-        "Count": 5350,
-        "GPA": 3.0222429906542057,
-        "Grade": "10th Grade",
-        "Parent_Education": "Some College"
+        "Avg_Income": 59368.823000898476,
+        "Count": 1113,
+        "Parent_Education": "High School",
+        "Student_Expectations": "Bachelor's"
       },
       {
-        "Count": 5324,
-        "GPA": 3.036626596543952,
-        "Grade": "11th Grade",
-        "Parent_Education": "Some College"
+        "Avg_Income": 59455.245038477115,
+        "Count": 2469,
+        "Parent_Education": "High School",
+        "Student_Expectations": "Graduate/Prof"
       },
       {
-        "Count": 5387,
-        "GPA": 3.1101726378318175,
-        "Grade": "12th Grade",
-        "Parent_Education": "Some College"
+        "Avg_Income": 51439.51452447274,
+        "Count": 2513,
+        "Parent_Education": "High School",
+        "Student_Expectations": "HS or Less"
       },
       {
-        "Count": 1892,
-        "GPA": 3.3237315010570825,
-        "Grade": "9th Grade",
-        "Parent_Education": "Bachelor's+"
+        "Avg_Income": 26581.632653061224,
+        "Count": 98,
+        "Parent_Education": "Less than HS",
+        "Student_Expectations": "Associate's"
       },
       {
-        "Count": 1875,
-        "GPA": 3.2809333333333335,
-        "Grade": "10th Grade",
-        "Parent_Education": "Bachelor's+"
+        "Avg_Income": 32595.108695652172,
+        "Count": 184,
+        "Parent_Education": "Less than HS",
+        "Student_Expectations": "Bachelor's"
       },
       {
-        "Count": 1873,
-        "GPA": 3.26815269620929,
-        "Grade": "11th Grade",
-        "Parent_Education": "Bachelor's+"
+        "Avg_Income": 31679.21686746988,
+        "Count": 332,
+        "Parent_Education": "Less than HS",
+        "Student_Expectations": "Graduate/Prof"
       },
       {
-        "Count": 1892,
-        "GPA": 3.340248414376321,
-        "Grade": "12th Grade",
-        "Parent_Education": "Bachelor's+"
+        "Avg_Income": 25533.08823529412,
+        "Count": 680,
+        "Parent_Education": "Less than HS",
+        "Student_Expectations": "HS or Less"
+      },
+      {
+        "Avg_Income": 75108.30324909747,
+        "Count": 277,
+        "Parent_Education": "Some College",
+        "Student_Expectations": "Associate's"
+      },
+      {
+        "Avg_Income": 95294.34850863423,
+        "Count": 1274,
+        "Parent_Education": "Some College",
+        "Student_Expectations": "Bachelor's"
+      },
+      {
+        "Avg_Income": 99672.68445839874,
+        "Count": 3185,
+        "Parent_Education": "Some College",
+        "Student_Expectations": "Graduate/Prof"
+      },
+      {
+        "Avg_Income": 85958.20433436532,
+        "Count": 1615,
+        "Parent_Education": "Some College",
+        "Student_Expectations": "HS or Less"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-e3b53fee210fb282835a963fb2bca4ed"
+        "name": "data-9bb7a76a1a522d1575b4eff1c478265c"
       },
       "encoding": {
         "color": {
-          "field": "Parent_Education",
+          "field": "Student_Expectations",
           "legend": {
             "orient": "top",
-            "title": "Parent Education"
+            "title": "Student Aspirations"
           },
           "scale": {
             "domain": [
-              "Less than HS",
-              "High School",
-              "Some College",
-              "Bachelor's+"
+              "HS or Less",
+              "Associate's",
+              "Bachelor's",
+              "Graduate/Prof"
             ],
-            "scheme": "viridis"
+            "range": [
+              "#D55E00",
+              "#F0E442",
+              "#56B4E9",
+              "#009E73"
+            ]
           },
           "type": "nominal"
         },
@@ -178,83 +467,13 @@
             "type": "nominal"
           },
           {
-            "field": "Grade",
+            "field": "Student_Expectations",
             "type": "nominal"
           },
           {
-            "field": "GPA",
-            "format": ".2f",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "field": "Grade",
-          "sort": [
-            "9th Grade",
-            "10th Grade",
-            "11th Grade",
-            "12th Grade"
-          ],
-          "title": "Grade Level",
-          "type": "nominal"
-        },
-        "y": {
-          "field": "GPA",
-          "scale": {
-            "domain": [
-              2.5,
-              3.5
-            ]
-          },
-          "title": "Average GPA",
-          "type": "quantitative"
-        }
-      },
-      "height": 300,
-      "mark": {
-        "cursor": "pointer",
-        "point": {
-          "filled": true,
-          "size": 80
-        },
-        "strokeWidth": 3,
-        "type": "line"
-      },
-      "name": "view_1",
-      "title": {
-        "color": "#FFFFFF",
-        "fontSize": 14,
-        "text": "Click Education Level"
-      },
-      "width": 400
-    },
-    {
-      "data": {
-        "name": "data-958bc3c744ec4553e20d3d980c250f60"
-      },
-      "encoding": {
-        "color": {
-          "field": "Parent_Education",
-          "legend": null,
-          "scale": {
-            "domain": [
-              "Less than HS",
-              "High School",
-              "Some College",
-              "Bachelor's+"
-            ],
-            "scheme": "viridis"
-          },
-          "type": "nominal"
-        },
-        "tooltip": [
-          {
-            "field": "Parent_Education",
-            "type": "nominal"
-          },
-          {
-            "field": "GPA",
-            "format": ".2f",
+            "field": "Avg_Income",
+            "format": "$,.0f",
+            "title": "Avg Income",
             "type": "quantitative"
           },
           {
@@ -273,33 +492,140 @@
             "Less than HS",
             "High School",
             "Some College",
-            "Bachelor's+"
+            "Bachelor's",
+            "Graduate+"
+          ],
+          "title": "Parent Education",
+          "type": "nominal"
+        },
+        "xOffset": {
+          "field": "Student_Expectations",
+          "sort": [
+            "HS or Less",
+            "Associate's",
+            "Bachelor's",
+            "Graduate/Prof"
+          ],
+          "type": "nominal"
+        },
+        "y": {
+          "axis": {
+            "format": "$,.0f"
+          },
+          "field": "Avg_Income",
+          "scale": {
+            "domain": [
+              0,
+              200000
+            ]
+          },
+          "title": "Average Family Income",
+          "type": "quantitative"
+        }
+      },
+      "height": 320,
+      "mark": {
+        "cornerRadiusTopLeft": 4,
+        "cornerRadiusTopRight": 4,
+        "cursor": "pointer",
+        "type": "bar"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "subtitle": "Click education level to filter STEM rates",
+        "subtitleColor": "#E0E0E0",
+        "text": "Income by Education x Aspirations"
+      },
+      "width": 420
+    },
+    {
+      "data": {
+        "name": "data-8a846304d6ee7e79dc41ba02e4011198"
+      },
+      "encoding": {
+        "color": {
+          "field": "Gender",
+          "legend": {
+            "orient": "top",
+            "title": "Gender"
+          },
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Parent_Education",
+            "type": "nominal"
+          },
+          {
+            "field": "School_Locale",
+            "type": "nominal"
+          },
+          {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "STEM_Rate",
+            "format": ".1f",
+            "title": "STEM Rate (%)",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "STEM_Rate",
+          "scale": {
+            "domain": [
+              0,
+              55
+            ]
+          },
+          "title": "STEM Career Expectation Rate (%)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "School_Locale",
+          "sort": [
+            "City",
+            "Suburb",
+            "Town",
+            "Rural"
           ],
           "title": null,
           "type": "nominal"
         },
-        "y": {
-          "field": "GPA",
-          "scale": {
-            "domain": [
-              2.5,
-              3.5
-            ]
-          },
-          "title": "12th Grade GPA",
-          "type": "quantitative"
+        "yOffset": {
+          "field": "Gender",
+          "type": "nominal"
         }
       },
-      "height": 300,
+      "height": 320,
       "mark": {
-        "cornerRadiusTopLeft": 4,
+        "cornerRadiusBottomRight": 4,
         "cornerRadiusTopRight": 4,
         "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Final GPA"
+        "text": "STEM Expectations by Locale x Gender"
       },
       "transform": [
         {
@@ -308,7 +634,7 @@
           }
         }
       ],
-      "width": 250
+      "width": 300
     }
   ],
   "params": [

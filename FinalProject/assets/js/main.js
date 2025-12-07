@@ -3,11 +3,11 @@ const totalPanels = 9;
 const TRANSITION_LOCK_MS = 350;
 const MIN_NAV_GAP = 700;
 const EDGE_NAV_GAP = 700;
-const HORIZONTAL_THRESHOLD = 30;
 const HORIZONTAL_DOMINANCE = 1.2;
-const HORIZONTAL_TRIGGER = 50;
-const HORIZONTAL_NAV_GAP = 350;
-const HORIZONTAL_GESTURE_TIMEOUT = 160;
+const HORIZONTAL_NAV_GAP = 400;
+const HORIZONTAL_TRIGGER = 40;        // total normalized delta needed to fire
+const HORIZONTAL_NOISE = 6;           // ignore tiny jitters
+const HORIZONTAL_GESTURE_TIMEOUT = 120; // ms to wait before finalizing a gesture
 
 const scrollContainer = document.getElementById("scroll-container");
 const panels = Array.from(document.querySelectorAll(".panel"));
@@ -21,11 +21,10 @@ let lastNavTime = 0;
 let lastEdgeNavTime = 0;
 let lastVerticalNavTime = 0;
 let lastHorizontalNavTime = 0;
-let dxSum = 0;
 let horizontalLockUntil = 0;
-let dxTimer = null;
-let wheelAccumX = 0;
-let wheelGestureTimer = null;
+let wheelSignFactor = null;
+let gestureAccumX = 0;
+let gestureTimer = null;
 
 function initParticles() {
   const container = document.getElementById("particles");
@@ -161,7 +160,7 @@ function scrollToPanel(index) {
   const target = panels[clampedIndex];
   if (!target) return;
 
-  scrollContainer.scrollTo({ left: target.offsetLeft, behavior: "auto" });
+  scrollContainer.scrollTo({ left: target.offsetLeft, behavior: "smooth" });
   currentIndex = clampedIndex;
   updateActiveStates(clampedIndex);
 
@@ -278,11 +277,10 @@ function initScrollHandling() {
     }
 
     const dx = e.deltaX;
-    const dy = e.deltaY;
     const absX = Math.abs(dx);
-    const absY = Math.abs(dy);
-
+    const absY = Math.abs(e.deltaY);
     const now = Date.now();
+
     if (now < horizontalLockUntil) {
       if (absX > absY) e.preventDefault();
       return;
@@ -293,45 +291,27 @@ function initScrollHandling() {
 
     e.preventDefault();
 
-    wheelAccumX += dx;
-    clearTimeout(wheelGestureTimer);
-    wheelGestureTimer = setTimeout(() => processHorizontalGesture(), HORIZONTAL_GESTURE_TIMEOUT);
+    // Determine sign factor once per wheel event using wheelDeltaX if available.
+    const signFactor = (typeof e.wheelDeltaX === "number" && e.wheelDeltaX !== 0 && dx !== 0)
+      ? (Math.sign(dx) === Math.sign(e.wheelDeltaX) ? 1 : -1)
+      : 1;
 
-    if (Math.abs(wheelAccumX) >= HORIZONTAL_TRIGGER) {
-      processHorizontalGesture();
+    const effectiveDx = dx * signFactor;
+    if (Math.abs(effectiveDx) < HORIZONTAL_THRESHOLD) return;
+
+    const direction = effectiveDx > 0 ? 1 : -1; // swipe left -> next, swipe right -> previous
+    const before = currentIndex;
+    goToPanel(currentIndex + direction, "horizontal");
+    if (before !== currentIndex) {
+      lastHorizontalNavTime = now;
+      horizontalLockUntil = now + HORIZONTAL_NAV_GAP;
     }
   }, { passive: false });
-
   scrollContainer.addEventListener("scroll", () => requestAnimationFrame(handleScroll));
-}
-
-function processHorizontalGesture() {
-  if (isTransitioning) {
-    wheelAccumX = 0;
-    return;
-  }
-  const now = Date.now();
-  if (now - lastHorizontalNavTime < HORIZONTAL_NAV_GAP) {
-    wheelAccumX = 0;
-    return;
-  }
-  if (Math.abs(wheelAccumX) < HORIZONTAL_TRIGGER) {
-    wheelAccumX = 0;
-    return;
-  }
-  const direction = wheelAccumX > 0 ? 1 : -1;
-  const before = currentIndex;
-  goToPanel(currentIndex + direction, "horizontal");
-  if (before !== currentIndex) {
-    lastHorizontalNavTime = now;
-    horizontalLockUntil = now + HORIZONTAL_NAV_GAP;
-  }
-  wheelAccumX = 0;
 }
 
 function handleScroll() {
   if (isTransitioning) return;
-  // Sync UI states to the panel closest to center; do not trigger navigation here.
   const viewportCenter = window.innerWidth / 2;
   let closestIndex = currentIndex;
   let closestDistance = Number.POSITIVE_INFINITY;

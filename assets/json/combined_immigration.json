@@ -21,296 +21,1271 @@
     }
   },
   "datasets": {
-    "data-301dd9f60d272e0219b0c422b4d3f3fc": [
+    "data-b7320e0b008faae2cd0d6c5e1498d810": [
       {
-        "Avg_Math": 486.80229869549015,
+        "Avg_Math": 488.9205210044954,
         "CNT": "AUS",
-        "Count": 13415,
-        "Country": "Australia"
+        "Count": 12902,
+        "Country": "Australia",
+        "Education_Gap": 71.91919611898152
       },
       {
-        "Avg_Math": 491.174550642172,
+        "Avg_Math": 494.3413027100733,
         "CNT": "AUT",
-        "Count": 6151,
-        "Country": "Austria"
+        "Count": 5867,
+        "Country": "Austria",
+        "Education_Gap": 96.84850354482404
       },
       {
-        "Avg_Math": 493.9984803282645,
+        "Avg_Math": 497.7101163627023,
         "CNT": "BEL",
-        "Count": 8286,
-        "Country": "Belgium"
+        "Count": 7786,
+        "Country": "Belgium",
+        "Education_Gap": 97.78176575674229
       },
       {
-        "Avg_Math": 506.5026098989603,
+        "Avg_Math": 510.6658500313087,
         "CNT": "CHE",
-        "Count": 6829,
-        "Country": "Switzerland"
+        "Count": 6388,
+        "Country": "Switzerland",
+        "Education_Gap": 85.66536376018877
       },
       {
-        "Avg_Math": 499.5599728132388,
+        "Avg_Math": 500.70374732620326,
         "CNT": "CZE",
-        "Count": 8460,
-        "Country": "Czech Republic"
+        "Count": 8228,
+        "Country": "Czech Rep.",
+        "Education_Gap": -55.405413382899724
       },
       {
-        "Avg_Math": 512.679689612015,
+        "Avg_Math": 513.4007170622909,
         "CNT": "EST",
-        "Count": 6392,
-        "Country": "Estonia"
+        "Count": 6277,
+        "Country": "Estonia",
+        "Education_Gap": 21.84895049504945
       },
       {
-        "Avg_Math": 545.4538483155578,
+        "Avg_Math": 546.1900555155011,
         "CNT": "HKG",
-        "Count": 5907,
-        "Country": "Hong Kong"
+        "Count": 5548,
+        "Country": "Hong Kong",
+        "Education_Gap": 46.38384753137154
       },
       {
-        "Avg_Math": 492.91171862093734,
+        "Avg_Math": 493.93529076334494,
         "CNT": "IRL",
-        "Count": 5569,
-        "Country": "Ireland"
+        "Count": 5489,
+        "Country": "Ireland",
+        "Education_Gap": 81.53583514379352
       },
       {
-        "Avg_Math": 535.5592085069445,
+        "Avg_Math": 536.5225619013835,
         "CNT": "JPN",
-        "Count": 5760,
-        "Country": "Japan"
+        "Count": 5638,
+        "Country": "Japan",
+        "Education_Gap": 50.0
       },
       {
-        "Avg_Math": 531.3851950728231,
+        "Avg_Math": 532.3715201631884,
         "CNT": "KOR",
-        "Count": 6454,
-        "Country": "South Korea"
+        "Count": 6373,
+        "Country": "South Korea",
+        "Education_Gap": 69.02895089094363
       },
       {
-        "Avg_Math": 551.6620869069343,
+        "Avg_Math": 551.7526334934797,
         "CNT": "MAC",
-        "Count": 4384,
-        "Country": "Macao"
+        "Count": 4371,
+        "Country": "Macao",
+        "Education_Gap": 42.035548777235476
       },
       {
-        "Avg_Math": 491.073066587396,
+        "Avg_Math": 494.5442056737588,
         "CNT": "NLD",
-        "Count": 5046,
-        "Country": "Netherlands"
+        "Count": 4794,
+        "Country": "Netherlands",
+        "Education_Gap": 95.00132890117231
       },
       {
-        "Avg_Math": 494.8469422725004,
+        "Avg_Math": 496.47157452295,
         "CNT": "POL",
-        "Count": 6011,
-        "Country": "Poland"
+        "Count": 5817,
+        "Country": "Poland",
+        "Education_Gap": 83.25747860678922
       },
       {
-        "Avg_Math": 574.238767938238,
+        "Avg_Math": 575.019038173767,
         "CNT": "SGP",
-        "Count": 6606,
-        "Country": "Singapore"
+        "Count": 6549,
+        "Country": "Singapore",
+        "Education_Gap": 94.61679650405199
       },
       {
-        "Avg_Math": 534.0153732286153,
+        "Avg_Math": 534.78651374719,
         "CNT": "TAP",
-        "Count": 5857,
-        "Country": "TAP"
+        "Count": 5783,
+        "Country": "TAP",
+        "Education_Gap": 104.40589814117055
       }
     ],
-    "data-a4faa595927ff7ca30eb9f6322d71915": [
+    "data-ddfe769a324139ce470433b508823686": [
       {
-        "Avg_Math": 481.43813222510295,
         "CNT": "AUS",
+        "Count": 423,
         "Country": "Australia",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 457.33371394799053,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 491.93103003791197,
         "CNT": "AUS",
+        "Count": 360,
         "Country": "Australia",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 458.90634166666666,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 481.91811476488,
+        "CNT": "AUS",
+        "Count": 2544,
+        "Country": "Australia",
+        "Gender": "Female",
+        "Mean_Math": 489.5575322327044,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "AUS",
+        "Count": 2503,
+        "Country": "Australia",
+        "Gender": "Male",
+        "Mean_Math": 507.6766783859369,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "AUS",
+        "Count": 199,
+        "Country": "Australia",
+        "Gender": "Female",
+        "Mean_Math": 424.524135678392,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "AUS",
+        "Count": 170,
+        "Country": "Australia",
+        "Gender": "Male",
+        "Mean_Math": 449.4241529411765,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "AUS",
+        "Count": 42,
+        "Country": "Australia",
+        "Gender": "Female",
+        "Mean_Math": 425.25780952380956,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "AUS",
+        "Count": 54,
+        "Country": "Australia",
+        "Gender": "Male",
+        "Mean_Math": 427.68714814814814,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "AUS",
+        "Count": 972,
+        "Country": "Australia",
+        "Gender": "Female",
+        "Mean_Math": 449.6449146090535,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "AUS",
+        "Count": 1177,
+        "Country": "Australia",
+        "Gender": "Male",
+        "Mean_Math": 458.9116431605777,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "AUT",
+        "Count": 222,
         "Country": "Austria",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 450.22352702702705,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 500.22561864951774,
         "CNT": "AUT",
+        "Count": 242,
         "Country": "Austria",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 487.3997396694215,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 489.90554111842107,
+        "CNT": "AUT",
+        "Count": 1152,
+        "Country": "Austria",
+        "Gender": "Female",
+        "Mean_Math": 485.01733593750004,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "AUT",
+        "Count": 1138,
+        "Country": "Austria",
+        "Gender": "Male",
+        "Mean_Math": 504.04041652021084,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "AUT",
+        "Count": 135,
+        "Country": "Austria",
+        "Gender": "Female",
+        "Mean_Math": 451.4688888888889,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "AUT",
+        "Count": 134,
+        "Country": "Austria",
+        "Gender": "Male",
+        "Mean_Math": 467.93401492537316,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "AUT",
+        "Count": 53,
+        "Country": "Austria",
+        "Gender": "Female",
+        "Mean_Math": 396.7704905660377,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "AUT",
+        "Count": 32,
+        "Country": "Austria",
+        "Gender": "Male",
+        "Mean_Math": 399.03290625,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "AUT",
+        "Count": 470,
+        "Country": "Austria",
+        "Gender": "Female",
+        "Mean_Math": 461.40113829787236,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "AUT",
+        "Count": 413,
+        "Country": "Austria",
+        "Gender": "Male",
+        "Mean_Math": 480.65307263922523,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "BEL",
+        "Count": 398,
         "Country": "Belgium",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 463.5746155778894,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 498.32094913151366,
         "CNT": "BEL",
+        "Count": 361,
         "Country": "Belgium",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 472.4906121883657,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 501.2151456369717,
+        "CNT": "BEL",
+        "Count": 1157,
+        "Country": "Belgium",
+        "Gender": "Female",
+        "Mean_Math": 499.2133975799481,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "BEL",
+        "Count": 1022,
+        "Country": "Belgium",
+        "Gender": "Male",
+        "Mean_Math": 512.1021301369863,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "BEL",
+        "Count": 107,
+        "Country": "Belgium",
+        "Gender": "Female",
+        "Mean_Math": 456.3722336448598,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "BEL",
+        "Count": 84,
+        "Country": "Belgium",
+        "Gender": "Male",
+        "Mean_Math": 447.01978571428566,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "BEL",
+        "Count": 71,
+        "Country": "Belgium",
+        "Gender": "Female",
+        "Mean_Math": 398.2736197183099,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "BEL",
+        "Count": 66,
+        "Country": "Belgium",
+        "Gender": "Male",
+        "Mean_Math": 417.3770606060606,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "BEL",
+        "Count": 492,
+        "Country": "Belgium",
+        "Gender": "Female",
+        "Mean_Math": 457.31660975609753,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "BEL",
+        "Count": 501,
+        "Country": "Belgium",
+        "Gender": "Male",
+        "Mean_Math": 482.609115768463,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "CHE",
+        "Count": 34,
         "Country": "Switzerland",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 452.574205882353,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 511.41517203389833,
         "CNT": "CHE",
+        "Count": 28,
         "Country": "Switzerland",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 511.57325,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 496.8158509933775,
+        "CNT": "CHE",
+        "Count": 1327,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 499.5077332328561,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "CHE",
+        "Count": 1337,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 511.43419670905007,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "CHE",
+        "Count": 142,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 465.3191690140845,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "CHE",
+        "Count": 134,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 486.28932835820893,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "CHE",
+        "Count": 74,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 418.3808783783784,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "CHE",
+        "Count": 66,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 421.4505,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "CHE",
+        "Count": 371,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 487.19743396226414,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "CHE",
+        "Count": 369,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 491.2446449864499,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "CZE",
-        "Country": "Czech Republic",
-        "Gender": "Female"
+        "Count": 480,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 490.35684375,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 502.3015009451796,
         "CNT": "CZE",
-        "Country": "Czech Republic",
-        "Gender": "Male"
+        "Count": 372,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 513.2357930107527,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 510.00612083333334,
+        "CNT": "CZE",
+        "Count": 696,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 508.5451724137931,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "CZE",
+        "Count": 649,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 519.9754221879815,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "CZE",
+        "Count": 55,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 371.89416363636366,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "CZE",
+        "Count": 57,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 401.7388070175439,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "CZE",
+        "Count": 2,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 569.466,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "CZE",
+        "Count": 1632,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 462.8676899509804,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "CZE",
+        "Count": 1738,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 469.310085155351,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "EST",
+        "Count": 375,
         "Country": "Estonia",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 494.92638933333336,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 515.2290583740831,
         "CNT": "EST",
+        "Count": 414,
         "Country": "Estonia",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 499.0422198067633,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 540.7081793785311,
+        "CNT": "EST",
+        "Count": 1197,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 506.38755889724314,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "EST",
+        "Count": 1227,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 514.1469763651181,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "EST",
+        "Count": 75,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 474.84417333333334,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "EST",
+        "Count": 66,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 472.37863636363636,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "EST",
+        "Count": 1,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 508.882,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "EST",
+        "Count": 2,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 478.2585,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "EST",
+        "Count": 295,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 481.1674372881356,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "EST",
+        "Count": 347,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 503.5904149855908,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "HKG",
+        "Count": 132,
         "Country": "Hong Kong",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 552.6080833333334,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 549.8244936585365,
         "CNT": "HKG",
+        "Count": 130,
         "Country": "Hong Kong",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 566.2137615384615,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 486.8708834845735,
+        "CNT": "HKG",
+        "Count": 587,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 557.548202725724,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "HKG",
+        "Count": 568,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 575.391139084507,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "HKG",
+        "Count": 375,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 524.2652746666666,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "HKG",
+        "Count": 435,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 535.8926666666666,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "HKG",
+        "Count": 108,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 527.3460833333334,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "HKG",
+        "Count": 129,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 513.7378372093023,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "HKG",
+        "Count": 1199,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 531.7172335279399,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "HKG",
+        "Count": 1157,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 541.0099403630078,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "IRL",
+        "Count": 289,
         "Country": "Ireland",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 469.8341903114187,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 498.82589800995027,
         "CNT": "IRL",
+        "Count": 279,
         "Country": "Ireland",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 481.9100752688172,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 531.228835399449,
+        "CNT": "IRL",
+        "Count": 1058,
+        "Country": "Ireland",
+        "Gender": "Female",
+        "Mean_Math": 495.5195103969754,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "IRL",
+        "Count": 1031,
+        "Country": "Ireland",
+        "Gender": "Male",
+        "Mean_Math": 505.716258971872,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "IRL",
+        "Count": 48,
+        "Country": "Ireland",
+        "Gender": "Female",
+        "Mean_Math": 443.2193541666666,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "IRL",
+        "Count": 49,
+        "Country": "Ireland",
+        "Gender": "Male",
+        "Mean_Math": 439.86291836734694,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "IRL",
+        "Count": 14,
+        "Country": "Ireland",
+        "Gender": "Female",
+        "Mean_Math": 409.11514285714287,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "IRL",
+        "Count": 12,
+        "Country": "Ireland",
+        "Gender": "Male",
+        "Mean_Math": 430.56733333333335,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "IRL",
+        "Count": 280,
+        "Country": "Ireland",
+        "Gender": "Female",
+        "Mean_Math": 453.38280357142855,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "IRL",
+        "Count": 321,
+        "Country": "Ireland",
+        "Gender": "Male",
+        "Mean_Math": 475.79554517133954,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "JPN",
+        "Count": 357,
         "Country": "Japan",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 495.98636694677873,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 539.9623609943977,
         "CNT": "JPN",
+        "Count": 322,
         "Country": "Japan",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 498.62055590062107,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 528.4040265260467,
+        "CNT": "JPN",
+        "Count": 1832,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 541.5495884279476,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "JPN",
+        "Count": 1783,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 551.9240852495793,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "JPN",
+        "Count": 28,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 467.0968571428571,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "JPN",
+        "Count": 29,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 450.7076896551724,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "JPN",
+        "Count": 391,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 498.76569309462917,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "JPN",
+        "Count": 357,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 510.4317086834734,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "KOR",
+        "Count": 1180,
         "Country": "South Korea",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 542.5979355932203,
+        "Parent_Education": "Graduate+"
       },
       {
-        "Avg_Math": 534.1906315789474,
         "CNT": "KOR",
+        "Count": 1153,
         "Country": "South Korea",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 557.7175177797051,
+        "Parent_Education": "Graduate+"
       },
       {
-        "Avg_Math": 543.4089813084112,
+        "CNT": "KOR",
+        "Count": 22,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 502.2238636363636,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "KOR",
+        "Count": 24,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 467.565,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "KOR",
+        "Count": 4,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 509.72075,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "KOR",
+        "Count": 3,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 442.80199999999996,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "KOR",
+        "Count": 1256,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 505.413997611465,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "KOR",
+        "Count": 1434,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 509.19945118549515,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "MAC",
+        "Count": 276,
         "Country": "Macao",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 551.2111594202898,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 559.5326956327985,
         "CNT": "MAC",
+        "Count": 293,
         "Country": "Macao",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 562.542071672355,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 484.45874436090224,
+        "CNT": "MAC",
+        "Count": 428,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 555.5254719626168,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "MAC",
+        "Count": 434,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 575.7429124423963,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "MAC",
+        "Count": 449,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 526.647741648107,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "MAC",
+        "Count": 461,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 544.5324229934923,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "MAC",
+        "Count": 76,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 504.9124078947369,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "MAC",
+        "Count": 98,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 538.2149387755102,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "MAC",
+        "Count": 634,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 538.664189274448,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "MAC",
+        "Count": 641,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 560.1827691107645,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "NLD",
+        "Count": 812,
         "Country": "Netherlands",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 482.96759113300493,
+        "Parent_Education": "Graduate+"
       },
       {
-        "Avg_Math": 497.0439140271493,
         "CNT": "NLD",
+        "Count": 818,
         "Country": "Netherlands",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 502.8596858190709,
+        "Parent_Education": "Graduate+"
       },
       {
-        "Avg_Math": 490.835764373546,
+        "CNT": "NLD",
+        "Count": 84,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 458.41117857142854,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "NLD",
+        "Count": 104,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 442.3045192307692,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "NLD",
+        "Count": 54,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 403.52816666666666,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "NLD",
+        "Count": 47,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 391.53872340425534,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "NLD",
+        "Count": 455,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 471.6297736263736,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "NLD",
+        "Count": 422,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 491.71547393364926,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "POL",
+        "Count": 478,
         "Country": "Poland",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 486.9041966527197,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 498.86747335109925,
         "CNT": "POL",
+        "Count": 460,
         "Country": "Poland",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 499.96645,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 568.3289593596058,
+        "CNT": "POL",
+        "Count": 412,
+        "Country": "Poland",
+        "Gender": "Female",
+        "Mean_Math": 517.7628519417476,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "POL",
+        "Count": 396,
+        "Country": "Poland",
+        "Gender": "Male",
+        "Mean_Math": 523.0190454545454,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "POL",
+        "Count": 69,
+        "Country": "Poland",
+        "Gender": "Female",
+        "Mean_Math": 436.27978260869565,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "POL",
+        "Count": 65,
+        "Country": "Poland",
+        "Gender": "Male",
+        "Mean_Math": 431.4385230769231,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "POL",
+        "Count": 4,
+        "Country": "Poland",
+        "Gender": "Female",
+        "Mean_Math": 456.05925,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "POL",
+        "Count": 10,
+        "Country": "Poland",
+        "Gender": "Male",
+        "Mean_Math": 429.49030000000005,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "POL",
+        "Count": 1087,
+        "Country": "Poland",
+        "Gender": "Female",
+        "Mean_Math": 463.3330653173873,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "POL",
+        "Count": 1009,
+        "Country": "Poland",
+        "Gender": "Male",
+        "Mean_Math": 470.33693657086224,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "SGP",
+        "Count": 374,
         "Country": "Singapore",
-        "Gender": "Female"
+        "Gender": "Female",
+        "Mean_Math": 523.0275828877005,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 579.954985407981,
         "CNT": "SGP",
+        "Count": 396,
         "Country": "Singapore",
-        "Gender": "Male"
+        "Gender": "Male",
+        "Mean_Math": 531.7450858585859,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Avg_Math": 534.0002230014026,
-        "CNT": "TAP",
-        "Country": "TAP",
-        "Gender": "Female"
+        "CNT": "SGP",
+        "Count": 1350,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 579.9786622222223,
+        "Parent_Education": "Graduate+"
       },
       {
-        "Avg_Math": 534.0297520798669,
+        "CNT": "SGP",
+        "Count": 1347,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 593.5378418708241,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "SGP",
+        "Count": 61,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 525.6073114754098,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "SGP",
+        "Count": 66,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 555.2800454545454,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "SGP",
+        "Count": 37,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 492.87994594594596,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "SGP",
+        "Count": 33,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 491.29745454545457,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "SGP",
+        "Count": 354,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 523.2722768361582,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "SGP",
+        "Count": 346,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 545.8631040462427,
+        "Parent_Education": "Some College"
+      },
+      {
         "CNT": "TAP",
+        "Count": 1324,
         "Country": "TAP",
-        "Gender": "Male"
+        "Gender": "Female",
+        "Mean_Math": 544.7424561933535,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "TAP",
+        "Count": 1330,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 544.5600857142857,
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "CNT": "TAP",
+        "Count": 151,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 467.24948344370864,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "TAP",
+        "Count": 177,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 477.7885367231638,
+        "Parent_Education": "High School"
+      },
+      {
+        "CNT": "TAP",
+        "Count": 15,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 433.8492,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "TAP",
+        "Count": 21,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 444.8137142857143,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "CNT": "TAP",
+        "Count": 941,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 508.24477151965993,
+        "Parent_Education": "Some College"
+      },
+      {
+        "CNT": "TAP",
+        "Count": 951,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 513.9596319663511,
+        "Parent_Education": "Some College"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-301dd9f60d272e0219b0c422b4d3f3fc"
+        "name": "data-b7320e0b008faae2cd0d6c5e1498d810"
       },
       "encoding": {
         "color": {
-          "value": "#26a69a"
+          "field": "Education_Gap",
+          "legend": {
+            "format": ".0f",
+            "title": "Education Gap"
+          },
+          "scale": {
+            "domain": [
+              30,
+              100
+            ],
+            "scheme": "oranges"
+          },
+          "type": "quantitative"
         },
         "opacity": {
           "condition": {
             "param": "country_select",
             "value": 1
           },
-          "value": 0.3
+          "value": 0.4
         },
         "tooltip": [
           {
@@ -320,6 +1295,13 @@
           {
             "field": "Avg_Math",
             "format": ".1f",
+            "title": "Avg Math Score",
+            "type": "quantitative"
+          },
+          {
+            "field": "Education_Gap",
+            "format": ".1f",
+            "title": "Education Gap",
             "type": "quantitative"
           },
           {
@@ -333,9 +1315,10 @@
           "field": "Avg_Math",
           "scale": {
             "domain": [
-              450,
-              600
-            ]
+              480,
+              590
+            ],
+            "zero": false
           },
           "title": "Average Math Score",
           "type": "quantitative"
@@ -350,7 +1333,7 @@
           "type": "nominal"
         }
       },
-      "height": 350,
+      "height": 360,
       "mark": {
         "cornerRadiusBottomRight": 4,
         "cornerRadiusTopRight": 4,
@@ -361,13 +1344,15 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Country"
+        "subtitle": "Color = Education gap (Graduate+ vs Less than HS)",
+        "subtitleColor": "#E0E0E0",
+        "text": "Top 15 Countries"
       },
-      "width": 400
+      "width": 380
     },
     {
       "data": {
-        "name": "data-a4faa595927ff7ca30eb9f6322d71915"
+        "name": "data-ddfe769a324139ce470433b508823686"
       },
       "encoding": {
         "color": {
@@ -394,33 +1379,58 @@
             "type": "nominal"
           },
           {
+            "field": "Parent_Education",
+            "type": "nominal"
+          },
+          {
             "field": "Gender",
             "type": "nominal"
           },
           {
-            "field": "Avg_Math",
+            "field": "Mean_Math",
             "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": -45
+          },
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "High School",
+            "Some College",
+            "Bachelor's",
+            "Graduate+"
+          ],
+          "title": "Parent Education",
+          "type": "nominal"
+        },
+        "xOffset": {
           "field": "Gender",
-          "title": null,
           "type": "nominal"
         },
         "y": {
-          "field": "Avg_Math",
+          "field": "Mean_Math",
           "scale": {
             "domain": [
-              450,
+              400,
               600
-            ]
+            ],
+            "zero": false
           },
-          "title": "Average Math Score",
+          "title": "Avg Math Score",
           "type": "quantitative"
         }
       },
-      "height": 350,
+      "height": 360,
       "mark": {
         "cornerRadiusTopLeft": 4,
         "cornerRadiusTopRight": 4,
@@ -429,7 +1439,7 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Gender Gap"
+        "text": "Education x Gender"
       },
       "transform": [
         {
@@ -438,7 +1448,7 @@
           }
         }
       ],
-      "width": 200
+      "width": 320
     }
   ],
   "params": [

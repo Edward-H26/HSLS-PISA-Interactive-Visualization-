@@ -21,80 +21,175 @@
     }
   },
   "datasets": {
-    "data-0f666ff117f1d7e961426749bf1ee8c7": [
+    "data-63d70ddb0c8a089d45440ea0e34a6ab4": [
       {
-        "Efficacy_Level": "Low",
-        "Math_Score": 32.3577267893401,
-        "Source": "HSLS"
+        "Confidence_Level": "Low",
+        "Count": 558,
+        "Math_Score": 48.32453279569892,
+        "Parent_Education": "College+"
       },
       {
-        "Efficacy_Level": "Medium",
-        "Math_Score": 51.28336302388936,
-        "Source": "HSLS"
+        "Confidence_Level": "Low",
+        "Count": 4665,
+        "Math_Score": 44.863925466237944,
+        "Parent_Education": "HS+"
       },
       {
-        "Efficacy_Level": "High",
-        "Math_Score": 55.12325532159894,
-        "Source": "HSLS"
+        "Confidence_Level": "Low",
+        "Count": 659,
+        "Math_Score": 40.848481942336875,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "Confidence_Level": "Medium",
+        "Count": 810,
+        "Math_Score": 57.448605432098766,
+        "Parent_Education": "College+"
+      },
+      {
+        "Confidence_Level": "Medium",
+        "Count": 4753,
+        "Math_Score": 52.19653246370713,
+        "Parent_Education": "HS+"
+      },
+      {
+        "Confidence_Level": "Medium",
+        "Count": 421,
+        "Math_Score": 47.65487125890736,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "Confidence_Level": "High",
+        "Count": 824,
+        "Math_Score": 60.81697269417476,
+        "Parent_Education": "College+"
+      },
+      {
+        "Confidence_Level": "High",
+        "Count": 3832,
+        "Math_Score": 55.46205728079332,
+        "Parent_Education": "HS+"
+      },
+      {
+        "Confidence_Level": "High",
+        "Count": 262,
+        "Math_Score": 48.938346946564884,
+        "Parent_Education": "Less than HS"
       }
     ],
-    "data-399e966c9f0bd7a9dcaf10921b88dc17": [
+    "data-73fa9e70244ff559d24656dd207f208a": [
       {
-        "Efficacy_Level": "Low",
-        "Math_Score": 406.69484002093736,
-        "Source": "PISA"
+        "Confidence_Level": "Low",
+        "Count": 57975,
+        "Math_Score": 417.0936673738681,
+        "Parent_Education": "College+"
       },
       {
-        "Efficacy_Level": "Medium",
-        "Math_Score": 453.2973003427373,
-        "Source": "PISA"
+        "Confidence_Level": "Low",
+        "Count": 46268,
+        "Math_Score": 400.55425350134004,
+        "Parent_Education": "HS+"
       },
       {
-        "Efficacy_Level": "High",
-        "Math_Score": 507.9442527753456,
-        "Source": "PISA"
+        "Confidence_Level": "Low",
+        "Count": 6694,
+        "Math_Score": 363.58407095906784,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "Confidence_Level": "Medium",
+        "Count": 60732,
+        "Math_Score": 462.15501814529404,
+        "Parent_Education": "College+"
+      },
+      {
+        "Confidence_Level": "Medium",
+        "Count": 37894,
+        "Math_Score": 440.8445044070302,
+        "Parent_Education": "HS+"
+      },
+      {
+        "Confidence_Level": "Medium",
+        "Count": 4813,
+        "Math_Score": 387.2038348223561,
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "Confidence_Level": "High",
+        "Count": 58852,
+        "Math_Score": 514.574024043363,
+        "Parent_Education": "College+"
+      },
+      {
+        "Confidence_Level": "High",
+        "Count": 29972,
+        "Math_Score": 479.7123514947284,
+        "Parent_Education": "HS+"
+      },
+      {
+        "Confidence_Level": "High",
+        "Count": 3136,
+        "Math_Score": 416.6785424107143,
+        "Parent_Education": "Less than HS"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-399e966c9f0bd7a9dcaf10921b88dc17"
+        "name": "data-73fa9e70244ff559d24656dd207f208a"
       },
       "encoding": {
         "color": {
-          "field": "Efficacy_Level",
-          "legend": null,
+          "field": "Parent_Education",
+          "legend": {
+            "orient": "top",
+            "title": "Parent Education"
+          },
           "scale": {
             "domain": [
-              "Low",
-              "Medium",
-              "High"
+              "Less than HS",
+              "HS+",
+              "College+"
             ],
-            "scheme": "greens"
+            "range": [
+              "#D55E00",
+              "#F0E442",
+              "#009E73"
+            ]
           },
           "type": "nominal"
         },
         "opacity": {
           "condition": {
-            "param": "eff_highlight",
+            "param": "conf_highlight",
             "value": 1
           },
           "value": 0.3
         },
         "tooltip": [
           {
-            "field": "Efficacy_Level",
+            "field": "Confidence_Level",
+            "type": "nominal"
+          },
+          {
+            "field": "Parent_Education",
             "type": "nominal"
           },
           {
             "field": "Math_Score",
             "format": ".1f",
             "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
+            "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Efficacy_Level",
+          "field": "Confidence_Level",
           "sort": [
             "Low",
             "Medium",
@@ -103,13 +198,23 @@
           "title": "Math Confidence",
           "type": "nominal"
         },
+        "xOffset": {
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "HS+",
+            "College+"
+          ],
+          "type": "nominal"
+        },
         "y": {
           "field": "Math_Score",
           "scale": {
             "domain": [
-              400,
-              540
-            ]
+              380,
+              560
+            ],
+            "zero": false
           },
           "title": "Average Math Score",
           "type": "quantitative"
@@ -126,48 +231,64 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
+        "subtitle": "Click confidence level to highlight",
+        "subtitleColor": "#E0E0E0",
         "text": "PISA (International)"
       },
-      "width": 250
+      "width": 320
     },
     {
       "data": {
-        "name": "data-0f666ff117f1d7e961426749bf1ee8c7"
+        "name": "data-63d70ddb0c8a089d45440ea0e34a6ab4"
       },
       "encoding": {
         "color": {
-          "field": "Efficacy_Level",
+          "field": "Parent_Education",
           "legend": null,
           "scale": {
             "domain": [
-              "Low",
-              "Medium",
-              "High"
+              "Less than HS",
+              "HS+",
+              "College+"
             ],
-            "scheme": "greens"
+            "range": [
+              "#D55E00",
+              "#F0E442",
+              "#009E73"
+            ]
           },
           "type": "nominal"
         },
         "opacity": {
           "condition": {
-            "param": "eff_highlight",
+            "param": "conf_highlight",
             "value": 1
           },
           "value": 0.3
         },
         "tooltip": [
           {
-            "field": "Efficacy_Level",
+            "field": "Confidence_Level",
+            "type": "nominal"
+          },
+          {
+            "field": "Parent_Education",
             "type": "nominal"
           },
           {
             "field": "Math_Score",
             "format": ".1f",
             "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
+            "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Efficacy_Level",
+          "field": "Confidence_Level",
           "sort": [
             "Low",
             "Medium",
@@ -176,13 +297,23 @@
           "title": "Math Confidence",
           "type": "nominal"
         },
+        "xOffset": {
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "HS+",
+            "College+"
+          ],
+          "type": "nominal"
+        },
         "y": {
           "field": "Math_Score",
           "scale": {
             "domain": [
               40,
               58
-            ]
+            ],
+            "zero": false
           },
           "title": "Average Math Score",
           "type": "quantitative"
@@ -199,15 +330,15 @@
         "fontSize": 14,
         "text": "HSLS (US)"
       },
-      "width": 250
+      "width": 320
     }
   ],
   "params": [
     {
-      "name": "eff_highlight",
+      "name": "conf_highlight",
       "select": {
         "fields": [
-          "Efficacy_Level"
+          "Confidence_Level"
         ],
         "type": "point"
       },

@@ -21,113 +21,897 @@
     }
   },
   "datasets": {
-    "data-0c2c4e8992b257abf207069808e5ddef": [
+    "data-84aab35d1f5c081d688ba5f63c82ef62": [
       {
         "Anxiety_Level": "Very Low",
-        "Avg_Math": 496.95494011884807,
-        "Count": 98445
+        "CNT": "CHE",
+        "Count": 603,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 539.679464344942
       },
       {
         "Anxiety_Level": "Low",
-        "Avg_Math": 470.0063238324176,
-        "Count": 93184
+        "CNT": "CHE",
+        "Count": 492,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 518.1903983739837
       },
       {
         "Anxiety_Level": "Medium",
-        "Avg_Math": 453.09758097867217,
-        "Count": 93821
+        "CNT": "CHE",
+        "Count": 470,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 503.4613361702128
       },
       {
         "Anxiety_Level": "High",
-        "Avg_Math": 430.88248087403065,
-        "Count": 95420
+        "CNT": "CHE",
+        "Count": 452,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 491.6266349557522
       },
       {
         "Anxiety_Level": "Very High",
-        "Avg_Math": 427.87728708028044,
-        "Count": 94855
+        "CNT": "CHE",
+        "Count": 549,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Mean_Math": 484.81365938069223
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "CHE",
+        "Count": 1066,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 553.3857120075047
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "CHE",
+        "Count": 575,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 520.2318156521739
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "CHE",
+        "Count": 448,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 511.8921205357143
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "CHE",
+        "Count": 302,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 482.5471092715232
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "CHE",
+        "Count": 218,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Mean_Math": 476.2673623853211
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "CZE",
+        "Count": 877,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 542.5467229190422
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "CZE",
+        "Count": 827,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 513.4865187424426
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "CZE",
+        "Count": 819,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 493.21723931623933
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "CZE",
+        "Count": 516,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 467.9431647286822
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "CZE",
+        "Count": 780,
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Mean_Math": 461.8072282051282
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "CZE",
+        "Count": 1409,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 549.0524698367637
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "CZE",
+        "Count": 841,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 503.4290416171225
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "CZE",
+        "Count": 680,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 481.79815294117645
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "CZE",
+        "Count": 382,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 461.9040340314136
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "CZE",
+        "Count": 436,
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Mean_Math": 464.0020917431193
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "EST",
+        "Count": 673,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 558.1255408618127
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "EST",
+        "Count": 605,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 525.6292495867768
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "EST",
+        "Count": 572,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 497.07790559440554
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "EST",
+        "Count": 486,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 481.07499588477367
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "EST",
+        "Count": 651,
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Mean_Math": 481.9211520737327
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "EST",
+        "Count": 1058,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 558.3789640831758
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "EST",
+        "Count": 785,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 517.2562649681529
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "EST",
+        "Count": 527,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 496.49890132827323
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "EST",
+        "Count": 359,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 475.6319498607242
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "EST",
+        "Count": 302,
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Mean_Math": 471.8241523178808
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "HKG",
+        "Count": 370,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 582.091127027027
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "HKG",
+        "Count": 468,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 567.3824358974358
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "HKG",
+        "Count": 554,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 551.3211624548736
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "HKG",
+        "Count": 633,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 516.752477093207
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "HKG",
+        "Count": 673,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Mean_Math": 518.3066537890045
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "HKG",
+        "Count": 827,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 587.0210338573156
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "HKG",
+        "Count": 589,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 567.4060747028863
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "HKG",
+        "Count": 446,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 558.2504506726458
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "HKG",
+        "Count": 579,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 516.2417892918826
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "HKG",
+        "Count": 382,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Mean_Math": 510.72394240837696
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "JPN",
+        "Count": 412,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 541.1827597087379
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "JPN",
+        "Count": 479,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 537.6123674321503
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "JPN",
+        "Count": 605,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 545.0632247933884
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "JPN",
+        "Count": 593,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 527.8074215851601
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "JPN",
+        "Count": 779,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Mean_Math": 517.7416611039795
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "JPN",
+        "Count": 677,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 559.0605361890695
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "JPN",
+        "Count": 544,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 546.130669117647
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "JPN",
+        "Count": 544,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 551.2429595588235
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "JPN",
+        "Count": 510,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 525.8313784313726
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "JPN",
+        "Count": 537,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Mean_Math": 518.1414972067039
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "KOR",
+        "Count": 765,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 559.1234339869281
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "KOR",
+        "Count": 661,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 539.5172708018155
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "KOR",
+        "Count": 596,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 527.5435419463088
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "KOR",
+        "Count": 552,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 501.55451086956526
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "KOR",
+        "Count": 507,
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Mean_Math": 503.5489289940828
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "KOR",
+        "Count": 1088,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 559.1554365808823
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "KOR",
+        "Count": 764,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 542.0723835078534
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "KOR",
+        "Count": 518,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 537.7405231660232
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "KOR",
+        "Count": 501,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 502.6529760479042
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "KOR",
+        "Count": 365,
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Mean_Math": 503.2627671232877
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "MAC",
+        "Count": 269,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 576.6944907063197
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "MAC",
+        "Count": 334,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 573.5923383233534
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "MAC",
+        "Count": 414,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 546.9640652173913
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "MAC",
+        "Count": 491,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 528.5771934826884
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "MAC",
+        "Count": 584,
+        "Country": "Macao",
+        "Gender": "Female",
+        "Mean_Math": 520.7477260273973
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "MAC",
+        "Count": 557,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 598.9659928186715
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "MAC",
+        "Count": 470,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 570.0485553191489
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "MAC",
+        "Count": 431,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 552.7696334106729
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "MAC",
+        "Count": 399,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 529.8197493734335
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "MAC",
+        "Count": 365,
+        "Country": "Macao",
+        "Gender": "Male",
+        "Mean_Math": 529.2773698630136
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "NLD",
+        "Count": 582,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 507.9306048109966
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "NLD",
+        "Count": 487,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 500.73589938398356
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "NLD",
+        "Count": 381,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 503.171217847769
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "NLD",
+        "Count": 331,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 484.25075830815706
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "NLD",
+        "Count": 283,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Mean_Math": 465.21687279151945
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "NLD",
+        "Count": 981,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 522.2881651376147
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "NLD",
+        "Count": 631,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 511.5196576862123
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "NLD",
+        "Count": 319,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 504.38091536050155
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "NLD",
+        "Count": 193,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 476.3769896373057
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "NLD",
+        "Count": 164,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Mean_Math": 455.6093841463414
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "SGP",
+        "Count": 536,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 615.2698470149253
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "SGP",
+        "Count": 537,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 590.5080204841713
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "SGP",
+        "Count": 682,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 575.1655131964809
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "SGP",
+        "Count": 705,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 547.4472624113475
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "SGP",
+        "Count": 752,
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Mean_Math": 535.5095744680851
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "SGP",
+        "Count": 942,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 623.7075477707007
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "SGP",
+        "Count": 640,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 599.7790484375
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "SGP",
+        "Count": 620,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 578.2253064516129
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "SGP",
+        "Count": 627,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 538.6927926634769
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "SGP",
+        "Count": 483,
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Mean_Math": 532.0729192546584
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "TAP",
+        "Count": 350,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 566.3788999999999
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "TAP",
+        "Count": 533,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 556.0426829268292
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "TAP",
+        "Count": 596,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 548.0836023489933
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "TAP",
+        "Count": 706,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 511.62617138810197
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "TAP",
+        "Count": 637,
+        "Country": "TAP",
+        "Gender": "Female",
+        "Mean_Math": 513.1074615384615
+      },
+      {
+        "Anxiety_Level": "Very Low",
+        "CNT": "TAP",
+        "Count": 624,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 564.6014503205128
+      },
+      {
+        "Anxiety_Level": "Low",
+        "CNT": "TAP",
+        "Count": 673,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 551.5218826151561
+      },
+      {
+        "Anxiety_Level": "Medium",
+        "CNT": "TAP",
+        "Count": 533,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 553.7658367729831
+      },
+      {
+        "Anxiety_Level": "High",
+        "CNT": "TAP",
+        "Count": 628,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 505.9839888535032
+      },
+      {
+        "Anxiety_Level": "Very High",
+        "CNT": "TAP",
+        "Count": 467,
+        "Country": "TAP",
+        "Gender": "Male",
+        "Mean_Math": 497.8432248394004
       }
     ],
-    "data-9d1b5b7f86119fb1af1482c72fc74554": [
+    "data-aa7fa8aee344f4609c8587600415b970": [
       {
         "Anxiety_Level": "Very Low",
-        "Avg_Math": 488.286620021501,
-        "Gender": "Female"
+        "Count": 39068,
+        "Gender": "Female",
+        "Mean_Math": 488.286620021501
       },
       {
         "Anxiety_Level": "Very Low",
-        "Avg_Math": 502.6583931320208,
-        "Gender": "Male"
+        "Count": 59377,
+        "Gender": "Male",
+        "Mean_Math": 502.6583931320208
       },
       {
         "Anxiety_Level": "Low",
-        "Avg_Math": 466.9576530089021,
-        "Gender": "Female"
+        "Count": 42125,
+        "Gender": "Female",
+        "Mean_Math": 466.9576530089021
       },
       {
         "Anxiety_Level": "Low",
-        "Avg_Math": 472.52155637595723,
-        "Gender": "Male"
+        "Count": 51059,
+        "Gender": "Male",
+        "Mean_Math": 472.52155637595723
       },
       {
         "Anxiety_Level": "Medium",
-        "Avg_Math": 451.8265594499586,
-        "Gender": "Female"
+        "Count": 48360,
+        "Gender": "Female",
+        "Mean_Math": 451.8265594499586
       },
       {
         "Anxiety_Level": "Medium",
-        "Avg_Math": 454.44965420910233,
-        "Gender": "Male"
+        "Count": 45461,
+        "Gender": "Male",
+        "Mean_Math": 454.44965420910233
       },
       {
         "Anxiety_Level": "High",
-        "Avg_Math": 430.8022069467515,
-        "Gender": "Female"
+        "Count": 53579,
+        "Gender": "Female",
+        "Mean_Math": 430.8022069467515
       },
       {
         "Anxiety_Level": "High",
-        "Avg_Math": 430.9852747066275,
-        "Gender": "Male"
+        "Count": 41841,
+        "Gender": "Male",
+        "Mean_Math": 430.9852747066275
       },
       {
         "Anxiety_Level": "Very High",
-        "Avg_Math": 430.04600174318233,
-        "Gender": "Female"
+        "Count": 59661,
+        "Gender": "Female",
+        "Mean_Math": 430.04600174318233
       },
       {
         "Anxiety_Level": "Very High",
-        "Avg_Math": 424.20087389896,
-        "Gender": "Male"
+        "Count": 35194,
+        "Gender": "Male",
+        "Mean_Math": 424.20087389896
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-0c2c4e8992b257abf207069808e5ddef"
+        "name": "data-aa7fa8aee344f4609c8587600415b970"
       },
       "encoding": {
         "color": {
-          "field": "Anxiety_Level",
-          "legend": null,
+          "field": "Mean_Math",
+          "legend": {
+            "title": "Math Score"
+          },
           "scale": {
             "domain": [
-              "Very Low",
-              "Low",
-              "Medium",
-              "High",
-              "Very High"
+              420,
+              510
             ],
-            "scheme": "reds"
+            "scheme": "blues"
           },
-          "type": "nominal"
+          "type": "quantitative"
         },
         "opacity": {
           "condition": {
             "param": "anxiety_select",
             "value": 1
           },
-          "value": 0.3
+          "value": 0.5
         },
         "tooltip": [
           {
@@ -135,8 +919,13 @@
             "type": "nominal"
           },
           {
-            "field": "Avg_Math",
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "Mean_Math",
             "format": ".1f",
+            "title": "Avg Math Score",
             "type": "quantitative"
           },
           {
@@ -147,6 +936,11 @@
           }
         ],
         "x": {
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
+        },
+        "y": {
           "field": "Anxiety_Level",
           "sort": [
             "Very Low",
@@ -157,37 +951,26 @@
           ],
           "title": "Math Anxiety Level",
           "type": "nominal"
-        },
-        "y": {
-          "field": "Avg_Math",
-          "scale": {
-            "domain": [
-              400,
-              520
-            ]
-          },
-          "title": "Average Math Score",
-          "type": "quantitative"
         }
       },
       "height": 300,
       "mark": {
-        "cornerRadiusTopLeft": 4,
-        "cornerRadiusTopRight": 4,
         "cursor": "pointer",
-        "type": "bar"
+        "type": "rect"
       },
       "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Anxiety Level"
+        "subtitle": "Click anxiety level to filter countries",
+        "subtitleColor": "#E0E0E0",
+        "text": "Anxiety x Gender"
       },
-      "width": 350
+      "width": 200
     },
     {
       "data": {
-        "name": "data-9d1b5b7f86119fb1af1482c72fc74554"
+        "name": "data-84aab35d1f5c081d688ba5f63c82ef62"
       },
       "encoding": {
         "color": {
@@ -210,7 +993,7 @@
         },
         "tooltip": [
           {
-            "field": "Anxiety_Level",
+            "field": "Country",
             "type": "nominal"
           },
           {
@@ -218,49 +1001,65 @@
             "type": "nominal"
           },
           {
-            "field": "Avg_Math",
+            "field": "Anxiety_Level",
+            "type": "nominal"
+          },
+          {
+            "field": "Mean_Math",
             "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Anxiety_Level",
-          "sort": [
-            "Very Low",
-            "Low",
-            "Medium",
-            "High",
-            "Very High"
-          ],
-          "title": "Math Anxiety Level",
-          "type": "nominal"
-        },
-        "y": {
-          "field": "Avg_Math",
+          "field": "Mean_Math",
           "scale": {
             "domain": [
-              400,
-              520
-            ]
+              450,
+              600
+            ],
+            "zero": false
           },
           "title": "Average Math Score",
           "type": "quantitative"
+        },
+        "y": {
+          "field": "Country",
+          "sort": {
+            "field": "Mean_Math",
+            "order": "descending"
+          },
+          "title": null,
+          "type": "nominal"
+        },
+        "yOffset": {
+          "field": "Gender",
+          "type": "nominal"
         }
       },
       "height": 300,
       "mark": {
-        "point": {
-          "filled": true,
-          "size": 80
-        },
-        "strokeWidth": 3,
-        "type": "line"
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Gender Comparison"
+        "text": "Top 10 Countries by Gender"
       },
+      "transform": [
+        {
+          "filter": {
+            "param": "anxiety_select"
+          }
+        }
+      ],
       "width": 350
     }
   ],

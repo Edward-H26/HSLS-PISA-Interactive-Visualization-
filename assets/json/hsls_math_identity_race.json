@@ -21,43 +21,111 @@
     }
   },
   "datasets": {
-    "data-47450fa86767c12b42a928bab9f46487": [
+    "data-5035f67868e552e5008ca224e6ea2cd2": [
       {
+        "Conversion_Rate": 29.78723404255319,
+        "Count": 47,
         "Gender": "Female",
-        "Metric": "9th Grade STEM Expectation",
-        "Percentage": 4.6251301631378
+        "Parent_Education": "Bachelor's"
       },
       {
+        "Conversion_Rate": 40.16393442622951,
+        "Count": 122,
         "Gender": "Male",
-        "Metric": "9th Grade STEM Expectation",
-        "Percentage": 9.964085859851332
+        "Parent_Education": "Bachelor's"
       },
       {
+        "Conversion_Rate": 53.333333333333336,
+        "Count": 15,
         "Gender": "Female",
-        "Metric": "College STEM Major",
-        "Percentage": 8.530024297119056
+        "Parent_Education": "Graduate+"
       },
       {
+        "Conversion_Rate": 53.84615384615385,
+        "Count": 39,
         "Gender": "Male",
-        "Metric": "College STEM Major",
-        "Percentage": 13.989810406748518
+        "Parent_Education": "Graduate+"
+      },
+      {
+        "Conversion_Rate": 10.919540229885058,
+        "Count": 174,
+        "Gender": "Female",
+        "Parent_Education": "High School"
+      },
+      {
+        "Conversion_Rate": 21.40921409214092,
+        "Count": 369,
+        "Gender": "Male",
+        "Parent_Education": "High School"
+      },
+      {
+        "Conversion_Rate": 5.555555555555555,
+        "Count": 18,
+        "Gender": "Female",
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "Conversion_Rate": 19.148936170212767,
+        "Count": 47,
+        "Gender": "Male",
+        "Parent_Education": "Less than HS"
+      },
+      {
+        "Conversion_Rate": 25.41436464088398,
+        "Count": 181,
+        "Gender": "Female",
+        "Parent_Education": "Some College"
+      },
+      {
+        "Conversion_Rate": 37.32057416267943,
+        "Count": 418,
+        "Gender": "Male",
+        "Parent_Education": "Some College"
       }
     ],
-    "data-5b7e2aacf70604f868c2750981c56a7f": [
+    "data-71c7dfe0ed95b68d0548e1c478614fac": [
       {
-        "Conversion_Rate": 18.386491557223263,
-        "Gender": "Female"
+        "Count": 8349,
+        "Gender": "Female",
+        "STEM_Rate": 5.2102048149478986,
+        "Stage": "9th Grade"
       },
       {
-        "Conversion_Rate": 30.008382229673092,
-        "Gender": "Male"
+        "Count": 8434,
+        "Gender": "Male",
+        "STEM_Rate": 11.797486364714253,
+        "Stage": "9th Grade"
+      },
+      {
+        "Count": 8349,
+        "Gender": "Female",
+        "STEM_Rate": 4.970655168283627,
+        "Stage": "11th Grade"
+      },
+      {
+        "Count": 8434,
+        "Gender": "Male",
+        "STEM_Rate": 12.900165994783022,
+        "Stage": "11th Grade"
+      },
+      {
+        "Count": 8349,
+        "Gender": "Female",
+        "STEM_Rate": 9.8934004072344,
+        "Stage": "College Major"
+      },
+      {
+        "Count": 8434,
+        "Gender": "Male",
+        "STEM_Rate": 16.303059046715674,
+        "Stage": "College Major"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-47450fa86767c12b42a928bab9f46487"
+        "name": "data-71c7dfe0ed95b68d0548e1c478614fac"
       },
       "encoding": {
         "color": {
@@ -80,14 +148,14 @@
         },
         "opacity": {
           "condition": {
-            "param": "metric_select",
+            "param": "stage_select",
             "value": 1
           },
-          "value": 0.3
+          "value": 0.4
         },
         "tooltip": [
           {
-            "field": "Metric",
+            "field": "Stage",
             "type": "nominal"
           },
           {
@@ -95,16 +163,25 @@
             "type": "nominal"
           },
           {
-            "field": "Percentage",
+            "field": "STEM_Rate",
             "format": ".1f",
+            "title": "STEM Rate (%)",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
         "x": {
-          "axis": {
-            "labelAngle": -20
-          },
-          "field": "Metric",
+          "field": "Stage",
+          "sort": [
+            "9th Grade",
+            "11th Grade",
+            "College Major"
+          ],
           "title": null,
           "type": "nominal"
         },
@@ -113,18 +190,18 @@
           "type": "nominal"
         },
         "y": {
-          "field": "Percentage",
+          "field": "STEM_Rate",
           "scale": {
             "domain": [
               0,
-              45
+              50
             ]
           },
-          "title": "Percentage (%)",
+          "title": "STEM Rate (%)",
           "type": "quantitative"
         }
       },
-      "height": 300,
+      "height": 320,
       "mark": {
         "cornerRadiusTopLeft": 4,
         "cornerRadiusTopRight": 4,
@@ -135,13 +212,15 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Metric"
+        "subtitle": "Click stage to see conversion rates",
+        "subtitleColor": "#E0E0E0",
+        "text": "STEM Pipeline by Gender"
       },
-      "width": 350
+      "width": 300
     },
     {
       "data": {
-        "name": "data-5b7e2aacf70604f868c2750981c56a7f"
+        "name": "data-5035f67868e552e5008ca224e6ea2cd2"
       },
       "encoding": {
         "color": {
@@ -161,19 +240,43 @@
         },
         "tooltip": [
           {
+            "field": "Parent_Education",
+            "type": "nominal"
+          },
+          {
             "field": "Gender",
             "type": "nominal"
           },
           {
             "field": "Conversion_Rate",
             "format": ".1f",
-            "title": "Conversion Rate",
+            "title": "Conversion Rate (%)",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "STEM Expecters",
             "type": "quantitative"
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": -45
+          },
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "High School",
+            "Some College",
+            "Bachelor's",
+            "Graduate+"
+          ],
+          "title": "Parent Education",
+          "type": "nominal"
+        },
+        "xOffset": {
           "field": "Gender",
-          "title": null,
           "type": "nominal"
         },
         "y": {
@@ -188,7 +291,7 @@
           "type": "quantitative"
         }
       },
-      "height": 300,
+      "height": 320,
       "mark": {
         "cornerRadiusTopLeft": 4,
         "cornerRadiusTopRight": 4,
@@ -197,17 +300,19 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Who Follows Through?"
+        "subtitle": "Among those who expected STEM in 9th grade",
+        "subtitleColor": "#E0E0E0",
+        "text": "Conversion: Expectation to Major"
       },
-      "width": 200
+      "width": 380
     }
   ],
   "params": [
     {
-      "name": "metric_select",
+      "name": "stage_select",
       "select": {
         "fields": [
-          "Metric"
+          "Stage"
         ],
         "type": "point"
       },
