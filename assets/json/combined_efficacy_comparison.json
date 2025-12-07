@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -21,191 +21,203 @@
     }
   },
   "datasets": {
-    "data-6ee2cd2ef0082fe9c9ab4988e588aca3": [
+    "data-50a37b7084321142e1978ee845dde669": [
       {
-        "Gender": "Female",
-        "Language_Group": "English",
-        "Mean_Efficacy": -0.06682327433410873,
-        "Source": "PISA US"
+        "Math_Score": 376.7065456137071,
+        "SES_Quintile": "Q1",
+        "Source": "PISA (International)"
       },
       {
-        "Gender": "Male",
-        "Language_Group": "English",
-        "Mean_Efficacy": 0.14499091487277033,
-        "Source": "PISA US"
+        "Math_Score": 415.75821888838834,
+        "SES_Quintile": "Q2",
+        "Source": "PISA (International)"
       },
       {
-        "Gender": "Female",
-        "Language_Group": "Other Language",
-        "Mean_Efficacy": -0.20100416384638062,
-        "Source": "PISA US"
+        "Math_Score": 440.04554721391173,
+        "SES_Quintile": "Q3",
+        "Source": "PISA (International)"
       },
       {
-        "Gender": "Male",
-        "Language_Group": "Other Language",
-        "Mean_Efficacy": -0.1294667319240609,
-        "Source": "PISA US"
+        "Math_Score": 467.3054523418975,
+        "SES_Quintile": "Q4",
+        "Source": "PISA (International)"
+      },
+      {
+        "Math_Score": 511.6921604787161,
+        "SES_Quintile": "Q5",
+        "Source": "PISA (International)"
       }
     ],
-    "data-b83ae10c8b5e45b15fd06637001234f9": [
+    "data-cce577f7d932af7995cda7228403a8ef": [
       {
-        "Gender": "Female",
-        "Language_Group": "Dual Language",
-        "Mean_Efficacy": -0.1302588163280829,
-        "Source": "HSLS"
+        "Math_Score": 45.09357446126966,
+        "SES_Quintile": "Q1",
+        "Source": "HSLS (US)"
       },
       {
-        "Gender": "Male",
-        "Language_Group": "Dual Language",
-        "Mean_Efficacy": -0.1643588157118559,
-        "Source": "HSLS"
+        "Math_Score": 47.30730585695007,
+        "SES_Quintile": "Q2",
+        "Source": "HSLS (US)"
       },
       {
-        "Gender": "Female",
-        "Language_Group": "English Only",
-        "Mean_Efficacy": 0.007759590350921251,
-        "Source": "HSLS"
+        "Math_Score": 49.82041703283723,
+        "SES_Quintile": "Q3",
+        "Source": "HSLS (US)"
       },
       {
-        "Gender": "Male",
-        "Language_Group": "English Only",
-        "Mean_Efficacy": 0.02817854153029526,
-        "Source": "HSLS"
+        "Math_Score": 52.590364441027894,
+        "SES_Quintile": "Q4",
+        "Source": "HSLS (US)"
+      },
+      {
+        "Math_Score": 57.17247968834934,
+        "SES_Quintile": "Q5",
+        "Source": "HSLS (US)"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-6ee2cd2ef0082fe9c9ab4988e588aca3"
+        "name": "data-50a37b7084321142e1978ee845dde669"
       },
       "encoding": {
         "color": {
-          "field": "Mean_Efficacy",
-          "scale": {
-            "domain": [
-              -0.5,
-              0.5
-            ],
-            "scheme": "redblue"
-          },
-          "title": "z(Efficacy)",
-          "type": "quantitative"
+          "value": "#4c8dff"
         },
         "opacity": {
           "condition": {
-            "param": "lang_highlight",
+            "param": "ses_highlight",
             "value": 1
           },
           "value": 0.3
         },
         "tooltip": [
           {
-            "field": "Language_Group",
+            "field": "SES_Quintile",
             "type": "nominal"
           },
           {
-            "field": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "Mean_Efficacy",
-            "format": ".3f",
+            "field": "Math_Score",
+            "format": ".1f",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Gender",
-          "title": null,
-          "type": "nominal"
+          "field": "SES_Quintile",
+          "sort": [
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Q5"
+          ],
+          "title": "SES Quintile",
+          "type": "ordinal"
         },
         "y": {
-          "field": "Language_Group",
-          "title": "Home Language (PISA US)",
-          "type": "nominal"
+          "field": "Math_Score",
+          "scale": {
+            "domain": [
+              400,
+              550
+            ]
+          },
+          "title": "Average Math Score",
+          "type": "quantitative"
         }
       },
-      "height": 200,
+      "height": 300,
       "mark": {
         "cursor": "pointer",
-        "type": "rect"
+        "point": {
+          "filled": true,
+          "size": 100
+        },
+        "strokeWidth": 4,
+        "type": "line"
       },
       "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "PISA US (2022)"
+        "text": "PISA (International)"
       },
-      "width": 200
+      "width": 300
     },
     {
       "data": {
-        "name": "data-b83ae10c8b5e45b15fd06637001234f9"
+        "name": "data-cce577f7d932af7995cda7228403a8ef"
       },
       "encoding": {
         "color": {
-          "field": "Mean_Efficacy",
-          "scale": {
-            "domain": [
-              -0.5,
-              0.5
-            ],
-            "scheme": "redblue"
-          },
-          "title": "z(Efficacy)",
-          "type": "quantitative"
+          "value": "#a855f7"
         },
         "opacity": {
           "condition": {
-            "param": "lang_highlight",
+            "param": "ses_highlight",
             "value": 1
           },
           "value": 0.3
         },
         "tooltip": [
           {
-            "field": "Language_Group",
+            "field": "SES_Quintile",
             "type": "nominal"
           },
           {
-            "field": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "Mean_Efficacy",
-            "format": ".3f",
+            "field": "Math_Score",
+            "format": ".1f",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Gender",
-          "title": null,
-          "type": "nominal"
+          "field": "SES_Quintile",
+          "sort": [
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Q5"
+          ],
+          "title": "SES Quintile",
+          "type": "ordinal"
         },
         "y": {
-          "field": "Language_Group",
-          "title": "Language Background (HSLS)",
-          "type": "nominal"
+          "field": "Math_Score",
+          "scale": {
+            "domain": [
+              40,
+              60
+            ]
+          },
+          "title": "Average Math Score",
+          "type": "quantitative"
         }
       },
-      "height": 200,
+      "height": 300,
       "mark": {
-        "type": "rect"
+        "point": {
+          "filled": true,
+          "size": 100
+        },
+        "strokeWidth": 4,
+        "type": "line"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "HSLS (2009)"
+        "text": "HSLS (US)"
       },
-      "width": 200
+      "width": 300
     }
   ],
   "params": [
     {
-      "name": "lang_highlight",
+      "name": "ses_highlight",
       "select": {
         "fields": [
-          "Language_Group"
+          "SES_Quintile"
         ],
         "type": "point"
       },
@@ -216,7 +228,7 @@
   ],
   "resolve": {
     "scale": {
-      "color": "shared"
+      "color": "independent"
     }
   }
 }

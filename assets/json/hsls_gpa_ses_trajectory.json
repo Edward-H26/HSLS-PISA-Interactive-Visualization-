@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -21,94 +21,116 @@
     }
   },
   "datasets": {
-    "data-06c3e5a4f06c36fd2db7fc3146d5af51": [
+    "data-d77a97359d6e0e7ab6657c3b3b7bbaf9": [
       {
-        "Count": 2121,
-        "GPA": 3.1903583215464404,
-        "SES_Quintile": "Fourth 20%"
+        "Count": 4553,
+        "Income_Group": "Fourth 20%",
+        "STEM_Rate": 11.289259828684383
       },
       {
-        "Count": 3573,
-        "GPA": 3.386859781696054,
-        "SES_Quintile": "Highest 20%"
+        "Count": 5519,
+        "Income_Group": "Highest 20%",
+        "STEM_Rate": 20.855227396267438
       },
       {
-        "Count": 882,
-        "GPA": 2.9263038548752833,
-        "SES_Quintile": "Lowest 20%"
+        "Count": 3434,
+        "Income_Group": "Lowest 20%",
+        "STEM_Rate": 5.18345952242283
       },
       {
-        "Count": 1664,
-        "GPA": 3.119891826923077,
-        "SES_Quintile": "Middle 20%"
+        "Count": 4233,
+        "Income_Group": "Middle 20%",
+        "STEM_Rate": 8.788093550673281
       },
       {
-        "Count": 1235,
-        "GPA": 3.003238866396761,
-        "SES_Quintile": "Second 20%"
+        "Count": 3705,
+        "Income_Group": "Second 20%",
+        "STEM_Rate": 6.558704453441296
       }
     ],
-    "data-1a482cd7a3ac247b1fbeb7ce2d939051": [
+    "data-f18bc8b92439daee392a39f47294a846": [
       {
-        "Proportion": 78.12352663837812,
-        "SES_Quintile": "Fourth 20%",
-        "STEM_Major": "Non-STEM"
+        "Income_Group": "Fourth 20%",
+        "Major_Type": "Non-STEM",
+        "Proportion": 88.71074017131562,
+        "STEM_Major": false
       },
       {
-        "Proportion": 70.80884410859221,
-        "SES_Quintile": "Highest 20%",
-        "STEM_Major": "Non-STEM"
+        "Income_Group": "Highest 20%",
+        "Major_Type": "Non-STEM",
+        "Proportion": 79.14477260373256,
+        "STEM_Major": false
       },
       {
-        "Proportion": 82.31292517006803,
-        "SES_Quintile": "Lowest 20%",
-        "STEM_Major": "Non-STEM"
+        "Income_Group": "Lowest 20%",
+        "Major_Type": "Non-STEM",
+        "Proportion": 94.81654047757718,
+        "STEM_Major": false
       },
       {
-        "Proportion": 79.8076923076923,
-        "SES_Quintile": "Middle 20%",
-        "STEM_Major": "Non-STEM"
+        "Income_Group": "Middle 20%",
+        "Major_Type": "Non-STEM",
+        "Proportion": 91.21190644932672,
+        "STEM_Major": false
       },
       {
-        "Proportion": 82.34817813765181,
-        "SES_Quintile": "Second 20%",
-        "STEM_Major": "Non-STEM"
+        "Income_Group": "Second 20%",
+        "Major_Type": "Non-STEM",
+        "Proportion": 93.4412955465587,
+        "STEM_Major": false
       },
       {
-        "Proportion": 21.876473361621876,
-        "SES_Quintile": "Fourth 20%",
-        "STEM_Major": "STEM"
+        "Income_Group": "Fourth 20%",
+        "Major_Type": "STEM",
+        "Proportion": 11.289259828684383,
+        "STEM_Major": true
       },
       {
-        "Proportion": 29.19115589140778,
-        "SES_Quintile": "Highest 20%",
-        "STEM_Major": "STEM"
+        "Income_Group": "Highest 20%",
+        "Major_Type": "STEM",
+        "Proportion": 20.855227396267438,
+        "STEM_Major": true
       },
       {
-        "Proportion": 17.687074829931973,
-        "SES_Quintile": "Lowest 20%",
-        "STEM_Major": "STEM"
+        "Income_Group": "Lowest 20%",
+        "Major_Type": "STEM",
+        "Proportion": 5.18345952242283,
+        "STEM_Major": true
       },
       {
-        "Proportion": 20.192307692307693,
-        "SES_Quintile": "Middle 20%",
-        "STEM_Major": "STEM"
+        "Income_Group": "Middle 20%",
+        "Major_Type": "STEM",
+        "Proportion": 8.788093550673281,
+        "STEM_Major": true
       },
       {
-        "Proportion": 17.65182186234818,
-        "SES_Quintile": "Second 20%",
-        "STEM_Major": "STEM"
+        "Income_Group": "Second 20%",
+        "Major_Type": "STEM",
+        "Proportion": 6.558704453441296,
+        "STEM_Major": true
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-06c3e5a4f06c36fd2db7fc3146d5af51"
+        "name": "data-d77a97359d6e0e7ab6657c3b3b7bbaf9"
       },
       "encoding": {
         "color": {
-          "value": "#4c8dff"
+          "field": "Income_Group",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Lowest 20%",
+              "Second 20%",
+              "Middle 20%",
+              "Fourth 20%",
+              "Highest 20%"
+            ],
+            "scheme": "blues"
+          },
+          "type": "nominal"
         },
         "opacity": {
           "condition": {
@@ -119,17 +141,18 @@
         },
         "tooltip": [
           {
-            "field": "SES_Quintile",
+            "field": "Income_Group",
             "type": "nominal"
           },
           {
-            "field": "GPA",
-            "format": ".2f",
+            "field": "STEM_Rate",
+            "format": ".1f",
             "type": "quantitative"
           },
           {
             "field": "Count",
             "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
@@ -137,7 +160,7 @@
           "axis": {
             "labelAngle": -45
           },
-          "field": "SES_Quintile",
+          "field": "Income_Group",
           "sort": [
             "Lowest 20%",
             "Second 20%",
@@ -145,22 +168,22 @@
             "Fourth 20%",
             "Highest 20%"
           ],
-          "title": null,
+          "title": "Family Income Quintile",
           "type": "nominal"
         },
         "y": {
-          "field": "GPA",
+          "field": "STEM_Rate",
           "scale": {
             "domain": [
-              2.0,
-              3.5
+              0,
+              35
             ]
           },
-          "title": "Average 12th Grade GPA",
+          "title": "STEM Major Rate (%)",
           "type": "quantitative"
         }
       },
-      "height": 350,
+      "height": 300,
       "mark": {
         "cornerRadiusTopLeft": 4,
         "cornerRadiusTopRight": 4,
@@ -171,30 +194,45 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click SES Level"
+        "text": "Click Income Level"
       },
-      "width": 300
+      "width": 350
     },
     {
       "data": {
-        "name": "data-1a482cd7a3ac247b1fbeb7ce2d939051"
+        "name": "data-f18bc8b92439daee392a39f47294a846"
       },
       "encoding": {
         "color": {
-          "field": "Proportion",
-          "scale": {
-            "scheme": "blues"
+          "field": "Major_Type",
+          "legend": {
+            "orient": "top",
+            "title": "Major Type"
           },
-          "title": "% of Students",
-          "type": "quantitative"
+          "scale": {
+            "domain": [
+              "STEM",
+              "Non-STEM"
+            ],
+            "range": [
+              "#4caf50",
+              "#9e9e9e"
+            ]
+          },
+          "type": "nominal"
+        },
+        "order": {
+          "field": "Major_Type",
+          "sort": "descending",
+          "type": "nominal"
         },
         "tooltip": [
           {
-            "field": "SES_Quintile",
+            "field": "Income_Group",
             "type": "nominal"
           },
           {
-            "field": "STEM_Major",
+            "field": "Major_Type",
             "type": "nominal"
           },
           {
@@ -204,12 +242,19 @@
           }
         ],
         "x": {
-          "field": "STEM_Major",
-          "title": null,
-          "type": "nominal"
+          "field": "Proportion",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "stack": "normalize",
+          "title": "Percentage (%)",
+          "type": "quantitative"
         },
         "y": {
-          "field": "SES_Quintile",
+          "field": "Income_Group",
           "sort": [
             "Lowest 20%",
             "Second 20%",
@@ -217,18 +262,18 @@
             "Fourth 20%",
             "Highest 20%"
           ],
-          "title": "SES Quintile",
-          "type": "ordinal"
+          "title": null,
+          "type": "nominal"
         }
       },
-      "height": 350,
+      "height": 300,
       "mark": {
-        "type": "rect"
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "STEM Major Outcome"
+        "text": "STEM vs Non-STEM"
       },
       "transform": [
         {
@@ -237,7 +282,7 @@
           }
         }
       ],
-      "width": 200
+      "width": 250
     }
   ],
   "params": [
@@ -245,7 +290,7 @@
       "name": "ses_select",
       "select": {
         "fields": [
-          "SES_Quintile"
+          "Income_Group"
         ],
         "type": "point"
       },

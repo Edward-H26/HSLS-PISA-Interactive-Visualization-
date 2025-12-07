@@ -1,13 +1,13 @@
 let currentIndex = 0;
 const totalPanels = 9;
-const TRANSITION_LOCK_MS = 700;
+const TRANSITION_LOCK_MS = 350;
 const MIN_NAV_GAP = 700;
 const EDGE_NAV_GAP = 700;
 const HORIZONTAL_THRESHOLD = 30;
 const HORIZONTAL_DOMINANCE = 1.2;
-const HORIZONTAL_WINDOW_MS = 250;
 const HORIZONTAL_TRIGGER = 50;
-const HORIZONTAL_NAV_GAP = 600;
+const HORIZONTAL_NAV_GAP = 350;
+const HORIZONTAL_GESTURE_TIMEOUT = 160;
 
 const scrollContainer = document.getElementById("scroll-container");
 const panels = Array.from(document.querySelectorAll(".panel"));
@@ -20,9 +20,12 @@ let transitionTimeout = null;
 let lastNavTime = 0;
 let lastEdgeNavTime = 0;
 let lastVerticalNavTime = 0;
+let lastHorizontalNavTime = 0;
 let dxSum = 0;
-let dxTimer = null;
 let horizontalLockUntil = 0;
+let dxTimer = null;
+let wheelAccumX = 0;
+let wheelGestureTimer = null;
 
 function initParticles() {
   const container = document.getElementById("particles");
@@ -185,7 +188,11 @@ function goToPanel(index, source = "generic") {
   const nextIndex = clampIndex(index);
   if (nextIndex === currentIndex || isTransitioning) return;
   const now = Date.now();
-  if (source !== "horizontal") {
+  const isHorizontal = source === "horizontal";
+  if (isHorizontal) {
+    if (now - lastHorizontalNavTime < HORIZONTAL_NAV_GAP) return;
+    lastHorizontalNavTime = now;
+  } else {
     if (now - lastNavTime < MIN_NAV_GAP) return;
     lastNavTime = now;
     if (source === "vertical") lastVerticalNavTime = now;
@@ -210,7 +217,7 @@ function initNavigation() {
   navButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const index = parseInt(btn.dataset.target);
-      if (!Number.isNaN(index)) goToPanel(index, "nav");
+      if (!Number.isNaN(index)) goToPanel(index, "horizontal");
     });
   });
 }
@@ -264,7 +271,8 @@ function initScrollHandling() {
   });
 
   scrollContainer.addEventListener("wheel", (e) => {
-    if (isTransitioning || e.defaultPrevented) {
+    if (e.defaultPrevented) return;
+    if (isTransitioning) {
       e.preventDefault();
       return;
     }
@@ -280,38 +288,49 @@ function initScrollHandling() {
       return;
     }
 
-    // Only handle horizontal gestures at the container level.
-    if (e.target.closest(".panel-inner")) return;
-
     const isHorizontal = absX > absY * HORIZONTAL_DOMINANCE;
     if (!isHorizontal || absX < HORIZONTAL_THRESHOLD) return;
 
     e.preventDefault();
 
-    dxSum += dx;
-    clearTimeout(dxTimer);
-    dxTimer = setTimeout(() => {
-      if (isTransitioning) {
-        dxSum = 0;
-        return;
-      }
-      if (Math.abs(dxSum) >= HORIZONTAL_TRIGGER) {
-        // Negative dx (scrolling left) moves forward; positive dx (scrolling right) moves backward.
-        const direction = dxSum < 0 ? 1 : -1;
-        const before = currentIndex;
-        goToPanel(currentIndex + direction, "horizontal");
-        if (before !== currentIndex) {
-          horizontalLockUntil = Date.now() + HORIZONTAL_NAV_GAP;
-        }
-      }
-      dxSum = 0;
-    }, HORIZONTAL_WINDOW_MS);
+    wheelAccumX += dx;
+    clearTimeout(wheelGestureTimer);
+    wheelGestureTimer = setTimeout(() => processHorizontalGesture(), HORIZONTAL_GESTURE_TIMEOUT);
+
+    if (Math.abs(wheelAccumX) >= HORIZONTAL_TRIGGER) {
+      processHorizontalGesture();
+    }
   }, { passive: false });
 
   scrollContainer.addEventListener("scroll", () => requestAnimationFrame(handleScroll));
 }
 
+function processHorizontalGesture() {
+  if (isTransitioning) {
+    wheelAccumX = 0;
+    return;
+  }
+  const now = Date.now();
+  if (now - lastHorizontalNavTime < HORIZONTAL_NAV_GAP) {
+    wheelAccumX = 0;
+    return;
+  }
+  if (Math.abs(wheelAccumX) < HORIZONTAL_TRIGGER) {
+    wheelAccumX = 0;
+    return;
+  }
+  const direction = wheelAccumX > 0 ? 1 : -1;
+  const before = currentIndex;
+  goToPanel(currentIndex + direction, "horizontal");
+  if (before !== currentIndex) {
+    lastHorizontalNavTime = now;
+    horizontalLockUntil = now + HORIZONTAL_NAV_GAP;
+  }
+  wheelAccumX = 0;
+}
+
 function handleScroll() {
+  if (isTransitioning) return;
   // Sync UI states to the panel closest to center; do not trigger navigation here.
   const viewportCenter = window.innerWidth / 2;
   let closestIndex = currentIndex;

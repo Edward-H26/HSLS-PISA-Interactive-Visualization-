@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -21,496 +21,166 @@
     }
   },
   "datasets": {
-    "data-28cfd3f556272a68dcd028cb6194fb3f": [
+    "data-9acdd898c829f7cf6e6d2e5aecbd5440": [
       {
-        "Achievement_Gap": 3.083000000000027,
-        "Country": "NLD",
-        "Percentile": 10
+        "Avg_Math": 422.3431206014075,
+        "Count": 25008,
+        "Gender": "Female",
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Achievement_Gap": 3.7275000000000205,
-        "Country": "NLD",
-        "Percentile": 25
+        "Avg_Math": 432.3259586279591,
+        "Count": 22769,
+        "Gender": "Male",
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Achievement_Gap": 15.561999999999955,
-        "Country": "NLD",
-        "Percentile": 50
+        "Avg_Math": 456.24361069436003,
+        "Count": 90515,
+        "Gender": "Female",
+        "Parent_Education": "Graduate+"
       },
       {
-        "Achievement_Gap": 15.56149999999991,
-        "Country": "NLD",
-        "Percentile": 75
+        "Avg_Math": 466.5627024590362,
+        "Count": 82634,
+        "Gender": "Male",
+        "Parent_Education": "Graduate+"
       },
       {
-        "Achievement_Gap": 21.84400000000005,
-        "Country": "NLD",
-        "Percentile": 90
+        "Avg_Math": 390.98308580612104,
+        "Count": 21467,
+        "Gender": "Female",
+        "Parent_Education": "High School"
       },
       {
-        "Achievement_Gap": 2.589999999999975,
-        "Country": "DNK",
-        "Percentile": 10
+        "Avg_Math": 399.47117454984516,
+        "Count": 19049,
+        "Gender": "Male",
+        "Parent_Education": "High School"
       },
       {
-        "Achievement_Gap": 2.639250000000004,
-        "Country": "DNK",
-        "Percentile": 25
+        "Avg_Math": 361.84372158078264,
+        "Count": 12905,
+        "Gender": "Female",
+        "Parent_Education": "Less than HS"
       },
       {
-        "Achievement_Gap": 10.319500000000005,
-        "Country": "DNK",
-        "Percentile": 50
+        "Avg_Math": 372.07040535155136,
+        "Count": 10539,
+        "Gender": "Male",
+        "Parent_Education": "Less than HS"
       },
       {
-        "Achievement_Gap": 17.451999999999998,
-        "Country": "DNK",
-        "Percentile": 75
+        "Avg_Math": 423.9730220881737,
+        "Count": 55867,
+        "Gender": "Female",
+        "Parent_Education": "Some College"
       },
       {
-        "Achievement_Gap": 20.058400000000006,
-        "Country": "DNK",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -2.4735000000000014,
-        "Country": "NZL",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 7.364000000000033,
-        "Country": "NZL",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 18.817499999999995,
-        "Country": "NZL",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 32.37424999999985,
-        "Country": "NZL",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 32.124000000000024,
-        "Country": "NZL",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -7.008500000000026,
-        "Country": "HKG",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 2.0639999999999645,
-        "Country": "HKG",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 15.375999999999976,
-        "Country": "HKG",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 23.944749999999885,
-        "Country": "HKG",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 26.88890000000015,
-        "Country": "HKG",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": 7.131200000000035,
-        "Country": "CHL",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 14.683999999999969,
-        "Country": "CHL",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 21.69999999999999,
-        "Country": "CHL",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 28.255999999999972,
-        "Country": "CHL",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 26.426799999999957,
-        "Country": "CHL",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -0.42720000000002756,
-        "Country": "CHE",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 10.951000000000022,
-        "Country": "CHE",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 16.603999999999985,
-        "Country": "CHE",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 18.898249999999962,
-        "Country": "CHE",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 22.982700000000023,
-        "Country": "CHE",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": 1.5919999999999845,
-        "Country": "AUS",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 6.197499999999991,
-        "Country": "AUS",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 16.432500000000005,
-        "Country": "AUS",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 23.548500000000104,
-        "Country": "AUS",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 30.436400000000162,
-        "Country": "AUS",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -8.91919999999999,
-        "Country": "NOR",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": -4.0,
-        "Country": "NOR",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 7.2520000000000095,
-        "Country": "NOR",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 17.408999999999992,
-        "Country": "NOR",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 20.264200000000073,
-        "Country": "NOR",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": 4.746899999999982,
-        "Country": "GBR",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 11.54774999999995,
-        "Country": "GBR",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 18.648500000000013,
-        "Country": "GBR",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 23.28800000000001,
-        "Country": "GBR",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 22.372199999999907,
-        "Country": "GBR",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": 3.148399999999981,
-        "Country": "MAC",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 10.254999999999939,
-        "Country": "MAC",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 14.995499999999993,
-        "Country": "MAC",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 23.420000000000073,
-        "Country": "MAC",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 29.221999999999866,
-        "Country": "MAC",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -6.0750000000000455,
-        "Country": "ISR",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 8.223749999999995,
-        "Country": "ISR",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 23.50999999999999,
-        "Country": "ISR",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 35.289999999999964,
-        "Country": "ISR",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 43.72059999999999,
-        "Country": "ISR",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -11.129000000000019,
-        "Country": "JPN",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 0.23349999999999227,
-        "Country": "JPN",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 14.144000000000005,
-        "Country": "JPN",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 19.249499999999898,
-        "Country": "JPN",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 22.109499999999912,
-        "Country": "JPN",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -4.114599999999996,
-        "Country": "FRA",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 6.9184999999999945,
-        "Country": "FRA",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 19.30600000000004,
-        "Country": "FRA",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 24.633749999999964,
-        "Country": "FRA",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 23.013000000000034,
-        "Country": "FRA",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -2.4168999999999983,
-        "Country": "CZE",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": -3.2662500000000136,
-        "Country": "CZE",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 4.811999999999955,
-        "Country": "CZE",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 12.117000000000075,
-        "Country": "CZE",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 21.183000000000106,
-        "Country": "CZE",
-        "Percentile": 90
-      },
-      {
-        "Achievement_Gap": -0.5117999999999938,
-        "Country": "HUN",
-        "Percentile": 10
-      },
-      {
-        "Achievement_Gap": 9.100999999999999,
-        "Country": "HUN",
-        "Percentile": 25
-      },
-      {
-        "Achievement_Gap": 18.770999999999958,
-        "Country": "HUN",
-        "Percentile": 50
-      },
-      {
-        "Achievement_Gap": 29.59400000000005,
-        "Country": "HUN",
-        "Percentile": 75
-      },
-      {
-        "Achievement_Gap": 27.888199999999983,
-        "Country": "HUN",
-        "Percentile": 90
+        "Avg_Math": 431.2477034110724,
+        "Count": 55056,
+        "Gender": "Male",
+        "Parent_Education": "Some College"
       }
     ],
-    "data-298841036c13e14eaa3468a268fac881": [
+    "data-f6b61bf2c1938e0c8adf2e40cd114707": [
       {
-        "Country": "NLD",
-        "Gap": 0.4938007165383815
+        "Avg_Math": 427.10062398225085,
+        "Count": 47777,
+        "Parent_Education": "Bachelor's"
       },
       {
-        "Country": "DNK",
-        "Gap": 0.45494654565099946
+        "Avg_Math": 461.16831617277603,
+        "Count": 173149,
+        "Parent_Education": "Graduate+"
       },
       {
-        "Country": "NZL",
-        "Gap": 0.43228084618965523
+        "Avg_Math": 394.9738450735512,
+        "Count": 40516,
+        "Parent_Education": "High School"
       },
       {
-        "Country": "HKG",
-        "Gap": 0.40937982906285664
+        "Avg_Math": 366.44101812830576,
+        "Count": 23444,
+        "Parent_Education": "Less than HS"
       },
       {
-        "Country": "CHL",
-        "Gap": 0.3728398026123927
-      },
-      {
-        "Country": "CHE",
-        "Gap": 0.3671996551864994
-      },
-      {
-        "Country": "AUS",
-        "Gap": 0.3600957602605135
-      },
-      {
-        "Country": "NOR",
-        "Gap": 0.35772122055305544
-      },
-      {
-        "Country": "GBR",
-        "Gap": 0.3521241179475799
-      },
-      {
-        "Country": "MAC",
-        "Gap": 0.3516932893081761
-      },
-      {
-        "Country": "ISR",
-        "Gap": 0.3388371189810245
-      },
-      {
-        "Country": "JPN",
-        "Gap": 0.33137145882279856
-      },
-      {
-        "Country": "FRA",
-        "Gap": 0.31712922745956595
-      },
-      {
-        "Country": "CZE",
-        "Gap": 0.3123306903895601
-      },
-      {
-        "Country": "HUN",
-        "Gap": 0.31184331475249877
+        "Avg_Math": 427.5837687765387,
+        "Count": 110923,
+        "Parent_Education": "Some College"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-298841036c13e14eaa3468a268fac881"
+        "name": "data-f6b61bf2c1938e0c8adf2e40cd114707"
       },
       "encoding": {
         "color": {
-          "value": "#4c8dff"
+          "field": "Parent_Education",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Less than HS",
+              "High School",
+              "Some College",
+              "Bachelor's",
+              "Graduate+"
+            ],
+            "scheme": "blues"
+          },
+          "type": "nominal"
         },
         "opacity": {
           "condition": {
-            "param": "country_select",
+            "param": "edu_select",
             "value": 1
           },
           "value": 0.3
         },
         "tooltip": [
           {
-            "field": "Country",
+            "field": "Parent_Education",
             "type": "nominal"
           },
           {
-            "field": "Gap",
-            "format": ".3f",
-            "title": "Efficacy Gap",
+            "field": "Avg_Math",
+            "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Gap",
+          "field": "Avg_Math",
           "scale": {
             "domain": [
-              0,
-              0.6
+              400,
+              550
             ]
           },
-          "title": "Efficacy Gap (Male - Female)",
+          "title": "Average Math Score",
           "type": "quantitative"
         },
         "y": {
-          "field": "Country",
-          "sort": {
-            "field": "Gap",
-            "order": "descending"
-          },
-          "title": null,
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "High School",
+            "Some College",
+            "Bachelor's",
+            "Graduate+"
+          ],
+          "title": "Parent Education Level",
           "type": "nominal"
         }
       },
-      "height": 350,
+      "height": 300,
       "mark": {
         "cornerRadiusBottomRight": 4,
         "cornerRadiusTopRight": 4,
@@ -521,83 +191,98 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Click Country: Confidence Gap"
+        "text": "Click Education Level"
       },
-      "width": 450
+      "width": 400
     },
     {
       "data": {
-        "name": "data-28cfd3f556272a68dcd028cb6194fb3f"
+        "name": "data-9acdd898c829f7cf6e6d2e5aecbd5440"
       },
       "encoding": {
         "color": {
-          "value": "#a855f7"
+          "field": "Gender",
+          "legend": {
+            "orient": "top",
+            "title": "Gender"
+          },
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "type": "nominal"
         },
         "tooltip": [
           {
-            "field": "Country",
+            "field": "Parent_Education",
             "type": "nominal"
           },
           {
-            "field": "Percentile",
-            "type": "ordinal"
+            "field": "Gender",
+            "type": "nominal"
           },
           {
-            "field": "Achievement_Gap",
+            "field": "Avg_Math",
             "format": ".1f",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
             "type": "quantitative"
           }
         ],
         "x": {
-          "axis": {
-            "labelAngle": 0
-          },
-          "field": "Percentile",
-          "title": "Score Percentile",
-          "type": "ordinal"
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
         },
         "y": {
-          "field": "Achievement_Gap",
+          "field": "Avg_Math",
           "scale": {
             "domain": [
-              -30,
-              50
+              400,
+              550
             ]
           },
-          "title": "Achievement Gap (Male - Female)",
+          "title": "Average Math Score",
           "type": "quantitative"
         }
       },
-      "height": 350,
+      "height": 300,
       "mark": {
-        "point": {
-          "filled": true,
-          "size": 80
-        },
-        "strokeWidth": 3,
-        "type": "line"
+        "cornerRadiusTopLeft": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Achievement Gap by Percentile"
+        "text": "Gender Breakdown"
       },
       "transform": [
         {
           "filter": {
-            "param": "country_select"
+            "param": "edu_select"
           }
         }
       ],
-      "width": 450
+      "width": 200
     }
   ],
   "params": [
     {
-      "name": "country_select",
+      "name": "edu_select",
       "select": {
         "fields": [
-          "Country"
+          "Parent_Education"
         ],
         "type": "point"
       },

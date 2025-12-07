@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "config": {
     "background": "#030712",
     "view": {
@@ -21,99 +21,99 @@
     }
   },
   "data": {
-    "name": "data-959de02e1cda713958d133fcec7422ef"
+    "name": "data-0d07123e4be6029086315b97b2d0fc7f"
   },
   "datasets": {
-    "data-959de02e1cda713958d133fcec7422ef": [
+    "data-0d07123e4be6029086315b97b2d0fc7f": [
       {
-        "Math_Score": 0.37454002612442483,
+        "Math_Score": 55.76256443618339,
         "Parent_Education": "Bachelor's",
-        "Premium": 0.8524115137438052,
+        "Premium": 11.199451694007536,
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.1513232164499707,
-        "Parent_Education": "Bachelor's",
-        "Premium": 0.5952071343885327,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Score": 0.06450330712335495,
-        "Parent_Education": "Bachelor's",
-        "Premium": 0.16446843293543467,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Score": 0.5562741613041813,
+        "Math_Score": 58.15028754325259,
         "Parent_Education": "Graduate+",
-        "Premium": 1.0341456489235616,
+        "Premium": 13.587174801076735,
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": 0.1815076412316979,
-        "Parent_Education": "Graduate+",
-        "Premium": 0.9280379920702013,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Score": 0.41600874399087584,
-        "Parent_Education": "Graduate+",
-        "Premium": 0.5159738698029556,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Score": -0.19832177216741365,
-        "Parent_Education": "HS Diploma",
-        "Premium": 0.2795497154519667,
+        "Math_Score": 48.23599078734363,
+        "Parent_Education": "High School",
+        "Premium": 3.672878045167778,
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.46523534728099714,
-        "Parent_Education": "HS Diploma",
-        "Premium": 0.28129500355750625,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Score": -0.31717294149595265,
-        "Parent_Education": "HS Diploma",
-        "Premium": -0.21720781568387293,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Score": -0.47787148761938036,
+        "Math_Score": 44.56311274217585,
         "Parent_Education": "Less than HS",
         "Premium": 0.0,
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.7465303508385034,
-        "Parent_Education": "Less than HS",
-        "Premium": 0.0,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Score": -0.09996512581207972,
-        "Parent_Education": "Less than HS",
-        "Premium": 0.0,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Score": 0.16465777085424274,
+        "Math_Score": 53.00501583268784,
         "Parent_Education": "Some College",
-        "Premium": 0.6425292584736231,
+        "Premium": 8.441903090511985,
         "Source": "HSLS (US 2009)"
       },
       {
-        "Math_Score": -0.14648954512756687,
+        "Math_Score": 449.04770260223046,
+        "Parent_Education": "Bachelor's",
+        "Premium": 16.817948364942367,
+        "Source": "PISA US (2022)"
+      },
+      {
+        "Math_Score": 484.99137994945244,
+        "Parent_Education": "Graduate+",
+        "Premium": 52.761625712164346,
+        "Source": "PISA US (2022)"
+      },
+      {
+        "Math_Score": 410.0188669354839,
+        "Parent_Education": "High School",
+        "Premium": -22.210887301804178,
+        "Source": "PISA US (2022)"
+      },
+      {
+        "Math_Score": 432.2297542372881,
+        "Parent_Education": "Less than HS",
+        "Premium": 0.0,
+        "Source": "PISA US (2022)"
+      },
+      {
+        "Math_Score": 440.89964,
         "Parent_Education": "Some College",
-        "Premium": 0.6000408057109365,
+        "Premium": 8.669885762711885,
+        "Source": "PISA US (2022)"
+      },
+      {
+        "Math_Score": 426.9780612463958,
+        "Parent_Education": "Bachelor's",
+        "Premium": 60.8637333859765,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": -0.015179366325812885,
+        "Math_Score": 461.0121435249519,
+        "Parent_Education": "Graduate+",
+        "Premium": 94.89781566453263,
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 394.87853969554743,
+        "Parent_Education": "High School",
+        "Premium": 28.76421183512815,
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 366.1143278604193,
+        "Parent_Education": "Less than HS",
+        "Premium": 0.0,
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 427.4723350305036,
         "Parent_Education": "Some College",
-        "Premium": 0.08478575948626683,
-        "Source": "PISA US (2022)"
+        "Premium": 61.358007170084306,
+        "Source": "PISA Intl (2022)"
       }
     ]
   },
@@ -158,7 +158,7 @@
           },
           {
             "field": "Math_Score",
-            "format": ".3f",
+            "format": ".1f",
             "type": "quantitative"
           }
         ],
@@ -169,7 +169,7 @@
           "field": "Parent_Education",
           "sort": [
             "Less than HS",
-            "HS Diploma",
+            "High School",
             "Some College",
             "Bachelor's",
             "Graduate+"
@@ -179,13 +179,7 @@
         },
         "y": {
           "field": "Math_Score",
-          "scale": {
-            "domain": [
-              -1.0,
-              1.0
-            ]
-          },
-          "title": "Standardized Math Score",
+          "title": "Math Score (Raw Units)",
           "type": "quantitative"
         }
       },
@@ -211,10 +205,7 @@
       "encoding": {
         "color": {
           "field": "Source",
-          "legend": {
-            "orient": "top",
-            "title": "Data Source"
-          },
+          "legend": null,
           "scale": {
             "domain": [
               "HSLS (US 2009)",
@@ -240,11 +231,15 @@
           },
           {
             "field": "Premium",
-            "format": ".3f",
+            "format": ".1f",
+            "title": "Premium",
             "type": "quantitative"
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": -30
+          },
           "field": "Source",
           "sort": [
             "HSLS (US 2009)",
@@ -256,13 +251,7 @@
         },
         "y": {
           "field": "Premium",
-          "scale": {
-            "domain": [
-              -0.2,
-              1.2
-            ]
-          },
-          "title": "Premium vs <HS Baseline",
+          "title": "Score Premium vs Less than HS",
           "type": "quantitative"
         }
       },
