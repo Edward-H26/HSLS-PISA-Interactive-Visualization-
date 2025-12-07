@@ -28,6 +28,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   overflow: hidden;
+  overscroll-behavior-x: none; /* Prevents back/forward navigation swipe */
 }
 
 h1, h2, h3 { margin: 0; font-weight: 300; }
@@ -401,6 +402,7 @@ p { margin: 0; color: var(--muted); }
   display: flex;
   overflow-x: hidden; /* Changed from auto to hidden to prevent user scroll interaction fighting JS */
   overflow-y: hidden;
+  overscroll-behavior-x: none; /* Prevents back/forward navigation swipe */
   /* scroll-snap-type removed */
   position: relative;
   z-index: 2;

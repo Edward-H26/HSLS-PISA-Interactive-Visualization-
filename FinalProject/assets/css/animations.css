@@ -1,7 +1,3 @@
-/* Animations and keyframes */
-
-/* Floating animations */
-
 @keyframes float {
   0%, 100% {
     transform: translateY(0) rotate(0deg);
@@ -38,8 +34,6 @@
   }
 }
 
-/* Glow animations */
-
 @keyframes pulse-glow {
   0%, 100% {
     box-shadow: 
@@ -75,8 +69,6 @@
     border-color: rgba(168, 85, 247, 0.5);
   }
 }
-
-/* Fade animations */
 
 @keyframes fade-in {
   from {
@@ -140,8 +132,6 @@
   }
 }
 
-/* Slide animations */
-
 @keyframes slide-up {
   from {
     opacity: 0;
@@ -178,8 +168,6 @@
     opacity: 1;
   }
 }
-
-/* Scale animations */
 
 @keyframes scale-in {
   from {
@@ -222,8 +210,6 @@
   }
 }
 
-/* Bounce animations */
-
 @keyframes bounce-right {
   0%, 100% {
     transform: translateX(0);
@@ -251,8 +237,6 @@
   }
 }
 
-/* Shimmer animations */
-
 @keyframes shimmer {
   0% {
     background-position: -200% 0;
@@ -271,7 +255,6 @@
   }
 }
 
-/* Shimmer Effect Class */
 .shimmer {
   background: linear-gradient(
     90deg,
@@ -284,8 +267,6 @@
   background-size: 200% 100%;
   animation: shimmer 2s linear infinite;
 }
-
-/* Rotate animations */
 
 @keyframes rotate-slow {
   from {
@@ -314,8 +295,6 @@
   }
 }
 
-/* Particle animations */
-
 @keyframes particle-float {
   0%, 100% {
     transform: translateY(0) translateX(0) scale(1);
@@ -343,8 +322,6 @@
     transform: scale(1);
   }
 }
-
-/* 3D animations */
 
 @keyframes tilt-3d {
   0%, 100% {
@@ -383,8 +360,6 @@
   }
 }
 
-/* Morph animations */
-
 @keyframes morph {
   0%, 100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -418,8 +393,6 @@
   }
 }
 
-/* Gradient animations */
-
 @keyframes gradient-shift {
   0% {
     background-position: 0% 50%;
@@ -450,14 +423,11 @@
   }
 }
 
-/* Animated Gradient Background */
 .animated-gradient {
   background: linear-gradient(-45deg, #4c8dff, #a855f7, #22d3ee, #ec4899);
   background-size: 400% 400%;
   animation: gradient-shift 15s ease infinite;
 }
-
-/* Typing animation */
 
 @keyframes typing {
   from {
@@ -485,8 +455,6 @@
     typing 3.5s steps(40, end),
     blink-caret 0.75s step-end infinite;
 }
-
-/* Loading animations */
 
 @keyframes spinner {
   to {
@@ -533,8 +501,6 @@
   animation: dots 1.5s steps(5, end) infinite;
 }
 
-/* Ripple effect */
-
 @keyframes ripple {
   0% {
     transform: scale(0);
@@ -566,8 +532,6 @@
   animation: ripple 0.6s ease-out;
 }
 
-/* Stagger animations */
-
 .stagger-animation > * {
   opacity: 0;
   animation: fade-in-up 0.6s var(--ease-smooth) forwards;
@@ -581,8 +545,6 @@
 .stagger-animation > *:nth-child(6) { animation-delay: 0.6s; }
 .stagger-animation > *:nth-child(7) { animation-delay: 0.7s; }
 .stagger-animation > *:nth-child(8) { animation-delay: 0.8s; }
-
-/* Hover effect animations */
 
 .hover-lift {
   transition: transform 0.3s var(--ease-smooth), box-shadow 0.3s var(--ease-smooth);
@@ -610,8 +572,6 @@
 .hover-scale:hover {
   transform: scale(1.05);
 }
-
-/* Text animations */
 
 @keyframes text-reveal {
   from {
@@ -644,8 +604,6 @@
   animation: text-glow 3s ease-in-out infinite;
 }
 
-/* Cursor trail effect */
-
 .cursor-trail {
   position: fixed;
   width: 12px;
@@ -669,8 +627,6 @@
     transform: translate(-50%, -50%) scale(0.2);
   }
 }
-
-/* Entrance animations for panels */
 
 .panel-enter {
   animation: panel-enter 0.8s var(--ease-smooth) forwards;
