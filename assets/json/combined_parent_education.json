@@ -183,7 +183,7 @@
           "type": "quantitative"
         }
       },
-      "height": 350,
+      "height": 320,
       "mark": {
         "cursor": "pointer",
         "point": {
@@ -201,7 +201,7 @@
         "subtitleColor": "#E0E0E0",
         "text": "Education-Achievement Link"
       },
-      "width": 420
+      "width": 380
     },
     {
       "encoding": {
@@ -239,9 +239,11 @@
           }
         ],
         "x": {
-          "axis": {
-            "labelAngle": -30
-          },
+          "field": "Premium",
+          "title": "Score Premium vs Less than HS",
+          "type": "quantitative"
+        },
+        "y": {
           "field": "Source",
           "sort": [
             "HSLS (US 2009)",
@@ -250,16 +252,11 @@
           ],
           "title": null,
           "type": "nominal"
-        },
-        "y": {
-          "field": "Premium",
-          "title": "Score Premium vs Less than HS",
-          "type": "quantitative"
         }
       },
-      "height": 350,
+      "height": 320,
       "mark": {
-        "cornerRadiusTopLeft": 4,
+        "cornerRadiusBottomRight": 4,
         "cornerRadiusTopRight": 4,
         "type": "bar"
       },
@@ -275,7 +272,7 @@
           }
         }
       ],
-      "width": 250
+      "width": 200
     }
   ],
   "params": [

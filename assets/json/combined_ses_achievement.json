@@ -141,31 +141,25 @@
       },
       "encoding": {
         "color": {
-          "field": "Parent_Education",
+          "field": "Math_Score",
           "legend": {
-            "orient": "top",
-            "title": "Parent Education"
+            "title": "Math Score"
           },
           "scale": {
             "domain": [
-              "Less than HS",
-              "HS+",
-              "College+"
+              380,
+              540
             ],
-            "range": [
-              "#D55E00",
-              "#F0E442",
-              "#009E73"
-            ]
+            "scheme": "plasma"
           },
-          "type": "nominal"
+          "type": "quantitative"
         },
         "opacity": {
           "condition": {
             "param": "conf_highlight",
             "value": 1
           },
-          "value": 0.3
+          "value": 0.5
         },
         "tooltip": [
           {
@@ -189,6 +183,16 @@
           }
         ],
         "x": {
+          "field": "Parent_Education",
+          "sort": [
+            "Less than HS",
+            "HS+",
+            "College+"
+          ],
+          "title": "Parent Education",
+          "type": "nominal"
+        },
+        "y": {
           "field": "Confidence_Level",
           "sort": [
             "Low",
@@ -197,45 +201,22 @@
           ],
           "title": "Math Confidence",
           "type": "nominal"
-        },
-        "xOffset": {
-          "field": "Parent_Education",
-          "sort": [
-            "Less than HS",
-            "HS+",
-            "College+"
-          ],
-          "type": "nominal"
-        },
-        "y": {
-          "field": "Math_Score",
-          "scale": {
-            "domain": [
-              380,
-              560
-            ],
-            "zero": false
-          },
-          "title": "Average Math Score",
-          "type": "quantitative"
         }
       },
-      "height": 300,
+      "height": 220,
       "mark": {
-        "cornerRadiusTopLeft": 4,
-        "cornerRadiusTopRight": 4,
         "cursor": "pointer",
-        "type": "bar"
+        "type": "rect"
       },
       "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click confidence level to highlight",
+        "subtitle": "Click confidence to highlight",
         "subtitleColor": "#E0E0E0",
         "text": "PISA (International)"
       },
-      "width": 320
+      "width": 250
     },
     {
       "data": {
@@ -243,28 +224,23 @@
       },
       "encoding": {
         "color": {
-          "field": "Parent_Education",
+          "field": "Math_Score",
           "legend": null,
           "scale": {
             "domain": [
-              "Less than HS",
-              "HS+",
-              "College+"
+              42,
+              56
             ],
-            "range": [
-              "#D55E00",
-              "#F0E442",
-              "#009E73"
-            ]
+            "scheme": "plasma"
           },
-          "type": "nominal"
+          "type": "quantitative"
         },
         "opacity": {
           "condition": {
             "param": "conf_highlight",
             "value": 1
           },
-          "value": 0.3
+          "value": 0.5
         },
         "tooltip": [
           {
@@ -288,49 +264,36 @@
           }
         ],
         "x": {
-          "field": "Confidence_Level",
-          "sort": [
-            "Low",
-            "Medium",
-            "High"
-          ],
-          "title": "Math Confidence",
-          "type": "nominal"
-        },
-        "xOffset": {
           "field": "Parent_Education",
           "sort": [
             "Less than HS",
             "HS+",
             "College+"
           ],
+          "title": "Parent Education",
           "type": "nominal"
         },
         "y": {
-          "field": "Math_Score",
-          "scale": {
-            "domain": [
-              40,
-              58
-            ],
-            "zero": false
-          },
-          "title": "Average Math Score",
-          "type": "quantitative"
+          "field": "Confidence_Level",
+          "sort": [
+            "Low",
+            "Medium",
+            "High"
+          ],
+          "title": null,
+          "type": "nominal"
         }
       },
-      "height": 300,
+      "height": 220,
       "mark": {
-        "cornerRadiusTopLeft": 4,
-        "cornerRadiusTopRight": 4,
-        "type": "bar"
+        "type": "rect"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
         "text": "HSLS (US)"
       },
-      "width": 320
+      "width": 250
     }
   ],
   "params": [

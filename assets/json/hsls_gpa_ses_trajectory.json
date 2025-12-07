@@ -359,7 +359,7 @@
         "subtitleColor": "#E0E0E0",
         "text": "GPA Trajectory by SES"
       },
-      "width": 350
+      "width": 320
     },
     {
       "data": {
@@ -367,26 +367,18 @@
       },
       "encoding": {
         "color": {
-          "field": "GPA_Quartile",
+          "field": "STEM_Rate",
           "legend": {
-            "orient": "top",
-            "title": "GPA Quartile"
+            "title": "STEM %"
           },
           "scale": {
             "domain": [
-              "Low",
-              "Med-Low",
-              "Med-High",
-              "High"
+              5,
+              35
             ],
-            "range": [
-              "#D55E00",
-              "#F0E442",
-              "#56B4E9",
-              "#009E73"
-            ]
+            "scheme": "oranges"
           },
-          "type": "nominal"
+          "type": "quantitative"
         },
         "tooltip": [
           {
@@ -411,9 +403,17 @@
           }
         ],
         "x": {
-          "axis": {
-            "labelAngle": -45
-          },
+          "field": "GPA_Quartile",
+          "sort": [
+            "Low",
+            "Med-Low",
+            "Med-High",
+            "High"
+          ],
+          "title": "GPA Quartile (12th Grade)",
+          "type": "nominal"
+        },
+        "y": {
           "field": "SES_Quintile",
           "sort": [
             "Lowest 20%",
@@ -424,34 +424,11 @@
           ],
           "title": "SES Quintile",
           "type": "nominal"
-        },
-        "xOffset": {
-          "field": "GPA_Quartile",
-          "sort": [
-            "Low",
-            "Med-Low",
-            "Med-High",
-            "High"
-          ],
-          "type": "nominal"
-        },
-        "y": {
-          "field": "STEM_Rate",
-          "scale": {
-            "domain": [
-              0,
-              40
-            ]
-          },
-          "title": "STEM Major Rate (%)",
-          "type": "quantitative"
         }
       },
       "height": 320,
       "mark": {
-        "cornerRadiusTopLeft": 4,
-        "cornerRadiusTopRight": 4,
-        "type": "bar"
+        "type": "rect"
       },
       "title": {
         "color": "#FFFFFF",
@@ -465,7 +442,7 @@
           }
         }
       ],
-      "width": 350
+      "width": 250
     }
   ],
   "params": [

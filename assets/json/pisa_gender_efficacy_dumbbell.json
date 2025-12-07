@@ -333,31 +333,25 @@
       },
       "encoding": {
         "color": {
-          "field": "Confidence_Level",
+          "field": "Avg_Math",
           "legend": {
-            "orient": "top",
-            "title": "Math Confidence"
+            "title": "Avg Math Score"
           },
           "scale": {
             "domain": [
-              "Low",
-              "Medium",
-              "High"
+              380,
+              540
             ],
-            "range": [
-              "#D55E00",
-              "#F0E442",
-              "#009E73"
-            ]
+            "scheme": "viridis"
           },
-          "type": "nominal"
+          "type": "quantitative"
         },
         "opacity": {
           "condition": {
             "param": "edu_select",
             "value": 1
           },
-          "value": 0.3
+          "value": 0.5
         },
         "tooltip": [
           {
@@ -382,9 +376,16 @@
           }
         ],
         "x": {
-          "axis": {
-            "labelAngle": -45
-          },
+          "field": "Confidence_Level",
+          "sort": [
+            "Low",
+            "Medium",
+            "High"
+          ],
+          "title": "Math Confidence",
+          "type": "nominal"
+        },
+        "y": {
           "field": "Parent_Education",
           "sort": [
             "Less than HS",
@@ -395,45 +396,22 @@
           ],
           "title": "Parent Education",
           "type": "nominal"
-        },
-        "xOffset": {
-          "field": "Confidence_Level",
-          "sort": [
-            "Low",
-            "Medium",
-            "High"
-          ],
-          "type": "nominal"
-        },
-        "y": {
-          "field": "Avg_Math",
-          "scale": {
-            "domain": [
-              380,
-              560
-            ],
-            "zero": false
-          },
-          "title": "Average Math Score",
-          "type": "quantitative"
         }
       },
-      "height": 320,
+      "height": 280,
       "mark": {
-        "cornerRadiusTopLeft": 4,
-        "cornerRadiusTopRight": 4,
         "cursor": "pointer",
-        "type": "bar"
+        "type": "rect"
       },
       "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click to filter by education level",
+        "subtitle": "Click row to filter by education",
         "subtitleColor": "#E0E0E0",
-        "text": "Education x Confidence"
+        "text": "Education x Confidence Heatmap"
       },
-      "width": 400
+      "width": 250
     },
     {
       "data": {
@@ -455,6 +433,13 @@
               "#E91E63",
               "#1976D2"
             ]
+          },
+          "type": "nominal"
+        },
+        "shape": {
+          "field": "Confidence_Level",
+          "legend": {
+            "title": "Confidence"
           },
           "type": "nominal"
         },
@@ -509,10 +494,10 @@
           "type": "nominal"
         }
       },
-      "height": 320,
+      "height": 280,
       "mark": {
         "filled": true,
-        "size": 120,
+        "size": 150,
         "type": "point"
       },
       "title": {
@@ -527,7 +512,7 @@
           }
         }
       ],
-      "width": 280
+      "width": 320
     }
   ],
   "params": [
