@@ -504,8 +504,8 @@ body:has(.top-nav.visible) .panel-inner {
   border-radius: var(--radius-lg);
   padding: 8px;
   width: 100%;
-  max-width: 1500px;
-  max-height: 600px;
+  max-width: 1350px;
+  max-height: 550px;
   margin: 0 auto;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
