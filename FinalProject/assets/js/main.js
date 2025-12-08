@@ -75,15 +75,15 @@ function initVisualizations() {
   const basePath = "../assets/json/";
 
   const charts = [
-    { id: "viz-chart-1", file: "combined_gender_stem.json", width: 1000, height: 400 },
-    { id: "viz-chart-2", file: "hsls_math_identity_race.json", width: 1250, height: 450 },
-    { id: "viz-chart-3", file: "hsls_gpa_ses_trajectory.json", width: 1250, height: 450 },
-    { id: "viz-chart-4", file: "pisa_gender_efficacy_dumbbell.json", width: 900, height: 450 },
-    { id: "viz-chart-5", file: "pisa_anxiety_performance_heatmap.json", width: 850, height: 420 },
-    { id: "viz-chart-6", file: "combined_immigration.json", width: 1000, height: 400 },
-    { id: "viz-chart-7", file: "combined_efficacy_comparison.json", width: 1250, height: 450 },
-    { id: "viz-chart-8", file: "combined_ses_achievement.json", width: 1100, height: 420 },
-    { id: "viz-chart-9", file: "combined_parent_education.json", width: 1000, height: 400 }
+    { id: "viz-chart-1", file: "pisa_gender_efficacy_dumbbell.json", width: 1100, height: 450 },
+    { id: "viz-chart-2", file: "hsls_math_identity_race.json", width: 1650, height: 450 },
+    { id: "viz-chart-3", file: "hsls_gpa_ses_trajectory.json", width: 1750, height: 450 },
+    { id: "viz-chart-4", file: "combined_gender_stem.json", width: 1000, height: 450 },
+    { id: "viz-chart-5", file: "pisa_anxiety_performance_heatmap.json", width: 1000, height: 450 },
+    { id: "viz-chart-6", file: "combined_immigration.json", width: 1000, height: 450 },
+    { id: "viz-chart-7", file: "combined_efficacy_comparison.json", width: 1300, height: 450 },
+    { id: "viz-chart-8", file: "combined_ses_achievement.json", width: 1200, height: 450 },
+    { id: "viz-chart-9", file: "combined_parent_education.json", width: 1100, height: 450 }
   ];
 
   if (typeof vegaEmbed === "undefined") {
