@@ -1995,9 +1995,10 @@
           "field": "Mean_Ed_Expect",
           "scale": {
             "domain": [
-              5.5,
-              9.0
-            ]
+              4,
+              8
+            ],
+            "zero": false
           },
           "title": "Mean Ed Expectation Level",
           "type": "quantitative"

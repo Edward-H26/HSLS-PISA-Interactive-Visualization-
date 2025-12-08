@@ -502,9 +502,11 @@ body:has(.top-nav.visible) .panel-inner {
   background: var(--liquid-bg);
   border: 1px solid var(--liquid-border);
   border-radius: var(--radius-lg);
-  padding: 24px;
-  min-height: 900px;
+  padding: 8px;
   width: 100%;
+  max-width: 1500px;
+  max-height: 600px;
+  margin: 0 auto;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
@@ -523,7 +525,6 @@ body:has(.top-nav.visible) .panel-inner {
 .vega-chart {
   width: 100%;
   max-width: 100%;
-  min-height: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -592,14 +593,14 @@ body:has(.top-nav.visible) .panel-inner {
 .swipe-hint {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 24px;
+  gap: 8px;
+  padding: 8px 16px;
   background: var(--liquid-bg);
   border: 1px solid var(--liquid-border);
   border-radius: 999px;
   backdrop-filter: blur(20px);
   color: var(--muted);
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   animation: fade-pulse 3s ease-in-out infinite;
 }
@@ -610,8 +611,8 @@ body:has(.top-nav.visible) .panel-inner {
 
 .swipe-hint .swipe-arrow {
   stroke: var(--accent);
-  width: 28px;
-  height: 28px;
+  width: 18px;
+  height: 18px;
 }
 
 .swipe-hint .arrow-left {

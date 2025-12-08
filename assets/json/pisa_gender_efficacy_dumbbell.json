@@ -21,934 +21,533 @@
     }
   },
   "datasets": {
-    "data-40833cea91aab505f926a8dded6b22e0": [
+    "data-598350b2d583143e0f0233c96459dded": [
       {
-        "Achievement_Gap": 12.250235917383065,
-        "Country": "Netherlands",
-        "Efficacy_Gap": 0.4938007165383815,
-        "Female": -0.5659860878145042,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.07218537127612272
+        "Count": 6164,
+        "Country": "Australia",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.4308212037637898
       },
       {
-        "Achievement_Gap": 11.583827180220567,
+        "Count": 6257,
+        "Country": "Australia",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.07072544350327634
+      },
+      {
+        "Count": 2413,
+        "Country": "CHL",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.7760578532946539
+      },
+      {
+        "Count": 2565,
+        "Country": "CHL",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.40321805068226124
+      },
+      {
+        "Count": 3845,
+        "Country": "Czech Republic",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.4602671261378414
+      },
+      {
+        "Count": 3782,
+        "Country": "Czech Republic",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.14793643574828133
+      },
+      {
+        "Count": 2468,
         "Country": "Denmark",
-        "Efficacy_Gap": 0.45494654565099946,
-        "Female": -0.5946572123176661,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.13971066666666668
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.5946572123176661
       },
       {
-        "Achievement_Gap": 18.104041015413657,
-        "Country": "New Zealand",
-        "Efficacy_Gap": 0.43228084618965523,
-        "Female": -0.624605695889054,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.1923248496993988
+        "Count": 2550,
+        "Country": "Denmark",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.13971066666666668
       },
       {
-        "Achievement_Gap": 11.269400435313173,
+        "Count": 2880,
+        "Country": "France",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.22293524305555554
+      },
+      {
+        "Count": 2693,
+        "Country": "France",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": 0.09419398440401039
+      },
+      {
+        "Count": 2817,
+        "Country": "HUN",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.4091904508342208
+      },
+      {
+        "Count": 2741,
+        "Country": "HUN",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.097347136081722
+      },
+      {
+        "Count": 2700,
         "Country": "Hong Kong",
-        "Efficacy_Gap": 0.40937982906285664,
-        "Female": -0.6571272962962963,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.24774746723343963
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.6571272962962963
       },
       {
-        "Achievement_Gap": 19.67782098509616,
-        "Country": "Chile",
-        "Efficacy_Gap": 0.3728398026123927,
-        "Female": -0.7760578532946539,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.40321805068226124
+        "Count": 2823,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.24774746723343963
       },
       {
-        "Achievement_Gap": 15.162758864201408,
+        "Count": 3091,
+        "Country": "Israel",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.7206423164024588
+      },
+      {
+        "Count": 2482,
+        "Country": "Israel",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.3818051974214343
+      },
+      {
+        "Count": 2871,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.6714412748171369
+      },
+      {
+        "Count": 2826,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.34006981599433833
+      },
+      {
+        "Count": 2100,
+        "Country": "MAC",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.28901080952380953
+      },
+      {
+        "Count": 2226,
+        "Country": "MAC",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": 0.06268247978436657
+      },
+      {
+        "Count": 2027,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.5659860878145042
+      },
+      {
+        "Count": 2249,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.07218537127612272
+      },
+      {
+        "Count": 2019,
+        "Country": "New Zealand",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.624605695889054
+      },
+      {
+        "Count": 1996,
+        "Country": "New Zealand",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.1923248496993988
+      },
+      {
+        "Count": 2765,
+        "Country": "Norway",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.6597946473779386
+      },
+      {
+        "Count": 2781,
+        "Country": "Norway",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.30207342682488314
+      },
+      {
+        "Count": 2660,
         "Country": "Switzerland",
-        "Efficacy_Gap": 0.3671996551864994,
-        "Female": -0.17961037593984963,
-        "Gap_Direction": "Male Higher",
-        "Male": 0.18758927924664975
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.17961037593984963
       },
       {
-        "Achievement_Gap": 14.701855196443375,
+        "Count": 2761,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": 0.18758927924664975
+      },
+      {
+        "Count": 5172,
+        "Country": "United Kingdom",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Value": -0.42358704563031707
+      },
+      {
+        "Count": 5144,
+        "Country": "United Kingdom",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Value": -0.07146292768273717
+      },
+      {
+        "Count": 6164,
+        "Country": "Australia",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 484.8024089876704
+      },
+      {
+        "Count": 6257,
+        "Country": "Australia",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 499.50426418411377
+      },
+      {
+        "Count": 2413,
+        "Country": "CHL",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 427.9246195607128
+      },
+      {
+        "Count": 2565,
+        "Country": "CHL",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 447.602440545809
+      },
+      {
+        "Count": 3845,
+        "Country": "Czech Republic",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 500.56107074122235
+      },
+      {
+        "Count": 3782,
+        "Country": "Czech Republic",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 508.25464040190377
+      },
+      {
+        "Count": 2468,
+        "Country": "Denmark",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 478.1729108589951
+      },
+      {
+        "Count": 2550,
+        "Country": "Denmark",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 489.7567380392157
+      },
+      {
+        "Count": 2880,
+        "Country": "France",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 475.29733263888886
+      },
+      {
+        "Count": 2693,
+        "Country": "France",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 489.9389736353509
+      },
+      {
+        "Count": 2817,
+        "Country": "HUN",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 476.88803372381966
+      },
+      {
+        "Count": 2741,
+        "Country": "HUN",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 493.74254615103973
+      },
+      {
+        "Count": 2700,
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 541.7194274074074
+      },
+      {
+        "Count": 2823,
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 552.9888278427205
+      },
+      {
+        "Count": 3091,
+        "Country": "Israel",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 458.30956098350043
+      },
+      {
+        "Count": 2482,
+        "Country": "Israel",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 480.0848473005641
+      },
+      {
+        "Count": 2871,
+        "Country": "Japan",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 532.2649637756879
+      },
+      {
+        "Count": 2826,
+        "Country": "Japan",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 541.0827781316349
+      },
+      {
+        "Count": 2100,
+        "Country": "MAC",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 543.5710457142857
+      },
+      {
+        "Count": 2226,
+        "Country": "MAC",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 559.8049092542677
+      },
+      {
+        "Count": 2027,
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 499.9914208189442
+      },
+      {
+        "Count": 2249,
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 512.2416567363273
+      },
+      {
+        "Count": 2019,
+        "Country": "New Zealand",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 479.7862550767707
+      },
+      {
+        "Count": 1996,
+        "Country": "New Zealand",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 497.89029609218437
+      },
+      {
+        "Count": 2765,
+        "Country": "Norway",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 476.48540940325495
+      },
+      {
+        "Count": 2781,
+        "Country": "Norway",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 482.4631042790363
+      },
+      {
+        "Count": 2660,
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 509.0357007518797
+      },
+      {
+        "Count": 2761,
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 524.1984596160811
+      },
+      {
+        "Count": 5172,
+        "Country": "United Kingdom",
+        "Gender": "Female",
+        "Measure": "Math Achievement",
+        "Value": 482.60025251353443
+      },
+      {
+        "Count": 5144,
+        "Country": "United Kingdom",
+        "Gender": "Male",
+        "Measure": "Math Achievement",
+        "Value": 498.00156706842927
+      }
+    ],
+    "data-ac1e299aa287334216a1743ed8276a28": [
+      {
         "Country": "Australia",
         "Efficacy_Gap": 0.3600957602605135,
         "Female": -0.4308212037637898,
-        "Gap_Direction": "Male Higher",
         "Male": -0.07072544350327634
       },
       {
-        "Achievement_Gap": 5.977694875781367,
-        "Country": "Norway",
-        "Efficacy_Gap": 0.35772122055305544,
-        "Female": -0.6597946473779386,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.30207342682488314
+        "Country": "CHL",
+        "Efficacy_Gap": 0.3728398026123927,
+        "Female": -0.7760578532946539,
+        "Male": -0.40321805068226124
       },
       {
-        "Achievement_Gap": 15.401314554894839,
-        "Country": "UK",
-        "Efficacy_Gap": 0.3521241179475799,
-        "Female": -0.42358704563031707,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.07146292768273717
-      },
-      {
-        "Achievement_Gap": 16.233863539982053,
-        "Country": "Macao",
-        "Efficacy_Gap": 0.3516932893081761,
-        "Female": -0.28901080952380953,
-        "Gap_Direction": "Male Higher",
-        "Male": 0.06268247978436657
-      },
-      {
-        "Achievement_Gap": 21.77528631706366,
-        "Country": "Israel",
-        "Efficacy_Gap": 0.3388371189810245,
-        "Female": -0.7206423164024588,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.3818051974214343
-      },
-      {
-        "Achievement_Gap": 8.817814355947007,
-        "Country": "Japan",
-        "Efficacy_Gap": 0.33137145882279856,
-        "Female": -0.6714412748171369,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.34006981599433833
-      },
-      {
-        "Achievement_Gap": 14.641640996462058,
-        "Country": "France",
-        "Efficacy_Gap": 0.31712922745956595,
-        "Female": -0.22293524305555554,
-        "Gap_Direction": "Male Higher",
-        "Male": 0.09419398440401039
-      },
-      {
-        "Achievement_Gap": 7.693569660681419,
-        "Country": "Czech Rep.",
+        "Country": "Czech Republic",
         "Efficacy_Gap": 0.3123306903895601,
         "Female": -0.4602671261378414,
-        "Gap_Direction": "Male Higher",
         "Male": -0.14793643574828133
       },
       {
-        "Achievement_Gap": 16.854512427220072,
-        "Country": "Hungary",
+        "Country": "Denmark",
+        "Efficacy_Gap": 0.45494654565099946,
+        "Female": -0.5946572123176661,
+        "Male": -0.13971066666666668
+      },
+      {
+        "Country": "France",
+        "Efficacy_Gap": 0.31712922745956595,
+        "Female": -0.22293524305555554,
+        "Male": 0.09419398440401039
+      },
+      {
+        "Country": "HUN",
         "Efficacy_Gap": 0.31184331475249877,
         "Female": -0.4091904508342208,
-        "Gap_Direction": "Male Higher",
         "Male": -0.097347136081722
       },
       {
-        "Achievement_Gap": 14.122769894147382,
-        "Country": "Belgium",
-        "Efficacy_Gap": 0.29886321355961787,
-        "Female": -0.4509557946069994,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.15209258104738155
-      },
-      {
-        "Achievement_Gap": 12.071081345706261,
-        "Country": "BRA",
-        "Efficacy_Gap": 0.29566373956095504,
-        "Female": -1.0041230106436898,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.7084592710827348
-      },
-      {
-        "Achievement_Gap": 0.6501891316668775,
-        "Country": "Slovenia",
-        "Efficacy_Gap": 0.2925341683736296,
-        "Female": -0.5977496121416527,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.30521544376802306
-      },
-      {
-        "Achievement_Gap": 11.375720959647879,
-        "Country": "Poland",
-        "Efficacy_Gap": 0.28217224031302274,
-        "Female": -0.7012684097421203,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.4190961694290976
-      },
-      {
-        "Achievement_Gap": 7.0690110906099335,
-        "Country": "Sweden",
-        "Efficacy_Gap": 0.281009687223859,
-        "Female": -0.43053551994036526,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.1495258327165063
-      },
-      {
-        "Achievement_Gap": 1.166698636800902,
-        "Country": "TAP",
-        "Efficacy_Gap": 0.274606226062797,
-        "Female": -0.5855559021623538,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.31094967609955676
-      },
-      {
-        "Achievement_Gap": 18.981441435338297,
-        "Country": "Germany",
-        "Efficacy_Gap": 0.2743328156269525,
-        "Female": -0.3386153618281845,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.06428254620123204
-      },
-      {
-        "Achievement_Gap": 9.225245238781383,
-        "Country": "Iceland",
-        "Efficacy_Gap": 0.2720384347468094,
-        "Female": -0.3884627142857143,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.1164242795389049
-      },
-      {
-        "Achievement_Gap": 15.498326246629631,
-        "Country": "Canada",
-        "Efficacy_Gap": 0.2708736497763198,
-        "Female": -0.2622861428418917,
-        "Gap_Direction": "Male Higher",
-        "Male": 0.008587506934428045
-      },
-      {
-        "Achievement_Gap": 14.171681985471537,
-        "Country": "PER",
-        "Efficacy_Gap": 0.2695566014615008,
-        "Female": -0.6008294342507645,
-        "Gap_Direction": "Male Higher",
-        "Male": -0.3312728327892637
-      }
-    ],
-    "data-691e777e6e5adf62e3084c8d5f9a8ab1": [
-      {
-        "Count": 6164,
-        "Country": "Australia",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.4308212037637898
-      },
-      {
-        "Count": 6257,
-        "Country": "Australia",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.07072544350327634
-      },
-      {
-        "Count": 3946,
-        "Country": "BRA",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -1.0041230106436898
-      },
-      {
-        "Count": 3759,
-        "Country": "BRA",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.7084592710827348
-      },
-      {
-        "Count": 3486,
-        "Country": "Belgium",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.4509557946069994
-      },
-      {
-        "Count": 3208,
-        "Country": "Belgium",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.15209258104738155
-      },
-      {
-        "Count": 9367,
-        "Country": "Canada",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.2622861428418917
-      },
-      {
-        "Count": 9013,
-        "Country": "Canada",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": 0.008587506934428045
-      },
-      {
-        "Count": 2413,
-        "Country": "Chile",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.7760578532946539
-      },
-      {
-        "Count": 2565,
-        "Country": "Chile",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.40321805068226124
-      },
-      {
-        "Count": 3845,
-        "Country": "Czech Rep.",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.4602671261378414
-      },
-      {
-        "Count": 3782,
-        "Country": "Czech Rep.",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.14793643574828133
-      },
-      {
-        "Count": 2468,
-        "Country": "Denmark",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.5946572123176661
-      },
-      {
-        "Count": 2550,
-        "Country": "Denmark",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.13971066666666668
-      },
-      {
-        "Count": 2880,
-        "Country": "France",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.22293524305555554
-      },
-      {
-        "Count": 2693,
-        "Country": "France",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": 0.09419398440401039
-      },
-      {
-        "Count": 2363,
-        "Country": "Germany",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.3386153618281845
-      },
-      {
-        "Count": 2435,
-        "Country": "Germany",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.06428254620123204
-      },
-      {
-        "Count": 2700,
         "Country": "Hong Kong",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.6571272962962963
+        "Efficacy_Gap": 0.40937982906285664,
+        "Female": -0.6571272962962963,
+        "Male": -0.24774746723343963
       },
       {
-        "Count": 2823,
-        "Country": "Hong Kong",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.24774746723343963
-      },
-      {
-        "Count": 2817,
-        "Country": "Hungary",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.4091904508342208
-      },
-      {
-        "Count": 2741,
-        "Country": "Hungary",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.097347136081722
-      },
-      {
-        "Count": 1400,
-        "Country": "Iceland",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.3884627142857143
-      },
-      {
-        "Count": 1388,
-        "Country": "Iceland",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.1164242795389049
-      },
-      {
-        "Count": 3091,
         "Country": "Israel",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.7206423164024588
+        "Efficacy_Gap": 0.3388371189810245,
+        "Female": -0.7206423164024588,
+        "Male": -0.3818051974214343
       },
       {
-        "Count": 2482,
-        "Country": "Israel",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.3818051974214343
-      },
-      {
-        "Count": 2871,
         "Country": "Japan",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.6714412748171369
+        "Efficacy_Gap": 0.33137145882279856,
+        "Female": -0.6714412748171369,
+        "Male": -0.34006981599433833
       },
       {
-        "Count": 2826,
-        "Country": "Japan",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.34006981599433833
+        "Country": "MAC",
+        "Efficacy_Gap": 0.3516932893081761,
+        "Female": -0.28901080952380953,
+        "Male": 0.06268247978436657
       },
       {
-        "Count": 2100,
-        "Country": "Macao",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.28901080952380953
-      },
-      {
-        "Count": 2226,
-        "Country": "Macao",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": 0.06268247978436657
-      },
-      {
-        "Count": 2027,
         "Country": "Netherlands",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.5659860878145042
+        "Efficacy_Gap": 0.4938007165383815,
+        "Female": -0.5659860878145042,
+        "Male": -0.07218537127612272
       },
       {
-        "Count": 2249,
-        "Country": "Netherlands",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.07218537127612272
-      },
-      {
-        "Count": 2019,
         "Country": "New Zealand",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.624605695889054
+        "Efficacy_Gap": 0.43228084618965523,
+        "Female": -0.624605695889054,
+        "Male": -0.1923248496993988
       },
       {
-        "Count": 1996,
-        "Country": "New Zealand",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.1923248496993988
-      },
-      {
-        "Count": 2765,
         "Country": "Norway",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.6597946473779386
+        "Efficacy_Gap": 0.35772122055305544,
+        "Female": -0.6597946473779386,
+        "Male": -0.30207342682488314
       },
       {
-        "Count": 2781,
-        "Country": "Norway",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.30207342682488314
-      },
-      {
-        "Count": 2616,
-        "Country": "PER",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.6008294342507645
-      },
-      {
-        "Count": 2757,
-        "Country": "PER",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.3312728327892637
-      },
-      {
-        "Count": 2792,
-        "Country": "Poland",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.7012684097421203
-      },
-      {
-        "Count": 2715,
-        "Country": "Poland",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.4190961694290976
-      },
-      {
-        "Count": 2965,
-        "Country": "Slovenia",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.5977496121416527
-      },
-      {
-        "Count": 3121,
-        "Country": "Slovenia",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.30521544376802306
-      },
-      {
-        "Count": 2683,
-        "Country": "Sweden",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.43053551994036526
-      },
-      {
-        "Count": 2702,
-        "Country": "Sweden",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.1495258327165063
-      },
-      {
-        "Count": 2660,
         "Country": "Switzerland",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.17961037593984963
+        "Efficacy_Gap": 0.3671996551864994,
+        "Female": -0.17961037593984963,
+        "Male": 0.18758927924664975
       },
       {
-        "Count": 2761,
-        "Country": "Switzerland",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": 0.18758927924664975
-      },
-      {
-        "Count": 2821,
-        "Country": "TAP",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.5855559021623538
-      },
-      {
-        "Count": 2933,
-        "Country": "TAP",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.31094967609955676
-      },
-      {
-        "Count": 5172,
-        "Country": "UK",
-        "Gender": "Female",
-        "Measure": "Self-Efficacy",
-        "Score": -0.42358704563031707
-      },
-      {
-        "Count": 5144,
-        "Country": "UK",
-        "Gender": "Male",
-        "Measure": "Self-Efficacy",
-        "Score": -0.07146292768273717
-      },
-      {
-        "Count": 6164,
-        "Country": "Australia",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 484.8024089876704
-      },
-      {
-        "Count": 6257,
-        "Country": "Australia",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 499.50426418411377
-      },
-      {
-        "Count": 3946,
-        "Country": "BRA",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 383.8422448048657
-      },
-      {
-        "Count": 3759,
-        "Country": "BRA",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 395.91332615057195
-      },
-      {
-        "Count": 3486,
-        "Country": "Belgium",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 496.81706769936886
-      },
-      {
-        "Count": 3208,
-        "Country": "Belgium",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 510.93983759351624
-      },
-      {
-        "Count": 9367,
-        "Country": "Canada",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 487.61390808156295
-      },
-      {
-        "Count": 9013,
-        "Country": "Canada",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 503.1122343281926
-      },
-      {
-        "Count": 2413,
-        "Country": "Chile",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 427.9246195607128
-      },
-      {
-        "Count": 2565,
-        "Country": "Chile",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 447.602440545809
-      },
-      {
-        "Count": 3845,
-        "Country": "Czech Rep.",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 500.56107074122235
-      },
-      {
-        "Count": 3782,
-        "Country": "Czech Rep.",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 508.25464040190377
-      },
-      {
-        "Count": 2468,
-        "Country": "Denmark",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 478.1729108589951
-      },
-      {
-        "Count": 2550,
-        "Country": "Denmark",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 489.7567380392157
-      },
-      {
-        "Count": 2880,
-        "Country": "France",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 475.29733263888886
-      },
-      {
-        "Count": 2693,
-        "Country": "France",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 489.9389736353509
-      },
-      {
-        "Count": 2363,
-        "Country": "Germany",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 482.49311256876854
-      },
-      {
-        "Count": 2435,
-        "Country": "Germany",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 501.47455400410684
-      },
-      {
-        "Count": 2700,
-        "Country": "Hong Kong",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 541.7194274074074
-      },
-      {
-        "Count": 2823,
-        "Country": "Hong Kong",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 552.9888278427205
-      },
-      {
-        "Count": 2817,
-        "Country": "Hungary",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 476.88803372381966
-      },
-      {
-        "Count": 2741,
-        "Country": "Hungary",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 493.74254615103973
-      },
-      {
-        "Count": 1400,
-        "Country": "Iceland",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 462.50169928571427
-      },
-      {
-        "Count": 1388,
-        "Country": "Iceland",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 471.72694452449565
-      },
-      {
-        "Count": 3091,
-        "Country": "Israel",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 458.30956098350043
-      },
-      {
-        "Count": 2482,
-        "Country": "Israel",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 480.0848473005641
-      },
-      {
-        "Count": 2871,
-        "Country": "Japan",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 532.2649637756879
-      },
-      {
-        "Count": 2826,
-        "Country": "Japan",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 541.0827781316349
-      },
-      {
-        "Count": 2100,
-        "Country": "Macao",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 543.5710457142857
-      },
-      {
-        "Count": 2226,
-        "Country": "Macao",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 559.8049092542677
-      },
-      {
-        "Count": 2027,
-        "Country": "Netherlands",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 499.9914208189442
-      },
-      {
-        "Count": 2249,
-        "Country": "Netherlands",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 512.2416567363273
-      },
-      {
-        "Count": 2019,
-        "Country": "New Zealand",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 479.7862550767707
-      },
-      {
-        "Count": 1996,
-        "Country": "New Zealand",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 497.89029609218437
-      },
-      {
-        "Count": 2765,
-        "Country": "Norway",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 476.48540940325495
-      },
-      {
-        "Count": 2781,
-        "Country": "Norway",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 482.4631042790363
-      },
-      {
-        "Count": 2616,
-        "Country": "PER",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 398.39697706422015
-      },
-      {
-        "Count": 2757,
-        "Country": "PER",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 412.5686590496917
-      },
-      {
-        "Count": 2792,
-        "Country": "Poland",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 495.0690702005731
-      },
-      {
-        "Count": 2715,
-        "Country": "Poland",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 506.444791160221
-      },
-      {
-        "Count": 2965,
-        "Country": "Slovenia",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 477.8163187183811
-      },
-      {
-        "Count": 3121,
-        "Country": "Slovenia",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 478.466507850048
-      },
-      {
-        "Count": 2683,
-        "Country": "Sweden",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 487.4985806932538
-      },
-      {
-        "Count": 2702,
-        "Country": "Sweden",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 494.56759178386375
-      },
-      {
-        "Count": 2660,
-        "Country": "Switzerland",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 509.0357007518797
-      },
-      {
-        "Count": 2761,
-        "Country": "Switzerland",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 524.1984596160811
-      },
-      {
-        "Count": 2821,
-        "Country": "TAP",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 534.8865973059198
-      },
-      {
-        "Count": 2933,
-        "Country": "TAP",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 536.0532959427208
-      },
-      {
-        "Count": 5172,
-        "Country": "UK",
-        "Gender": "Female",
-        "Measure": "Math Achievement",
-        "Score": 482.60025251353443
-      },
-      {
-        "Count": 5144,
-        "Country": "UK",
-        "Gender": "Male",
-        "Measure": "Math Achievement",
-        "Score": 498.00156706842927
+        "Country": "United Kingdom",
+        "Efficacy_Gap": 0.3521241179475799,
+        "Female": -0.42358704563031707,
+        "Male": -0.07146292768273717
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-40833cea91aab505f926a8dded6b22e0"
+        "name": "data-ac1e299aa287334216a1743ed8276a28"
       },
       "encoding": {
         "color": {
-          "field": "Gap_Direction",
-          "legend": {
-            "orient": "top",
-            "title": "Gap Direction"
+          "condition": {
+            "test": "(datum.Efficacy_Gap > 0)",
+            "value": "#1976D2"
           },
-          "scale": {
-            "domain": [
-              "Male Higher",
-              "Female Higher"
-            ],
-            "range": [
-              "#1976D2",
-              "#E91E63"
-            ]
-          },
-          "type": "nominal"
+          "value": "#E91E63"
         },
         "opacity": {
           "condition": {
@@ -961,40 +560,46 @@
         "tooltip": [
           {
             "field": "Country",
+            "title": "Country",
             "type": "nominal"
           },
           {
             "field": "Efficacy_Gap",
-            "format": ".3f",
-            "title": "Efficacy Gap",
+            "format": ".2f",
+            "title": "Gap",
             "type": "quantitative"
           },
           {
-            "field": "Achievement_Gap",
-            "format": ".1f",
-            "title": "Achievement Gap",
+            "field": "Male",
+            "format": ".2f",
+            "title": "Male Efficacy",
+            "type": "quantitative"
+          },
+          {
+            "field": "Female",
+            "format": ".2f",
+            "title": "Female Efficacy",
             "type": "quantitative"
           }
         ],
         "x": {
           "axis": {
-            "format": ".2f"
+            "labelFontSize": 11
           },
           "field": "Efficacy_Gap",
-          "title": "Gender Gap in Self-Efficacy (Male - Female)",
+          "title": "Gender Gap (Male - Female)",
           "type": "quantitative"
         },
         "y": {
           "axis": {
-            "labelFontSize": 10,
-            "labelLimit": 150
+            "labelFontSize": 11
           },
           "field": "Country",
           "sort": {
             "field": "Efficacy_Gap",
             "order": "descending"
           },
-          "title": "Country",
+          "title": null,
           "type": "nominal"
         }
       },
@@ -1008,22 +613,22 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click a country to see achievement gap",
+        "subtitle": "Click a country to see gender comparison",
         "subtitleColor": "#E0E0E0",
+        "subtitleFontSize": 11,
         "text": "Gender Gap in Math Self-Efficacy"
       },
-      "width": 380
+      "width": 350
     },
     {
       "data": {
-        "name": "data-691e777e6e5adf62e3084c8d5f9a8ab1"
+        "name": "data-598350b2d583143e0f0233c96459dded"
       },
       "encoding": {
         "color": {
           "field": "Gender",
           "legend": {
-            "orient": "top",
-            "title": "Gender"
+            "orient": "top"
           },
           "scale": {
             "domain": [
@@ -1037,69 +642,74 @@
           },
           "type": "nominal"
         },
+        "column": {
+          "field": "Measure",
+          "header": {
+            "labelColor": "#FFFFFF",
+            "labelFontSize": 12
+          },
+          "title": null,
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "empty": true,
+            "param": "country_select",
+            "value": 1.0
+          },
+          "value": 0.3
+        },
         "tooltip": [
           {
             "field": "Country",
+            "title": "Country",
             "type": "nominal"
           },
           {
             "field": "Gender",
+            "title": "Gender",
             "type": "nominal"
           },
           {
             "field": "Measure",
+            "title": "Measure",
             "type": "nominal"
           },
           {
-            "field": "Score",
-            "format": ".2f",
-            "type": "quantitative"
-          },
-          {
-            "field": "Count",
-            "format": ",d",
-            "title": "Students",
+            "field": "Value",
+            "format": ".1f",
+            "title": "Score",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Score",
-          "scale": {
-            "zero": false
+          "axis": {
+            "labelAngle": 0
           },
-          "title": "Score (Standardized for Efficacy, Raw for Math)",
-          "type": "quantitative"
+          "field": "Gender",
+          "title": null,
+          "type": "nominal"
         },
         "y": {
-          "axis": {
-            "labelFontSize": 12
-          },
-          "field": "Measure",
-          "title": "Measure",
-          "type": "nominal"
+          "field": "Value",
+          "title": "Score",
+          "type": "quantitative"
         }
       },
       "height": 400,
       "mark": {
-        "size": 100,
-        "type": "circle"
+        "cornerRadius": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Efficacy and Achievement by Gender",
+        "subtitle": "Filtered by country selection",
         "subtitleColor": "#E0E0E0",
+        "subtitleFontSize": 11,
         "text": "Gender Comparison by Country"
       },
-      "transform": [
-        {
-          "filter": {
-            "empty": true,
-            "param": "country_select"
-          }
-        }
-      ],
-      "width": 350
+      "width": 150
     }
   ],
   "params": [
@@ -1115,10 +725,5 @@
         "view_1"
       ]
     }
-  ],
-  "resolve": {
-    "scale": {
-      "color": "independent"
-    }
-  }
+  ]
 }
