@@ -20,509 +20,464 @@
       "color": "#FFFFFF"
     }
   },
+  "data": {
+    "name": "data-3263cd31d26139d61e524110b1d8b691"
+  },
   "datasets": {
-    "data-13f0b91a404350e7a9f0fe56fdc28c0b": [
+    "data-3263cd31d26139d61e524110b1d8b691": [
       {
-        "Avg_Math": 403.27202564659854,
-        "Confidence_Level": "Low",
-        "Count": 13803,
-        "Parent_Education": "Bachelor's"
+        "Country": "SGP",
+        "Domain": "MATH",
+        "Mean": 574.238767938238,
+        "Rank": 1.0
       },
       {
-        "Avg_Math": 441.36813700748945,
-        "Confidence_Level": "Medium",
-        "Count": 12284,
-        "Parent_Education": "Bachelor's"
+        "Country": "MAC",
+        "Domain": "MATH",
+        "Mean": 551.6620869069343,
+        "Rank": 2.0
       },
       {
-        "Avg_Math": 484.3258185787578,
-        "Confidence_Level": "High",
-        "Count": 9161,
-        "Parent_Education": "Bachelor's"
+        "Country": "HKG",
+        "Domain": "MATH",
+        "Mean": 545.4538483155578,
+        "Rank": 3.0
       },
       {
-        "Avg_Math": 421.40118277548805,
-        "Confidence_Level": "Low",
-        "Count": 44158,
-        "Parent_Education": "Graduate+"
+        "Country": "JPN",
+        "Domain": "MATH",
+        "Mean": 535.5592085069445,
+        "Rank": 4.0
       },
       {
-        "Avg_Math": 467.412630403369,
-        "Confidence_Level": "Medium",
-        "Count": 48442,
-        "Parent_Education": "Graduate+"
+        "Country": "TAP",
+        "Domain": "MATH",
+        "Mean": 534.0153732286153,
+        "Rank": 5.0
       },
       {
-        "Avg_Math": 520.150572380339,
-        "Confidence_Level": "High",
-        "Count": 49682,
-        "Parent_Education": "Graduate+"
+        "Country": "KOR",
+        "Domain": "MATH",
+        "Mean": 531.3851950728231,
+        "Rank": 6.0
       },
       {
-        "Avg_Math": 383.8383679987161,
-        "Confidence_Level": "Low",
-        "Count": 12462,
-        "Parent_Education": "High School"
+        "Country": "EST",
+        "Domain": "MATH",
+        "Mean": 512.679689612015,
+        "Rank": 7.0
       },
       {
-        "Avg_Math": 416.6702157954428,
-        "Confidence_Level": "Medium",
-        "Count": 9699,
-        "Parent_Education": "High School"
+        "Country": "CHE",
+        "Domain": "MATH",
+        "Mean": 506.5026098989603,
+        "Rank": 8.0
       },
       {
-        "Avg_Math": 453.0816620898974,
-        "Confidence_Level": "High",
-        "Count": 6919,
-        "Parent_Education": "High School"
+        "Country": "CZE",
+        "Domain": "MATH",
+        "Mean": 499.5599728132388,
+        "Rank": 9.0
       },
       {
-        "Avg_Math": 363.58407095906784,
-        "Confidence_Level": "Low",
-        "Count": 6694,
-        "Parent_Education": "Less than HS"
+        "Country": "POL",
+        "Domain": "MATH",
+        "Mean": 494.8469422725004,
+        "Rank": 10.0
       },
       {
-        "Avg_Math": 387.17051152647974,
-        "Confidence_Level": "Medium",
-        "Count": 4815,
-        "Parent_Education": "Less than HS"
+        "Country": "BEL",
+        "Domain": "MATH",
+        "Mean": 493.9984803282645,
+        "Rank": 11.0
       },
       {
-        "Avg_Math": 416.71916533673794,
-        "Confidence_Level": "High",
-        "Count": 3133,
-        "Parent_Education": "Less than HS"
+        "Country": "IRL",
+        "Domain": "MATH",
+        "Mean": 492.91171862093734,
+        "Rank": 12.0
       },
       {
-        "Avg_Math": 406.71834561107664,
-        "Confidence_Level": "Low",
-        "Count": 33801,
-        "Parent_Education": "Some College"
+        "Country": "AUT",
+        "Domain": "MATH",
+        "Mean": 491.174550642172,
+        "Rank": 13.0
       },
       {
-        "Avg_Math": 449.15967309875145,
-        "Confidence_Level": "Medium",
-        "Count": 28192,
-        "Parent_Education": "Some College"
+        "Country": "NLD",
+        "Domain": "MATH",
+        "Mean": 491.073066587396,
+        "Rank": 14.0
       },
       {
-        "Avg_Math": 487.6943623150679,
-        "Confidence_Level": "High",
-        "Count": 23049,
-        "Parent_Education": "Some College"
-      }
-    ],
-    "data-a7563236c195cb7b4bf0e2862c49bde4": [
-      {
-        "Avg_Math": 402.80737990382187,
-        "Confidence_Level": "Low",
-        "Count": 7902,
-        "Gender": "Female",
-        "Parent_Education": "Bachelor's"
+        "Country": "AUS",
+        "Domain": "MATH",
+        "Mean": 486.82973401800996,
+        "Rank": 15.0
       },
       {
-        "Avg_Math": 437.65862016553797,
-        "Confidence_Level": "Medium",
-        "Count": 6645,
-        "Gender": "Female",
-        "Parent_Education": "Bachelor's"
+        "Country": "SGP",
+        "Domain": "READ",
+        "Mean": 544.3832284287012,
+        "Rank": 1.0
       },
       {
-        "Avg_Math": 472.796012575687,
-        "Confidence_Level": "High",
-        "Count": 4294,
-        "Gender": "Female",
-        "Parent_Education": "Bachelor's"
+        "Country": "KOR",
+        "Domain": "READ",
+        "Mean": 519.3050881623799,
+        "Rank": 2.0
       },
       {
-        "Avg_Math": 403.8942304694119,
-        "Confidence_Level": "Low",
-        "Count": 5901,
-        "Gender": "Male",
-        "Parent_Education": "Bachelor's"
+        "Country": "IRL",
+        "Domain": "READ",
+        "Mean": 518.0400114921889,
+        "Rank": 3.0
       },
       {
-        "Avg_Math": 445.73943323284266,
-        "Confidence_Level": "Medium",
-        "Count": 5639,
-        "Gender": "Male",
-        "Parent_Education": "Bachelor's"
+        "Country": "JPN",
+        "Domain": "READ",
+        "Mean": 515.3309866319445,
+        "Rank": 4.0
       },
       {
-        "Avg_Math": 494.4982013560715,
-        "Confidence_Level": "High",
-        "Count": 4867,
-        "Gender": "Male",
-        "Parent_Education": "Bachelor's"
+        "Country": "EST",
+        "Domain": "READ",
+        "Mean": 514.2749734042553,
+        "Rank": 5.0
       },
       {
-        "Avg_Math": 422.109293185975,
-        "Confidence_Level": "Low",
-        "Count": 25697,
-        "Gender": "Female",
-        "Parent_Education": "Graduate+"
+        "Country": "MAC",
+        "Domain": "READ",
+        "Mean": 509.4685656934306,
+        "Rank": 6.0
       },
       {
-        "Avg_Math": 465.18660808316696,
-        "Confidence_Level": "Medium",
-        "Count": 26549,
-        "Gender": "Female",
-        "Parent_Education": "Graduate+"
+        "Country": "TAP",
+        "Domain": "READ",
+        "Mean": 504.5991220761482,
+        "Rank": 7.0
       },
       {
-        "Avg_Math": 510.8681821881426,
-        "Confidence_Level": "High",
-        "Count": 23344,
-        "Gender": "Female",
-        "Parent_Education": "Graduate+"
+        "Country": "HKG",
+        "Domain": "READ",
+        "Mean": 503.6746609107838,
+        "Rank": 8.0
       },
       {
-        "Avg_Math": 420.41552039434487,
-        "Confidence_Level": "Low",
-        "Count": 18461,
-        "Gender": "Male",
-        "Parent_Education": "Graduate+"
+        "Country": "USA",
+        "Domain": "READ",
+        "Mean": 502.9380450351494,
+        "Rank": 9.0
       },
       {
-        "Avg_Math": 470.112062485726,
-        "Confidence_Level": "Medium",
-        "Count": 21893,
-        "Gender": "Male",
-        "Parent_Education": "Graduate+"
+        "Country": "NZL",
+        "Domain": "READ",
+        "Mean": 500.89306856044425,
+        "Rank": 10.0
       },
       {
-        "Avg_Math": 528.377777052168,
-        "Confidence_Level": "High",
-        "Count": 26338,
-        "Gender": "Male",
-        "Parent_Education": "Graduate+"
+        "Country": "CZE",
+        "Domain": "READ",
+        "Mean": 499.80126134751777,
+        "Rank": 11.0
       },
       {
-        "Avg_Math": 381.7747057324841,
-        "Confidence_Level": "Low",
-        "Count": 7065,
-        "Gender": "Female",
-        "Parent_Education": "High School"
+        "Country": "AUS",
+        "Domain": "READ",
+        "Mean": 498.9405631465357,
+        "Rank": 12.0
       },
       {
-        "Avg_Math": 412.4653849990409,
-        "Confidence_Level": "Medium",
-        "Count": 5213,
-        "Gender": "Female",
-        "Parent_Education": "High School"
+        "Country": "POL",
+        "Domain": "READ",
+        "Mean": 494.7417897188488,
+        "Rank": 13.0
       },
       {
-        "Avg_Math": 442.95178483298224,
-        "Confidence_Level": "High",
-        "Count": 3323,
-        "Gender": "Female",
-        "Parent_Education": "High School"
+        "Country": "GBR",
+        "Domain": "READ",
+        "Mean": 490.76164762565526,
+        "Rank": 14.0
       },
       {
-        "Avg_Math": 386.5398269408931,
-        "Confidence_Level": "Low",
-        "Count": 5397,
-        "Gender": "Male",
-        "Parent_Education": "High School"
+        "Country": "CAN",
+        "Domain": "READ",
+        "Mean": 489.771974602349,
+        "Rank": 15.0
       },
       {
-        "Avg_Math": 421.5564803834151,
-        "Confidence_Level": "Medium",
-        "Count": 4486,
-        "Gender": "Male",
-        "Parent_Education": "High School"
+        "Country": "SGP",
+        "Domain": "SCIE",
+        "Mean": 560.8251777172268,
+        "Rank": 1.0
       },
       {
-        "Avg_Math": 462.4425025027809,
-        "Confidence_Level": "High",
-        "Count": 3596,
-        "Gender": "Male",
-        "Parent_Education": "High School"
+        "Country": "JPN",
+        "Domain": "SCIE",
+        "Mean": 545.5398887152778,
+        "Rank": 2.0
       },
       {
-        "Avg_Math": 359.581422542595,
-        "Confidence_Level": "Low",
-        "Count": 3815,
-        "Gender": "Female",
-        "Parent_Education": "Less than HS"
+        "Country": "MAC",
+        "Domain": "SCIE",
+        "Mean": 543.1331236313869,
+        "Rank": 3.0
       },
       {
-        "Avg_Math": 383.11743804664724,
-        "Confidence_Level": "Medium",
-        "Count": 2744,
-        "Gender": "Female",
-        "Parent_Education": "Less than HS"
+        "Country": "KOR",
+        "Domain": "SCIE",
+        "Mean": 530.6552159900837,
+        "Rank": 4.0
       },
       {
-        "Avg_Math": 406.6792362673726,
-        "Confidence_Level": "High",
-        "Count": 1511,
-        "Gender": "Female",
-        "Parent_Education": "Less than HS"
+        "Country": "EST",
+        "Domain": "SCIE",
+        "Mean": 527.3109297559449,
+        "Rank": 5.0
       },
       {
-        "Avg_Math": 368.88803195554016,
-        "Confidence_Level": "Low",
-        "Count": 2879,
-        "Gender": "Male",
-        "Parent_Education": "Less than HS"
+        "Country": "TAP",
+        "Domain": "SCIE",
+        "Mean": 526.822456206249,
+        "Rank": 6.0
       },
       {
-        "Avg_Math": 392.54068710767746,
-        "Confidence_Level": "Medium",
-        "Count": 2071,
-        "Gender": "Male",
-        "Parent_Education": "Less than HS"
+        "Country": "HKG",
+        "Domain": "SCIE",
+        "Mean": 524.5496971389877,
+        "Rank": 7.0
       },
       {
-        "Avg_Math": 426.0720215782984,
-        "Confidence_Level": "High",
-        "Count": 1622,
-        "Gender": "Male",
-        "Parent_Education": "Less than HS"
+        "Country": "CZE",
+        "Domain": "SCIE",
+        "Mean": 510.78720614657215,
+        "Rank": 8.0
       },
       {
-        "Avg_Math": 406.83523861078356,
-        "Confidence_Level": "Low",
-        "Count": 18658,
-        "Gender": "Female",
-        "Parent_Education": "Some College"
+        "Country": "AUS",
+        "Domain": "SCIE",
+        "Mean": 507.77945605417875,
+        "Rank": 9.0
       },
       {
-        "Avg_Math": 446.219766510236,
-        "Confidence_Level": "Medium",
-        "Count": 14703,
-        "Gender": "Female",
-        "Parent_Education": "Some College"
+        "Country": "POL",
+        "Domain": "SCIE",
+        "Mean": 505.14998902012974,
+        "Rank": 10.0
       },
       {
-        "Avg_Math": 478.3486761895476,
-        "Confidence_Level": "High",
-        "Count": 10256,
-        "Gender": "Female",
-        "Parent_Education": "Some College"
+        "Country": "NZL",
+        "Domain": "SCIE",
+        "Mean": 504.84579047415633,
+        "Rank": 11.0
       },
       {
-        "Avg_Math": 406.57431935547777,
-        "Confidence_Level": "Low",
-        "Count": 15143,
-        "Gender": "Male",
-        "Parent_Education": "Some College"
+        "Country": "IRL",
+        "Domain": "SCIE",
+        "Mean": 504.37497360387863,
+        "Rank": 12.0
       },
       {
-        "Avg_Math": 452.36416910074877,
-        "Confidence_Level": "Medium",
-        "Count": 13489,
-        "Gender": "Male",
-        "Parent_Education": "Some College"
+        "Country": "CHE",
+        "Domain": "SCIE",
+        "Mean": 501.4123192268268,
+        "Rank": 13.0
       },
       {
-        "Avg_Math": 495.1866906902212,
-        "Confidence_Level": "High",
-        "Count": 12793,
-        "Gender": "Male",
-        "Parent_Education": "Some College"
+        "Country": "CAN",
+        "Domain": "SCIE",
+        "Mean": 499.46967126078096,
+        "Rank": 14.0
+      },
+      {
+        "Country": "USA",
+        "Domain": "SCIE",
+        "Mean": 498.25059600175746,
+        "Rank": 15.0
       }
     ]
   },
   "hconcat": [
     {
-      "data": {
-        "name": "data-13f0b91a404350e7a9f0fe56fdc28c0b"
-      },
       "encoding": {
         "color": {
-          "field": "Avg_Math",
-          "legend": {
-            "title": "Avg Math Score"
-          },
-          "scale": {
-            "domain": [
-              380,
-              540
-            ],
-            "scheme": "viridis"
-          },
-          "type": "quantitative"
-        },
-        "opacity": {
           "condition": {
-            "param": "edu_select",
-            "value": 1
+            "field": "Domain",
+            "legend": {
+              "labelFontSize": 11,
+              "orient": "top",
+              "titleFontSize": 12
+            },
+            "param": "domain_brush",
+            "scale": {
+              "domain": [
+                "MATH",
+                "READ",
+                "SCIE"
+              ],
+              "range": [
+                "#1f77b4",
+                "#2ca02c",
+                "#d62728"
+              ]
+            },
+            "title": "Domain",
+            "type": "nominal"
           },
-          "value": 0.5
+          "value": "lightgray"
         },
         "tooltip": [
           {
-            "field": "Parent_Education",
+            "field": "Country",
+            "title": "Country",
             "type": "nominal"
           },
           {
-            "field": "Confidence_Level",
+            "field": "Domain",
+            "title": "Domain",
             "type": "nominal"
           },
           {
-            "field": "Avg_Math",
+            "field": "Mean",
             "format": ".1f",
-            "title": "Avg Math Score",
+            "title": "Score",
             "type": "quantitative"
           },
           {
-            "field": "Count",
-            "format": ",d",
-            "title": "Students",
+            "field": "Rank",
+            "format": ".0f",
+            "title": "Rank",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Confidence_Level",
-          "sort": [
-            "Low",
-            "Medium",
-            "High"
-          ],
-          "title": "Math Confidence",
+          "axis": {
+            "labelAngle": -45,
+            "labelFontSize": 9,
+            "titleFontSize": 12
+          },
+          "field": "Country",
+          "sort": {
+            "field": "Mean",
+            "order": "descending"
+          },
+          "title": "Country",
           "type": "nominal"
         },
         "y": {
-          "field": "Parent_Education",
-          "sort": [
-            "Less than HS",
-            "High School",
-            "Some College",
-            "Bachelor's",
-            "Graduate+"
-          ],
-          "title": "Parent Education",
-          "type": "nominal"
+          "field": "Mean",
+          "scale": {
+            "domain": [
+              480,
+              580
+            ]
+          },
+          "title": "Score",
+          "type": "quantitative"
         }
       },
-      "height": 280,
+      "height": 350,
       "mark": {
-        "cursor": "pointer",
-        "type": "rect"
+        "cursor": "crosshair",
+        "size": 80,
+        "type": "circle"
       },
       "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click row to filter by education",
+        "fontWeight": "bold",
+        "subtitle": "Drag to brush select countries",
         "subtitleColor": "#E0E0E0",
-        "text": "Education x Confidence Heatmap"
+        "text": "Top 15 Countries by Domain"
       },
-      "width": 250
+      "width": 500
     },
     {
-      "data": {
-        "name": "data-a7563236c195cb7b4bf0e2862c49bde4"
-      },
       "encoding": {
         "color": {
-          "field": "Gender",
-          "legend": {
-            "orient": "top",
-            "title": "Gender"
-          },
+          "field": "Domain",
+          "legend": null,
           "scale": {
             "domain": [
-              "Female",
-              "Male"
+              "MATH",
+              "READ",
+              "SCIE"
             ],
             "range": [
-              "#E91E63",
-              "#1976D2"
+              "#1f77b4",
+              "#2ca02c",
+              "#d62728"
             ]
-          },
-          "type": "nominal"
-        },
-        "shape": {
-          "field": "Confidence_Level",
-          "legend": {
-            "title": "Confidence"
           },
           "type": "nominal"
         },
         "tooltip": [
           {
-            "field": "Parent_Education",
+            "field": "Domain",
+            "title": "Domain",
             "type": "nominal"
           },
           {
-            "field": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "Confidence_Level",
-            "type": "nominal"
-          },
-          {
-            "field": "Avg_Math",
+            "aggregate": "mean",
+            "field": "Mean",
             "format": ".1f",
+            "title": "Average",
             "type": "quantitative"
           },
           {
-            "field": "Count",
-            "format": ",d",
-            "title": "Students",
+            "aggregate": "count",
+            "title": "Countries",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Avg_Math",
+          "aggregate": "mean",
+          "field": "Mean",
           "scale": {
             "domain": [
-              380,
+              480,
               560
             ]
           },
-          "title": "Average Math Score",
+          "title": "Average Score",
           "type": "quantitative"
         },
         "y": {
-          "field": "Gender",
-          "title": null,
-          "type": "nominal"
-        },
-        "yOffset": {
-          "field": "Confidence_Level",
-          "sort": [
-            "Low",
-            "Medium",
-            "High"
-          ],
+          "field": "Domain",
+          "title": "Domain",
           "type": "nominal"
         }
       },
-      "height": 280,
+      "height": 150,
       "mark": {
-        "filled": true,
-        "size": 150,
-        "type": "point"
+        "cornerRadius": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Gender x Confidence"
+        "fontWeight": "bold",
+        "text": "Selected Countries Average"
       },
       "transform": [
         {
           "filter": {
-            "param": "edu_select"
+            "param": "domain_brush"
           }
         }
       ],
-      "width": 320
+      "width": 250
     }
   ],
   "params": [
     {
-      "name": "edu_select",
+      "name": "domain_brush",
       "select": {
-        "fields": [
-          "Parent_Education"
+        "encodings": [
+          "x"
         ],
-        "type": "point"
+        "type": "interval"
       },
       "views": [
         "view_1"

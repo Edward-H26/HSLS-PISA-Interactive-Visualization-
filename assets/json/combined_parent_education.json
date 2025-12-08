@@ -21,10 +21,10 @@
     }
   },
   "data": {
-    "name": "data-0d07123e4be6029086315b97b2d0fc7f"
+    "name": "data-17137f238eabc2ceb7bc36c6f65f2245"
   },
   "datasets": {
-    "data-0d07123e4be6029086315b97b2d0fc7f": [
+    "data-17137f238eabc2ceb7bc36c6f65f2245": [
       {
         "Math_Score": 55.76256443618339,
         "Parent_Education": "Bachelor's",
@@ -57,62 +57,68 @@
       },
       {
         "Math_Score": 449.04770260223046,
-        "Parent_Education": "Bachelor's",
-        "Premium": 16.817948364942367,
-        "Source": "PISA US (2022)"
-      },
-      {
-        "Math_Score": 484.99137994945244,
         "Parent_Education": "Graduate+",
-        "Premium": 52.761625712164346,
+        "Premium": 0.0,
         "Source": "PISA US (2022)"
       },
       {
-        "Math_Score": 410.0188669354839,
-        "Parent_Education": "High School",
-        "Premium": -22.210887301804178,
+        "Math_Score": 428.6656842105263,
+        "Parent_Education": "Lower Secondary",
+        "Premium": 0.0,
         "Source": "PISA US (2022)"
       },
       {
-        "Math_Score": 432.2297542372881,
-        "Parent_Education": "Less than HS",
+        "Math_Score": 438.6790238095238,
+        "Parent_Education": "Primary",
         "Premium": 0.0,
         "Source": "PISA US (2022)"
       },
       {
         "Math_Score": 440.89964,
-        "Parent_Education": "Some College",
-        "Premium": 8.669885762711885,
+        "Parent_Education": "Tertiary",
+        "Premium": 0.0,
+        "Source": "PISA US (2022)"
+      },
+      {
+        "Math_Score": 410.0188669354839,
+        "Parent_Education": "Upper Secondary",
+        "Premium": 0.0,
         "Source": "PISA US (2022)"
       },
       {
         "Math_Score": 426.9780612463958,
-        "Parent_Education": "Bachelor's",
-        "Premium": 60.8637333859765,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Score": 461.0121435249519,
         "Parent_Education": "Graduate+",
-        "Premium": 94.89781566453263,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Score": 394.87853969554743,
-        "Parent_Education": "High School",
-        "Premium": 28.76421183512815,
-        "Source": "PISA Intl (2022)"
-      },
-      {
-        "Math_Score": 366.1143278604193,
-        "Parent_Education": "Less than HS",
         "Premium": 0.0,
         "Source": "PISA Intl (2022)"
       },
       {
-        "Math_Score": 427.4723350305036,
-        "Parent_Education": "Some College",
-        "Premium": 61.358007170084306,
+        "Math_Score": 371.499216975864,
+        "Parent_Education": "Lower Secondary",
+        "Premium": 0.0,
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 432.29760625795893,
+        "Parent_Education": "Post-Secondary",
+        "Premium": 0.0,
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 354.07712149791956,
+        "Parent_Education": "Primary",
+        "Premium": 0.0,
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 425.86482757993747,
+        "Parent_Education": "Tertiary",
+        "Premium": 0.0,
+        "Source": "PISA Intl (2022)"
+      },
+      {
+        "Math_Score": 394.87853969554743,
+        "Parent_Education": "Upper Secondary",
+        "Premium": 0.0,
         "Source": "PISA Intl (2022)"
       }
     ]
@@ -168,10 +174,12 @@
           },
           "field": "Parent_Education",
           "sort": [
-            "Less than HS",
-            "High School",
-            "Some College",
-            "Bachelor's",
+            "None",
+            "Primary",
+            "Lower Secondary",
+            "Upper Secondary",
+            "Post-Secondary",
+            "Tertiary",
             "Graduate+"
           ],
           "title": "Parent Education",

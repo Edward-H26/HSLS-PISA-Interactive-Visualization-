@@ -365,294 +365,324 @@
         "id": 704
       }
     ],
-    "data-5f784994d3226bfbe9b2780792855225": [
+    "data-5e786df57d95130ff2836d85a90d6c69": [
       {
         "CNT": "BEL",
         "Country": "Belgium",
         "Mean_Math": 467.81529380764164,
-        "Parent_Education": "Bachelor's"
+        "Parent_Education": "Graduate+"
       },
       {
         "CNT": "BEL",
         "Country": "Belgium",
-        "Mean_Math": 505.2585029830197,
-        "Parent_Education": "Graduate+"
+        "Mean_Math": 423.1881304347826,
+        "Parent_Education": "Lower Secondary"
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Mean_Math": 433.7372212121212,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Mean_Math": 391.53429411764705,
+        "Parent_Education": "Primary"
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Mean_Math": 488.1653936651584,
+        "Parent_Education": "Tertiary"
       },
       {
         "CNT": "BEL",
         "Country": "Belgium",
         "Mean_Math": 452.259115183246,
-        "Parent_Education": "High School"
-      },
-      {
-        "CNT": "BEL",
-        "Country": "Belgium",
-        "Mean_Math": 407.4767372262774,
-        "Parent_Education": "Less than HS"
-      },
-      {
-        "CNT": "BEL",
-        "Country": "Belgium",
-        "Mean_Math": 470.07748136958713,
-        "Parent_Education": "Some College"
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "CHE",
         "Country": "Switzerland",
         "Mean_Math": 479.21893548387095,
-        "Parent_Education": "Bachelor's"
+        "Parent_Education": "Graduate+"
       },
       {
         "CNT": "CHE",
         "Country": "Switzerland",
-        "Mean_Math": 505.4933494744745,
-        "Parent_Education": "Graduate+"
+        "Mean_Math": 428.7785212765957,
+        "Parent_Education": "Lower Secondary"
+      },
+      {
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Mean_Math": 460.46037272727267,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Mean_Math": 401.53776086956526,
+        "Parent_Education": "Primary"
+      },
+      {
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Mean_Math": 494.236319047619,
+        "Parent_Education": "Tertiary"
       },
       {
         "CNT": "CHE",
         "Country": "Switzerland",
         "Mean_Math": 475.50033333333334,
-        "Parent_Education": "High School"
-      },
-      {
-        "CNT": "CHE",
-        "Country": "Switzerland",
-        "Mean_Math": 419.8279857142857,
-        "Parent_Education": "Less than HS"
-      },
-      {
-        "CNT": "CHE",
-        "Country": "Switzerland",
-        "Mean_Math": 489.2155702702703,
-        "Parent_Education": "Some College"
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "CZE",
         "Country": "Czech Rep.",
         "Mean_Math": 500.3462441314554,
-        "Parent_Education": "Bachelor's"
-      },
-      {
-        "CNT": "CZE",
-        "Country": "Czech Rep.",
-        "Mean_Math": 514.0605866171003,
         "Parent_Education": "Graduate+"
       },
       {
         "CNT": "CZE",
         "Country": "Czech Rep.",
-        "Mean_Math": 387.08295535714285,
-        "Parent_Education": "High School"
+        "Mean_Math": 435.974085,
+        "Parent_Education": "Post-Secondary"
       },
       {
         "CNT": "CZE",
         "Country": "Czech Rep.",
         "Mean_Math": 569.466,
-        "Parent_Education": "Less than HS"
+        "Parent_Education": "Primary"
       },
       {
         "CNT": "CZE",
         "Country": "Czech Rep.",
-        "Mean_Math": 466.1902071216617,
-        "Parent_Education": "Some College"
+        "Mean_Math": 478.9396257383966,
+        "Parent_Education": "Tertiary"
+      },
+      {
+        "CNT": "CZE",
+        "Country": "Czech Rep.",
+        "Mean_Math": 387.08295535714285,
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "EST",
         "Country": "Estonia",
         "Mean_Math": 497.08602661596956,
-        "Parent_Education": "Bachelor's"
-      },
-      {
-        "CNT": "EST",
-        "Country": "Estonia",
-        "Mean_Math": 510.3152838283828,
         "Parent_Education": "Graduate+"
-      },
-      {
-        "CNT": "EST",
-        "Country": "Estonia",
-        "Mean_Math": 473.69009219858157,
-        "Parent_Education": "High School"
       },
       {
         "CNT": "EST",
         "Country": "Estonia",
         "Mean_Math": 488.46633333333335,
-        "Parent_Education": "Less than HS"
+        "Parent_Education": "Lower Secondary"
       },
       {
         "CNT": "EST",
         "Country": "Estonia",
-        "Mean_Math": 493.28702180685355,
-        "Parent_Education": "Some College"
+        "Mean_Math": 488.43794,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "EST",
+        "Country": "Estonia",
+        "Mean_Math": 494.18168634686344,
+        "Parent_Education": "Tertiary"
+      },
+      {
+        "CNT": "EST",
+        "Country": "Estonia",
+        "Mean_Math": 473.69009219858157,
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "HKG",
         "Country": "Hong Kong",
         "Mean_Math": 559.3589923664123,
-        "Parent_Education": "Bachelor's"
+        "Parent_Education": "Graduate+"
       },
       {
         "CNT": "HKG",
         "Country": "Hong Kong",
-        "Mean_Math": 566.3229108225108,
-        "Parent_Education": "Graduate+"
+        "Mean_Math": 522.902095477387,
+        "Parent_Education": "Lower Secondary"
+      },
+      {
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Mean_Math": 529.6161578947368,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Mean_Math": 504.4221315789474,
+        "Parent_Education": "Primary"
+      },
+      {
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Mean_Math": 536.6794939271255,
+        "Parent_Education": "Tertiary"
       },
       {
         "CNT": "HKG",
         "Country": "Hong Kong",
         "Mean_Math": 530.5096148148148,
-        "Parent_Education": "High School"
-      },
-      {
-        "CNT": "HKG",
-        "Country": "Hong Kong",
-        "Mean_Math": 519.9390632911393,
-        "Parent_Education": "Less than HS"
-      },
-      {
-        "CNT": "HKG",
-        "Country": "Hong Kong",
-        "Mean_Math": 536.2807572156197,
-        "Parent_Education": "Some College"
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "JPN",
         "Country": "Japan",
         "Mean_Math": 497.23556995581737,
-        "Parent_Education": "Bachelor's"
+        "Parent_Education": "Graduate+"
       },
       {
         "CNT": "JPN",
         "Country": "Japan",
-        "Mean_Math": 546.6665255878285,
-        "Parent_Education": "Graduate+"
+        "Mean_Math": 488.1666666666667,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "JPN",
+        "Country": "Japan",
+        "Mean_Math": 506.7139662576687,
+        "Parent_Education": "Tertiary"
       },
       {
         "CNT": "JPN",
         "Country": "Japan",
         "Mean_Math": 458.7585087719298,
-        "Parent_Education": "High School"
-      },
-      {
-        "CNT": "JPN",
-        "Country": "Japan",
-        "Mean_Math": 504.333564171123,
-        "Parent_Education": "Some College"
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "KOR",
         "Country": "South Korea",
-        "Mean_Math": 550.0702366052293,
-        "Parent_Education": "Graduate+"
+        "Mean_Math": 475.86083333333335,
+        "Parent_Education": "Lower Secondary"
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Mean_Math": 507.9117919921875,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Mean_Math": 512.124,
+        "Parent_Education": "Primary"
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Mean_Math": 505.9013146417446,
+        "Parent_Education": "Tertiary"
       },
       {
         "CNT": "KOR",
         "Country": "South Korea",
         "Mean_Math": 484.1409782608696,
-        "Parent_Education": "High School"
-      },
-      {
-        "CNT": "KOR",
-        "Country": "South Korea",
-        "Mean_Math": 481.04128571428566,
-        "Parent_Education": "Less than HS"
-      },
-      {
-        "CNT": "KOR",
-        "Country": "South Korea",
-        "Mean_Math": 507.4319680297398,
-        "Parent_Education": "Some College"
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "MAC",
         "Country": "Macao",
         "Mean_Math": 557.0458822495607,
-        "Parent_Education": "Bachelor's"
+        "Parent_Education": "Graduate+"
       },
       {
         "CNT": "MAC",
         "Country": "Macao",
-        "Mean_Math": 565.7045545243619,
-        "Parent_Education": "Graduate+"
+        "Mean_Math": 527.1296597222222,
+        "Parent_Education": "Lower Secondary"
+      },
+      {
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Mean_Math": 535.7622093023256,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Mean_Math": 507.05786666666665,
+        "Parent_Education": "Primary"
+      },
+      {
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Mean_Math": 551.0269860383944,
+        "Parent_Education": "Tertiary"
       },
       {
         "CNT": "MAC",
         "Country": "Macao",
         "Mean_Math": 535.7080032967033,
-        "Parent_Education": "High School"
-      },
-      {
-        "CNT": "MAC",
-        "Country": "Macao",
-        "Mean_Math": 523.6690057471264,
-        "Parent_Education": "Less than HS"
-      },
-      {
-        "CNT": "MAC",
-        "Country": "Macao",
-        "Mean_Math": 549.4825498039216,
-        "Parent_Education": "Some College"
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "POL",
         "Country": "Poland",
         "Mean_Math": 493.3099925373134,
-        "Parent_Education": "Bachelor's"
-      },
-      {
-        "CNT": "POL",
-        "Country": "Poland",
-        "Mean_Math": 520.3389071782178,
         "Parent_Education": "Graduate+"
-      },
-      {
-        "CNT": "POL",
-        "Country": "Poland",
-        "Mean_Math": 433.9314104477612,
-        "Parent_Education": "High School"
       },
       {
         "CNT": "POL",
         "Country": "Poland",
         "Mean_Math": 437.0814285714286,
-        "Parent_Education": "Less than HS"
+        "Parent_Education": "Lower Secondary"
       },
       {
         "CNT": "POL",
         "Country": "Poland",
-        "Mean_Math": 466.7046808206107,
-        "Parent_Education": "Some College"
+        "Mean_Math": 453.29399717114563,
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "POL",
+        "Country": "Poland",
+        "Mean_Math": 473.53070914326855,
+        "Parent_Education": "Tertiary"
+      },
+      {
+        "CNT": "POL",
+        "Country": "Poland",
+        "Mean_Math": 433.9314104477612,
+        "Parent_Education": "Upper Secondary"
       },
       {
         "CNT": "SGP",
         "Country": "Singapore",
         "Mean_Math": 527.5108701298701,
-        "Parent_Education": "Bachelor's"
-      },
-      {
-        "CNT": "SGP",
-        "Country": "Singapore",
-        "Mean_Math": 586.7507107897663,
         "Parent_Education": "Graduate+"
       },
       {
         "CNT": "SGP",
         "Country": "Singapore",
-        "Mean_Math": 541.0277874015748,
-        "Parent_Education": "High School"
-      },
-      {
-        "CNT": "SGP",
-        "Country": "Singapore",
-        "Mean_Math": 492.13391428571435,
-        "Parent_Education": "Less than HS"
+        "Mean_Math": 497.46398387096775,
+        "Parent_Education": "Lower Secondary"
       },
       {
         "CNT": "SGP",
         "Country": "Singapore",
         "Mean_Math": 534.4386000000001,
-        "Parent_Education": "Some College"
+        "Parent_Education": "Post-Secondary"
+      },
+      {
+        "CNT": "SGP",
+        "Country": "Singapore",
+        "Mean_Math": 450.825875,
+        "Parent_Education": "Primary"
+      },
+      {
+        "CNT": "SGP",
+        "Country": "Singapore",
+        "Mean_Math": 541.0277874015748,
+        "Parent_Education": "Upper Secondary"
       }
     ]
   },
@@ -756,7 +786,7 @@
     },
     {
       "data": {
-        "name": "data-5f784994d3226bfbe9b2780792855225"
+        "name": "data-5e786df57d95130ff2836d85a90d6c69"
       },
       "encoding": {
         "color": {
@@ -789,10 +819,12 @@
         "x": {
           "field": "Parent_Education",
           "sort": [
-            "Less than HS",
-            "High School",
-            "Some College",
-            "Bachelor's",
+            "None",
+            "Primary",
+            "Lower Secondary",
+            "Upper Secondary",
+            "Post-Secondary",
+            "Tertiary",
             "Graduate+"
           ],
           "title": "Parent Education",

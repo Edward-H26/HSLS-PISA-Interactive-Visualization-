@@ -126,9 +126,34 @@ function initVisualizations() {
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((spec) => {
         el.innerHTML = "";
-        const specWithFit = Object.assign({}, spec, {
+        
+        // Helper to recursively remove fixed dimensions
+        function removeFixedDimensions(obj) {
+          if (!obj || typeof obj !== 'object') return;
+          if (Array.isArray(obj)) {
+            obj.forEach(removeFixedDimensions);
+            return;
+          }
+          delete obj.width;
+          delete obj.height;
+          // Recurse into common nesting properties
+          ['layer', 'hconcat', 'vconcat', 'spec'].forEach(prop => {
+            if (obj[prop]) removeFixedDimensions(obj[prop]);
+          });
+        }
+        
+        // Clone spec to avoid mutating original if cached (though we fetch fresh)
+        const cleanSpec = JSON.parse(JSON.stringify(spec));
+        removeFixedDimensions(cleanSpec);
+        delete cleanSpec.autosize;
+
+        const specWithFit = Object.assign({}, cleanSpec, {
+          width: "container",
+          // height: "container", // Enabling this makes it try to fill vertical space too
+          // given the "did not fit perfectly" complaint, filling the box is safest.
           autosize: { type: "fit", contains: "padding", resize: true },
         });
+        
         vegaEmbed(`#${c.id}`, specWithFit, vegaOpts).catch(() => showPlaceholder(el, c.file));
       })
       .catch(() => showPlaceholder(el, c.file));

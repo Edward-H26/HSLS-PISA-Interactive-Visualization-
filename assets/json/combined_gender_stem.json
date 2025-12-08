@@ -21,350 +21,385 @@
     }
   },
   "datasets": {
-    "data-6a2d5421decf9b22089a3de9ec1b7099": [
+    "data-04fe2afc6f41950473e124047a2ca6aa": [
       {
-        "Count": 277,
-        "Gender": "Female",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 7.581227436823104,
-        "School_Locale": "City"
+        "Avg_GPA": 0.5201238390092879,
+        "Count": 969,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 258,
-        "Gender": "Male",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 18.6046511627907,
-        "School_Locale": "City"
+        "Avg_GPA": 0.742152466367713,
+        "Count": 223,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 145,
-        "Gender": "Female",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 8.275862068965518,
-        "School_Locale": "Rural"
+        "Avg_GPA": 0.5785984848484849,
+        "Count": 264,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 158,
-        "Gender": "Male",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 14.556962025316455,
-        "School_Locale": "Rural"
+        "Avg_GPA": 1.0282467532467532,
+        "Count": 770,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 343,
-        "Gender": "Female",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 3.206997084548105,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.1904255319148935,
+        "Count": 235,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 292,
-        "Gender": "Male",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 14.383561643835616,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.1417378917378918,
+        "Count": 351,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 70,
-        "Gender": "Female",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 4.285714285714286,
-        "School_Locale": "Town"
+        "Avg_GPA": 0.9702380952380952,
+        "Count": 210,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 68,
-        "Gender": "Male",
-        "Parent_Education": "Bachelor's",
-        "STEM_Rate": 13.23529411764706,
-        "School_Locale": "Town"
+        "Avg_GPA": 1.763157894736842,
+        "Count": 114,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 115,
-        "Gender": "Female",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 4.3478260869565215,
-        "School_Locale": "City"
+        "Avg_GPA": 1.9732704402515724,
+        "Count": 159,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q1 (Lowest 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 104,
-        "Gender": "Male",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 17.307692307692307,
-        "School_Locale": "City"
+        "Avg_GPA": 0.8719630709426628,
+        "Count": 1029,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 38,
-        "Gender": "Female",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 5.263157894736842,
-        "School_Locale": "Rural"
+        "Avg_GPA": 0.8804347826086957,
+        "Count": 230,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 45,
-        "Gender": "Male",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 17.77777777777778,
-        "School_Locale": "Rural"
+        "Avg_GPA": 1.1317114093959733,
+        "Count": 298,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 103,
-        "Gender": "Female",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 6.796116504854369,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.3176952141057934,
+        "Count": 794,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 131,
-        "Gender": "Male",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 6.870229007633588,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.407846715328467,
+        "Count": 274,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 23,
-        "Gender": "Female",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 4.3478260869565215,
-        "School_Locale": "Town"
+        "Avg_GPA": 1.7352941176470589,
+        "Count": 425,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 18,
-        "Gender": "Male",
-        "Parent_Education": "Graduate+",
-        "STEM_Rate": 22.22222222222222,
-        "School_Locale": "Town"
+        "Avg_GPA": 1.310897435897436,
+        "Count": 234,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 821,
-        "Gender": "Female",
-        "Parent_Education": "High School",
-        "STEM_Rate": 6.090133982947625,
-        "School_Locale": "City"
+        "Avg_GPA": 1.1697247706422018,
+        "Count": 109,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 873,
-        "Gender": "Male",
-        "Parent_Education": "High School",
-        "STEM_Rate": 10.767468499427263,
-        "School_Locale": "City"
+        "Avg_GPA": 2.0160550458715596,
+        "Count": 218,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q2 (Second 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 912,
-        "Gender": "Female",
-        "Parent_Education": "High School",
-        "STEM_Rate": 5.482456140350877,
-        "School_Locale": "Rural"
+        "Avg_GPA": 1.1404306220095695,
+        "Count": 1045,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 918,
-        "Gender": "Male",
-        "Parent_Education": "High School",
-        "STEM_Rate": 9.25925925925926,
-        "School_Locale": "Rural"
+        "Avg_GPA": 1.3078602620087336,
+        "Count": 229,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 1161,
-        "Gender": "Female",
-        "Parent_Education": "High School",
-        "STEM_Rate": 4.909560723514212,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 0.9925149700598802,
+        "Count": 334,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 1195,
-        "Gender": "Male",
-        "Parent_Education": "High School",
-        "STEM_Rate": 12.133891213389122,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.583237986270023,
+        "Count": 874,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 456,
-        "Gender": "Female",
-        "Parent_Education": "High School",
-        "STEM_Rate": 3.7280701754385963,
-        "School_Locale": "Town"
+        "Avg_GPA": 1.6343283582089552,
+        "Count": 335,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 452,
-        "Gender": "Male",
-        "Parent_Education": "High School",
-        "STEM_Rate": 9.955752212389381,
-        "School_Locale": "Town"
+        "Avg_GPA": 1.9860169491525423,
+        "Count": 590,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 184,
-        "Gender": "Female",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 1.0869565217391304,
-        "School_Locale": "City"
+        "Avg_GPA": 1.4496402877697843,
+        "Count": 278,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 185,
-        "Gender": "Male",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 10.27027027027027,
-        "School_Locale": "City"
+        "Avg_GPA": 1.901006711409396,
+        "Count": 149,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 186,
-        "Gender": "Female",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 3.763440860215054,
-        "School_Locale": "Rural"
+        "Avg_GPA": 1.9258064516129032,
+        "Count": 310,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q3 (Middle 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 194,
-        "Gender": "Male",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 6.185567010309279,
-        "School_Locale": "Rural"
+        "Avg_GPA": 1.3945904954499495,
+        "Count": 989,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 216,
-        "Gender": "Female",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 3.7037037037037033,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.1517094017094016,
+        "Count": 234,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 186,
-        "Gender": "Male",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 5.913978494623656,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.6051829268292683,
+        "Count": 328,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 95,
-        "Gender": "Female",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 1.0526315789473684,
-        "School_Locale": "Town"
+        "Avg_GPA": 1.6708690987124464,
+        "Count": 932,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 94,
-        "Gender": "Male",
-        "Parent_Education": "Less than HS",
-        "STEM_Rate": 5.319148936170213,
-        "School_Locale": "Town"
+        "Avg_GPA": 1.983509234828496,
+        "Count": 379,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 1004,
-        "Gender": "Female",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 6.274900398406374,
-        "School_Locale": "City"
+        "Avg_GPA": 1.981673582295989,
+        "Count": 723,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 1006,
-        "Gender": "Male",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 13.419483101391648,
-        "School_Locale": "City"
+        "Avg_GPA": 1.783450704225352,
+        "Count": 284,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 657,
-        "Gender": "Female",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 4.26179604261796,
-        "School_Locale": "Rural"
+        "Avg_GPA": 2.302721088435374,
+        "Count": 147,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 695,
-        "Gender": "Male",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 12.23021582733813,
-        "School_Locale": "Rural"
+        "Avg_GPA": 2.2799773755656108,
+        "Count": 442,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q4 (Fourth 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 1193,
-        "Gender": "Female",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 6.454316848281643,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 1.9803974221267455,
+        "Count": 931,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "Low"
       },
       {
-        "Count": 1190,
-        "Gender": "Male",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 12.605042016806722,
-        "School_Locale": "Suburb"
+        "Avg_GPA": 2.0400763358778624,
+        "Count": 262,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "Medium"
       },
       {
-        "Count": 342,
-        "Gender": "Female",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 3.8011695906432745,
-        "School_Locale": "Town"
+        "Avg_GPA": 2.1564625850340136,
+        "Count": 441,
+        "Math_Interest": "Low",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "High"
       },
       {
-        "Count": 357,
-        "Gender": "Male",
-        "Parent_Education": "Some College",
-        "STEM_Rate": 13.445378151260504,
-        "School_Locale": "Town"
+        "Avg_GPA": 2.1578947368421053,
+        "Count": 950,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "Low"
+      },
+      {
+        "Avg_GPA": 2.1914414414414414,
+        "Count": 444,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "Medium"
+      },
+      {
+        "Avg_GPA": 2.306712962962963,
+        "Count": 1080,
+        "Math_Interest": "Medium",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "High"
+      },
+      {
+        "Avg_GPA": 2.286231884057971,
+        "Count": 276,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "Low"
+      },
+      {
+        "Avg_GPA": 2.4671052631578947,
+        "Count": 228,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "Medium"
+      },
+      {
+        "Avg_GPA": 2.5366379310344827,
+        "Count": 812,
+        "Math_Interest": "High",
+        "SES_Quintile": "Q5 (Highest 20%)",
+        "Science_Interest": "High"
       }
     ],
-    "data-d6ee33c5000278e2ba65516cabc57719": [
+    "data-631688b1f65928d2aee7f16c184d5f3f": [
       {
-        "Avg_Income": 121049.03786468033,
-        "Count": 1611,
-        "Parent_Education": "Bachelor's"
+        "Count": 3295,
+        "Math_Score": 45.29814352048558,
+        "SES_Quintile": "Q1 (Lowest 20%)"
       },
       {
-        "Avg_Income": 160476.60311958406,
-        "Count": 577,
-        "Parent_Education": "Graduate+"
+        "Count": 3611,
+        "Math_Score": 47.446629216283576,
+        "SES_Quintile": "Q2 (Second 20%)"
       },
       {
-        "Avg_Income": 55756.48202710666,
-        "Count": 6788,
-        "Parent_Education": "High School"
+        "Count": 4144,
+        "Math_Score": 49.930422321428566,
+        "SES_Quintile": "Q3 (Middle 20%)"
       },
       {
-        "Avg_Income": 28000.0,
-        "Count": 1340,
-        "Parent_Education": "Less than HS"
+        "Count": 4458,
+        "Math_Score": 52.658895379093764,
+        "SES_Quintile": "Q4 (Fourth 20%)"
       },
       {
-        "Avg_Income": 94141.06145251397,
-        "Count": 6444,
-        "Parent_Education": "Some College"
+        "Count": 5424,
+        "Math_Score": 57.19381323746313,
+        "SES_Quintile": "Q5 (Highest 20%)"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-d6ee33c5000278e2ba65516cabc57719"
+        "name": "data-631688b1f65928d2aee7f16c184d5f3f"
       },
       "encoding": {
         "color": {
-          "field": "Avg_Income",
+          "field": "Math_Score",
           "legend": null,
           "scale": {
             "domain": [
-              20000,
-              180000
+              44,
+              56
             ],
-            "scheme": "greens"
+            "scheme": "blues"
           },
           "type": "quantitative"
         },
         "opacity": {
           "condition": {
-            "param": "edu_select",
+            "param": "ses_select",
             "value": 1
           },
           "value": 0.4
         },
         "tooltip": [
           {
-            "field": "Parent_Education",
+            "field": "SES_Quintile",
             "type": "nominal"
           },
           {
-            "field": "Avg_Income",
-            "format": "$,.0f",
-            "title": "Avg Income",
+            "field": "Math_Score",
+            "format": ".1f",
+            "title": "Avg Math Score",
             "type": "quantitative"
           },
           {
@@ -375,26 +410,32 @@
           }
         ],
         "x": {
-          "axis": {
-            "format": "$,.0f"
-          },
-          "field": "Avg_Income",
-          "title": "Average Family Income",
-          "type": "quantitative"
+          "field": "SES_Quintile",
+          "sort": [
+            "Q1 (Lowest 20%)",
+            "Q2 (Second 20%)",
+            "Q3 (Middle 20%)",
+            "Q4 (Fourth 20%)",
+            "Q5 (Highest 20%)"
+          ],
+          "title": "SES Quintile",
+          "type": "nominal"
         },
         "y": {
-          "field": "Parent_Education",
-          "sort": {
-            "field": "Avg_Income",
-            "order": "descending"
+          "field": "Math_Score",
+          "scale": {
+            "domain": [
+              44,
+              56
+            ]
           },
-          "title": "Parent Education",
-          "type": "nominal"
+          "title": "Avg Math Score",
+          "type": "quantitative"
         }
       },
       "height": 280,
       "mark": {
-        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopLeft": 4,
         "cornerRadiusTopRight": 4,
         "cursor": "pointer",
         "type": "bar"
@@ -403,48 +444,48 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click to filter STEM rates",
+        "subtitle": "Click to filter interest heatmap",
         "subtitleColor": "#E0E0E0",
-        "text": "Income by Parent Education"
+        "text": "Math Achievement by SES"
       },
-      "width": 300
+      "width": 280
     },
     {
       "data": {
-        "name": "data-6a2d5421decf9b22089a3de9ec1b7099"
+        "name": "data-04fe2afc6f41950473e124047a2ca6aa"
       },
       "encoding": {
         "color": {
-          "field": "STEM_Rate",
+          "field": "Avg_GPA",
           "legend": {
-            "title": "STEM %"
+            "title": "Avg GPA"
           },
           "scale": {
             "domain": [
-              20,
-              50
+              2.2,
+              3.4
             ],
-            "scheme": "purples"
+            "scheme": "viridis"
           },
           "type": "quantitative"
         },
         "tooltip": [
           {
-            "field": "Parent_Education",
+            "field": "SES_Quintile",
             "type": "nominal"
           },
           {
-            "field": "School_Locale",
+            "field": "Math_Interest",
             "type": "nominal"
           },
           {
-            "field": "Gender",
+            "field": "Science_Interest",
             "type": "nominal"
           },
           {
-            "field": "STEM_Rate",
-            "format": ".1f",
-            "title": "STEM Rate (%)",
+            "field": "Avg_GPA",
+            "format": ".2f",
+            "title": "Avg GPA",
             "type": "quantitative"
           },
           {
@@ -455,19 +496,23 @@
           }
         ],
         "x": {
-          "field": "Gender",
-          "title": null,
+          "field": "Science_Interest",
+          "sort": [
+            "Low",
+            "Medium",
+            "High"
+          ],
+          "title": "Science Interest",
           "type": "nominal"
         },
         "y": {
-          "field": "School_Locale",
+          "field": "Math_Interest",
           "sort": [
-            "City",
-            "Suburb",
-            "Town",
-            "Rural"
+            "Low",
+            "Medium",
+            "High"
           ],
-          "title": "School Location",
+          "title": "Math Interest",
           "type": "nominal"
         }
       },
@@ -478,24 +523,24 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "STEM Rate by Locale x Gender"
+        "text": "GPA by Math & Science Interest"
       },
       "transform": [
         {
           "filter": {
-            "param": "edu_select"
+            "param": "ses_select"
           }
         }
       ],
-      "width": 200
+      "width": 220
     }
   ],
   "params": [
     {
-      "name": "edu_select",
+      "name": "ses_select",
       "select": {
         "fields": [
-          "Parent_Education"
+          "SES_Quintile"
         ],
         "type": "point"
       },

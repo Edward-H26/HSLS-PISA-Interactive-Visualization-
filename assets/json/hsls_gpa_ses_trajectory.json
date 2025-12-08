@@ -21,436 +21,1404 @@
     }
   },
   "datasets": {
-    "data-6030746dc64f96c55621ab6ca0bd4289": [
+    "data-937632e0282d858d22f5ef576b5ec5e2": [
       {
-        "Count": 2271,
-        "GPA": 2.4689564068692205,
-        "Grade": "9th",
-        "SES_Quintile": "Lowest 20%"
+        "id": "09",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 2678,
-        "GPA": 2.621732636295743,
-        "Grade": "9th",
-        "SES_Quintile": "Second 20%"
+        "id": "23",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 3207,
-        "GPA": 2.761303398815092,
-        "Grade": "9th",
-        "SES_Quintile": "Middle 20%"
+        "id": "25",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 3622,
-        "GPA": 2.9262838210933184,
-        "Grade": "9th",
-        "SES_Quintile": "Fourth 20%"
+        "id": "33",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 4688,
-        "GPA": 3.2742107508532423,
-        "Grade": "9th",
-        "SES_Quintile": "Highest 20%"
+        "id": "44",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 2231,
-        "GPA": 2.467951591214702,
-        "Grade": "10th",
-        "SES_Quintile": "Lowest 20%"
+        "id": "50",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 2639,
-        "GPA": 2.613774156877605,
-        "Grade": "10th",
-        "SES_Quintile": "Second 20%"
+        "id": "34",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 3170,
-        "GPA": 2.7369873817034702,
-        "Grade": "10th",
-        "SES_Quintile": "Middle 20%"
+        "id": "36",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 3590,
-        "GPA": 2.893802228412256,
-        "Grade": "10th",
-        "SES_Quintile": "Fourth 20%"
+        "id": "42",
+        "region": "Northeast",
+        "stem_count": 477.0
       },
       {
-        "Count": 4657,
-        "GPA": 3.2270238350869658,
-        "Grade": "10th",
-        "SES_Quintile": "Highest 20%"
+        "id": "17",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 2208,
-        "GPA": 2.497848731884058,
-        "Grade": "11th",
-        "SES_Quintile": "Lowest 20%"
+        "id": "18",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 2620,
-        "GPA": 2.634828244274809,
-        "Grade": "11th",
-        "SES_Quintile": "Second 20%"
+        "id": "26",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 3146,
-        "GPA": 2.783455181182454,
-        "Grade": "11th",
-        "SES_Quintile": "Middle 20%"
+        "id": "39",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 3574,
-        "GPA": 2.9090654728595413,
-        "Grade": "11th",
-        "SES_Quintile": "Fourth 20%"
+        "id": "55",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 4647,
-        "GPA": 3.2249300624058534,
-        "Grade": "11th",
-        "SES_Quintile": "Highest 20%"
+        "id": "19",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 2271,
-        "GPA": 2.6235138705416117,
-        "Grade": "12th",
-        "SES_Quintile": "Lowest 20%"
+        "id": "20",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 2678,
-        "GPA": 2.7534540702016432,
-        "Grade": "12th",
-        "SES_Quintile": "Second 20%"
+        "id": "27",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 3207,
-        "GPA": 2.8790146554412224,
-        "Grade": "12th",
-        "SES_Quintile": "Middle 20%"
+        "id": "29",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 3622,
-        "GPA": 2.987575924903368,
-        "Grade": "12th",
-        "SES_Quintile": "Fourth 20%"
+        "id": "31",
+        "region": "Midwest",
+        "stem_count": 714.0
       },
       {
-        "Count": 4688,
-        "GPA": 3.2907423208191124,
-        "Grade": "12th",
-        "SES_Quintile": "Highest 20%"
+        "id": "38",
+        "region": "Midwest",
+        "stem_count": 714.0
+      },
+      {
+        "id": "46",
+        "region": "Midwest",
+        "stem_count": 714.0
+      },
+      {
+        "id": "10",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "11",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "12",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "13",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "24",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "37",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "45",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "51",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "54",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "01",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "21",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "28",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "40",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "47",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "48",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "05",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "22",
+        "region": "South",
+        "stem_count": 1047.0
+      },
+      {
+        "id": "04",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "08",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "16",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "30",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "32",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "35",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "49",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "56",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "02",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "06",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "15",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "41",
+        "region": "West",
+        "stem_count": 420.0
+      },
+      {
+        "id": "53",
+        "region": "West",
+        "stem_count": 420.0
       }
     ],
-    "data-708ed5db3e3fd7ab397f39f2e19561d7": [
+    "data-fa107e546d0c18ee02b0251802bca5af": [
       {
-        "Count": 1194,
-        "GPA_Quartile": "Low",
-        "SES_Quintile": "Fourth 20%",
-        "STEM_Rate": 7.6214405360134005
+        "avg_gpa": 2.1875,
+        "count": 36,
+        "grade": "10th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Midwest"
       },
       {
-        "Count": 928,
-        "GPA_Quartile": "Med-Low",
-        "SES_Quintile": "Fourth 20%",
-        "STEM_Rate": 12.068965517241379
+        "avg_gpa": 2.423076923076923,
+        "count": 26,
+        "grade": "11th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Midwest"
       },
       {
-        "Count": 990,
-        "GPA_Quartile": "Med-High",
-        "SES_Quintile": "Fourth 20%",
-        "STEM_Rate": 15.353535353535353
+        "avg_gpa": 2.9545454545454546,
+        "count": 22,
+        "grade": "12th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Midwest"
       },
       {
-        "Count": 510,
-        "GPA_Quartile": "High",
-        "SES_Quintile": "Fourth 20%",
-        "STEM_Rate": 20.588235294117645
+        "avg_gpa": 2.1666666666666665,
+        "count": 36,
+        "grade": "9th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Midwest"
       },
       {
-        "Count": 815,
-        "GPA_Quartile": "Low",
-        "SES_Quintile": "Highest 20%",
-        "STEM_Rate": 12.515337423312884
+        "avg_gpa": 3.1846707818930042,
+        "count": 486,
+        "grade": "10th Grade",
+        "race": "Asian",
+        "region": "Midwest"
       },
       {
-        "Count": 1033,
-        "GPA_Quartile": "Med-Low",
-        "SES_Quintile": "Highest 20%",
-        "STEM_Rate": 16.747337850919653
+        "avg_gpa": 3.197961373390558,
+        "count": 466,
+        "grade": "11th Grade",
+        "race": "Asian",
+        "region": "Midwest"
       },
       {
-        "Count": 1674,
-        "GPA_Quartile": "Med-High",
-        "SES_Quintile": "Highest 20%",
-        "STEM_Rate": 21.02747909199522
+        "avg_gpa": 3.2147577092511015,
+        "count": 454,
+        "grade": "12th Grade",
+        "race": "Asian",
+        "region": "Midwest"
       },
       {
-        "Count": 1166,
-        "GPA_Quartile": "High",
-        "SES_Quintile": "Highest 20%",
-        "STEM_Rate": 34.6483704974271
+        "avg_gpa": 3.199410609037328,
+        "count": 509,
+        "grade": "9th Grade",
+        "race": "Asian",
+        "region": "Midwest"
       },
       {
-        "Count": 1175,
-        "GPA_Quartile": "Low",
-        "SES_Quintile": "Lowest 20%",
-        "STEM_Rate": 4.595744680851064
+        "avg_gpa": 2.3306451612903225,
+        "count": 558,
+        "grade": "10th Grade",
+        "race": "Black/African American",
+        "region": "Midwest"
       },
       {
-        "Count": 521,
-        "GPA_Quartile": "Med-Low",
-        "SES_Quintile": "Lowest 20%",
-        "STEM_Rate": 6.71785028790787
+        "avg_gpa": 2.448292220113852,
+        "count": 527,
+        "grade": "11th Grade",
+        "race": "Black/African American",
+        "region": "Midwest"
       },
       {
-        "Count": 442,
-        "GPA_Quartile": "Med-High",
-        "SES_Quintile": "Lowest 20%",
-        "STEM_Rate": 10.407239819004525
+        "avg_gpa": 2.590767634854772,
+        "count": 482,
+        "grade": "12th Grade",
+        "race": "Black/African American",
+        "region": "Midwest"
       },
       {
-        "Count": 133,
-        "GPA_Quartile": "High",
-        "SES_Quintile": "Lowest 20%",
-        "STEM_Rate": 15.037593984962406
+        "avg_gpa": 2.2140549273021,
+        "count": 619,
+        "grade": "9th Grade",
+        "race": "Black/African American",
+        "region": "Midwest"
       },
       {
-        "Count": 1273,
-        "GPA_Quartile": "Low",
-        "SES_Quintile": "Middle 20%",
-        "STEM_Rate": 5.970149253731343
+        "avg_gpa": 2.4166666666666665,
+        "count": 93,
+        "grade": "10th Grade",
+        "race": "Hispanic",
+        "region": "Midwest"
       },
       {
-        "Count": 765,
-        "GPA_Quartile": "Med-Low",
-        "SES_Quintile": "Middle 20%",
-        "STEM_Rate": 10.980392156862745
+        "avg_gpa": 2.3494318181818183,
+        "count": 88,
+        "grade": "11th Grade",
+        "race": "Hispanic",
+        "region": "Midwest"
       },
       {
-        "Count": 805,
-        "GPA_Quartile": "Med-High",
-        "SES_Quintile": "Middle 20%",
-        "STEM_Rate": 12.546583850931677
+        "avg_gpa": 2.4505813953488373,
+        "count": 86,
+        "grade": "12th Grade",
+        "race": "Hispanic",
+        "region": "Midwest"
       },
       {
-        "Count": 364,
-        "GPA_Quartile": "High",
-        "SES_Quintile": "Middle 20%",
-        "STEM_Rate": 19.505494505494507
+        "avg_gpa": 2.3186274509803924,
+        "count": 102,
+        "grade": "9th Grade",
+        "race": "Hispanic",
+        "region": "Midwest"
       },
       {
-        "Count": 1202,
-        "GPA_Quartile": "Low",
-        "SES_Quintile": "Second 20%",
-        "STEM_Rate": 3.6605657237936775
+        "avg_gpa": 2.4575856443719415,
+        "count": 613,
+        "grade": "10th Grade",
+        "race": "More than one race",
+        "region": "Midwest"
       },
       {
-        "Count": 645,
-        "GPA_Quartile": "Med-Low",
-        "SES_Quintile": "Second 20%",
-        "STEM_Rate": 8.217054263565892
+        "avg_gpa": 2.5069444444444446,
+        "count": 576,
+        "grade": "11th Grade",
+        "race": "More than one race",
+        "region": "Midwest"
       },
       {
-        "Count": 620,
-        "GPA_Quartile": "Med-High",
-        "SES_Quintile": "Second 20%",
-        "STEM_Rate": 12.741935483870966
+        "avg_gpa": 2.6547406082289804,
+        "count": 559,
+        "grade": "12th Grade",
+        "race": "More than one race",
+        "region": "Midwest"
       },
       {
-        "Count": 211,
-        "GPA_Quartile": "High",
-        "SES_Quintile": "Second 20%",
-        "STEM_Rate": 18.95734597156398
+        "avg_gpa": 2.453030303030303,
+        "count": 660,
+        "grade": "9th Grade",
+        "race": "More than one race",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.615432098765432,
+        "count": 405,
+        "grade": "10th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.6981382978723403,
+        "count": 376,
+        "grade": "11th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.850852272727273,
+        "count": 352,
+        "grade": "12th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.566705336426914,
+        "count": 431,
+        "grade": "9th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.921448953709575,
+        "count": 3154,
+        "grade": "10th Grade",
+        "race": "Unknown",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.961858869650441,
+        "count": 3061,
+        "grade": "11th Grade",
+        "race": "Unknown",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 3.1066350710900474,
+        "count": 2954,
+        "grade": "12th Grade",
+        "race": "Unknown",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.8949175824175826,
+        "count": 3276,
+        "grade": "9th Grade",
+        "race": "Unknown",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.8636363636363638,
+        "count": 11,
+        "grade": "10th Grade",
+        "race": "White",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.727272727272727,
+        "count": 11,
+        "grade": "11th Grade",
+        "race": "White",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.5454545454545454,
+        "count": 11,
+        "grade": "12th Grade",
+        "race": "White",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 2.6666666666666665,
+        "count": 12,
+        "grade": "9th Grade",
+        "race": "White",
+        "region": "Midwest"
+      },
+      {
+        "avg_gpa": 3.0555555555555554,
+        "count": 9,
+        "grade": "10th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 3.1363636363636362,
+        "count": 11,
+        "grade": "11th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.875,
+        "count": 12,
+        "grade": "12th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.8181818181818183,
+        "count": 11,
+        "grade": "9th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 3.2193708609271523,
+        "count": 302,
+        "grade": "10th Grade",
+        "race": "Asian",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 3.2322635135135136,
+        "count": 296,
+        "grade": "11th Grade",
+        "race": "Asian",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 3.244773519163763,
+        "count": 287,
+        "grade": "12th Grade",
+        "race": "Asian",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 3.2754934210526314,
+        "count": 304,
+        "grade": "9th Grade",
+        "race": "Asian",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.2744565217391304,
+        "count": 276,
+        "grade": "10th Grade",
+        "race": "Black/African American",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.435515873015873,
+        "count": 252,
+        "grade": "11th Grade",
+        "race": "Black/African American",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.5642857142857145,
+        "count": 245,
+        "grade": "12th Grade",
+        "race": "Black/African American",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.259228187919463,
+        "count": 298,
+        "grade": "9th Grade",
+        "race": "Black/African American",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.4375,
+        "count": 56,
+        "grade": "10th Grade",
+        "race": "Hispanic",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.4680851063829787,
+        "count": 47,
+        "grade": "11th Grade",
+        "race": "Hispanic",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.6666666666666665,
+        "count": 48,
+        "grade": "12th Grade",
+        "race": "Hispanic",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.3916666666666666,
+        "count": 60,
+        "grade": "9th Grade",
+        "race": "Hispanic",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.4166666666666665,
+        "count": 414,
+        "grade": "10th Grade",
+        "race": "More than one race",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.5846456692913384,
+        "count": 381,
+        "grade": "11th Grade",
+        "race": "More than one race",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.6987704918032787,
+        "count": 366,
+        "grade": "12th Grade",
+        "race": "More than one race",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.4041019955654104,
+        "count": 451,
+        "grade": "9th Grade",
+        "race": "More than one race",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.758771929824561,
+        "count": 228,
+        "grade": "10th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.807603686635945,
+        "count": 217,
+        "grade": "11th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.8949275362318843,
+        "count": 207,
+        "grade": "12th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.6807851239669422,
+        "count": 242,
+        "grade": "9th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.861968085106383,
+        "count": 1880,
+        "grade": "10th Grade",
+        "race": "Unknown",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.925951086956522,
+        "count": 1840,
+        "grade": "11th Grade",
+        "race": "Unknown",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 3.040399774774775,
+        "count": 1776,
+        "grade": "12th Grade",
+        "race": "Unknown",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.862473903966597,
+        "count": 1916,
+        "grade": "9th Grade",
+        "race": "Unknown",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.25,
+        "count": 12,
+        "grade": "10th Grade",
+        "race": "White",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.5,
+        "count": 12,
+        "grade": "11th Grade",
+        "race": "White",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.5625,
+        "count": 12,
+        "grade": "12th Grade",
+        "race": "White",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.375,
+        "count": 12,
+        "grade": "9th Grade",
+        "race": "White",
+        "region": "Northeast"
+      },
+      {
+        "avg_gpa": 2.4875,
+        "count": 40,
+        "grade": "10th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.5833333333333335,
+        "count": 39,
+        "grade": "11th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.7837837837837838,
+        "count": 37,
+        "grade": "12th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.3697916666666665,
+        "count": 48,
+        "grade": "9th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 3.1484018264840183,
+        "count": 657,
+        "grade": "10th Grade",
+        "race": "Asian",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 3.1428012519561817,
+        "count": 639,
+        "grade": "11th Grade",
+        "race": "Asian",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 3.1616,
+        "count": 625,
+        "grade": "12th Grade",
+        "race": "Asian",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 3.205137481910275,
+        "count": 691,
+        "grade": "9th Grade",
+        "race": "Asian",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.3757192174913695,
+        "count": 869,
+        "grade": "10th Grade",
+        "race": "Black/African American",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.46760391198044,
+        "count": 818,
+        "grade": "11th Grade",
+        "race": "Black/African American",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.661558109833972,
+        "count": 783,
+        "grade": "12th Grade",
+        "race": "Black/African American",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.3140625,
+        "count": 960,
+        "grade": "9th Grade",
+        "race": "Black/African American",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.3207070707070705,
+        "count": 99,
+        "grade": "10th Grade",
+        "race": "Hispanic",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.4195402298850577,
+        "count": 87,
+        "grade": "11th Grade",
+        "race": "Hispanic",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.574404761904762,
+        "count": 84,
+        "grade": "12th Grade",
+        "race": "Hispanic",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.2217391304347824,
+        "count": 115,
+        "grade": "9th Grade",
+        "race": "Hispanic",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.575657894736842,
+        "count": 1064,
+        "grade": "10th Grade",
+        "race": "More than one race",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.65412004069176,
+        "count": 983,
+        "grade": "11th Grade",
+        "race": "More than one race",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.7857894736842104,
+        "count": 950,
+        "grade": "12th Grade",
+        "race": "More than one race",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.501948051948052,
+        "count": 1155,
+        "grade": "9th Grade",
+        "race": "More than one race",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.727979274611399,
+        "count": 579,
+        "grade": "10th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.7117805755395685,
+        "count": 556,
+        "grade": "11th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.844223484848485,
+        "count": 528,
+        "grade": "12th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.656807131280389,
+        "count": 617,
+        "grade": "9th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.807717041800643,
+        "count": 4665,
+        "grade": "10th Grade",
+        "race": "Unknown",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.8519455690508324,
+        "count": 4446,
+        "grade": "11th Grade",
+        "race": "Unknown",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 3.0376023391812867,
+        "count": 4275,
+        "grade": "12th Grade",
+        "race": "Unknown",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.8030456852791876,
+        "count": 4925,
+        "grade": "9th Grade",
+        "race": "Unknown",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.5,
+        "count": 21,
+        "grade": "10th Grade",
+        "race": "White",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.6666666666666665,
+        "count": 18,
+        "grade": "11th Grade",
+        "race": "White",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.764705882352941,
+        "count": 17,
+        "grade": "12th Grade",
+        "race": "White",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.4782608695652173,
+        "count": 23,
+        "grade": "9th Grade",
+        "race": "White",
+        "region": "South"
+      },
+      {
+        "avg_gpa": 2.1666666666666665,
+        "count": 39,
+        "grade": "10th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.35,
+        "count": 35,
+        "grade": "11th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.5303030303030303,
+        "count": 33,
+        "grade": "12th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 1.9846938775510203,
+        "count": 49,
+        "grade": "9th Grade",
+        "race": "Am. Indian/Alaska Native",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 3.0145228215767634,
+        "count": 241,
+        "grade": "10th Grade",
+        "race": "Asian",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 3.0144628099173554,
+        "count": 242,
+        "grade": "11th Grade",
+        "race": "Asian",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 3.052801724137931,
+        "count": 232,
+        "grade": "12th Grade",
+        "race": "Asian",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 3.1254826254826256,
+        "count": 259,
+        "grade": "9th Grade",
+        "race": "Asian",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.327358490566038,
+        "count": 265,
+        "grade": "10th Grade",
+        "race": "Black/African American",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.501008064516129,
+        "count": 248,
+        "grade": "11th Grade",
+        "race": "Black/African American",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.72972972972973,
+        "count": 222,
+        "grade": "12th Grade",
+        "race": "Black/African American",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.335431654676259,
+        "count": 278,
+        "grade": "9th Grade",
+        "race": "Black/African American",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.0535714285714284,
+        "count": 84,
+        "grade": "10th Grade",
+        "race": "Hispanic",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.340625,
+        "count": 80,
+        "grade": "11th Grade",
+        "race": "Hispanic",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.7573529411764706,
+        "count": 68,
+        "grade": "12th Grade",
+        "race": "Hispanic",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.068681318681319,
+        "count": 91,
+        "grade": "9th Grade",
+        "race": "Hispanic",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.388646288209607,
+        "count": 687,
+        "grade": "10th Grade",
+        "race": "More than one race",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.5359968354430378,
+        "count": 632,
+        "grade": "11th Grade",
+        "race": "More than one race",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.752986348122867,
+        "count": 586,
+        "grade": "12th Grade",
+        "race": "More than one race",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.3465211459754434,
+        "count": 733,
+        "grade": "9th Grade",
+        "race": "More than one race",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.605769230769231,
+        "count": 442,
+        "grade": "10th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.749384236453202,
+        "count": 406,
+        "grade": "11th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.84906914893617,
+        "count": 376,
+        "grade": "12th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.6247323340471094,
+        "count": 467,
+        "grade": "9th Grade",
+        "race": "Native Hawaiian/Pacific Islander",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.8011775362318843,
+        "count": 1656,
+        "grade": "10th Grade",
+        "race": "Unknown",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.898407643312102,
+        "count": 1570,
+        "grade": "11th Grade",
+        "race": "Unknown",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 3.0379554655870447,
+        "count": 1482,
+        "grade": "12th Grade",
+        "race": "Unknown",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.8154727793696277,
+        "count": 1745,
+        "grade": "9th Grade",
+        "race": "Unknown",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.5625,
+        "count": 44,
+        "grade": "10th Grade",
+        "race": "White",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.7083333333333335,
+        "count": 42,
+        "grade": "11th Grade",
+        "race": "White",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.847560975609756,
+        "count": 41,
+        "grade": "12th Grade",
+        "race": "White",
+        "region": "West"
+      },
+      {
+        "avg_gpa": 2.6458333333333335,
+        "count": 48,
+        "grade": "9th Grade",
+        "race": "White",
+        "region": "West"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-6030746dc64f96c55621ab6ca0bd4289"
+        "format": {
+          "feature": "states",
+          "type": "topojson"
+        },
+        "url": "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"
       },
       "encoding": {
         "color": {
-          "field": "SES_Quintile",
-          "legend": {
-            "orient": "top",
-            "title": "SES Quintile"
-          },
-          "scale": {
-            "domain": [
-              "Lowest 20%",
-              "Second 20%",
-              "Middle 20%",
-              "Fourth 20%",
-              "Highest 20%"
-            ],
-            "scheme": "blues"
-          },
-          "type": "nominal"
-        },
-        "opacity": {
           "condition": {
-            "param": "ses_select",
-            "value": 1
+            "empty": true,
+            "field": "stem_count",
+            "legend": {
+              "direction": "horizontal",
+              "format": ",d",
+              "gradientLength": 200,
+              "gradientThickness": 12,
+              "labelFontSize": 10,
+              "labelPadding": 8,
+              "offset": 15,
+              "orient": "bottom",
+              "padding": 12,
+              "titleFontSize": 11,
+              "titlePadding": 10
+            },
+            "param": "region_select",
+            "scale": {
+              "domain": [
+                400,
+                1100
+              ],
+              "scheme": "oranges"
+            },
+            "title": "STEM Major Student Count",
+            "type": "quantitative"
           },
-          "value": 0.3
+          "value": "#F0F0F0"
+        },
+        "strokeWidth": {
+          "condition": {
+            "empty": true,
+            "param": "region_select",
+            "value": 3
+          },
+          "value": 1.5
         },
         "tooltip": [
           {
-            "field": "SES_Quintile",
+            "field": "region",
+            "title": "Region",
             "type": "nominal"
           },
           {
-            "field": "Grade",
+            "field": "stem_count",
+            "format": ",d",
+            "title": "STEM Major Students",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "height": 350,
+      "mark": {
+        "stroke": "white",
+        "strokeWidth": 2,
+        "type": "geoshape"
+      },
+      "name": "view_1",
+      "projection": {
+        "type": "albersUsa"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "subtitle": "Click regions on the map to filter GPA trajectories by geographic area",
+        "subtitleColor": "#E0E0E0",
+        "text": "Regional STEM Major Enrollment Counts in 2016"
+      },
+      "transform": [
+        {
+          "from": {
+            "data": {
+              "name": "data-937632e0282d858d22f5ef576b5ec5e2"
+            },
+            "fields": [
+              "region",
+              "stem_count"
+            ],
+            "key": "id"
+          },
+          "lookup": "id"
+        }
+      ],
+      "width": 475
+    },
+    {
+      "data": {
+        "name": "data-fa107e546d0c18ee02b0251802bca5af"
+      },
+      "encoding": {
+        "color": {
+          "field": "race",
+          "legend": {
+            "columns": 4,
+            "direction": "horizontal",
+            "labelFontSize": 10,
+            "labelLimit": 150,
+            "offset": 10,
+            "orient": "bottom",
+            "padding": 8,
+            "symbolSize": 80,
+            "titleFontSize": 11,
+            "titlePadding": 8
+          },
+          "scale": {
+            "domain": [
+              "White",
+              "Black/African American",
+              "Hispanic",
+              "Asian",
+              "More than one race",
+              "Am. Indian/Alaska Native",
+              "Native Hawaiian/Pacific Islander"
+            ],
+            "range": [
+              "#0072B2",
+              "#D55E00",
+              "#E69F00",
+              "#009E73",
+              "#CC79A7",
+              "#F0E442",
+              "#56B4E9"
+            ]
+          },
+          "sort": [
+            "White",
+            "Black/African American",
+            "Hispanic",
+            "Asian",
+            "More than one race",
+            "Am. Indian/Alaska Native",
+            "Native Hawaiian/Pacific Islander"
+          ],
+          "title": "Race/Ethnicity",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "race",
+            "title": "Race/Ethnicity",
             "type": "nominal"
           },
           {
-            "field": "GPA",
+            "field": "grade",
+            "title": "Grade",
+            "type": "ordinal"
+          },
+          {
+            "field": "avg_gpa",
             "format": ".2f",
+            "title": "Average GPA",
             "type": "quantitative"
           },
           {
-            "field": "Count",
+            "field": "count",
             "format": ",d",
             "title": "Students",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Grade",
+          "axis": {
+            "labelAngle": -45,
+            "labelColor": "#E0E0E0",
+            "labelFontSize": 12,
+            "labelPadding": 10,
+            "titleColor": "#FFFFFF",
+            "titleFontSize": 14
+          },
+          "field": "grade",
           "sort": [
-            "9th",
-            "10th",
-            "11th",
-            "12th"
+            "9th Grade",
+            "10th Grade",
+            "11th Grade",
+            "12th Grade"
           ],
           "title": "Grade Level",
-          "type": "nominal"
+          "type": "ordinal"
         },
         "y": {
-          "field": "GPA",
+          "axis": {
+            "format": ".2f",
+            "labelColor": "#E0E0E0",
+            "labelFontSize": 14,
+            "titleColor": "#FFFFFF",
+            "titleFontSize": 14
+          },
+          "field": "avg_gpa",
           "scale": {
             "domain": [
-              2.4,
-              3.4
+              2.0,
+              3.5
             ]
           },
           "title": "Average GPA",
           "type": "quantitative"
         }
       },
-      "height": 320,
+      "height": 350,
       "mark": {
-        "cursor": "pointer",
         "point": {
           "filled": true,
-          "size": 80
+          "size": 60
         },
-        "strokeWidth": 3,
+        "strokeWidth": 2.5,
         "type": "line"
       },
-      "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click SES level to filter STEM rates",
+        "subtitle": "Average GPA progression filtered by selected region",
         "subtitleColor": "#E0E0E0",
-        "text": "GPA Trajectory by SES"
-      },
-      "width": 320
-    },
-    {
-      "data": {
-        "name": "data-708ed5db3e3fd7ab397f39f2e19561d7"
-      },
-      "encoding": {
-        "color": {
-          "field": "STEM_Rate",
-          "legend": {
-            "title": "STEM %"
-          },
-          "scale": {
-            "domain": [
-              5,
-              35
-            ],
-            "scheme": "oranges"
-          },
-          "type": "quantitative"
-        },
-        "tooltip": [
-          {
-            "field": "SES_Quintile",
-            "type": "nominal"
-          },
-          {
-            "field": "GPA_Quartile",
-            "type": "nominal"
-          },
-          {
-            "field": "STEM_Rate",
-            "format": ".1f",
-            "title": "STEM Rate (%)",
-            "type": "quantitative"
-          },
-          {
-            "field": "Count",
-            "format": ",d",
-            "title": "Students",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "field": "GPA_Quartile",
-          "sort": [
-            "Low",
-            "Med-Low",
-            "Med-High",
-            "High"
-          ],
-          "title": "GPA Quartile (12th Grade)",
-          "type": "nominal"
-        },
-        "y": {
-          "field": "SES_Quintile",
-          "sort": [
-            "Lowest 20%",
-            "Second 20%",
-            "Middle 20%",
-            "Fourth 20%",
-            "Highest 20%"
-          ],
-          "title": "SES Quintile",
-          "type": "nominal"
-        }
-      },
-      "height": 320,
-      "mark": {
-        "type": "rect"
-      },
-      "title": {
-        "color": "#FFFFFF",
-        "fontSize": 14,
-        "text": "STEM Rate by SES x GPA"
+        "text": "GPA Trajectories by Race/Ethnicity (9th-12th Grade)"
       },
       "transform": [
         {
           "filter": {
-            "param": "ses_select"
+            "empty": true,
+            "param": "region_select"
           }
         }
       ],
-      "width": 250
+      "width": 400
     }
   ],
   "params": [
     {
-      "name": "ses_select",
+      "name": "region_select",
       "select": {
         "fields": [
-          "SES_Quintile"
+          "region"
         ],
         "type": "point"
       },

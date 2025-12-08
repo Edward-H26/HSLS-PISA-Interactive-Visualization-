@@ -21,589 +21,2813 @@
     }
   },
   "datasets": {
-    "data-1396cc61359bbc067a1f7236b7171059": [
+    "data-46e8abca214e09af048c16ef558e7998": [
       {
-        "Anxiety_Level": "Very Low",
-        "CNT": "CHE",
-        "Count": 1669,
-        "Country": "Switzerland",
-        "Mean_Math": 548.4337243858598
-      },
-      {
-        "Anxiety_Level": "Low",
-        "CNT": "CHE",
-        "Count": 1067,
-        "Country": "Switzerland",
-        "Mean_Math": 519.2905060918463
-      },
-      {
-        "Anxiety_Level": "Medium",
-        "CNT": "CHE",
-        "Count": 918,
-        "Country": "Switzerland",
-        "Mean_Math": 507.57570588235296
-      },
-      {
-        "Anxiety_Level": "High",
-        "CNT": "CHE",
-        "Count": 754,
-        "Country": "Switzerland",
-        "Mean_Math": 487.9900079575597
-      },
-      {
-        "Anxiety_Level": "Very High",
-        "CNT": "CHE",
-        "Count": 767,
-        "Country": "Switzerland",
-        "Mean_Math": 482.38459452411996
-      },
-      {
-        "Anxiety_Level": "Very Low",
-        "CNT": "CZE",
-        "Count": 2286,
-        "Country": "Czech Rep.",
-        "Mean_Math": 546.5566080489939
-      },
-      {
-        "Anxiety_Level": "Low",
-        "CNT": "CZE",
-        "Count": 1668,
-        "Country": "Czech Rep.",
-        "Mean_Math": 508.41557254196647
-      },
-      {
-        "Anxiety_Level": "Medium",
-        "CNT": "CZE",
-        "Count": 1499,
-        "Country": "Czech Rep.",
-        "Mean_Math": 488.0371334222815
-      },
-      {
-        "Anxiety_Level": "High",
-        "CNT": "CZE",
-        "Count": 898,
-        "Country": "Czech Rep.",
-        "Mean_Math": 465.3741804008909
-      },
-      {
-        "Anxiety_Level": "Very High",
-        "CNT": "CZE",
-        "Count": 1216,
-        "Country": "Czech Rep.",
-        "Mean_Math": 462.59420230263163
-      },
-      {
-        "Anxiety_Level": "Very Low",
-        "CNT": "EST",
-        "Count": 1731,
-        "Country": "Estonia",
-        "Mean_Math": 558.2804350086654
-      },
-      {
-        "Anxiety_Level": "Low",
-        "CNT": "EST",
-        "Count": 1390,
-        "Country": "Estonia",
-        "Mean_Math": 520.9006215827337
-      },
-      {
-        "Anxiety_Level": "Medium",
-        "CNT": "EST",
-        "Count": 1099,
-        "Country": "Estonia",
-        "Mean_Math": 496.8002575068244
-      },
-      {
-        "Anxiety_Level": "High",
-        "CNT": "EST",
-        "Count": 845,
-        "Country": "Estonia",
-        "Mean_Math": 478.7625065088758
-      },
-      {
-        "Anxiety_Level": "Very High",
-        "CNT": "EST",
-        "Count": 953,
-        "Country": "Estonia",
-        "Mean_Math": 478.72147324239245
-      },
-      {
-        "Anxiety_Level": "Very Low",
-        "CNT": "HKG",
-        "Count": 1197,
-        "Country": "Hong Kong",
-        "Mean_Math": 585.4971695906432
-      },
-      {
-        "Anxiety_Level": "Low",
-        "CNT": "HKG",
-        "Count": 1057,
-        "Country": "Hong Kong",
-        "Mean_Math": 567.3956083254494
-      },
-      {
-        "Anxiety_Level": "Medium",
-        "CNT": "HKG",
-        "Count": 1000,
-        "Country": "Hong Kong",
-        "Mean_Math": 554.411625
-      },
-      {
-        "Anxiety_Level": "High",
-        "CNT": "HKG",
-        "Count": 1212,
-        "Country": "Hong Kong",
-        "Mean_Math": 516.5085099009901
-      },
-      {
-        "Anxiety_Level": "Very High",
-        "CNT": "HKG",
-        "Count": 1055,
-        "Country": "Hong Kong",
-        "Mean_Math": 515.5610654028436
-      },
-      {
-        "Anxiety_Level": "Very Low",
-        "CNT": "JPN",
-        "Count": 1089,
-        "Country": "Japan",
-        "Mean_Math": 552.2968595041323
-      },
-      {
-        "Anxiety_Level": "Low",
-        "CNT": "JPN",
-        "Count": 1023,
-        "Country": "Japan",
-        "Mean_Math": 542.1421388074292
-      },
-      {
-        "Anxiety_Level": "Medium",
-        "CNT": "JPN",
-        "Count": 1149,
-        "Country": "Japan",
-        "Mean_Math": 547.9890522193211
-      },
-      {
-        "Anxiety_Level": "High",
-        "CNT": "JPN",
-        "Count": 1103,
-        "Country": "Japan",
-        "Mean_Math": 526.8937479601088
-      },
-      {
-        "Anxiety_Level": "Very High",
-        "CNT": "JPN",
-        "Count": 1316,
-        "Country": "Japan",
-        "Mean_Math": 517.9048161094225
-      },
-      {
-        "Anxiety_Level": "Very Low",
-        "CNT": "KOR",
-        "Count": 1853,
-        "Country": "South Korea",
-        "Mean_Math": 559.1422245008096
-      },
-      {
-        "Anxiety_Level": "Low",
-        "CNT": "KOR",
-        "Count": 1425,
-        "Country": "South Korea",
-        "Mean_Math": 540.8871698245614
-      },
-      {
-        "Anxiety_Level": "Medium",
-        "CNT": "KOR",
-        "Count": 1114,
-        "Country": "South Korea",
-        "Mean_Math": 532.2850466786356
-      },
-      {
-        "Anxiety_Level": "High",
-        "CNT": "KOR",
-        "Count": 1053,
-        "Country": "South Korea",
-        "Mean_Math": 502.0771424501425
-      },
-      {
-        "Anxiety_Level": "Very High",
-        "CNT": "KOR",
-        "Count": 872,
-        "Country": "South Korea",
-        "Mean_Math": 503.42914793577984
-      },
-      {
-        "Anxiety_Level": "Very Low",
-        "CNT": "MAC",
-        "Count": 826,
-        "Country": "Macao",
-        "Mean_Math": 591.7129249394673
-      },
-      {
-        "Anxiety_Level": "Low",
-        "CNT": "MAC",
-        "Count": 804,
-        "Country": "Macao",
-        "Mean_Math": 571.5207238805971
-      },
-      {
-        "Anxiety_Level": "Medium",
-        "CNT": "MAC",
-        "Count": 845,
-        "Country": "Macao",
-        "Mean_Math": 549.92524852071
-      },
-      {
-        "Anxiety_Level": "High",
-        "CNT": "MAC",
-        "Count": 890,
-        "Country": "Macao",
-        "Mean_Math": 529.1342494382022
-      },
-      {
-        "Anxiety_Level": "Very High",
-        "CNT": "MAC",
-        "Count": 949,
-        "Country": "Macao",
-        "Mean_Math": 524.0283582718652
-      },
-      {
-        "Anxiety_Level": "Very Low",
         "CNT": "NLD",
-        "Count": 1563,
         "Country": "Netherlands",
-        "Mean_Math": 516.9419718490084
+        "Female": -0.5606686521958607,
+        "Gap": 0.50766498247109,
+        "Male": -0.05300366972477064
       },
       {
-        "Anxiety_Level": "Low",
-        "CNT": "NLD",
-        "Count": 1118,
-        "Country": "Netherlands",
-        "Mean_Math": 506.8222602862254
+        "CNT": "NZL",
+        "Country": "New Zealand",
+        "Female": -0.620719693877551,
+        "Gap": 0.4584240940870848,
+        "Male": -0.1622955997904662
       },
       {
-        "Anxiety_Level": "Medium",
-        "CNT": "NLD",
-        "Count": 700,
-        "Country": "Netherlands",
-        "Mean_Math": 503.7224942857143
+        "CNT": "DNK",
+        "Country": "Denmark",
+        "Female": -0.5807134515570934,
+        "Gap": 0.44164515887416655,
+        "Male": -0.13906829268292684
       },
       {
-        "Anxiety_Level": "High",
-        "CNT": "NLD",
-        "Count": 524,
-        "Country": "Netherlands",
-        "Mean_Math": 481.3506870229008
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Female": -0.6547508550185873,
+        "Gap": 0.40724299304775846,
+        "Male": -0.24750786197082889
       },
       {
-        "Anxiety_Level": "Very High",
-        "CNT": "NLD",
-        "Count": 447,
-        "Country": "Netherlands",
-        "Mean_Math": 461.69197762863536
+        "CNT": "CHL",
+        "Country": "Chile",
+        "Female": -0.7770939368061486,
+        "Gap": 0.3776862008806727,
+        "Male": -0.3994077359254759
       },
       {
-        "Anxiety_Level": "Very Low",
-        "CNT": "SGP",
-        "Count": 1478,
-        "Country": "Singapore",
-        "Mean_Math": 620.6475967523681
+        "CNT": "NOR",
+        "Country": "Norway",
+        "Female": -0.6522371460506706,
+        "Gap": 0.36600877885729216,
+        "Male": -0.28622836719337846
       },
       {
-        "Anxiety_Level": "Low",
-        "CNT": "SGP",
-        "Count": 1177,
-        "Country": "Singapore",
-        "Mean_Math": 595.5491911639763
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Female": -0.16224822150363785,
+        "Gap": 0.36139337516794046,
+        "Male": 0.19914515366430258
       },
       {
-        "Anxiety_Level": "Medium",
-        "CNT": "SGP",
-        "Count": 1302,
-        "Country": "Singapore",
-        "Mean_Math": 576.6225576036866
+        "CNT": "AUS",
+        "Country": "Australia",
+        "Female": -0.42572201804758003,
+        "Gap": 0.3612869163388738,
+        "Male": -0.06443510170870627
       },
       {
-        "Anxiety_Level": "High",
-        "CNT": "SGP",
-        "Count": 1332,
-        "Country": "Singapore",
-        "Mean_Math": 543.3263521021021
+        "CNT": "GBR",
+        "Country": "UK",
+        "Female": -0.4080411104429746,
+        "Gap": 0.3580088530374588,
+        "Male": -0.05003225740551583
       },
       {
-        "Anxiety_Level": "Very High",
-        "CNT": "SGP",
-        "Count": 1235,
-        "Country": "Singapore",
-        "Mean_Math": 534.1655222672065
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Female": -0.28953275944524154,
+        "Gap": 0.35472492513637166,
+        "Male": 0.06519216569113012
       },
       {
-        "Anxiety_Level": "Very Low",
+        "CNT": "FRA",
+        "Country": "France",
+        "Female": -0.21288967906637493,
+        "Gap": 0.3488120647522596,
+        "Male": 0.1359223856858847
+      },
+      {
+        "CNT": "JPN",
+        "Country": "Japan",
+        "Female": -0.6696145403704998,
+        "Gap": 0.3334084484574254,
+        "Male": -0.33620609191307443
+      },
+      {
+        "CNT": "CZE",
+        "Country": "Czech Rep.",
+        "Female": -0.4582077517314864,
+        "Gap": 0.3203224736507885,
+        "Male": -0.13788527808069792
+      },
+      {
+        "CNT": "HUN",
+        "Country": "Hungary",
+        "Female": -0.40378047358834246,
+        "Gap": 0.3170199866969567,
+        "Male": -0.08676048689138577
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Female": -0.45248011346670647,
+        "Gap": 0.3156475652167883,
+        "Male": -0.13683254824991822
+      },
+      {
+        "CNT": "SVN",
+        "Country": "Slovenia",
+        "Female": -0.5956007518796993,
+        "Gap": 0.2955603767563034,
+        "Male": -0.3000403751233959
+      },
+      {
+        "CNT": "POL",
+        "Country": "Poland",
+        "Female": -0.7037714285714286,
+        "Gap": 0.2904969224924013,
+        "Male": -0.4132745060790273
+      },
+      {
+        "CNT": "BRA",
+        "Country": "BRA",
+        "Female": -0.993833553675304,
+        "Gap": 0.2895479116410248,
+        "Male": -0.7042856420342792
+      },
+      {
+        "CNT": "SWE",
+        "Country": "Sweden",
+        "Female": -0.4259970588235294,
+        "Gap": 0.28517935049019605,
+        "Male": -0.14081770833333335
+      },
+      {
+        "CNT": "ISL",
+        "Country": "Iceland",
+        "Female": -0.3851255447032306,
+        "Gap": 0.2819025088527348,
+        "Male": -0.1032230358504958
+      },
+      {
+        "CNT": "CAN",
+        "Country": "Canada",
+        "Female": -0.25692785917340916,
+        "Gap": 0.2779698361849034,
+        "Male": 0.02104197701149425
+      },
+      {
         "CNT": "TAP",
-        "Count": 974,
         "Country": "TAP",
-        "Mean_Math": 565.2401642710473
+        "Female": -0.5853899255054984,
+        "Gap": 0.27714770328327615,
+        "Male": -0.30824222222222225
       },
       {
-        "Anxiety_Level": "Low",
-        "CNT": "TAP",
-        "Count": 1206,
-        "Country": "TAP",
-        "Mean_Math": 553.5198814262022
+        "CNT": "DEU",
+        "Country": "Germany",
+        "Female": -0.3279216192560175,
+        "Gap": 0.2762354476811135,
+        "Male": -0.05168617157490397
       },
       {
-        "Anxiety_Level": "Medium",
-        "CNT": "TAP",
-        "Count": 1129,
-        "Country": "TAP",
-        "Mean_Math": 550.7661806908769
+        "CNT": "SVK",
+        "Country": "Slovakia",
+        "Female": -0.5026448535564854,
+        "Gap": 0.27540317042728746,
+        "Male": -0.22724168312919793
       },
       {
-        "Anxiety_Level": "High",
-        "CNT": "TAP",
-        "Count": 1334,
-        "Country": "TAP",
-        "Mean_Math": 508.97003148425785
+        "CNT": "PER",
+        "Country": "PER",
+        "Female": -0.5966144641418211,
+        "Gap": 0.26740437204665607,
+        "Male": -0.329210092095165
       },
       {
-        "Anxiety_Level": "Very High",
-        "CNT": "TAP",
-        "Count": 1104,
-        "Country": "TAP",
-        "Mean_Math": 506.6505788043478
+        "CNT": "FIN",
+        "Country": "Finland",
+        "Female": -0.45927777247793944,
+        "Gap": 0.2662709350776012,
+        "Male": -0.19300683740033825
+      },
+      {
+        "CNT": "AUT",
+        "Country": "Austria",
+        "Female": -0.08340875290472502,
+        "Gap": 0.2620649242883728,
+        "Male": 0.1786561713836478
+      },
+      {
+        "CNT": "SGP",
+        "Country": "Singapore",
+        "Female": 0.10352733790523691,
+        "Gap": 0.26123985242708936,
+        "Male": 0.3647671903323263
+      },
+      {
+        "CNT": "IRL",
+        "Country": "Ireland",
+        "Female": -0.37747204545454544,
+        "Gap": 0.26116068355707034,
+        "Male": -0.11631136189747512
+      },
+      {
+        "CNT": "ITA",
+        "Country": "Italy",
+        "Female": -0.5464100501504514,
+        "Gap": 0.24516235784275914,
+        "Male": -0.30124769230769227
+      },
+      {
+        "CNT": "EST",
+        "Country": "Estonia",
+        "Female": -0.5120194266441821,
+        "Gap": 0.24500081967900794,
+        "Male": -0.26701860696517415
+      },
+      {
+        "CNT": "ESP",
+        "Country": "Spain",
+        "Female": -0.3080962596984336,
+        "Gap": 0.24058302848034463,
+        "Male": -0.06751323121808898
+      },
+      {
+        "CNT": "MNE",
+        "Country": "MNE",
+        "Female": -0.8605362577962578,
+        "Gap": 0.23838073345168853,
+        "Male": -0.6221555243445692
+      },
+      {
+        "CNT": "PRT",
+        "Country": "Portugal",
+        "Female": -0.489561921336582,
+        "Gap": 0.22818639121204481,
+        "Male": -0.2613755301245372
+      },
+      {
+        "CNT": "QUR",
+        "Country": "QUR",
+        "Female": -0.7524886716115982,
+        "Gap": 0.22555983506627342,
+        "Male": -0.5269288365453247
+      },
+      {
+        "CNT": "CRI",
+        "Country": "CRI",
+        "Female": -0.831296943231441,
+        "Gap": 0.22364369543673368,
+        "Male": -0.6076532477947073
+      },
+      {
+        "CNT": "QAZ",
+        "Country": "QAZ",
+        "Female": -0.49126702557200536,
+        "Gap": 0.22170793817834722,
+        "Male": -0.26955908739365814
+      },
+      {
+        "CNT": "LVA",
+        "Country": "Latvia",
+        "Female": -0.7347640204865558,
+        "Gap": 0.21982585254762443,
+        "Male": -0.5149381679389313
+      },
+      {
+        "CNT": "COL",
+        "Country": "COL",
+        "Female": -0.5317790402476781,
+        "Gap": 0.20460514878507052,
+        "Male": -0.32717389146260756
+      },
+      {
+        "CNT": "USA",
+        "Country": "USA",
+        "Female": -0.4407406659939455,
+        "Gap": 0.20399251214779165,
+        "Male": -0.23674815384615386
+      },
+      {
+        "CNT": "GRC",
+        "Country": "Greece",
+        "Female": -0.6517916723783413,
+        "Gap": 0.2018642711460108,
+        "Male": -0.44992740123233055
+      },
+      {
+        "CNT": "ARG",
+        "Country": "ARG",
+        "Female": -0.7611882414151925,
+        "Gap": 0.19380771317692336,
+        "Male": -0.5673805282382691
+      },
+      {
+        "CNT": "LTU",
+        "Country": "Lithuania",
+        "Female": -0.44871715229798737,
+        "Gap": 0.19038102367251447,
+        "Male": -0.2583361286254729
+      },
+      {
+        "CNT": "UZB",
+        "Country": "UZB",
+        "Female": -0.5138699917218543,
+        "Gap": 0.18809876642541162,
+        "Male": -0.3257712252964427
+      },
+      {
+        "CNT": "MDA",
+        "Country": "MDA",
+        "Female": -0.7140173098538778,
+        "Gap": 0.17031476466759965,
+        "Male": -0.5437025451862781
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Female": -0.6180074723846654,
+        "Gap": 0.1601193299698047,
+        "Male": -0.45788814241486064
+      },
+      {
+        "CNT": "JAM",
+        "Country": "JAM",
+        "Female": -0.8157345842531273,
+        "Gap": 0.15834569536423848,
+        "Male": -0.6573888888888888
+      },
+      {
+        "CNT": "ARE",
+        "Country": "ARE",
+        "Female": -0.32197930416745235,
+        "Gap": 0.1580193311076658,
+        "Male": -0.16395997305978655
+      },
+      {
+        "CNT": "PAN",
+        "Country": "PAN",
+        "Female": -0.6719206726013848,
+        "Gap": 0.15731421447827676,
+        "Male": -0.514606458123108
+      },
+      {
+        "CNT": "HRV",
+        "Country": "HRV",
+        "Female": -0.28279091549295776,
+        "Gap": 0.15348030718435243,
+        "Male": -0.12931060830860533
+      },
+      {
+        "CNT": "GTM",
+        "Country": "GTM",
+        "Female": -0.7809604777415852,
+        "Gap": 0.150486805425201,
+        "Male": -0.6304736723163842
+      },
+      {
+        "CNT": "BGR",
+        "Country": "BGR",
+        "Female": -0.7789248259860789,
+        "Gap": 0.14854628676155235,
+        "Male": -0.6303785392245266
+      },
+      {
+        "CNT": "MEX",
+        "Country": "Mexico",
+        "Female": -0.7248362474084313,
+        "Gap": 0.12349127993809073,
+        "Male": -0.6013449674703406
+      },
+      {
+        "CNT": "MLT",
+        "Country": "MLT",
+        "Female": -0.2511762773722628,
+        "Gap": 0.11059853442555431,
+        "Male": -0.14057774294670847
+      },
+      {
+        "CNT": "URY",
+        "Country": "URY",
+        "Female": -0.6734589438629877,
+        "Gap": 0.09609546991757822,
+        "Male": -0.5773634739454094
+      },
+      {
+        "CNT": "PRY",
+        "Country": "PRY",
+        "Female": -0.7029397496087637,
+        "Gap": 0.09454190202295798,
+        "Male": -0.6083978475858057
+      },
+      {
+        "CNT": "BRN",
+        "Country": "BRN",
+        "Female": -0.7024259522812892,
+        "Gap": 0.08448056191584075,
+        "Male": -0.6179453903654485
+      },
+      {
+        "CNT": "QAT",
+        "Country": "QAT",
+        "Female": -0.44216391574585634,
+        "Gap": 0.07570259659692014,
+        "Male": -0.3664613191489362
+      },
+      {
+        "CNT": "TUR",
+        "Country": "Turkey",
+        "Female": -0.5046686274509804,
+        "Gap": 0.07569026651918132,
+        "Male": -0.4289783609317991
+      },
+      {
+        "CNT": "VNM",
+        "Country": "VNM",
+        "Female": -0.6578118906455863,
+        "Gap": 0.07157990339797737,
+        "Male": -0.5862319872476089
+      },
+      {
+        "CNT": "KSV",
+        "Country": "KSV",
+        "Female": -0.7902756637168141,
+        "Gap": 0.07153031091876061,
+        "Male": -0.7187453527980535
+      },
+      {
+        "CNT": "MNG",
+        "Country": "MNG",
+        "Female": -0.6577469329073482,
+        "Gap": 0.07030778354365097,
+        "Male": -0.5874391493636972
+      },
+      {
+        "CNT": "ROU",
+        "Country": "ROU",
+        "Female": -0.47306449814126394,
+        "Gap": 0.058088296616570556,
+        "Male": -0.4149762015246934
+      },
+      {
+        "CNT": "GEO",
+        "Country": "GEO",
+        "Female": -0.5599647448015123,
+        "Gap": 0.053735735608458124,
+        "Male": -0.5062290091930541
+      },
+      {
+        "CNT": "SRB",
+        "Country": "SRB",
+        "Female": -0.6539379118844872,
+        "Gap": 0.04317682165892334,
+        "Male": -0.6107610902255639
+      },
+      {
+        "CNT": "KHM",
+        "Country": "KHM",
+        "Female": -0.8300462365591398,
+        "Gap": 0.038023298826303176,
+        "Male": -0.7920229377328366
+      },
+      {
+        "CNT": "DOM",
+        "Country": "DOM",
+        "Female": -0.8244272409778812,
+        "Gap": 0.004344704457296844,
+        "Male": -0.8200825365205844
+      },
+      {
+        "CNT": "MAR",
+        "Country": "MAR",
+        "Female": -0.7054256676557863,
+        "Gap": -0.012155520463025593,
+        "Male": -0.7175811881188119
+      },
+      {
+        "CNT": "SAU",
+        "Country": "SAU",
+        "Female": -0.4617003733665215,
+        "Gap": -0.02586851109562993,
+        "Male": -0.4875688844621514
+      },
+      {
+        "CNT": "MKD",
+        "Country": "MKD",
+        "Female": -0.5510914055884844,
+        "Gap": -0.02615748044407773,
+        "Male": -0.5772488860325621
+      },
+      {
+        "CNT": "PSE",
+        "Country": "PSE",
+        "Female": -0.6460867032392894,
+        "Gap": -0.04755344175391407,
+        "Male": -0.6936401449932035
+      },
+      {
+        "CNT": "MYS",
+        "Country": "MYS",
+        "Female": -0.7306525298988041,
+        "Gap": -0.06162109900103163,
+        "Male": -0.7922736288998358
+      },
+      {
+        "CNT": "ALB",
+        "Country": "ALB",
+        "Female": -0.20669389694847423,
+        "Gap": -0.08110849787353225,
+        "Male": -0.2878023948220065
+      },
+      {
+        "CNT": "JOR",
+        "Country": "JOR",
+        "Female": -0.6314428438083385,
+        "Gap": -0.10678472988780663,
+        "Male": -0.7382275736961451
       }
     ],
-    "data-aa7fa8aee344f4609c8587600415b970": [
+    "data-7cfe614f18b0828eecf8641c50806305": [
       {
-        "Anxiety_Level": "Very Low",
-        "Count": 39068,
+        "CNT": "ALB",
+        "Country": "ALB",
         "Gender": "Female",
-        "Mean_Math": 488.286620021501
+        "Measure": "Self-Efficacy",
+        "Score": -0.20669389694847423
       },
       {
-        "Anxiety_Level": "Very Low",
-        "Count": 59377,
+        "CNT": "ALB",
+        "Country": "ALB",
         "Gender": "Male",
-        "Mean_Math": 502.6583931320208
+        "Measure": "Self-Efficacy",
+        "Score": -0.2878023948220065
       },
       {
-        "Anxiety_Level": "Low",
-        "Count": 42125,
+        "CNT": "ARE",
+        "Country": "ARE",
         "Gender": "Female",
-        "Mean_Math": 466.9576530089021
+        "Measure": "Self-Efficacy",
+        "Score": -0.32197930416745235
       },
       {
-        "Anxiety_Level": "Low",
-        "Count": 51059,
+        "CNT": "ARE",
+        "Country": "ARE",
         "Gender": "Male",
-        "Mean_Math": 472.52155637595723
+        "Measure": "Self-Efficacy",
+        "Score": -0.16395997305978655
       },
       {
-        "Anxiety_Level": "Medium",
-        "Count": 48360,
+        "CNT": "ARG",
+        "Country": "ARG",
         "Gender": "Female",
-        "Mean_Math": 451.8265594499586
+        "Measure": "Self-Efficacy",
+        "Score": -0.7611882414151925
       },
       {
-        "Anxiety_Level": "Medium",
-        "Count": 45461,
+        "CNT": "ARG",
+        "Country": "ARG",
         "Gender": "Male",
-        "Mean_Math": 454.44965420910233
+        "Measure": "Self-Efficacy",
+        "Score": -0.5673805282382691
       },
       {
-        "Anxiety_Level": "High",
-        "Count": 53579,
+        "CNT": "AUS",
+        "Country": "Australia",
         "Gender": "Female",
-        "Mean_Math": 430.8022069467515
+        "Measure": "Self-Efficacy",
+        "Score": -0.42572201804758003
       },
       {
-        "Anxiety_Level": "High",
-        "Count": 41841,
+        "CNT": "AUS",
+        "Country": "Australia",
         "Gender": "Male",
-        "Mean_Math": 430.9852747066275
+        "Measure": "Self-Efficacy",
+        "Score": -0.06443510170870627
       },
       {
-        "Anxiety_Level": "Very High",
-        "Count": 59661,
+        "CNT": "AUT",
+        "Country": "Austria",
         "Gender": "Female",
-        "Mean_Math": 430.04600174318233
+        "Measure": "Self-Efficacy",
+        "Score": -0.08340875290472502
       },
       {
-        "Anxiety_Level": "Very High",
-        "Count": 35194,
+        "CNT": "AUT",
+        "Country": "Austria",
         "Gender": "Male",
-        "Mean_Math": 424.20087389896
+        "Measure": "Self-Efficacy",
+        "Score": 0.1786561713836478
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.45248011346670647
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.13683254824991822
+      },
+      {
+        "CNT": "BGR",
+        "Country": "BGR",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7789248259860789
+      },
+      {
+        "CNT": "BGR",
+        "Country": "BGR",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6303785392245266
+      },
+      {
+        "CNT": "BRA",
+        "Country": "BRA",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.993833553675304
+      },
+      {
+        "CNT": "BRA",
+        "Country": "BRA",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7042856420342792
+      },
+      {
+        "CNT": "BRN",
+        "Country": "BRN",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7024259522812892
+      },
+      {
+        "CNT": "BRN",
+        "Country": "BRN",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6179453903654485
+      },
+      {
+        "CNT": "CAN",
+        "Country": "Canada",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.25692785917340916
+      },
+      {
+        "CNT": "CAN",
+        "Country": "Canada",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": 0.02104197701149425
+      },
+      {
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.16224822150363785
+      },
+      {
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": 0.19914515366430258
+      },
+      {
+        "CNT": "CHL",
+        "Country": "Chile",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7770939368061486
+      },
+      {
+        "CNT": "CHL",
+        "Country": "Chile",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.3994077359254759
+      },
+      {
+        "CNT": "COL",
+        "Country": "COL",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5317790402476781
+      },
+      {
+        "CNT": "COL",
+        "Country": "COL",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.32717389146260756
+      },
+      {
+        "CNT": "CRI",
+        "Country": "CRI",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.831296943231441
+      },
+      {
+        "CNT": "CRI",
+        "Country": "CRI",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6076532477947073
+      },
+      {
+        "CNT": "CZE",
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4582077517314864
+      },
+      {
+        "CNT": "CZE",
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.13788527808069792
+      },
+      {
+        "CNT": "DEU",
+        "Country": "Germany",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.3279216192560175
+      },
+      {
+        "CNT": "DEU",
+        "Country": "Germany",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.05168617157490397
+      },
+      {
+        "CNT": "DNK",
+        "Country": "Denmark",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5807134515570934
+      },
+      {
+        "CNT": "DNK",
+        "Country": "Denmark",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.13906829268292684
+      },
+      {
+        "CNT": "DOM",
+        "Country": "DOM",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.8244272409778812
+      },
+      {
+        "CNT": "DOM",
+        "Country": "DOM",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.8200825365205844
+      },
+      {
+        "CNT": "ESP",
+        "Country": "Spain",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.3080962596984336
+      },
+      {
+        "CNT": "ESP",
+        "Country": "Spain",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.06751323121808898
+      },
+      {
+        "CNT": "EST",
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5120194266441821
+      },
+      {
+        "CNT": "EST",
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.26701860696517415
+      },
+      {
+        "CNT": "FIN",
+        "Country": "Finland",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.45927777247793944
+      },
+      {
+        "CNT": "FIN",
+        "Country": "Finland",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.19300683740033825
+      },
+      {
+        "CNT": "FRA",
+        "Country": "France",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.21288967906637493
+      },
+      {
+        "CNT": "FRA",
+        "Country": "France",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": 0.1359223856858847
+      },
+      {
+        "CNT": "GBR",
+        "Country": "UK",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4080411104429746
+      },
+      {
+        "CNT": "GBR",
+        "Country": "UK",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.05003225740551583
+      },
+      {
+        "CNT": "GEO",
+        "Country": "GEO",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5599647448015123
+      },
+      {
+        "CNT": "GEO",
+        "Country": "GEO",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5062290091930541
+      },
+      {
+        "CNT": "GRC",
+        "Country": "Greece",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6517916723783413
+      },
+      {
+        "CNT": "GRC",
+        "Country": "Greece",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.44992740123233055
+      },
+      {
+        "CNT": "GTM",
+        "Country": "GTM",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7809604777415852
+      },
+      {
+        "CNT": "GTM",
+        "Country": "GTM",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6304736723163842
+      },
+      {
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6547508550185873
+      },
+      {
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.24750786197082889
+      },
+      {
+        "CNT": "HRV",
+        "Country": "HRV",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.28279091549295776
+      },
+      {
+        "CNT": "HRV",
+        "Country": "HRV",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.12931060830860533
+      },
+      {
+        "CNT": "HUN",
+        "Country": "Hungary",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.40378047358834246
+      },
+      {
+        "CNT": "HUN",
+        "Country": "Hungary",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.08676048689138577
+      },
+      {
+        "CNT": "IRL",
+        "Country": "Ireland",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.37747204545454544
+      },
+      {
+        "CNT": "IRL",
+        "Country": "Ireland",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.11631136189747512
+      },
+      {
+        "CNT": "ISL",
+        "Country": "Iceland",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.3851255447032306
+      },
+      {
+        "CNT": "ISL",
+        "Country": "Iceland",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.1032230358504958
+      },
+      {
+        "CNT": "ITA",
+        "Country": "Italy",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5464100501504514
+      },
+      {
+        "CNT": "ITA",
+        "Country": "Italy",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.30124769230769227
+      },
+      {
+        "CNT": "JAM",
+        "Country": "JAM",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.8157345842531273
+      },
+      {
+        "CNT": "JAM",
+        "Country": "JAM",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6573888888888888
+      },
+      {
+        "CNT": "JOR",
+        "Country": "JOR",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6314428438083385
+      },
+      {
+        "CNT": "JOR",
+        "Country": "JOR",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7382275736961451
+      },
+      {
+        "CNT": "JPN",
+        "Country": "Japan",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6696145403704998
+      },
+      {
+        "CNT": "JPN",
+        "Country": "Japan",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.33620609191307443
+      },
+      {
+        "CNT": "KHM",
+        "Country": "KHM",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.8300462365591398
+      },
+      {
+        "CNT": "KHM",
+        "Country": "KHM",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7920229377328366
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6180074723846654
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.45788814241486064
+      },
+      {
+        "CNT": "KSV",
+        "Country": "KSV",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7902756637168141
+      },
+      {
+        "CNT": "KSV",
+        "Country": "KSV",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7187453527980535
+      },
+      {
+        "CNT": "LTU",
+        "Country": "Lithuania",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.44871715229798737
+      },
+      {
+        "CNT": "LTU",
+        "Country": "Lithuania",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.2583361286254729
+      },
+      {
+        "CNT": "LVA",
+        "Country": "Latvia",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7347640204865558
+      },
+      {
+        "CNT": "LVA",
+        "Country": "Latvia",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5149381679389313
+      },
+      {
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.28953275944524154
+      },
+      {
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": 0.06519216569113012
+      },
+      {
+        "CNT": "MAR",
+        "Country": "MAR",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7054256676557863
+      },
+      {
+        "CNT": "MAR",
+        "Country": "MAR",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7175811881188119
+      },
+      {
+        "CNT": "MDA",
+        "Country": "MDA",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7140173098538778
+      },
+      {
+        "CNT": "MDA",
+        "Country": "MDA",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5437025451862781
+      },
+      {
+        "CNT": "MEX",
+        "Country": "Mexico",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7248362474084313
+      },
+      {
+        "CNT": "MEX",
+        "Country": "Mexico",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6013449674703406
+      },
+      {
+        "CNT": "MKD",
+        "Country": "MKD",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5510914055884844
+      },
+      {
+        "CNT": "MKD",
+        "Country": "MKD",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5772488860325621
+      },
+      {
+        "CNT": "MLT",
+        "Country": "MLT",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.2511762773722628
+      },
+      {
+        "CNT": "MLT",
+        "Country": "MLT",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.14057774294670847
+      },
+      {
+        "CNT": "MNE",
+        "Country": "MNE",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.8605362577962578
+      },
+      {
+        "CNT": "MNE",
+        "Country": "MNE",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6221555243445692
+      },
+      {
+        "CNT": "MNG",
+        "Country": "MNG",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6577469329073482
+      },
+      {
+        "CNT": "MNG",
+        "Country": "MNG",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5874391493636972
+      },
+      {
+        "CNT": "MYS",
+        "Country": "MYS",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7306525298988041
+      },
+      {
+        "CNT": "MYS",
+        "Country": "MYS",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7922736288998358
+      },
+      {
+        "CNT": "NLD",
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5606686521958607
+      },
+      {
+        "CNT": "NLD",
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.05300366972477064
+      },
+      {
+        "CNT": "NOR",
+        "Country": "Norway",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6522371460506706
+      },
+      {
+        "CNT": "NOR",
+        "Country": "Norway",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.28622836719337846
+      },
+      {
+        "CNT": "NZL",
+        "Country": "New Zealand",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.620719693877551
+      },
+      {
+        "CNT": "NZL",
+        "Country": "New Zealand",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.1622955997904662
+      },
+      {
+        "CNT": "PAN",
+        "Country": "PAN",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6719206726013848
+      },
+      {
+        "CNT": "PAN",
+        "Country": "PAN",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.514606458123108
+      },
+      {
+        "CNT": "PER",
+        "Country": "PER",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5966144641418211
+      },
+      {
+        "CNT": "PER",
+        "Country": "PER",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.329210092095165
+      },
+      {
+        "CNT": "POL",
+        "Country": "Poland",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7037714285714286
+      },
+      {
+        "CNT": "POL",
+        "Country": "Poland",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4132745060790273
+      },
+      {
+        "CNT": "PRT",
+        "Country": "Portugal",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.489561921336582
+      },
+      {
+        "CNT": "PRT",
+        "Country": "Portugal",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.2613755301245372
+      },
+      {
+        "CNT": "PRY",
+        "Country": "PRY",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7029397496087637
+      },
+      {
+        "CNT": "PRY",
+        "Country": "PRY",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6083978475858057
+      },
+      {
+        "CNT": "PSE",
+        "Country": "PSE",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6460867032392894
+      },
+      {
+        "CNT": "PSE",
+        "Country": "PSE",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6936401449932035
+      },
+      {
+        "CNT": "QAT",
+        "Country": "QAT",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.44216391574585634
+      },
+      {
+        "CNT": "QAT",
+        "Country": "QAT",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.3664613191489362
+      },
+      {
+        "CNT": "QAZ",
+        "Country": "QAZ",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.49126702557200536
+      },
+      {
+        "CNT": "QAZ",
+        "Country": "QAZ",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.26955908739365814
+      },
+      {
+        "CNT": "QUR",
+        "Country": "QUR",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.7524886716115982
+      },
+      {
+        "CNT": "QUR",
+        "Country": "QUR",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5269288365453247
+      },
+      {
+        "CNT": "ROU",
+        "Country": "ROU",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.47306449814126394
+      },
+      {
+        "CNT": "ROU",
+        "Country": "ROU",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4149762015246934
+      },
+      {
+        "CNT": "SAU",
+        "Country": "SAU",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4617003733665215
+      },
+      {
+        "CNT": "SAU",
+        "Country": "SAU",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4875688844621514
+      },
+      {
+        "CNT": "SGP",
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": 0.10352733790523691
+      },
+      {
+        "CNT": "SGP",
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": 0.3647671903323263
+      },
+      {
+        "CNT": "SRB",
+        "Country": "SRB",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6539379118844872
+      },
+      {
+        "CNT": "SRB",
+        "Country": "SRB",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6107610902255639
+      },
+      {
+        "CNT": "SVK",
+        "Country": "Slovakia",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5026448535564854
+      },
+      {
+        "CNT": "SVK",
+        "Country": "Slovakia",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.22724168312919793
+      },
+      {
+        "CNT": "SVN",
+        "Country": "Slovenia",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5956007518796993
+      },
+      {
+        "CNT": "SVN",
+        "Country": "Slovenia",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.3000403751233959
+      },
+      {
+        "CNT": "SWE",
+        "Country": "Sweden",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4259970588235294
+      },
+      {
+        "CNT": "SWE",
+        "Country": "Sweden",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.14081770833333335
+      },
+      {
+        "CNT": "TAP",
+        "Country": "TAP",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5853899255054984
+      },
+      {
+        "CNT": "TAP",
+        "Country": "TAP",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.30824222222222225
+      },
+      {
+        "CNT": "TUR",
+        "Country": "Turkey",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5046686274509804
+      },
+      {
+        "CNT": "TUR",
+        "Country": "Turkey",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4289783609317991
+      },
+      {
+        "CNT": "URY",
+        "Country": "URY",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6734589438629877
+      },
+      {
+        "CNT": "URY",
+        "Country": "URY",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5773634739454094
+      },
+      {
+        "CNT": "USA",
+        "Country": "USA",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.4407406659939455
+      },
+      {
+        "CNT": "USA",
+        "Country": "USA",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.23674815384615386
+      },
+      {
+        "CNT": "UZB",
+        "Country": "UZB",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5138699917218543
+      },
+      {
+        "CNT": "UZB",
+        "Country": "UZB",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.3257712252964427
+      },
+      {
+        "CNT": "VNM",
+        "Country": "VNM",
+        "Gender": "Female",
+        "Measure": "Self-Efficacy",
+        "Score": -0.6578118906455863
+      },
+      {
+        "CNT": "VNM",
+        "Country": "VNM",
+        "Gender": "Male",
+        "Measure": "Self-Efficacy",
+        "Score": -0.5862319872476089
+      },
+      {
+        "CNT": "ALB",
+        "Country": "ALB",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.06934902451225612
+      },
+      {
+        "CNT": "ALB",
+        "Country": "ALB",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.08804453074433659
+      },
+      {
+        "CNT": "ARE",
+        "Country": "ARE",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.2733533754478597
+      },
+      {
+        "CNT": "ARE",
+        "Country": "ARE",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.00022682623562324654
+      },
+      {
+        "CNT": "ARG",
+        "Country": "ARG",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.6439473465140478
+      },
+      {
+        "CNT": "ARG",
+        "Country": "ARG",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.34482832256251755
+      },
+      {
+        "CNT": "AUS",
+        "Country": "Australia",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.38534045939294503
+      },
+      {
+        "CNT": "AUS",
+        "Country": "Australia",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.06865013832384052
+      },
+      {
+        "CNT": "AUT",
+        "Country": "Austria",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.2663923315259489
+      },
+      {
+        "CNT": "AUT",
+        "Country": "Austria",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.20201065251572328
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.41171248133771277
+      },
+      {
+        "CNT": "BEL",
+        "Country": "Belgium",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.09028145240431797
+      },
+      {
+        "CNT": "BGR",
+        "Country": "BGR",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.252679535962877
+      },
+      {
+        "CNT": "BGR",
+        "Country": "BGR",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.1325992335437331
+      },
+      {
+        "CNT": "BRA",
+        "Country": "BRA",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.7432428873611845
+      },
+      {
+        "CNT": "BRA",
+        "Country": "BRA",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.27033450407417814
+      },
+      {
+        "CNT": "BRN",
+        "Country": "BRN",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.8020606948514023
+      },
+      {
+        "CNT": "BRN",
+        "Country": "BRN",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.5432163205980067
+      },
+      {
+        "CNT": "CAN",
+        "Country": "Canada",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.3583506997594577
+      },
+      {
+        "CNT": "CAN",
+        "Country": "Canada",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.12375236781609196
+      },
+      {
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.17503876313662087
+      },
+      {
+        "CNT": "CHE",
+        "Country": "Switzerland",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.3702899133175729
+      },
+      {
+        "CNT": "CHL",
+        "Country": "Chile",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.8030687019641333
+      },
+      {
+        "CNT": "CHL",
+        "Country": "Chile",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.23222790603483193
+      },
+      {
+        "CNT": "COL",
+        "Country": "COL",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.6993788854489165
+      },
+      {
+        "CNT": "COL",
+        "Country": "COL",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.3478075446724024
+      },
+      {
+        "CNT": "CRI",
+        "Country": "CRI",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.7618693926161174
+      },
+      {
+        "CNT": "CRI",
+        "Country": "CRI",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.258084242181235
+      },
+      {
+        "CNT": "CZE",
+        "Country": "Czech Rep.",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.18952120404901437
+      },
+      {
+        "CNT": "CZE",
+        "Country": "Czech Rep.",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.23282483642311885
+      },
+      {
+        "CNT": "DEU",
+        "Country": "Germany",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.41645466083150984
+      },
+      {
+        "CNT": "DEU",
+        "Country": "Germany",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.221685830132309
+      },
+      {
+        "CNT": "DNK",
+        "Country": "Denmark",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.19855160034602073
+      },
+      {
+        "CNT": "DNK",
+        "Country": "Denmark",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.37882331541959485
+      },
+      {
+        "CNT": "DOM",
+        "Country": "DOM",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.609850582072177
+      },
+      {
+        "CNT": "DOM",
+        "Country": "DOM",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.37154163346613545
+      },
+      {
+        "CNT": "ESP",
+        "Country": "Spain",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.6092169155321329
+      },
+      {
+        "CNT": "ESP",
+        "Country": "Spain",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.10655277899343545
+      },
+      {
+        "CNT": "EST",
+        "Country": "Estonia",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.237279629005059
+      },
+      {
+        "CNT": "EST",
+        "Country": "Estonia",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.21029635157545606
+      },
+      {
+        "CNT": "FIN",
+        "Country": "Finland",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": -0.014251848318626286
+      },
+      {
+        "CNT": "FIN",
+        "Country": "Finland",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.4975968108238705
+      },
+      {
+        "CNT": "FRA",
+        "Country": "France",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.4283586797957695
+      },
+      {
+        "CNT": "FRA",
+        "Country": "France",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.18345459244532802
+      },
+      {
+        "CNT": "GBR",
+        "Country": "UK",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.3801873521747845
+      },
+      {
+        "CNT": "GBR",
+        "Country": "UK",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.20565070480081718
+      },
+      {
+        "CNT": "GEO",
+        "Country": "GEO",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.1407822778827977
+      },
+      {
+        "CNT": "GEO",
+        "Country": "GEO",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.09162170582226763
+      },
+      {
+        "CNT": "GRC",
+        "Country": "Greece",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.46759139821795753
+      },
+      {
+        "CNT": "GRC",
+        "Country": "Greece",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.040756324755346136
+      },
+      {
+        "CNT": "GTM",
+        "Country": "GTM",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.8356238870792617
+      },
+      {
+        "CNT": "GTM",
+        "Country": "GTM",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.5232038418079096
+      },
+      {
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.49159505576208173
+      },
+      {
+        "CNT": "HKG",
+        "Country": "Hong Kong",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.013687833511205982
+      },
+      {
+        "CNT": "HRV",
+        "Country": "HRV",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.31525302816901407
+      },
+      {
+        "CNT": "HRV",
+        "Country": "HRV",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.10352614985163204
+      },
+      {
+        "CNT": "HUN",
+        "Country": "Hungary",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": -0.0194440072859745
+      },
+      {
+        "CNT": "HUN",
+        "Country": "Hungary",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.43337932584269667
+      },
+      {
+        "CNT": "IRL",
+        "Country": "Ireland",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.5062357954545454
+      },
+      {
+        "CNT": "IRL",
+        "Country": "Ireland",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.08726289211935731
+      },
+      {
+        "CNT": "ISL",
+        "Country": "Iceland",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.24292261457550712
+      },
+      {
+        "CNT": "ISL",
+        "Country": "Iceland",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.1491774218154081
+      },
+      {
+        "CNT": "ITA",
+        "Country": "Italy",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.4963656369107322
+      },
+      {
+        "CNT": "ITA",
+        "Country": "Italy",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.11849307692307692
+      },
+      {
+        "CNT": "JAM",
+        "Country": "JAM",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.5691245033112583
+      },
+      {
+        "CNT": "JAM",
+        "Country": "JAM",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.2935666666666667
+      },
+      {
+        "CNT": "JOR",
+        "Country": "JOR",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.22014965774735534
+      },
+      {
+        "CNT": "JOR",
+        "Country": "JOR",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.26020108843537415
+      },
+      {
+        "CNT": "JPN",
+        "Country": "Japan",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.4835150996155191
+      },
+      {
+        "CNT": "JPN",
+        "Country": "Japan",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.15622005700035627
+      },
+      {
+        "CNT": "KHM",
+        "Country": "KHM",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.4822468189964158
+      },
+      {
+        "CNT": "KHM",
+        "Country": "KHM",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.5044415114422565
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.08768222871994802
+      },
+      {
+        "CNT": "KOR",
+        "Country": "South Korea",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.18098179566563466
+      },
+      {
+        "CNT": "KSV",
+        "Country": "KSV",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.3365336283185841
+      },
+      {
+        "CNT": "KSV",
+        "Country": "KSV",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.11866549878345499
+      },
+      {
+        "CNT": "LTU",
+        "Country": "Lithuania",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.39716076899969965
+      },
+      {
+        "CNT": "LTU",
+        "Country": "Lithuania",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.06564700504413619
+      },
+      {
+        "CNT": "LVA",
+        "Country": "Latvia",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.44456803243704657
+      },
+      {
+        "CNT": "LVA",
+        "Country": "Latvia",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.03745603951504266
+      },
+      {
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.5021564801530368
+      },
+      {
+        "CNT": "MAC",
+        "Country": "Macao",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.07275700135074291
+      },
+      {
+        "CNT": "MAR",
+        "Country": "MAR",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.47872640949554895
+      },
+      {
+        "CNT": "MAR",
+        "Country": "MAR",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.33173050447901936
+      },
+      {
+        "CNT": "MDA",
+        "Country": "MDA",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.5288307605844885
+      },
+      {
+        "CNT": "MDA",
+        "Country": "MDA",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.19204345260051642
+      },
+      {
+        "CNT": "MEX",
+        "Country": "Mexico",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.6841243607463718
+      },
+      {
+        "CNT": "MEX",
+        "Country": "Mexico",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.3862612323000383
+      },
+      {
+        "CNT": "MKD",
+        "Country": "MKD",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.23755935647756138
+      },
+      {
+        "CNT": "MKD",
+        "Country": "MKD",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.07483997429305912
+      },
+      {
+        "CNT": "MLT",
+        "Country": "MLT",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.5858420437956204
+      },
+      {
+        "CNT": "MLT",
+        "Country": "MLT",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.13115525078369905
+      },
+      {
+        "CNT": "MNE",
+        "Country": "MNE",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.22996237006237005
+      },
+      {
+        "CNT": "MNE",
+        "Country": "MNE",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.08410880149812734
+      },
+      {
+        "CNT": "MNG",
+        "Country": "MNG",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.43839364217252397
+      },
+      {
+        "CNT": "MNG",
+        "Country": "MNG",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.19517119892833223
+      },
+      {
+        "CNT": "MYS",
+        "Country": "MYS",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.6236049678012879
+      },
+      {
+        "CNT": "MYS",
+        "Country": "MYS",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.3797415763546798
+      },
+      {
+        "CNT": "NLD",
+        "Country": "Netherlands",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": -0.007457748611812219
+      },
+      {
+        "CNT": "NLD",
+        "Country": "Netherlands",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.3975984862385321
+      },
+      {
+        "CNT": "NOR",
+        "Country": "Norway",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.4740599850968703
+      },
+      {
+        "CNT": "NOR",
+        "Country": "Norway",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.1660854401805869
+      },
+      {
+        "CNT": "NZL",
+        "Country": "New Zealand",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.4436354081632653
+      },
+      {
+        "CNT": "NZL",
+        "Country": "New Zealand",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.026798271346254586
+      },
+      {
+        "CNT": "PAN",
+        "Country": "PAN",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.734171909000989
+      },
+      {
+        "CNT": "PAN",
+        "Country": "PAN",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.47887003027245206
+      },
+      {
+        "CNT": "PER",
+        "Country": "PER",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.6997427880741338
+      },
+      {
+        "CNT": "PER",
+        "Country": "PER",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.36875456638526477
+      },
+      {
+        "CNT": "POL",
+        "Country": "Poland",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.40160058458165876
+      },
+      {
+        "CNT": "POL",
+        "Country": "Poland",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.09772978723404256
+      },
+      {
+        "CNT": "PRT",
+        "Country": "Portugal",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.28570417681865645
+      },
+      {
+        "CNT": "PRT",
+        "Country": "Portugal",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.028021945472904753
+      },
+      {
+        "CNT": "PRY",
+        "Country": "PRY",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.7473816901408451
+      },
+      {
+        "CNT": "PRY",
+        "Country": "PRY",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.4800564863292612
+      },
+      {
+        "CNT": "PSE",
+        "Country": "PSE",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.24104971264367817
+      },
+      {
+        "CNT": "PSE",
+        "Country": "PSE",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.20980484821024012
+      },
+      {
+        "CNT": "QAT",
+        "Country": "QAT",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.2545440262430939
+      },
+      {
+        "CNT": "QAT",
+        "Country": "QAT",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.08686978723404254
+      },
+      {
+        "CNT": "QAZ",
+        "Country": "QAZ",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.2615185060565276
+      },
+      {
+        "CNT": "QAZ",
+        "Country": "QAZ",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.015372080433101315
+      },
+      {
+        "CNT": "QUR",
+        "Country": "QUR",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.34843074848280514
+      },
+      {
+        "CNT": "QUR",
+        "Country": "QUR",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.0569526766595289
+      },
+      {
+        "CNT": "ROU",
+        "Country": "ROU",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.252878531598513
+      },
+      {
+        "CNT": "ROU",
+        "Country": "ROU",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.024722605236990387
+      },
+      {
+        "CNT": "SAU",
+        "Country": "SAU",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.1093869321717486
+      },
+      {
+        "CNT": "SAU",
+        "Country": "SAU",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.07128796812749004
+      },
+      {
+        "CNT": "SGP",
+        "Country": "Singapore",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.3593061097256858
+      },
+      {
+        "CNT": "SGP",
+        "Country": "Singapore",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.02547344410876133
+      },
+      {
+        "CNT": "SRB",
+        "Country": "SRB",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.3053666419844502
+      },
+      {
+        "CNT": "SRB",
+        "Country": "SRB",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.07647176691729322
+      },
+      {
+        "CNT": "SVK",
+        "Country": "Slovakia",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.42520497907949795
+      },
+      {
+        "CNT": "SVK",
+        "Country": "Slovakia",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.04894926906361122
+      },
+      {
+        "CNT": "SVN",
+        "Country": "Slovenia",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.43407464114832534
+      },
+      {
+        "CNT": "SVN",
+        "Country": "Slovenia",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.006614116485686078
+      },
+      {
+        "CNT": "SWE",
+        "Country": "Sweden",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.15576629256965943
+      },
+      {
+        "CNT": "SWE",
+        "Country": "Sweden",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.3285354552469136
+      },
+      {
+        "CNT": "TAP",
+        "Country": "TAP",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.46223192621496983
+      },
+      {
+        "CNT": "TAP",
+        "Country": "TAP",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.15982666666666667
+      },
+      {
+        "CNT": "TUR",
+        "Country": "Turkey",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.7872499134948097
+      },
+      {
+        "CNT": "TUR",
+        "Country": "Turkey",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.40686505753578445
+      },
+      {
+        "CNT": "URY",
+        "Country": "URY",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.49794833491912466
+      },
+      {
+        "CNT": "URY",
+        "Country": "URY",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.18295151364764267
+      },
+      {
+        "CNT": "USA",
+        "Country": "USA",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.335110141271443
+      },
+      {
+        "CNT": "USA",
+        "Country": "USA",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.10089194871794872
+      },
+      {
+        "CNT": "UZB",
+        "Country": "UZB",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.0988778559602649
+      },
+      {
+        "CNT": "UZB",
+        "Country": "UZB",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": -0.017151185770750997
+      },
+      {
+        "CNT": "VNM",
+        "Country": "VNM",
+        "Gender": "Female",
+        "Measure": "Anxiety",
+        "Score": 0.5457249670619235
+      },
+      {
+        "CNT": "VNM",
+        "Country": "VNM",
+        "Gender": "Male",
+        "Measure": "Anxiety",
+        "Score": 0.33114303931987243
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-aa7fa8aee344f4609c8587600415b970"
+        "name": "data-46e8abca214e09af048c16ef558e7998"
       },
       "encoding": {
         "color": {
-          "field": "Mean_Math",
-          "legend": {
-            "title": "Math Score"
+          "condition": {
+            "test": "(datum.Gap > 0)",
+            "value": "#1976D2"
           },
-          "scale": {
-            "domain": [
-              420,
-              510
-            ],
-            "scheme": "blues"
-          },
-          "type": "quantitative"
+          "value": "#E91E63"
         },
         "opacity": {
           "condition": {
-            "param": "anxiety_select",
-            "value": 1
+            "empty": true,
+            "param": "country_select",
+            "value": 1.0
           },
-          "value": 0.5
-        },
-        "tooltip": [
-          {
-            "field": "Anxiety_Level",
-            "type": "nominal"
-          },
-          {
-            "field": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "Mean_Math",
-            "format": ".1f",
-            "title": "Avg Math Score",
-            "type": "quantitative"
-          },
-          {
-            "field": "Count",
-            "format": ",d",
-            "title": "Students",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "field": "Gender",
-          "title": null,
-          "type": "nominal"
-        },
-        "y": {
-          "field": "Anxiety_Level",
-          "sort": [
-            "Very Low",
-            "Low",
-            "Medium",
-            "High",
-            "Very High"
-          ],
-          "title": "Math Anxiety Level",
-          "type": "nominal"
-        }
-      },
-      "height": 300,
-      "mark": {
-        "cursor": "pointer",
-        "type": "rect"
-      },
-      "name": "view_1",
-      "title": {
-        "color": "#FFFFFF",
-        "fontSize": 14,
-        "subtitle": "Click anxiety level to filter countries",
-        "subtitleColor": "#E0E0E0",
-        "text": "Anxiety x Gender"
-      },
-      "width": 180
-    },
-    {
-      "data": {
-        "name": "data-1396cc61359bbc067a1f7236b7171059"
-      },
-      "encoding": {
-        "color": {
-          "field": "Mean_Math",
-          "legend": null,
-          "scale": {
-            "domain": [
-              500,
-              580
-            ],
-            "scheme": "oranges"
-          },
-          "type": "quantitative"
+          "value": 0.7
         },
         "tooltip": [
           {
             "field": "Country",
+            "title": "Country",
             "type": "nominal"
           },
           {
-            "field": "Anxiety_Level",
-            "type": "nominal"
-          },
-          {
-            "field": "Mean_Math",
-            "format": ".1f",
+            "field": "Gap",
+            "format": "+.3f",
+            "title": "Gap",
             "type": "quantitative"
           },
           {
-            "field": "Count",
-            "format": ",d",
-            "title": "Students",
+            "field": "Male",
+            "format": ".3f",
+            "title": "Male Score",
+            "type": "quantitative"
+          },
+          {
+            "field": "Female",
+            "format": ".3f",
+            "title": "Female Score",
             "type": "quantitative"
           }
         ],
         "x": {
-          "field": "Mean_Math",
+          "field": "Gap",
           "scale": {
             "domain": [
-              450,
-              600
+              -0.4,
+              0.4
             ]
           },
-          "title": "Average Math Score",
+          "title": "Gender Gap (Male - Female)",
           "type": "quantitative"
         },
         "y": {
+          "axis": {
+            "labelFontSize": 10
+          },
           "field": "Country",
           "sort": {
-            "field": "Mean_Math",
+            "field": "Gap",
             "order": "descending"
           },
           "title": null,
           "type": "nominal"
         }
       },
-      "height": 300,
+      "height": 500,
       "mark": {
-        "cornerRadiusBottomRight": 4,
-        "cornerRadiusTopRight": 4,
+        "cornerRadius": 3,
+        "cursor": "pointer",
         "type": "bar"
       },
+      "name": "view_1",
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "Top 10 Countries Ranked"
+        "subtitle": "Blue = Male higher, Pink = Female higher. Click to explore.",
+        "subtitleColor": "#E0E0E0",
+        "text": "Gender Gap in Math Self-Efficacy"
       },
-      "transform": [
+      "width": 350
+    },
+    {
+      "data": {
+        "name": "data-7cfe614f18b0828eecf8641c50806305"
+      },
+      "height": 150,
+      "layer": [
         {
-          "filter": {
-            "param": "anxiety_select"
-          }
+          "encoding": {
+            "x": {
+              "aggregate": "min",
+              "field": "Score",
+              "type": "quantitative"
+            },
+            "x2": {
+              "aggregate": "max",
+              "field": "Score"
+            },
+            "y": {
+              "field": "Measure",
+              "type": "nominal"
+            }
+          },
+          "mark": {
+            "opacity": 0.5,
+            "strokeWidth": 2,
+            "type": "rule"
+          },
+          "transform": [
+            {
+              "filter": {
+                "empty": true,
+                "param": "country_select"
+              }
+            }
+          ]
+        },
+        {
+          "encoding": {
+            "color": {
+              "field": "Gender",
+              "legend": {
+                "orient": "top",
+                "title": "Gender"
+              },
+              "scale": {
+                "domain": [
+                  "Female",
+                  "Male"
+                ],
+                "range": [
+                  "#E91E63",
+                  "#1976D2"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "Country",
+                "type": "nominal"
+              },
+              {
+                "field": "Measure",
+                "type": "nominal"
+              },
+              {
+                "field": "Gender",
+                "type": "nominal"
+              },
+              {
+                "field": "Score",
+                "format": ".3f",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "Score",
+              "scale": {
+                "domain": [
+                  -0.5,
+                  0.5
+                ]
+              },
+              "title": "Score",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelFontSize": 12
+              },
+              "field": "Measure",
+              "title": null,
+              "type": "nominal"
+            }
+          },
+          "mark": {
+            "filled": true,
+            "size": 120,
+            "type": "point"
+          },
+          "transform": [
+            {
+              "filter": {
+                "empty": true,
+                "param": "country_select"
+              }
+            }
+          ]
         }
       ],
-      "width": 320
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "subtitle": "Selected country comparison",
+        "subtitleColor": "#E0E0E0",
+        "text": "Efficacy vs Anxiety by Gender"
+      },
+      "width": 300
     }
   ],
   "params": [
     {
-      "name": "anxiety_select",
+      "name": "country_select",
       "select": {
         "fields": [
-          "Anxiety_Level"
+          "CNT"
         ],
         "type": "point"
       },
