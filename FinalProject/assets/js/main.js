@@ -1,10 +1,9 @@
 let currentIndex = 0;
 const TRANSITION_LOCK_MS = 850;
-const MIN_NAV_GAP = 900; // Debounce for navigation
-const SWIPE_THRESHOLD = 30; // Min delta to trigger swipe
-const TOUCH_THRESHOLD = 50; // Min px to trigger touch swipe
+const MIN_NAV_GAP = 900;
+const SWIPE_THRESHOLD = 30;
+const TOUCH_THRESHOLD = 50;
 
-// DOM Elements
 const scrollContainer = document.getElementById("scroll-container");
 const panels = Array.from(document.querySelectorAll(".panel"));
 const navButtons = Array.from(document.querySelectorAll("[data-target]"));
@@ -12,7 +11,6 @@ const progressDots = Array.from(document.querySelectorAll(".progress-dot"));
 const topNav = document.getElementById("top-nav");
 const progressIndicator = document.querySelector(".progress-indicator");
 
-// State
 let isTransitioning = false;
 let transitionTimeout = null;
 let lastNavTime = 0;
@@ -54,7 +52,6 @@ function checkNavbarVisibility() {
   const currentPanel = panels[currentIndex];
   const panelInner = currentPanel ? currentPanel.querySelector(".panel-inner") : null;
 
-  // Use optional chaining and defaults
   const maxScroll = panelInner ? panelInner.scrollHeight - panelInner.clientHeight : 0;
   const isAtTop = !panelInner || panelInner.scrollTop < 50;
   const atBottom = !panelInner || maxScroll <= 0 || panelInner.scrollTop >= maxScroll - 50;
@@ -126,34 +123,50 @@ function initVisualizations() {
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((spec) => {
         el.innerHTML = "";
-        
-        // Helper to recursively remove fixed dimensions
-        function removeFixedDimensions(obj) {
-          if (!obj || typeof obj !== 'object') return;
+
+        function setLargerDimensions(obj, targetWidth, targetHeight) {
+          if (!obj || typeof obj !== "object") return;
           if (Array.isArray(obj)) {
-            obj.forEach(removeFixedDimensions);
+            obj.forEach(item => setLargerDimensions(item, targetWidth, targetHeight));
             return;
           }
-          delete obj.width;
-          delete obj.height;
-          // Recurse into common nesting properties
-          ['layer', 'hconcat', 'vconcat', 'spec'].forEach(prop => {
-            if (obj[prop]) removeFixedDimensions(obj[prop]);
-          });
+          if (obj.hasOwnProperty("width") || obj.hasOwnProperty("height") || obj.mark || obj.layer) {
+            obj.width = targetWidth;
+            obj.height = targetHeight;
+          }
+          if (obj.hconcat && Array.isArray(obj.hconcat)) {
+            const chartWidth = Math.floor(targetWidth / obj.hconcat.length) - 20;
+            obj.hconcat.forEach(chart => {
+              chart.width = chartWidth;
+              chart.height = targetHeight;
+              setLargerDimensions(chart, chartWidth, targetHeight);
+            });
+          }
+          if (obj.vconcat && Array.isArray(obj.vconcat)) {
+            const chartHeight = Math.floor(targetHeight / obj.vconcat.length) - 20;
+            obj.vconcat.forEach(chart => {
+              chart.width = targetWidth;
+              chart.height = chartHeight;
+              setLargerDimensions(chart, targetWidth, chartHeight);
+            });
+          }
+          if (obj.layer) {
+            obj.layer.forEach(layer => setLargerDimensions(layer, targetWidth, targetHeight));
+          }
+          if (obj.spec) {
+            setLargerDimensions(obj.spec, targetWidth, targetHeight);
+          }
         }
-        
-        // Clone spec to avoid mutating original if cached (though we fetch fresh)
+
         const cleanSpec = JSON.parse(JSON.stringify(spec));
-        removeFixedDimensions(cleanSpec);
         delete cleanSpec.autosize;
 
+        setLargerDimensions(cleanSpec, 1200, 700);
+
         const specWithFit = Object.assign({}, cleanSpec, {
-          width: "container",
-          // height: "container", // Enabling this makes it try to fill vertical space too
-          // given the "did not fit perfectly" complaint, filling the box is safest.
           autosize: { type: "fit", contains: "padding", resize: true },
         });
-        
+
         vegaEmbed(`#${c.id}`, specWithFit, vegaOpts).catch(() => showPlaceholder(el, c.file));
       })
       .catch(() => showPlaceholder(el, c.file));
@@ -191,8 +204,7 @@ function smoothScrollTo(element, targetX, duration) {
     if (progress < 1) {
       requestAnimationFrame(step);
     } else {
-       // Ensure we land exactly on target
-       element.scrollLeft = targetX;
+      element.scrollLeft = targetX;
     }
   }
 
@@ -204,13 +216,11 @@ function scrollToPanel(index) {
   const target = panels[clampedIndex];
   if (!target) return;
 
-  // Custom smooth scroll for consistency and "premium" feel
   smoothScrollTo(scrollContainer, target.offsetLeft, 800);
-  
+
   currentIndex = clampedIndex;
   updateActiveStates(clampedIndex);
 
-  // Reset scroll of the target panel content to top
   const panelInner = target.querySelector(".panel-inner");
   if (panelInner) panelInner.scrollTop = 0;
 
@@ -225,16 +235,15 @@ function clampIndex(index) {
 function lockTransition() {
   isTransitioning = true;
   clearTimeout(transitionTimeout);
-  // Lock for slightly longer than the animation to prevent rapid-fire overlaps
   transitionTimeout = setTimeout(() => {
     isTransitioning = false;
-  }, 850); 
+  }, 850);
 }
 
 function goToPanel(index) {
   const nextIndex = clampIndex(index);
   if (nextIndex === currentIndex || isTransitioning) return;
-  
+
   const now = Date.now();
   if (now - lastNavTime < MIN_NAV_GAP) return;
   lastNavTime = now;
@@ -278,59 +287,44 @@ function initKeyboard() {
 }
 
 function initScrollHandling() {
-  // Handle Vertical Scrolling to trigger panel changes at edges
   panels.forEach((panel, panelIndex) => {
     const panelInner = panel.querySelector(".panel-inner");
     if (!panelInner) return;
 
     panelInner.addEventListener("wheel", (e) => {
       if (isTransitioning) return;
-      
+
       const deltaY = e.deltaY;
       const atTop = panelInner.scrollTop <= 0;
       const atBottom = panelInner.scrollTop + panelInner.clientHeight >= panelInner.scrollHeight - 1;
 
-      // Only trigger if purely vertical scroll and at edges
       if (Math.abs(deltaY) > Math.abs(e.deltaX) && ((deltaY > 0 && atBottom) || (deltaY < 0 && atTop))) {
-        // Debounce handled in goToPanel
-        // deltaY > 0 (Scroll Down) -> Next Panel
-        // deltaY < 0 (Scroll Up) -> Prev Panel
-        
-        // Prevent default only if we are actually going to navigate
-        // We check time here to avoid preventing default if we are in cooldown
         const now = Date.now();
         if (now - lastNavTime >= MIN_NAV_GAP) {
-           e.preventDefault();
-           e.stopPropagation();
-           goToPanel(panelIndex + (deltaY > 0 ? 1 : -1));
+          e.preventDefault();
+          e.stopPropagation();
+          goToPanel(panelIndex + (deltaY > 0 ? 1 : -1));
         }
       }
     }, { passive: false });
   });
 
-  // Handle Horizontal Swipe on Container
   scrollContainer.addEventListener("wheel", (e) => {
-    // Check if it's a horizontal swipe
     if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
-      // ALWAYS prevent default for horizontal swipes to block browser history navigation,
-      // even if we are currently transitioning or the threshold isn't met.
-      e.preventDefault(); 
-      
+      e.preventDefault();
+
       if (isTransitioning) return;
 
       if (Math.abs(e.deltaX) > SWIPE_THRESHOLD) {
-         // Swipe Left (deltaX > 0) -> Next Panel
-         // Swipe Right (deltaX < 0) -> Prev Panel
-         if (e.deltaX > 0) {
-           goToPanel(currentIndex + 1);
-         } else {
-           goToPanel(currentIndex - 1);
-         }
+        if (e.deltaX > 0) {
+          goToPanel(currentIndex + 1);
+        } else {
+          goToPanel(currentIndex - 1);
+        }
       }
     }
   }, { passive: false });
 
-  // Update active state on scroll (in case of native/momentum scroll)
   scrollContainer.addEventListener("scroll", () => requestAnimationFrame(handleScroll));
 }
 
@@ -348,7 +342,6 @@ function handleScroll() {
       closestDistance = distance;
       closestIndex = idx;
     }
-    // Fade/Visibility logic could go here
     if (rect.left < window.innerWidth * 0.75 && rect.right > window.innerWidth * 0.25) {
       panel.classList.add("visible");
     }
@@ -368,16 +361,14 @@ function initTouch() {
   document.addEventListener("touchstart", (e) => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
-  }, { passive: false }); // Changed to false to allow preventing default if needed in future
+  }, { passive: false });
 
-  // Add touchmove listener to prevent native swipe navigation
   document.addEventListener("touchmove", (e) => {
     const currentX = e.touches[0].clientX;
     const currentY = e.touches[0].clientY;
     const diffX = currentX - startX;
     const diffY = currentY - startY;
 
-    // If movement is predominantly horizontal, prevent default to stop browser nav
     if (Math.abs(diffX) > Math.abs(diffY)) {
       e.preventDefault();
     }
@@ -386,15 +377,11 @@ function initTouch() {
   document.addEventListener("touchend", (e) => {
     const endX = e.changedTouches[0].clientX;
     const endY = e.changedTouches[0].clientY;
-    
+
     const diffX = endX - startX;
     const diffY = endY - startY;
 
-    // Check if horizontal swipe dominant
     if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > TOUCH_THRESHOLD) {
-      // Swipe Left (finger moves left, endX < startX, diffX < 0) -> Next Panel
-      // Swipe Right (finger moves right, endX > startX, diffX > 0) -> Prev Panel
-      
       if (diffX < 0) {
         goToPanel(currentIndex + 1);
       } else {

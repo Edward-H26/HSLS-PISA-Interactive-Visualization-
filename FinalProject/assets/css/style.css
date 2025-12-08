@@ -28,7 +28,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   overflow: hidden;
-  overscroll-behavior-x: none; /* Prevents back/forward navigation swipe */
+  overscroll-behavior-x: none;
 }
 
 h1, h2, h3 { margin: 0; font-weight: 300; }
@@ -400,10 +400,9 @@ p { margin: 0; color: var(--muted); }
 .scroll-container {
   height: 100vh;
   display: flex;
-  overflow-x: hidden; /* Changed from auto to hidden to prevent user scroll interaction fighting JS */
+  overflow-x: hidden;
   overflow-y: hidden;
-  overscroll-behavior-x: none; /* Prevents back/forward navigation swipe */
-  /* scroll-snap-type removed */
+  overscroll-behavior-x: none;
   position: relative;
   z-index: 2;
   -webkit-overflow-scrolling: touch;
@@ -412,7 +411,6 @@ p { margin: 0; color: var(--muted); }
 .scroll-container::-webkit-scrollbar { display: none; }
 
 .panel {
-  /* scroll-snap-align removed */
   flex: 0 0 100vw;
   height: 100vh;
   display: flex;
@@ -452,11 +450,11 @@ body:has(.top-nav.visible) .panel-inner {
 .panel-inner::-webkit-scrollbar-thumb { background: var(--glass-border); border-radius: 3px; }
 
 .viz-section {
-  width: min(1400px, 94vw);
+  width: min(1600px, 96vw);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 32px;
   align-items: center;
 }
 
@@ -491,7 +489,7 @@ body:has(.top-nav.visible) .panel-inner {
 .viz-card {
   position: relative;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   border-radius: var(--radius-lg);
   transition: transform 0.3s var(--ease-smooth);
 }
@@ -505,7 +503,7 @@ body:has(.top-nav.visible) .panel-inner {
   border: 1px solid var(--liquid-border);
   border-radius: var(--radius-lg);
   padding: 24px;
-  min-height: 700px;
+  min-height: 900px;
   width: 100%;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
@@ -525,18 +523,19 @@ body:has(.top-nav.visible) .panel-inner {
 .vega-chart {
   width: 100%;
   max-width: 100%;
-  min-height: 300px;
+  min-height: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.vega-embed, .vega-embed * {
-  max-width: 100% !important;
+.vega-embed {
+  width: auto !important;
+  height: auto !important;
 }
 
 .vega-embed canvas, .vega-embed svg {
-  max-width: 100% !important;
+  width: auto !important;
   height: auto !important;
 }
 
@@ -593,14 +592,14 @@ body:has(.top-nav.visible) .panel-inner {
 .swipe-hint {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 16px;
+  gap: 12px;
+  padding: 12px 24px;
   background: var(--liquid-bg);
   border: 1px solid var(--liquid-border);
   border-radius: 999px;
   backdrop-filter: blur(20px);
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   font-weight: 500;
   animation: fade-pulse 3s ease-in-out infinite;
 }
@@ -611,6 +610,8 @@ body:has(.top-nav.visible) .panel-inner {
 
 .swipe-hint .swipe-arrow {
   stroke: var(--accent);
+  width: 28px;
+  height: 28px;
 }
 
 .swipe-hint .arrow-left {

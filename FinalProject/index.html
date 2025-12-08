@@ -5,31 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Visualization Showcase</title>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- Vega-Lite for Visualizations -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   
-  <!-- Custom Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Animated Background -->
   <div id="bg-container">
-    <!-- Gradient Base -->
     <div class="bg-gradient"></div>
-    
-    <!-- Animated Grid -->
     <div class="bg-grid"></div>
-    
-    <!-- Floating School Objects (Slow, spread out, varied sizes) -->
     <div class="floating-objects">
-      <!-- Books -->
       <div class="floating-object book-1">
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="8" y="12" width="48" height="40" rx="2" fill="rgba(76, 141, 255, 0.15)" stroke="rgba(76, 141, 255, 0.4)" stroke-width="2"/>
@@ -54,7 +44,6 @@
         </svg>
       </div>
 
-      <!-- Pencils -->
       <div class="floating-object pencil-1">
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 52L8 56l4-4zm0 0l36-36 8 8-36 36H12v-8z" fill="rgba(251, 191, 36, 0.15)" stroke="rgba(251, 191, 36, 0.5)" stroke-width="2"/>
@@ -76,7 +65,6 @@
         </svg>
       </div>
 
-      <!-- Ruler -->
       <div class="floating-object ruler">
         <svg viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="2" y="2" width="76" height="20" rx="2" fill="rgba(76, 141, 255, 0.1)" stroke="rgba(76, 141, 255, 0.3)" stroke-width="2"/>
@@ -84,7 +72,6 @@
         </svg>
       </div>
 
-      <!-- Calculator -->
       <div class="floating-object calculator">
         <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="4" y="4" width="40" height="56" rx="4" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.35)" stroke-width="2"/>
@@ -98,7 +85,6 @@
         </svg>
       </div>
 
-      <!-- Lightbulb -->
       <div class="floating-object lightbulb">
         <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M24 4C14 4 8 12 8 20c0 6 4 11 8 14v6h16v-6c4-3 8-8 8-14 0-8-6-16-16-16z" fill="rgba(251, 191, 36, 0.12)" stroke="rgba(251, 191, 36, 0.45)" stroke-width="2"/>
@@ -106,7 +92,6 @@
         </svg>
       </div>
 
-      <!-- Chart -->
       <div class="floating-object chart">
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="8" y="8" width="48" height="48" rx="4" fill="rgba(34, 211, 238, 0.08)" stroke="rgba(34, 211, 238, 0.3)" stroke-width="2"/>
@@ -114,7 +99,6 @@
         </svg>
       </div>
 
-      <!-- Graduation cap -->
       <div class="floating-object graduation">
         <svg viewBox="0 0 64 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M32 4L4 16l28 12 28-12L32 4z" fill="rgba(168, 85, 247, 0.15)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="2"/>
@@ -124,7 +108,6 @@
         </svg>
       </div>
 
-      <!-- Globe -->
       <div class="floating-object globe">
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="32" cy="32" r="26" fill="rgba(34, 211, 238, 0.08)" stroke="rgba(34, 211, 238, 0.35)" stroke-width="2"/>
@@ -134,7 +117,6 @@
         </svg>
       </div>
 
-      <!-- Notebook -->
       <div class="floating-object notebook">
         <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="8" y="4" width="36" height="56" rx="2" fill="rgba(244, 114, 182, 0.1)" stroke="rgba(244, 114, 182, 0.35)" stroke-width="2"/>
@@ -143,7 +125,6 @@
         </svg>
       </div>
 
-      <!-- Eraser -->
       <div class="floating-object eraser">
         <svg viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="4" y="4" width="40" height="24" rx="4" fill="rgba(244, 114, 182, 0.15)" stroke="rgba(244, 114, 182, 0.4)" stroke-width="2"/>
@@ -151,7 +132,6 @@
         </svg>
       </div>
 
-      <!-- Scissors -->
       <div class="floating-object scissors">
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="16" cy="48" r="10" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="2"/>
@@ -160,7 +140,6 @@
         </svg>
       </div>
 
-      <!-- Backpack -->
       <div class="floating-object backpack">
         <svg viewBox="0 0 48 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="6" y="16" width="36" height="44" rx="6" fill="rgba(251, 146, 60, 0.12)" stroke="rgba(251, 146, 60, 0.4)" stroke-width="2"/>
@@ -170,7 +149,6 @@
         </svg>
       </div>
 
-      <!-- Apple -->
       <div class="floating-object apple">
         <svg viewBox="0 0 48 56" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M24 12c-12 0-18 10-18 22s8 18 18 18 18-6 18-18-6-22-18-22z" fill="rgba(239, 68, 68, 0.15)" stroke="rgba(239, 68, 68, 0.45)" stroke-width="2"/>
@@ -179,7 +157,6 @@
         </svg>
       </div>
 
-      <!-- Clock -->
       <div class="floating-object clock">
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="32" cy="32" r="28" fill="rgba(76, 141, 255, 0.08)" stroke="rgba(76, 141, 255, 0.35)" stroke-width="2"/>
@@ -190,7 +167,6 @@
         </svg>
       </div>
 
-      <!-- Math symbols -->
       <div class="floating-object math-symbols">
         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <text x="8" y="20" font-size="18" fill="rgba(168, 85, 247, 0.5)" font-family="serif">+</text>
@@ -201,14 +177,11 @@
       </div>
     </div>
     
-    <!-- Particles -->
     <div class="particles" id="particles"></div>
   </div>
   
-  <!-- Noise Overlay -->
   <div class="noise-overlay"></div>
 
-  <!-- Top Navigation (Hidden by default, shows on scroll to bottom) -->
   <nav class="top-nav" id="top-nav">
     <button class="brand" data-target="0">
       <span class="brand-icon">
@@ -235,10 +208,8 @@
     <button class="pill pill-primary" data-target="0">Explore</button>
   </nav>
 
-  <!-- Main Horizontal Scroll Container -->
   <main class="scroll-container" id="scroll-container">
     
-    <!-- Panel 1 -->
     <section class="panel" data-index="0">
       <div class="panel-inner" data-panel="0">
         <div class="viz-section">
@@ -278,7 +249,6 @@
       </div>
     </section>
 
-    <!-- Panel 2 -->
     <section class="panel" data-index="1">
       <div class="panel-inner" data-panel="1">
         <div class="viz-section">
@@ -323,7 +293,6 @@
       </div>
     </section>
 
-    <!-- Panel 3 -->
     <section class="panel" data-index="2">
       <div class="panel-inner" data-panel="2">
         <div class="viz-section">
@@ -368,7 +337,6 @@
       </div>
     </section>
 
-    <!-- Panel 4 -->
     <section class="panel" data-index="3">
       <div class="panel-inner" data-panel="3">
         <div class="viz-section">
@@ -380,7 +348,7 @@
             </svg>
                 <span>Swipe</span>
               </div>
-              <h1 class="viz-title">Parent Education & STEM by Gender</h1>
+              <h1 class="viz-title">Research Experience by SES & Demographics</h1>
               <div class="swipe-hint swipe-right">
                 <span>Swipe</span>
                 <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
@@ -404,16 +372,15 @@
               Description
             </h3>
             <div class="description-content">
-              <p><strong>Interaction:</strong> Click a parent education level bar in the left chart to see the gender breakdown (Female vs Male STEM expectation rates) for that education level in the right chart.</p>
-              <p>This HSLS visualization explores how parental education influences students' STEM career expectations. The left chart shows overall STEM expectation rates by parent education level (from Less than HS to Ph.D./Professional).</p>
-              <p>Click any education level to reveal whether the gender gap in STEM expectations narrows or widens at different levels of parental educational attainment. Research suggests higher parental education may reduce gender disparities in STEM aspirations.</p>
+              <p><strong>Interaction:</strong> Click an SES quintile bar in the left chart to see the research experience rates broken down by race/ethnicity and gender in the right chart.</p>
+              <p>This HSLS visualization explores how socioeconomic status relates to undergraduate research experience with faculty members. The left chart shows research participation rates across SES quintiles (Q1 lowest to Q5 highest).</p>
+              <p>Click any SES quintile to reveal how research opportunities vary across racial/ethnic groups and genders within that socioeconomic level. Research experience is a key predictor of graduate school enrollment and STEM career persistence.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Panel 5 -->
     <section class="panel" data-index="4">
       <div class="panel-inner" data-panel="4">
         <div class="viz-section">
@@ -458,7 +425,6 @@
       </div>
     </section>
 
-    <!-- Panel 6 -->
     <section class="panel" data-index="5">
       <div class="panel-inner" data-panel="5">
         <div class="viz-section">
@@ -503,7 +469,6 @@
       </div>
     </section>
 
-    <!-- Panel 7 -->
     <section class="panel" data-index="6">
       <div class="panel-inner" data-panel="6">
         <div class="viz-section">
@@ -515,7 +480,7 @@
             </svg>
                 <span>Swipe</span>
               </div>
-              <h1 class="viz-title">US vs International Math Efficacy</h1>
+              <h1 class="viz-title">Educational Inequality: Achievement to Expectations</h1>
               <div class="swipe-hint swipe-right">
                 <span>Swipe</span>
                 <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
@@ -539,16 +504,15 @@
               Description
             </h3>
             <div class="description-content">
-              <p><strong>Interaction:</strong> Click a data source in the left chart (HSLS US 2009, PISA US 2022, or PISA International 2022) to compare the gender gap in CONFIDENCE vs the gender gap in ACHIEVEMENT for that source.</p>
-              <p>This combined visualization directly compares whether confidence gaps align with achievement gaps. The left chart shows sample sizes by source. The right chart shows two bars: one for the gender gap in efficacy (confidence) and one for the gender gap in actual math scores.</p>
-              <p>If confidence gaps exceed achievement gaps, it suggests cultural or psychological factors are suppressing confidence beyond what performance warrants. If they align, it suggests confidence accurately reflects ability differences.</p>
+              <p><strong>Interaction:</strong> Click on a gender (Female or Male) in the left PISA chart to filter the right HSLS bar chart by that gender. This reveals how current achievement patterns relate to future educational expectations.</p>
+              <p>The left chart shows country-level averages of socioeconomic status (ESCS) versus math achievement from PISA 2022, with each dot representing one country. The right bar chart displays how math ability quintile relates to mean educational expectations in the HSLS:09 US dataset, grouped by SES quintile.</p>
+              <p>This visualization explores educational inequality by connecting concurrent achievement (international comparison) to future aspirations (US longitudinal data). Higher SES quintiles consistently show higher educational expectations across all math ability levels.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Panel 8 -->
     <section class="panel" data-index="7">
       <div class="panel-inner" data-panel="7">
         <div class="viz-section">
@@ -560,7 +524,7 @@
             </svg>
                 <span>Swipe</span>
               </div>
-              <h1 class="viz-title">SES-Achievement Gradient Comparison</h1>
+              <h1 class="viz-title">Continent SES vs STEM Interest by Gender</h1>
               <div class="swipe-hint swipe-right">
                 <span>Swipe</span>
                 <svg class="swipe-arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
@@ -584,16 +548,15 @@
               Description
             </h3>
             <div class="description-content">
-              <p><strong>Interaction:</strong> Click a data source in the left chart to see the GAP between the Lowest 20% and Highest 20% SES quintiles for that source, visualized as two bars in the right chart.</p>
-              <p>This visualization makes inequality tangible by showing the extremes. Instead of a gradient across all quintiles, it focuses on the distance between the bottom and top SES groups. The visual gap between bars represents educational inequality.</p>
-              <p>Larger gaps between Lowest and Highest SES bars indicate greater inequality. Compare whether the US shows larger or smaller SES achievement gaps than international benchmarks.</p>
+              <p><strong>Interaction:</strong> Click a continent bubble in the left chart to filter the right density plot, showing STEM interest distribution by gender for students in that region.</p>
+              <p>The left chart displays continent-level averages with SES and Math Self-Efficacy standardized (z-scores) within each data source, enabling fair comparison across PISA (international) and HSLS (US) datasets. Bubble size represents sample size.</p>
+              <p>The right density plot reveals how STEM interest is distributed between male and female students. Overlapping curves indicate similar interest levels; separated peaks suggest gender differences in STEM motivation within that region.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Panel 9 -->
     <section class="panel" data-index="8">
       <div class="panel-inner" data-panel="8">
         <div class="viz-section">
@@ -635,7 +598,6 @@
 
   </main>
 
-  <!-- Progress Indicator -->
   <div class="progress-indicator">
     <div class="progress-dots">
       <button class="progress-dot active" data-target="0"></button>

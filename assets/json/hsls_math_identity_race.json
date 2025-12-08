@@ -684,7 +684,7 @@
           "type": "quantitative"
         }
       },
-      "height": 350,
+      "height": 450,
       "mark": {
         "cornerRadiusTopLeft": 3,
         "cornerRadiusTopRight": 3,
@@ -694,9 +694,10 @@
       "name": "view_1",
       "title": {
         "color": "#FFFFFF",
-        "fontSize": 14,
+        "fontSize": 16,
         "subtitle": "Click on a parent education level to filter the right chart",
         "subtitleColor": "#E0E0E0",
+        "subtitleFontSize": 11,
         "text": "Family Income by Parent Education & Student Expectations"
       },
       "width": 450
@@ -808,7 +809,7 @@
           "type": "nominal"
         }
       },
-      "height": 350,
+      "height": 450,
       "mark": {
         "cornerRadiusBottomRight": 4,
         "cornerRadiusTopRight": 4,
@@ -816,9 +817,10 @@
       },
       "title": {
         "color": "#FFFFFF",
-        "fontSize": 14,
+        "fontSize": 16,
         "subtitle": "Filtered by parent education selection from left chart",
         "subtitleColor": "#E0E0E0",
+        "subtitleFontSize": 11,
         "text": "STEM Career Expectations by School Location & Gender"
       },
       "transform": [
@@ -828,7 +830,7 @@
           }
         }
       ],
-      "width": 380
+      "width": 480
     }
   ],
   "params": [

@@ -21,385 +21,553 @@
     }
   },
   "datasets": {
-    "data-04fe2afc6f41950473e124047a2ca6aa": [
+    "data-0d2ffce0d919b37e5166d30232a95c8b": [
       {
-        "Avg_GPA": 0.5201238390092879,
-        "Count": 969,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "Low"
+        "Count": 1132,
+        "Research_Rate": 0.127208480565371,
+        "SES_Quintile": "Q1 (Lowest)"
       },
       {
-        "Avg_GPA": 0.742152466367713,
-        "Count": 223,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "Medium"
+        "Count": 1486,
+        "Research_Rate": 0.14468371467025573,
+        "SES_Quintile": "Q2"
       },
       {
-        "Avg_GPA": 0.5785984848484849,
-        "Count": 264,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "High"
+        "Count": 1975,
+        "Research_Rate": 0.149873417721519,
+        "SES_Quintile": "Q3"
       },
       {
-        "Avg_GPA": 1.0282467532467532,
-        "Count": 770,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "Low"
+        "Count": 2434,
+        "Research_Rate": 0.15119145439605589,
+        "SES_Quintile": "Q4"
       },
       {
-        "Avg_GPA": 1.1904255319148935,
-        "Count": 235,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.1417378917378918,
-        "Count": 351,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 0.9702380952380952,
-        "Count": 210,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.763157894736842,
-        "Count": 114,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.9732704402515724,
-        "Count": 159,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q1 (Lowest 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 0.8719630709426628,
-        "Count": 1029,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 0.8804347826086957,
-        "Count": 230,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.1317114093959733,
-        "Count": 298,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.3176952141057934,
-        "Count": 794,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.407846715328467,
-        "Count": 274,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.7352941176470589,
-        "Count": 425,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.310897435897436,
-        "Count": 234,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.1697247706422018,
-        "Count": 109,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 2.0160550458715596,
-        "Count": 218,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q2 (Second 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.1404306220095695,
-        "Count": 1045,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.3078602620087336,
-        "Count": 229,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 0.9925149700598802,
-        "Count": 334,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.583237986270023,
-        "Count": 874,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.6343283582089552,
-        "Count": 335,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.9860169491525423,
-        "Count": 590,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.4496402877697843,
-        "Count": 278,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.901006711409396,
-        "Count": 149,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.9258064516129032,
-        "Count": 310,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q3 (Middle 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.3945904954499495,
-        "Count": 989,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.1517094017094016,
-        "Count": 234,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.6051829268292683,
-        "Count": 328,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.6708690987124464,
-        "Count": 932,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 1.983509234828496,
-        "Count": 379,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 1.981673582295989,
-        "Count": 723,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.783450704225352,
-        "Count": 284,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 2.302721088435374,
-        "Count": 147,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 2.2799773755656108,
-        "Count": 442,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q4 (Fourth 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 1.9803974221267455,
-        "Count": 931,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 2.0400763358778624,
-        "Count": 262,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 2.1564625850340136,
-        "Count": 441,
-        "Math_Interest": "Low",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 2.1578947368421053,
-        "Count": 950,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 2.1914414414414414,
-        "Count": 444,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 2.306712962962963,
-        "Count": 1080,
-        "Math_Interest": "Medium",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "High"
-      },
-      {
-        "Avg_GPA": 2.286231884057971,
-        "Count": 276,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "Low"
-      },
-      {
-        "Avg_GPA": 2.4671052631578947,
-        "Count": 228,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "Medium"
-      },
-      {
-        "Avg_GPA": 2.5366379310344827,
-        "Count": 812,
-        "Math_Interest": "High",
-        "SES_Quintile": "Q5 (Highest 20%)",
-        "Science_Interest": "High"
+        "Count": 3902,
+        "Research_Rate": 0.21963095848282932,
+        "SES_Quintile": "Q5 (Highest)"
       }
     ],
-    "data-631688b1f65928d2aee7f16c184d5f3f": [
+    "data-88a824770f8a9e21d98e37e2f3ec6d2c": [
       {
-        "Count": 3295,
-        "Math_Score": 45.29814352048558,
-        "SES_Quintile": "Q1 (Lowest 20%)"
+        "Count": 3,
+        "Gender": "Female",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.3333333333333333,
+        "SES_Quintile": "Q1 (Lowest)"
       },
       {
-        "Count": 3611,
-        "Math_Score": 47.446629216283576,
-        "SES_Quintile": "Q2 (Second 20%)"
+        "Count": 6,
+        "Gender": "Male",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.16666666666666666,
+        "SES_Quintile": "Q1 (Lowest)"
       },
       {
-        "Count": 4144,
-        "Math_Score": 49.930422321428566,
-        "SES_Quintile": "Q3 (Middle 20%)"
+        "Count": 45,
+        "Gender": "Female",
+        "Race": "Asian",
+        "Research_Rate": 0.17777777777777778,
+        "SES_Quintile": "Q1 (Lowest)"
       },
       {
-        "Count": 4458,
-        "Math_Score": 52.658895379093764,
-        "SES_Quintile": "Q4 (Fourth 20%)"
+        "Count": 50,
+        "Gender": "Male",
+        "Race": "Asian",
+        "Research_Rate": 0.16,
+        "SES_Quintile": "Q1 (Lowest)"
       },
       {
-        "Count": 5424,
-        "Math_Score": 57.19381323746313,
-        "SES_Quintile": "Q5 (Highest 20%)"
+        "Count": 99,
+        "Gender": "Female",
+        "Race": "Black/African American",
+        "Research_Rate": 0.1919191919191919,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 63,
+        "Gender": "Male",
+        "Race": "Black/African American",
+        "Research_Rate": 0.09523809523809523,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 240,
+        "Gender": "Female",
+        "Race": "Hispanic",
+        "Research_Rate": 0.10416666666666667,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 203,
+        "Gender": "Male",
+        "Race": "Hispanic",
+        "Research_Rate": 0.11330049261083744,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 57,
+        "Gender": "Female",
+        "Race": "More than one race",
+        "Research_Rate": 0.10526315789473684,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 34,
+        "Gender": "Male",
+        "Race": "More than one race",
+        "Research_Rate": 0.029411764705882353,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 2,
+        "Gender": "Female",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.5,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 2,
+        "Gender": "Male",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 203,
+        "Gender": "Female",
+        "Race": "White",
+        "Research_Rate": 0.13793103448275862,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 125,
+        "Gender": "Male",
+        "Race": "White",
+        "Research_Rate": 0.136,
+        "SES_Quintile": "Q1 (Lowest)"
+      },
+      {
+        "Count": 9,
+        "Gender": "Female",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.1111111111111111,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 5,
+        "Gender": "Male",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 69,
+        "Gender": "Female",
+        "Race": "Asian",
+        "Research_Rate": 0.17391304347826086,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 49,
+        "Gender": "Male",
+        "Race": "Asian",
+        "Research_Rate": 0.1836734693877551,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 108,
+        "Gender": "Female",
+        "Race": "Black/African American",
+        "Research_Rate": 0.25,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 96,
+        "Gender": "Male",
+        "Race": "Black/African American",
+        "Research_Rate": 0.15625,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 179,
+        "Gender": "Female",
+        "Race": "Hispanic",
+        "Research_Rate": 0.16201117318435754,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 127,
+        "Gender": "Male",
+        "Race": "Hispanic",
+        "Research_Rate": 0.10236220472440945,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 89,
+        "Gender": "Female",
+        "Race": "More than one race",
+        "Research_Rate": 0.14606741573033707,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 52,
+        "Gender": "Male",
+        "Race": "More than one race",
+        "Research_Rate": 0.09615384615384616,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 4,
+        "Gender": "Female",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 2,
+        "Gender": "Male",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 410,
+        "Gender": "Female",
+        "Race": "White",
+        "Research_Rate": 0.15365853658536585,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 287,
+        "Gender": "Male",
+        "Race": "White",
+        "Research_Rate": 0.0975609756097561,
+        "SES_Quintile": "Q2"
+      },
+      {
+        "Count": 5,
+        "Gender": "Female",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.2,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 3,
+        "Gender": "Male",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.3333333333333333,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 62,
+        "Gender": "Female",
+        "Race": "Asian",
+        "Research_Rate": 0.20967741935483872,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 84,
+        "Gender": "Male",
+        "Race": "Asian",
+        "Research_Rate": 0.14285714285714285,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 123,
+        "Gender": "Female",
+        "Race": "Black/African American",
+        "Research_Rate": 0.16260162601626016,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 86,
+        "Gender": "Male",
+        "Race": "Black/African American",
+        "Research_Rate": 0.16279069767441862,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 153,
+        "Gender": "Female",
+        "Race": "Hispanic",
+        "Research_Rate": 0.1830065359477124,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 128,
+        "Gender": "Male",
+        "Race": "Hispanic",
+        "Research_Rate": 0.1328125,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 105,
+        "Gender": "Female",
+        "Race": "More than one race",
+        "Research_Rate": 0.1619047619047619,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 88,
+        "Gender": "Male",
+        "Race": "More than one race",
+        "Research_Rate": 0.10227272727272728,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 4,
+        "Gender": "Female",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 7,
+        "Gender": "Male",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.14285714285714285,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 632,
+        "Gender": "Female",
+        "Race": "White",
+        "Research_Rate": 0.15664556962025317,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 495,
+        "Gender": "Male",
+        "Race": "White",
+        "Research_Rate": 0.1292929292929293,
+        "SES_Quintile": "Q3"
+      },
+      {
+        "Count": 4,
+        "Gender": "Female",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 6,
+        "Gender": "Male",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 109,
+        "Gender": "Female",
+        "Race": "Asian",
+        "Research_Rate": 0.2018348623853211,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 97,
+        "Gender": "Male",
+        "Race": "Asian",
+        "Research_Rate": 0.18556701030927836,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 117,
+        "Gender": "Female",
+        "Race": "Black/African American",
+        "Research_Rate": 0.13675213675213677,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 95,
+        "Gender": "Male",
+        "Race": "Black/African American",
+        "Research_Rate": 0.1368421052631579,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 131,
+        "Gender": "Female",
+        "Race": "Hispanic",
+        "Research_Rate": 0.17557251908396945,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 104,
+        "Gender": "Male",
+        "Race": "Hispanic",
+        "Research_Rate": 0.14423076923076922,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 127,
+        "Gender": "Female",
+        "Race": "More than one race",
+        "Research_Rate": 0.1889763779527559,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 99,
+        "Gender": "Male",
+        "Race": "More than one race",
+        "Research_Rate": 0.1111111111111111,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 7,
+        "Gender": "Female",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 3,
+        "Gender": "Male",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 811,
+        "Gender": "Female",
+        "Race": "White",
+        "Research_Rate": 0.15289765721331688,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 724,
+        "Gender": "Male",
+        "Race": "White",
+        "Research_Rate": 0.1408839779005525,
+        "SES_Quintile": "Q4"
+      },
+      {
+        "Count": 5,
+        "Gender": "Female",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.0,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 10,
+        "Gender": "Male",
+        "Race": "Am. Indian/Alaska Native",
+        "Research_Rate": 0.4,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 263,
+        "Gender": "Female",
+        "Race": "Asian",
+        "Research_Rate": 0.3269961977186312,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 245,
+        "Gender": "Male",
+        "Race": "Asian",
+        "Research_Rate": 0.363265306122449,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 118,
+        "Gender": "Female",
+        "Race": "Black/African American",
+        "Research_Rate": 0.1864406779661017,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 124,
+        "Gender": "Male",
+        "Race": "Black/African American",
+        "Research_Rate": 0.1935483870967742,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 162,
+        "Gender": "Female",
+        "Race": "Hispanic",
+        "Research_Rate": 0.19135802469135801,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 115,
+        "Gender": "Male",
+        "Race": "Hispanic",
+        "Research_Rate": 0.17391304347826086,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 153,
+        "Gender": "Female",
+        "Race": "More than one race",
+        "Research_Rate": 0.21568627450980393,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 146,
+        "Gender": "Male",
+        "Race": "More than one race",
+        "Research_Rate": 0.17123287671232876,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 6,
+        "Gender": "Female",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.3333333333333333,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 7,
+        "Gender": "Male",
+        "Race": "Native Hawaiian/Pac. Isl.",
+        "Research_Rate": 0.14285714285714285,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 1313,
+        "Gender": "Female",
+        "Race": "White",
+        "Research_Rate": 0.22086824067022087,
+        "SES_Quintile": "Q5 (Highest)"
+      },
+      {
+        "Count": 1235,
+        "Gender": "Male",
+        "Race": "White",
+        "Research_Rate": 0.1862348178137652,
+        "SES_Quintile": "Q5 (Highest)"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-631688b1f65928d2aee7f16c184d5f3f"
+        "name": "data-0d2ffce0d919b37e5166d30232a95c8b"
       },
       "encoding": {
         "color": {
-          "field": "Math_Score",
-          "legend": null,
-          "scale": {
-            "domain": [
-              44,
-              56
-            ],
-            "scheme": "blues"
-          },
-          "type": "quantitative"
+          "value": "#4CAF50"
         },
         "opacity": {
           "condition": {
+            "empty": true,
             "param": "ses_select",
-            "value": 1
+            "value": 1.0
           },
-          "value": 0.4
+          "value": 0.5
         },
         "tooltip": [
           {
             "field": "SES_Quintile",
+            "title": "SES Quintile",
             "type": "nominal"
           },
           {
-            "field": "Math_Score",
-            "format": ".1f",
-            "title": "Avg Math Score",
+            "field": "Research_Rate",
+            "format": ".1%",
+            "title": "Research Rate",
             "type": "quantitative"
           },
           {
@@ -410,33 +578,33 @@
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": -45,
+            "labelFontSize": 11
+          },
           "field": "SES_Quintile",
           "sort": [
-            "Q1 (Lowest 20%)",
-            "Q2 (Second 20%)",
-            "Q3 (Middle 20%)",
-            "Q4 (Fourth 20%)",
-            "Q5 (Highest 20%)"
+            "Q1 (Lowest)",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Q5 (Highest)"
           ],
           "title": "SES Quintile",
           "type": "nominal"
         },
         "y": {
-          "field": "Math_Score",
-          "scale": {
-            "domain": [
-              44,
-              56
-            ]
+          "axis": {
+            "format": ".0%"
           },
-          "title": "Avg Math Score",
+          "field": "Research_Rate",
+          "title": "% with Research Experience",
           "type": "quantitative"
         }
       },
-      "height": 280,
+      "height": 350,
       "mark": {
-        "cornerRadiusTopLeft": 4,
-        "cornerRadiusTopRight": 4,
+        "cornerRadius": 4,
         "cursor": "pointer",
         "type": "bar"
       },
@@ -444,48 +612,54 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click to filter interest heatmap",
+        "subtitle": "Click to filter by socioeconomic status",
         "subtitleColor": "#E0E0E0",
-        "text": "Math Achievement by SES"
+        "text": "Research Experience by SES Quintile"
       },
-      "width": 280
+      "width": 380
     },
     {
       "data": {
-        "name": "data-04fe2afc6f41950473e124047a2ca6aa"
+        "name": "data-88a824770f8a9e21d98e37e2f3ec6d2c"
       },
       "encoding": {
         "color": {
-          "field": "Avg_GPA",
+          "field": "Gender",
           "legend": {
-            "title": "Avg GPA"
+            "orient": "top",
+            "title": "Gender"
           },
           "scale": {
             "domain": [
-              2.2,
-              3.4
+              "Female",
+              "Male"
             ],
-            "scheme": "viridis"
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
           },
-          "type": "quantitative"
+          "type": "nominal"
         },
         "tooltip": [
           {
             "field": "SES_Quintile",
+            "title": "SES Quintile",
             "type": "nominal"
           },
           {
-            "field": "Math_Interest",
+            "field": "Race",
+            "title": "Race/Ethnicity",
             "type": "nominal"
           },
           {
-            "field": "Science_Interest",
+            "field": "Gender",
             "type": "nominal"
           },
           {
-            "field": "Avg_GPA",
-            "format": ".2f",
-            "title": "Avg GPA",
+            "field": "Research_Rate",
+            "format": ".1%",
+            "title": "Research Rate",
             "type": "quantitative"
           },
           {
@@ -496,43 +670,67 @@
           }
         ],
         "x": {
-          "field": "Science_Interest",
-          "sort": [
-            "Low",
-            "Medium",
-            "High"
-          ],
-          "title": "Science Interest",
-          "type": "nominal"
+          "axis": {
+            "format": ".0%"
+          },
+          "field": "Research_Rate",
+          "scale": {
+            "domain": [
+              0,
+              0.25
+            ]
+          },
+          "title": "% with Research Experience",
+          "type": "quantitative"
         },
         "y": {
-          "field": "Math_Interest",
+          "axis": {
+            "labelFontSize": 11
+          },
+          "field": "Race",
           "sort": [
-            "Low",
-            "Medium",
-            "High"
+            "White",
+            "Asian",
+            "Hispanic",
+            "Black/African American",
+            "More than one race",
+            "Am. Indian/Alaska Native",
+            "Native Hawaiian/Pac. Isl."
           ],
-          "title": "Math Interest",
+          "title": "Race/Ethnicity",
+          "type": "nominal"
+        },
+        "yOffset": {
+          "field": "Gender",
+          "sort": [
+            "Male",
+            "Female"
+          ],
           "type": "nominal"
         }
       },
-      "height": 280,
+      "height": 350,
       "mark": {
-        "type": "rect"
+        "cornerRadiusBottomRight": 4,
+        "cornerRadiusTopRight": 4,
+        "type": "bar"
       },
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "text": "GPA by Math & Science Interest"
+        "subtitle": "Filtered by SES selection",
+        "subtitleColor": "#E0E0E0",
+        "text": "Research Experience by Race & Gender"
       },
       "transform": [
         {
           "filter": {
+            "empty": true,
             "param": "ses_select"
           }
         }
       ],
-      "width": 220
+      "width": 380
     }
   ],
   "params": [
