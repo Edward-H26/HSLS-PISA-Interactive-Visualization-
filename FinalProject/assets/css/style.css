@@ -68,10 +68,11 @@ p { margin: 0; color: var(--muted); }
 }
 
 .floating-objects {
-  position: absolute;
+  position: fixed;
   inset: 0;
   pointer-events: none;
-  overflow: hidden;
+  overflow: visible;
+  z-index: 1;
 }
 
 .floating-object {
@@ -86,133 +87,133 @@ p { margin: 0; color: var(--muted); }
 
 .book-1 {
   width: 80px; height: 80px;
-  top: 5%; left: 3%;
+  top: 20%; left: 2%;
   transform: rotate(-15deg);
   animation: float-tilt-1 6s ease-in-out infinite;
 }
 
 .book-2 {
   width: 50px; height: 50px;
-  top: 15%; right: 8%;
+  top: 25%; right: 2%;
   transform: rotate(20deg);
   animation: float-tilt-2 7s ease-in-out infinite;
 }
 
 .book-3 {
   width: 65px; height: 65px;
-  bottom: 20%; left: 88%;
+  bottom: 15%; right: 3%;
   transform: rotate(-25deg);
   animation: float-tilt-3 5s ease-in-out infinite;
 }
 
 .pencil-1 {
   width: 70px; height: 70px;
-  top: 35%; left: 92%;
+  top: 50%; right: 2%;
   transform: rotate(35deg);
   animation: float-tilt-4 6s ease-in-out infinite;
 }
 
 .pencil-2 {
   width: 40px; height: 40px;
-  bottom: 8%; left: 25%;
+  bottom: 5%; left: 3%;
   transform: rotate(-40deg);
   animation: float-tilt-1 8s ease-in-out infinite reverse;
 }
 
 .pencil-3 {
   width: 55px; height: 55px;
-  top: 70%; right: 92%;
+  top: 75%; left: 2%;
   transform: rotate(50deg);
   animation: float-tilt-2 5s ease-in-out infinite;
 }
 
 .ruler {
   width: 100px; height: 28px;
-  top: 55%; left: 1%;
+  top: 45%; left: 1%;
   transform: rotate(-30deg);
   animation: float-tilt-5 7s ease-in-out infinite;
 }
 
 .calculator {
   width: 55px; height: 72px;
-  bottom: 35%; right: 2%;
+  bottom: 30%; right: 2%;
   transform: rotate(12deg);
   animation: float-tilt-3 6s ease-in-out infinite reverse;
 }
 
 .lightbulb {
   width: 48px; height: 58px;
-  top: 3%; right: 45%;
+  top: 8%; right: 6%;
   transform: rotate(-18deg);
   animation: float-tilt-4 8s ease-in-out infinite;
 }
 
 .chart {
   width: 72px; height: 72px;
-  bottom: 5%; left: 55%;
+  top: 22%; right: 10%;
   transform: rotate(8deg);
   animation: float-tilt-1 5s ease-in-out infinite;
 }
 
 .graduation {
   width: 75px; height: 52px;
-  top: 80%; left: 75%;
+  top: 12%; right: 18%;
   transform: rotate(-22deg);
   animation: float-tilt-2 6s ease-in-out infinite;
 }
 
 .globe {
   width: 60px; height: 60px;
-  top: 25%; left: 45%;
+  top: 8%; left: 12%;
   transform: rotate(15deg);
   animation: float-tilt-3 9s ease-in-out infinite;
 }
 
 .notebook {
   width: 45px; height: 55px;
-  bottom: 45%; right: 88%;
+  top: 60%; left: 2%;
   transform: rotate(-35deg);
   animation: float-tilt-4 7s ease-in-out infinite;
 }
 
 .eraser {
   width: 35px; height: 25px;
-  top: 48%; right: 35%;
+  top: 35%; left: 3%;
   transform: rotate(28deg);
   animation: float-tilt-5 5s ease-in-out infinite;
 }
 
 .scissors {
   width: 50px; height: 50px;
-  bottom: 60%; left: 8%;
+  top: 38%; right: 2%;
   transform: rotate(-45deg);
   animation: float-tilt-1 6s ease-in-out infinite reverse;
 }
 
 .backpack {
   width: 58px; height: 70px;
-  top: 88%; left: 12%;
+  top: 88%; left: 2%;
   transform: rotate(10deg);
   animation: float-tilt-2 8s ease-in-out infinite;
 }
 
 .apple {
   width: 42px; height: 48px;
-  top: 12%; left: 65%;
+  top: 5%; left: 3%;
   transform: rotate(-12deg);
   animation: float-tilt-3 5s ease-in-out infinite;
 }
 
 .clock {
   width: 52px; height: 52px;
-  bottom: 75%; right: 15%;
+  top: 18%; right: 3%;
   transform: rotate(20deg);
   animation: float-tilt-4 6s ease-in-out infinite;
 }
 
 .math-symbols {
   width: 38px; height: 38px;
-  top: 62%; right: 55%;
+  top: 80%; right: 3%;
   transform: rotate(-8deg);
   animation: float-tilt-5 7s ease-in-out infinite;
 }
@@ -388,9 +389,10 @@ p { margin: 0; color: var(--muted); }
 }
 
 .pill-primary {
-  background: var(--accent-gradient);
-  border-color: rgba(255, 255, 255, 0.15);
-  color: #0b1422;
+  background: linear-gradient(135deg, rgba(76, 141, 255, 0.4) 0%, rgba(168, 85, 247, 0.4) 100%);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: var(--fg);
+  backdrop-filter: blur(20px);
 }
 
 .pill:hover {
@@ -450,7 +452,7 @@ body:has(.top-nav.visible) .panel-inner {
 .panel-inner::-webkit-scrollbar-thumb { background: var(--glass-border); border-radius: 3px; }
 
 .viz-section {
-  width: min(1600px, 96vw);
+  width: min(1350px, 94vw);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -461,9 +463,10 @@ body:has(.top-nav.visible) .panel-inner {
 .viz-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   gap: 12px;
+  position: relative;
 }
 
 .badge-text {
@@ -489,7 +492,7 @@ body:has(.top-nav.visible) .panel-inner {
 .viz-card {
   position: relative;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   border-radius: var(--radius-lg);
   transition: transform 0.3s var(--ease-smooth);
 }
@@ -504,8 +507,8 @@ body:has(.top-nav.visible) .panel-inner {
   border-radius: var(--radius-lg);
   padding: 8px;
   width: 100%;
-  max-width: 1350px;
-  max-height: 550px;
+  max-width: 100%;
+  max-height: 530px;
   margin: 0 auto;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
@@ -531,17 +534,24 @@ body:has(.top-nav.visible) .panel-inner {
 }
 
 .vega-embed {
-  width: auto !important;
-  height: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .vega-embed canvas, .vega-embed svg {
+  display: block !important;
+  margin: auto !important;
+  max-width: 100% !important;
+  max-height: 500px !important;
   width: auto !important;
   height: auto !important;
 }
 
 .description-section {
-  width: min(1400px, 94vw);
+  width: min(1350px, 94vw);
   margin: 40px auto 0;
   padding-bottom: 60px;
 }
@@ -593,20 +603,31 @@ body:has(.top-nav.visible) .panel-inner {
 .swipe-hint {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
+  gap: 9px;
+  padding: 10px 20px;
   background: var(--liquid-bg);
   border: 1px solid var(--liquid-border);
   border-radius: 999px;
   backdrop-filter: blur(20px);
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   font-weight: 500;
   animation: fade-pulse 3s ease-in-out infinite;
+  position: absolute;
+  top: -10px;
+  z-index: 50;
+}
+
+.swipe-hint.swipe-left {
+  left: -30px;
+}
+
+.swipe-hint.swipe-right {
+  right: -30px;
 }
 
 .swipe-spacer {
-  flex: 1;
+  display: none;
 }
 
 .swipe-hint .swipe-arrow {

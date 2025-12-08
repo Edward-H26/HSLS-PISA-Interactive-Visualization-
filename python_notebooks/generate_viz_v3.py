@@ -60,72 +60,107 @@ efficacy_by_gender = pisa_v1.groupby(["Country", "Gender"]).agg(
 ).reset_index()
 
 efficacy_pivot = efficacy_by_gender.pivot(index = "Country", columns = "Gender", values = "Efficacy").reset_index()
-efficacy_pivot["Efficacy_Gap"] = efficacy_pivot["Male"] - efficacy_pivot["Female"]
+efficacy_pivot.columns = ["Country", "Female_Eff", "Male_Eff"]
+efficacy_pivot["Gap"] = efficacy_pivot["Male_Eff"] - efficacy_pivot["Female_Eff"]
 efficacy_pivot = efficacy_pivot.dropna()
-top_gap_countries = efficacy_pivot.nlargest(15, "Efficacy_Gap")["Country"].tolist()
 
-gap_data = efficacy_pivot[efficacy_pivot["Country"].isin(top_gap_countries)].copy()
+count_pivot = efficacy_by_gender.pivot(index = "Country", columns = "Gender", values = "Count").reset_index()
+count_pivot.columns = ["Country", "Female_N", "Male_N"]
+efficacy_pivot = efficacy_pivot.merge(count_pivot, on = "Country")
+efficacy_pivot["Total_N"] = efficacy_pivot["Female_N"] + efficacy_pivot["Male_N"]
 
 click_country = alt.selection_point(fields = ["Country"], empty = True, name = "country_select")
 
-left_chart_v1 = alt.Chart(gap_data).mark_bar(cornerRadius = 4, cursor = "pointer").encode(
-    y = alt.Y("Country:N", title = None,
-             sort = alt.EncodingSortField(field = "Efficacy_Gap", order = "descending"),
-             axis = alt.Axis(labelFontSize = 11)),
-    x = alt.X("Efficacy_Gap:Q", title = "Gender Gap (Male - Female)",
-             axis = alt.Axis(labelFontSize = 11)),
+diagonal_line = alt.Chart(pd.DataFrame({
+    "x": [efficacy_pivot["Female_Eff"].min() - 0.1, efficacy_pivot["Male_Eff"].max() + 0.1],
+    "y": [efficacy_pivot["Female_Eff"].min() - 0.1, efficacy_pivot["Male_Eff"].max() + 0.1]
+})).mark_line(strokeDash = [5, 5], stroke = "#666666", strokeWidth = 1).encode(
+    x = "x:Q",
+    y = "y:Q"
+)
+
+scatter_points = alt.Chart(efficacy_pivot).mark_circle(cursor = "pointer").encode(
+    x = alt.X("Female_Eff:Q", title = "Female Math Self-Efficacy",
+             scale = alt.Scale(zero = False)),
+    y = alt.Y("Male_Eff:Q", title = "Male Math Self-Efficacy",
+             scale = alt.Scale(zero = False)),
+    size = alt.Size("Total_N:Q", title = "Sample Size",
+                   scale = alt.Scale(range = [50, 400]), legend = None),
     color = alt.condition(
-        alt.datum.Efficacy_Gap > 0,
+        alt.datum.Gap > 0,
         alt.value("#1976D2"),
         alt.value("#E91E63")
     ),
-    opacity = alt.condition(click_country, alt.value(1.0), alt.value(0.5)),
-    tooltip = [alt.Tooltip("Country:N", title = "Country"),
-              alt.Tooltip("Efficacy_Gap:Q", title = "Gap", format = ".2f"),
-              alt.Tooltip("Male:Q", title = "Male Efficacy", format = ".2f"),
-              alt.Tooltip("Female:Q", title = "Female Efficacy", format = ".2f")]
-).add_params(click_country).properties(
-    name = "view_1",
+    opacity = alt.condition(click_country, alt.value(1.0), alt.value(0.6)),
+    tooltip = [
+        alt.Tooltip("Country:N", title = "Country"),
+        alt.Tooltip("Female_Eff:Q", title = "Female Efficacy", format = ".2f"),
+        alt.Tooltip("Male_Eff:Q", title = "Male Efficacy", format = ".2f"),
+        alt.Tooltip("Gap:Q", title = "Gap (M-F)", format = ".2f"),
+        alt.Tooltip("Total_N:Q", title = "Students", format = ",d")
+    ]
+).add_params(click_country)
+
+country_labels = alt.Chart(efficacy_pivot).mark_text(
+    align = "left", dx = 7, dy = -5, fontSize = 9, color = "#E0E0E0"
+).encode(
+    x = alt.X("Female_Eff:Q"),
+    y = alt.Y("Male_Eff:Q"),
+    text = "Country:N",
+    opacity = alt.condition(click_country, alt.value(1.0), alt.value(0.4))
+)
+
+annotation_above = alt.Chart(pd.DataFrame({
+    "x": [efficacy_pivot["Female_Eff"].min()],
+    "y": [efficacy_pivot["Male_Eff"].max()],
+    "text": ["Males Higher"]
+})).mark_text(fontSize = 10, color = "#1976D2", fontStyle = "italic").encode(
+    x = "x:Q", y = "y:Q", text = "text:N"
+)
+
+annotation_below = alt.Chart(pd.DataFrame({
+    "x": [efficacy_pivot["Female_Eff"].max()],
+    "y": [efficacy_pivot["Male_Eff"].min()],
+    "text": ["Females Higher"]
+})).mark_text(fontSize = 10, color = "#E91E63", fontStyle = "italic").encode(
+    x = "x:Q", y = "y:Q", text = "text:N"
+)
+
+left_chart_v1 = (diagonal_line + scatter_points + country_labels + annotation_above + annotation_below).properties(
     width = 350, height = 400,
-    title = {"text": "Gender Gap in Math Self-Efficacy",
-            "subtitle": "Click a country to see gender comparison",
-            "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0", "subtitleFontSize": 11}
+    title = {
+        "text": "Gender Gap in Math Self-Efficacy by Country",
+        "subtitle": "Points above diagonal = male advantage | Click to filter",
+        "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0", "subtitleFontSize": 11
+    }
 )
 
-comparison_data = efficacy_by_gender[efficacy_by_gender["Country"].isin(top_gap_countries)].copy()
-comparison_long = comparison_data.melt(
-    id_vars = ["Country", "Gender", "Count"],
-    value_vars = ["Efficacy", "Math_Score"],
-    var_name = "Measure",
-    value_name = "Value"
-)
-comparison_long["Measure"] = comparison_long["Measure"].map({
-    "Efficacy": "Self-Efficacy",
-    "Math_Score": "Math Achievement"
-})
+pisa_v1_sample = pisa_v1.sample(n = min(5000, len(pisa_v1)), random_state = 42)
 
-right_chart_v1 = alt.Chart(comparison_long).mark_bar(cornerRadius = 4).encode(
-    x = alt.X("Gender:N", title = None, axis = alt.Axis(labelAngle = 0)),
-    y = alt.Y("Value:Q", title = "Score"),
-    color = alt.Color("Gender:N", scale = alt.Scale(
-        domain = ["Female", "Male"],
-        range = ["#E91E63", "#1976D2"]
-    ), legend = alt.Legend(orient = "top")),
-    column = alt.Column("Measure:N", title = None,
-                       header = alt.Header(labelFontSize = 12, labelColor = "#FFFFFF")),
-    opacity = alt.condition(click_country, alt.value(1.0), alt.value(0.3)),
-    tooltip = [alt.Tooltip("Country:N", title = "Country"),
-              alt.Tooltip("Gender:N", title = "Gender"),
-              alt.Tooltip("Measure:N", title = "Measure"),
-              alt.Tooltip("Value:Q", title = "Score", format = ".1f")]
-).properties(
-    width = 150, height = 400,
-    title = {"text": "Gender Comparison by Country",
-            "subtitle": "Filtered by country selection",
-            "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0", "subtitleFontSize": 11}
+right_chart_v1 = alt.Chart(pisa_v1_sample).mark_circle(size = 20, opacity = 0.5).encode(
+    x = alt.X("MATHEFF:Q", title = "Math Self-Efficacy",
+             scale = alt.Scale(zero = False)),
+    y = alt.Y("PV1MATH:Q", title = "Math Achievement Score",
+             scale = alt.Scale(domain = [200, 800])),
+    color = alt.Color("Gender:N",
+                     scale = alt.Scale(domain = ["Female", "Male"], range = ["#E91E63", "#1976D2"]),
+                     legend = alt.Legend(orient = "top")),
+    tooltip = [
+        alt.Tooltip("Country:N", title = "Country"),
+        alt.Tooltip("Gender:N", title = "Gender"),
+        alt.Tooltip("MATHEFF:Q", title = "Self-Efficacy", format = ".2f"),
+        alt.Tooltip("PV1MATH:Q", title = "Math Score", format = ".0f")
+    ]
+).transform_filter(click_country).properties(
+    width = 350, height = 400,
+    title = {
+        "text": "Self-Efficacy vs Math Achievement",
+        "subtitle": "Filtered by country selection",
+        "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0", "subtitleFontSize": 11
+    }
 )
 
-viz1 = (left_chart_v1 | right_chart_v1)
+viz1 = alt.hconcat(left_chart_v1, right_chart_v1).resolve_scale(color = "independent")
 save_chart(viz1, "pisa_gender_efficacy_dumbbell.json")
 
 
@@ -162,7 +197,7 @@ left_chart = alt.Chart(anxiety_counts).mark_bar(cornerRadius = 4, cursor = "poin
     title = {"text": "Students by Math Anxiety Level",
             "subtitle": "Click an anxiety level to see score distribution",
             "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-    width = 300, height = 350
+    width = 420, height = 380
 )
 
 right_chart = alt.Chart(pisa_v2_sample).mark_boxplot(extent = "min-max", size = 40).encode(
@@ -177,7 +212,7 @@ right_chart = alt.Chart(pisa_v2_sample).mark_boxplot(extent = "min-max", size = 
     title = {"text": "Math Score Distribution by Gender",
             "subtitle": "Filtered by anxiety level selection",
             "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-    width = 350, height = 350
+    width = 450, height = 380
 )
 
 viz2 = alt.hconcat(left_chart, right_chart).resolve_scale(color = "independent")
@@ -224,7 +259,7 @@ left_chart_v3 = alt.Chart(immig_gender_belong).mark_bar(
     title = {"text": "School Belonging by Immigration Status",
             "subtitle": "Click to see performance by domain",
             "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-    width = 280, height = 420
+    width = 380, height = 400
 )
 
 immig_performance = pisa_v3.groupby("Immigration_Status").agg(
@@ -260,7 +295,7 @@ right_chart_v3 = alt.Chart(immig_perf_long).mark_bar(cornerRadius = 4).encode(
     title = {"text": "Performance by Domain & Immigration Status",
             "subtitle": "Filtered by immigration status selection",
             "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-    width = 300, height = 420
+    width = 400, height = 400
 )
 
 viz3 = alt.hconcat(left_chart_v3, right_chart_v3).resolve_scale(color = "independent")
@@ -847,107 +882,91 @@ viz8 = alt.hconcat(left_chart, right_chart).resolve_scale(color = "independent")
 save_chart(viz8, "combined_ses_achievement.json")
 
 
-pisa_cols_v9 = ["CNT", "ICTRES", "MATHEFF", "MATHPERS", "PV1MATH", "ST004D01T", "IC170Q01JA", "IC170Q02JA"]
-hsls_cols_v9 = ["X1SES", "X1MTHEFF", "X1TXMTSCOR", "X1SEX", "X1MTHINT", "S1WEBINFO"]
+pisa_cols_v9 = ["CNT", "ST004D01T", "PV1READ", "PV1MATH"]
+pisa_v9 = pisa_df[pisa_cols_v9].copy()
+pisa_v9 = pisa_v9[(pisa_v9["ST004D01T"].isin([1, 2])) &
+                   (pisa_v9["PV1READ"].notna()) &
+                   (pisa_v9["PV1MATH"].notna())]
+pisa_v9["Gender"] = pisa_v9["ST004D01T"].map({1: "Female", 2: "Male"})
 
-pisa_v9 = pisa_df[[c for c in pisa_cols_v9 if c in pisa_df.columns]].copy()
-hsls_v9 = hsls_df[[c for c in hsls_cols_v9 if c in hsls_df.columns]].copy()
+pisa_country = pisa_v9.groupby(["CNT", "Gender"]).agg(
+    Mean_Reading = ("PV1READ", "mean"),
+    Mean_Math = ("PV1MATH", "mean"),
+    n = ("PV1READ", "count")
+).reset_index()
 
-pisa_v9 = pisa_v9.assign(stem_interest = pisa_v9.get("MATHPERS"))
-if "IC170Q01JA" in pisa_v9.columns and "IC170Q02JA" in pisa_v9.columns:
-    pisa_v9["ict_behavior"] = pisa_v9[["IC170Q01JA", "IC170Q02JA"]].mean(axis = 1)
-elif "IC170Q01JA" in pisa_v9.columns:
-    pisa_v9["ict_behavior"] = pisa_v9["IC170Q01JA"]
-else:
-    pisa_v9["ict_behavior"] = np.nan
+hsls_cols_v9 = ["X1SEX", "X3TGPA9TH", "X1TXMTSCOR"]
+hsls_v9 = hsls_df[hsls_cols_v9].copy()
+hsls_v9 = hsls_v9[(hsls_v9["X1SEX"].isin([1, 2])) &
+                   (hsls_v9["X3TGPA9TH"] > 0) &
+                   (hsls_v9["X1TXMTSCOR"] > 0)]
+hsls_v9["Gender"] = hsls_v9["X1SEX"].map({1: "Male", 2: "Female"})
 
-pisa_v9 = pisa_v9.assign(
-    source = "PISA",
-    continent = lambda d: d["CNT"].map(continent_map).fillna("Other"),
-    gender = lambda d: d.get("ST004D01T", pd.Series(index = d.index)).map({1: "Female", 2: "Male"}),
-    ict_resource = lambda d: d.get("ICTRES", pd.Series(index = d.index)),
+hsls_sampled = hsls_v9.groupby("Gender", group_keys = False).apply(
+    lambda x: x.sample(min(len(x), 2000), random_state = 42)
+).reset_index(drop = True)
+
+gender_select_v9 = alt.selection_point(fields = ["Gender"], name = "gender_select_v9")
+
+left_base_v9 = alt.Chart(pisa_country).encode(
+    x = alt.X("Mean_Reading:Q", title = "Mean Reading Score",
+             scale = alt.Scale(domain = [350, 550])),
+    y = alt.Y("Mean_Math:Q", title = "Mean Math Score",
+             scale = alt.Scale(domain = [350, 600])),
+    color = alt.Color("Gender:N", scale = alt.Scale(
+        domain = ["Female", "Male"], range = ["#E91E63", "#1976D2"])),
+    tooltip = [
+        alt.Tooltip("CNT:N", title = "Country"),
+        alt.Tooltip("Gender:N", title = "Gender"),
+        alt.Tooltip("Mean_Reading:Q", title = "Reading Score", format = ".1f"),
+        alt.Tooltip("Mean_Math:Q", title = "Math Score", format = ".1f"),
+        alt.Tooltip("n:Q", title = "Sample Size", format = ",d")
+    ]
 )
 
-hsls_v9 = hsls_v9.assign(
-    CNT = "USA",
-    source = "HSLS",
-    continent = "North America",
-    gender = lambda d: d["X1SEX"].map({1: "Male", 2: "Female"}),
-    stem_interest = lambda d: d["X1MTHINT"],
-    ict_resource = lambda d: d["X1SES"],
-    ict_behavior = lambda d: d.get("S1WEBINFO", pd.Series(index = d.index)),
-)
+left_points_v9 = left_base_v9.mark_circle(size = 80, cursor = "pointer").encode(
+    opacity = alt.condition(gender_select_v9, alt.value(0.8), alt.value(0.3))
+).add_params(gender_select_v9)
 
-left_base_v9 = pd.concat([
-    pisa_v9[["continent", "ict_resource", "stem_interest", "source"]],
-    hsls_v9[["continent", "ict_resource", "stem_interest", "source"]],
-], ignore_index = True)
-left_base_v9 = left_base_v9.dropna(subset = ["ict_resource", "stem_interest", "continent", "source"])
-left_base_v9["z_resource"] = left_base_v9.groupby("source")["ict_resource"].transform(lambda x: (x - x.mean()) / x.std(ddof = 0))
-left_base_v9["z_stem"] = left_base_v9.groupby("source")["stem_interest"].transform(lambda x: (x - x.mean()) / x.std(ddof = 0))
-continent_df_v9 = (
-    left_base_v9.groupby("continent")
-    .agg(avg_res = ("z_resource", "mean"), avg_stem = ("z_stem", "mean"), n = ("z_resource", "size"))
-    .reset_index()
-)
+left_regression_v9 = left_base_v9.transform_regression(
+    "Mean_Reading", "Mean_Math", groupby = ["Gender"]
+).mark_line(strokeWidth = 2)
 
-pisa_students_v9 = pisa_v9[["continent", "gender", "ict_behavior", "stem_interest", "source"]].dropna()
-hsls_students_v9 = hsls_v9[["continent", "gender", "ict_behavior", "stem_interest", "source"]].dropna()
-students_df_v9 = pd.concat([pisa_students_v9, hsls_students_v9], ignore_index = True)
-students_df_v9 = students_df_v9[~students_df_v9["ict_behavior"].isin([-9, -8, -7, -5])]
-
-continent_select_v9 = alt.selection_point(fields = ["continent"], name = "continent_select_v9")
-
-left_chart = (
-    alt.Chart(continent_df_v9)
-    .mark_circle(cursor = "pointer")
-    .encode(
-        x = alt.X("avg_res:Q", title = "Mean ICT Resources (z within source)"),
-        y = alt.Y("avg_stem:Q", title = "Mean STEM Interest (z within source)"),
-        size = alt.Size("n:Q", title = "Sample Size", scale = alt.Scale(range = [60, 500]), legend = None),
-        color = alt.Color("continent:N", title = "Continent/Region"),
-        opacity = alt.condition(continent_select_v9, alt.value(1), alt.value(0.5)),
-        tooltip = [alt.Tooltip("continent:N", title = "Continent"),
-                   alt.Tooltip("avg_res:Q", title = "Avg ICT Resources", format = ".2f"),
-                   alt.Tooltip("avg_stem:Q", title = "Avg STEM Interest", format = ".2f"),
-                   alt.Tooltip("n:Q", title = "Sample Size", format = ",d")],
-    )
-    .add_params(continent_select_v9)
-    .properties(
-        name = "view_1",
-        title = {"text": "STEM Interest vs ICT Resources (Continent, Standardized)",
-                "subtitle": "Click a continent to filter the right chart",
-                "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-        width = 300, height = 280
-    )
+left_chart = (left_points_v9 + left_regression_v9).properties(
+    width = 450, height = 380,
+    title = {
+        "text": "PISA: Reading vs Math Scores by Country",
+        "subtitle": "Click gender to filter right chart",
+        "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"
+    }
 )
 
 right_chart = (
-    alt.Chart(students_df_v9)
-    .transform_filter(continent_select_v9)
-    .transform_density(
-        density = "ict_behavior",
-        groupby = ["gender"],
-        as_ = ["ict_behavior", "density"],
-        bandwidth = 0.25,
-    )
-    .mark_area(opacity = 0.5)
+    alt.Chart(hsls_sampled)
+    .mark_circle(size = 40, opacity = 0.5)
     .encode(
-        x = alt.X("ict_behavior:Q", title = "ICT Behavior (proxy)"),
-        y = alt.Y("density:Q", title = "Density"),
-        color = alt.Color("gender:N", title = "Gender",
-                         scale = alt.Scale(domain = ["Female", "Male"], range = ["#E91E63", "#1976D2"])),
-        tooltip = [alt.Tooltip("gender:N", title = "Gender"),
-                   alt.Tooltip("ict_behavior:Q", title = "ICT Behavior", format = ".2f"),
-                   alt.Tooltip("density:Q", title = "Density", format = ".3f")],
+        x = alt.X("X3TGPA9TH:Q", title = "9th Grade GPA",
+                 scale = alt.Scale(domain = [0, 4.5])),
+        y = alt.Y("X1TXMTSCOR:Q", title = "Math Test Score",
+                 scale = alt.Scale(domain = [20, 80])),
+        color = alt.Color("Gender:N", scale = alt.Scale(
+            domain = ["Female", "Male"], range = ["#E91E63", "#1976D2"])),
+        tooltip = [
+            alt.Tooltip("Gender:N", title = "Gender"),
+            alt.Tooltip("X3TGPA9TH:Q", title = "GPA", format = ".2f"),
+            alt.Tooltip("X1TXMTSCOR:Q", title = "Math Score", format = ".1f")
+        ]
     )
+    .transform_filter(gender_select_v9)
     .properties(
-        title = {"text": "ICT Behavior Distribution by Gender (Selected Continent)",
-                "subtitle": "Filtered by continent selection from left chart",
-                "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-        width = 300, height = 280
+        width = 450, height = 380,
+        title = {
+            "text": "HSLS: GPA vs Math Score",
+            "subtitle": "Filtered by gender selection",
+            "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"
+        }
     )
 )
 
-viz9 = alt.hconcat(left_chart, right_chart).resolve_scale(color = "independent")
+viz9 = alt.hconcat(left_chart, right_chart).resolve_scale(color = "shared")
 save_chart(viz9, "combined_parent_education.json")
