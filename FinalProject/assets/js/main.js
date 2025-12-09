@@ -20,8 +20,8 @@ let lastNavTime = 0;
    ============================================ */
 const tabGroups = {
   1: [0, 1, 2],
-  2: [3, 4],
-  3: [5, 6, 7, 8]
+  2: [3, 4, 5],
+  3: [6, 7, 8]
 };
 
 let activeTabGroup = 1;
@@ -164,11 +164,11 @@ function initVisualizations() {
     { id: "viz-chart-2", file: "combined_immigration.json", width: 1100, height: 310 },
     { id: "viz-chart-3", file: "pisa_gender_efficacy_dumbbell.json", width: 1100, height: 310 },
     { id: "viz-chart-4", file: "hsls_gpa_ses_trajectory.json", width: 1100, height: 310 },
-    { id: "viz-chart-5", file: "combined_gender_stem.json", width: 1100, height: 310 },
-    { id: "viz-chart-6", file: "pisa_anxiety_performance_heatmap.json", width: 1100, height: 310 },
-    { id: "viz-chart-7", file: "combined_efficacy_comparison.json", width: 1100, height: 310 },
-    { id: "viz-chart-8", file: "combined_ses_achievement.json", width: 1100, height: 310 },
-    { id: "viz-chart-9", file: "combined_parent_education.json", width: 1100, height: 310 }
+    { id: "viz-chart-5", file: "combined_ses_achievement.json", width: 1100, height: 310 },
+    { id: "viz-chart-6", file: "combined_parent_education.json", width: 1100, height: 310 },
+    { id: "viz-chart-7", file: "pisa_anxiety_performance_heatmap.json", width: 1100, height: 310 },
+    { id: "viz-chart-8", file: "combined_efficacy_comparison.json", width: 1100, height: 310 },
+    { id: "viz-chart-9", file: "combined_gender_stem.json", width: 1100, height: 310 }
   ];
 
   if (typeof vegaEmbed === "undefined") {
