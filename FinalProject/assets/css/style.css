@@ -714,11 +714,12 @@ body:has(.top-nav.visible) .panel-inner {
 
 .viz-section {
   width: 100%;
-  margin: 0 auto;
+  max-width: 1250px;
+  margin: 0 auto 0 5px;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .viz-header {
@@ -726,8 +727,6 @@ body:has(.top-nav.visible) .panel-inner {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1250px;
-  margin: 0 auto 0 5px;
   gap: 12px;
   position: relative;
 }
@@ -770,10 +769,9 @@ body:has(.top-nav.visible) .panel-inner {
   border-radius: var(--radius-lg);
   padding: 8px;
   width: 100%;
-  max-width: 1250px;
+  height: 570px;
+  min-height: 570px;
   max-height: 570px;
-  margin: 0 auto 0 5px;
-  overflow: hidden;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
@@ -815,8 +813,8 @@ body:has(.top-nav.visible) .panel-inner {
 }
 
 .description-section {
-  width: min(1350px, 94vw);
-  margin: 40px auto 0;
+  width: 100%;
+  margin-top: 40px;
   padding-bottom: 60px;
 }
 
