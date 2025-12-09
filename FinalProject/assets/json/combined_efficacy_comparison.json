@@ -1,0 +1,2039 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "subtitleColor": "#B0B0B0"
+    }
+  },
+  "datasets": {
+    "data-1b0346721b829072e036fd3139a40f50": [
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 6.158379373848987,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 543
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 7.3517382413087935,
+        "SES_Quintile": "Q2",
+        "n": 489
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 7.682584269662922,
+        "SES_Quintile": "Q3",
+        "n": 356
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 7.918181818181818,
+        "SES_Quintile": "Q4",
+        "n": 220
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 7.9714285714285715,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 140
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 7.175059952038369,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 417
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 7.2266355140186915,
+        "SES_Quintile": "Q2",
+        "n": 428
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 7.681818181818182,
+        "SES_Quintile": "Q3",
+        "n": 440
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 8.313725490196079,
+        "SES_Quintile": "Q4",
+        "n": 357
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 8.362962962962962,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 270
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 7.348773841961853,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 367
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 7.5731414868105515,
+        "SES_Quintile": "Q2",
+        "n": 417
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 7.766949152542373,
+        "SES_Quintile": "Q3",
+        "n": 472
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 8.175824175824175,
+        "SES_Quintile": "Q4",
+        "n": 546
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 8.463087248322148,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 447
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 7.670781893004115,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 243
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 8.05144694533762,
+        "SES_Quintile": "Q2",
+        "n": 311
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 8.075431034482758,
+        "SES_Quintile": "Q3",
+        "n": 464
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 8.424561403508772,
+        "SES_Quintile": "Q4",
+        "n": 570
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 8.556671449067432,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 697
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.142857142857142,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 105
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.106060606060606,
+        "SES_Quintile": "Q2",
+        "n": 198
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.382262996941895,
+        "SES_Quintile": "Q3",
+        "n": 327
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.458553791887125,
+        "SES_Quintile": "Q4",
+        "n": 567
+      },
+      {
+        "Gender": "Female",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.805317324185248,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 1166
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 5.769465648854962,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 655
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 6.552,
+        "SES_Quintile": "Q2",
+        "n": 500
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 6.648,
+        "SES_Quintile": "Q3",
+        "n": 375
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 7.149193548387097,
+        "SES_Quintile": "Q4",
+        "n": 248
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q1 (Lowest)",
+        "Mean_Ed_Expect": 7.55,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 140
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 6.094292803970223,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 403
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 6.454945054945055,
+        "SES_Quintile": "Q2",
+        "n": 455
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 6.796780684104628,
+        "SES_Quintile": "Q3",
+        "n": 497
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 7.48989898989899,
+        "SES_Quintile": "Q4",
+        "n": 396
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q2",
+        "Mean_Ed_Expect": 7.904564315352697,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 241
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 6.716923076923077,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 325
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 6.561307901907357,
+        "SES_Quintile": "Q2",
+        "n": 367
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 7.208695652173913,
+        "SES_Quintile": "Q3",
+        "n": 460
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 7.613496932515337,
+        "SES_Quintile": "Q4",
+        "n": 489
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q3",
+        "Mean_Ed_Expect": 8.226327944572748,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 433
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 6.909090909090909,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 242
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 7.343653250773994,
+        "SES_Quintile": "Q2",
+        "n": 323
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 7.509278350515464,
+        "SES_Quintile": "Q3",
+        "n": 485
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 7.815181518151816,
+        "SES_Quintile": "Q4",
+        "n": 606
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q4",
+        "Mean_Ed_Expect": 8.403682719546742,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 706
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 7.850746268656716,
+        "SES_Quintile": "Q1 (Lowest)",
+        "n": 134
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 7.806451612903226,
+        "SES_Quintile": "Q2",
+        "n": 217
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.215686274509803,
+        "SES_Quintile": "Q3",
+        "n": 357
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.270758122743683,
+        "SES_Quintile": "Q4",
+        "n": 554
+      },
+      {
+        "Gender": "Male",
+        "Math_Quintile": "Q5 (Highest)",
+        "Mean_Ed_Expect": 8.71618451915559,
+        "SES_Quintile": "Q5 (Highest)",
+        "n": 1279
+      }
+    ],
+    "data-1ff1c4eb6e571bc3e440e379452fdd3b": [
+      {
+        "CNT": "ALB",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.8178475184794087,
+        "Mean_Math": 377.987258218937,
+        "OECD_Status": "Non-OECD",
+        "n": 2841
+      },
+      {
+        "CNT": "ALB",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.6670788953913679,
+        "Mean_Math": 359.8914319312363,
+        "OECD_Status": "Non-OECD",
+        "n": 2734
+      },
+      {
+        "CNT": "ARE",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": 0.3272918538355218,
+        "Mean_Math": 437.6236081202488,
+        "OECD_Status": "Non-OECD",
+        "n": 11576
+      },
+      {
+        "CNT": "ARE",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": 0.32322032324621736,
+        "Mean_Math": 434.5795938789546,
+        "OECD_Status": "Non-OECD",
+        "n": 11632
+      },
+      {
+        "CNT": "ARG",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.7047806103523857,
+        "Mean_Math": 383.23120303490134,
+        "OECD_Status": "Non-OECD",
+        "n": 5931
+      },
+      {
+        "CNT": "ARG",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.6373582930200414,
+        "Mean_Math": 395.11512420525224,
+        "OECD_Status": "Non-OECD",
+        "n": 5788
+      },
+      {
+        "CNT": "AUS",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.4023145996860283,
+        "Mean_Math": 482.8923859183674,
+        "OECD_Status": "OECD",
+        "n": 6370
+      },
+      {
+        "CNT": "AUS",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.3842493618960802,
+        "Mean_Math": 495.0359947584321,
+        "OECD_Status": "OECD",
+        "n": 6582
+      },
+      {
+        "CNT": "AUT",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.07562443697478992,
+        "Mean_Math": 482.9775649747899,
+        "OECD_Status": "OECD",
+        "n": 2975
+      },
+      {
+        "CNT": "AUT",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.11024108449767132,
+        "Mean_Math": 503.1009409846973,
+        "OECD_Status": "OECD",
+        "n": 3006
+      },
+      {
+        "CNT": "BEL",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.12239418040737149,
+        "Mean_Math": 491.0164330989331,
+        "OECD_Status": "OECD",
+        "n": 4124
+      },
+      {
+        "CNT": "BEL",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.1080061919504644,
+        "Mean_Math": 500.9984455108359,
+        "OECD_Status": "OECD",
+        "n": 3876
+      },
+      {
+        "CNT": "BGR",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.2561936422413793,
+        "Mean_Math": 421.36402151580455,
+        "OECD_Status": "Non-OECD",
+        "n": 2784
+      },
+      {
+        "CNT": "BGR",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.2834004876462939,
+        "Mean_Math": 416.79150081274383,
+        "OECD_Status": "Non-OECD",
+        "n": 3076
+      },
+      {
+        "CNT": "BRA",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.0286069278818852,
+        "Mean_Math": 377.2087831724399,
+        "OECD_Status": "Non-OECD",
+        "n": 5283
+      },
+      {
+        "CNT": "BRA",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.9194193229063552,
+        "Mean_Math": 386.8929914670362,
+        "OECD_Status": "Non-OECD",
+        "n": 5051
+      },
+      {
+        "CNT": "BRN",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.243183345534407,
+        "Mean_Math": 446.5948977306003,
+        "OECD_Status": "Non-OECD",
+        "n": 2732
+      },
+      {
+        "CNT": "BRN",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.2984003920171062,
+        "Mean_Math": 435.5122886671419,
+        "OECD_Status": "Non-OECD",
+        "n": 2806
+      },
+      {
+        "CNT": "CAN",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.3424617211801301,
+        "Mean_Math": 480.58055925157885,
+        "OECD_Status": "OECD",
+        "n": 10609
+      },
+      {
+        "CNT": "CAN",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.3265230253977114,
+        "Mean_Math": 491.74773611498745,
+        "OECD_Status": "OECD",
+        "n": 10749
+      },
+      {
+        "CNT": "CHE",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.17283251246882791,
+        "Mean_Math": 502.9358068266833,
+        "OECD_Status": "OECD",
+        "n": 3208
+      },
+      {
+        "CNT": "CHE",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.18869365407319952,
+        "Mean_Math": 514.4247254427391,
+        "OECD_Status": "OECD",
+        "n": 3388
+      },
+      {
+        "CNT": "CHL",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.24714714714714717,
+        "Mean_Math": 421.49753383383387,
+        "OECD_Status": "OECD",
+        "n": 2997
+      },
+      {
+        "CNT": "CHL",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.23879098618090452,
+        "Mean_Math": 439.36888467336684,
+        "OECD_Status": "OECD",
+        "n": 3184
+      },
+      {
+        "CNT": "COL",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -1.001191408487373,
+        "Mean_Math": 386.705670346264,
+        "OECD_Status": "OECD",
+        "n": 3841
+      },
+      {
+        "CNT": "COL",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.9268992537313432,
+        "Mean_Math": 397.65179400221115,
+        "OECD_Status": "OECD",
+        "n": 3618
+      },
+      {
+        "CNT": "CZE",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.03522414622414622,
+        "Mean_Math": 496.6018196729197,
+        "OECD_Status": "OECD",
+        "n": 4158
+      },
+      {
+        "CNT": "CZE",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.061539126237026315,
+        "Mean_Math": 503.4568969345884,
+        "OECD_Status": "OECD",
+        "n": 4143
+      },
+      {
+        "CNT": "DEU",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.14348744705429342,
+        "Mean_Math": 476.0829888332692,
+        "OECD_Status": "OECD",
+        "n": 2597
+      },
+      {
+        "CNT": "DEU",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.10582881854987118,
+        "Mean_Math": 491.1459069193964,
+        "OECD_Status": "OECD",
+        "n": 2717
+      },
+      {
+        "CNT": "DNK",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.32945275885558584,
+        "Mean_Math": 475.05516232970024,
+        "OECD_Status": "OECD",
+        "n": 2936
+      },
+      {
+        "CNT": "DNK",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.3515017496635262,
+        "Mean_Math": 486.04528543068636,
+        "OECD_Status": "OECD",
+        "n": 2972
+      },
+      {
+        "CNT": "DOM",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.7620034729878721,
+        "Mean_Math": 341.6438785005513,
+        "OECD_Status": "Non-OECD",
+        "n": 3628
+      },
+      {
+        "CNT": "DOM",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.651037411461687,
+        "Mean_Math": 338.80858187379266,
+        "OECD_Status": "Non-OECD",
+        "n": 3106
+      },
+      {
+        "CNT": "ESP",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.017529403370481107,
+        "Mean_Math": 476.84537519706447,
+        "OECD_Status": "OECD",
+        "n": 14716
+      },
+      {
+        "CNT": "ESP",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.029480551834985266,
+        "Mean_Math": 489.53741129788375,
+        "OECD_Status": "OECD",
+        "n": 14932
+      },
+      {
+        "CNT": "EST",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.20112909503730134,
+        "Mean_Math": 510.0463016542329,
+        "OECD_Status": "OECD",
+        "n": 3083
+      },
+      {
+        "CNT": "EST",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.16886318578553616,
+        "Mean_Math": 516.6314693890274,
+        "OECD_Status": "OECD",
+        "n": 3208
+      },
+      {
+        "CNT": "FIN",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.18766462765957448,
+        "Mean_Math": 477.4253542348609,
+        "OECD_Status": "OECD",
+        "n": 4888
+      },
+      {
+        "CNT": "FIN",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.19931449534007536,
+        "Mean_Math": 477.49545599841366,
+        "OECD_Status": "OECD",
+        "n": 5043
+      },
+      {
+        "CNT": "FRA",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.042449412473636636,
+        "Mean_Math": 465.7082823440795,
+        "OECD_Status": "OECD",
+        "n": 3319
+      },
+      {
+        "CNT": "FRA",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.07509870888410698,
+        "Mean_Math": 475.06868942514603,
+        "OECD_Status": "OECD",
+        "n": 3253
+      },
+      {
+        "CNT": "GBR",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.11716362156295225,
+        "Mean_Math": 478.3858996743849,
+        "OECD_Status": "OECD",
+        "n": 5528
+      },
+      {
+        "CNT": "GBR",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.12226367890568755,
+        "Mean_Math": 492.46720950323976,
+        "OECD_Status": "OECD",
+        "n": 5556
+      },
+      {
+        "CNT": "GEO",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.43758465085639003,
+        "Mean_Math": 393.65163511198944,
+        "OECD_Status": "Non-OECD",
+        "n": 3036
+      },
+      {
+        "CNT": "GEO",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.45593829383886253,
+        "Mean_Math": 390.7896501105845,
+        "OECD_Status": "Non-OECD",
+        "n": 3165
+      },
+      {
+        "CNT": "GRC",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.14277056771328892,
+        "Mean_Math": 430.30908084364097,
+        "OECD_Status": "OECD",
+        "n": 3153
+      },
+      {
+        "CNT": "GRC",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.123313643558088,
+        "Mean_Math": 437.9314812915479,
+        "OECD_Status": "OECD",
+        "n": 3159
+      },
+      {
+        "CNT": "GTM",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.5550066989207294,
+        "Mean_Math": 340.3967185336807,
+        "OECD_Status": "Non-OECD",
+        "n": 2687
+      },
+      {
+        "CNT": "GTM",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.4355148995983935,
+        "Mean_Math": 351.5953545381526,
+        "OECD_Status": "Non-OECD",
+        "n": 2490
+      },
+      {
+        "CNT": "HKG",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.42449075165806927,
+        "Mean_Math": 541.5288927044952,
+        "OECD_Status": "Non-OECD",
+        "n": 2714
+      },
+      {
+        "CNT": "HKG",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.4796962834317471,
+        "Mean_Math": 551.8792167419242,
+        "OECD_Status": "Non-OECD",
+        "n": 2879
+      },
+      {
+        "CNT": "HRV",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.1990502308707124,
+        "Mean_Math": 459.5361783970976,
+        "OECD_Status": "Non-OECD",
+        "n": 3032
+      },
+      {
+        "CNT": "HRV",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.10583098129307515,
+        "Mean_Math": 467.0400840827043,
+        "OECD_Status": "Non-OECD",
+        "n": 3047
+      },
+      {
+        "CNT": "HUN",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.056390969455511294,
+        "Mean_Math": 472.8933194555113,
+        "OECD_Status": "OECD",
+        "n": 3012
+      },
+      {
+        "CNT": "HUN",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.06415945315105034,
+        "Mean_Math": 488.14577685895296,
+        "OECD_Status": "OECD",
+        "n": 2999
+      },
+      {
+        "CNT": "IDN",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.483643004418262,
+        "Mean_Math": 382.6128502503682,
+        "OECD_Status": "Non-OECD",
+        "n": 6790
+      },
+      {
+        "CNT": "IDN",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.4112184246890835,
+        "Mean_Math": 374.3482847996315,
+        "OECD_Status": "Non-OECD",
+        "n": 6513
+      },
+      {
+        "CNT": "IRL",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.34256717836257305,
+        "Mean_Math": 486.6813945906433,
+        "OECD_Status": "OECD",
+        "n": 2736
+      },
+      {
+        "CNT": "IRL",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.34567672413793105,
+        "Mean_Math": 499.28539091235626,
+        "OECD_Status": "OECD",
+        "n": 2784
+      },
+      {
+        "CNT": "ISL",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.4125311485642946,
+        "Mean_Math": 458.5315413857678,
+        "OECD_Status": "OECD",
+        "n": 1602
+      },
+      {
+        "CNT": "ISL",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.35629719904648394,
+        "Mean_Math": 462.4157905244338,
+        "OECD_Status": "OECD",
+        "n": 1678
+      },
+      {
+        "CNT": "ISR",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": 0.20333718145532698,
+        "Mean_Math": 453.3363264046669,
+        "OECD_Status": "Non-OECD",
+        "n": 3257
+      },
+      {
+        "CNT": "ISR",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": 0.31355788517441857,
+        "Mean_Math": 467.10616773255816,
+        "OECD_Status": "Non-OECD",
+        "n": 2752
+      },
+      {
+        "CNT": "ITA",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.12454118864021066,
+        "Mean_Math": 465.47271843144625,
+        "OECD_Status": "OECD",
+        "n": 5317
+      },
+      {
+        "CNT": "ITA",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.06899682508765097,
+        "Mean_Math": 484.1166979158551,
+        "OECD_Status": "OECD",
+        "n": 5134
+      },
+      {
+        "CNT": "JAM",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.5988037346437346,
+        "Mean_Math": 380.67130476658474,
+        "OECD_Status": "Non-OECD",
+        "n": 2035
+      },
+      {
+        "CNT": "JAM",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.5514757615035645,
+        "Mean_Math": 363.56601918340897,
+        "OECD_Status": "Non-OECD",
+        "n": 1543
+      },
+      {
+        "CNT": "JOR",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.8257445452254976,
+        "Mean_Math": 368.25833567649283,
+        "OECD_Status": "Non-OECD",
+        "n": 3969
+      },
+      {
+        "CNT": "JOR",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.7802937840785169,
+        "Mean_Math": 352.59966349509267,
+        "OECD_Status": "Non-OECD",
+        "n": 3668
+      },
+      {
+        "CNT": "JPN",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.0234020117932709,
+        "Mean_Math": 530.5460739160596,
+        "OECD_Status": "OECD",
+        "n": 2883
+      },
+      {
+        "CNT": "JPN",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.023696222380612975,
+        "Mean_Math": 540.8267384889523,
+        "OECD_Status": "OECD",
+        "n": 2806
+      },
+      {
+        "CNT": "KAZ",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.27325671376242805,
+        "Mean_Math": 443.45344531658816,
+        "OECD_Status": "Non-OECD",
+        "n": 9555
+      },
+      {
+        "CNT": "KAZ",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.2664978574249605,
+        "Mean_Math": 448.7148239632701,
+        "OECD_Status": "Non-OECD",
+        "n": 10128
+      },
+      {
+        "CNT": "KHM",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -2.1831694553221785,
+        "Mean_Math": 329.7779597721609,
+        "OECD_Status": "Non-OECD",
+        "n": 2809
+      },
+      {
+        "CNT": "KHM",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.9344212576064908,
+        "Mean_Math": 324.8898552535497,
+        "OECD_Status": "Non-OECD",
+        "n": 2465
+      },
+      {
+        "CNT": "KOR",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.2987830541237113,
+        "Mean_Math": 528.336975128866,
+        "OECD_Status": "OECD",
+        "n": 3104
+      },
+      {
+        "CNT": "KOR",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.179078643139641,
+        "Mean_Math": 535.1513913294798,
+        "OECD_Status": "OECD",
+        "n": 3287
+      },
+      {
+        "CNT": "KSV",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.3721174597620714,
+        "Mean_Math": 353.08523372988105,
+        "OECD_Status": "Non-OECD",
+        "n": 2858
+      },
+      {
+        "CNT": "KSV",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.3413180322364003,
+        "Mean_Math": 352.77678935527194,
+        "OECD_Status": "Non-OECD",
+        "n": 2978
+      },
+      {
+        "CNT": "LTU",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.04933982549957783,
+        "Mean_Math": 469.14121162397976,
+        "OECD_Status": "OECD",
+        "n": 3553
+      },
+      {
+        "CNT": "LTU",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.02000861671469741,
+        "Mean_Math": 476.277433054755,
+        "OECD_Status": "OECD",
+        "n": 3470
+      },
+      {
+        "CNT": "LVA",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.01922999622213827,
+        "Mean_Math": 478.22410370230443,
+        "OECD_Status": "OECD",
+        "n": 2647
+      },
+      {
+        "CNT": "LVA",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.04003946540880503,
+        "Mean_Math": 488.23207810534586,
+        "OECD_Status": "OECD",
+        "n": 2544
+      },
+      {
+        "CNT": "MAC",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.4188131492746841,
+        "Mean_Math": 544.1503536265793,
+        "OECD_Status": "Non-OECD",
+        "n": 2137
+      },
+      {
+        "CNT": "MAC",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.4779138516532619,
+        "Mean_Math": 559.766614253798,
+        "OECD_Status": "Non-OECD",
+        "n": 2238
+      },
+      {
+        "CNT": "MAR",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.880727626918536,
+        "Mean_Math": 365.38965492916174,
+        "OECD_Status": "Non-OECD",
+        "n": 3388
+      },
+      {
+        "CNT": "MAR",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.7439663283062645,
+        "Mean_Math": 361.55231714037126,
+        "OECD_Status": "Non-OECD",
+        "n": 3448
+      },
+      {
+        "CNT": "MDA",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.504599153689912,
+        "Mean_Math": 413.8529290453622,
+        "OECD_Status": "Non-OECD",
+        "n": 2954
+      },
+      {
+        "CNT": "MDA",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.5040454802259887,
+        "Mean_Math": 417.51995508474573,
+        "OECD_Status": "Non-OECD",
+        "n": 3186
+      },
+      {
+        "CNT": "MEX",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -1.0007819582955575,
+        "Mean_Math": 389.96784941069814,
+        "OECD_Status": "OECD",
+        "n": 3309
+      },
+      {
+        "CNT": "MEX",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.8414958459979736,
+        "Mean_Math": 401.67080003377237,
+        "OECD_Status": "OECD",
+        "n": 2961
+      },
+      {
+        "CNT": "MKD",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.27072906371911576,
+        "Mean_Math": 393.99951508452534,
+        "OECD_Status": "Non-OECD",
+        "n": 3076
+      },
+      {
+        "CNT": "MKD",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.26744683847767453,
+        "Mean_Math": 389.56292187593647,
+        "OECD_Status": "Non-OECD",
+        "n": 3337
+      },
+      {
+        "CNT": "MLT",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": 0.05077329276538201,
+        "Mean_Math": 469.0530398242056,
+        "OECD_Status": "Non-OECD",
+        "n": 1479
+      },
+      {
+        "CNT": "MLT",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": 0.04757863881401617,
+        "Mean_Math": 471.9966771563342,
+        "OECD_Status": "Non-OECD",
+        "n": 1484
+      },
+      {
+        "CNT": "MNE",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.18057972641178535,
+        "Mean_Math": 406.0073629252893,
+        "OECD_Status": "Non-OECD",
+        "n": 2851
+      },
+      {
+        "CNT": "MNE",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.20387911126662003,
+        "Mean_Math": 407.11448156053183,
+        "OECD_Status": "Non-OECD",
+        "n": 2858
+      },
+      {
+        "CNT": "MNG",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.7276930199019326,
+        "Mean_Math": 426.8655733487165,
+        "OECD_Status": "Non-OECD",
+        "n": 3467
+      },
+      {
+        "CNT": "MNG",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.7466233162100456,
+        "Mean_Math": 421.2758077910959,
+        "OECD_Status": "Non-OECD",
+        "n": 3504
+      },
+      {
+        "CNT": "MYS",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.651217981600223,
+        "Mean_Math": 415.1682844438249,
+        "OECD_Status": "Non-OECD",
+        "n": 3587
+      },
+      {
+        "CNT": "MYS",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.6740135538641686,
+        "Mean_Math": 404.0408540983606,
+        "OECD_Status": "Non-OECD",
+        "n": 3416
+      },
+      {
+        "CNT": "NLD",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.20776110872367856,
+        "Mean_Math": 487.3439174043833,
+        "OECD_Status": "OECD",
+        "n": 2327
+      },
+      {
+        "CNT": "NLD",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.267240623766285,
+        "Mean_Math": 499.62819261744966,
+        "OECD_Status": "OECD",
+        "n": 2533
+      },
+      {
+        "CNT": "NOR",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.5353019154557463,
+        "Mean_Math": 470.73086139365915,
+        "OECD_Status": "OECD",
+        "n": 3028
+      },
+      {
+        "CNT": "NOR",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.5160586423632936,
+        "Mean_Math": 471.84004126335634,
+        "OECD_Status": "OECD",
+        "n": 3182
+      },
+      {
+        "CNT": "NZL",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.24218632010943913,
+        "Mean_Math": 476.26708093935247,
+        "OECD_Status": "OECD",
+        "n": 2193
+      },
+      {
+        "CNT": "NZL",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.2071932347670251,
+        "Mean_Math": 490.3963550179211,
+        "OECD_Status": "OECD",
+        "n": 2232
+      },
+      {
+        "CNT": "PAN",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.0057152583293094,
+        "Mean_Math": 352.6724383389667,
+        "OECD_Status": "Non-OECD",
+        "n": 2071
+      },
+      {
+        "CNT": "PAN",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.9176042246982359,
+        "Mean_Math": 354.867249814299,
+        "OECD_Status": "Non-OECD",
+        "n": 2154
+      },
+      {
+        "CNT": "PER",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.199106020260492,
+        "Mean_Math": 386.50102830680174,
+        "OECD_Status": "Non-OECD",
+        "n": 3455
+      },
+      {
+        "CNT": "PER",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.0427818915801614,
+        "Mean_Math": 402.33698232410615,
+        "OECD_Status": "Non-OECD",
+        "n": 3468
+      },
+      {
+        "CNT": "PHL",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.4526456962719299,
+        "Mean_Math": 361.11848114035087,
+        "OECD_Status": "Non-OECD",
+        "n": 3648
+      },
+      {
+        "CNT": "PHL",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.2097428530832623,
+        "Mean_Math": 347.0177553566354,
+        "OECD_Status": "Non-OECD",
+        "n": 3519
+      },
+      {
+        "CNT": "POL",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.08024320945945947,
+        "Mean_Math": 491.4731330743244,
+        "OECD_Status": "OECD",
+        "n": 2960
+      },
+      {
+        "CNT": "POL",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.05717056603773585,
+        "Mean_Math": 500.3520627444254,
+        "OECD_Status": "OECD",
+        "n": 2915
+      },
+      {
+        "CNT": "PRT",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.20780585585585587,
+        "Mean_Math": 470.8769907507508,
+        "OECD_Status": "OECD",
+        "n": 3330
+      },
+      {
+        "CNT": "PRT",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.20200011961722486,
+        "Mean_Math": 481.94138525717705,
+        "OECD_Status": "OECD",
+        "n": 3344
+      },
+      {
+        "CNT": "PRY",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.340666857798165,
+        "Mean_Math": 334.3515108180428,
+        "OECD_Status": "Non-OECD",
+        "n": 2616
+      },
+      {
+        "CNT": "PRY",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.074192103075644,
+        "Mean_Math": 349.12522198669996,
+        "OECD_Status": "Non-OECD",
+        "n": 2406
+      },
+      {
+        "CNT": "PSE",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.9845164487267722,
+        "Mean_Math": 372.2541114475797,
+        "OECD_Status": "Non-OECD",
+        "n": 4359
+      },
+      {
+        "CNT": "PSE",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.8270067943729422,
+        "Mean_Math": 355.7627998204131,
+        "OECD_Status": "Non-OECD",
+        "n": 3341
+      },
+      {
+        "CNT": "QAT",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": 0.10238376714245732,
+        "Mean_Math": 418.0495431849986,
+        "OECD_Status": "Non-OECD",
+        "n": 3573
+      },
+      {
+        "CNT": "QAT",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": 0.12658712184290868,
+        "Mean_Math": 409.59245498195946,
+        "OECD_Status": "Non-OECD",
+        "n": 3603
+      },
+      {
+        "CNT": "QAZ",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.4562515406162465,
+        "Mean_Math": 401.9018031372549,
+        "OECD_Status": "Non-OECD",
+        "n": 3570
+      },
+      {
+        "CNT": "QAZ",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.46358325110360943,
+        "Mean_Math": 397.9693869903921,
+        "OECD_Status": "Non-OECD",
+        "n": 3851
+      },
+      {
+        "CNT": "QUR",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.2880853723404255,
+        "Mean_Math": 438.312452819149,
+        "OECD_Status": "Non-OECD",
+        "n": 1880
+      },
+      {
+        "CNT": "QUR",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.3063548746518106,
+        "Mean_Math": 446.62407275766014,
+        "OECD_Status": "Non-OECD",
+        "n": 1795
+      },
+      {
+        "CNT": "ROU",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.28620229357798166,
+        "Mean_Math": 432.0085226929304,
+        "OECD_Status": "Non-OECD",
+        "n": 3706
+      },
+      {
+        "CNT": "ROU",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.2818767203107658,
+        "Mean_Math": 439.9359421198668,
+        "OECD_Status": "Non-OECD",
+        "n": 3604
+      },
+      {
+        "CNT": "SAU",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.31132501427755566,
+        "Mean_Math": 387.61675596801825,
+        "OECD_Status": "Non-OECD",
+        "n": 3502
+      },
+      {
+        "CNT": "SAU",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.24253194275274056,
+        "Mean_Math": 391.4710240255786,
+        "OECD_Status": "Non-OECD",
+        "n": 3284
+      },
+      {
+        "CNT": "SGP",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": 0.303985931205454,
+        "Mean_Math": 568.8043807251316,
+        "OECD_Status": "Non-OECD",
+        "n": 3227
+      },
+      {
+        "CNT": "SGP",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": 0.27718814525810326,
+        "Mean_Math": 580.251818727491,
+        "OECD_Status": "Non-OECD",
+        "n": 3332
+      },
+      {
+        "CNT": "SLV",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.3936873156342184,
+        "Mean_Math": 342.3388185840708,
+        "OECD_Status": "Non-OECD",
+        "n": 3390
+      },
+      {
+        "CNT": "SLV",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.222377321204517,
+        "Mean_Math": 348.90422832496864,
+        "OECD_Status": "Non-OECD",
+        "n": 3188
+      },
+      {
+        "CNT": "SRB",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.20272546444586803,
+        "Mean_Math": 435.0599067584882,
+        "OECD_Status": "Non-OECD",
+        "n": 3122
+      },
+      {
+        "CNT": "SRB",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.19919668422683606,
+        "Mean_Math": 445.1539421444065,
+        "OECD_Status": "Non-OECD",
+        "n": 3227
+      },
+      {
+        "CNT": "SVK",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -0.2525552017771196,
+        "Mean_Math": 468.83326656793776,
+        "OECD_Status": "OECD",
+        "n": 2701
+      },
+      {
+        "CNT": "SVK",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -0.2629288962108731,
+        "Mean_Math": 469.69241818780887,
+        "OECD_Status": "OECD",
+        "n": 3035
+      },
+      {
+        "CNT": "SVN",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.125587871927555,
+        "Mean_Math": 473.79528615782664,
+        "OECD_Status": "OECD",
+        "n": 3092
+      },
+      {
+        "CNT": "SVN",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.17529774285714286,
+        "Mean_Math": 470.84092257142856,
+        "OECD_Status": "OECD",
+        "n": 3500
+      },
+      {
+        "CNT": "SWE",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.334770236869207,
+        "Mean_Math": 482.1684907655338,
+        "OECD_Status": "OECD",
+        "n": 2913
+      },
+      {
+        "CNT": "SWE",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.33006556714910806,
+        "Mean_Math": 487.6708976438909,
+        "OECD_Status": "OECD",
+        "n": 2971
+      },
+      {
+        "CNT": "TAP",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.2686043094312964,
+        "Mean_Math": 534.8980755210173,
+        "OECD_Status": "Non-OECD",
+        "n": 2831
+      },
+      {
+        "CNT": "TAP",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.2909163857046527,
+        "Mean_Math": 534.1653440660823,
+        "OECD_Status": "Non-OECD",
+        "n": 2966
+      },
+      {
+        "CNT": "THA",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.9984040488577245,
+        "Mean_Math": 417.7156201085727,
+        "OECD_Status": "Non-OECD",
+        "n": 4421
+      },
+      {
+        "CNT": "THA",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.9231424159402242,
+        "Mean_Math": 411.9577129016189,
+        "OECD_Status": "Non-OECD",
+        "n": 4015
+      },
+      {
+        "CNT": "TUR",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": -1.295447402415052,
+        "Mean_Math": 449.03712830665546,
+        "OECD_Status": "OECD",
+        "n": 3561
+      },
+      {
+        "CNT": "TUR",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": -1.161812839305103,
+        "Mean_Math": 454.7145426438654,
+        "OECD_Status": "OECD",
+        "n": 3684
+      },
+      {
+        "CNT": "URY",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.8530343506695733,
+        "Mean_Math": 405.10014039240116,
+        "OECD_Status": "Non-OECD",
+        "n": 3211
+      },
+      {
+        "CNT": "URY",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.7812703580097088,
+        "Mean_Math": 415.09466016383493,
+        "OECD_Status": "Non-OECD",
+        "n": 3296
+      },
+      {
+        "CNT": "USA",
+        "Gender": "Female",
+        "Gender_OECD": "Female OECD",
+        "Mean_ESCS": 0.03933047929269427,
+        "Mean_Math": 456.65372810609585,
+        "OECD_Status": "OECD",
+        "n": 2149
+      },
+      {
+        "CNT": "USA",
+        "Gender": "Male",
+        "Gender_OECD": "Male OECD",
+        "Mean_ESCS": 0.04288871115173675,
+        "Mean_Math": 469.2504463893967,
+        "OECD_Status": "OECD",
+        "n": 2188
+      },
+      {
+        "CNT": "UZB",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -0.69711802259887,
+        "Mean_Math": 360.95570158192095,
+        "OECD_Status": "Non-OECD",
+        "n": 3540
+      },
+      {
+        "CNT": "UZB",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -0.6636991825613079,
+        "Mean_Math": 366.90714752043596,
+        "OECD_Status": "Non-OECD",
+        "n": 3670
+      },
+      {
+        "CNT": "VNM",
+        "Gender": "Female",
+        "Gender_OECD": "Female Non-OECD",
+        "Mean_ESCS": -1.3449513831478537,
+        "Mean_Math": 463.7319840381558,
+        "OECD_Status": "Non-OECD",
+        "n": 3145
+      },
+      {
+        "CNT": "VNM",
+        "Gender": "Male",
+        "Gender_OECD": "Male Non-OECD",
+        "Mean_ESCS": -1.2846317683344757,
+        "Mean_Math": 474.2962007882111,
+        "OECD_Status": "Non-OECD",
+        "n": 2918
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-1ff1c4eb6e571bc3e440e379452fdd3b"
+      },
+      "encoding": {
+        "color": {
+          "field": "Gender_OECD",
+          "legend": {
+            "orient": "top",
+            "title": "Gender & OECD"
+          },
+          "scale": {
+            "domain": [
+              "Female OECD",
+              "Female Non-OECD",
+              "Male OECD",
+              "Male Non-OECD"
+            ],
+            "range": [
+              "#E91E63",
+              "#F48FB1",
+              "#1976D2",
+              "#64B5F6"
+            ]
+          },
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "brush_select",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "CNT",
+            "title": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "OECD_Status",
+            "title": "OECD Status",
+            "type": "nominal"
+          },
+          {
+            "field": "Mean_ESCS",
+            "format": ".2f",
+            "title": "Mean SES",
+            "type": "quantitative"
+          },
+          {
+            "field": "Mean_Math",
+            "format": ".0f",
+            "title": "Mean Math",
+            "type": "quantitative"
+          },
+          {
+            "field": "n",
+            "format": ",d",
+            "title": "Students",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Mean_ESCS",
+          "scale": {
+            "domain": [
+              -2.5,
+              1.0
+            ]
+          },
+          "title": "Mean SES (ESCS)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Mean_Math",
+          "scale": {
+            "domain": [
+              300,
+              600
+            ]
+          },
+          "title": "Mean Math Score (PV1-10)",
+          "type": "quantitative"
+        }
+      },
+      "height": 300,
+      "mark": {
+        "cursor": "crosshair",
+        "size": 80,
+        "type": "circle"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "subtitle": "Drag to select and highlight countries",
+        "subtitleColor": "#E0E0E0",
+        "text": "PISA: Country-Level SES vs Math"
+      },
+      "width": 320
+    },
+    {
+      "data": {
+        "name": "data-1b0346721b829072e036fd3139a40f50"
+      },
+      "encoding": {
+        "color": {
+          "field": "SES_Quintile",
+          "legend": {
+            "orient": "top"
+          },
+          "scale": {
+            "domain": [
+              "Q1 (Lowest)",
+              "Q2",
+              "Q3",
+              "Q4",
+              "Q5 (Highest)"
+            ],
+            "range": [
+              "#440154",
+              "#3b528b",
+              "#21918c",
+              "#5ec962",
+              "#fde725"
+            ]
+          },
+          "title": "SES Quintile",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Math_Quintile",
+            "title": "Math Quintile",
+            "type": "nominal"
+          },
+          {
+            "field": "SES_Quintile",
+            "title": "SES Quintile",
+            "type": "nominal"
+          },
+          {
+            "field": "Mean_Ed_Expect",
+            "format": ".2f",
+            "title": "Mean Ed Expectation",
+            "type": "quantitative"
+          },
+          {
+            "field": "n",
+            "format": ",d",
+            "title": "Students",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": -45
+          },
+          "field": "Math_Quintile",
+          "scale": {
+            "paddingOuter": 0.2
+          },
+          "sort": [
+            "Q1 (Lowest)",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Q5 (Highest)"
+          ],
+          "title": "Math Quintile",
+          "type": "nominal"
+        },
+        "xOffset": {
+          "field": "SES_Quintile",
+          "scale": {
+            "paddingInner": 0.2
+          },
+          "sort": [
+            "Q1 (Lowest)",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Q5 (Highest)"
+          ],
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Mean_Ed_Expect",
+          "scale": {
+            "domain": [
+              5.5,
+              9.0
+            ],
+            "zero": false
+          },
+          "title": "Mean Ed Expectation Level",
+          "type": "quantitative"
+        }
+      },
+      "height": 300,
+      "mark": {
+        "clip": true,
+        "type": "bar"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "subtitle": "Education expectations by math and SES quintile",
+        "subtitleColor": "#E0E0E0",
+        "text": "HSLS: Math Level vs Ed Expectations"
+      },
+      "width": 450
+    }
+  ],
+  "params": [
+    {
+      "name": "brush_select",
+      "select": {
+        "type": "interval"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}

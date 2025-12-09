@@ -1,0 +1,336 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "subtitleColor": "#B0B0B0"
+    }
+  },
+  "datasets": {
+    "data-31c60cb125f547e1721638f9b3904bf4": [
+      {
+        "Avg_Belonging": -0.24677038439689453,
+        "Count": 15843,
+        "Gender": "Female",
+        "Immigration_Status": "First-gen"
+      },
+      {
+        "Avg_Belonging": -0.09191661289302208,
+        "Count": 15807,
+        "Gender": "Male",
+        "Immigration_Status": "First-gen"
+      },
+      {
+        "Avg_Belonging": -0.13787167346124596,
+        "Count": 240633,
+        "Gender": "Female",
+        "Immigration_Status": "Native"
+      },
+      {
+        "Avg_Belonging": 0.002610032506164962,
+        "Count": 231956,
+        "Gender": "Male",
+        "Immigration_Status": "Native"
+      },
+      {
+        "Avg_Belonging": -0.17765702868970273,
+        "Count": 17393,
+        "Gender": "Female",
+        "Immigration_Status": "Second-gen"
+      },
+      {
+        "Avg_Belonging": -0.012916965509024842,
+        "Count": 16787,
+        "Gender": "Male",
+        "Immigration_Status": "Second-gen"
+      }
+    ],
+    "data-ec12d4d78423f04ba3efe17978e5053f": [
+      {
+        "Avg_Score": 468.84708489731435,
+        "Count": 31650,
+        "Domain": "Math",
+        "Immigration_Status": "First-gen"
+      },
+      {
+        "Avg_Score": 444.3453685062496,
+        "Count": 472589,
+        "Domain": "Math",
+        "Immigration_Status": "Native"
+      },
+      {
+        "Avg_Score": 472.1754016968988,
+        "Count": 34180,
+        "Domain": "Math",
+        "Immigration_Status": "Second-gen"
+      },
+      {
+        "Avg_Score": 462.5652289415482,
+        "Count": 31650,
+        "Domain": "Reading",
+        "Immigration_Status": "First-gen"
+      },
+      {
+        "Avg_Score": 443.18344928256903,
+        "Count": 472589,
+        "Domain": "Reading",
+        "Immigration_Status": "Native"
+      },
+      {
+        "Avg_Score": 468.1432813926272,
+        "Count": 34180,
+        "Domain": "Reading",
+        "Immigration_Status": "Second-gen"
+      },
+      {
+        "Avg_Score": 474.8280926382306,
+        "Count": 31650,
+        "Domain": "Science",
+        "Immigration_Status": "First-gen"
+      },
+      {
+        "Avg_Score": 455.06683486496723,
+        "Count": 472589,
+        "Domain": "Science",
+        "Immigration_Status": "Native"
+      },
+      {
+        "Avg_Score": 476.61808306026916,
+        "Count": 34180,
+        "Domain": "Science",
+        "Immigration_Status": "Second-gen"
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-31c60cb125f547e1721638f9b3904bf4"
+      },
+      "encoding": {
+        "color": {
+          "field": "Gender",
+          "legend": {
+            "orient": "top"
+          },
+          "scale": {
+            "domain": [
+              "Female",
+              "Male"
+            ],
+            "range": [
+              "#E91E63",
+              "#1976D2"
+            ]
+          },
+          "title": "Gender",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "immig_select",
+            "value": 1
+          },
+          "value": 0.4
+        },
+        "tooltip": [
+          {
+            "field": "Immigration_Status",
+            "type": "nominal"
+          },
+          {
+            "field": "Gender",
+            "type": "nominal"
+          },
+          {
+            "field": "Avg_Belonging",
+            "format": ".2f",
+            "title": "Avg Belonging",
+            "type": "quantitative"
+          },
+          {
+            "field": "Count",
+            "format": ",d",
+            "title": "Students",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 11
+          },
+          "field": "Immigration_Status",
+          "sort": [
+            "Native",
+            "Second-gen",
+            "First-gen"
+          ],
+          "title": "Immigration Status",
+          "type": "nominal"
+        },
+        "xOffset": {
+          "field": "Gender",
+          "sort": [
+            "Female",
+            "Male"
+          ],
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Avg_Belonging",
+          "title": "Average School Belonging Score",
+          "type": "quantitative"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "cornerRadius": 4,
+        "cursor": "pointer",
+        "type": "bar"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "subtitle": "Click to see performance by domain",
+        "subtitleColor": "#E0E0E0",
+        "text": "School Belonging by Immigration Status"
+      },
+      "width": 380
+    },
+    {
+      "data": {
+        "name": "data-ec12d4d78423f04ba3efe17978e5053f"
+      },
+      "encoding": {
+        "color": {
+          "field": "Immigration_Status",
+          "legend": {
+            "orient": "top"
+          },
+          "scale": {
+            "domain": [
+              "Native",
+              "Second-gen",
+              "First-gen"
+            ],
+            "range": [
+              "#4CAF50",
+              "#FF9800",
+              "#9C27B0"
+            ]
+          },
+          "title": "Immigration Status",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "immig_select",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "Immigration_Status",
+            "title": "Status",
+            "type": "nominal"
+          },
+          {
+            "field": "Domain",
+            "title": "Domain",
+            "type": "nominal"
+          },
+          {
+            "field": "Avg_Score",
+            "format": ".1f",
+            "title": "Avg Score",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 11
+          },
+          "field": "Domain",
+          "sort": [
+            "Math",
+            "Reading",
+            "Science"
+          ],
+          "title": null,
+          "type": "nominal"
+        },
+        "xOffset": {
+          "field": "Immigration_Status",
+          "sort": [
+            "Native",
+            "Second-gen",
+            "First-gen"
+          ],
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Avg_Score",
+          "scale": {
+            "domain": [
+              400,
+              520
+            ]
+          },
+          "title": "Average Score",
+          "type": "quantitative"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "cornerRadius": 4,
+        "type": "bar"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "subtitle": "Filtered by immigration status selection",
+        "subtitleColor": "#E0E0E0",
+        "text": "Performance by Domain & Immigration Status"
+      },
+      "width": 400
+    }
+  ],
+  "params": [
+    {
+      "name": "immig_select",
+      "select": {
+        "fields": [
+          "Immigration_Status"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}

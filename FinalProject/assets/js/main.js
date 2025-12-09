@@ -54,7 +54,7 @@ function checkNavbarVisibility() {
 
   const maxScroll = panelInner ? panelInner.scrollHeight - panelInner.clientHeight : 0;
   const isAtTop = !panelInner || panelInner.scrollTop < 50;
-  const atBottom = panelInner && maxScroll > 0 && panelInner.scrollTop >= maxScroll - 50;
+  const atBottom = !panelInner || maxScroll <= 0 || panelInner.scrollTop >= maxScroll - 50;
 
   if (topNav) {
     if (isAtTop) {
@@ -72,18 +72,18 @@ function checkNavbarVisibility() {
 }
 
 function initVisualizations() {
-  const basePath = "../assets/json/";
+  const basePath = "assets/json/";
 
   const charts = [
-    { id: "viz-chart-1", file: "pisa_gender_efficacy_dumbbell.json", width: 1100, height: 450 },
-    { id: "viz-chart-2", file: "hsls_math_identity_race.json", width: 1650, height: 450 },
-    { id: "viz-chart-3", file: "hsls_gpa_ses_trajectory.json", width: 1750, height: 450 },
-    { id: "viz-chart-4", file: "combined_gender_stem.json", width: 1000, height: 450 },
-    { id: "viz-chart-5", file: "pisa_anxiety_performance_heatmap.json", width: 1000, height: 450 },
-    { id: "viz-chart-6", file: "combined_immigration.json", width: 1000, height: 450 },
-    { id: "viz-chart-7", file: "combined_efficacy_comparison.json", width: 1300, height: 450 },
-    { id: "viz-chart-8", file: "combined_ses_achievement.json", width: 1200, height: 450 },
-    { id: "viz-chart-9", file: "combined_parent_education.json", width: 1100, height: 450 }
+    { id: "viz-chart-1", file: "hsls_math_identity_race.json" },
+    { id: "viz-chart-2", file: "combined_immigration.json" },
+    { id: "viz-chart-3", file: "pisa_gender_efficacy_dumbbell.json" },
+    { id: "viz-chart-4", file: "hsls_gpa_ses_trajectory.json" },
+    { id: "viz-chart-5", file: "combined_gender_stem.json" },
+    { id: "viz-chart-6", file: "pisa_anxiety_performance_heatmap.json" },
+    { id: "viz-chart-7", file: "combined_efficacy_comparison.json" },
+    { id: "viz-chart-8", file: "combined_ses_achievement.json" },
+    { id: "viz-chart-9", file: "combined_parent_education.json" }
   ];
 
   if (typeof vegaEmbed === "undefined") {
@@ -161,7 +161,7 @@ function initVisualizations() {
         const cleanSpec = JSON.parse(JSON.stringify(spec));
         delete cleanSpec.autosize;
 
-        setLargerDimensions(cleanSpec, c.width, c.height);
+        setLargerDimensions(cleanSpec, 1300, 550);
 
         const specWithFit = Object.assign({}, cleanSpec, {
           autosize: { type: "fit", contains: "padding", resize: true },

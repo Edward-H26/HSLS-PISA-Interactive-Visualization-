@@ -1,0 +1,778 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "background": "#030712",
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF",
+      "gridColor": "#333333",
+      "domainColor": "#444444",
+      "tickColor": "#444444"
+    },
+    "legend": {
+      "labelColor": "#E0E0E0",
+      "titleColor": "#FFFFFF"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "subtitleColor": "#B0B0B0"
+    }
+  },
+  "datasets": {
+    "data-79164c6961a0740c90c5e5656056d25a": [
+      {
+        "Country": "Singapore",
+        "Domain": "MATH",
+        "Mean": 574.238767938238,
+        "Rank": 1.0
+      },
+      {
+        "Country": "Macao",
+        "Domain": "MATH",
+        "Mean": 551.6620869069343,
+        "Rank": 2.0
+      },
+      {
+        "Country": "Hong Kong",
+        "Domain": "MATH",
+        "Mean": 545.4538483155578,
+        "Rank": 3.0
+      },
+      {
+        "Country": "Japan",
+        "Domain": "MATH",
+        "Mean": 535.5592085069445,
+        "Rank": 4.0
+      },
+      {
+        "Country": "TAP",
+        "Domain": "MATH",
+        "Mean": 534.0153732286153,
+        "Rank": 5.0
+      },
+      {
+        "Country": "South Korea",
+        "Domain": "MATH",
+        "Mean": 531.3851950728231,
+        "Rank": 6.0
+      },
+      {
+        "Country": "Estonia",
+        "Domain": "MATH",
+        "Mean": 512.679689612015,
+        "Rank": 7.0
+      },
+      {
+        "Country": "Switzerland",
+        "Domain": "MATH",
+        "Mean": 506.5026098989603,
+        "Rank": 8.0
+      },
+      {
+        "Country": "Czech Republic",
+        "Domain": "MATH",
+        "Mean": 499.5599728132388,
+        "Rank": 9.0
+      },
+      {
+        "Country": "Poland",
+        "Domain": "MATH",
+        "Mean": 494.8469422725004,
+        "Rank": 10.0
+      },
+      {
+        "Country": "Belgium",
+        "Domain": "MATH",
+        "Mean": 493.9984803282645,
+        "Rank": 11.0
+      },
+      {
+        "Country": "Ireland",
+        "Domain": "MATH",
+        "Mean": 492.91171862093734,
+        "Rank": 12.0
+      },
+      {
+        "Country": "Austria",
+        "Domain": "MATH",
+        "Mean": 491.174550642172,
+        "Rank": 13.0
+      },
+      {
+        "Country": "Netherlands",
+        "Domain": "MATH",
+        "Mean": 491.073066587396,
+        "Rank": 14.0
+      },
+      {
+        "Country": "Australia",
+        "Domain": "MATH",
+        "Mean": 486.82973401800996,
+        "Rank": 15.0
+      },
+      {
+        "Country": "Canada",
+        "Domain": "MATH",
+        "Mean": 484.47016655831493,
+        "Rank": 16.0
+      },
+      {
+        "Country": "United Kingdom",
+        "Domain": "MATH",
+        "Mean": 482.5427362781375,
+        "Rank": 17.0
+      },
+      {
+        "Country": "Latvia",
+        "Domain": "MATH",
+        "Mean": 482.4612194304858,
+        "Rank": 18.0
+      },
+      {
+        "Country": "Sweden",
+        "Domain": "MATH",
+        "Mean": 482.0299141963109,
+        "Rank": 19.0
+      },
+      {
+        "Country": "Spain",
+        "Domain": "MATH",
+        "Mean": 480.9150405844156,
+        "Rank": 20.0
+      },
+      {
+        "Country": "Hungary",
+        "Domain": "MATH",
+        "Mean": 480.55699983865765,
+        "Rank": 21.0
+      },
+      {
+        "Country": "Denmark",
+        "Domain": "MATH",
+        "Mean": 478.411209516129,
+        "Rank": 22.0
+      },
+      {
+        "Country": "Germany",
+        "Domain": "MATH",
+        "Mean": 477.77475376062785,
+        "Rank": 23.0
+      },
+      {
+        "Country": "New Zealand",
+        "Domain": "MATH",
+        "Mean": 477.5810568133276,
+        "Rank": 24.0
+      },
+      {
+        "Country": "Portugal",
+        "Domain": "MATH",
+        "Mean": 475.7472484910938,
+        "Rank": 25.0
+      },
+      {
+        "Country": "Finland",
+        "Domain": "MATH",
+        "Mean": 475.27621076276984,
+        "Rank": 26.0
+      },
+      {
+        "Country": "Italy",
+        "Domain": "MATH",
+        "Mean": 475.226196550417,
+        "Rank": 27.0
+      },
+      {
+        "Country": "Lithuania",
+        "Domain": "MATH",
+        "Mean": 472.3926927104865,
+        "Rank": 28.0
+      },
+      {
+        "Country": "Slovenia",
+        "Domain": "MATH",
+        "Mean": 472.114631156078,
+        "Rank": 29.0
+      },
+      {
+        "Country": "MLT",
+        "Domain": "MATH",
+        "Mean": 469.42785129517114,
+        "Rank": 30.0
+      },
+      {
+        "Country": "Singapore",
+        "Domain": "READ",
+        "Mean": 544.3832284287012,
+        "Rank": 1.0
+      },
+      {
+        "Country": "South Korea",
+        "Domain": "READ",
+        "Mean": 519.3050881623799,
+        "Rank": 2.0
+      },
+      {
+        "Country": "Ireland",
+        "Domain": "READ",
+        "Mean": 518.0400114921889,
+        "Rank": 3.0
+      },
+      {
+        "Country": "Japan",
+        "Domain": "READ",
+        "Mean": 515.3309866319445,
+        "Rank": 4.0
+      },
+      {
+        "Country": "Estonia",
+        "Domain": "READ",
+        "Mean": 514.2749734042553,
+        "Rank": 5.0
+      },
+      {
+        "Country": "Macao",
+        "Domain": "READ",
+        "Mean": 509.4685656934306,
+        "Rank": 6.0
+      },
+      {
+        "Country": "TAP",
+        "Domain": "READ",
+        "Mean": 504.5991220761482,
+        "Rank": 7.0
+      },
+      {
+        "Country": "Hong Kong",
+        "Domain": "READ",
+        "Mean": 503.6746609107838,
+        "Rank": 8.0
+      },
+      {
+        "Country": "United States",
+        "Domain": "READ",
+        "Mean": 502.9380450351494,
+        "Rank": 9.0
+      },
+      {
+        "Country": "New Zealand",
+        "Domain": "READ",
+        "Mean": 500.89306856044425,
+        "Rank": 10.0
+      },
+      {
+        "Country": "Czech Republic",
+        "Domain": "READ",
+        "Mean": 499.80126134751777,
+        "Rank": 11.0
+      },
+      {
+        "Country": "Australia",
+        "Domain": "READ",
+        "Mean": 498.9405631465357,
+        "Rank": 12.0
+      },
+      {
+        "Country": "Poland",
+        "Domain": "READ",
+        "Mean": 494.7417897188488,
+        "Rank": 13.0
+      },
+      {
+        "Country": "United Kingdom",
+        "Domain": "READ",
+        "Mean": 490.76164762565526,
+        "Rank": 14.0
+      },
+      {
+        "Country": "Canada",
+        "Domain": "READ",
+        "Mean": 489.771974602349,
+        "Rank": 15.0
+      },
+      {
+        "Country": "Sweden",
+        "Domain": "READ",
+        "Mean": 486.6066727602108,
+        "Rank": 16.0
+      },
+      {
+        "Country": "Austria",
+        "Domain": "READ",
+        "Mean": 484.16650788489676,
+        "Rank": 17.0
+      },
+      {
+        "Country": "Portugal",
+        "Domain": "READ",
+        "Mean": 482.28398763432943,
+        "Rank": 18.0
+      },
+      {
+        "Country": "Germany",
+        "Domain": "READ",
+        "Mean": 482.13469914977105,
+        "Rank": 19.0
+      },
+      {
+        "Country": "Belgium",
+        "Domain": "READ",
+        "Mean": 481.59225971518225,
+        "Rank": 20.0
+      },
+      {
+        "Country": "Switzerland",
+        "Domain": "READ",
+        "Mean": 481.0178781666422,
+        "Rank": 21.0
+      },
+      {
+        "Country": "Spain",
+        "Domain": "READ",
+        "Mean": 480.9615575,
+        "Rank": 22.0
+      },
+      {
+        "Country": "Italy",
+        "Domain": "READ",
+        "Mean": 480.3718472327521,
+        "Rank": 23.0
+      },
+      {
+        "Country": "Hungary",
+        "Domain": "READ",
+        "Mean": 479.5922458857696,
+        "Rank": 24.0
+      },
+      {
+        "Country": "Finland",
+        "Domain": "READ",
+        "Mean": 477.9792025588436,
+        "Rank": 25.0
+      },
+      {
+        "Country": "Denmark",
+        "Domain": "READ",
+        "Mean": 477.5541724193548,
+        "Rank": 26.0
+      },
+      {
+        "Country": "Norway",
+        "Domain": "READ",
+        "Mean": 477.41203116018755,
+        "Rank": 27.0
+      },
+      {
+        "Country": "HRV",
+        "Domain": "READ",
+        "Mean": 474.78945672371634,
+        "Rank": 28.0
+      },
+      {
+        "Country": "Latvia",
+        "Domain": "READ",
+        "Mean": 474.65799106644334,
+        "Rank": 29.0
+      },
+      {
+        "Country": "Israel",
+        "Domain": "READ",
+        "Mean": 472.69898880179176,
+        "Rank": 30.0
+      },
+      {
+        "Country": "Singapore",
+        "Domain": "SCIE",
+        "Mean": 560.8251777172268,
+        "Rank": 1.0
+      },
+      {
+        "Country": "Japan",
+        "Domain": "SCIE",
+        "Mean": 545.5398887152778,
+        "Rank": 2.0
+      },
+      {
+        "Country": "Macao",
+        "Domain": "SCIE",
+        "Mean": 543.1331236313869,
+        "Rank": 3.0
+      },
+      {
+        "Country": "South Korea",
+        "Domain": "SCIE",
+        "Mean": 530.6552159900837,
+        "Rank": 4.0
+      },
+      {
+        "Country": "Estonia",
+        "Domain": "SCIE",
+        "Mean": 527.3109297559449,
+        "Rank": 5.0
+      },
+      {
+        "Country": "TAP",
+        "Domain": "SCIE",
+        "Mean": 526.822456206249,
+        "Rank": 6.0
+      },
+      {
+        "Country": "Hong Kong",
+        "Domain": "SCIE",
+        "Mean": 524.5496971389877,
+        "Rank": 7.0
+      },
+      {
+        "Country": "Czech Republic",
+        "Domain": "SCIE",
+        "Mean": 510.78720614657215,
+        "Rank": 8.0
+      },
+      {
+        "Country": "Australia",
+        "Domain": "SCIE",
+        "Mean": 507.77945605417875,
+        "Rank": 9.0
+      },
+      {
+        "Country": "Poland",
+        "Domain": "SCIE",
+        "Mean": 505.14998902012974,
+        "Rank": 10.0
+      },
+      {
+        "Country": "New Zealand",
+        "Domain": "SCIE",
+        "Mean": 504.84579047415633,
+        "Rank": 11.0
+      },
+      {
+        "Country": "Ireland",
+        "Domain": "SCIE",
+        "Mean": 504.37497360387863,
+        "Rank": 12.0
+      },
+      {
+        "Country": "Switzerland",
+        "Domain": "SCIE",
+        "Mean": 501.4123192268268,
+        "Rank": 13.0
+      },
+      {
+        "Country": "Canada",
+        "Domain": "SCIE",
+        "Mean": 499.46967126078096,
+        "Rank": 14.0
+      },
+      {
+        "Country": "United States",
+        "Domain": "SCIE",
+        "Mean": 498.25059600175746,
+        "Rank": 15.0
+      },
+      {
+        "Country": "Finland",
+        "Domain": "SCIE",
+        "Mean": 497.96490682683856,
+        "Rank": 16.0
+      },
+      {
+        "Country": "Germany",
+        "Domain": "SCIE",
+        "Mean": 495.25469653368214,
+        "Rank": 17.0
+      },
+      {
+        "Country": "Belgium",
+        "Domain": "SCIE",
+        "Mean": 495.00146934588463,
+        "Rank": 18.0
+      },
+      {
+        "Country": "Sweden",
+        "Domain": "SCIE",
+        "Mean": 494.17168692358365,
+        "Rank": 19.0
+      },
+      {
+        "Country": "Austria",
+        "Domain": "SCIE",
+        "Mean": 494.0893783124695,
+        "Rank": 20.0
+      },
+      {
+        "Country": "Spain",
+        "Domain": "SCIE",
+        "Mean": 492.9236064285714,
+        "Rank": 21.0
+      },
+      {
+        "Country": "Latvia",
+        "Domain": "SCIE",
+        "Mean": 492.5822183137912,
+        "Rank": 22.0
+      },
+      {
+        "Country": "United Kingdom",
+        "Domain": "SCIE",
+        "Mean": 492.2651244989208,
+        "Rank": 23.0
+      },
+      {
+        "Country": "Hungary",
+        "Domain": "SCIE",
+        "Mean": 492.106863827041,
+        "Rank": 24.0
+      },
+      {
+        "Country": "Portugal",
+        "Domain": "SCIE",
+        "Mean": 488.2667930222288,
+        "Rank": 25.0
+      },
+      {
+        "Country": "Slovenia",
+        "Domain": "SCIE",
+        "Mean": 487.1097964588603,
+        "Rank": 26.0
+      },
+      {
+        "Country": "Netherlands",
+        "Domain": "SCIE",
+        "Mean": 486.8380225921522,
+        "Rank": 27.0
+      },
+      {
+        "Country": "HRV",
+        "Domain": "SCIE",
+        "Mean": 483.1282506927465,
+        "Rank": 28.0
+      },
+      {
+        "Country": "France",
+        "Domain": "SCIE",
+        "Mean": 481.3833534711964,
+        "Rank": 29.0
+      },
+      {
+        "Country": "Italy",
+        "Domain": "SCIE",
+        "Mean": 481.3280806482183,
+        "Rank": 30.0
+      }
+    ],
+    "data-c66519a35e3d6fea0794657eb4d2915f": [
+      {
+        "Avg_Score": 438.96055078891595,
+        "Domain": "MATH",
+        "N_Countries": 80
+      },
+      {
+        "Avg_Score": 436.7072374014689,
+        "Domain": "READ",
+        "N_Countries": 80
+      },
+      {
+        "Avg_Score": 448.4101714658958,
+        "Domain": "SCIE",
+        "N_Countries": 80
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-79164c6961a0740c90c5e5656056d25a"
+      },
+      "encoding": {
+        "color": {
+          "field": "Domain",
+          "legend": {
+            "labelFontSize": 12,
+            "titleFontSize": 13
+          },
+          "scale": {
+            "domain": [
+              "MATH",
+              "READ",
+              "SCIE"
+            ],
+            "range": [
+              "#1f77b4",
+              "#2ca02c",
+              "#d62728"
+            ]
+          },
+          "title": "Domain",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "empty": true,
+            "param": "param_1",
+            "value": 1.0
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "title": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Domain",
+            "title": "Domain",
+            "type": "nominal"
+          },
+          {
+            "field": "Mean",
+            "format": ".1f",
+            "title": "Score",
+            "type": "quantitative"
+          },
+          {
+            "field": "Rank",
+            "format": ".0f",
+            "title": "Rank",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": -45,
+            "labelFontSize": 10,
+            "titleFontSize": 12
+          },
+          "field": "Country",
+          "sort": {
+            "field": "Mean",
+            "order": "descending"
+          },
+          "title": "Country",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Mean",
+          "scale": {
+            "domain": [
+              460,
+              580
+            ]
+          },
+          "title": "Score",
+          "type": "quantitative"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "size": 60,
+        "type": "circle"
+      },
+      "name": "view_1",
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "subtitle": "Click data point to filter",
+        "subtitleColor": "#E0E0E0",
+        "text": "Global Comparison of PISA Scores: Top 30 Countries by Domain"
+      },
+      "width": 550
+    },
+    {
+      "data": {
+        "name": "data-c66519a35e3d6fea0794657eb4d2915f"
+      },
+      "encoding": {
+        "color": {
+          "field": "Domain",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "MATH",
+              "READ",
+              "SCIE"
+            ],
+            "range": [
+              "#1f77b4",
+              "#2ca02c",
+              "#d62728"
+            ]
+          },
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "empty": true,
+            "param": "param_1",
+            "value": 1.0
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "Domain",
+            "title": "Domain",
+            "type": "nominal"
+          },
+          {
+            "field": "Avg_Score",
+            "format": ".1f",
+            "title": "Global Average",
+            "type": "quantitative"
+          },
+          {
+            "field": "N_Countries",
+            "title": "Countries",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Avg_Score",
+          "title": "Global Average Score",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Domain",
+          "title": "Domain",
+          "type": "nominal"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "cornerRadius": 4,
+        "type": "bar"
+      },
+      "title": {
+        "color": "#FFFFFF",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "text": "Global Averages"
+      },
+      "width": 250
+    }
+  ],
+  "params": [
+    {
+      "name": "param_1",
+      "select": {
+        "fields": [
+          "Domain"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
+}
