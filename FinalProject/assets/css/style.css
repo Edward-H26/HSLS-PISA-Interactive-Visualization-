@@ -218,6 +218,62 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-5 7s ease-in-out infinite;
 }
 
+.star-1 {
+  width: 45px; height: 45px;
+  top: 55%; right: 5%;
+  transform: rotate(15deg);
+  animation: float-tilt-1 7s ease-in-out infinite;
+}
+
+.star-2 {
+  width: 35px; height: 35px;
+  top: 42%; right: 8%;
+  transform: rotate(-20deg);
+  animation: float-tilt-3 6s ease-in-out infinite;
+}
+
+.magnifier {
+  width: 50px; height: 50px;
+  top: 68%; right: 4%;
+  transform: rotate(25deg);
+  animation: float-tilt-2 8s ease-in-out infinite;
+}
+
+.compass {
+  width: 48px; height: 48px;
+  top: 48%; right: 12%;
+  transform: rotate(-10deg);
+  animation: float-tilt-4 5s ease-in-out infinite;
+}
+
+.beaker {
+  width: 45px; height: 55px;
+  top: 18%; left: 16%;
+  transform: rotate(10deg);
+  animation: float-tilt-2 6s ease-in-out infinite;
+}
+
+.atom {
+  width: 50px; height: 50px;
+  top: 30%; left: 14%;
+  transform: rotate(-15deg);
+  animation: float-tilt-5 7s ease-in-out infinite;
+}
+
+.triangle {
+  width: 42px; height: 42px;
+  top: 12%; left: 22%;
+  transform: rotate(20deg);
+  animation: float-tilt-1 5s ease-in-out infinite;
+}
+
+.flask {
+  width: 40px; height: 50px;
+  top: 25%; left: 8%;
+  transform: rotate(-8deg);
+  animation: float-tilt-3 8s ease-in-out infinite;
+}
+
 @keyframes float-tilt-1 {
   0%, 100% { transform: translate(0, 0) rotate(-15deg); }
   25% { transform: translate(25px, -35px) rotate(15deg); }
@@ -405,6 +461,8 @@ p { margin: 0; color: var(--muted); }
   overflow-x: hidden;
   overflow-y: hidden;
   overscroll-behavior-x: none;
+  margin-left: 180px;
+  width: calc(100vw - 180px);
   position: relative;
   z-index: 2;
   -webkit-overflow-scrolling: touch;
@@ -413,7 +471,7 @@ p { margin: 0; color: var(--muted); }
 .scroll-container::-webkit-scrollbar { display: none; }
 
 .panel {
-  flex: 0 0 100vw;
+  flex: 0 0 calc(100vw - 180px);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -432,7 +490,7 @@ p { margin: 0; color: var(--muted); }
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 60px clamp(28px, 6vw, 80px) 120px;
+  padding: 60px clamp(20px, 4vw, 40px) 120px;
   scroll-behavior: smooth;
   transition: padding-top 0.4s var(--ease-smooth);
   -webkit-overflow-scrolling: touch;
@@ -452,12 +510,12 @@ body:has(.top-nav.visible) .panel-inner {
 .panel-inner::-webkit-scrollbar-thumb { background: var(--glass-border); border-radius: 3px; }
 
 .viz-section {
-  width: min(1350px, 94vw);
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .viz-header {
@@ -465,6 +523,8 @@ body:has(.top-nav.visible) .panel-inner {
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 1250px;
+  margin: 0 auto 0 5px;
   gap: 12px;
   position: relative;
 }
@@ -507,9 +567,10 @@ body:has(.top-nav.visible) .panel-inner {
   border-radius: var(--radius-lg);
   padding: 8px;
   width: 100%;
-  max-width: 100%;
+  max-width: 1250px;
   max-height: 550px;
-  margin: 0 auto;
+  margin: 0 auto 0 5px;
+  overflow: hidden;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
@@ -619,11 +680,11 @@ body:has(.top-nav.visible) .panel-inner {
 }
 
 .swipe-hint.swipe-left {
-  left: -30px;
+  left: 0;
 }
 
 .swipe-hint.swipe-right {
-  right: -30px;
+  right: 0;
 }
 
 .swipe-spacer {
@@ -745,5 +806,141 @@ body:has(.top-nav.visible) .panel-inner {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   SIDEBAR NAVIGATION - Full Height Bar
+   ============================================ */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 180px;
+  z-index: 99;
+  background: rgba(10, 15, 30, 0.95);
+  border-right: 1px solid var(--liquid-border);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 12px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 120px;
+}
+
+.sidebar-tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.25s var(--ease-smooth);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidebar-tab:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--glass-border);
+  color: var(--fg);
+}
+
+.sidebar-tab.active {
+  background: linear-gradient(135deg, rgba(76, 141, 255, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: var(--fg);
+}
+
+.sidebar-tab.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 60%;
+  background: var(--accent-gradient);
+  border-radius: 0 3px 3px 0;
+}
+
+.sidebar-tab.active .tab-icon svg {
+  stroke: var(--accent);
+}
+
+.tab-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.tab-icon svg {
+  display: block;
+}
+
+.tab-label {
+  flex: 1;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tab-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+}
+
+/* Panel filtering */
+.panel.filtered-out {
+  display: none !important;
+}
+
+/* Sidebar Responsive: Mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+    padding: 12px 8px;
+  }
+
+  .sidebar-nav {
+    margin-top: 50px;
+  }
+
+  .tab-label {
+    display: none;
+  }
+
+  .tab-badge {
+    display: none;
+  }
+
+  .sidebar-tab {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .scroll-container {
+    margin-left: 60px;
+    width: calc(100vw - 60px);
+  }
+
+  .panel {
+    flex: 0 0 calc(100vw - 60px);
   }
 }

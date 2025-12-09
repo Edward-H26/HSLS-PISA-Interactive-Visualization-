@@ -15,6 +15,82 @@ let isTransitioning = false;
 let transitionTimeout = null;
 let lastNavTime = 0;
 
+/* ============================================
+   SIDEBAR NAVIGATION WITH FILTERING
+   ============================================ */
+const tabGroups = {
+  1: [0, 1, 2],
+  2: [3, 4],
+  3: [5, 6, 7, 8]
+};
+
+let activeTabGroup = 1;
+
+function initSidebar() {
+  const sidebarTabs = document.querySelectorAll(".sidebar-tab");
+
+  sidebarTabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const tabId = parseInt(tab.dataset.tab);
+
+      sidebarTabs.forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+
+      activeTabGroup = tabId;
+      filterPanelsByTab(tabId);
+
+      const firstPanel = tabGroups[tabId][0];
+      scrollToPanel(firstPanel);
+    });
+  });
+
+  filterPanelsByTab(1);
+}
+
+function filterPanelsByTab(tabId) {
+  const visibleIndices = tabGroups[tabId];
+
+  panels.forEach((panel, index) => {
+    if (visibleIndices.includes(index)) {
+      panel.classList.remove("filtered-out");
+    } else {
+      panel.classList.add("filtered-out");
+    }
+  });
+
+  progressDots.forEach((dot, index) => {
+    dot.style.display = visibleIndices.includes(index) ? "" : "none";
+  });
+
+  const navLinkButtons = document.querySelectorAll(".nav-links button");
+  let vizNumber = 1;
+  navLinkButtons.forEach((btn) => {
+    const targetIndex = parseInt(btn.dataset.target);
+    if (!Number.isNaN(targetIndex)) {
+      if (visibleIndices.includes(targetIndex)) {
+        btn.style.display = "";
+        btn.textContent = `Viz ${vizNumber}`;
+        vizNumber++;
+      } else {
+        btn.style.display = "none";
+      }
+    }
+  });
+}
+
+function syncSidebarWithPanel(panelIndex) {
+  const sidebarTabs = document.querySelectorAll(".sidebar-tab");
+
+  for (const [tabId, indices] of Object.entries(tabGroups)) {
+    if (indices.includes(panelIndex)) {
+      sidebarTabs.forEach(t => {
+        t.classList.toggle("active", parseInt(t.dataset.tab) === parseInt(tabId));
+      });
+      break;
+    }
+  }
+}
+
 function initParticles() {
   const container = document.getElementById("particles");
   if (!container) return;
@@ -161,7 +237,7 @@ function initVisualizations() {
         const cleanSpec = JSON.parse(JSON.stringify(spec));
         delete cleanSpec.autosize;
 
-        setLargerDimensions(cleanSpec, 1300, 550);
+        setLargerDimensions(cleanSpec, 1200, 510);
 
         const specWithFit = Object.assign({}, cleanSpec, {
           autosize: { type: "fit", contains: "padding", resize: true },
@@ -261,6 +337,7 @@ function updateActiveStates(index) {
   progressDots.forEach((dot, i) => {
     dot.classList.toggle("active", i === index);
   });
+  syncSidebarWithPanel(index);
 }
 
 function initNavigation() {
@@ -408,6 +485,7 @@ function init() {
   initResize();
   initNavbarVisibility();
   initVisualizations();
+  initSidebar();
 
   updateActiveStates(0);
   panels.forEach((p) => p.classList.add("visible"));
