@@ -12124,24 +12124,41 @@
       },
       "encoding": {
         "color": {
-          "field": "avg_anxiety",
+          "field": "ses_level",
+          "legend": {
+            "direction": "horizontal",
+            "labelFontSize": 9,
+            "orient": "bottom",
+            "padding": 8,
+            "symbolSize": 80,
+            "titleFontSize": 11
+          },
           "scale": {
             "domain": [
-              -0.5,
-              0.5
+              "Low SES",
+              "Medium SES",
+              "High SES"
             ],
-            "reverse": true,
-            "scheme": "redblue"
+            "range": [
+              "#E57373",
+              "#FFB74D",
+              "#64B5F6"
+            ]
           },
-          "title": "Mean Math Anxiety",
-          "type": "quantitative"
+          "sort": [
+            "Low SES",
+            "Medium SES",
+            "High SES"
+          ],
+          "title": "SES Level",
+          "type": "nominal"
         },
         "opacity": {
           "condition": {
             "param": "v7_edu_select",
-            "value": 1
+            "value": 0.9
           },
-          "value": 0.4
+          "value": 0.3
         },
         "tooltip": [
           {
@@ -12170,7 +12187,9 @@
         "x": {
           "axis": {
             "labelAngle": -45,
-            "labelFontSize": 10
+            "labelFontSize": 10,
+            "labelPadding": 8,
+            "titleFontSize": 14
           },
           "field": "parent_education",
           "sort": [
@@ -12185,27 +12204,43 @@
           "type": "nominal"
         },
         "y": {
-          "field": "ses_level",
-          "sort": [
-            "Low SES",
-            "Medium SES",
-            "High SES"
-          ],
-          "title": "SES Level",
-          "type": "nominal"
+          "axis": {
+            "grid": true,
+            "gridOpacity": 0.3,
+            "labelFontSize": 12,
+            "titleFontSize": 14
+          },
+          "field": "avg_anxiety",
+          "scale": {
+            "domain": [
+              -0.5,
+              0.5
+            ]
+          },
+          "title": "Mean Math Anxiety",
+          "type": "quantitative"
         }
       },
       "height": 400,
       "mark": {
         "cursor": "pointer",
-        "type": "rect"
+        "size": 200,
+        "stroke": "#0f172a",
+        "strokeWidth": 1,
+        "type": "circle"
       },
       "name": "view_1",
       "title": {
+        "anchor": "middle",
         "color": "#FFFFFF",
-        "fontSize": 14,
-        "subtitle": "Click a parental education level to filter right plot",
+        "font": "Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "offset": 10,
+        "subtitle": "Click to filter right plot",
         "subtitleColor": "#E0E0E0",
+        "subtitleFontSize": 11,
+        "subtitlePadding": 4,
         "text": "Math Anxiety by Parental Education & SES"
       },
       "width": 450

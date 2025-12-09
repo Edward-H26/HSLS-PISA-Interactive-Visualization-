@@ -66,6 +66,22 @@ CONTINENT_MAP = {
 
 GENDER_COLORS = {"Female": "#E91E63", "Male": "#1976D2"}
 
+INTERNET_USAGE_MAP = {
+    0: "None",
+    1: "1-2h",
+    2: "2-4h",
+    3: "4-6h",
+    4: "6-8h",
+    5: "8-10h",
+    6: "10-12h",
+    7: "12-14h",
+    8: "14-16h",
+    9: "16+h",
+    10: "Extreme"
+}
+
+INTERNET_USAGE_ORDER = ["None", "1-2h", "2-4h", "4-6h", "6-8h", "8-10h", "10-12h", "12-14h", "14-16h", "16+h", "Extreme"]
+
 
 def save_chart(chart, filename):
     spec = json.loads(chart.to_json())

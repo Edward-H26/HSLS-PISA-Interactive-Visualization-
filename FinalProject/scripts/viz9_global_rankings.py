@@ -29,8 +29,8 @@ v9_immig_map = {1: "Native", 1.0: "Native", 2: "Second-Gen", 2.0: "Second-Gen", 
 v9_data["immig_status"] = v9_data["IMMIG"].map(v9_immig_map)
 
 v9_belong_order = ["Low Belonging", "Medium Belonging", "High Belonging"]
-v9_domain_colors = ["#1976D2", "#4CAF50", "#FF9800"]
-v9_immig_colors = ["#00BFFF", "#FF4500", "#FF00FF"]
+v9_domain_colors = ["#E91E63", "#00E676", "#2979FF"]
+v9_immig_colors = ["#1E88E5", "#FF0000", "#FFD700"]
 
 v9_math = v9_data.groupby("belong_level", observed=True)["PV1MATH"].mean().reset_index()
 v9_math["Domain"] = "MATH"
@@ -46,12 +46,15 @@ v9_scie.columns = ["belong_level", "mean_score", "Domain"]
 
 v9_left_df = pd.concat([v9_math, v9_read, v9_scie], ignore_index=True)
 
-v9_right_df = v9_data[["belong_level", "immig_status", "MATHEFF", "MATHPERS"]].dropna().copy()
+v9_right_df = v9_data[["belong_level", "immig_status", "MATHEFF", "MATHPERS"]].dropna().sample(n=6000, random_state=42)
 
-v9_belong_selection = alt.selection_point(fields=["belong_level"], bind="legend", name="v9_belong_select")
-v9_domain_selection = alt.selection_point(fields=["Domain"], name="v9_domain_select")
+v9_belong_selection = alt.selection_point(fields=["belong_level"], name="v9_belong_select")
 
-v9_left_base = alt.Chart(v9_left_df).encode(
+v9_left_chart = alt.Chart(v9_left_df).mark_line(
+    point=alt.OverlayMarkDef(filled=True, size=80),
+    strokeWidth=4,
+    cursor="pointer"
+).encode(
     x=alt.X("Domain:N", title="Domain",
             sort=["MATH", "READ", "SCIE"],
             axis=alt.Axis(labelAngle=0, labelFontSize=11)),
@@ -60,34 +63,24 @@ v9_left_base = alt.Chart(v9_left_df).encode(
     color=alt.Color("belong_level:N", title="Belonging Level",
                    scale=alt.Scale(domain=v9_belong_order, range=v9_domain_colors),
                    legend=alt.Legend(orient="top")),
-    opacity=alt.condition(v9_domain_selection, alt.value(1), alt.value(0.4))
-)
-
-v9_left_line = v9_left_base.mark_line(strokeWidth=3)
-v9_left_points = v9_left_base.mark_circle(size=120, cursor="pointer").encode(
+    opacity=alt.condition(v9_belong_selection, alt.value(1), alt.value(0.3)),
     tooltip=[
         alt.Tooltip("Domain:N", title="Domain"),
         alt.Tooltip("belong_level:N", title="Belonging Level"),
         alt.Tooltip("mean_score:Q", title="Mean Score", format=".1f")
     ]
-)
-
-v9_left_chart = (
-    (v9_left_line + v9_left_points)
-    .add_params(v9_belong_selection, v9_domain_selection)
-    .properties(
-        title={"text": "Academic Scores by Domain",
-               "subtitle": "Click domain to filter; click legend to filter right plot",
-               "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-        width=450, height=400
-    )
+).add_params(v9_belong_selection).properties(
+    title={"text": "Academic Scores by Domain",
+           "subtitle": "Click line to filter right plot",
+           "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
+    width=450, height=400
 )
 
 v9_right_chart = (
     alt.Chart(v9_right_df)
     .transform_filter(v9_belong_selection)
     .transform_sample(2000)
-    .mark_circle(size=40, opacity=0.6)
+    .mark_circle(size=40)
     .encode(
         x=alt.X("MATHEFF:Q", title="Math Self-Efficacy",
                 scale=alt.Scale(domain=[-4, 4])),
@@ -96,6 +89,9 @@ v9_right_chart = (
         color=alt.Color("immig_status:N", title="Immigration Status",
                        scale=alt.Scale(domain=["Native", "Second-Gen", "First-Gen"], range=v9_immig_colors),
                        legend=alt.Legend(orient="top")),
+        opacity=alt.Opacity("immig_status:N",
+                           scale=alt.Scale(domain=["Native", "Second-Gen", "First-Gen"], range=[0.4, 0.9, 0.9]),
+                           legend=None),
         tooltip=[
             alt.Tooltip("immig_status:N", title="Immigration"),
             alt.Tooltip("MATHEFF:Q", title="Self-Efficacy", format=".2f"),

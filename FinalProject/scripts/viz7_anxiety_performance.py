@@ -40,6 +40,7 @@ v7_data["ses_level"] = pd.cut(
 v7_parent_edu_order = ["No Education", "Primary", "Lower Secondary", "Upper Secondary", "Post-Secondary", "Bachelor's+"]
 v7_ses_order = ["Low SES", "Medium SES", "High SES"]
 v7_gender_colors = ["#E91E63", "#1976D2"]
+v7_ses_colors = ["#E57373", "#FFB74D", "#64B5F6"]
 
 v7_heatmap_df = (
     v7_data[v7_data["parent_education"] != "Unknown"]
@@ -59,16 +60,19 @@ v7_edu_selection = alt.selection_point(fields=["parent_education"], name="v7_edu
 
 v7_left_chart = (
     alt.Chart(v7_heatmap_df)
-    .mark_rect(cursor="pointer")
+    .mark_circle(cursor="pointer", stroke="#0f172a", strokeWidth=1, size=200)
     .encode(
         x=alt.X("parent_education:N", title="Parental Education Level",
                 sort=v7_parent_edu_order,
-                axis=alt.Axis(labelAngle=-45, labelFontSize=10)),
-        y=alt.Y("ses_level:N", title="SES Level",
-                sort=v7_ses_order),
-        color=alt.Color("avg_anxiety:Q", title="Mean Math Anxiety",
-                       scale=alt.Scale(scheme="redblue", domain=[-0.5, 0.5], reverse=True)),
-        opacity=alt.condition(v7_edu_selection, alt.value(1), alt.value(0.4)),
+                axis=alt.Axis(labelAngle=-45, labelFontSize=10, labelPadding=8, titleFontSize=14)),
+        y=alt.Y("avg_anxiety:Q", title="Mean Math Anxiety",
+                axis=alt.Axis(labelFontSize=12, titleFontSize=14, grid=True, gridOpacity=0.3),
+                scale=alt.Scale(domain=[-0.5, 0.5])),
+        color=alt.Color("ses_level:N", title="SES Level", sort=v7_ses_order,
+                       scale=alt.Scale(domain=v7_ses_order, range=v7_ses_colors),
+                       legend=alt.Legend(titleFontSize=11, labelFontSize=9, orient="bottom",
+                                        direction="horizontal", symbolSize=80, padding=8)),
+        opacity=alt.condition(v7_edu_selection, alt.value(0.9), alt.value(0.3)),
         tooltip=[
             alt.Tooltip("parent_education:N", title="Parent Education"),
             alt.Tooltip("ses_level:N", title="SES Level"),
@@ -78,10 +82,15 @@ v7_left_chart = (
     )
     .add_params(v7_edu_selection)
     .properties(
-        title={"text": "Math Anxiety by Parental Education & SES",
-               "subtitle": "Click a parental education level to filter right plot",
-               "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-        width=450, height=400
+        width=450, height=400,
+        title=alt.TitleParams(
+            text="Math Anxiety by Parental Education & SES",
+            subtitle="Click to filter right plot",
+            fontSize=16, subtitleFontSize=11,
+            font="Roboto, sans-serif", anchor="middle", fontWeight=700,
+            color="#FFFFFF", subtitleColor="#E0E0E0",
+            offset=10, subtitlePadding=4
+        )
     )
 )
 
