@@ -198,7 +198,7 @@
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 340,
       "mark": {
         "cornerRadius": 4,
         "cursor": "pointer",
@@ -299,7 +299,7 @@
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 340,
       "mark": {
         "cornerRadius": 4,
         "type": "bar"

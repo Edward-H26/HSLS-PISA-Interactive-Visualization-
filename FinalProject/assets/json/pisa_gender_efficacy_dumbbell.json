@@ -2955,7 +2955,7 @@
           "type": "quantitative"
         }
       },
-      "height": 420,
+      "height": 360,
       "mark": {
         "cursor": "pointer",
         "stroke": "#0f172a",
@@ -3049,7 +3049,7 @@
           "type": "quantitative"
         }
       },
-      "height": 420,
+      "height": 360,
       "mark": {
         "point": {
           "filled": true,

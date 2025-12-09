@@ -50631,7 +50631,7 @@
   },
   "hconcat": [
     {
-      "height": 500,
+      "height": 420,
       "layer": [
         {
           "data": {
@@ -50834,7 +50834,7 @@
           "type": "quantitative"
         }
       },
-      "height": 500,
+      "height": 420,
       "mark": {
         "opacity": 0.5,
         "type": "area"
