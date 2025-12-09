@@ -745,7 +745,7 @@
           "type": "quantitative"
         }
       },
-      "height": 310,
+      "height": 480,
       "mark": {
         "point": {
           "cursor": "pointer",
@@ -769,7 +769,7 @@
         "subtitlePadding": 4,
         "text": "ICT Resources by Parent Education"
       },
-      "width": 500
+      "width": 530
     },
     {
       "data": {
@@ -868,7 +868,7 @@
           "type": "quantitative"
         }
       },
-      "height": 310,
+      "height": 480,
       "mark": {
         "stroke": "#0f172a",
         "strokeWidth": 0.8,
@@ -894,7 +894,7 @@
           }
         }
       ],
-      "width": 450
+      "width": 530
     }
   ],
   "params": [

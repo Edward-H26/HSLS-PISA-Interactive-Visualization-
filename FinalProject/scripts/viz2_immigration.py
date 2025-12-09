@@ -70,7 +70,7 @@ v2_line_chart = alt.Chart(v2_line_df).mark_line(
         alt.Tooltip("Count:Q", title = "Sample Size", format = ",d")
     ]
 ).add_params(v2_ses_select).properties(
-    width = 500, height = 310,
+    width = 530, height = 480,
     title = alt.TitleParams(
         text = "ICT Resources by Parent Education",
         subtitle = "Click on a line to filter by SES quartile",
@@ -111,7 +111,7 @@ v2_bubble_chart = alt.Chart(v2_bubble_df).transform_filter(
         alt.Tooltip("sum(Count):Q", title = "Sample Size", format = ",d")
     ]
 ).properties(
-    width = 450, height = 310,
+    width = 530, height = 480,
     title = alt.TitleParams(
         text = "Student Performance by Home Possessions",
         subtitle = "Filtered by SES quartile selection",
