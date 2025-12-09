@@ -1,95 +1,114 @@
 import pandas as pd
 import altair as alt
-from config import DATA_DIR, save_chart, COUNTRY_NAME_MAP
+import numpy as np
+from config import DATA_DIR, save_chart
 
-pisa_df = pd.read_csv(DATA_DIR / "pisa_subset.csv", low_memory = False)
+alt.data_transformers.disable_max_rows()
 
-v9_data = pisa_df[(pisa_df["CNT"].notna()) &
-                   (pisa_df["PV1MATH"].notna()) &
-                   (pisa_df["PV1READ"].notna()) &
-                   (pisa_df["PV1SCIE"].notna())].copy()
+pisa_cols = ["BELONG", "PV1MATH", "PV1READ", "PV1SCIE", "MATHEFF", "MATHPERS", "IMMIG"]
+pisa_df = pd.read_csv(DATA_DIR / "pisa_subset.csv", usecols=pisa_cols, low_memory=False)
 
-v9_data["Country"] = v9_data["CNT"].map(COUNTRY_NAME_MAP).fillna(v9_data["CNT"])
+v9_data = pisa_df[
+    (pisa_df["BELONG"].notna()) &
+    (pisa_df["PV1MATH"].notna()) &
+    (pisa_df["PV1READ"].notna()) &
+    (pisa_df["PV1SCIE"].notna()) &
+    (pisa_df["MATHEFF"].notna()) &
+    (pisa_df["MATHPERS"].notna()) &
+    (pisa_df["IMMIG"].isin([1, 2, 3, 1.0, 2.0, 3.0]))
+].copy()
 
-v9_math_scores = v9_data.groupby("Country")["PV1MATH"].mean().reset_index()
-v9_math_scores.columns = ["Country", "Mean"]
-v9_math_scores["Domain"] = "MATH"
-v9_math_scores["Rank"] = v9_math_scores["Mean"].rank(ascending = False)
-
-v9_read_scores = v9_data.groupby("Country")["PV1READ"].mean().reset_index()
-v9_read_scores.columns = ["Country", "Mean"]
-v9_read_scores["Domain"] = "READ"
-v9_read_scores["Rank"] = v9_read_scores["Mean"].rank(ascending = False)
-
-v9_scie_scores = v9_data.groupby("Country")["PV1SCIE"].mean().reset_index()
-v9_scie_scores.columns = ["Country", "Mean"]
-v9_scie_scores["Domain"] = "SCIE"
-v9_scie_scores["Rank"] = v9_scie_scores["Mean"].rank(ascending = False)
-
-v9_rankings_df = pd.concat([v9_math_scores, v9_read_scores, v9_scie_scores], ignore_index = True)
-
-v9_top_countries_list = []
-for domain in ["MATH", "READ", "SCIE"]:
-    domain_top = v9_rankings_df[v9_rankings_df["Domain"] == domain].nsmallest(30, "Rank").copy()
-    v9_top_countries_list.append(domain_top)
-
-v9_rankings_top30 = pd.concat(v9_top_countries_list, ignore_index = True)
-
-v9_click_domain = alt.selection_point(fields = ["Domain"], empty = True)
-
-v9_rankings_interactive = alt.Chart(v9_rankings_top30).mark_circle(size = 60).encode(
-    x = alt.X("Country:N",
-             sort = alt.EncodingSortField(field = "Mean", order = "descending"),
-             title = "Country",
-             axis = alt.Axis(labelAngle = -45, labelFontSize = 10, titleFontSize = 12)),
-    y = alt.Y("Mean:Q",
-             title = "Score",
-             scale = alt.Scale(domain = [460, 580])),
-    color = alt.Color("Domain:N",
-                     title = "Domain",
-                     scale = alt.Scale(domain = ["MATH", "READ", "SCIE"],
-                                      range = ["#1f77b4", "#2ca02c", "#d62728"]),
-                     legend = alt.Legend(titleFontSize = 13, labelFontSize = 12)),
-    opacity = alt.condition(v9_click_domain, alt.value(1.0), alt.value(0.2)),
-    tooltip = [alt.Tooltip("Country:N", title = "Country"),
-              alt.Tooltip("Domain:N", title = "Domain"),
-              alt.Tooltip("Mean:Q", title = "Score", format = ".1f"),
-              alt.Tooltip("Rank:Q", title = "Rank", format = ".0f")]
-).add_params(v9_click_domain).properties(
-    width = 550,
-    height = 400,
-    title = {"text": "Global Comparison of PISA Scores: Top 30 Countries by Domain",
-            "subtitle": "Click data point to filter",
-            "fontSize": 14,
-            "fontWeight": "bold",
-            "color": "#FFFFFF",
-            "subtitleColor": "#E0E0E0"}
+belong_terciles = v9_data["BELONG"].quantile([0.33, 0.67]).values
+v9_data["belong_level"] = pd.cut(
+    v9_data["BELONG"],
+    bins=[-np.inf, belong_terciles[0], belong_terciles[1], np.inf],
+    labels=["Low Belonging", "Medium Belonging", "High Belonging"]
 )
 
-v9_domain_avg = v9_rankings_df.groupby("Domain").agg(
-    Avg_Score = ("Mean", "mean"),
-    N_Countries = ("Country", "count")
-).reset_index()
+v9_immig_map = {1: "Native", 1.0: "Native", 2: "Second-Gen", 2.0: "Second-Gen", 3: "First-Gen", 3.0: "First-Gen"}
+v9_data["immig_status"] = v9_data["IMMIG"].map(v9_immig_map)
 
-v9_bar_domain_avg = alt.Chart(v9_domain_avg).mark_bar(cornerRadius = 4).encode(
-    y = alt.Y("Domain:N", title = "Domain"),
-    x = alt.X("Avg_Score:Q", title = "Global Average Score"),
-    color = alt.Color("Domain:N",
-                     scale = alt.Scale(domain = ["MATH", "READ", "SCIE"],
-                                      range = ["#1f77b4", "#2ca02c", "#d62728"]),
-                     legend = None),
-    opacity = alt.condition(v9_click_domain, alt.value(1.0), alt.value(0.3)),
-    tooltip = [alt.Tooltip("Domain:N", title = "Domain"),
-              alt.Tooltip("Avg_Score:Q", title = "Global Average", format = ".1f"),
-              alt.Tooltip("N_Countries:Q", title = "Countries")]
-).properties(
-    width = 250,
-    height = 400,
-    title = {"text": "Global Averages",
-            "fontSize": 14,
-            "fontWeight": "bold",
-            "color": "#FFFFFF"}
+v9_belong_order = ["Low Belonging", "Medium Belonging", "High Belonging"]
+v9_domain_colors = ["#1976D2", "#4CAF50", "#FF9800"]
+v9_immig_colors = ["#00BFFF", "#FF4500", "#FF00FF"]
+
+v9_math = v9_data.groupby("belong_level", observed=True)["PV1MATH"].mean().reset_index()
+v9_math["Domain"] = "MATH"
+v9_math.columns = ["belong_level", "mean_score", "Domain"]
+
+v9_read = v9_data.groupby("belong_level", observed=True)["PV1READ"].mean().reset_index()
+v9_read["Domain"] = "READ"
+v9_read.columns = ["belong_level", "mean_score", "Domain"]
+
+v9_scie = v9_data.groupby("belong_level", observed=True)["PV1SCIE"].mean().reset_index()
+v9_scie["Domain"] = "SCIE"
+v9_scie.columns = ["belong_level", "mean_score", "Domain"]
+
+v9_left_df = pd.concat([v9_math, v9_read, v9_scie], ignore_index=True)
+
+v9_right_df = v9_data[["belong_level", "immig_status", "MATHEFF", "MATHPERS"]].dropna().copy()
+
+v9_belong_selection = alt.selection_point(fields=["belong_level"], bind="legend", name="v9_belong_select")
+v9_domain_selection = alt.selection_point(fields=["Domain"], name="v9_domain_select")
+
+v9_left_base = alt.Chart(v9_left_df).encode(
+    x=alt.X("Domain:N", title="Domain",
+            sort=["MATH", "READ", "SCIE"],
+            axis=alt.Axis(labelAngle=0, labelFontSize=11)),
+    y=alt.Y("mean_score:Q", title="Mean Score",
+            scale=alt.Scale(domain=[425, 490])),
+    color=alt.Color("belong_level:N", title="Belonging Level",
+                   scale=alt.Scale(domain=v9_belong_order, range=v9_domain_colors),
+                   legend=alt.Legend(orient="top")),
+    opacity=alt.condition(v9_domain_selection, alt.value(1), alt.value(0.4))
 )
 
-viz9 = alt.hconcat(v9_rankings_interactive, v9_bar_domain_avg).resolve_scale(color = "independent")
+v9_left_line = v9_left_base.mark_line(strokeWidth=3)
+v9_left_points = v9_left_base.mark_circle(size=120, cursor="pointer").encode(
+    tooltip=[
+        alt.Tooltip("Domain:N", title="Domain"),
+        alt.Tooltip("belong_level:N", title="Belonging Level"),
+        alt.Tooltip("mean_score:Q", title="Mean Score", format=".1f")
+    ]
+)
+
+v9_left_chart = (
+    (v9_left_line + v9_left_points)
+    .add_params(v9_belong_selection, v9_domain_selection)
+    .properties(
+        title={"text": "Academic Scores by Domain",
+               "subtitle": "Click domain to filter; click legend to filter right plot",
+               "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
+        width=450, height=400
+    )
+)
+
+v9_right_chart = (
+    alt.Chart(v9_right_df)
+    .transform_filter(v9_belong_selection)
+    .transform_sample(2000)
+    .mark_circle(size=40, opacity=0.6)
+    .encode(
+        x=alt.X("MATHEFF:Q", title="Math Self-Efficacy",
+                scale=alt.Scale(domain=[-4, 4])),
+        y=alt.Y("MATHPERS:Q", title="Math Persistence",
+                scale=alt.Scale(domain=[-4, 4])),
+        color=alt.Color("immig_status:N", title="Immigration Status",
+                       scale=alt.Scale(domain=["Native", "Second-Gen", "First-Gen"], range=v9_immig_colors),
+                       legend=alt.Legend(orient="top")),
+        tooltip=[
+            alt.Tooltip("immig_status:N", title="Immigration"),
+            alt.Tooltip("MATHEFF:Q", title="Self-Efficacy", format=".2f"),
+            alt.Tooltip("MATHPERS:Q", title="Persistence", format=".2f")
+        ]
+    )
+    .properties(
+        title={"text": "Self-Efficacy vs Persistence by Immigration Status",
+               "subtitle": "Filtered by school belonging selection",
+               "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
+        width=400, height=400
+    )
+)
+
+viz9 = alt.hconcat(v9_left_chart, v9_right_chart).resolve_scale(color="independent")
 save_chart(viz9, "combined_gender_stem.json")

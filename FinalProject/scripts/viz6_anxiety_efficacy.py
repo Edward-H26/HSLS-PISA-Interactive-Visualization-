@@ -147,8 +147,8 @@ v6_left_chart = (
     alt.Chart(v6_continent_df)
     .mark_circle(size=150)
     .encode(
-        x=alt.X("avg_res:Q", title="Mean ICT Resources (z within source)", scale=alt.Scale(domain=[-1.5, 1.5])),
-        y=alt.Y("avg_stem:Q", title="Mean STEM Interest (z within source)", scale=alt.Scale(domain=[-1.5, 1.5])),
+        x=alt.X("avg_res:Q", title="Mean ICT Resources (z within source)", scale=alt.Scale(domain=[-1.0, 1.0])),
+        y=alt.Y("avg_stem:Q", title="Mean STEM Interest (z within source)", scale=alt.Scale(domain=[-0.4, 0.2])),
         color=alt.Color("continent:N", title="Continent/Region"),
         opacity=alt.condition(v6_continent_select, alt.value(1), alt.value(0.5)),
         tooltip=["continent", "avg_res", "avg_stem"],
