@@ -20,8 +20,8 @@ let lastNavTime = 0;
    ============================================ */
 const tabGroups = {
   1: [0, 1, 2],
-  2: [3, 4],
-  3: [5, 6, 7, 8]
+  2: [3, 4, 5],
+  3: [6, 7, 8]
 };
 
 let activeTabGroup = 1;
@@ -91,6 +91,15 @@ function syncSidebarWithPanel(panelIndex) {
   }
 }
 
+function getTabGroupForPanel(panelIndex) {
+  for (const [tabId, indices] of Object.entries(tabGroups)) {
+    if (indices.includes(panelIndex)) {
+      return parseInt(tabId);
+    }
+  }
+  return 1;
+}
+
 function initParticles() {
   const container = document.getElementById("particles");
   if (!container) return;
@@ -130,7 +139,7 @@ function checkNavbarVisibility() {
 
   const maxScroll = panelInner ? panelInner.scrollHeight - panelInner.clientHeight : 0;
   const isAtTop = !panelInner || panelInner.scrollTop < 50;
-  const atBottom = !panelInner || maxScroll <= 0 || panelInner.scrollTop >= maxScroll - 50;
+  const atBottom = panelInner && maxScroll > 0 && panelInner.scrollTop >= maxScroll - 50;
 
   if (topNav) {
     if (isAtTop) {
@@ -151,15 +160,15 @@ function initVisualizations() {
   const basePath = "assets/json/";
 
   const charts = [
-    { id: "viz-chart-1", file: "hsls_math_identity_race.json" },
-    { id: "viz-chart-2", file: "combined_immigration.json" },
-    { id: "viz-chart-3", file: "pisa_gender_efficacy_dumbbell.json" },
-    { id: "viz-chart-4", file: "hsls_gpa_ses_trajectory.json" },
-    { id: "viz-chart-5", file: "combined_gender_stem.json" },
-    { id: "viz-chart-6", file: "pisa_anxiety_performance_heatmap.json" },
-    { id: "viz-chart-7", file: "combined_efficacy_comparison.json" },
-    { id: "viz-chart-8", file: "combined_ses_achievement.json" },
-    { id: "viz-chart-9", file: "combined_parent_education.json" }
+    { id: "viz-chart-1", file: "hsls_math_identity_race.json", width: 1100, height: 310 },
+    { id: "viz-chart-2", file: "combined_immigration.json", width: 1100, height: 310 },
+    { id: "viz-chart-3", file: "pisa_gender_efficacy_dumbbell.json", width: 1100, height: 310 },
+    { id: "viz-chart-4", file: "hsls_gpa_ses_trajectory.json", width: 1100, height: 310 },
+    { id: "viz-chart-5", file: "combined_ses_achievement.json", width: 1100, height: 310 },
+    { id: "viz-chart-6", file: "combined_parent_education.json", width: 1100, height: 310 },
+    { id: "viz-chart-7", file: "pisa_anxiety_performance_heatmap.json", width: 1100, height: 310 },
+    { id: "viz-chart-8", file: "combined_efficacy_comparison.json", width: 1100, height: 310 },
+    { id: "viz-chart-9", file: "combined_gender_stem.json", width: 1100, height: 310 }
   ];
 
   if (typeof vegaEmbed === "undefined") {
@@ -237,7 +246,7 @@ function initVisualizations() {
         const cleanSpec = JSON.parse(JSON.stringify(spec));
         delete cleanSpec.autosize;
 
-        setLargerDimensions(cleanSpec, 1200, 510);
+        setLargerDimensions(cleanSpec, c.width, c.height);
 
         const specWithFit = Object.assign({}, cleanSpec, {
           autosize: { type: "fit", contains: "padding", resize: true },
@@ -324,6 +333,19 @@ function goToPanel(index) {
   if (now - lastNavTime < MIN_NAV_GAP) return;
   lastNavTime = now;
 
+  const currentSection = getTabGroupForPanel(currentIndex);
+  const targetSection = getTabGroupForPanel(nextIndex);
+
+  if (currentSection !== targetSection) {
+    activeTabGroup = targetSection;
+    filterPanelsByTab(targetSection);
+
+    const sidebarTabs = document.querySelectorAll(".sidebar-tab");
+    sidebarTabs.forEach(t => {
+      t.classList.toggle("active", parseInt(t.dataset.tab) === targetSection);
+    });
+  }
+
   scrollToPanel(nextIndex);
   lockTransition();
   updateActiveStates(nextIndex);
@@ -364,6 +386,12 @@ function initKeyboard() {
 }
 
 function initScrollHandling() {
+  document.addEventListener("wheel", (e) => {
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 5) {
+      e.preventDefault();
+    }
+  }, { passive: false });
+
   panels.forEach((panel, panelIndex) => {
     const panelInner = panel.querySelector(".panel-inner");
     if (!panelInner) return;

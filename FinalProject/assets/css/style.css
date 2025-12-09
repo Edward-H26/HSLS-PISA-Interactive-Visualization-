@@ -22,7 +22,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html, body { height: 100%; margin: 0; }
+html, body { height: 100%; margin: 0; overscroll-behavior: none; }
 
 body {
   background: var(--bg);
@@ -274,6 +274,209 @@ p { margin: 0; color: var(--muted); }
   animation: float-tilt-3 8s ease-in-out infinite;
 }
 
+.protractor {
+  width: 55px; height: 35px;
+  top: 45%; left: 15%;
+  transform: rotate(5deg);
+  animation: float-tilt-1 6s ease-in-out infinite;
+}
+
+.test-tube {
+  width: 30px; height: 55px;
+  top: 55%; left: 17%;
+  transform: rotate(-12deg);
+  animation: float-tilt-4 7s ease-in-out infinite;
+}
+
+.dna {
+  width: 35px; height: 60px;
+  top: 70%; left: 14%;
+  transform: rotate(8deg);
+  animation: float-tilt-2 5s ease-in-out infinite;
+}
+
+.planet {
+  width: 45px; height: 45px;
+  top: 40%; left: 10%;
+  transform: rotate(-5deg);
+  animation: float-tilt-5 8s ease-in-out infinite;
+}
+
+.microscope {
+  width: 40px; height: 55px;
+  top: 62%; left: 10%;
+  transform: rotate(10deg);
+  animation: float-tilt-3 6s ease-in-out infinite;
+}
+
+.gear {
+  width: 42px; height: 42px;
+  top: 82%; left: 12%;
+  transform: rotate(-15deg);
+  animation: float-tilt-1 7s ease-in-out infinite;
+}
+
+.battery {
+  width: 28px; height: 45px;
+  top: 35%; left: 18%;
+  transform: rotate(8deg);
+  animation: float-tilt-4 6s ease-in-out infinite;
+}
+
+.magnet {
+  width: 40px; height: 35px;
+  top: 50%; left: 12%;
+  transform: rotate(-20deg);
+  animation: float-tilt-2 5s ease-in-out infinite;
+}
+
+.rocket {
+  width: 35px; height: 55px;
+  top: 75%; left: 16%;
+  transform: rotate(15deg);
+  animation: float-tilt-5 7s ease-in-out infinite;
+}
+
+.bulb-2 {
+  width: 38px; height: 48px;
+  top: 28%; right: 15%;
+  transform: rotate(-12deg);
+  animation: float-tilt-3 6s ease-in-out infinite;
+}
+
+.prism {
+  width: 45px; height: 40px;
+  top: 62%; right: 8%;
+  transform: rotate(10deg);
+  animation: float-tilt-1 8s ease-in-out infinite;
+}
+
+.molecule {
+  width: 50px; height: 50px;
+  top: 75%; right: 12%;
+  transform: rotate(-8deg);
+  animation: float-tilt-4 5s ease-in-out infinite;
+}
+
+.telescope {
+  width: 55px; height: 35px;
+  top: 35%; right: 6%;
+  transform: rotate(25deg);
+  animation: float-tilt-2 7s ease-in-out infinite;
+}
+
+.hourglass {
+  width: 35px; height: 50px;
+  bottom: 8%; left: 14%;
+  transform: rotate(-10deg);
+  animation: float-tilt-3 6s ease-in-out infinite;
+}
+
+.cube {
+  width: 40px; height: 45px;
+  bottom: 15%; left: 8%;
+  transform: rotate(15deg);
+  animation: float-tilt-1 7s ease-in-out infinite;
+}
+
+.cone {
+  width: 38px; height: 45px;
+  bottom: 5%; left: 20%;
+  transform: rotate(-5deg);
+  animation: float-tilt-4 5s ease-in-out infinite;
+}
+
+.sphere {
+  width: 42px; height: 42px;
+  bottom: 12%; right: 15%;
+  transform: rotate(8deg);
+  animation: float-tilt-2 6s ease-in-out infinite;
+}
+
+.cylinder {
+  width: 35px; height: 48px;
+  bottom: 6%; right: 8%;
+  transform: rotate(-12deg);
+  animation: float-tilt-5 7s ease-in-out infinite;
+}
+
+.wave {
+  width: 55px; height: 30px;
+  bottom: 18%; right: 5%;
+  transform: rotate(5deg);
+  animation: float-tilt-1 8s ease-in-out infinite;
+}
+
+.spring {
+  width: 30px; height: 50px;
+  bottom: 10%; left: 10%;
+  transform: rotate(10deg);
+  animation: float-tilt-3 5s ease-in-out infinite;
+}
+
+.diamond {
+  width: 38px; height: 45px;
+  bottom: 20%; right: 12%;
+  transform: rotate(-8deg);
+  animation: float-tilt-4 6s ease-in-out infinite;
+}
+
+.hexagon {
+  width: 42px; height: 38px;
+  bottom: 8%; right: 18%;
+  transform: rotate(12deg);
+  animation: float-tilt-2 7s ease-in-out infinite;
+}
+
+.star-center {
+  width: 40px; height: 40px;
+  bottom: 28%; left: 35%;
+  transform: rotate(-15deg);
+  animation: float-tilt-1 6s ease-in-out infinite;
+}
+
+.pi-symbol {
+  width: 38px; height: 42px;
+  bottom: 32%; left: 42%;
+  transform: rotate(8deg);
+  animation: float-tilt-3 7s ease-in-out infinite;
+}
+
+.sigma {
+  width: 35px; height: 40px;
+  bottom: 25%; right: 38%;
+  transform: rotate(-10deg);
+  animation: float-tilt-4 5s ease-in-out infinite;
+}
+
+.infinity {
+  width: 50px; height: 30px;
+  bottom: 30%; right: 32%;
+  transform: rotate(5deg);
+  animation: float-tilt-2 8s ease-in-out infinite;
+}
+
+.plus-center {
+  width: 35px; height: 35px;
+  bottom: 35%; left: 28%;
+  transform: rotate(15deg);
+  animation: float-tilt-5 6s ease-in-out infinite;
+}
+
+.circle-center {
+  width: 38px; height: 38px;
+  bottom: 22%; left: 48%;
+  transform: rotate(-8deg);
+  animation: float-tilt-1 7s ease-in-out infinite;
+}
+
+.square-center {
+  width: 32px; height: 32px;
+  bottom: 28%; right: 45%;
+  transform: rotate(20deg);
+  animation: float-tilt-3 5s ease-in-out infinite;
+}
+
 @keyframes float-tilt-1 {
   0%, 100% { transform: translate(0, 0) rotate(-15deg); }
   25% { transform: translate(25px, -35px) rotate(15deg); }
@@ -460,7 +663,7 @@ p { margin: 0; color: var(--muted); }
   display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
-  overscroll-behavior-x: none;
+  overscroll-behavior: none;
   margin-left: 180px;
   width: calc(100vw - 180px);
   position: relative;
@@ -511,11 +714,12 @@ body:has(.top-nav.visible) .panel-inner {
 
 .viz-section {
   width: 100%;
-  margin: 0 auto;
+  max-width: 1250px;
+  margin: 0 auto 0 5px;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .viz-header {
@@ -523,8 +727,6 @@ body:has(.top-nav.visible) .panel-inner {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1250px;
-  margin: 0 auto 0 5px;
   gap: 12px;
   position: relative;
 }
@@ -567,10 +769,9 @@ body:has(.top-nav.visible) .panel-inner {
   border-radius: var(--radius-lg);
   padding: 8px;
   width: 100%;
-  max-width: 1250px;
-  max-height: 550px;
-  margin: 0 auto 0 5px;
-  overflow: hidden;
+  height: 570px;
+  min-height: 570px;
+  max-height: 570px;
   overflow: hidden;
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
@@ -612,8 +813,8 @@ body:has(.top-nav.visible) .panel-inner {
 }
 
 .description-section {
-  width: min(1350px, 94vw);
-  margin: 40px auto 0;
+  width: 100%;
+  margin-top: 40px;
   padding-bottom: 60px;
 }
 
@@ -908,7 +1109,10 @@ body:has(.top-nav.visible) .panel-inner {
 
 /* Panel filtering */
 .panel.filtered-out {
-  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 0.5s var(--ease-smooth), visibility 0.5s var(--ease-smooth);
 }
 
 /* Sidebar Responsive: Mobile */

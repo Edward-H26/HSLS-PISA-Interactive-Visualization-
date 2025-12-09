@@ -685,7 +685,7 @@
           "type": "quantitative"
         }
       },
-      "height": 450,
+      "height": 380,
       "mark": {
         "cornerRadiusTopLeft": 3,
         "cornerRadiusTopRight": 3,
@@ -817,7 +817,7 @@
           "type": "nominal"
         }
       },
-      "height": 450,
+      "height": 380,
       "mark": {
         "cornerRadiusBottomRight": 4,
         "cornerRadiusTopRight": 4,

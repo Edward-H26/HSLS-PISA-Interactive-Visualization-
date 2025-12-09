@@ -1891,7 +1891,7 @@
           "type": "quantitative"
         }
       },
-      "height": 300,
+      "height": 260,
       "mark": {
         "cursor": "crosshair",
         "size": 80,
@@ -2005,7 +2005,7 @@
           "type": "quantitative"
         }
       },
-      "height": 300,
+      "height": 260,
       "mark": {
         "clip": true,
         "type": "bar"

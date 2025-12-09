@@ -168135,7 +168135,7 @@
           "type": "quantitative"
         }
       },
-      "height": 240,
+      "height": 200,
       "mark": {
         "cursor": "pointer",
         "type": "circle"
@@ -168181,7 +168181,7 @@
           "type": "quantitative"
         }
       },
-      "height": 240,
+      "height": 200,
       "mark": {
         "opacity": 0.5,
         "type": "area"

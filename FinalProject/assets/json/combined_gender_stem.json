@@ -667,7 +667,7 @@
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 340,
       "mark": {
         "size": 60,
         "type": "circle"
@@ -742,7 +742,7 @@
           "type": "nominal"
         }
       },
-      "height": 400,
+      "height": 340,
       "mark": {
         "cornerRadius": 4,
         "type": "bar"
