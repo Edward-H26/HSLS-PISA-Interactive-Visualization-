@@ -111,5 +111,10 @@ v5_right_chart = (
     )
 )
 
-viz5 = alt.hconcat(v5_left_chart, v5_right_chart).resolve_scale(color = "independent")
+viz5 = alt.hconcat(v5_left_chart, v5_right_chart).resolve_scale(color = "independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz5, "combined_ses_achievement.json")

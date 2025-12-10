@@ -142,5 +142,10 @@ v6_right_chart = (
     )
 )
 
-viz6 = alt.hconcat(v6_left_chart, v6_right_chart).resolve_scale(color="independent")
+viz6 = alt.hconcat(v6_left_chart, v6_right_chart).resolve_scale(color="independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz6, "combined_parent_education.json")

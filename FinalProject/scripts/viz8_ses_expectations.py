@@ -120,5 +120,10 @@ v8_right_chart = (
     )
 )
 
-viz8 = alt.hconcat(v8_left_chart, v8_right_chart).resolve_scale(color="independent")
+viz8 = alt.hconcat(v8_left_chart, v8_right_chart).resolve_scale(color="independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz8, "combined_efficacy_comparison.json")

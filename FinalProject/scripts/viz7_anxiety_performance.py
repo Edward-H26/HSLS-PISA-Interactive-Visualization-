@@ -133,5 +133,10 @@ v7_right_chart = alt.layer(v7_right_scatter, v7_right_regression).properties(
     width=400, height=400
 )
 
-viz7 = alt.hconcat(v7_left_chart, v7_right_chart).resolve_scale(color="independent")
+viz7 = alt.hconcat(v7_left_chart, v7_right_chart).resolve_scale(color="independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz7, "pisa_anxiety_performance_heatmap.json")

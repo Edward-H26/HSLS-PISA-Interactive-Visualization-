@@ -168,5 +168,10 @@ v4_gpa_line = alt.Chart(v4_gpa_long).transform_filter(v4_region_select).mark_lin
     )
 )
 
-viz4 = alt.hconcat(v4_geo_map, v4_gpa_line).resolve_scale(color = "independent")
+viz4 = alt.hconcat(v4_geo_map, v4_gpa_line).resolve_scale(color = "independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz4, "hsls_gpa_ses_trajectory.json")

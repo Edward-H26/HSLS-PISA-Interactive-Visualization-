@@ -119,5 +119,10 @@ v9_right_chart = alt.layer(v9_right_scatter, v9_right_regression).properties(
     width=400, height=400
 )
 
-viz9 = alt.hconcat(v9_left_chart, v9_right_chart).resolve_scale(color="independent")
+viz9 = alt.hconcat(v9_left_chart, v9_right_chart).resolve_scale(color="independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz9, "combined_gender_stem.json")

@@ -149,5 +149,10 @@ v1_right_chart = alt.Chart(v1_stem_df).transform_filter(v1_edu_selection).mark_b
     )
 )
 
-viz1 = alt.hconcat(v1_left_chart, v1_right_chart).resolve_scale(color = "independent")
+viz1 = alt.hconcat(v1_left_chart, v1_right_chart).resolve_scale(color = "independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz1, "hsls_math_identity_race.json")

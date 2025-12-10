@@ -139,5 +139,10 @@ v3_zero_line = alt.Chart(pd.DataFrame({"y": [0]})).mark_rule(
 
 v3_right_chart = alt.layer(v3_right_bars, v3_zero_line)
 
-viz3 = alt.hconcat(v3_left_chart, v3_right_chart).resolve_scale(color = "independent")
+viz3 = alt.hconcat(v3_left_chart, v3_right_chart).resolve_scale(color = "independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz3, "pisa_gender_efficacy_dumbbell.json")

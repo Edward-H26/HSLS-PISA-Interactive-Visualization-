@@ -19,12 +19,25 @@ let lastNavTime = 0;
    SIDEBAR NAVIGATION WITH FILTERING
    ============================================ */
 const tabGroups = {
-  1: [0, 1, 2],
-  2: [3, 4, 5],
-  3: [6, 7, 8]
+  0: [0, 1],           // Overview (intro, conclusion)
+  1: [2, 3, 4],        // Family & Resources
+  2: [5, 6, 7],        // Regional & Economic
+  3: [8, 9, 10]        // Wellbeing & Outcomes
 };
 
-let activeTabGroup = 1;
+const vizLabels = {
+  2: "Family & STEM",
+  3: "Digital & Immigration",
+  4: "Internet & Gender",
+  5: "Regional STEM",
+  6: "SES & Efficacy",
+  7: "Tech & Interest",
+  8: "Anxiety & Belonging",
+  9: "Regional Achievement",
+  10: "Belonging & Outcomes"
+};
+
+let activeTabGroup = 0;
 
 function initSidebar() {
   const sidebarTabs = document.querySelectorAll(".sidebar-tab");
@@ -44,11 +57,12 @@ function initSidebar() {
     });
   });
 
-  filterPanelsByTab(1);
+  filterPanelsByTab(0);
 }
 
 function filterPanelsByTab(tabId) {
   const visibleIndices = tabGroups[tabId];
+  const isOverview = tabId === 0;
 
   panels.forEach((panel, index) => {
     if (visibleIndices.includes(index)) {
@@ -63,19 +77,35 @@ function filterPanelsByTab(tabId) {
   });
 
   const navLinkButtons = document.querySelectorAll(".nav-links button");
-  let vizNumber = 1;
-  navLinkButtons.forEach((btn) => {
-    const targetIndex = parseInt(btn.dataset.target);
-    if (!Number.isNaN(targetIndex)) {
-      if (visibleIndices.includes(targetIndex)) {
-        btn.style.display = "";
-        btn.textContent = `Viz ${vizNumber}`;
-        vizNumber++;
-      } else {
-        btn.style.display = "none";
+
+  if (isOverview) {
+    const overviewLabels = ["Introduction", "Conclusion"];
+    let labelIndex = 0;
+    navLinkButtons.forEach((btn) => {
+      const targetIndex = parseInt(btn.dataset.target);
+      if (!Number.isNaN(targetIndex)) {
+        if (visibleIndices.includes(targetIndex) && labelIndex < overviewLabels.length) {
+          btn.style.display = "";
+          btn.textContent = overviewLabels[labelIndex];
+          labelIndex++;
+        } else {
+          btn.style.display = "none";
+        }
       }
-    }
-  });
+    });
+  } else {
+    navLinkButtons.forEach((btn) => {
+      const targetIndex = parseInt(btn.dataset.target);
+      if (!Number.isNaN(targetIndex)) {
+        if (visibleIndices.includes(targetIndex)) {
+          btn.style.display = "";
+          btn.textContent = vizLabels[targetIndex] || `Viz ${targetIndex}`;
+        } else {
+          btn.style.display = "none";
+        }
+      }
+    });
+  }
 }
 
 function syncSidebarWithPanel(panelIndex) {
@@ -97,7 +127,7 @@ function getTabGroupForPanel(panelIndex) {
       return parseInt(tabId);
     }
   }
-  return 1;
+  return 0;
 }
 
 function initParticles() {
@@ -162,7 +192,7 @@ function initVisualizations() {
   const charts = [
     { id: "viz-chart-1", file: "hsls_math_identity_race.json", width: 1100, height: 355 },
     { id: "viz-chart-2", file: "combined_immigration.json", width: 1150, height: 305 },
-    { id: "viz-chart-3", file: "pisa_gender_efficacy_dumbbell.json", width: 1150, height: 390 },
+    { id: "viz-chart-3", file: "pisa_gender_efficacy_dumbbell.json", width: 1150, height: 360 },
     { id: "viz-chart-4", file: "hsls_gpa_ses_trajectory.json", width: 1200, height: 355 },
     { id: "viz-chart-5", file: "combined_ses_achievement.json", width: 1100, height: 525 },
     { id: "viz-chart-6", file: "combined_parent_education.json", width: 1100, height: 555 },

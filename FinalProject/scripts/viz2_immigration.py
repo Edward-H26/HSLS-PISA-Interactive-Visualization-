@@ -129,5 +129,10 @@ v2_bubble_chart = alt.Chart(v2_bubble_df).transform_filter(
     )
 )
 
-viz2 = alt.hconcat(v2_line_chart, v2_bubble_chart).resolve_scale(color = "independent")
+viz2 = alt.hconcat(v2_line_chart, v2_bubble_chart).resolve_scale(color = "independent").configure_view(
+    stroke = None,
+    fill = None
+).properties(
+    background = "transparent"
+)
 save_chart(viz2, "combined_immigration.json")

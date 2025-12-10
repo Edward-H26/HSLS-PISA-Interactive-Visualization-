@@ -464,14 +464,25 @@
 
   <aside class="sidebar" id="sidebar">
     <nav class="sidebar-nav">
-      <button class="sidebar-tab active" data-tab="1" data-panels="0,1,2">
+      <button class="sidebar-tab active" data-tab="0" data-panels="intro,conclusion">
+        <span class="tab-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 16v-4M12 8h.01"/>
+          </svg>
+        </span>
+        <span class="tab-label">Overview</span>
+        <span class="tab-badge">i</span>
+      </button>
+
+      <button class="sidebar-tab" data-tab="1" data-panels="0,1,2">
         <span class="tab-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
             <rect x="3" y="3" width="18" height="18" rx="2"/>
             <path d="M3 9h18M9 21V9"/>
           </svg>
         </span>
-        <span class="tab-label">Section 1</span>
+        <span class="tab-label">Family & Resources</span>
         <span class="tab-badge">1-3</span>
       </button>
 
@@ -482,7 +493,7 @@
             <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
           </svg>
         </span>
-        <span class="tab-label">Section 2</span>
+        <span class="tab-label">Regional & Economic</span>
         <span class="tab-badge">4-6</span>
       </button>
 
@@ -493,7 +504,7 @@
             <path d="M12 6v6l4 2"/>
           </svg>
         </span>
-        <span class="tab-label">Section 3</span>
+        <span class="tab-label">Wellbeing & Outcomes</span>
         <span class="tab-badge">7-9</span>
       </button>
     </nav>
@@ -512,23 +523,102 @@
       <span class="brand-name">DataViz</span>
     </button>
     <div class="nav-links">
-      <button data-target="0">Viz 1</button>
-      <button data-target="1">Viz 2</button>
-      <button data-target="2">Viz 3</button>
-      <button data-target="3">Viz 4</button>
-      <button data-target="4">Viz 5</button>
-      <button data-target="5">Viz 6</button>
-      <button data-target="6">Viz 7</button>
-      <button data-target="7">Viz 8</button>
-      <button data-target="8">Viz 9</button>
+      <button data-target="0">Introduction</button>
+      <button data-target="1">Conclusion</button>
+      <button data-target="2">Viz 1</button>
+      <button data-target="3">Viz 2</button>
+      <button data-target="4">Viz 3</button>
+      <button data-target="5">Viz 4</button>
+      <button data-target="6">Viz 5</button>
+      <button data-target="7">Viz 6</button>
+      <button data-target="8">Viz 7</button>
+      <button data-target="9">Viz 8</button>
+      <button data-target="10">Viz 9</button>
     </div>
     <button class="pill pill-primary" data-target="0">Explore</button>
   </nav>
 
   <main class="scroll-container" id="scroll-container">
-    
+
     <section class="panel" data-index="0">
       <div class="panel-inner" data-panel="0">
+        <div class="viz-section">
+          <div class="viz-card">
+            <div class="viz-header">
+              <h1 class="viz-title">Introduction</h1>
+            </div>
+            <div class="viz-chart-container overview-text-container">
+              <div class="overview-content">
+                <h2>Educational Equity and STEM Pathways</h2>
+                <p>This interactive visualization dashboard explores the complex relationships between socioeconomic factors, family background, and educational outcomes using two major datasets: the Programme for International Student Assessment (PISA 2022) and the High School Longitudinal Study of 2009 (HSLS:09).</p>
+
+                <h3>Research Questions</h3>
+                <ul class="research-questions">
+                  <li>How do parental education and family income influence student aspirations and STEM career expectations?</li>
+                  <li>What role do digital resources and technology access play in academic performance across different populations?</li>
+                  <li>How do gender gaps in mathematics and reading achievement vary across geographic regions?</li>
+                  <li>What is the relationship between socioeconomic status, math anxiety, and school belonging?</li>
+                  <li>How do regional patterns in STEM enrollment relate to GPA trajectories across racial and ethnic groups?</li>
+                </ul>
+
+                <h3>Data Sources</h3>
+                <div class="data-sources">
+                  <div class="data-source">
+                    <h4>PISA 2022</h4>
+                    <p>International assessment of 15-year-old students across 81 countries, measuring mathematics, reading, and science literacy.</p>
+                  </div>
+                  <div class="data-source">
+                    <h4>HSLS:09</h4>
+                    <p>U.S. longitudinal study following 9th graders from 2009 through postsecondary education, tracking educational and career outcomes.</p>
+                  </div>
+                </div>
+
+                <h3>Navigation Guide</h3>
+                <p>Use the sidebar tabs to navigate between visualization sections. Each visualization is interactive: click on data points or legend items to filter and explore relationships. Swipe left or right to move between visualizations within each section.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" data-index="1">
+      <div class="panel-inner" data-panel="1">
+        <div class="viz-section">
+          <div class="viz-card">
+            <div class="viz-header">
+              <h1 class="viz-title">Conclusion</h1>
+            </div>
+            <div class="viz-chart-container overview-text-container">
+              <div class="overview-content">
+                <h2>Key Findings</h2>
+
+                <h3>Family Background and Educational Outcomes</h3>
+                <p>Parental education demonstrates a strong association with family income and student educational expectations. Students from families with higher educational attainment consistently show higher aspirations for their own education and greater likelihood of expecting STEM careers by age 30.</p>
+
+                <h3>Digital Divide and Academic Performance</h3>
+                <p>Access to ICT resources shows positive correlations with academic achievement, though the relationship varies by immigration status. Native students and immigrant populations demonstrate different patterns in how home possessions and digital resources translate to academic performance.</p>
+
+                <h3>Gender Gaps Across Domains</h3>
+                <p>While males tend to outperform females in mathematics across most regions, females demonstrate substantial advantages in reading. Internet usage patterns show differential effects on math performance, with moderate usage associated with optimal outcomes.</p>
+
+                <h3>Regional and Socioeconomic Disparities</h3>
+                <p>STEM enrollment varies significantly by U.S. region, with the South producing the highest number of STEM majors. GPA trajectories show improvement from 9th to 12th grade across all racial and ethnic groups, with achievement gaps narrowing over time.</p>
+
+                <h3>Psychological Factors</h3>
+                <p>Mathematics anxiety shows inverse relationships with academic performance and school belonging. Higher parental education is associated with lower math anxiety levels, suggesting that family educational background influences not only achievement but also students' emotional experiences with mathematics.</p>
+
+                <h3>Implications</h3>
+                <p>These findings highlight the interconnected nature of socioeconomic status, family background, psychological factors, and educational outcomes. Interventions aimed at improving educational equity should consider this complex web of relationships rather than focusing on single factors in isolation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" data-index="2">
+      <div class="panel-inner" data-panel="2">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -566,8 +656,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="1">
-      <div class="panel-inner" data-panel="1">
+    <section class="panel" data-index="3">
+      <div class="panel-inner" data-panel="3">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -610,8 +700,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="2">
-      <div class="panel-inner" data-panel="2">
+    <section class="panel" data-index="4">
+      <div class="panel-inner" data-panel="4">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -654,8 +744,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="3">
-      <div class="panel-inner" data-panel="3">
+    <section class="panel" data-index="5">
+      <div class="panel-inner" data-panel="5">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -698,8 +788,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="4">
-      <div class="panel-inner" data-panel="4">
+    <section class="panel" data-index="6">
+      <div class="panel-inner" data-panel="6">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -742,8 +832,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="5">
-      <div class="panel-inner" data-panel="5">
+    <section class="panel" data-index="7">
+      <div class="panel-inner" data-panel="7">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -786,8 +876,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="6">
-      <div class="panel-inner" data-panel="6">
+    <section class="panel" data-index="8">
+      <div class="panel-inner" data-panel="8">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -830,8 +920,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="7">
-      <div class="panel-inner" data-panel="7">
+    <section class="panel" data-index="9">
+      <div class="panel-inner" data-panel="9">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -874,8 +964,8 @@
       </div>
     </section>
 
-    <section class="panel" data-index="8">
-      <div class="panel-inner" data-panel="8">
+    <section class="panel" data-index="10">
+      <div class="panel-inner" data-panel="10">
         <div class="viz-section">
           <div class="viz-card">
             <div class="viz-header">
@@ -926,6 +1016,8 @@
       <button class="progress-dot" data-target="6"></button>
       <button class="progress-dot" data-target="7"></button>
       <button class="progress-dot" data-target="8"></button>
+      <button class="progress-dot" data-target="9"></button>
+      <button class="progress-dot" data-target="10"></button>
     </div>
   </div>
 
