@@ -63,7 +63,7 @@ v3_left_chart = alt.Chart(v3_internet_agg).mark_bar(
              sort = INTERNET_USAGE_ORDER,
              axis = alt.Axis(labelFontSize = 10, titleFontSize = 12, labelAngle = -45)),
     y = alt.Y("Math_Score:Q", title = "Mean Math Score",
-             scale = alt.Scale(domain = [400, 520], clamp = True),
+             scale = alt.Scale(domain = [400, 480], clamp = True),
              axis = alt.Axis(labelFontSize = 11, titleFontSize = 12, grid = True, gridOpacity = 0.3)),
     color = alt.condition(
         v3_internet_select,
@@ -99,7 +99,7 @@ v3_right_bars = v3_right_base.mark_bar(strokeWidth = 0.5).encode(
              sort = v3_continent_order,
              axis = alt.Axis(labelFontSize = 10, titleFontSize = 12, labelAngle = -30)),
     y = alt.Y("Gender_Gap:Q", title = "Gender Gap (Male - Female)",
-             scale = alt.Scale(domain = [-90, 50], clamp = True),
+             scale = alt.Scale(domain = [-350, 200], clamp = True),
              axis = alt.Axis(labelFontSize = 11, titleFontSize = 12, grid = True, gridOpacity = 0.3)),
     xOffset = "Subject:N",
     color = alt.Color("Subject:N", title = "Subject",

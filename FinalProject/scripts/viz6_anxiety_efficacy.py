@@ -38,49 +38,6 @@ elif "IC170Q01JA" in pisa_df.columns:
 else:
     pisa_df["ict_behavior"] = np.nan
 
-country_language_map = {
-    "USA": 313, "GBR": 313, "AUS": 313, "NZL": 313, "CAN": 313, "IRL": 313, "JAM": 313,
-    "ESP": 156, "MEX": 156, "ARG": 156, "CHL": 156, "COL": 156, "PER": 156, "URY": 156, "ECU": 156, "PAN": 156, "CRI": 156, "DOM": 156,
-    "BRA": 232, "PRT": 232,
-    "FRA": 125, "BEL": 125,
-    "DEU": 130, "AUT": 130, "CHE": 130, "LUX": 130,
-    "ITA": 148,
-    "NLD": 104,
-    "POL": 233,
-    "CZE": 61,
-    "SVK": 276,
-    "HUN": 137,
-    "SVN": 277,
-    "EST": 114,
-    "LVA": 166,
-    "LTU": 170,
-    "GRC": 133,
-    "TUR": 308,
-    "ROU": 244,
-    "BGR": 46,
-    "HRV": 58,
-    "SRB": 269,
-    "ALB": 2,
-    "SWE": 295,
-    "NOR": 215,
-    "DNK": 63,
-    "FIN": 120,
-    "ISL": 139,
-    "JPN": 153,
-    "KOR": 160,
-    "CHN": 55, "HKG": 55, "MAC": 55, "TWN": 55,
-    "THA": 303,
-    "VNM": 326,
-    "IDN": 141,
-    "MYS": 185,
-    "SGP": 313,
-    "PHL": 313,
-    "KAZ": 155,
-    "QAT": 8, "ARE": 8, "SAU": 8, "JOR": 8, "LBN": 8, "KWT": 8, "OMN": 8, "BHR": 8,
-    "MAR": 8, "TUN": 8, "EGY": 8,
-    "ZAF": 313,
-}
-
 pisa_df = pisa_df.assign(
     source="PISA",
     continent=lambda d: d["CNT"].map(continent_map).fillna("Other"),
@@ -88,12 +45,6 @@ pisa_df = pisa_df.assign(
     ict_resource=lambda d: d.get("ICTRES", pd.Series(index=d.index)),
     OECD_Status=lambda d: d["CNT"].apply(lambda x: "OECD" if x in OECD_COUNTRIES else "Non-OECD")
 )
-
-if "LANGN" in pisa_df.columns:
-    pisa_df["test_lang"] = pisa_df["CNT"].map(country_language_map)
-    pisa_df["language_match"] = (pisa_df["LANGN"] == pisa_df["test_lang"]).map({True: "Same Language", False: "Different Language"})
-else:
-    pisa_df["language_match"] = "Same Language"
 
 escs_terciles = pisa_df["ESCS"].quantile([0.33, 0.67]).values
 pisa_df["SES_Level"] = pd.cut(
@@ -111,8 +62,7 @@ hsls_df = hsls_df.assign(
     stem_interest=lambda d: d["X1MTHINT"],
     ict_resource=lambda d: d["X1SES"],
     ict_behavior=lambda d: d.get("S1WEBINFO", pd.Series(index=d.index)),
-    OECD_Status="OECD",
-    language_match="Same Language"
+    OECD_Status="OECD"
 )
 
 hsls_ses_terciles = hsls_df["X1SES"].quantile([0.33, 0.67]).values
@@ -136,10 +86,16 @@ v6_continent_df = (
     .reset_index()
 )
 
-pisa_students = pisa_df[["continent", "language_match", "ict_behavior", "stem_interest", "source"]].dropna()
-hsls_students = hsls_df[["continent", "language_match", "ict_behavior", "stem_interest", "source"]].dropna()
+pisa_students = pisa_df[["continent", "OECD_Status", "ict_behavior", "stem_interest", "source"]].dropna()
+hsls_students = hsls_df[["continent", "OECD_Status", "ict_behavior", "stem_interest", "source"]].dropna()
 v6_students_df = pd.concat([pisa_students, hsls_students], ignore_index=True)
 v6_students_df = v6_students_df[~v6_students_df["ict_behavior"].isin([-9, -8, -7, -5])]
+
+v6_students_df = (
+    v6_students_df.groupby(["continent", "OECD_Status"], group_keys=False)
+    .apply(lambda x: x.sample(n=min(500, len(x)), random_state=42))
+    .reset_index(drop=True)
+)
 
 v6_continent_select = alt.selection_point(fields=["continent"], name="v6_continent_select")
 
@@ -166,7 +122,7 @@ v6_right_chart = (
     .transform_filter(v6_continent_select)
     .transform_density(
         density="ict_behavior",
-        groupby=["language_match"],
+        groupby=["OECD_Status"],
         as_=["ict_behavior", "density"],
         bandwidth=0.25,
     )
@@ -174,13 +130,13 @@ v6_right_chart = (
     .encode(
         x=alt.X("ict_behavior:Q", title="ICT Behavior (proxy)"),
         y=alt.Y("density:Q", title="Density"),
-        color=alt.Color("language_match:N",
-                       scale=alt.Scale(domain=["Same Language", "Different Language"], range=["#4CAF50", "#FF9800"]),
-                       title="Test Language"),
-        tooltip=["language_match:N", "ict_behavior:Q", "density:Q"],
+        color=alt.Color("OECD_Status:N",
+                       scale=alt.Scale(domain=["OECD", "Non-OECD"], range=["#4CAF50", "#FF9800"]),
+                       title="OECD Status"),
+        tooltip=["OECD_Status:N", "ict_behavior:Q", "density:Q"],
     )
     .properties(
-        title={"text": "ICT Behavior Distribution by Test Language Match", "subtitle": "Filtered by selected continent",
+        title={"text": "ICT Behavior Distribution by OECD Status", "subtitle": "Filtered by selected continent",
                "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
         width=400, height=400
     )

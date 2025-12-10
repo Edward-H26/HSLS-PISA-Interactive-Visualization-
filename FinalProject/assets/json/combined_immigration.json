@@ -647,115 +647,213 @@
       "data": {
         "name": "data-7c5cfa0d264316159651139cea419372"
       },
-      "encoding": {
-        "color": {
-          "field": "SES_Quartile",
-          "legend": {
-            "columns": 4,
-            "direction": "horizontal",
-            "labelFontSize": 10,
-            "orient": "top",
-            "titleFontSize": 11
-          },
-          "scale": {
-            "domain": [
-              "Low SES",
-              "Lower-Mid SES",
-              "Upper-Mid SES",
-              "High SES"
-            ],
-            "range": [
-              "#C8E6C9",
-              "#81C784",
-              "#4CAF50",
-              "#1B5E20"
-            ]
-          },
-          "title": "SES Quartile",
-          "type": "nominal"
-        },
-        "opacity": {
-          "condition": {
-            "param": "ses_select",
-            "value": 1
-          },
-          "value": 0.3
-        },
-        "tooltip": [
-          {
-            "field": "Parent_Education",
-            "title": "Parent Education",
-            "type": "nominal"
-          },
-          {
-            "field": "SES_Quartile",
-            "title": "SES Quartile",
-            "type": "nominal"
-          },
-          {
-            "field": "Avg_ICTRES",
-            "format": ".2f",
-            "title": "ICT Resources",
-            "type": "quantitative"
-          },
-          {
-            "field": "Count",
-            "format": ",d",
-            "title": "Sample Size",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "axis": {
-            "labelAngle": -45,
-            "labelFontSize": 10,
-            "labelLimit": 100,
-            "titleFontSize": 12
-          },
-          "field": "Parent_Education",
-          "sort": [
-            "None",
-            "Primary",
-            "Lower Secondary",
-            "Upper Secondary",
-            "Post-Secondary",
-            "Short-Cycle Tertiary",
-            "Bachelor's",
-            "Master's",
-            "Doctoral"
-          ],
-          "title": "Parent Education Level",
-          "type": "nominal"
-        },
-        "y": {
-          "axis": {
-            "grid": true,
-            "gridOpacity": 0.3,
-            "labelFontSize": 11,
-            "titleFontSize": 12
-          },
-          "field": "Avg_ICTRES",
-          "scale": {
-            "domain": [
-              -3,
-              4
-            ]
-          },
-          "title": "ICT Resources Index",
-          "type": "quantitative"
-        }
-      },
       "height": 480,
-      "mark": {
-        "point": {
-          "cursor": "pointer",
-          "filled": true,
-          "size": 80
+      "layer": [
+        {
+          "encoding": {
+            "color": {
+              "field": "SES_Quartile",
+              "legend": {
+                "columns": 4,
+                "direction": "horizontal",
+                "labelFontSize": 10,
+                "orient": "top",
+                "titleFontSize": 11
+              },
+              "scale": {
+                "domain": [
+                  "Low SES",
+                  "Lower-Mid SES",
+                  "Upper-Mid SES",
+                  "High SES"
+                ],
+                "range": [
+                  "#C8E6C9",
+                  "#81C784",
+                  "#4CAF50",
+                  "#1B5E20"
+                ]
+              },
+              "title": "SES Quartile",
+              "type": "nominal"
+            },
+            "opacity": {
+              "condition": {
+                "param": "ses_select",
+                "value": 1
+              },
+              "value": 0.3
+            },
+            "x": {
+              "axis": {
+                "labelAngle": -45,
+                "labelFontSize": 10,
+                "labelLimit": 100,
+                "titleFontSize": 12
+              },
+              "field": "Parent_Education",
+              "sort": [
+                "None",
+                "Primary",
+                "Lower Secondary",
+                "Upper Secondary",
+                "Post-Secondary",
+                "Short-Cycle Tertiary",
+                "Bachelor's",
+                "Master's",
+                "Doctoral"
+              ],
+              "title": "Parent Education Level",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "grid": true,
+                "gridOpacity": 0.3,
+                "labelFontSize": 11,
+                "titleFontSize": 12
+              },
+              "field": "Avg_ICTRES",
+              "scale": {
+                "domain": [
+                  -3,
+                  4
+                ]
+              },
+              "title": "ICT Resources Index",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "strokeWidth": 2.5,
+            "type": "line"
+          },
+          "name": "view_1"
         },
-        "strokeWidth": 2.5,
-        "type": "line"
-      },
-      "name": "view_1",
+        {
+          "encoding": {
+            "color": {
+              "field": "SES_Quartile",
+              "legend": {
+                "columns": 4,
+                "direction": "horizontal",
+                "labelFontSize": 10,
+                "orient": "top",
+                "titleFontSize": 11
+              },
+              "scale": {
+                "domain": [
+                  "Low SES",
+                  "Lower-Mid SES",
+                  "Upper-Mid SES",
+                  "High SES"
+                ],
+                "range": [
+                  "#C8E6C9",
+                  "#81C784",
+                  "#4CAF50",
+                  "#1B5E20"
+                ]
+              },
+              "title": "SES Quartile",
+              "type": "nominal"
+            },
+            "opacity": {
+              "condition": {
+                "param": "ses_select",
+                "value": 1
+              },
+              "value": 0.3
+            },
+            "size": {
+              "field": "Count",
+              "legend": {
+                "labelFontSize": 9,
+                "orient": "bottom",
+                "titleFontSize": 10
+              },
+              "scale": {
+                "range": [
+                  50,
+                  400
+                ]
+              },
+              "title": "Sample Size",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "Parent_Education",
+                "title": "Parent Education",
+                "type": "nominal"
+              },
+              {
+                "field": "SES_Quartile",
+                "title": "SES Quartile",
+                "type": "nominal"
+              },
+              {
+                "field": "Avg_ICTRES",
+                "format": ".2f",
+                "title": "ICT Resources",
+                "type": "quantitative"
+              },
+              {
+                "field": "Count",
+                "format": ",d",
+                "title": "Sample Size",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelAngle": -45,
+                "labelFontSize": 10,
+                "labelLimit": 100,
+                "titleFontSize": 12
+              },
+              "field": "Parent_Education",
+              "sort": [
+                "None",
+                "Primary",
+                "Lower Secondary",
+                "Upper Secondary",
+                "Post-Secondary",
+                "Short-Cycle Tertiary",
+                "Bachelor's",
+                "Master's",
+                "Doctoral"
+              ],
+              "title": "Parent Education Level",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "grid": true,
+                "gridOpacity": 0.3,
+                "labelFontSize": 11,
+                "titleFontSize": 12
+              },
+              "field": "Avg_ICTRES",
+              "scale": {
+                "domain": [
+                  -3,
+                  4
+                ]
+              },
+              "title": "ICT Resources Index",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "cursor": "pointer",
+            "filled": true,
+            "stroke": "#FFFFFF",
+            "strokeWidth": 1,
+            "type": "point"
+          }
+        }
+      ],
       "title": {
         "anchor": "middle",
         "color": "#FFFFFF",
@@ -763,7 +861,7 @@
         "fontSize": 15,
         "fontWeight": 700,
         "offset": 10,
-        "subtitle": "Click on a line to filter by SES quartile",
+        "subtitle": "Point size indicates sample size (larger = more reliable)",
         "subtitleColor": "#E0E0E0",
         "subtitleFontSize": 11,
         "subtitlePadding": 4,

@@ -76,7 +76,7 @@ v9_left_chart = alt.Chart(v9_left_df).mark_line(
     width=450, height=400
 )
 
-v9_right_chart = (
+v9_right_scatter = (
     alt.Chart(v9_right_df)
     .transform_filter(v9_belong_selection)
     .transform_sample(2000)
@@ -98,12 +98,25 @@ v9_right_chart = (
             alt.Tooltip("MATHPERS:Q", title="Persistence", format=".2f")
         ]
     )
-    .properties(
-        title={"text": "Self-Efficacy vs Persistence by Immigration Status",
-               "subtitle": "Filtered by school belonging selection",
-               "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-        width=400, height=400
+)
+
+v9_right_regression = (
+    alt.Chart(v9_right_df)
+    .transform_filter(v9_belong_selection)
+    .transform_regression("MATHEFF", "MATHPERS", groupby=["immig_status"])
+    .mark_line(strokeWidth=3)
+    .encode(
+        x=alt.X("MATHEFF:Q"),
+        y=alt.Y("MATHPERS:Q"),
+        color=alt.Color("immig_status:N", scale=alt.Scale(domain=["Native", "Second-Gen", "First-Gen"], range=v9_immig_colors))
     )
+)
+
+v9_right_chart = alt.layer(v9_right_scatter, v9_right_regression).properties(
+    title={"text": "Self-Efficacy vs Persistence by Immigration Status",
+           "subtitle": "Filtered by school belonging selection",
+           "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
+    width=400, height=400
 )
 
 viz9 = alt.hconcat(v9_left_chart, v9_right_chart).resolve_scale(color="independent")

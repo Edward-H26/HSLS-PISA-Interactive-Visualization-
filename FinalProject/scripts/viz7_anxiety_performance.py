@@ -67,7 +67,7 @@ v7_left_chart = (
                 axis=alt.Axis(labelAngle=-45, labelFontSize=10, labelPadding=8, titleFontSize=14)),
         y=alt.Y("avg_anxiety:Q", title="Mean Math Anxiety",
                 axis=alt.Axis(labelFontSize=12, titleFontSize=14, grid=True, gridOpacity=0.3),
-                scale=alt.Scale(domain=[-0.5, 0.5])),
+                scale=alt.Scale(domain=[-3, 1])),
         color=alt.Color("ses_level:N", title="SES Level", sort=v7_ses_order,
                        scale=alt.Scale(domain=v7_ses_order, range=v7_ses_colors),
                        legend=alt.Legend(titleFontSize=11, labelFontSize=9, orient="bottom",
@@ -94,7 +94,7 @@ v7_left_chart = (
     )
 )
 
-v7_right_chart = (
+v7_right_scatter = (
     alt.Chart(v7_scatter_df)
     .transform_filter(v7_edu_selection)
     .mark_circle(size=30, opacity=0.5)
@@ -112,12 +112,25 @@ v7_right_chart = (
             alt.Tooltip("ANXMAT:Q", title="Math Anxiety", format=".2f")
         ]
     )
-    .properties(
-        title={"text": "School Belonging vs Math Anxiety by Gender",
-               "subtitle": "Filtered by parental education selection",
-               "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
-        width=400, height=400
+)
+
+v7_right_regression = (
+    alt.Chart(v7_scatter_df)
+    .transform_filter(v7_edu_selection)
+    .transform_regression("BELONG", "ANXMAT", groupby=["gender"])
+    .mark_line(strokeWidth=3)
+    .encode(
+        x=alt.X("BELONG:Q"),
+        y=alt.Y("ANXMAT:Q"),
+        color=alt.Color("gender:N", scale=alt.Scale(domain=["Female", "Male"], range=v7_gender_colors))
     )
+)
+
+v7_right_chart = alt.layer(v7_right_scatter, v7_right_regression).properties(
+    title={"text": "School Belonging vs Math Anxiety by Gender",
+           "subtitle": "Filtered by parental education selection",
+           "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
+    width=400, height=400
 )
 
 viz7 = alt.hconcat(v7_left_chart, v7_right_chart).resolve_scale(color="independent")

@@ -1281,7 +1281,7 @@
             "clamp": true,
             "domain": [
               400,
-              520
+              480
             ]
           },
           "title": "Mean Math Score",
@@ -1399,8 +1399,8 @@
               "scale": {
                 "clamp": true,
                 "domain": [
-                  -90,
-                  50
+                  -350,
+                  200
                 ]
               },
               "title": "Gender Gap (Male - Female)",

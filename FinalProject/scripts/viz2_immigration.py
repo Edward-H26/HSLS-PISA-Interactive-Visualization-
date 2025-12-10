@@ -48,10 +48,7 @@ v2_line_df = v2_data[v2_data["Parent_Education"].isin(v2_edu_order)].groupby(
     Count = ("ICTRES", "count")
 ).reset_index()
 
-v2_line_chart = alt.Chart(v2_line_df).mark_line(
-    point = alt.OverlayMarkDef(filled = True, size = 80, cursor = "pointer"),
-    strokeWidth = 2.5
-).encode(
+v2_line_base = alt.Chart(v2_line_df).encode(
     x = alt.X("Parent_Education:N", title = "Parent Education Level",
              sort = v2_edu_order,
              axis = alt.Axis(labelAngle = -45, labelFontSize = 10, titleFontSize = 12, labelLimit = 100)),
@@ -62,18 +59,28 @@ v2_line_chart = alt.Chart(v2_line_df).mark_line(
                      scale = alt.Scale(domain = v2_ses_order, range = v2_ses_colors),
                      legend = alt.Legend(orient = "top", titleFontSize = 11, labelFontSize = 10,
                                         direction = "horizontal", columns = 4)),
-    opacity = alt.condition(v2_ses_select, alt.value(1), alt.value(0.3)),
+    opacity = alt.condition(v2_ses_select, alt.value(1), alt.value(0.3))
+)
+
+v2_lines = v2_line_base.mark_line(strokeWidth = 2.5)
+
+v2_points = v2_line_base.mark_point(filled = True, cursor = "pointer", stroke = "#FFFFFF", strokeWidth = 1).encode(
+    size = alt.Size("Count:Q", title = "Sample Size",
+                   scale = alt.Scale(range = [50, 400]),
+                   legend = alt.Legend(orient = "bottom", titleFontSize = 10, labelFontSize = 9)),
     tooltip = [
         alt.Tooltip("Parent_Education:N", title = "Parent Education"),
         alt.Tooltip("SES_Quartile:N", title = "SES Quartile"),
         alt.Tooltip("Avg_ICTRES:Q", title = "ICT Resources", format = ".2f"),
         alt.Tooltip("Count:Q", title = "Sample Size", format = ",d")
     ]
-).add_params(v2_ses_select).properties(
+)
+
+v2_line_chart = alt.layer(v2_lines, v2_points).add_params(v2_ses_select).properties(
     width = 530, height = 480,
     title = alt.TitleParams(
         text = "ICT Resources by Parent Education",
-        subtitle = "Click on a line to filter by SES quartile",
+        subtitle = "Point size indicates sample size (larger = more reliable)",
         fontSize = 15, subtitleFontSize = 11,
         font = "Roboto, sans-serif", anchor = "middle", fontWeight = 700,
         color = "#FFFFFF", subtitleColor = "#E0E0E0",

@@ -36173,91 +36173,151 @@
       "data": {
         "name": "data-ae66e943a707b2fe838354ed93c7e0f6"
       },
-      "encoding": {
-        "color": {
-          "field": "immig_status",
-          "legend": {
-            "orient": "top"
-          },
-          "scale": {
-            "domain": [
-              "Native",
-              "Second-Gen",
-              "First-Gen"
-            ],
-            "range": [
-              "#1E88E5",
-              "#FF0000",
-              "#FFD700"
-            ]
-          },
-          "title": "Immigration Status",
-          "type": "nominal"
-        },
-        "opacity": {
-          "field": "immig_status",
-          "legend": null,
-          "scale": {
-            "domain": [
-              "Native",
-              "Second-Gen",
-              "First-Gen"
-            ],
-            "range": [
-              0.4,
-              0.9,
-              0.9
-            ]
-          },
-          "type": "nominal"
-        },
-        "tooltip": [
-          {
-            "field": "immig_status",
-            "title": "Immigration",
-            "type": "nominal"
-          },
-          {
-            "field": "MATHEFF",
-            "format": ".2f",
-            "title": "Self-Efficacy",
-            "type": "quantitative"
-          },
-          {
-            "field": "MATHPERS",
-            "format": ".2f",
-            "title": "Persistence",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "field": "MATHEFF",
-          "scale": {
-            "domain": [
-              -4,
-              4
-            ]
-          },
-          "title": "Math Self-Efficacy",
-          "type": "quantitative"
-        },
-        "y": {
-          "field": "MATHPERS",
-          "scale": {
-            "domain": [
-              -4,
-              4
-            ]
-          },
-          "title": "Math Persistence",
-          "type": "quantitative"
-        }
-      },
       "height": 400,
-      "mark": {
-        "size": 40,
-        "type": "circle"
-      },
+      "layer": [
+        {
+          "encoding": {
+            "color": {
+              "field": "immig_status",
+              "legend": {
+                "orient": "top"
+              },
+              "scale": {
+                "domain": [
+                  "Native",
+                  "Second-Gen",
+                  "First-Gen"
+                ],
+                "range": [
+                  "#1E88E5",
+                  "#FF0000",
+                  "#FFD700"
+                ]
+              },
+              "title": "Immigration Status",
+              "type": "nominal"
+            },
+            "opacity": {
+              "field": "immig_status",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "Native",
+                  "Second-Gen",
+                  "First-Gen"
+                ],
+                "range": [
+                  0.4,
+                  0.9,
+                  0.9
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "immig_status",
+                "title": "Immigration",
+                "type": "nominal"
+              },
+              {
+                "field": "MATHEFF",
+                "format": ".2f",
+                "title": "Self-Efficacy",
+                "type": "quantitative"
+              },
+              {
+                "field": "MATHPERS",
+                "format": ".2f",
+                "title": "Persistence",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "MATHEFF",
+              "scale": {
+                "domain": [
+                  -4,
+                  4
+                ]
+              },
+              "title": "Math Self-Efficacy",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "MATHPERS",
+              "scale": {
+                "domain": [
+                  -4,
+                  4
+                ]
+              },
+              "title": "Math Persistence",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "size": 40,
+            "type": "circle"
+          },
+          "transform": [
+            {
+              "filter": {
+                "param": "v9_belong_select"
+              }
+            },
+            {
+              "sample": 2000
+            }
+          ]
+        },
+        {
+          "encoding": {
+            "color": {
+              "field": "immig_status",
+              "scale": {
+                "domain": [
+                  "Native",
+                  "Second-Gen",
+                  "First-Gen"
+                ],
+                "range": [
+                  "#1E88E5",
+                  "#FF0000",
+                  "#FFD700"
+                ]
+              },
+              "type": "nominal"
+            },
+            "x": {
+              "field": "MATHEFF",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "MATHPERS",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "strokeWidth": 3,
+            "type": "line"
+          },
+          "transform": [
+            {
+              "filter": {
+                "param": "v9_belong_select"
+              }
+            },
+            {
+              "groupby": [
+                "immig_status"
+              ],
+              "on": "MATHEFF",
+              "regression": "MATHPERS"
+            }
+          ]
+        }
+      ],
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
@@ -36265,16 +36325,6 @@
         "subtitleColor": "#E0E0E0",
         "text": "Self-Efficacy vs Persistence by Immigration Status"
       },
-      "transform": [
-        {
-          "filter": {
-            "param": "v9_belong_select"
-          }
-        },
-        {
-          "sample": 2000
-        }
-      ],
       "width": 400
     }
   ],

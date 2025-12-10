@@ -12213,8 +12213,8 @@
           "field": "avg_anxiety",
           "scale": {
             "domain": [
-              -0.5,
-              0.5
+              -3,
+              1
             ]
           },
           "title": "Mean Math Anxiety",
@@ -12249,73 +12249,128 @@
       "data": {
         "name": "data-1158085c0e00a3a4891f890d976f2f95"
       },
-      "encoding": {
-        "color": {
-          "field": "gender",
-          "legend": {
-            "orient": "top"
-          },
-          "scale": {
-            "domain": [
-              "Female",
-              "Male"
-            ],
-            "range": [
-              "#E91E63",
-              "#1976D2"
-            ]
-          },
-          "title": "Gender",
-          "type": "nominal"
-        },
-        "tooltip": [
-          {
-            "field": "gender",
-            "title": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "BELONG",
-            "format": ".2f",
-            "title": "School Belonging",
-            "type": "quantitative"
-          },
-          {
-            "field": "ANXMAT",
-            "format": ".2f",
-            "title": "Math Anxiety",
-            "type": "quantitative"
-          }
-        ],
-        "x": {
-          "field": "BELONG",
-          "scale": {
-            "domain": [
-              -4,
-              4
-            ]
-          },
-          "title": "School Belonging Score",
-          "type": "quantitative"
-        },
-        "y": {
-          "field": "ANXMAT",
-          "scale": {
-            "domain": [
-              -3,
-              3
-            ]
-          },
-          "title": "Math Anxiety Score",
-          "type": "quantitative"
-        }
-      },
       "height": 400,
-      "mark": {
-        "opacity": 0.5,
-        "size": 30,
-        "type": "circle"
-      },
+      "layer": [
+        {
+          "encoding": {
+            "color": {
+              "field": "gender",
+              "legend": {
+                "orient": "top"
+              },
+              "scale": {
+                "domain": [
+                  "Female",
+                  "Male"
+                ],
+                "range": [
+                  "#E91E63",
+                  "#1976D2"
+                ]
+              },
+              "title": "Gender",
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "gender",
+                "title": "Gender",
+                "type": "nominal"
+              },
+              {
+                "field": "BELONG",
+                "format": ".2f",
+                "title": "School Belonging",
+                "type": "quantitative"
+              },
+              {
+                "field": "ANXMAT",
+                "format": ".2f",
+                "title": "Math Anxiety",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "BELONG",
+              "scale": {
+                "domain": [
+                  -4,
+                  4
+                ]
+              },
+              "title": "School Belonging Score",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "ANXMAT",
+              "scale": {
+                "domain": [
+                  -3,
+                  3
+                ]
+              },
+              "title": "Math Anxiety Score",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "opacity": 0.5,
+            "size": 30,
+            "type": "circle"
+          },
+          "transform": [
+            {
+              "filter": {
+                "param": "v7_edu_select"
+              }
+            }
+          ]
+        },
+        {
+          "encoding": {
+            "color": {
+              "field": "gender",
+              "scale": {
+                "domain": [
+                  "Female",
+                  "Male"
+                ],
+                "range": [
+                  "#E91E63",
+                  "#1976D2"
+                ]
+              },
+              "type": "nominal"
+            },
+            "x": {
+              "field": "BELONG",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "ANXMAT",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "strokeWidth": 3,
+            "type": "line"
+          },
+          "transform": [
+            {
+              "filter": {
+                "param": "v7_edu_select"
+              }
+            },
+            {
+              "groupby": [
+                "gender"
+              ],
+              "on": "BELONG",
+              "regression": "ANXMAT"
+            }
+          ]
+        }
+      ],
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
@@ -12323,13 +12378,6 @@
         "subtitleColor": "#E0E0E0",
         "text": "School Belonging vs Math Anxiety by Gender"
       },
-      "transform": [
-        {
-          "filter": {
-            "param": "v7_edu_select"
-          }
-        }
-      ],
       "width": 400
     }
   ],
