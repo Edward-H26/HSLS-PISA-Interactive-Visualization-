@@ -70,8 +70,8 @@ v9_left_chart = alt.Chart(v9_left_df).mark_line(
         alt.Tooltip("mean_score:Q", title="Mean Score", format=".1f")
     ]
 ).add_params(v9_belong_selection).properties(
-    title={"text": "Academic Scores by Domain",
-           "subtitle": "Click line to filter right plot",
+    title={"text": "Academic Achievement by School Belonging Level",
+           "subtitle": "Performance across mathematics, reading, and science domains",
            "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
     width=450, height=400
 )
@@ -113,8 +113,8 @@ v9_right_regression = (
 )
 
 v9_right_chart = alt.layer(v9_right_scatter, v9_right_regression).properties(
-    title={"text": "Self-Efficacy vs Persistence by Immigration Status",
-           "subtitle": "Filtered by school belonging selection",
+    title={"text": "Mathematics Self-Efficacy and Persistence",
+           "subtitle": "Comparing native and immigrant student populations",
            "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
     width=400, height=400
 )

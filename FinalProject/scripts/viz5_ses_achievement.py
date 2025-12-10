@@ -84,7 +84,7 @@ v5_left_chart = (
     .add_params(v5_continent_select)
     .properties(
         name = "view_1",
-        title = {"text": "Continent SES vs Math Self-Efficacy (Standardized)", "subtitle": "Click a continent to filter",
+        title = {"text": "Socioeconomic Status and Mathematics Self-Efficacy", "subtitle": "Standardized mean scores by geographic region",
                 "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
         width = 280, height = 240
     )
@@ -105,7 +105,7 @@ v5_right_chart = (
         color = alt.Color("gender:N", title = "Gender", scale = alt.Scale(domain = ["Female", "Male"], range = ["#E91E63", "#1976D2"])),
     )
     .properties(
-        title = {"text": "STEM Interest by Gender (Selected Continent)", "subtitle": "Click continent on left to filter",
+        title = {"text": "Distribution of STEM Interest by Gender", "subtitle": "Density estimates for selected geographic region",
                 "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
         width = 280, height = 240
     )

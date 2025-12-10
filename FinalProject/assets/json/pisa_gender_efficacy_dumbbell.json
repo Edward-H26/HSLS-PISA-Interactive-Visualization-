@@ -554,11 +554,11 @@
         "fontSize": 15,
         "fontWeight": 700,
         "offset": 10,
-        "subtitle": "Click a bar to filter gender gaps by usage level",
+        "subtitle": "Mean scores across usage intensity levels (PISA 2022)",
         "subtitleColor": "#E0E0E0",
         "subtitleFontSize": 11,
         "subtitlePadding": 4,
-        "text": "Math Scores by Daily Internet Usage"
+        "text": "Mathematics Performance by Daily Internet Usage"
       },
       "width": 350
     },
@@ -647,13 +647,6 @@
                 "titleFontSize": 12
               },
               "field": "Gender_Gap",
-              "scale": {
-                "clamp": true,
-                "domain": [
-                  -175,
-                  75
-                ]
-              },
               "title": "Gender Gap (Male - Female)",
               "type": "quantitative"
             }
@@ -669,11 +662,11 @@
             "fontSize": 15,
             "fontWeight": 700,
             "offset": 10,
-            "subtitle": "Positive = Male advantage, Negative = Female advantage",
+            "subtitle": "Score differentials by geographic region (positive = male advantage)",
             "subtitleColor": "#E0E0E0",
             "subtitleFontSize": 11,
             "subtitlePadding": 4,
-            "text": "Gender Gap in Test Performance by Continent"
+            "text": "Gender Disparities in Mathematics and Reading Achievement"
           },
           "transform": [
             {

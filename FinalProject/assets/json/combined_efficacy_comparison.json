@@ -522,9 +522,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click a continent to filter the chart on right",
+        "subtitle": "Mean plausible values across PISA 2022 participating regions",
         "subtitleColor": "#E0E0E0",
-        "text": "Average Math Scores by Continent"
+        "text": "Mathematics Achievement by Geographic Region"
       },
       "width": 350
     },
@@ -612,9 +612,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Showing average across selected region(s)",
+        "subtitle": "Mathematics, science, and reading achievement comparison",
         "subtitleColor": "#E0E0E0",
-        "text": "Math, Science & Reading by Gender"
+        "text": "Academic Performance Across Domains by Gender"
       },
       "transform": [
         {

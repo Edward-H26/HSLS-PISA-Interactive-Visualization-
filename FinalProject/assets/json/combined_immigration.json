@@ -861,11 +861,11 @@
         "fontSize": 15,
         "fontWeight": 700,
         "offset": 10,
-        "subtitle": "Point size indicates sample size (larger = more reliable)",
+        "subtitle": "Disaggregated by socioeconomic status quartile (PISA 2022)",
         "subtitleColor": "#E0E0E0",
         "subtitleFontSize": 11,
         "subtitlePadding": 4,
-        "text": "ICT Resources by Parent Education"
+        "text": "ICT Resource Access by Parental Education Level"
       },
       "width": 530
     },
@@ -979,11 +979,11 @@
         "fontSize": 15,
         "fontWeight": 700,
         "offset": 10,
-        "subtitle": "Filtered by SES quartile selection",
+        "subtitle": "Comparing native and immigrant student populations",
         "subtitleColor": "#E0E0E0",
         "subtitleFontSize": 11,
         "subtitlePadding": 4,
-        "text": "Student Performance by Home Possessions"
+        "text": "Academic Achievement by Home Possessions Index"
       },
       "transform": [
         {

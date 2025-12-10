@@ -38633,9 +38633,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click continent to filter right plot",
+        "subtitle": "Standardized indices by geographic region",
         "subtitleColor": "#E0E0E0",
-        "text": "STEM Interest vs ICT Resources by Continent"
+        "text": "Relationship Between ICT Resources and STEM Interest"
       },
       "width": 450
     },
@@ -38692,9 +38692,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Filtered by selected continent",
+        "subtitle": "Kernel density estimates of technology engagement",
         "subtitleColor": "#E0E0E0",
-        "text": "ICT Behavior Distribution by OECD Status"
+        "text": "ICT Usage Patterns: OECD vs Non-OECD Countries"
       },
       "transform": [
         {

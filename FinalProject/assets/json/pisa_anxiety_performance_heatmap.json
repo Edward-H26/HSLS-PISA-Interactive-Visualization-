@@ -12237,11 +12237,11 @@
         "fontSize": 16,
         "fontWeight": 700,
         "offset": 10,
-        "subtitle": "Click to filter right plot",
+        "subtitle": "Mean anxiety scores stratified by socioeconomic tercile",
         "subtitleColor": "#E0E0E0",
         "subtitleFontSize": 11,
         "subtitlePadding": 4,
-        "text": "Math Anxiety by Parental Education & SES"
+        "text": "Mathematics Anxiety by Parental Education and SES"
       },
       "width": 450
     },
@@ -12374,9 +12374,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Filtered by parental education selection",
+        "subtitle": "Gender-specific associations with regression trends",
         "subtitleColor": "#E0E0E0",
-        "text": "School Belonging vs Math Anxiety by Gender"
+        "text": "School Belonging and Mathematics Anxiety"
       },
       "width": 400
     }

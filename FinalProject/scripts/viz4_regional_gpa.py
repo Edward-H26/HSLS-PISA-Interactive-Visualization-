@@ -115,8 +115,8 @@ v4_geo_map = alt.Chart(v4_states).mark_geoshape(stroke = "white", strokeWidth = 
 ).add_params(v4_region_select).project(type = "albersUsa").properties(
     width = 475, height = 400,
     title = alt.TitleParams(
-        text = "Regional STEM Major Enrollment Counts in 2016",
-        subtitle = "Click regions on the map to filter GPA trajectories by geographic area",
+        text = "Geographic Distribution of STEM Major Enrollment",
+        subtitle = "U.S. Census regions, 2016 cohort (HSLS:09)",
         fontSize = 20,
         subtitleFontSize = 14,
         font = "Roboto, sans-serif",
@@ -154,8 +154,8 @@ v4_gpa_line = alt.Chart(v4_gpa_long).transform_filter(v4_region_select).mark_lin
 ).properties(
     width = 475, height = 400,
     title = alt.TitleParams(
-        text = "GPA Trajectories by Race/Ethnicity (9th-12th Grade)",
-        subtitle = "Average GPA progression filtered by selected region",
+        text = "Academic Achievement Trajectories Across High School",
+        subtitle = "Grade point average by race/ethnicity, grades 9 through 12",
         fontSize = 18,
         subtitleFontSize = 13,
         font = "Roboto, sans-serif",

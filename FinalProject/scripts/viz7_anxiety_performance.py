@@ -84,8 +84,8 @@ v7_left_chart = (
     .properties(
         width=450, height=400,
         title=alt.TitleParams(
-            text="Math Anxiety by Parental Education & SES",
-            subtitle="Click to filter right plot",
+            text="Mathematics Anxiety by Parental Education and SES",
+            subtitle="Mean anxiety scores stratified by socioeconomic tercile",
             fontSize=16, subtitleFontSize=11,
             font="Roboto, sans-serif", anchor="middle", fontWeight=700,
             color="#FFFFFF", subtitleColor="#E0E0E0",
@@ -127,8 +127,8 @@ v7_right_regression = (
 )
 
 v7_right_chart = alt.layer(v7_right_scatter, v7_right_regression).properties(
-    title={"text": "School Belonging vs Math Anxiety by Gender",
-           "subtitle": "Filtered by parental education selection",
+    title={"text": "School Belonging and Mathematics Anxiety",
+           "subtitle": "Gender-specific associations with regression trends",
            "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
     width=400, height=400
 )

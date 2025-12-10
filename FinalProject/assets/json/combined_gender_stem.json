@@ -36163,9 +36163,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click line to filter right plot",
+        "subtitle": "Performance across mathematics, reading, and science domains",
         "subtitleColor": "#E0E0E0",
-        "text": "Academic Scores by Domain"
+        "text": "Academic Achievement by School Belonging Level"
       },
       "width": 450
     },
@@ -36321,9 +36321,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Filtered by school belonging selection",
+        "subtitle": "Comparing native and immigrant student populations",
         "subtitleColor": "#E0E0E0",
-        "text": "Self-Efficacy vs Persistence by Immigration Status"
+        "text": "Mathematics Self-Efficacy and Persistence"
       },
       "width": 400
     }

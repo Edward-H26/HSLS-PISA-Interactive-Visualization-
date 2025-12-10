@@ -79,8 +79,8 @@ v2_points = v2_line_base.mark_point(filled = True, cursor = "pointer", stroke = 
 v2_line_chart = alt.layer(v2_lines, v2_points).add_params(v2_ses_select).properties(
     width = 530, height = 480,
     title = alt.TitleParams(
-        text = "ICT Resources by Parent Education",
-        subtitle = "Point size indicates sample size (larger = more reliable)",
+        text = "ICT Resource Access by Parental Education Level",
+        subtitle = "Disaggregated by socioeconomic status quartile (PISA 2022)",
         fontSize = 15, subtitleFontSize = 11,
         font = "Roboto, sans-serif", anchor = "middle", fontWeight = 700,
         color = "#FFFFFF", subtitleColor = "#E0E0E0",
@@ -120,8 +120,8 @@ v2_bubble_chart = alt.Chart(v2_bubble_df).transform_filter(
 ).properties(
     width = 530, height = 480,
     title = alt.TitleParams(
-        text = "Student Performance by Home Possessions",
-        subtitle = "Filtered by SES quartile selection",
+        text = "Academic Achievement by Home Possessions Index",
+        subtitle = "Comparing native and immigrant student populations",
         fontSize = 15, subtitleFontSize = 11,
         font = "Roboto, sans-serif", anchor = "middle", fontWeight = 700,
         color = "#FFFFFF", subtitleColor = "#E0E0E0",

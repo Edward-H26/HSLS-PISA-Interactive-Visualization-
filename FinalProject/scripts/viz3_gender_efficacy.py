@@ -91,8 +91,8 @@ v3_left_chart = alt.Chart(v3_internet_agg).mark_bar(
 ).add_params(v3_internet_select).properties(
     width = 350, height = 420,
     title = alt.TitleParams(
-        text = "Math Scores by Daily Internet Usage",
-        subtitle = "Click a bar to filter gender gaps by usage level",
+        text = "Mathematics Performance by Daily Internet Usage",
+        subtitle = "Mean scores across usage intensity levels (PISA 2022)",
         fontSize = 15, subtitleFontSize = 11,
         font = "Roboto, sans-serif", anchor = "middle", fontWeight = 700,
         color = "#FFFFFF", subtitleColor = "#E0E0E0",
@@ -109,7 +109,6 @@ v3_right_bars = v3_right_base.mark_bar(strokeWidth = 0.5).encode(
              sort = v3_continent_order,
              axis = alt.Axis(labelFontSize = 10, titleFontSize = 12, labelAngle = -30)),
     y = alt.Y("Gender_Gap:Q", title = "Gender Gap (Male - Female)",
-             scale = alt.Scale(domain = [-175, 75], clamp = True),
              axis = alt.Axis(labelFontSize = 11, titleFontSize = 12, grid = True, gridOpacity = 0.3)),
     xOffset = "Subject:N",
     color = alt.Color("Subject:N", title = "Subject",
@@ -125,8 +124,8 @@ v3_right_bars = v3_right_base.mark_bar(strokeWidth = 0.5).encode(
 ).properties(
     width = 500, height = 420,
     title = alt.TitleParams(
-        text = "Gender Gap in Test Performance by Continent",
-        subtitle = "Positive = Male advantage, Negative = Female advantage",
+        text = "Gender Disparities in Mathematics and Reading Achievement",
+        subtitle = "Score differentials by geographic region (positive = male advantage)",
         fontSize = 15, subtitleFontSize = 11,
         font = "Roboto, sans-serif", anchor = "middle", fontWeight = 700,
         color = "#FFFFFF", subtitleColor = "#E0E0E0",

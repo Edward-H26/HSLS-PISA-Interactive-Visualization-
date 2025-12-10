@@ -81,8 +81,8 @@ v8_left_chart = (
     .add_params(v8_continent_select)
     .properties(
         name="view_1",
-        title={"text": "Average Math Scores by Continent",
-               "subtitle": "Click a continent to filter the chart on right",
+        title={"text": "Mathematics Achievement by Geographic Region",
+               "subtitle": "Mean plausible values across PISA 2022 participating regions",
                "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
         width=350, height=300
     )
@@ -113,8 +113,8 @@ v8_right_chart = (
         ]
     )
     .properties(
-        title={"text": "Math, Science & Reading by Gender",
-               "subtitle": "Showing average across selected region(s)",
+        title={"text": "Academic Performance Across Domains by Gender",
+               "subtitle": "Mathematics, science, and reading achievement comparison",
                "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
         width=300, height=280
     )

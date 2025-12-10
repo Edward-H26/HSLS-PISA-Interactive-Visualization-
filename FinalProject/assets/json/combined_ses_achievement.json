@@ -168135,7 +168135,7 @@
           "type": "quantitative"
         }
       },
-      "height": 200,
+      "height": 240,
       "mark": {
         "cursor": "pointer",
         "type": "circle"
@@ -168144,9 +168144,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click a continent to filter",
+        "subtitle": "Standardized mean scores by geographic region",
         "subtitleColor": "#E0E0E0",
-        "text": "Continent SES vs Math Self-Efficacy (Standardized)"
+        "text": "Socioeconomic Status and Mathematics Self-Efficacy"
       },
       "width": 280
     },
@@ -168181,7 +168181,7 @@
           "type": "quantitative"
         }
       },
-      "height": 200,
+      "height": 240,
       "mark": {
         "opacity": 0.5,
         "type": "area"
@@ -168189,9 +168189,9 @@
       "title": {
         "color": "#FFFFFF",
         "fontSize": 14,
-        "subtitle": "Click continent on left to filter",
+        "subtitle": "Density estimates for selected geographic region",
         "subtitleColor": "#E0E0E0",
-        "text": "STEM Interest by Gender (Selected Continent)"
+        "text": "Distribution of STEM Interest by Gender"
       },
       "transform": [
         {

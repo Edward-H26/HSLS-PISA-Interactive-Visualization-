@@ -99,8 +99,8 @@ v1_left_chart = alt.Chart(v1_income_df).mark_bar(
 ).add_params(v1_edu_selection).properties(
     width = 450, height = 450,
     title = alt.TitleParams(
-        text = "Family Income by Parent Education & Student Expectations",
-        subtitle = "Click on a parent education level to filter the right chart",
+        text = "Association Between Parental Education and Family Income",
+        subtitle = "Stratified by student educational expectations (HSLS:09)",
         fontSize = 16,
         subtitleFontSize = 11,
         font = "Roboto, sans-serif",
@@ -135,8 +135,8 @@ v1_right_chart = alt.Chart(v1_stem_df).transform_filter(v1_edu_selection).mark_b
 ).properties(
     width = 480, height = 450,
     title = alt.TitleParams(
-        text = "STEM Career Expectations by School Location & Gender",
-        subtitle = "Filtered by parent education selection from left chart",
+        text = "STEM Career Expectations at Age 30 by School Locale",
+        subtitle = "Gender differences across urban and rural settings",
         fontSize = 16,
         subtitleFontSize = 11,
         font = "Roboto, sans-serif",

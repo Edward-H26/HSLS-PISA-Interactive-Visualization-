@@ -111,7 +111,7 @@ v6_left_chart = (
     )
     .add_params(v6_continent_select)
     .properties(
-        title={"text": "STEM Interest vs ICT Resources by Continent", "subtitle": "Click continent to filter right plot",
+        title={"text": "Relationship Between ICT Resources and STEM Interest", "subtitle": "Standardized indices by geographic region",
                "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
         width=450, height=400
     )
@@ -136,7 +136,7 @@ v6_right_chart = (
         tooltip=["OECD_Status:N", "ict_behavior:Q", "density:Q"],
     )
     .properties(
-        title={"text": "ICT Behavior Distribution by OECD Status", "subtitle": "Filtered by selected continent",
+        title={"text": "ICT Usage Patterns: OECD vs Non-OECD Countries", "subtitle": "Kernel density estimates of technology engagement",
                "color": "#FFFFFF", "fontSize": 14, "subtitleColor": "#E0E0E0"},
         width=400, height=400
     )
