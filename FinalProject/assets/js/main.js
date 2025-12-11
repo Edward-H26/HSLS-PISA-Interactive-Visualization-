@@ -19,22 +19,24 @@ let lastNavTime = 0;
    SIDEBAR NAVIGATION WITH FILTERING
    ============================================ */
 const tabGroups = {
-  0: [0, 1],           // Overview (intro, conclusion)
-  1: [2, 3, 4],        // Family & Resources
-  2: [5, 6, 7],        // Regional & Economic
-  3: [8, 9, 10]        // Wellbeing & Outcomes
+  0: [0, 1, 2, 3],     // Overview (intro, conclusion, HSLS, PISA)
+  1: [4, 5, 6],        // Family & Resources
+  2: [7, 8, 9],        // Regional & Economic
+  3: [10, 11, 12]      // Wellbeing & Outcomes
 };
 
 const vizLabels = {
-  2: "Family & STEM",
-  3: "Digital & Immigration",
-  4: "Internet & Gender",
-  5: "Regional STEM",
-  6: "SES & Efficacy",
-  7: "Tech & Interest",
-  8: "Anxiety & Belonging",
-  9: "Regional Achievement",
-  10: "Belonging & Outcomes"
+  2: "HSLS:09 Dataset",
+  3: "PISA 2022 Dataset",
+  4: "Family & STEM",
+  5: "Digital & Immigration",
+  6: "Internet & Gender",
+  7: "Regional STEM",
+  8: "SES & Efficacy",
+  9: "Tech & Interest",
+  10: "Anxiety & Belonging",
+  11: "Regional Achievement",
+  12: "Belonging & Outcomes"
 };
 
 let activeTabGroup = 0;
@@ -79,7 +81,7 @@ function filterPanelsByTab(tabId) {
   const navLinkButtons = document.querySelectorAll(".nav-links button");
 
   if (isOverview) {
-    const overviewLabels = ["Introduction", "Conclusion"];
+    const overviewLabels = ["Introduction", "Conclusion", "HSLS:09 Dataset", "PISA 2022 Dataset"];
     let labelIndex = 0;
     navLinkButtons.forEach((btn) => {
       const targetIndex = parseInt(btn.dataset.target);
@@ -110,12 +112,18 @@ function filterPanelsByTab(tabId) {
 
 function syncSidebarWithPanel(panelIndex) {
   const sidebarTabs = document.querySelectorAll(".sidebar-tab");
+  const newTabGroup = getTabGroupForPanel(panelIndex);
 
   for (const [tabId, indices] of Object.entries(tabGroups)) {
     if (indices.includes(panelIndex)) {
       sidebarTabs.forEach(t => {
         t.classList.toggle("active", parseInt(t.dataset.tab) === parseInt(tabId));
       });
+
+      if (activeTabGroup !== newTabGroup) {
+        activeTabGroup = newTabGroup;
+        filterPanelsByTab(newTabGroup);
+      }
       break;
     }
   }
@@ -128,6 +136,41 @@ function getTabGroupForPanel(panelIndex) {
     }
   }
   return 0;
+}
+
+function getNextPanelInGroup(currentIndex, direction) {
+  const groupPanels = tabGroups[activeTabGroup];
+  const currentPos = groupPanels.indexOf(currentIndex);
+
+  if (currentPos === -1) {
+    return groupPanels[0];
+  }
+
+  const nextPos = currentPos + direction;
+
+  if (nextPos >= 0 && nextPos < groupPanels.length) {
+    return groupPanels[nextPos];
+  }
+
+  const tabGroupKeys = Object.keys(tabGroups).map(Number).sort((a, b) => a - b);
+  const currentGroupIndex = tabGroupKeys.indexOf(activeTabGroup);
+
+  if (direction > 0 && nextPos >= groupPanels.length) {
+    const nextGroupIndex = currentGroupIndex + 1;
+    if (nextGroupIndex < tabGroupKeys.length) {
+      const nextGroup = tabGroupKeys[nextGroupIndex];
+      return tabGroups[nextGroup][0];
+    }
+  } else if (direction < 0 && nextPos < 0) {
+    const prevGroupIndex = currentGroupIndex - 1;
+    if (prevGroupIndex >= 0) {
+      const prevGroup = tabGroupKeys[prevGroupIndex];
+      const prevGroupPanels = tabGroups[prevGroup];
+      return prevGroupPanels[prevGroupPanels.length - 1];
+    }
+  }
+
+  return currentIndex;
 }
 
 function initParticles() {
@@ -407,10 +450,10 @@ function initKeyboard() {
 
     if (e.key === "ArrowRight") {
       e.preventDefault();
-      goToPanel(currentIndex + 1);
+      goToPanel(getNextPanelInGroup(currentIndex, 1));
     } else if (e.key === "ArrowLeft") {
       e.preventDefault();
-      goToPanel(currentIndex - 1);
+      goToPanel(getNextPanelInGroup(currentIndex, -1));
     }
   });
 }
@@ -438,7 +481,7 @@ function initScrollHandling() {
         if (now - lastNavTime >= MIN_NAV_GAP) {
           e.preventDefault();
           e.stopPropagation();
-          goToPanel(panelIndex + (deltaY > 0 ? 1 : -1));
+          goToPanel(getNextPanelInGroup(panelIndex, deltaY > 0 ? 1 : -1));
         }
       }
     }, { passive: false });
@@ -452,9 +495,9 @@ function initScrollHandling() {
 
       if (Math.abs(e.deltaX) > SWIPE_THRESHOLD) {
         if (e.deltaX > 0) {
-          goToPanel(currentIndex + 1);
+          goToPanel(getNextPanelInGroup(currentIndex, 1));
         } else {
-          goToPanel(currentIndex - 1);
+          goToPanel(getNextPanelInGroup(currentIndex, -1));
         }
       }
     }
@@ -518,9 +561,9 @@ function initTouch() {
 
     if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > TOUCH_THRESHOLD) {
       if (diffX < 0) {
-        goToPanel(currentIndex + 1);
+        goToPanel(getNextPanelInGroup(currentIndex, 1));
       } else {
-        goToPanel(currentIndex - 1);
+        goToPanel(getNextPanelInGroup(currentIndex, -1));
       }
     }
   }, { passive: true });

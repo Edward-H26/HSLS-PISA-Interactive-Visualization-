@@ -548,7 +548,10 @@ p { margin: 0; color: var(--muted); }
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 18px 32px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: max(32px, calc((100vw - 180px - 1250px) / 2));
+  padding-left: calc(180px + max(32px, calc((100vw - 180px - 1250px) / 2)));
   z-index: 100;
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
