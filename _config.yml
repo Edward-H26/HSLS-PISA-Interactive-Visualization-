@@ -117,6 +117,7 @@ exclude:
   - "*.ipynb"
   - "python_notebooks/*"
   - vendor
+  - codebook
 
 include:
   - projects
