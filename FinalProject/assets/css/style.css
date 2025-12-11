@@ -34,6 +34,63 @@ body {
 h1, h2, h3 { margin: 0; font-weight: 300; }
 p { margin: 0; color: var(--muted); }
 
+.references-list {
+  color: var(--muted);
+  font-weight: 300;
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.references-list li {
+  color: var(--muted);
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+.dataset-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.dataset-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  background: linear-gradient(135deg, rgba(76, 141, 255, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius);
+  color: var(--fg);
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s var(--ease-smooth);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.dataset-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--accent-gradient);
+  opacity: 0;
+  transition: opacity 0.3s var(--ease-smooth);
+}
+
+.dataset-link:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(76, 141, 255, 0.3), 0 0 20px rgba(168, 85, 247, 0.2);
+}
+
+.dataset-link:hover::before {
+  opacity: 0.2;
+}
+
 #bg-container {
   position: fixed;
   inset: 0;

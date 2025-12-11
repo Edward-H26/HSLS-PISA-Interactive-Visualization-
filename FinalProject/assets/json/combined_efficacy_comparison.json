@@ -620,8 +620,8 @@
       "transform": [
         {
           "filter": {
-            "empty": true,
-            "param": "continent_select"
+            "param": "continent_select",
+            "field": "Continent"
           }
         },
         {
