@@ -119,7 +119,7 @@ exclude:
   - vendor
 
 include:
-  - FinalProject
+  - projects
 
 keep_files:
-  - FinalProject
+  - projects

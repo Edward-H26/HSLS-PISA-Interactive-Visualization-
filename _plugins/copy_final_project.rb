@@ -3,8 +3,8 @@
 require "fileutils"
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  src  = File.join(site.source, "FinalProject")
-  dest = File.join(site.dest,   "FinalProject")
+  src  = File.join(site.source, "projects", "FinalProject")
+  dest = File.join(site.dest,   "projects", "FinalProject")
 
   next unless File.directory?(src)
 
