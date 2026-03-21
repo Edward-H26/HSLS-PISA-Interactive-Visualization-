@@ -411,7 +411,8 @@ function initScrollHandling() {
       const atTop = panelInner.scrollTop <= 0;
       const atBottom = panelInner.scrollTop + panelInner.clientHeight >= panelInner.scrollHeight - 1;
       const isVerticalIntent = Math.abs(event.deltaY) > Math.abs(event.deltaX);
-      const shouldAdvance = (event.deltaY > 0 && atBottom) || (event.deltaY < 0 && atTop);
+      const isStrongScroll = Math.abs(event.deltaY) > 15;
+      const shouldAdvance = isStrongScroll && ((event.deltaY > 0 && atBottom) || (event.deltaY < 0 && atTop));
 
       if (isVerticalIntent && shouldAdvance) {
         const now = Date.now();
