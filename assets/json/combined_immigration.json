@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "background": "transparent",
   "config": {
     "background": "#030712",
     "view": {
@@ -17,211 +18,858 @@
       "titleColor": "#FFFFFF"
     },
     "title": {
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "subtitleColor": "#B0B0B0"
     }
   },
   "datasets": {
-    "data-31c60cb125f547e1721638f9b3904bf4": [
+    "data-765912b3531055c9494b8810bd990822": [
       {
-        "Avg_Belonging": -0.24677038439689453,
-        "Count": 15843,
-        "Gender": "Female",
-        "Immigration_Status": "First-gen"
+        "Avg_Performance": 302.9818,
+        "Count": 5,
+        "HOMEPOS_Mid": -9.1145,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Low SES"
       },
       {
-        "Avg_Belonging": -0.09191661289302208,
-        "Count": 15807,
-        "Gender": "Male",
-        "Immigration_Status": "First-gen"
+        "Avg_Performance": 362.9685087719298,
+        "Count": 19,
+        "HOMEPOS_Mid": -7.1674999999999995,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Low SES"
       },
       {
-        "Avg_Belonging": -0.13787167346124596,
-        "Count": 240633,
-        "Gender": "Female",
-        "Immigration_Status": "Native"
+        "Avg_Performance": 322.46913464696223,
+        "Count": 203,
+        "HOMEPOS_Mid": -7.1674999999999995,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Low SES"
       },
       {
-        "Avg_Belonging": 0.002610032506164962,
-        "Count": 231956,
-        "Gender": "Male",
-        "Immigration_Status": "Native"
+        "Avg_Performance": 354.452,
+        "Count": 2,
+        "HOMEPOS_Mid": -7.1674999999999995,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Low SES"
       },
       {
-        "Avg_Belonging": -0.17765702868970273,
-        "Count": 17393,
-        "Gender": "Female",
-        "Immigration_Status": "Second-gen"
+        "Avg_Performance": 331.82346666666666,
+        "Count": 35,
+        "HOMEPOS_Mid": -5.23,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Low SES"
       },
       {
-        "Avg_Belonging": -0.012916965509024842,
-        "Count": 16787,
-        "Gender": "Male",
-        "Immigration_Status": "Second-gen"
+        "Avg_Performance": 325.31718357487927,
+        "Count": 828,
+        "HOMEPOS_Mid": -5.23,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 326.3082,
+        "Count": 10,
+        "HOMEPOS_Mid": -5.23,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 310.05788888888884,
+        "Count": 9,
+        "HOMEPOS_Mid": -5.23,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 254.24966666666668,
+        "Count": 1,
+        "HOMEPOS_Mid": -5.23,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 349.2983026499303,
+        "Count": 478,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 367.29009160305344,
+        "Count": 131,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 374.00666666666666,
+        "Count": 31,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 347.7419916181361,
+        "Count": 22151,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 341.24433193394907,
+        "Count": 2382,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 360.4426225319396,
+        "Count": 287,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 335.22512210012206,
+        "Count": 273,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 356.8800297619047,
+        "Count": 56,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 346.4635757575757,
+        "Count": 11,
+        "HOMEPOS_Mid": -3.2925,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 391.34771003530005,
+        "Count": 1322,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 416.78376724854536,
+        "Count": 2807,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 459.07686315015377,
+        "Count": 4986,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 490.4216767772512,
+        "Count": 1055,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 385.4167777651844,
+        "Count": 52938,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 399.41875424250907,
+        "Count": 53565,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 417.2453400639408,
+        "Count": 31696,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 441.3245447091317,
+        "Count": 3862,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 406.1977502986858,
+        "Count": 1395,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 422.68286472800924,
+        "Count": 2304,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 447.5429887477314,
+        "Count": 2755,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 469.72654115226334,
+        "Count": 486,
+        "HOMEPOS_Mid": -1.355,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 425.99237293729374,
+        "Count": 101,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 454.60311670395225,
+        "Count": 894,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 483.44249599507083,
+        "Count": 2705,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 525.9316152523429,
+        "Count": 7754,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 426.46600218436,
+        "Count": 2289,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 447.13658632414723,
+        "Count": 18724,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 462.20890533893885,
+        "Count": 36393,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 498.08755097437745,
+        "Count": 55420,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 454.7866233062331,
+        "Count": 246,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 473.4768122100122,
+        "Count": 1365,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 485.5018892076013,
+        "Count": 2789,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 522.706979695732,
+        "Count": 5631,
+        "HOMEPOS_Mid": 0.5825,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 350.2093333333333,
+        "Count": 1,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 446.8385729166667,
+        "Count": 32,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 517.1349903780068,
+        "Count": 485,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 522.542111111111,
+        "Count": 3,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_Performance": 419.0404347826087,
+        "Count": 46,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 454.0011789215686,
+        "Count": 544,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 510.2638754233545,
+        "Count": 6791,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 409.44000000000005,
+        "Count": 2,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 454.17151282051276,
+        "Count": 52,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 528.5945625363584,
+        "Count": 573,
+        "HOMEPOS_Mid": 2.52,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 443.00046296296296,
+        "Count": 18,
+        "HOMEPOS_Mid": 4.4575,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 218.80766666666668,
+        "Count": 1,
+        "HOMEPOS_Mid": 4.4575,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_Performance": 270.5995,
+        "Count": 2,
+        "HOMEPOS_Mid": 4.4575,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_Performance": 410.4293226666666,
+        "Count": 125,
+        "HOMEPOS_Mid": 4.4575,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 442.0103636363636,
+        "Count": 11,
+        "HOMEPOS_Mid": 4.4575,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 311.91900000000004,
+        "Count": 3,
+        "HOMEPOS_Mid": 6.395,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 380.47762222222224,
+        "Count": 15,
+        "HOMEPOS_Mid": 6.395,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 513.539,
+        "Count": 1,
+        "HOMEPOS_Mid": 6.395,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 321.90112121212127,
+        "Count": 11,
+        "HOMEPOS_Mid": 8.333,
+        "Immigration_Status": "First-gen",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 342.34907142857145,
+        "Count": 42,
+        "HOMEPOS_Mid": 8.333,
+        "Immigration_Status": "Native",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_Performance": 319.7078333333334,
+        "Count": 2,
+        "HOMEPOS_Mid": 8.333,
+        "Immigration_Status": "Second-gen",
+        "SES_Quartile": "High SES"
       }
     ],
-    "data-ec12d4d78423f04ba3efe17978e5053f": [
+    "data-7c5cfa0d264316159651139cea419372": [
       {
-        "Avg_Score": 468.84708489731435,
-        "Count": 31650,
-        "Domain": "Math",
-        "Immigration_Status": "First-gen"
+        "Avg_ICTRES": -1.8105936978683967,
+        "Count": 9711,
+        "Parent_Education": "Bachelor's",
+        "SES_Quartile": "Low SES"
       },
       {
-        "Avg_Score": 444.3453685062496,
-        "Count": 472589,
-        "Domain": "Math",
-        "Immigration_Status": "Native"
+        "Avg_ICTRES": -0.474681964963268,
+        "Count": 12387,
+        "Parent_Education": "Bachelor's",
+        "SES_Quartile": "Lower-Mid SES"
       },
       {
-        "Avg_Score": 472.1754016968988,
-        "Count": 34180,
-        "Domain": "Math",
-        "Immigration_Status": "Second-gen"
+        "Avg_ICTRES": 0.36556565004452357,
+        "Count": 4492,
+        "Parent_Education": "Bachelor's",
+        "SES_Quartile": "Upper-Mid SES"
       },
       {
-        "Avg_Score": 462.5652289415482,
-        "Count": 31650,
-        "Domain": "Reading",
-        "Immigration_Status": "First-gen"
+        "Avg_ICTRES": 1.5484537549407116,
+        "Count": 253,
+        "Parent_Education": "Bachelor's",
+        "SES_Quartile": "High SES"
       },
       {
-        "Avg_Score": 443.18344928256903,
-        "Count": 472589,
-        "Domain": "Reading",
-        "Immigration_Status": "Native"
+        "Avg_ICTRES": -2.7858814285714284,
+        "Count": 700,
+        "Parent_Education": "Doctoral",
+        "SES_Quartile": "Low SES"
       },
       {
-        "Avg_Score": 468.1432813926272,
-        "Count": 34180,
-        "Domain": "Reading",
-        "Immigration_Status": "Second-gen"
+        "Avg_ICTRES": -1.1925505670158765,
+        "Count": 9259,
+        "Parent_Education": "Doctoral",
+        "SES_Quartile": "Lower-Mid SES"
       },
       {
-        "Avg_Score": 474.8280926382306,
-        "Count": 31650,
-        "Domain": "Science",
-        "Immigration_Status": "First-gen"
+        "Avg_ICTRES": -0.3898533601647323,
+        "Count": 21368,
+        "Parent_Education": "Doctoral",
+        "SES_Quartile": "Upper-Mid SES"
       },
       {
-        "Avg_Score": 455.06683486496723,
-        "Count": 472589,
-        "Domain": "Science",
-        "Immigration_Status": "Native"
+        "Avg_ICTRES": 0.5357750053334471,
+        "Count": 23437,
+        "Parent_Education": "Doctoral",
+        "SES_Quartile": "High SES"
       },
       {
-        "Avg_Score": 476.61808306026916,
-        "Count": 34180,
-        "Domain": "Science",
-        "Immigration_Status": "Second-gen"
+        "Avg_ICTRES": -1.9001251217285455,
+        "Count": 13144,
+        "Parent_Education": "Lower Secondary",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_ICTRES": 0.41655444444444445,
+        "Count": 180,
+        "Parent_Education": "Lower Secondary",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 2.49755,
+        "Count": 4,
+        "Parent_Education": "Lower Secondary",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_ICTRES": -2.3155698928447976,
+        "Count": 2893,
+        "Parent_Education": "Master's",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_ICTRES": -0.9091846376811594,
+        "Count": 15525,
+        "Parent_Education": "Master's",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_ICTRES": -0.0677413496856129,
+        "Count": 16063,
+        "Parent_Education": "Master's",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 0.8468354734111544,
+        "Count": 4626,
+        "Parent_Education": "Master's",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_ICTRES": -1.728607235446618,
+        "Count": 4243,
+        "Parent_Education": "Post-Secondary",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_ICTRES": -0.3558277138303524,
+        "Count": 5647,
+        "Parent_Education": "Post-Secondary",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 0.4649449452672247,
+        "Count": 1553,
+        "Parent_Education": "Post-Secondary",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 1.5683663043478262,
+        "Count": 92,
+        "Parent_Education": "Post-Secondary",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_ICTRES": -2.128866804835924,
+        "Count": 5790,
+        "Parent_Education": "Primary",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_ICTRES": 1.594811111111111,
+        "Count": 9,
+        "Parent_Education": "Primary",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_ICTRES": -1.8417241775508202,
+        "Count": 20366,
+        "Parent_Education": "Short-Cycle Tertiary",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_ICTRES": -0.51581815455594,
+        "Count": 21675,
+        "Parent_Education": "Short-Cycle Tertiary",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 0.39661230498238553,
+        "Count": 7948,
+        "Parent_Education": "Short-Cycle Tertiary",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 1.5270980966325036,
+        "Count": 683,
+        "Parent_Education": "Short-Cycle Tertiary",
+        "SES_Quartile": "High SES"
+      },
+      {
+        "Avg_ICTRES": -1.5910976690755672,
+        "Count": 23939,
+        "Parent_Education": "Upper Secondary",
+        "SES_Quartile": "Low SES"
+      },
+      {
+        "Avg_ICTRES": -0.07391196627685613,
+        "Count": 3677,
+        "Parent_Education": "Upper Secondary",
+        "SES_Quartile": "Lower-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 1.024585763888889,
+        "Count": 288,
+        "Parent_Education": "Upper Secondary",
+        "SES_Quartile": "Upper-Mid SES"
+      },
+      {
+        "Avg_ICTRES": 3.71215,
+        "Count": 8,
+        "Parent_Education": "Upper Secondary",
+        "SES_Quartile": "High SES"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-31c60cb125f547e1721638f9b3904bf4"
+        "name": "data-7c5cfa0d264316159651139cea419372"
       },
-      "encoding": {
-        "color": {
-          "field": "Gender",
-          "legend": {
-            "orient": "top"
+      "height": 480,
+      "layer": [
+        {
+          "encoding": {
+            "color": {
+              "field": "SES_Quartile",
+              "legend": {
+                "columns": 4,
+                "direction": "horizontal",
+                "labelFontSize": 10,
+                "orient": "top",
+                "titleFontSize": 11
+              },
+              "scale": {
+                "domain": [
+                  "Low SES",
+                  "Lower-Mid SES",
+                  "Upper-Mid SES",
+                  "High SES"
+                ],
+                "range": [
+                  "#C8E6C9",
+                  "#81C784",
+                  "#4CAF50",
+                  "#1B5E20"
+                ]
+              },
+              "title": "SES Quartile",
+              "type": "nominal"
+            },
+            "opacity": {
+              "condition": {
+                "param": "ses_select",
+                "value": 1
+              },
+              "value": 0.3
+            },
+            "x": {
+              "axis": {
+                "labelAngle": -45,
+                "labelFontSize": 10,
+                "labelLimit": 100,
+                "titleFontSize": 12
+              },
+              "field": "Parent_Education",
+              "sort": [
+                "None",
+                "Primary",
+                "Lower Secondary",
+                "Upper Secondary",
+                "Post-Secondary",
+                "Short-Cycle Tertiary",
+                "Bachelor's",
+                "Master's",
+                "Doctoral"
+              ],
+              "title": "Parent Education Level",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "grid": true,
+                "gridOpacity": 0.3,
+                "labelFontSize": 11,
+                "titleFontSize": 12
+              },
+              "field": "Avg_ICTRES",
+              "scale": {
+                "domain": [
+                  -3,
+                  4
+                ]
+              },
+              "title": "ICT Resources Index",
+              "type": "quantitative"
+            }
           },
-          "scale": {
-            "domain": [
-              "Female",
-              "Male"
+          "mark": {
+            "strokeWidth": 2.5,
+            "type": "line"
+          },
+          "name": "view_1"
+        },
+        {
+          "encoding": {
+            "color": {
+              "field": "SES_Quartile",
+              "legend": {
+                "columns": 4,
+                "direction": "horizontal",
+                "labelFontSize": 10,
+                "orient": "top",
+                "titleFontSize": 11
+              },
+              "scale": {
+                "domain": [
+                  "Low SES",
+                  "Lower-Mid SES",
+                  "Upper-Mid SES",
+                  "High SES"
+                ],
+                "range": [
+                  "#C8E6C9",
+                  "#81C784",
+                  "#4CAF50",
+                  "#1B5E20"
+                ]
+              },
+              "title": "SES Quartile",
+              "type": "nominal"
+            },
+            "opacity": {
+              "condition": {
+                "param": "ses_select",
+                "value": 1
+              },
+              "value": 0.3
+            },
+            "size": {
+              "value": 110
+            },
+            "tooltip": [
+              {
+                "field": "Parent_Education",
+                "title": "Parent Education",
+                "type": "nominal"
+              },
+              {
+                "field": "SES_Quartile",
+                "title": "SES Quartile",
+                "type": "nominal"
+              },
+              {
+                "field": "Avg_ICTRES",
+                "format": ".2f",
+                "title": "ICT Resources",
+                "type": "quantitative"
+              },
+              {
+                "field": "Count",
+                "format": ",d",
+                "title": "Sample Size",
+                "type": "quantitative"
+              }
             ],
-            "range": [
-              "#E91E63",
-              "#1976D2"
-            ]
+            "x": {
+              "axis": {
+                "labelAngle": -45,
+                "labelFontSize": 10,
+                "labelLimit": 100,
+                "titleFontSize": 12
+              },
+              "field": "Parent_Education",
+              "sort": [
+                "None",
+                "Primary",
+                "Lower Secondary",
+                "Upper Secondary",
+                "Post-Secondary",
+                "Short-Cycle Tertiary",
+                "Bachelor's",
+                "Master's",
+                "Doctoral"
+              ],
+              "title": "Parent Education Level",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "grid": true,
+                "gridOpacity": 0.3,
+                "labelFontSize": 11,
+                "titleFontSize": 12
+              },
+              "field": "Avg_ICTRES",
+              "scale": {
+                "domain": [
+                  -3,
+                  4
+                ]
+              },
+              "title": "ICT Resources Index",
+              "type": "quantitative"
+            }
           },
-          "title": "Gender",
-          "type": "nominal"
-        },
-        "opacity": {
-          "condition": {
-            "param": "immig_select",
-            "value": 1
-          },
-          "value": 0.4
-        },
-        "tooltip": [
-          {
-            "field": "Immigration_Status",
-            "type": "nominal"
-          },
-          {
-            "field": "Gender",
-            "type": "nominal"
-          },
-          {
-            "field": "Avg_Belonging",
-            "format": ".2f",
-            "title": "Avg Belonging",
-            "type": "quantitative"
-          },
-          {
-            "field": "Count",
-            "format": ",d",
-            "title": "Students",
-            "type": "quantitative"
+          "mark": {
+            "cursor": "pointer",
+            "filled": true,
+            "stroke": "#FFFFFF",
+            "strokeWidth": 1,
+            "type": "point"
           }
-        ],
-        "x": {
-          "axis": {
-            "labelAngle": 0,
-            "labelFontSize": 11
-          },
-          "field": "Immigration_Status",
-          "sort": [
-            "Native",
-            "Second-gen",
-            "First-gen"
-          ],
-          "title": "Immigration Status",
-          "type": "nominal"
-        },
-        "xOffset": {
-          "field": "Gender",
-          "sort": [
-            "Female",
-            "Male"
-          ],
-          "type": "nominal"
-        },
-        "y": {
-          "field": "Avg_Belonging",
-          "title": "Average School Belonging Score",
-          "type": "quantitative"
         }
-      },
-      "height": 400,
-      "mark": {
-        "cornerRadius": 4,
-        "cursor": "pointer",
-        "type": "bar"
-      },
-      "name": "view_1",
+      ],
       "title": {
+        "anchor": "middle",
         "color": "#FFFFFF",
-        "fontSize": 14,
-        "subtitle": "Click to see performance by domain",
+        "font": "Roboto, sans-serif",
+        "fontSize": 15,
+        "fontWeight": 700,
+        "offset": 10,
+        "subtitle": "Disaggregated by socioeconomic status quartile (PISA 2022)",
         "subtitleColor": "#E0E0E0",
-        "text": "School Belonging by Immigration Status"
+        "subtitleFontSize": 11,
+        "subtitlePadding": 4,
+        "text": "ICT Resource Access by Parental Education Level"
       },
-      "width": 380
+      "width": 530
     },
     {
       "data": {
-        "name": "data-ec12d4d78423f04ba3efe17978e5053f"
+        "name": "data-765912b3531055c9494b8810bd990822"
       },
       "encoding": {
         "color": {
           "field": "Immigration_Status",
           "legend": {
-            "orient": "top"
+            "columns": 3,
+            "direction": "horizontal",
+            "labelFontSize": 10,
+            "orient": "top",
+            "titleFontSize": 11
           },
           "scale": {
             "domain": [
@@ -230,7 +878,7 @@
               "First-gen"
             ],
             "range": [
-              "#4CAF50",
+              "#1E88E5",
               "#FF9800",
               "#9C27B0"
             ]
@@ -238,87 +886,109 @@
           "title": "Immigration Status",
           "type": "nominal"
         },
-        "opacity": {
-          "condition": {
-            "param": "immig_select",
-            "value": 1
+        "size": {
+          "aggregate": "sum",
+          "field": "Count",
+          "legend": null,
+          "scale": {
+            "range": [
+              100,
+              800
+            ]
           },
-          "value": 0.3
+          "title": "Sample Size",
+          "type": "quantitative"
         },
         "tooltip": [
           {
+            "field": "HOMEPOS_Mid",
+            "format": ".2f",
+            "title": "Home Possessions",
+            "type": "quantitative"
+          },
+          {
             "field": "Immigration_Status",
-            "title": "Status",
+            "title": "Immigration Status",
             "type": "nominal"
           },
           {
-            "field": "Domain",
-            "title": "Domain",
-            "type": "nominal"
-          },
-          {
-            "field": "Avg_Score",
+            "aggregate": "mean",
+            "field": "Avg_Performance",
             "format": ".1f",
-            "title": "Avg Score",
+            "title": "Avg Performance",
+            "type": "quantitative"
+          },
+          {
+            "aggregate": "sum",
+            "field": "Count",
+            "format": ",d",
+            "title": "Sample Size",
             "type": "quantitative"
           }
         ],
         "x": {
           "axis": {
-            "labelAngle": 0,
-            "labelFontSize": 11
+            "labelFontSize": 11,
+            "titleFontSize": 12
           },
-          "field": "Domain",
-          "sort": [
-            "Math",
-            "Reading",
-            "Science"
-          ],
-          "title": null,
-          "type": "nominal"
-        },
-        "xOffset": {
-          "field": "Immigration_Status",
-          "sort": [
-            "Native",
-            "Second-gen",
-            "First-gen"
-          ],
-          "type": "nominal"
+          "field": "HOMEPOS_Mid",
+          "title": "Home Possessions Index",
+          "type": "quantitative"
         },
         "y": {
-          "field": "Avg_Score",
+          "aggregate": "mean",
+          "axis": {
+            "grid": true,
+            "gridOpacity": 0.3,
+            "labelFontSize": 11,
+            "titleFontSize": 12
+          },
+          "field": "Avg_Performance",
           "scale": {
             "domain": [
-              400,
-              520
+              200,
+              550
             ]
           },
-          "title": "Average Score",
+          "title": "Average Academic Performance",
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 480,
       "mark": {
-        "cornerRadius": 4,
-        "type": "bar"
+        "stroke": "#0f172a",
+        "strokeWidth": 0.8,
+        "type": "circle"
       },
       "title": {
+        "anchor": "middle",
         "color": "#FFFFFF",
-        "fontSize": 14,
-        "subtitle": "Filtered by immigration status selection",
+        "font": "Roboto, sans-serif",
+        "fontSize": 15,
+        "fontWeight": 700,
+        "offset": 10,
+        "subtitle": "Comparing native and immigrant student populations",
         "subtitleColor": "#E0E0E0",
-        "text": "Performance by Domain & Immigration Status"
+        "subtitleFontSize": 11,
+        "subtitlePadding": 4,
+        "text": "Academic Achievement by Home Possessions Index"
       },
-      "width": 400
+      "transform": [
+        {
+          "filter": {
+            "param": "ses_select"
+          }
+        }
+      ],
+      "width": 530
     }
   ],
   "params": [
     {
-      "name": "immig_select",
+      "name": "ses_select",
       "select": {
         "fields": [
-          "Immigration_Status"
+          "SES_Quartile"
         ],
         "type": "point"
       },
@@ -329,7 +999,8 @@
   ],
   "resolve": {
     "scale": {
-      "color": "independent"
+      "color": "independent",
+      "size": "independent"
     }
   }
 }

@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "background": "transparent",
   "config": {
     "background": "#030712",
     "view": {
@@ -17,7 +18,8 @@
       "titleColor": "#FFFFFF"
     },
     "title": {
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "subtitleColor": "#B0B0B0"
     }
   },
   "datasets": {
@@ -693,7 +695,7 @@
         "strokeWidth": 0.8,
         "type": "bar"
       },
-      "name": "view_2",
+      "name": "view_1",
       "title": {
         "anchor": "middle",
         "color": "#FFFFFF",
@@ -701,11 +703,11 @@
         "fontSize": 16,
         "fontWeight": 700,
         "offset": 10,
-        "subtitle": "Click on a parent education level to filter the right chart",
+        "subtitle": "Stratified by student educational expectations (HSLS:09)",
         "subtitleColor": "#E0E0E0",
         "subtitleFontSize": 11,
         "subtitlePadding": 4,
-        "text": "Family Income by Parent Education & Student Expectations"
+        "text": "Association Between Parental Education and Family Income"
       },
       "width": 450
     },
@@ -831,11 +833,11 @@
         "fontSize": 16,
         "fontWeight": 700,
         "offset": 10,
-        "subtitle": "Filtered by parent education selection from left chart",
+        "subtitle": "Gender differences across urban and rural settings",
         "subtitleColor": "#E0E0E0",
         "subtitleFontSize": 11,
         "subtitlePadding": 4,
-        "text": "STEM Career Expectations by School Location & Gender"
+        "text": "STEM Career Expectations at Age 30 by School Locale"
       },
       "transform": [
         {
@@ -857,7 +859,7 @@
         "type": "point"
       },
       "views": [
-        "view_2"
+        "view_1"
       ]
     }
   ],

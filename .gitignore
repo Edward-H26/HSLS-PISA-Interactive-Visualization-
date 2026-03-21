@@ -1,35 +1,27 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
 *~
 
-# Jupyter Notebook
 .ipynb_checkpoints
-myenv_new
-myenv
+myenv/
+myenv_new/
 
-# macOS
 .DS_Store
+**/.DS_Store
 
-# Jekyll generated site
 _site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+projects/
 
-# Large datasets
+scripts/__pycache__/
+
 data/*.csv
 !data/hsls_subset.csv
 !data/pisa_subset.csv
 
-# Bundler
 /vendor/
 /.bundle/
 
-# VS Code
 .vscode/

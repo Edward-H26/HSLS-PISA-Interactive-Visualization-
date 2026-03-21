@@ -1,97 +1,83 @@
-# Online CV Templete for IS445
+# HSLS-PISA Interactive Visualization
 
-This is a resource for [IS445 as of Fall 2022](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/).  It is a way to host an online CV with interactive visualizations.  See the course page for more materials.
+An interactive data visualization showcase analyzing educational datasets from the High School Longitudinal Study of 2009 (HSLS:09) and the Programme for International Student Assessment (PISA 2022). The project ships 9 linked Vega-Lite visualizations across 13 panels, responsive navigation, and a glassmorphism-inspired presentation layer.
 
-# How to use this repo
+## Quick Start
 
-## Download & install
+Serve locally with any static file server:
 
- 1. clone this repo or download the contents
- 1. make sure you have Ruby *properly* installed (see [the course's install instructions](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/week09/installation_instructions_week11.html) for this process)
- 1. Install using `bundle install` (see [the course's install instructions](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/week09/installation_instructions_week11.html))
- 1. Host locally with `bundle exec jekyll serve` or `bundle exec jekyll serve -l` (live reload)
- 1. Modify files as needed (see sections below)
+```bash
+python3 -m http.server 4008
+```
 
-## General configurations
+Then open http://127.0.0.1:4008/ in your browser.
 
-Edit info in: _config.yml
+## Directory Structure
 
-Some things you should be sure to check
- 1. The "how to use this document" info at the top
- 1. title, description, repository -- basic title and linking info
- 1. baseurl -- in case you want to have it be a sub-page of your main github.io page
- 1. exclude -- this section at the end of the config file, add at will in case you have other things stored in your github.io repo
+```
+├── index.html              Main showcase (13 panels, 9 visualizations)
+├── 404.html                Error page
+├── icon.svg                Site icon
+├── .nojekyll               GitHub Pages static serving flag
+│
+├── assets/
+│   ├── css/style.css       Glassmorphism styling and animations
+│   ├── js/main.js          Navigation, particles, Vega-Embed loading
+│   └── json/               9 Vega-Lite chart specifications
+│
+├── scripts/                Python visualization generators
+│   ├── config.py           Shared config (dark theme, country maps)
+│   └── viz1-viz9_*.py      Individual chart generators (Altair → JSON)
+│
+├── data/                   Source datasets
+│   ├── hsls_subset.csv     HSLS:09 processed data
+│   ├── pisa_subset.csv     PISA 2022 processed data
+│   ├── data_subset.py      HSLS subset generator
+│   └── data_subset_PISA.py PISA subset generator
+│
+├── src/
+│   └── data_loader.py      Data loading and processing utility
+│
+├── config/
+│   ├── dataset.ini         HSLS dataset field mappings
+│   └── data_process.ini    Data transformation rules
+│
+├── codebook/               Dataset reference documentation
+└── python_notebooks/       Maintained HSLS/PISA analysis notebook
+```
 
-## About page
+## Visualizations
 
-Edit info in:
- 1. pages/about.md for your general introduction
- 1. _data/programming-skills.yml to update your your programming skills list
- 1. _data/other-skills.yml to update other skills
- 1. timeline.yml to update the timeline of your CV
- 
-## Projects
+The showcase contains 9 interactive Vega-Lite visualizations organized into 4 sections:
 
-Add project files in: 
- * `_projects` to add page files
- * `pages/projects.html` under `remote_projects` for links to your github projects.  Note: this will ONLY link to your repos and you must specify the end of your repo URL (see example)
+| Section | Visualizations |
+|---------|---------------|
+| Overview | Introduction, Conclusion, HSLS:09 Dataset, PISA 2022 Dataset |
+| Family and Resources | Parental Education and STEM, Digital Resources and Immigration, Internet Usage and Gender |
+| Regional and Economic | Regional STEM Enrollment, SES and Efficacy, Technology and STEM Interest |
+| Wellbeing and Outcomes | Math Anxiety and Belonging, Regional Achievement, School Belonging and Immigration |
 
-You can link both project pages and github repositories.  Github repos will autopopulate, pages allow you to provide more details.
+## Regenerating Visualizations
 
-By default, the project pages go first, but you can modify this if you want any github repos to show up first.
+The Python scripts in `scripts/` generate the Vega-Lite JSON specifications from the source data:
 
-Project pages can be added by adding markdown files in the `_projects` folder.
+```bash
+pip install altair pandas vega_datasets
+cd scripts
+python viz1_parental_education_income_stem.py
+```
 
-Project layouts can be modified in `_includes/projects`.
+Each script reads from `data/hsls_subset.csv` or `data/pisa_subset.csv` and writes its output to `assets/json/`.
 
-See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
+## Data Sources
 
-## Python notebooks
+- **HSLS:09**: High School Longitudinal Study of 2009, National Center for Education Statistics
+- **PISA 2022**: Programme for International Student Assessment, OECD
 
-Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `python_notebooks` folder.  In theory you can do fancy local linking with it, but it hasn't been implemented yet.
+## Navigation
 
-## Altair-saved chart json's
-
-By default these are saved in `assets/json/` and static images are saved in `assets/pngs/`.  See the example 
-
-
-## Blog Posts
-
-All blog posts will be posted by most recent time stamp -- please see the example for a properly formatted file name.
-
-Add blog posts in:
- * `_posts` (see example)
-
-You can see further examples in the `_example_posts` directory.
-
-
-## Sources
-
-This is an amalgamation of [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) and [4dcu.be](https://github.com/4dcu-be/4dcu.be).
-
-[portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) was used for:
- * overall style, taking off a few elements -- Blog, About, Projects all are included here
- * also progress bars for skills are modified to contain words, not percentages
- 
-[4dcu.be](https://github.com/4dcu-be/4dcu.be)
- * vega-lite additions -- found in the `_plugins` folder and the vega-added things in `assets/js`
-
-
-# ------------- Old ramblings below -------------
-
-# Info for how this was created
-
-1. Start by searching for Jeykll themes: https://github.com/topics/jekyll-theme
-2. pick the following: https://github.com/YoussefRaafatNasry/portfolYOU
-3. clone and follow the "Installation" instructions here: https://youssefraafatnasry.github.io/portfolYOU/docs/
-4. Added port
-5. remove Gemfile.lock if needed
-trying to install with: bundle install --path ~/.gem
-5. `bundle install` in directory 
-
-
-bundle exec jekyll serve --> without the l for live reload if something else is running?
-
-NOTE!!! it is quite likely that you have to serve the site locally and/or delete _site before pushing for your changes to go live.  I AM NOT SURE.  Have to re-start after you do a change to the config.yml file
-
-
+- **Responsive layout**: The site adapts across desktop, tablet, and mobile widths
+- **Sidebar**: Click tabs to switch between visualization sections
+- **Keyboard**: Arrow keys to navigate between panels
+- **Mouse wheel**: Scroll vertically within panels, horizontally at edges
+- **Touch**: Swipe left/right to navigate between panels
