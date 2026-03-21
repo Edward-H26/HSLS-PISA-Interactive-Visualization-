@@ -60,6 +60,8 @@ let lastNavTime = 0;
 let touchStartX = 0;
 let touchStartY = 0;
 let resizeTimeout = null;
+let navVisibilityScheduled = false;
+let scrollRafScheduled = false;
 
 function parseIndex(value) {
   const parsed = Number.parseInt(value, 10);
@@ -439,7 +441,13 @@ function initScrollHandling() {
   }, { passive: false });
 
   scrollContainer?.addEventListener("scroll", () => {
-    requestAnimationFrame(handleScroll);
+    if (!scrollRafScheduled) {
+      scrollRafScheduled = true;
+      requestAnimationFrame(() => {
+        scrollRafScheduled = false;
+        handleScroll();
+      });
+    }
   });
 }
 
@@ -613,9 +621,20 @@ function initParticles() {
   }
 }
 
+function scheduleNavbarCheck() {
+  if (navVisibilityScheduled) {
+    return;
+  }
+  navVisibilityScheduled = true;
+  requestAnimationFrame(() => {
+    navVisibilityScheduled = false;
+    checkNavbarVisibility();
+  });
+}
+
 function initNavbarVisibility() {
   panelInners.forEach((panelInner) => {
-    panelInner.addEventListener("scroll", checkNavbarVisibility);
+    panelInner.addEventListener("scroll", scheduleNavbarCheck);
   });
 
   checkNavbarVisibility();
