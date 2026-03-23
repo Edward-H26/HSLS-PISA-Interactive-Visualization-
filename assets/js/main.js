@@ -62,6 +62,7 @@ let touchStartY = 0;
 let resizeTimeout = null;
 let navVisibilityScheduled = false;
 let scrollRafScheduled = false;
+const panelScrollState = new Map();
 
 function parseIndex(value) {
   const parsed = Number.parseInt(value, 10);
@@ -212,8 +213,16 @@ function checkNavbarVisibility() {
   const currentPanel = panels[currentIndex];
   const currentPanelInner = currentPanel?.querySelector(".panel-inner");
   const maxScroll = currentPanelInner ? currentPanelInner.scrollHeight - currentPanelInner.clientHeight : 0;
-  const isAtTop = !currentPanelInner || currentPanelInner.scrollTop < 48;
-  const isAtBottom = Boolean(currentPanelInner && maxScroll > 0 && currentPanelInner.scrollTop >= maxScroll - 48);
+  const scrollTop = currentPanelInner ? currentPanelInner.scrollTop : 0;
+  const isAtTop = !currentPanelInner || scrollTop < 48;
+  const isAtBottom = Boolean(currentPanelInner && maxScroll > 0 && scrollTop >= maxScroll - 48);
+
+  if (currentPanelInner) {
+    panelScrollState.set(currentPanelInner, {
+      atTop: scrollTop <= 0,
+      atBottom: scrollTop + currentPanelInner.clientHeight >= currentPanelInner.scrollHeight - 1,
+    });
+  }
 
   showTopNav(isAtTop);
 
@@ -404,11 +413,14 @@ function initScrollHandling() {
         return;
       }
 
-      const atTop = panelInner.scrollTop <= 0;
-      const atBottom = panelInner.scrollTop + panelInner.clientHeight >= panelInner.scrollHeight - 1;
+      const state = panelScrollState.get(panelInner);
+      if (!state) {
+        return;
+      }
+
       const isVerticalIntent = Math.abs(event.deltaY) > Math.abs(event.deltaX);
       const isStrongScroll = Math.abs(event.deltaY) > 15;
-      const shouldAdvance = isStrongScroll && ((event.deltaY > 0 && atBottom) || (event.deltaY < 0 && atTop));
+      const shouldAdvance = isStrongScroll && ((event.deltaY > 0 && state.atBottom) || (event.deltaY < 0 && state.atTop));
 
       if (isVerticalIntent && shouldAdvance) {
         const now = Date.now();
@@ -449,7 +461,7 @@ function initTouch() {
   document.addEventListener("touchstart", (event) => {
     touchStartX = event.touches[0].clientX;
     touchStartY = event.touches[0].clientY;
-  }, { passive: false });
+  }, { passive: true });
 
   document.addEventListener("touchmove", (event) => {
     const currentX = event.touches[0].clientX;
