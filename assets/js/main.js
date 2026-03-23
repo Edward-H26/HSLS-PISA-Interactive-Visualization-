@@ -393,12 +393,6 @@ function initKeyboard() {
 }
 
 function initScrollHandling() {
-  document.addEventListener("wheel", (event) => {
-    if (Math.abs(event.deltaX) > Math.abs(event.deltaY) && Math.abs(event.deltaX) > 5) {
-      event.preventDefault();
-    }
-  }, { passive: false });
-
   panels.forEach((panel, panelIndex) => {
     const panelInner = panel.querySelector(".panel-inner");
     if (!panelInner) {
