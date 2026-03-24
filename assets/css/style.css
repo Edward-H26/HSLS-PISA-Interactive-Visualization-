@@ -61,17 +61,16 @@ p { margin: 0; color: var(--muted); }
   align-items: center;
   gap: 0.5rem;
   padding: 0.875rem 1.5rem;
-  background: linear-gradient(135deg, rgba(76, 141, 255, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(135deg, rgba(76, 141, 255, 0.2) 0%, rgba(168, 85, 247, 0.2) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: var(--radius);
   color: var(--fg);
   font-weight: 500;
   font-size: 0.9rem;
   text-decoration: none;
-  transition: transform 0.3s var(--ease-smooth), border-color 0.3s var(--ease-smooth), box-shadow 0.3s var(--ease-smooth);
+  transition: transform 0.3s var(--ease-smooth), border-color 0.3s var(--ease-smooth);
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(10px);
 }
 
 .dataset-link::before {
@@ -133,7 +132,7 @@ p { margin: 0; color: var(--muted); }
   pointer-events: none;
   overflow: visible;
   z-index: 1;
-  contain: layout style;
+  contain: layout style paint;
 }
 
 .floating-object {
@@ -293,8 +292,8 @@ p { margin: 0; color: var(--muted); }
 }
 
 @keyframes float-tilt-3 {
-  0%, 100% { transform: translate(0, 0) rotate(-25deg) scale(1); }
-  50% { transform: translate(-25px, -45px) rotate(25deg) scale(1.05); }
+  0%, 100% { transform: translate(0, 0) rotate(-25deg); }
+  50% { transform: translate(-25px, -45px) rotate(25deg); }
 }
 
 @keyframes float-tilt-4 {
@@ -350,9 +349,7 @@ body.scroll-active .bg-grid {
   min-height: var(--top-nav-height);
   padding: 16px clamp(16px, 3vw, 32px);
   z-index: 100;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  background: linear-gradient(180deg, rgba(3, 7, 18, 0.95) 0%, rgba(3, 7, 18, 0.72) 100%);
+  background: linear-gradient(180deg, rgba(3, 7, 18, 0.98) 0%, rgba(3, 7, 18, 0.86) 100%);
   border-bottom: 1px solid var(--glass-border);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
   transform: translateY(-100%);
@@ -459,7 +456,7 @@ body.scroll-active .bg-grid {
   text-align: center;
   padding: 10px 16px;
   border-radius: 999px;
-  transition: all 0.25s var(--ease-smooth);
+  transition: color 0.25s var(--ease-smooth), background 0.25s var(--ease-smooth), border-color 0.25s var(--ease-smooth);
 }
 
 .nav-links button:hover {
@@ -534,14 +531,10 @@ body.scroll-active .bg-grid {
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 32px clamp(16px, 4vw, 40px) 72px;
+  padding: calc(var(--top-nav-height) + 16px) clamp(16px, 4vw, 40px) 72px;
   scroll-behavior: auto;
   -webkit-overflow-scrolling: touch;
   touch-action: pan-y;
-}
-
-body.nav-visible .panel-inner {
-  padding-top: calc(var(--top-nav-height) + 16px);
 }
 
 .panel-inner::-webkit-scrollbar {
@@ -617,7 +610,7 @@ body.nav-visible .panel-inner {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: border-color 0.3s var(--ease-smooth), box-shadow 0.3s var(--ease-smooth);
+  transition: border-color 0.3s var(--ease-smooth);
 }
 
 .viz-card:hover .viz-chart-container {
@@ -706,10 +699,9 @@ body.nav-visible .panel-inner {
   align-items: center;
   gap: 9px;
   padding: 10px 18px;
-  background: var(--liquid-bg);
-  border: 1px solid var(--liquid-border);
+  background: rgba(8, 12, 28, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 999px;
-  backdrop-filter: blur(10px);
   color: var(--muted);
   font-size: 0.92rem;
   font-weight: 500;
@@ -768,10 +760,9 @@ body.nav-visible .panel-inner {
   display: flex;
   gap: 10px;
   padding: 10px 18px;
-  background: var(--liquid-bg);
-  border: 1px solid var(--liquid-border);
+  background: rgba(8, 12, 28, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 999px;
-  backdrop-filter: blur(10px);
 }
 
 .progress-dot {
@@ -780,7 +771,7 @@ body.nav-visible .panel-inner {
   border: 1px solid var(--glass-border);
   border-radius: 50%;
   background: var(--glass-bg);
-  transition: all 0.3s var(--ease-smooth);
+  transition: background 0.3s var(--ease-smooth), border-color 0.3s var(--ease-smooth), transform 0.3s var(--ease-smooth);
 }
 
 .progress-dot:hover {
@@ -816,7 +807,7 @@ body.nav-visible .panel-inner {
   display: flex;
   flex-direction: column;
   padding: 18px 12px;
-  transition: transform 0.3s var(--ease-smooth), box-shadow 0.3s var(--ease-smooth);
+  transition: transform 0.3s var(--ease-smooth);
 }
 
 .sidebar-nav {
@@ -838,7 +829,7 @@ body.nav-visible .panel-inner {
   border: 1px solid transparent;
   border-radius: var(--radius);
   color: var(--muted);
-  transition: all 0.25s var(--ease-smooth);
+  transition: background 0.25s var(--ease-smooth), border-color 0.25s var(--ease-smooth), color 0.25s var(--ease-smooth);
   white-space: normal;
   overflow: hidden;
 }
