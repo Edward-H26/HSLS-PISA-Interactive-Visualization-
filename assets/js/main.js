@@ -63,6 +63,41 @@ let resizeTimeout = null;
 let navVisibilityScheduled = false;
 let scrollRafScheduled = false;
 const panelScrollState = new Map();
+let panelPositionCache = [];
+const panelLayoutCache = new Map();
+let scrollIdleTimeout = null;
+
+function cachePanelPositions() {
+  panelPositionCache = panels.map((panel) => ({
+    left: panel.offsetLeft,
+    width: panel.offsetWidth,
+  }));
+}
+
+function cachePanelInnerLayout(panelInner) {
+  panelLayoutCache.set(panelInner, {
+    scrollHeight: panelInner.scrollHeight,
+    clientHeight: panelInner.clientHeight,
+  });
+}
+
+function cacheAllPanelInnerLayouts() {
+  panelInners.forEach((panelInner) => {
+    cachePanelInnerLayout(panelInner);
+  });
+}
+
+function setScrollActive(isActive) {
+  document.body.classList.toggle("scroll-active", isActive);
+}
+
+function markScrollActive() {
+  setScrollActive(true);
+  window.clearTimeout(scrollIdleTimeout);
+  scrollIdleTimeout = window.setTimeout(() => {
+    setScrollActive(false);
+  }, 150);
+}
 
 function parseIndex(value) {
   const parsed = Number.parseInt(value, 10);
@@ -212,17 +247,24 @@ function showTopNav(shouldShow) {
 function checkNavbarVisibility() {
   const currentPanel = panels[currentIndex];
   const currentPanelInner = currentPanel?.querySelector(".panel-inner");
-  const maxScroll = currentPanelInner ? currentPanelInner.scrollHeight - currentPanelInner.clientHeight : 0;
-  const scrollTop = currentPanelInner ? currentPanelInner.scrollTop : 0;
-  const isAtTop = !currentPanelInner || scrollTop < 48;
-  const isAtBottom = Boolean(currentPanelInner && maxScroll > 0 && scrollTop >= maxScroll - 48);
 
-  if (currentPanelInner) {
-    panelScrollState.set(currentPanelInner, {
-      atTop: scrollTop <= 0,
-      atBottom: scrollTop + currentPanelInner.clientHeight >= currentPanelInner.scrollHeight - 1,
-    });
+  if (!currentPanelInner) {
+    showTopNav(true);
+    return;
   }
+
+  const scrollTop = currentPanelInner.scrollTop;
+  const cached = panelLayoutCache.get(currentPanelInner);
+  const scrollHeight = cached ? cached.scrollHeight : currentPanelInner.scrollHeight;
+  const clientHeight = cached ? cached.clientHeight : currentPanelInner.clientHeight;
+  const maxScroll = scrollHeight - clientHeight;
+  const isAtTop = scrollTop < 48;
+  const isAtBottom = maxScroll > 0 && scrollTop >= maxScroll - 48;
+
+  panelScrollState.set(currentPanelInner, {
+    atTop: scrollTop <= 0,
+    atBottom: scrollTop + clientHeight >= scrollHeight - 1,
+  });
 
   showTopNav(isAtTop);
 
@@ -253,7 +295,8 @@ function scrollToPanel(panelIndex) {
     return;
   }
 
-  smoothScrollTo(scrollContainer, targetPanel.offsetLeft, 800);
+  const targetLeft = panelPositionCache[nextIndex]?.left ?? targetPanel.offsetLeft;
+  smoothScrollTo(scrollContainer, targetLeft, 800);
   currentIndex = nextIndex;
 
   const panelInner = targetPanel.querySelector(".panel-inner");
@@ -297,24 +340,23 @@ function handleScroll() {
     return;
   }
 
-  const viewportCenter = window.innerWidth / 2;
+  const scrollLeft = scrollContainer.scrollLeft;
+  const viewportWidth = window.innerWidth;
+  const viewportCenter = viewportWidth / 2;
   let closestIndex = currentIndex;
   let closestDistance = Number.POSITIVE_INFINITY;
 
-  panels.forEach((panel, panelIndex) => {
-    const panelRect = panel.getBoundingClientRect();
-    const panelCenter = panelRect.left + panelRect.width / 2;
+  for (let i = 0; i < panelPositionCache.length; i += 1) {
+    const cached = panelPositionCache[i];
+    const panelLeft = cached.left - scrollLeft;
+    const panelCenter = panelLeft + cached.width / 2;
     const distance = Math.abs(panelCenter - viewportCenter);
 
     if (distance < closestDistance) {
       closestDistance = distance;
-      closestIndex = panelIndex;
+      closestIndex = i;
     }
-
-    if (panelRect.left < window.innerWidth * 0.75 && panelRect.right > window.innerWidth * 0.25) {
-      panel.classList.add("visible");
-    }
-  });
+  }
 
   if (closestIndex !== currentIndex) {
     currentIndex = closestIndex;
@@ -447,6 +489,7 @@ function initScrollHandling() {
   }, { passive: false });
 
   scrollContainer?.addEventListener("scroll", () => {
+    markScrollActive();
     if (!scrollRafScheduled) {
       scrollRafScheduled = true;
       requestAnimationFrame(() => {
@@ -580,6 +623,10 @@ async function renderChart(chart) {
     });
 
     makeEmbeddedSvgResponsive(chart, element);
+    const panelInner = element.closest(".panel-inner");
+    if (panelInner) {
+      cachePanelInnerLayout(panelInner);
+    }
   } catch (_error) {
     showPlaceholder(element, chart);
   }
@@ -607,7 +654,7 @@ function initParticles() {
     return;
   }
 
-  for (let particleIndex = 0; particleIndex < 25; particleIndex += 1) {
+  for (let particleIndex = 0; particleIndex < 12; particleIndex += 1) {
     const particle = document.createElement("div");
     particle.className = "particle";
     particle.style.left = `${Math.random() * 100}%`;
@@ -628,6 +675,7 @@ function initParticles() {
 }
 
 function scheduleNavbarCheck() {
+  markScrollActive();
   if (navVisibilityScheduled) {
     return;
   }
@@ -639,6 +687,7 @@ function scheduleNavbarCheck() {
 }
 
 function initNavbarVisibility() {
+  cacheAllPanelInnerLayouts();
   panelInners.forEach((panelInner) => {
     panelInner.addEventListener("scroll", scheduleNavbarCheck);
   });
@@ -654,6 +703,8 @@ function initResize() {
         setSidebarOpen(false);
       }
 
+      cachePanelPositions();
+      cacheAllPanelInnerLayouts();
       scrollToPanel(currentIndex);
       updateRenderedChartFrames();
     }, 180);
@@ -672,10 +723,11 @@ function init() {
   initNavbarVisibility();
   initVisualizations();
 
-  updateActiveStates(currentIndex);
   panels.forEach((panel) => {
     panel.classList.add("visible");
   });
+  cachePanelPositions();
+  updateActiveStates(currentIndex);
   updateRenderedChartFrames();
   checkNavbarVisibility();
 }

@@ -133,12 +133,12 @@ p { margin: 0; color: var(--muted); }
   pointer-events: none;
   overflow: visible;
   z-index: 1;
+  contain: layout style;
 }
 
 .floating-object {
   position: absolute;
   opacity: 0.25;
-  will-change: transform;
 }
 
 .floating-object svg {
@@ -309,17 +309,23 @@ p { margin: 0; color: var(--muted); }
   50% { transform: translate(40px, -30px) rotate(30deg); }
 }
 
+body.scroll-active .floating-object,
+body.scroll-active .particle,
+body.scroll-active .bg-grid {
+  animation-play-state: paused;
+}
+
 .particles {
   position: absolute;
   inset: 0;
   overflow: hidden;
+  contain: layout style paint;
 }
 
 .particle {
   position: absolute;
   width: 3px;
   height: 3px;
-  will-change: transform;
   background: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   animation: particle-rise 8s linear infinite;
@@ -330,16 +336,6 @@ p { margin: 0; color: var(--muted); }
   10% { opacity: 1; transform: translateY(90vh) scale(1); }
   90% { opacity: 1; }
   100% { transform: translateY(-10vh) scale(0.5); opacity: 0; }
-}
-
-.noise-overlay {
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  opacity: 0.04;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  mix-blend-mode: normal;
 }
 
 .top-nav {
@@ -354,8 +350,8 @@ p { margin: 0; color: var(--muted); }
   min-height: var(--top-nav-height);
   padding: 16px clamp(16px, 3vw, 32px);
   z-index: 100;
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   background: linear-gradient(180deg, rgba(3, 7, 18, 0.95) 0%, rgba(3, 7, 18, 0.72) 100%);
   border-bottom: 1px solid var(--glass-border);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
@@ -390,7 +386,6 @@ p { margin: 0; color: var(--muted); }
   border-radius: 12px;
   background: var(--liquid-bg);
   color: var(--fg);
-  backdrop-filter: blur(10px);
 }
 
 .brand {
@@ -418,7 +413,6 @@ p { margin: 0; color: var(--muted); }
   border-radius: 10px;
   background: var(--liquid-bg);
   border: 1px solid var(--liquid-border);
-  backdrop-filter: blur(10px);
 }
 
 .brand-icon svg {
@@ -445,7 +439,6 @@ p { margin: 0; color: var(--muted); }
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   border-radius: 999px;
-  backdrop-filter: blur(10px);
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: none;
@@ -491,7 +484,6 @@ p { margin: 0; color: var(--muted); }
   font-size: 0.875rem;
   color: var(--fg);
   background: var(--liquid-bg);
-  backdrop-filter: blur(10px);
   text-decoration: none;
   transition: transform 0.2s var(--ease-smooth), border-color 0.2s var(--ease-smooth);
 }
@@ -530,6 +522,7 @@ p { margin: 0; color: var(--muted); }
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.7s var(--ease-smooth), transform 0.7s var(--ease-smooth);
+  contain: layout style paint;
 }
 
 .panel.visible {
@@ -716,7 +709,7 @@ body.nav-visible .panel-inner {
   background: var(--liquid-bg);
   border: 1px solid var(--liquid-border);
   border-radius: 999px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
   color: var(--muted);
   font-size: 0.92rem;
   font-weight: 500;
@@ -778,7 +771,7 @@ body.nav-visible .panel-inner {
   background: var(--liquid-bg);
   border: 1px solid var(--liquid-border);
   border-radius: 999px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
 }
 
 .progress-dot {
@@ -818,10 +811,8 @@ body.nav-visible .panel-inner {
   bottom: 0;
   width: var(--sidebar-width);
   z-index: 99;
-  background: rgba(3, 7, 18, 0.4);
+  background: rgba(3, 7, 18, 0.85);
   border-right: 1px solid rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   display: flex;
   flex-direction: column;
   padding: 18px 12px;
@@ -901,6 +892,7 @@ body.nav-visible .panel-inner {
   opacity: 0 !important;
   pointer-events: none;
   visibility: hidden;
+  content-visibility: hidden;
   transition: opacity 0.5s var(--ease-smooth), visibility 0.5s var(--ease-smooth);
 }
 
