@@ -97,7 +97,7 @@ def map_continent(values):
 def sample_group_rows(df, group_columns, sample_size, *, seed = 42):
     return (
         df.groupby(group_columns, group_keys = False)
-        .apply(lambda frame: frame.sample(n = min(sample_size, len(frame)), random_state = seed), include_groups = False)
+        .apply(lambda frame: frame.sample(n = min(sample_size, len(frame)), random_state = seed))
         .reset_index(drop = True)
     )
 

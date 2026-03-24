@@ -137,7 +137,7 @@ p { margin: 0; color: var(--muted); }
 
 .floating-object {
   position: absolute;
-  opacity: 0.25;
+  opacity: 0.45;
 }
 
 .floating-object svg {
@@ -584,6 +584,8 @@ body.scroll-active .bg-grid {
   text-align: center;
   padding: 0 20px;
   margin: 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .viz-card {
@@ -707,7 +709,8 @@ body.scroll-active .bg-grid {
   font-weight: 500;
   animation: fade-pulse 3s ease-in-out infinite;
   position: absolute;
-  top: -14px;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 50;
 }
 
@@ -1043,7 +1046,7 @@ body.scroll-active .bg-grid {
   }
 
   .floating-object {
-    opacity: 0.28;
+    opacity: 0.40;
     zoom: 0.8;
   }
 }
@@ -1117,7 +1120,7 @@ body.scroll-active .bg-grid {
   }
 
   .floating-object {
-    opacity: 0.18;
+    opacity: 0.30;
     zoom: 0.7;
   }
 }

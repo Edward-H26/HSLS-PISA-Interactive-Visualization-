@@ -36148,6 +36148,13 @@
           },
           "title": "Mean Score",
           "type": "quantitative"
+        },
+        "opacity": {
+          "condition": {
+            "param": "v9_belong_select",
+            "value": 1
+          },
+          "value": 0.3
         }
       },
       "height": 400,
